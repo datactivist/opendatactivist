@@ -6,8 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "fuse.js": "^6.6.2",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.6"
   }
 }
