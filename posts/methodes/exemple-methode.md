@@ -3,6 +3,8 @@ title: "Exemple de méthode"
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
+usages:
+  - exemple-cas-dutilisation
 ---
 
 # Exemple de méthode
