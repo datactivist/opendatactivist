@@ -4,9 +4,10 @@ import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/Layout';
 import { getUsageBySlug, getAllUsageSlugs } from '../../lib/markdown';
 import { Container, Typography } from '@mui/material';
+import MethodsGallery from '../../components/MethodsGallery';
 
 export default function UsagePage({ usage }) {
-  const { title, description, image, content } = usage;
+  const { title, image, content, relatedMethods } = usage;
 
   return (
     <Layout>
@@ -17,18 +18,15 @@ export default function UsagePage({ usage }) {
         {image && (
           <img src={image} alt={title} style={{ width: '100%', marginBottom: '2rem' }} />
         )}
-        <Typography variant="h5" gutterBottom>
-          Description
-        </Typography>
-        <ReactMarkdown>{description}</ReactMarkdown>
-        <Typography variant="h5" gutterBottom sx={{ marginTop: '2rem' }}>
-          Contenu
-        </Typography>
         <ReactMarkdown>{content}</ReactMarkdown>
+        {relatedMethods && (
+          <MethodsGallery methods={relatedMethods} />
+        )}
       </Container>
     </Layout>
   );
 }
+
 
 export async function getStaticPaths() {
   const slugs = getAllUsageSlugs();

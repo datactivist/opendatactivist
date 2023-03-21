@@ -27,23 +27,14 @@ export default function MethodPage({ method, usages}) {
               <ReactMarkdown>{method.datasets}</ReactMarkdown>
             </Grid>
           )}
-          <Grid item xs={12}>
-            <Typography variant="h5" gutterBottom>
-              Description
-            </Typography>
-            <ReactMarkdown>{method.description}</ReactMarkdown>
-          </Grid>
-          {method.usages && (
+      <Grid item xs={12}>
+        <ReactMarkdown>{method.content}</ReactMarkdown>
+      </Grid>
+      {method.usages && (
         <Grid item xs={12}>
           <UsageGallery usages={usages} />
         </Grid>
       )}
-      <Grid item xs={12}>
-        <Typography variant="h5" gutterBottom>
-          Méthode
-        </Typography>
-        <ReactMarkdown>{method.content}</ReactMarkdown>
-      </Grid>
     </Grid>
   </Container>
 </Layout>

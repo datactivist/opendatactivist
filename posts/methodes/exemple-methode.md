@@ -21,10 +21,6 @@ Décrivez brièvement l'objectif et l'utilisation de la méthode.
 2. Etape 2 : Expliquez la deuxième étape de la méthode.
 3. Etape 3 : Expliquez la troisième étape de la méthode.
 
-## Exemples d'utilisation
-
-Vous pouvez inclure des exemples d'utilisation de la méthode, des références à des projets ou des articles, et toute autre information pertinente.
-
 ## Ressources supplémentaires
 
 - [Lien vers une ressource externe](https://example.com)
