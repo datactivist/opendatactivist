@@ -13,9 +13,9 @@ Ceci est un exemple de cas d'utilisation pour illustrer comment créer un fichie
 
 Décrivez brièvement l'objectif et l'utilisation du cas d'utilisation.
 
-## Exemple
+## Détail
 
-Vous pouvez inclure un exemple d'utilisation du cas d'utilisation, des références à des projets ou des articles, et toute autre information pertinente.
+Texte
 
 ## Ressources supplémentaires
 
