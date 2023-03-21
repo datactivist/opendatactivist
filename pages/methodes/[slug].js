@@ -2,10 +2,11 @@
 
 import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/Layout';
-import { getMethodBySlug, getAllMethodSlugs } from '../../lib/markdown';
+import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs } from '../../lib/markdown';
 import { Container, Grid, Typography } from '@mui/material';
+import UsageGallery from '../../components/UsageGallery';
 
-export default function MethodPage({ method }) {
+export default function MethodPage({ method, usages}) {
   return (
     <Layout>
       <Container maxWidth="md" sx={{ marginTop: '2rem' }}>
@@ -33,24 +34,22 @@ export default function MethodPage({ method }) {
             <ReactMarkdown>{method.description}</ReactMarkdown>
           </Grid>
           {method.usages && (
-            <Grid item xs={12}>
-              <Typography variant="h5" gutterBottom>
-                Cas d'usage
-              </Typography>
-              <ReactMarkdown>{method.usages}</ReactMarkdown>
-            </Grid>
-          )}
-          <Grid item xs={12}>
-            <Typography variant="h5" gutterBottom>
-              Méthode
-            </Typography>
-            <ReactMarkdown>{method.content}</ReactMarkdown>
-          </Grid>
+        <Grid item xs={12}>
+          <UsageGallery usages={usages} />
         </Grid>
-      </Container>
-    </Layout>
-  );
+      )}
+      <Grid item xs={12}>
+        <Typography variant="h5" gutterBottom>
+          Méthode
+        </Typography>
+        <ReactMarkdown>{method.content}</ReactMarkdown>
+      </Grid>
+    </Grid>
+  </Container>
+</Layout>
+);
 }
+
 
 export async function getStaticPaths() {
   const slugs = getAllMethodSlugs();
@@ -60,9 +59,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const method = getMethodBySlug(params.slug);
+  const usages = getUsagesBySlugs(method.usages); // utiliser getUsageBySlugs à la place de getUsagesBySlugs
   return {
     props: {
       method,
+      usages,
     },
   };
 }
