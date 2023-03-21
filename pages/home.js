@@ -1,5 +1,3 @@
-// pages/home.js
-
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
 import MethodCard from '../components/MethodCard';

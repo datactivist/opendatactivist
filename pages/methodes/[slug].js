@@ -2,7 +2,7 @@
 
 import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/Layout';
-import { getMethodBySlug } from '../../lib/markdown';
+import { getMethodBySlug, getAllMethodSlugs } from '../../lib/markdown';
 import { Container, Grid, Typography } from '@mui/material';
 
 export default function MethodPage({ method }) {
