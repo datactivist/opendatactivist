@@ -3,12 +3,12 @@
 import ReactMarkdown from 'react-markdown';
 import Layout from '../../components/Layout';
 import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs } from '../../lib/markdown';
-import { Container, Grid, Typography, Button, Box } from '@mui/material';
+import { Container, Grid, Typography, Button, Box, List, ListItem, ListItemText} from '@mui/material';
 import UsageGallery from '../../components/UsageGallery';
 import styles from './MethodPage.module.css';
 import Link from 'next/link';
 import ApiOpenDataSources from '../../components/ApiOpenDataSources';
-import DiscourseComments from '../../components/DiscourseComments';
+import DiscussionLinks from '../../components/DiscussionLinks';
 import theme from '../../src/theme';
 
 export default function MethodPage({ method, usages, datasets }) {
@@ -50,7 +50,7 @@ export default function MethodPage({ method, usages, datasets }) {
                 </Button>
               </Link>
               <br></br>
-              <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
+              <DiscussionLinks discourseIds={method.discourse_id} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
@@ -65,7 +65,7 @@ export default function MethodPage({ method, usages, datasets }) {
                   </Button>
                 </Link>
                 <br></br>
-                <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
+                <DiscussionLinks discourseIds={method.discourse_id} />
               </Box>
               <Grid container spacing={2} justifyContent="center" alignItems="center">
                 <Grid item xs={12}>
