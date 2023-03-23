@@ -3,11 +3,17 @@ title: "Exemple de méthode"
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
+type: formation
+tags:
+  - algorithmes
+  - santé
 usages:
   - exemple-cas-dutilisation
+datasets:
+  - 5c4ae55a634f4117716d5656
 ---
 
-# Exemple de méthode
+## Exemple de méthode
 
 Ceci est un exemple de méthode pour illustrer comment créer un fichier Markdown pour une méthode. Vous pouvez utiliser le formatage Markdown standard pour décrire votre méthode, y compris les titres, les listes, les liens, etc.
 

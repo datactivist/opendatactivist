@@ -3,6 +3,10 @@ title: "Exemple autre méthode"
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: "exemple-autre-methode"
+type: atelier
+tags:
+  - environnement
+  - gouvernance
 ---
 
 # Exemple de méthode
