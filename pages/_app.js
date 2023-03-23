@@ -1,6 +1,7 @@
-// pages/_app.js
-import '../styles/globals.css';
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 import Head from 'next/head';
+import theme from '../src/theme';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +9,10 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

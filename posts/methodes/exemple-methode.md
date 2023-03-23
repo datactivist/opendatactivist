@@ -11,6 +11,8 @@ usages:
   - exemple-cas-dutilisation
 datasets:
   - 5b7ffc618b4c4169d30727e0
+  - 53699d0ea3a729239d205b2e
+discourse_id: 4044
 ---
 
 ## Exemple de méthode
