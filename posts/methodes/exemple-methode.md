@@ -23,11 +23,16 @@ Ceci est un exemple de méthode pour illustrer comment créer un fichier Markdow
 
 Décrivez brièvement l'objectif et l'utilisation de la méthode.
 
+- Objectif 1
+- Objectif 2
+
 ## Etapes de la méthode
 
-1. Etape 1 : Expliquez la première étape de la méthode.
-2. Etape 2 : Expliquez la deuxième étape de la méthode.
-3. Etape 3 : Expliquez la troisième étape de la méthode.
+Etape 1 : Expliquez la première étape de la méthode.
+
+Etape 2 : Expliquez la deuxième étape de la méthode.
+
+Etape 3 : Expliquez la troisième étape de la méthode.
 
 ## Ressources supplémentaires
 

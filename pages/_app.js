@@ -2,6 +2,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Head from 'next/head';
 import theme from '../src/theme';
+import '../styles/globals.css'; // importer votre fichier CSS personnalisé
 
 function MyApp({ Component, pageProps }) {
   return (

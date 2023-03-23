@@ -55,5 +55,10 @@
   }
   
   .button-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .MuiButton-label {
+    text-decoration: none;
   }

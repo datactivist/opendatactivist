@@ -24,55 +24,70 @@ export default function MethodPage({ method, usages, datasets }) {
   };
 
   return (
-  <Layout>
-  <Box sx={{ mt: '2rem', mb: '2rem' }}>
-    <Grid container spacing={1}>
-      <Grid item xs={12} sm={12} md={3} sx={{ display: { xs: 'none', md: 'block' } }}>
-      <Box sx={{ bgcolor: '#FFF1EB', p: 2, position: 'fixed', top: 50, left: 0, height: '100vh', width: '25%' }}>
-          <Link href="/home">
-          <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
-                Retour
-              </Button>
-          </Link>
-          <br></br>
-          <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
-        </Box>
-      </Grid>
-      <Grid item xs={12} sm={12} md={9}>
-      <Container maxWidth="lg" sx={{ ml: '0rem' }}>
-          <Typography className={styles.h1} variant="h1" align="left" gutterBottom style={{ fontSize: '3rem' }}>
-            {method.title}
-          </Typography>
-          <Box sx={{ display: { xs: 'block', md: 'none' }, textAlign: 'left', mb: '2rem' }}>
-            <Link href="/home">
-              <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
-                Retour
-              </Button>
-            </Link>
-            <br></br>
-            <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
-          </Box>
-          <Grid container spacing={2} justifyContent="center" alignItems="center">
-            <Grid item xs={12}>
-              {method.image && (
-                <img src={method.image} alt={method.title} style={{ maxWidth: '100%' }} />
-              )}
-              <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
-                {method.content}
-              </ReactMarkdown>
-              {method.usages && <UsageGallery usages={usages} />}
-                <>
-                <br></br>
-                <br></br>
-                  {method.datasets && <ApiOpenDataSources datasetsList={datasets} />}
-                </>
-            </Grid>
+    <Layout>
+      <Box sx={{ mt: '2rem', mb: '2rem' }}>
+        <Grid container spacing={1}>
+          <Grid item xs={12} sm={12} md={3} sx={{ display: { xs: 'none', md: 'block' } }}>
+            <Box sx={{ bgcolor: '#FFF1EB', p: 2, position: 'fixed', top: 50, left: 0, height: '100vh', width: '25%' }}>
+              <Link href="/home">
+                <Button
+                  variant="contained"
+                  sx={{
+                    mt: '2rem',
+                    backgroundColor: '#173541',
+                    borderRadius: '10px',
+                    borderWidth: '3px',
+                    borderColor: '#000000',
+                    color: '#fff',
+                    fontWeight: 'bold',
+                    '&:hover': {
+                      backgroundColor: '#E95459',
+                      color: '#ffffff',
+                    },
+                  }}
+                >
+                  Toutes les méthodes
+                </Button>
+              </Link>
+              <br></br>
+              <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
+            </Box>
           </Grid>
-        </Container>
-      </Grid>
-    </Grid>
-  </Box>
-</Layout>
+          <Grid item xs={12} sm={12} md={9}>
+            <Container maxWidth="lg" sx={{ ml: '0rem' }}>
+              <Typography className={styles.h1} variant="h1" align="left" gutterBottom style={{ fontSize: '3rem' }}>
+                {method.title}
+              </Typography>
+              <Box sx={{ display: { xs: 'block', md: 'none' }, textAlign: 'left', mb: '2rem' }}>
+                <Link href="/home">
+                  <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
+                    Toutes les méthodes
+                  </Button>
+                </Link>
+                <br></br>
+                <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
+              </Box>
+              <Grid container spacing={2} justifyContent="center" alignItems="center">
+                <Grid item xs={12}>
+                  {method.image && (
+                    <img src={method.image} alt={method.title} style={{ maxWidth: '100%' }} />
+                  )}
+                  <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
+                    {method.content}
+                  </ReactMarkdown>
+                  {method.usages && <UsageGallery usages={usages} />}
+                  <>
+                    <br></br>
+                    <br></br>
+                    {method.datasets && <ApiOpenDataSources datasetsList={datasets} />}
+                  </>
+                </Grid>
+              </Grid>
+            </Container>
+          </Grid>
+        </Grid>
+      </Box>
+    </Layout>
   );
 }
 

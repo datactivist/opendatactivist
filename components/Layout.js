@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>Datactivist Open</title>
+        <title>Open Datactivist</title>
         <meta
           name="description"
           content="Un catalogue de méthodes avec recherche et filtrage"
@@ -20,8 +20,8 @@ export default function Layout({ children }) {
 
       <AppBar position="fixed" className={styles.appBar}>
         <Toolbar className={styles.toolbar}>
-          <Typography variant="h6" component="div" className={styles.title}>
-            Datactivist Open
+          <Typography variant="h5" component="div" className={styles.title}>
+          Open Datactivist
           </Typography>
           <nav className={styles.navLinks}>
             <Link href="/" passHref>
