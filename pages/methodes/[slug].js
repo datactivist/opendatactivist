@@ -8,6 +8,8 @@ import UsageGallery from '../../components/UsageGallery';
 import styles from './MethodPage.module.css';
 import Link from 'next/link';
 import ApiOpenDataSources from '../../components/ApiOpenDataSources';
+import DiscourseComments from '../../components/DiscourseComments';
+import theme from '../../src/theme';
 
 export default function MethodPage({ method, usages, datasets }) {
   const markdownComponents = {
@@ -28,10 +30,12 @@ export default function MethodPage({ method, usages, datasets }) {
       <Grid item xs={12} sm={12} md={3} sx={{ display: { xs: 'none', md: 'block' } }}>
       <Box sx={{ bgcolor: '#FFF1EB', p: 2, position: 'fixed', top: 50, left: 0, height: '100vh', width: '25%' }}>
           <Link href="/home">
-          <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#E95459', '&:hover': { backgroundColor: '#173541' } }}>
-              Retour
-            </Button>
+          <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
+                Retour
+              </Button>
           </Link>
+          <br></br>
+          <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={9}>
@@ -41,10 +45,12 @@ export default function MethodPage({ method, usages, datasets }) {
           </Typography>
           <Box sx={{ display: { xs: 'block', md: 'none' }, textAlign: 'left', mb: '2rem' }}>
             <Link href="/home">
-              <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#E95459', '&:hover': { backgroundColor: '#173541' } }}>
+              <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
                 Retour
               </Button>
             </Link>
+            <br></br>
+            <DiscourseComments tag={method.discourse_tag} id={method.discourse_id} />
           </Box>
           <Grid container spacing={2} justifyContent="center" alignItems="center">
             <Grid item xs={12}>

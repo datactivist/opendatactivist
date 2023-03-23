@@ -5,22 +5,22 @@ export default function UsageCard({ usage }) {
   const { title, description, slug, image, content } = usage;
 
   return (
-    <Card>
-      <Link href={`/usages/${slug}`}>
-        <CardActionArea>
+    <Link href={`/usages/${slug}`}>
+      <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+        <CardActionArea sx={{ flexGrow: 1 }}>
           {image && (
             <CardMedia component="img" image={image} alt={title} height="140" />
           )}
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h6" component="h6">
               {title}
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="p" sx={{ fontFamily: 'Montserrat' }}>
               {description}
             </Typography>
           </CardContent>
         </CardActionArea>
-      </Link>
-    </Card>
+      </Card>
+    </Link>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { ThemeProvider } from '@mui/material/styles';
 
 const ApiOpenDataSources = ({ datasetsList }) => {
   const [datasetsInfo, setDatasetsInfo] = useState([]);
@@ -24,9 +25,9 @@ const ApiOpenDataSources = ({ datasetsList }) => {
 
   return (
     <div id="api-open-data-sources">
-      <h2>Source de données ouvertes</h2>
+      <h2>Données ouvertes utilisées</h2>
       <p>
-        Cette API se base sur{' '}
+        Cette méthode se base sur{' '}
         {uniq
           ? 'un jeu de données ouvert, accessible'
           : 'plusieurs jeux de données ouverts, accessibles'}{' '}
@@ -36,7 +37,7 @@ const ApiOpenDataSources = ({ datasetsList }) => {
       </p>
       <div className={`${uniq ? '' : 'two-column-grid'} dataset-container`}>
         {datasetsInfo.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="dataset-item">
             <h3>
               <a
                 href={`https://www.data.gouv.fr/fr/datasets/${datasetsList[index].uid}`}
@@ -51,8 +52,25 @@ const ApiOpenDataSources = ({ datasetsList }) => {
         ))}
       </div>
       <style jsx>{`
-        div > span {
-          margin-right: 20px;
+        #api-open-data-sources {
+          margin-bottom: 60px;
+        }
+        h2 {
+          margin-top: 50px;
+          margin-bottom: 30px;
+          font-size: 2rem;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+        p {
+          margin-bottom: 20px;
+          font-size: 16px;
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+        }
+        a {
+          color: black ;
+          text-decoration: none;
         }
         .dataset-container {
           margin: 30px auto;
@@ -60,13 +78,23 @@ const ApiOpenDataSources = ({ datasetsList }) => {
           gap: 20px;
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         }
-        .dataset-container div {
+        .dataset-item {
           padding: 20px;
           background-color: #f8f8f8;
           border-radius: 10px;
         }
         .dataset-item:hover {
           background-color: #e8e8e8;
+        }
+        h3 {
+          margin-bottom: 10px;
+          font-size: 1.2rem;
+          font-weight: 00;
+          font-family: 'Montserrat', sans-serif;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
         }
       `}</style>
     </div>
