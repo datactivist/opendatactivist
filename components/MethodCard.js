@@ -1,27 +1,14 @@
-// components/MethodCard.js
-
 import React from 'react';
 import Link from 'next/link';
 import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
+import styles from './MethodCard.module.css';
 
 export default function MethodCard({ method }) {
   return (
     <Link href={`/methodes/${method.slug}`} passHref>
-      <Card
-        sx={{
-          cursor: 'pointer',
-          maxWidth: 345,
-          boxShadow: 3,
-          borderRadius: 2,
-          '&:hover': {
-            boxShadow: 5,
-            transform: 'scale(1.02)',
-          },
-          transition: 'all 0.3s ease',
-        }}
-      >
+      <Card className={styles.card}>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" className={styles.title}>
             {method.title}
           </Typography>
         </CardContent>
@@ -35,8 +22,8 @@ export default function MethodCard({ method }) {
           alt={method.title}
         />
         <CardContent>
-          <Box sx={{ height: 60 }}> {/* Ajoutez une boîte pour gérer la hauteur de la description */}
-            <Typography variant="body2" color="text.secondary">
+          <Box className={styles.description}>
+            <Typography variant="body2" color="text.secondary" className={styles.description}>
               {method.description}
             </Typography>
           </Box>

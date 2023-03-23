@@ -4,6 +4,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
+import styles from './Layout.module.css';
 
 export default function Layout({ children }) {
   return (
@@ -17,30 +18,36 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+      <AppBar position="fixed" className={styles.appBar}>
+        <Toolbar className={styles.toolbar}>
+          <Typography variant="h6" component="div" className={styles.title}>
             Datactivist Open
           </Typography>
-          <nav>
+          <nav className={styles.navLinks}>
             <Link href="/" passHref>
-              <Button color="inherit">Accueil</Button>
+              <Button className={styles.link} color="inherit">
+                Accueil
+              </Button>
             </Link>
             <Link href="/home" passHref>
-              <Button color="inherit">Méthodes</Button>
+              <Button className={styles.link} color="inherit">
+                Méthodes
+              </Button>
             </Link>
             <Link href="/usages" passHref>
-              <Button color="inherit">Cas d'utilisation</Button>
+              <Button className={styles.link} color="inherit">
+                Cas d'utilisation
+              </Button>
             </Link>
           </nav>
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="md" sx={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+      <Container maxWidth="md" className={styles.container}>
         <main>{children}</main>
       </Container>
 
-      <footer>
+      <footer className={styles.footer}>
         <Typography variant="body2" color="text.secondary" align="center">
           © {new Date().getFullYear()} - Mon Catalogue de Méthodes - Tous droits réservés
         </Typography>
