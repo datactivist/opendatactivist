@@ -12,7 +12,9 @@ usages:
 datasets:
   - 5b7ffc618b4c4169d30727e0
   - 53699d0ea3a729239d205b2e
-discourse_id: 4044
+discourse_id: 
+  - augmenter-le-niveau-semantique-des-donnees-partagees
+  - base-de-donnees-historique-des-inondations-bdhi
 ---
 
 ## Exemple de méthode
