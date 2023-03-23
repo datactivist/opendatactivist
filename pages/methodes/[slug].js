@@ -51,21 +51,15 @@ export default function MethodPage({ method, usages, datasets }) {
               {method.image && (
                 <img src={method.image} alt={method.title} style={{ maxWidth: '100%' }} />
               )}
-              {method.datasets && (
-                <>
-                  <Typography variant="h5" gutterBottom style={{ fontSize: '1.5rem' }}>
-                    Données
-                  </Typography>
-                  <ApiOpenDataSources datasetsList={datasets} />
-                  <ReactMarkdown components={markdownComponents}>
-                  {method.datasets && <ApiOpenDataSources datasetsList={datasets} />}
-                  </ReactMarkdown>
-                </>
-              )}
               <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
                 {method.content}
               </ReactMarkdown>
               {method.usages && <UsageGallery usages={usages} />}
+                <>
+                <br></br>
+                <br></br>
+                  {method.datasets && <ApiOpenDataSources datasetsList={datasets} />}
+                </>
             </Grid>
           </Grid>
         </Container>
