@@ -1,29 +1,29 @@
 import React, { useState } from 'react';
 import Layout from '../components/Layout';
-import MethodCard from '../components/MethodCard';
-import { getAllMethods } from '../lib/markdown';
+import UsageCard from '../components/UsageCard';
+import { getAllUsages } from '../lib/markdown';
 import { Grid, TextField, InputAdornment, Box } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 
-export default function HomePage({ methods }) {
+export default function UsagesPage({ usages }) {
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredMethods, setFilteredMethods] = useState(methods);
+  const [filteredUsages, setFilteredUsages] = useState(usages);
 
-  const filterMethods = (search) => {
-    let filtered = methods;
+  const filterUsages = (search) => {
+    let filtered = usages;
     if (search !== '') {
       filtered = filtered.filter(
-        (method) =>
-          method.title.toLowerCase().includes(search.toLowerCase()) ||
-          method.description.toLowerCase().includes(search.toLowerCase())
+        (usage) =>
+          usage.title.toLowerCase().includes(search.toLowerCase()) ||
+          usage.description.toLowerCase().includes(search.toLowerCase())
       );
     }
-    setFilteredMethods(filtered);
+    setFilteredUsages(filtered);
   };
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
-    filterMethods(event.target.value);
+    filterUsages(event.target.value);
   };
 
   return (
@@ -55,9 +55,9 @@ export default function HomePage({ methods }) {
         />
       </Box>
       <Grid container spacing={4} justifyContent="center" alignItems="center" style={{ marginTop: '1rem' }}>
-        {filteredMethods.map((method) => (
-          <Grid item key={method.slug} xs={12} sm={6} md={4} lg={5}>
-            <MethodCard method={method} />
+        {filteredUsages.map((usage) => (
+          <Grid item key={usage.slug} xs={12} sm={6} md={4} lg={5}>
+            <UsageCard usage={usage} />
           </Grid>
         ))}
       </Grid>
@@ -66,10 +66,10 @@ export default function HomePage({ methods }) {
 }
 
 export async function getStaticProps() {
-  const methods = getAllMethods();
+  const usages = getAllUsages();
   return {
     props: {
-      methods,
+      usages,
     },
   };
 }

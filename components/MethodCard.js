@@ -8,7 +8,7 @@ export default function MethodCard({ method }) {
     <Link href={`/methodes/${method.slug}`} passHref>
       <Card className={styles.card}>
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" className={styles.title}>
+          <Typography gutterBottom variant="h6" component="div" className={styles.title}>
             {method.title}
           </Typography>
         </CardContent>

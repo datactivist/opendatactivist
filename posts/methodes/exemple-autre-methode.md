@@ -7,6 +7,9 @@ type: atelier
 tags:
   - environnement
   - gouvernance
+index : 1
+discourse_id: 
+  - 
 ---
 
 # Exemple de méthode

@@ -3,11 +3,41 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
 import styles from './Layout.module.css';
+import { useEffect } from "react";
+
 
 export default function Layout({ children }) {
+  useEffect(() => {
+    const footer = document.querySelector('footer');
+    const footerHeight = footer.offsetHeight;
+    const screenHeight = window.innerHeight;
+    const bodyHeight = document.body.offsetHeight;
+
+    if (screenHeight > bodyHeight) {
+      footer.style.position = 'fixed';
+      footer.style.bottom = '0';
+      footer.style.width = '100%';
+    } else {
+      footer.style.position = 'static';
+    }
+
+    window.addEventListener('resize', () => {
+      const bodyHeight = document.body.offsetHeight;
+      if (screenHeight > bodyHeight) {
+        footer.style.position = 'fixed';
+        footer.style.bottom = '0';
+        footer.style.width = '100%';
+      } else {
+        footer.style.position = 'static';
+      }
+    });
+  }, []);
+
   return (
+
     <div>
       <Head>
         <title>Open Datactivist</title>
@@ -21,7 +51,7 @@ export default function Layout({ children }) {
       <AppBar position="fixed" className={styles.appBar}>
         <Toolbar className={styles.toolbar}>
           <Typography variant="h5" component="div" className={styles.title}>
-          Open Datactivist
+            Open <a href='https://datactivist.coop/'>Datactivist</a>
           </Typography>
           <nav className={styles.navLinks}>
             <Link href="/" passHref>
@@ -29,7 +59,7 @@ export default function Layout({ children }) {
                 Accueil
               </Button>
             </Link>
-            <Link href="/home" passHref>
+            <Link href="/methodes" passHref>
               <Button className={styles.link} color="inherit">
                 Méthodes
               </Button>
@@ -37,6 +67,11 @@ export default function Layout({ children }) {
             <Link href="/usages" passHref>
               <Button className={styles.link} color="inherit">
                 Cas d'utilisation
+              </Button>
+            </Link>
+            <Link href="/collections" passHref>
+              <Button className={styles.link} color="inherit">
+                Patchworks
               </Button>
             </Link>
           </nav>
@@ -47,11 +82,24 @@ export default function Layout({ children }) {
         <main>{children}</main>
       </Container>
 
-      <footer className={styles.footer}>
-        <Typography variant="body2" color="text.secondary" align="center">
-          © {new Date().getFullYear()} - Mon Catalogue de Méthodes - Tous droits réservés
-        </Typography>
-      </footer>
+      <footer style={{ position: "fixed", bottom: 0, width: "100%", height: "60px", background: "#fff", zIndex: 2 }}>
+  <div className="container">
+    <div className="social">
+      <a href="https://twitter.com/datactivi_st" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
+        <Image src="/images/footer/twitter.svg" alt="Twitter" width={30} height={30} />
+      </a>
+      <a href="https://www.linkedin.com/company/datactivist" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
+        <Image src="/images/footer/linkedin.svg" alt="LinkedIn" width={30} height={30} />
+      </a>
+      <a href="https://medium.com/datactivist" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
+        <Image src="/images/footer/medium.svg" alt="Medium" width={30} height={30} />
+      </a>
+      <a href="mailto:hello@datactivist.coop" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
+        <Image src="/images/footer/mail.svg" alt="Email" width={30} height={30} />
+      </a>
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
