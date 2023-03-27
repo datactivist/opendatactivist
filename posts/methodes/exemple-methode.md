@@ -5,16 +5,18 @@ description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
 type: formation
 tags:
-  - algorithmes
   - santé
+collection:
+  - algorithmes
 usages:
   - exemple-cas-dutilisation
 datasets:
   - 5b7ffc618b4c4169d30727e0
   - 53699d0ea3a729239d205b2e
 discourse_id: 
-  - augmenter-le-niveau-semantique-des-donnees-partagees
-  - base-de-donnees-historique-des-inondations-bdhi
+  - batiments-et-usages-associes
+  - score-de-qualite-des-metadonnees
+index: 1 #1 = affiché dans les recherches ; #0 = masqué
 ---
 
 ## Exemple de méthode

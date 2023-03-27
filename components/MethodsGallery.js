@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Grid, Card, CardContent, Typography } from '@mui/material';
+import styles from './UsageGallery.module.css';
 
-export default function MethodsGallery({ methods }) {
+const MethodsGallery = ({ methods }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -14,26 +15,33 @@ export default function MethodsGallery({ methods }) {
   }
 
   return (
-    <Grid container spacing={2} sx={{ marginTop: '2rem' }}>
-      {methods.map((method) => (
-        <Grid item key={method.slug} xs={12} md={6}>
-          <Link href={`/methodes/${method.slug}`} passHref>
-            <Card component="a" sx={{ textDecoration: 'none', height: '100%' }}>
-              {method.image && (
-                <img src={method.image} alt={method.title} style={{ width: '100%' }} />
-              )}
-              <CardContent>
-                <Typography variant="h6" component="h3" gutterBottom>
-                  {method.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {method.description}
-                </Typography>
-              </CardContent>
-            </Card>
-          </Link>
-        </Grid>
-      ))}
+    <Grid item xs={12} className={styles.UsageGallery}>
+      <Typography variant="h4" gutterBottom>
+        Méthode utilisée
+      </Typography>
+      <Grid container spacing={2} justifyContent="left">
+        {methods.map((method) => (
+          <Grid item key={method.slug} xs={12} sm={6} md={6}>
+            <Link href={`/methodes/${method.slug}`} passHref>
+              <Card component="a" sx={{ textDecoration: 'none', height: '40%' }}>
+                {method.image && (
+                  <img src={method.image} alt={method.title} style={{ width: '60%' }} />
+                )}
+                <CardContent>
+                  <Typography variant="h7" component="h3" gutterBottom>
+                    {method.title}
+                  </Typography>
+                  <Typography variant="body1" color="text.secondary">
+                    {method.description}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Link>
+          </Grid>
+        ))}
+      </Grid>
     </Grid>
   );
-}
+};
+
+export default MethodsGallery;

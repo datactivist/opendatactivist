@@ -1,17 +1,22 @@
 // pages/methodes/[slug].js
 
 import ReactMarkdown from 'react-markdown';
+import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
-import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs } from '../../lib/markdown';
-import { Container, Grid, Typography, Button, Box, List, ListItem, ListItemText} from '@mui/material';
+import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs, generateTableOfContents } from '../../lib/markdown';
+import { Container, Grid, Typography, Button, Box, List, ListItem, ListItemText } from '@mui/material';
 import UsageGallery from '../../components/UsageGallery';
 import styles from './MethodPage.module.css';
 import Link from 'next/link';
 import ApiOpenDataSources from '../../components/ApiOpenDataSources';
 import DiscussionLinks from '../../components/DiscussionLinks';
-import theme from '../../src/theme';
+
 
 export default function MethodPage({ method, usages, datasets }) {
+
+  useEffect(() => {
+   
+  }, [method]);
   const markdownComponents = {
     p: ({ children }) => <Typography className={styles.p} paragraph>{children}</Typography>,
     h1: ({ children }) => <Typography className={styles.h1} variant="h1" gutterBottom>{children}</Typography>,
@@ -23,13 +28,64 @@ export default function MethodPage({ method, usages, datasets }) {
     // Autres éléments à personnaliser
   };
 
+
   return (
     <Layout>
       <Box sx={{ mt: '2rem', mb: '2rem' }}>
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ bgcolor: '#FFF1EB', p: 2, position: 'fixed', top: 50, left: 0, height: '100vh', width: '25%' }}>
-              <Link href="/home">
+              {method.collection && (
+                <Box sx={{
+                  bgcolor: '#FFF',
+                  mb: '1rem',
+                  mt: '3rem',
+                  borderRadius: '10px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  justifyContent: 'center',
+                }}>
+                  <Typography
+                    className={styles.h6}
+                    variant="h5"
+                    align="center"
+                    sx={{ marginLeft: '1rem' }}
+                    gutterBottom
+                  >
+                    Voir le patchwork complet&nbsp;
+                  </Typography>
+                  <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                    <Button
+                      variant="contained"
+                      href={`/collections/${method.collection}`}
+                      sx={{
+                        backgroundColor: '#fff',
+                        borderColor: '#000',
+                        borderWidth: '0.3px',
+                        borderStyle: 'solid',
+                        borderRadius: '10px',
+                        color: '#000',
+                        fontWeight: 'regular',
+                        fontSize: '0.9rem',
+                        textAlign: 'left',
+                        marginBottom: '1rem',
+                        marginLeft: '1rem', // ajoute 1rem d'espace à gauche du bouton
+                        '&:hover': {
+                          backgroundColor: '#E95459',
+                          color: '#fff',
+                        },
+                      }}
+                    >
+                      📂 Patchwork {method.collection}
+                    </Button>
+
+                  </Box>
+                </Box>
+              )}
+
+              <DiscussionLinks discourseIds={method.discourse_id} />
+              <Link href="/methodes">
                 <Button
                   variant="contained"
                   sx={{
@@ -49,8 +105,6 @@ export default function MethodPage({ method, usages, datasets }) {
                   Toutes les méthodes
                 </Button>
               </Link>
-              <br></br>
-              <DiscussionLinks discourseIds={method.discourse_id} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
@@ -59,18 +113,72 @@ export default function MethodPage({ method, usages, datasets }) {
                 {method.title}
               </Typography>
               <Box sx={{ display: { xs: 'block', md: 'none' }, textAlign: 'left', mb: '2rem' }}>
-                <Link href="/home">
+                <Link href="/methodes">
                   <Button variant="contained" sx={{ mt: '2rem', backgroundColor: '#173541', '&:hover': { backgroundColor: '#E95459' } }}>
                     Toutes les méthodes
                   </Button>
                 </Link>
                 <br></br>
+                {method.collection && (
+                <Box sx={{
+                  bgcolor: '#FFF',
+                  mb: '1rem',
+                  mt: '3rem',
+                  borderRadius: '10px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                  justifyContent: 'center',
+                }}>
+                  <Typography
+                    className={styles.h6}
+                    variant="h5"
+                    align="center"
+                    sx={{ marginLeft: '1rem' }}
+                    gutterBottom
+                  >
+                    Voir le patchwork complet&nbsp;
+                  </Typography>
+                  <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                    <Button
+                      variant="contained"
+                      href={`/collections/${method.collection}`}
+                      sx={{
+                        backgroundColor: '#fff',
+                        borderColor: '#000',
+                        borderWidth: '0.3px',
+                        borderStyle: 'solid',
+                        borderRadius: '10px',
+                        color: '#000',
+                        fontWeight: 'regular',
+                        fontSize: '0.9rem',
+                        textAlign: 'left',
+                        marginBottom: '1rem',
+                        marginLeft: '1rem', // ajoute 1rem d'espace à gauche du bouton
+                        '&:hover': {
+                          backgroundColor: '#E95459',
+                          color: '#fff',
+                        },
+                      }}
+                    >
+                      📂 Patchwork {method.collection}
+                    </Button>
+
+                  </Box>
+                </Box>
+              )}
+
                 <DiscussionLinks discourseIds={method.discourse_id} />
               </Box>
               <Grid container spacing={2} justifyContent="center" alignItems="center">
                 <Grid item xs={12}>
                   {method.image && (
-                    <img src={method.image} alt={method.title} style={{ maxWidth: '100%' }} />
+                    <img src={method.image} alt={method.title} style={{
+                      height: '250px', // ajustez la hauteur selon vos besoins
+                      width: '600px',
+                      objectFit: 'cover',
+                      objectPosition: 'center'
+                    }} />
                   )}
                   <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
                     {method.content}
@@ -98,7 +206,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const method = getMethodBySlug(params.slug);
+  const { slug } = params;
+  const method = getMethodBySlug(slug);
   const usages = getUsagesBySlugs(method.usages);
   const datasets = getDatasetsBySlugs(method.datasets);
   return {
@@ -109,3 +218,4 @@ export async function getStaticProps({ params }) {
     },
   };
 }
+

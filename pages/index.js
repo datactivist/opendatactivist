@@ -5,60 +5,50 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Open Datactivist</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Open <a href="https://datactivist.coop">Datactivist</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Des méthodes et des cas pratiques en accès libre <br></br> 
+          <code>Produire des données</code> <code>Utiliser des données</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/methodes" className={styles.card}>
+            <h3>Méthodes &rarr;</h3>
+            <p>Toutes nos méthodes en accès libre, pour produire et utiliser des données</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/usages" className={styles.card}>
+            <h3>Cas d'utilisation &rarr;</h3>
+            <p>Des cas pratiques pour vous inspirer sur des thématiques variées</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/collections"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Patchworks &rarr;</h3>
+            <p>Des canevas pour construire des projets pas à pas</p>
+          </a>
+
+          <a
+            href="/products"
+            className={styles.card}
+          >
+            <h3>Data products &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Nos outils en accès libre, pour faciliter vos projets
             </p>
           </a>
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
 
       <style jsx>{`
         main {
@@ -88,10 +78,10 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background: #fafafa;
+          background: #eaeaea;
           border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
+          padding: 0.5rem;
+          font-size: 1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
@@ -102,9 +92,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: Montserrat;
         }
         * {
           box-sizing: border-box;
