@@ -36,9 +36,10 @@ const ApiOpenDataSources = ({ datasetsList }) => {
         &nbsp;:
       </p>
       <div className={`${uniq ? '' : 'two-column-grid'} dataset-container`}>
-        {datasetsInfo.map((item, index) => (
-          <div key={index} className="dataset-item">
-            <h3>
+      {datasetsInfo.map((item, index) => (
+        <div key={index} className="dataset-item">
+          <h3>
+            {datasetsList[index] && (
               <a
                 href={`https://www.data.gouv.fr/fr/datasets/${datasetsList[index].uid}`}
                 target="_blank"
@@ -46,11 +47,12 @@ const ApiOpenDataSources = ({ datasetsList }) => {
               >
                 {item.title}
               </a>
-            </h3>
-            <p>{item.organization}</p>
-          </div>
-        ))}
-      </div>
+            )}
+          </h3>
+          <p>{item.organization}</p>
+        </div>
+      ))}
+    </div>
       <style jsx>{`
         #api-open-data-sources {
           margin-bottom: 60px;
