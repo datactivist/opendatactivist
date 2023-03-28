@@ -2,15 +2,19 @@ import { Button, Typography } from '@mui/material';
 import Link from 'next/link';
 
 const DiscussionLinks = ({ discourseIds }) => {
-    // Fonction pour extraire le texte à partir de l'identifiant
+    if (!discourseIds || discourseIds.length === 0) {
+        return null;
+    }
+    
     const getTextFromId = (id) => {
         if (!id) return '';
         return String(id).replace(/-/g, ' ');
     };
 
     return (
-        <div style={{ backgroundColor: '#FFF', borderRadius:'10px'}}>
-            <Typography variant="subtitle1" fontWeight="bold" align="left" sx={{ mt: '2rem', mb: '1rem', marginLeft: '1rem' }}>
+        <div style={{ backgroundColor: '##FFF1EB', borderRadius:'10px'}}>
+            <Typography variant="h6" fontWeight="bold" align="left" sx={{ mt: '2rem', mb: '1rem', marginLeft: '1rem' }}>
+                <hr></hr>
                 <br></br>
                 En discuter sur TeamOpenData
             </Typography>
@@ -23,7 +27,7 @@ const DiscussionLinks = ({ discourseIds }) => {
                                 backgroundColor: '#fff',
                                 borderColor: '#000',
                                 marginBottom: '10px',
-                                marginLeft: '10px',
+                                marginLeft: '1rem',
                                 marginRight: '10px',
                                 marginTop: '5px',
                                 borderWidth: '0.3px',

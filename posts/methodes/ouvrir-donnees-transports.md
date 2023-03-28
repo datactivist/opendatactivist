@@ -13,6 +13,7 @@ datasets:
 discourse_id: 
   - generer-un-gtfs-a-partir-de-tableaux-csv-projet-ogp-toolbox
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
+next_method: 
 ---
 
 Alors que les grandes métropoles voient fleurir depuis plusieurs années des services numériques et des applications autour de leur réseau de transport, les territoires moins denses et les réseaux interurbains sont encore souvent invisibles sur internet.

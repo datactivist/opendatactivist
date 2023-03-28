@@ -54,7 +54,7 @@ export default function HomePage({ methods }) {
           }}
         />
       </Box>
-      <Grid container spacing={4} justifyContent="center" alignItems="center" style={{ marginTop: '1rem' }}>
+      <Grid container spacing={4} justifyContent="left" alignItems="center" style={{ marginTop: '1rem', marginLeft : '3rem' }}>
         {filteredMethods.map((method) => (
           <Grid item key={method.slug} xs={12} sm={6} md={4} lg={5}>
             <MethodCard method={method} />

@@ -3,7 +3,7 @@ import { blue } from '@mui/material/colors';
 
 const theme = createTheme({
   typography: {
-    fontFamily: 'Montserrat, sans-serif',
+    fontFamily: 'Open Sans, sans-serif',
   },
   components: {
     MuiButton: {
