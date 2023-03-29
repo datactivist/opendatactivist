@@ -3,7 +3,7 @@
 import ReactMarkdown from 'react-markdown';
 import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
-import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs } from '../../lib/markdown';
+import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs, getAllTagsForSlug } from '../../lib/markdown';
 import { Container, Grid, Typography, Button, Box } from '@mui/material';
 import UsageGallery from '../../components/UsageGallery';
 import styles from './MethodPage.module.css';
@@ -11,10 +11,13 @@ import Link from 'next/link';
 import ApiOpenDataSources from '../../components/ApiOpenDataSources';
 import DiscussionLinks from '../../components/DiscussionLinks';
 import MethodNext from '../../components/MethodNext';
+import TagSystem from '../../components/TagSystem';
 
-export default function MethodPage({ method, usages, datasets }) {
+
+export default function MethodPage({ method, usages, datasets, tags }) {
 
   useEffect(() => {
+    console.log("Method tags: ", method.tags); // Ajoutez cette ligne
 
   }, [method]);
   const markdownComponents = {
@@ -91,14 +94,14 @@ export default function MethodPage({ method, usages, datasets }) {
                       📂 Patchwork {method.collection}
                     </Button>
                     <Typography
-                    className={styles.h6}
-                    variant="h5"
-                    align="left"
-                    sx={{ marginLeft: '1rem' }}
-                    gutterBottom
-                  >
-                    Méthode suivante&nbsp;
-                  </Typography>
+                      className={styles.h6}
+                      variant="h5"
+                      align="left"
+                      sx={{ marginLeft: '1rem' }}
+                      gutterBottom
+                    >
+                      Méthode suivante&nbsp;
+                    </Typography>
                     {method.next_method && (
                       <MethodNext
                         nextMethodSlug={method.next_method.slug}
@@ -106,10 +109,8 @@ export default function MethodPage({ method, usages, datasets }) {
                       />
                     )}
                   </Box>
-
                 </Box>
               )}
-
               <DiscussionLinks discourseIds={method.discourse_id} />
               <Link href="/methodes">
                 <Button
@@ -132,6 +133,9 @@ export default function MethodPage({ method, usages, datasets }) {
                   Toutes les méthodes
                 </Button>
               </Link>
+              <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '0.5rem', mt: '3rem', ml: '1rem'}}>
+                <TagSystem tags={tags} onClickTag={(tag) => console.log(tag)} />
+              </Box>
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
@@ -145,6 +149,8 @@ export default function MethodPage({ method, usages, datasets }) {
                     Toutes les méthodes
                   </Button>
                 </Link>
+                <br></br>
+                <TagSystem tags={tags} onClickTag={(tag) => console.log(tag)} />
                 <br></br>
                 {method.collection && (
                   <Box sx={{
@@ -210,11 +216,17 @@ export default function MethodPage({ method, usages, datasets }) {
                   <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
                     {method.content}
                   </ReactMarkdown>
-                  {method.usages && <UsageGallery usages={usages} />}
+                  {method.usages && method.usages.length > 0 && <UsageGallery usages={usages} />}
                   <>
                     <br></br>
                     <br></br>
-                    {method.datasets && <ApiOpenDataSources datasetsList={datasets} />}
+                    {method.datasets && method.datasets.length > 0 && (
+                      <>
+                        <br />
+                        <br />
+                        <ApiOpenDataSources datasetsList={datasets} />
+                      </>
+                    )}
                   </>
                 </Grid>
               </Grid>
@@ -237,13 +249,14 @@ export async function getStaticProps({ params }) {
   const method = getMethodBySlug(slug);
   const usages = getUsagesBySlugs(method.usages);
   const datasets = getDatasetsBySlugs(method.datasets);
+  const tags = getAllTagsForSlug(slug, method.tags);
 
   return {
     props: {
       method,
       usages,
       datasets,
+      tags,
     },
   };
 }
-

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
 import styles from './MethodCard.module.css';
 
+
 export default function MethodCard({ method }) {
   return (
     <Link href={`/methodes/${method.slug}`} passHref>
