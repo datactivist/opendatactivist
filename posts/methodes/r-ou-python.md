@@ -5,8 +5,9 @@ description: Comment choisir entre R et Python, deux langages de data science in
 slug: "exemple-autre-methode"
 type: atelier
 tags:
-  - environnement
-  - gouvernance
+  - data science
+  - langaes
+  - python
 index : 1
 next-method: 
 ---
