@@ -78,7 +78,7 @@ export default function Layout({ children }) {
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="md" className={styles.container}>
+      <Container maxWidth="lg" className={styles.container}>
         <main>{children}</main>
       </Container>
 

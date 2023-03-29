@@ -21,7 +21,7 @@ const MethodsGallery = ({ methods }) => {
       </Typography>
       <Grid container spacing={2} justifyContent="left">
         {methods.map((method) => (
-          <Grid item key={method.slug} xs={12} sm={6} md={6}>
+          <Grid item key={method.slug} xs={12} md={4}>
             <Link href={`/methodes/${method.slug}`} passHref>
               <Card component="a" sx={{ textDecoration: 'none', height: '40%' }}>
                 {method.image && (

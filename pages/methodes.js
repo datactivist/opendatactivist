@@ -27,41 +27,43 @@ export default function HomePage({ methods }) {
   };
 
   return (
-    <Layout>
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          marginBottom: '3rem',
-          marginTop: '6rem',
-        }}
-      >
-        <TextField
-          label="Recherche"
-          variant="outlined"
-          value={searchTerm}
-          onChange={handleSearchChange}
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <SearchIcon />
-              </InputAdornment>
-            ),
-          }}
+    <Box sx={{ maxWidth: '90%', margin: '0 auto' }}>
+      <Layout>
+        <Box
           sx={{
-            width: { xs: '90%', sm: '60%', md: '60%' },
-            backgroundColor: 'white',
+            display: 'flex',
+            justifyContent: 'center',
+            marginBottom: '3rem',
+            marginTop: '6rem',
           }}
-        />
-      </Box>
-      <Grid container spacing={4} justifyContent="left" alignItems="center" style={{ marginTop: '1rem', marginLeft : '3rem' }}>
-        {filteredMethods.map((method) => (
-          <Grid item key={method.slug} xs={12} sm={6} md={4} lg={5}>
-            <MethodCard method={method} />
-          </Grid>
-        ))}
-      </Grid>
-    </Layout>
+        >
+          <TextField
+            label="Recherche"
+            variant="outlined"
+            value={searchTerm}
+            onChange={handleSearchChange}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchIcon />
+                </InputAdornment>
+              ),
+            }}
+            sx={{
+              width: { xs: '90%', sm: '60%', md: '80%' },
+              backgroundColor: 'white',
+            }}
+          />
+        </Box>
+        <Grid container spacing={4} justifyContent="left" alignItems="center">
+          {filteredMethods.map((method) => (
+            <Grid item key={method.slug} xs={12} sm={4} md={4}>
+              <MethodCard method={method} />
+            </Grid>
+          ))}
+        </Grid>
+      </Layout>
+    </Box>
   );
 }
 
