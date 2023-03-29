@@ -3,7 +3,7 @@ title: Comment évaluer une politique open data ?
 image: /images/eval-opendata/eval-2.png
 description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
-type: formation
+type: blog
 tags:
   - strategie
   - audit
