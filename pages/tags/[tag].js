@@ -5,6 +5,7 @@ import MethodCard from '../../components/MethodCard';
 import { getMethodsByTag, getAllTags } from '../../lib/markdown';
 import { Grid } from '@mui/material';
 
+
 const TagPage = ({ tag, methods }) => {
   return (
     <Layout>

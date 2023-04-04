@@ -12,7 +12,7 @@ import ApiOpenDataSources from '../../components/ApiOpenDataSources';
 import DiscussionLinks from '../../components/DiscussionLinks';
 import MethodNext from '../../components/MethodNext';
 import TagSystem from '../../components/TagSystem';
-
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function MethodPage({ method, usages, datasets, tags }) {
 
@@ -28,6 +28,7 @@ export default function MethodPage({ method, usages, datasets, tags }) {
     h4: ({ children }) => <Typography className={styles.h4} variant="h4" gutterBottom>{children}</Typography>,
     h5: ({ children }) => <Typography className={styles.h5} variant="h5" gutterBottom>{children}</Typography>,
     h6: ({ children }) => <Typography className={styles.h6} variant="h6" gutterBottom>{children}</Typography>,
+    ParticleCard: ({ slug }) => <ParticleCard slug={slug} />,
     blockquote: ({ children }) => (
       <Typography
         component="blockquote"
@@ -39,7 +40,6 @@ export default function MethodPage({ method, usages, datasets, tags }) {
     ),
     // Autres éléments à personnaliser
   };
-
 
   return (
     <Layout>
@@ -133,7 +133,7 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                   Toutes les méthodes
                 </Button>
               </Link>
-              <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '0.5rem', mt: '3rem', ml: '1rem'}}>
+              <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '0.5rem', mt: '3rem', ml: '1rem' }}>
                 <TagSystem tags={tags} onClickTag={(tag) => console.log(tag)} />
               </Box>
             </Box>
@@ -213,9 +213,10 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                       objectPosition: 'center'
                     }} />
                   )}
-                  <ReactMarkdown components={markdownComponents} style={{ fontSize: '1.5rem' }}>
+                  <ReactMarkdown components={markdownComponents}>
                     {method.content}
                   </ReactMarkdown>
+
                   {method.usages && method.usages.length > 0 && <UsageGallery usages={usages} />}
                   <>
                     <br></br>

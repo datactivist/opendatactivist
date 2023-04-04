@@ -1,5 +1,5 @@
 ---
-title: "Exemple de méthode"
+title: Exemple de méthode
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
@@ -7,8 +7,8 @@ type: formation
 tags:
   - santé
   - recherche
-collection:
-  - algorithmes
+#collection:
+#  - 
 usages:
   - exemple-cas-dutilisation
 datasets:
@@ -17,7 +17,7 @@ datasets:
 discourse_id: 
   - batiments-et-usages-associes
   - score-de-qualite-des-metadonnees
-index: 0 #1 = affiché dans les recherches ; #0 = masqué
+index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
 ---
 
