@@ -3,19 +3,19 @@ title: Titre
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: demo
-type: 
+type: formation
 tags:
   - tag
-index: 0 #1 = affiché dans les recherches ; #0 = masqué
-#collection:
-# - nom du patchwork
-#next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
-#usages:
-#  - exemple-cas-dutilisation
-#datasets:
-#  - 5b7ffc618b4c4169d30727e0
-#discourse_id: 
-#  - batiments-et-usages-associes
+index: 1 #1 = affiché dans les recherches ; #0 = masqué
+collection:
+ - Algorithmes publics
+next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
+usages:
+ - exemple-cas-dutilisation
+datasets:
+ - 5b7ffc618b4c4169d30727e0
+discourse_id: 
+ - batiments-et-usages-associes
 ---
 
 ## Introduction
