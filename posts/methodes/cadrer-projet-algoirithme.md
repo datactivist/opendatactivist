@@ -22,6 +22,8 @@ Un projet autour des algorithmes publics peut répondre à différents objectifs
 
 #### [Ressource clé](https://nx12829.your-storageshare.de/s/k7HapCmyyDAAP5q)
 
+<iframe src="http://localhost:3000/lists/benchmark-demo" width="100%" height="800" allow="fullscreen" sandbox="allow-scripts"></iframe>
+
 ### Découvrir le type de projet correspondant et les conditions de sa réalisation
 
 La ressource clé vous permettra d'identifier le type de projet "algorithmes" qui vous permettra d'atteindre les objectifs que vous vous êtes fixés. elle comporte également des conditions de réalisation, cela pourra vous aider à prioriser ou effectuer un choix entre plusieurs projets.
