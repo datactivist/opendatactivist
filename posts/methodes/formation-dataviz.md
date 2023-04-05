@@ -3,7 +3,7 @@ title: Formation Dataviz - communiquer par les chiffres
 image: /images/formation-dataviz/dataviz-formation-cover.png
 description: Comment réussir ou rater une data visualisation ?
 slug: "formation-dataviz"
-type: formation
+type: Formation
 tags:
   - dataviz
   - formation
@@ -13,6 +13,7 @@ discourse_id:
   - panorama-des-formats-de-data-visualisation
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next-method: "r-ou-python | R ou Python, quel langage choisir pour la Data Science ?" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
+lastupdate: '2023-04-04'
 ---
 
 --- 

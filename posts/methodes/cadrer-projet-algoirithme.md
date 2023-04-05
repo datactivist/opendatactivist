@@ -3,13 +3,14 @@ title: Comment cadrer un projet d'ouverture d'algorithmes ?
 image: /images/algo/algo1.png
 description: Dessiner les contours et les objectifs de votre projet "algorithmes" en suivant le parcours
 slug: "cadrer-projet-algorithmes"
-type: formation
+type: Méthode
 tags:
   - Méthode
 collection:
   - Algorithmes
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
+lastupdate: '2023-04-04'
 ---
 
 _Ce contenu est une étape du [Patchwork Algorithmes](/blog/p-algorithmes/patchwork-algorithmes), une méthodologie complète pour ouvrir des algorithmes publics._
@@ -21,8 +22,6 @@ _Ce contenu est une étape du [Patchwork Algorithmes](/blog/p-algorithmes/patchw
 Un projet autour des algorithmes publics peut répondre à différents objectifs, présentés dans la ressource clé. La ressource doit vous permettre de déterminer, en fonction des objectifs visés, le type de projet "algorithme" à mettre en place.
 
 #### [Ressource clé](https://nx12829.your-storageshare.de/s/k7HapCmyyDAAP5q)
-
-<iframe src="http://localhost:3000/lists/benchmark-demo" width="100%" height="800" allow="fullscreen" sandbox="allow-scripts"></iframe>
 
 ### Découvrir le type de projet correspondant et les conditions de sa réalisation
 
