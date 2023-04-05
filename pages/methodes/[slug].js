@@ -12,7 +12,6 @@ import ApiOpenDataSources from '../../components/ApiOpenDataSources';
 import DiscussionLinks from '../../components/DiscussionLinks';
 import MethodNext from '../../components/MethodNext';
 import TagSystem from '../../components/TagSystem';
-import SearchIcon from '@mui/icons-material/Search';
 
 export default function MethodPage({ method, usages, datasets, tags }) {
 
@@ -28,7 +27,6 @@ export default function MethodPage({ method, usages, datasets, tags }) {
     h4: ({ children }) => <Typography className={styles.h4} variant="h4" gutterBottom>{children}</Typography>,
     h5: ({ children }) => <Typography className={styles.h5} variant="h5" gutterBottom>{children}</Typography>,
     h6: ({ children }) => <Typography className={styles.h6} variant="h6" gutterBottom>{children}</Typography>,
-    ParticleCard: ({ slug }) => <ParticleCard slug={slug} />,
     blockquote: ({ children }) => (
       <Typography
         component="blockquote"

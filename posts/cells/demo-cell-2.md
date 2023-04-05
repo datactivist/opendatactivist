@@ -1,13 +1,14 @@
 ---
-title: Demo cell
+title: Demo cell 2
 image: /images/data-transport-mali.png
-description: Description de la cellule
-slug: "demo-cell"
+description: Description de la cellule, quelques mots pour décrire le contenu, ne pas dépasser une longue phrase. Test du retour à la ligne avec un peu plus de texte.
+slug: "demo-cell-2"
 lists: 
   - benchmark-demo
 tags: 
-  - datalab
-  - santé
+  - transports
+  - ESR
+  - tourisme
 ---
 
 # Description
