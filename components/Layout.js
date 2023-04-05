@@ -5,8 +5,31 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
-import styles from './Layout.module.css';
 import { useEffect } from "react";
+
+const styles = {
+  appBar: {
+    backgroundColor: '#fff',
+    color: '#000',
+  },
+  toolbar: {
+    display: 'flex',
+    justifyContent: 'space-between',
+  },
+  title: {
+    fontWeight: 700,
+  },
+  navLinks: {
+    display: 'flex',
+    gap: '16px',
+  },
+  link: {
+    textTransform: 'none',
+  },
+  container: {
+    marginTop: '100px',
+  },
+};
 
 
 export default function Layout({ children }) {
@@ -48,12 +71,13 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <AppBar position="fixed" className={styles.appBar}>
-        <Toolbar className={styles.toolbar}>
-          <Typography variant="h5" component="div" className={styles.title}>
+      <AppBar position="fixed" style={styles.appBar}>
+        <Toolbar style={styles.toolbar}>
+          <Typography variant="h5" component="div" style={styles.title}>
+
             Open <a href='https://datactivist.coop/'>Datactivist</a>
           </Typography>
-          <nav className={styles.navLinks}>
+          <nav style={styles.navLinks}>
             <Link href="/" passHref>
               <Button className={styles.link} color="inherit">
                 Accueil
@@ -78,7 +102,7 @@ export default function Layout({ children }) {
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="lg" className={styles.container}>
+      <Container maxWidth="lg" style={styles.container}>
         <main>{children}</main>
       </Container>
 
