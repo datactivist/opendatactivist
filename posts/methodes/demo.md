@@ -3,7 +3,7 @@ title: Titre
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: demo
-type: formation
+type: Formation
 tags:
   - tag
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
@@ -16,6 +16,7 @@ datasets:
  - 5b7ffc618b4c4169d30727e0
 discourse_id: 
  - batiments-et-usages-associes
+lastupdate: '2023-04-04'
 ---
 
 ## Introduction

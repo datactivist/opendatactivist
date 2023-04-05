@@ -3,7 +3,7 @@ title: "Pourquoi et comment ouvrir ses données de transport ?"
 image: /images/transport1.png
 description: Une méthode en trois étapes, qui peut être mise en oeuvre par des personnes ayant un niveau débutant.
 slug: "ouvrir-donnees-transports"
-type: formation
+type: Blog
 tags:
   - transports
   - GTFS
@@ -14,6 +14,7 @@ discourse_id:
   - generer-un-gtfs-a-partir-de-tableaux-csv-projet-ogp-toolbox
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next_method: 
+lastupdate: '2023-04-04'
 ---
 
 Alors que les grandes métropoles voient fleurir depuis plusieurs années des services numériques et des applications autour de leur réseau de transport, les territoires moins denses et les réseaux interurbains sont encore souvent invisibles sur internet.

@@ -3,7 +3,7 @@ title: Comment évaluer une politique open data ?
 image: /images/eval-opendata/eval-2.png
 description: Si l’objectif d’un portail open data est d’être consulté, c’est encore mieux quand les données sont vraiment utilisées.
 slug: "exemple-methode"
-type: blog
+type: Blog
 tags:
   - strategie
   - audit
@@ -12,6 +12,7 @@ discourse_id:
   - des-analytics-a-l-impact-pourquoi-evaluer-une-politique-open-data
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
+lastupdate: '2023-04-04'
 ---
 
 ---

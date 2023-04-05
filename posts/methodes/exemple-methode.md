@@ -3,7 +3,7 @@ title: Exemple de méthode
 image: /images/exemple-methode.jpg
 description: Ceci est une brève description de la méthode.
 slug: "exemple-methode"
-type: formation
+type: Formation
 tags:
   - santé
   - recherche
@@ -19,6 +19,7 @@ discourse_id:
   - score-de-qualite-des-metadonnees
 index: 1 #1 = affiché dans les recherches ; #0 = masqué
 next-method: "ouvrir-donnees-transports | Ouvrir des données de transports" #Insérer le nom du fichier exact, puis le titre que vous souhaitez afficher
+lastupdate: '2023-04-04'
 ---
 
 ## Introduction
