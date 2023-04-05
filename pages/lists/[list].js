@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
 import { getCellDataFromApi } from '../../lib/api';
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Chip, Box, TextField } from '@mui/material';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Chip, Box, TextField, Button } from '@mui/material';
 import { useRouter } from 'next/router';
+import CellsBarChart from '../../components/dataviz/CellsBarChart';
+import Link from 'next/link';
 
 function ListPage({ cells }) {
   const router = useRouter();
@@ -32,39 +34,46 @@ function ListPage({ cells }) {
 
   return (
     <Layout>
-  <Box display="flex" flexWrap="wrap" justifyContent="center" mt={10} mb={3}>
-    <Box mr={10}>
-      <TextField 
-        label="Recherche"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        variant="outlined"
-      />
-    </Box>
-    {uniqueTags.map((tag) => (
-      <Chip
-        key={tag}
-        label={tag}
-        style={{
-          backgroundColor: getColorByTag(tag),
-          color: 'white',
-          marginRight: '0.5rem',
-          marginBottom: '0.5rem',
-          cursor: 'pointer',
-        }}
-        onClick={() => setSearchTerm(tag)}
-      />
-    ))}
-  </Box>
-  <TableContainer component={Paper} style={{ marginTop: '3rem', marginBottom: '3rem' }}>
-    <Table>
-      <TableHead>
-        <TableRow>
-          <TableCell><h2>Titre</h2></TableCell>
-          <TableCell><h2>Description</h2></TableCell>
-          <TableCell><h2>Tags</h2></TableCell>
-        </TableRow>
-      </TableHead>
+      <Box display="flex" justifyContent="flex-end">
+        <Box mr={1}>
+          <Link href={`/lists/${router.query.list}/stats`} passHref>
+            <Button variant="contained" color="primary">Statistiques</Button>
+          </Link>
+        </Box>
+      </Box>
+      <Box display="flex" flexWrap="wrap" justifyContent="center" mt={10} mb={3}>
+        <Box mr={10}>
+          <TextField 
+            label="Recherche"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            variant="outlined"
+          />
+        </Box>
+        {uniqueTags.map((tag) => (
+          <Chip
+            key={tag}
+            label={tag}
+            style={{
+              backgroundColor: getColorByTag(tag),
+              color: 'white',
+              marginRight: '0.5rem',
+              marginBottom: '0.5rem',
+              cursor: 'pointer',
+            }}
+            onClick={() => setSearchTerm(tag)}
+          />
+        ))}
+      </Box>
+      <TableContainer component={Paper} style={{ marginTop: '3rem', marginBottom: '3rem' }}>
+        <Table>
+          <TableHead>
+            <TableRow>
+              <TableCell><h2>Titre</h2></TableCell>
+              <TableCell><h2>Description</h2></TableCell>
+              <TableCell><h2>Tags</h2></TableCell>
+            </TableRow>
+          </TableHead>
       <TableBody>
         {filteredCells.map((cell) => (
           <TableRow
@@ -94,6 +103,9 @@ function ListPage({ cells }) {
       </TableBody>
     </Table>
   </TableContainer>
+  <div style={{ maxHeight: "20rem" }}>
+  <CellsBarChart data={CellsBarChart} filteredCells={filteredCells} />
+  </div>
 </Layout>
 
   );
