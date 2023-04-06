@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
-import styles from './Layout.module.css';
+import styles from '../styles/Layout.module.css';
 import { useEffect } from "react";
 
 
