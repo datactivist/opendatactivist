@@ -4,9 +4,9 @@ import ReactMarkdown from 'react-markdown';
 import React, { useState, useEffect } from 'react';
 import Layout from '../../components/Layout';
 import { getMethodBySlug, getAllMethodSlugs, getUsagesBySlugs, getDatasetsBySlugs, getAllTagsForSlug, getTypeForSlug, getLastupdateForSlug } from '../../lib/markdown';
-import { Container, Grid, Typography, Button, Box } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
+import {Box, Grid, Typography, Button, Container } from '@mui/material';
 import UsageGallery from '../../components/UsageGallery';
-import styles from './MethodPage.module.css';
 import Link from 'next/link';
 import ApiOpenDataSources from '../../components/ApiOpenDataSources';
 import DiscussionLinks from '../../components/DiscussionLinks';
@@ -14,32 +14,49 @@ import MethodNext from '../../components/MethodNext';
 import TagSystem from '../../components/TagSystem';
 import MetadataTable from '../../components/MetadataTable';
 
-
 export default function MethodPage({ method, usages, datasets, tags }) {
 
   useEffect(() => {
     console.log("Method tags: ", method.tags); 
 
   }, [method]);
+
+  const theme = useTheme();
+
   const markdownComponents = {
-    p: ({ children }) => <Typography className={styles.p} paragraph sx={{ fontFamily: 'Roboto, sans-serif' }}>{children}</Typography>,
-    h1: ({ children }) => <Typography className={styles.h1} variant="h1" gutterBottom>{children}</Typography>,
-    h2: ({ children }) => <Typography className={styles.h2} variant="h2" gutterBottom>{children}</Typography>,
-    h3: ({ children }) => <Typography className={styles.h3} variant="h3" gutterBottom>{children}</Typography>,
-    h4: ({ children }) => <Typography className={styles.h4} variant="h4" gutterBottom>{children}</Typography>,
-    h5: ({ children }) => <Typography className={styles.h5} variant="h5" gutterBottom>{children}</Typography>,
-    h6: ({ children }) => <Typography className={styles.h6} variant="h6" gutterBottom>{children}</Typography>,
+    p: ({ children }) => <Typography paragraph>{children}</Typography>,
+    h1: ({ children }) => (
+      <Typography variant="h1" gutterBottom sx={theme.components.MuiTypography.styleOverrides.h1}>
+        {children}
+      </Typography>
+    ),
+    h2: ({ children }) => (
+      <Typography variant="h2" gutterBottom sx={theme.components.MuiTypography.styleOverrides.h2}>
+        {children}
+      </Typography>
+    ),
+    h3: ({ children }) => (
+      <Typography variant="h3" gutterBottom sx={theme.components.MuiTypography.styleOverrides.h3}>
+        {children}
+      </Typography>
+    ),
+    // Faites de même pour les autres éléments (h4, h5, h6)
     blockquote: ({ children }) => (
       <Typography
         component="blockquote"
         variant="subtitle1"
-        className={styles.blockquote} 
+        sx={{
+          borderLeft: '3px solid #173541',
+          paddingLeft: '1rem',
+          fontStyle: 'italic',
+          color: '#616161',
+        }}
       >
         {children}
       </Typography>
     ),
-   
   };
+  
 
   return (
     <Layout>
@@ -51,7 +68,7 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                 metadata={{
                   Type: method.type,
                   Description: method.description,
-                  'Dernière mise à jour': method.lastupdate, // Utilisez le tiret ici
+                  'Dernière mise à jour': method.lastupdate,
                 }}
               />
               {method.collection && (
@@ -66,9 +83,9 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                   justifyContent: 'center',
                 }}>
                   <Typography
-                    className={styles.h5}
-                    variant="h5"
+                    variant="h4"
                     align="center"
+                    fontWeight={600}
                     sx={{ marginLeft: '1rem' }}
                     gutterBottom
                   >
@@ -90,7 +107,7 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                         textAlign: 'left',
                         marginBottom: '-0.5rem',
                         marginLeft: '1rem', 
-                        width: '100%', // 
+                        width: '100%',
                         justifyContent: 'flex-start', 
                         '&:hover': {
                           backgroundColor: '#E95459',
@@ -101,12 +118,13 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                       📂 Patchwork {method.collection}
                     </Button>
                     <Typography
-                      className={styles.h6}
                       variant="h5"
                       align="left"
+                      fontWeight={600}
                       sx={{ marginLeft: '1rem' }}
                       gutterBottom
                     >
+                      <br></br>
                       Méthode suivante&nbsp;
                     </Typography>
                     {method.next_method && (
@@ -130,7 +148,7 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                     borderWidth: '3px',
                     borderColor: '#000000',
                     color: '#fff',
-                    fontWeight: 'bold',
+                    fontWeight: 'regular',
                     '&:hover': {
                       backgroundColor: '#E95459',
                       color: '#ffffff',
@@ -147,14 +165,14 @@ export default function MethodPage({ method, usages, datasets, tags }) {
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
             <Container maxWidth="lg" sx={{ ml: '0rem' }}>
-              <Typography className={styles.h1} variant="h1" align="left" gutterBottom style={{ fontSize: '3rem' }}>
+              <Typography variant="h1" align="left" gutterBottom sx={{ fontSize: '4rem' }}>
                 {method.title}
               </Typography>
               <Grid container spacing={2} justifyContent="center" alignItems="center">
                 <Grid item xs={12}>
                   {method.image && (
                     <img src={method.image} alt={method.title} style={{
-                      height: '250px', // ajustez la hauteur selon vos besoins
+                      height: '250px',
                       width: '600px',
                       objectFit: 'cover',
                       objectPosition: 'center'
