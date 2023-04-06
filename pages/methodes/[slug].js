@@ -83,8 +83,9 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                   justifyContent: 'center',
                 }}>
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     align="center"
+                    fontWeight={600}
                     sx={{ marginLeft: '1rem' }}
                     gutterBottom
                   >
@@ -117,11 +118,13 @@ export default function MethodPage({ method, usages, datasets, tags }) {
                       📂 Patchwork {method.collection}
                     </Button>
                     <Typography
-                      variant="h6"
+                      variant="h5"
                       align="left"
+                      fontWeight={600}
                       sx={{ marginLeft: '1rem' }}
                       gutterBottom
                     >
+                      <br></br>
                       Méthode suivante&nbsp;
                     </Typography>
                     {method.next_method && (

@@ -27,6 +27,7 @@ const theme = createTheme({
         h3: {
           fontSize: '2rem',
           fontFamily: 'Montserrat, sans-serif',
+          fontWeight: 'bold',
         },
         h4: {
           fontSize: '1.5rem',
