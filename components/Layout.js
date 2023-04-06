@@ -1,13 +1,16 @@
 // components/Layout.js
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
-import styles from '../styles/Layout.module.css';
-import { useEffect } from "react";
-
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Container,
+  Button,
+  Box,
+} from '@mui/material';
 
 export default function Layout({ children }) {
   useEffect(() => {
@@ -37,7 +40,6 @@ export default function Layout({ children }) {
   }, []);
 
   return (
-
     <div>
       <Head>
         <title>Open Datactivist</title>
@@ -48,43 +50,53 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <AppBar position="fixed" className={styles.appBar}>
-        <Toolbar className={styles.toolbar}>
-          <Typography variant="h5" component="div" className={styles.title}>
-            Open <a href='https://datactivist.coop/'>Datactivist</a>
+      <AppBar position="fixed" sx={{ backgroundColor: 'white' }}>
+        <Toolbar
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+          }}
+        >
+          <Typography variant="h5" component="div">
+            <a href="https://datactivist.coop/">Open Datactivist</a>
           </Typography>
-          <nav className={styles.navLinks}>
+          <nav>
             <Link href="/" passHref>
-              <Button className={styles.link} color="inherit">
-                Accueil
-              </Button>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Accueil</Button>
             </Link>
             <Link href="/methodes" passHref>
-              <Button className={styles.link} color="inherit">
-                Méthodes
-              </Button>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Méthodes</Button>
             </Link>
             <Link href="/usages" passHref>
-              <Button className={styles.link} color="inherit">
-                Cas d'utilisation
-              </Button>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Cas d'utilisation</Button>
             </Link>
             <Link href="/collections" passHref>
-              <Button className={styles.link} color="inherit">
-                Patchworks
-              </Button>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Patchworks</Button>
             </Link>
           </nav>
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="lg" className={styles.container}>
-        <main>{children}</main>
+      <Container maxWidth="lg">
+        <Box sx={{ paddingTop: '64px', paddingBottom: '60px' }}>
+          <main>{children}</main>
+        </Box>
       </Container>
 
-      <footer style={{ position: "fixed", bottom: 0, width: "100%", height: "60px", background: "#fff", zIndex: 2 }}>
-  <div className="container">
-    <div className="social">
+      <footer>
+        <Box
+          sx={{
+            position: 'fixed',
+            bottom: 0,
+            width: '100%',
+            height: 60,
+            background: '#fff',
+            zIndex: 2,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
       <a href="https://twitter.com/datactivi_st" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
         <Image src="/images/footer/twitter.svg" alt="Twitter" width={30} height={30} />
       </a>
@@ -97,9 +109,8 @@ export default function Layout({ children }) {
       <a href="mailto:hello@datactivist.coop" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
         <Image src="/images/footer/mail.svg" alt="Email" width={30} height={30} />
       </a>
-    </div>
-  </div>
-</footer>
+      </Box>
+      </footer>
     </div>
   );
 }

@@ -10,6 +10,16 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           textTransform: 'none',
+          fontFamily: 'Montserrat, sans-serif', // Ajouter cette ligne
+        },
+      },
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
         },
       },
       variants: [
