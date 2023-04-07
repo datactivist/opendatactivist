@@ -14,6 +14,7 @@ import MethodNext from '../../components/MethodNext';
 import TagSystem from '../../components/TagSystem';
 import MetadataTable from '../../components/MetadataTable';
 
+
 export default function MethodPage({ method, usages, datasets, tags }) {
 
   useEffect(() => {
@@ -218,6 +219,7 @@ export async function getStaticProps({ params }) {
   const tags = getAllTagsForSlug(slug, method.tags);
   const type = getTypeForSlug(slug);
   const lastupdate = getLastupdateForSlug(method.slug);
+  
 
   return {
     props: {

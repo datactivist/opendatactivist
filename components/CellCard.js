@@ -1,33 +1,35 @@
-import Link from 'next/link';
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
+import React from 'react';
+import { getCellDataFromApi } from '../pages/api/yaml';
 
-export default function CellCard({ cell }) {
-  if (!cell) return null;
-  
-  const { title = '', description = '', slug, image, content } = cell;
+function CellCard({ title, description }) {
+  return (
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
+}
+
+export default function Cell({ slug }) {
+  const [cellData, setCellData] = React.useState(null);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const data = await getCellDataFromApi();
+      const cell = data.find((c) => c.slug === slug);
+      setCellData(cell);
+    }
+
+    fetchData();
+  }, [slug]);
 
   return (
-    <Link href={`/cells/${slug}`}>
-      <a>
-        <Card variant="outlined">
-          {image && (
-            <CardMedia
-              component="img"
-              height="200"
-              image={image}
-              alt={title}
-            />
-          )}
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              {title}
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              {description}
-            </Typography>
-          </CardContent>
-        </Card>
-      </a>
-    </Link>
+    <div>
+      {cellData ? (
+        <CellCard title={cellData.title} description={cellData.description} />
+      ) : (
+        <p>Loading...</p>
+      )}
+    </div>
   );
 }
