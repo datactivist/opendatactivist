@@ -1,0 +1,23 @@
+/* components/sidebar.module.css */
+
+.sidebar {
+    position: fixed;
+    margin-top: 1rem;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px; /* ajustez la largeur de la sidebar selon vos préférences */
+    padding: 1rem;
+    background-color: #FFF1EB; /* ajustez la couleur de fond selon vos préférences */
+    border-right: 1px solid #dee2e6; /* ajustez la couleur de la bordure selon vos préférences */
+    overflow-y: auto;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 1rem;
+  }

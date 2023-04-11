@@ -4,46 +4,69 @@ import CsvReader from '../../components/stories/CsvReader';
 import MarkdownContent from '../../components/stories/MarkdownContent';
 import TableAnalysis from '../../components/stories/TableAnalysis';
 import Tabs from '../../components/stories/Tabs';
-import '../../styles/Tabs.module.css';
-
+import Sidebar from '../../components/stories/Sidebar'; 
 
 const StoryDemo = () => {
+
   const tabs = [
     {
       title: 'Bienvenue',
+      section: 'Intro',
       component: MarkdownContent,
       props: { filename: '/algo/intro' },
     },
     {
       title: 'Exemple de jeu de données',
+      section: 'Partie 1',
       component: CsvReader,
       props: { filename: 'deniro' },
     },
     {
       title: 'Exemple analyse',
+      section: 'Partie 1',
       component: TableAnalysis,
       props: { filename: 'deniro' },
     },
     {
-        title: 'Un 4ème contenu',
-        component: MarkdownContent,
-        props: { filename: 'test2' },
+      title: 'Un 4ème contenu',
+      section: 'Partie deux',
+      component: MarkdownContent,
+      props: { filename: 'test2' },
     },
     {
-        title: 'Tableau 5',
-        component: CsvReader,
-        props: { filename: 'deniro' },
+      title: 'Tableau 5',
+      section: 'Déchiffrer les données',
+      component: CsvReader,
+      props: { filename: 'deniro' },
     },
     {
-        title: 'Contenu 6',
-        component: MarkdownContent,
-        props: { filename: 'test3' },
+      title: 'Contenu 6',
+      section: 'Déchiffrer les données',
+      component: MarkdownContent,
+      props: { filename: 'test3' },
     },
   ];
 
+  const sidebarData = {
+    title: "Une démo de story",
+    topics: [
+      "Algorithmes",
+      "Commande publique",
+      // Ajoutez d'autres topics ici
+    ],
+  };
+
+
   return (
     <Layout>
-      <Tabs tabs={tabs} />
+      <div className="row">
+        <div className="col-md-3">
+          <Sidebar sidebarData={sidebarData} />
+        </div>
+        <div className="col-md-9">
+          <Tabs tabs={tabs} />
+        </div>
+      </div>
     </Layout>
   );
 };

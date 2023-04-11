@@ -25,6 +25,7 @@
     color: #333;
     cursor: pointer;
     transition: all 0.2s;
+    border-radius: 5px;
   }
   
   .tab:hover {
@@ -36,9 +37,10 @@
     color: #fff;
     background-color: #e95459;
   }
-  
-  .separator {
-    margin: 0 1rem;
-    color: #ccc;
+
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
   }
-  
+
