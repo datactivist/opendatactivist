@@ -70,12 +70,21 @@ const StoryDemo = () => {
         ],
     };
 
+    const sectionsData = Array.from(
+        new Set(tabs.map((tab) => tab.section))
+      ).map((section) => {
+        const firstTabIndexInSection = tabs.findIndex((tab) => tab.section === section);
+        return {
+          section: section,
+          anchor: tabs[firstTabIndexInSection].title.replace(/\s+/g, '-').toLowerCase(),
+        };
+      });      
 
     return (
         <Layout>
             <div className="row">
                 <div className="col-md-3">
-                    <Sidebar sidebarData={sidebarData} />
+                <Sidebar sidebarData={sidebarData} sectionsData={sectionsData} tabs={tabs} />
                 </div>
                 <div className="col-md-9">
                     <Tabs tabs={tabs} />
