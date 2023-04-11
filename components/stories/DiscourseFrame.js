@@ -6,7 +6,7 @@ const DiscourseFrame = ({ talkid }) => {
     iframe.src = `https://teamopendata.org/t/${talkid}`;
     iframe.width = '100%';
     iframe.height = '800px';
-    iframe.frameBorder = '1';
+    iframe.frameBorder = '0';
     iframe.scrolling = 'yes';
     iframe.setAttribute('id', 'discourse-iframe');
     document.getElementById('discourse-comments').appendChild(iframe);
