@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import styles from './sidebar.module.css';
+import styles from './Sidebar.module.css';
 
 const Sidebar = ({ sidebarData }) => {
   const { title, topics } = sidebarData;
