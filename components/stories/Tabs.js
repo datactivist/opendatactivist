@@ -10,27 +10,59 @@ const Tabs = ({ tabs }) => {
 
     const handleTabClick = (tabIndex) => {
         setActiveTab(tabIndex);
-        window.location.hash = tabs[tabIndex].title.replace(/\s+/g, '-').toLowerCase();
+        const newTitle = tabs[tabIndex].title.replace(/\s+/g, '-').toLowerCase();
+        window.history.pushState({ tabIndex }, newTitle, `#${newTitle}`);
+    };
+
+    const handlePopState = (event) => {
+        if (event.state && event.state.tabIndex !== undefined) {
+            setActiveTab(event.state.tabIndex);
+        } else {
+            setActiveTabFromUrl();
+        }
     };
 
     const setActiveTabFromUrl = () => {
         const hash = window.location.hash;
-        const tabTitle = hash ? hash.substr(1).replace(/-/g, ' ') : '';
-        const tabIndex = tabs.findIndex((tab) => tab.title === tabTitle);
+        const tabTitle = hash ? decodeURIComponent(hash.substr(1)).replace(/-/g, ' ') : '';
+        const tabIndex = tabs.findIndex((tab) => tab.title.toLowerCase() === tabTitle.toLowerCase());
         if (tabIndex !== -1) {
             setActiveTab(tabIndex);
         }
     };
+    
 
     useEffect(() => {
         setActiveTabFromUrl();
-        window.addEventListener('hashchange', setActiveTabFromUrl);
-        return () => window.removeEventListener('hashchange', setActiveTabFromUrl);
+        window.addEventListener('popstate', handlePopState);
+        return () => window.removeEventListener('popstate', handlePopState);
     }, []);
+      
 
     useEffect(() => {
         setActiveSection(tabs[activeTab]?.section || '');
     }, [activeTab]);
+
+    const getUniqueSections = () => {
+        const sections = tabs.reduce((acc, tab) => {
+            if (!acc.includes(tab.section)) {
+                acc.push(tab.section);
+            }
+            return acc;
+        }, []);
+        return sections;
+    };
+
+    const getFirstTabInSection = (section) => {
+        return tabs.find((tab) => tab.section === section);
+    };
+
+    const sectionsData = getUniqueSections().map((section) => {
+        const firstTab = getFirstTabInSection(section);
+        const anchor = firstTab.title.replace(/\s+/g, '-').toLowerCase();
+        return { section, anchor };
+    });
+    
 
     useEffect(() => {
         if (containerRef.current && activeTabRef.current) {
