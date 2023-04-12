@@ -7,7 +7,6 @@ import Tabs from '../../components/stories/Tabs';
 import Sidebar from '../../components/stories/Sidebar';
 import DatagouvId from '../../components/stories/DatagouvId';
 import DiscourseFrame from '../../components/stories/DiscourseFrame';
-import styles from '/styles/Stories.module.css'; 
 
 const StoryDemo = () => {
 
