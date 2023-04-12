@@ -13,7 +13,7 @@ const StoryDemo = () => {
     const tabs = [
         {
             title: 'Bienvenue',
-            section: 'Intro',
+            section: 'Introduction',
             component: MarkdownContent,
             props: { filename: '/algo/intro' },
         },
@@ -55,7 +55,7 @@ const StoryDemo = () => {
         },
         {
             title: 'Conversation',
-            section: 'Partie 1',
+            section: 'Conclusion',
             component: DiscourseFrame,
             props: { talkid: '1592' },
           },
@@ -63,6 +63,8 @@ const StoryDemo = () => {
 
     const sidebarData = {
         title: "Une démo de story",
+        description: "Ceci est une description en une phrase de la story",
+        public_date: "2023-03-30",
         topics: [
             "Algorithmes",
             "Commande publique",

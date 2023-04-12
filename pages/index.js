@@ -15,27 +15,27 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Des méthodes et des cas pratiques en accès libre <br></br> 
+          Des méthodes et des cas pratiques en accès libre <br></br>
           <code>Produire des données</code> <code>Utiliser des données</code>
         </p>
 
         <div className={styles.grid}>
+
+        <a href="/stories"
+            className={styles.card}
+          >
+            <h3>Patchworks &rarr;</h3>
+            <p>Des guides outillés pour construire des projets étape par étape</p>
+          </a>
+
           <a href="/methodes" className={styles.card}>
-            <h3>Méthodes &rarr;</h3>
-            <p>Toutes nos méthodes en accès libre, pour produire et utiliser des données</p>
+            <h3>Articles &rarr;</h3>
+            <p>Tous nos articles en accès libre, pour produire et utiliser des données</p>
           </a>
 
           <a href="/usages" className={styles.card}>
             <h3>Cas d'utilisation &rarr;</h3>
-            <p>Des cas pratiques pour vous inspirer sur des thématiques variées</p>
-          </a>
-
-          <a
-            href="/collections"
-            className={styles.card}
-          >
-            <h3>Patchworks &rarr;</h3>
-            <p>Des canevas pour construire des projets pas à pas</p>
+            <p>Des cas pratiques pour vous inspirer</p>
           </a>
 
           <a
