@@ -58,7 +58,7 @@ export default function Layout({ children }) {
           }}
         >
           <Typography variant="h4" component="div">
-            <a href="https://datactivist.coop/">Open Datactivist</a>
+            <a href="/">Open Datactivist</a>
           </Typography>
           <nav>
             <Link href="/" passHref>

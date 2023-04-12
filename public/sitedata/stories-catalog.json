@@ -1,0 +1,24 @@
+[
+    {
+      "id": "story-demo",
+      "title": "Une démo de story",
+      "description": "Ceci est une description en une phrase de la story",
+      "public_date": "2023-03-30",
+      "topics": ["Algorithmes", "Commande publique"]
+    },
+    {
+      "id": "story-2",
+      "title": "Une autre démo de story",
+      "description": "Ceci est une description en une phrase de la story",
+      "public_date": "2023-12-01",
+      "topics": ["Data Science", "Visualisation"]
+    },
+    {
+        "id": "story-3",
+        "title": "Une prochaine méthode",
+        "description": "Ceci est une description en une phrase de la story",
+        "public_date": "2023-10-01",
+        "topics": ["Data Science", "Visualisation"]
+    }
+  ]
+  
