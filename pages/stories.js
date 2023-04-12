@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Catalogue from '../components/StoriesCatalog';
+import StoriesCatalog from '../components/StoriesCatalog';
 
 const StoriesIndex = () => {
   return (
     <Layout>
-      <Catalogue />
+      <StoriesCatalog />
     </Layout>
   );
 };

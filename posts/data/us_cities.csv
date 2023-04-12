@@ -1,0 +1,33 @@
+﻿name,population,country,area,timezone,language
+New York, 8336817, United States, 468.9, America/New_York, English
+Los Angeles, 3979576, United States, 1214.9, America/Los_Angeles, English
+Chicago, 2693976, United States, 588.7,,
+Houston, 2320268, United States, 1707.0, America/Chicago, English
+Phoenix, 1680992, United States, 1341.1, America/Phoenix, English
+Philadelphia, 1584064, United States, 347.6,, English
+San Antonio, 1547253, United States, 1194.0,, English
+San Diego,, United States, 1212.5,, English
+Dallas, 1317929, United States, 997.1, America/Chicago, English
+San Jose, 1026653, United States, 466.1, America/Los_Angeles, English
+Austin,, United States, 1034.2, America/Chicago,
+Jacksonville, 911507, United States, 2266.7, America/New_York, English
+Fort Worth, 895008, United States, 904.4, America/Chicago, English
+Columbus, 892533,, 577.9, America/New_York, English
+San Francisco, 883305, United States, 600.6, America/Los_Angeles, English
+Charlotte, 872498, United States, 771.0, America/New_York, English
+Indianapolis, 867125, United States, 953.2, America/Indiana/Indianapolis, English
+Seattle, 744955,,,, English
+Denver, 727211, United States,, America/Denver, English
+Washington, 705749, United States, 177.0, America/New_York, English
+Boston, 694583, United States, 232.1, America/New_York, English
+Nashville, 689006, United States, 1361.4, America/Chicago, English
+El Paso,,,,,
+Detroit, 670031, United States, 359.4, America/Detroit,
+Memphis, 651073, United States, 839.2, America/Chicago, English
+Portland, 653115, United States, 376.5, America/Los_Angeles, English
+Oklahoma City, 649021, United States, 1606.4,, English
+Las Vegas, 644644, United States, 352.0, America/Los_Angeles, English
+Louisville, 620118, United States, 1031.3,, English
+Baltimore, 593490, United States, 238.4, America/New_York, English
+Milwaukee, 579180, United States, 250.7, America/Chicago, English
+Albuquerque, 545852, United States, 491.9, America/Denver, English
