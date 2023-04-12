@@ -28,6 +28,12 @@ const ProductsCatalog = () => {
     router.push(`/products/${productId}`);
   };
 
+  function formatDate(dateString) {
+    const options = { month: 'long', year: 'numeric' };
+    return new Date(dateString).toLocaleDateString('fr-FR', options);
+  }
+
+
   return (
     <div className={styles.container}>
       <h1>Catalogue des Produits</h1>
@@ -60,7 +66,7 @@ const ProductsCatalog = () => {
       <div className={styles['timeline-marker']}></div>
       <div className={styles['roadmap-content']}>
         <h3>{product.title}</h3>
-        <p>{product.public_date}</p>
+        <p>{formatDate(product.public_date)}</p>
       </div>
     </div>
   ))}

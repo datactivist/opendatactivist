@@ -7,6 +7,7 @@ import Tabs from '../../components/stories/Tabs';
 import Sidebar from '../../components/stories/Sidebar';
 import DatagouvId from '../../components/stories/DatagouvId';
 import DiscourseFrame from '../../components/stories/DiscourseFrame';
+import styles from '/styles/Stories.module.css'; 
 
 const StoryDemo = () => {
 
@@ -82,18 +83,24 @@ const StoryDemo = () => {
         };
       });      
 
-    return (
+      return (
         <Layout>
             <div className="row">
-                <div className="col-md-3">
-                <Sidebar sidebarData={sidebarData} sectionsData={sectionsData} tabs={tabs} />
+                <div className="col-md-2">
+                    <Sidebar sidebarData={sidebarData} sectionsData={sectionsData} tabs={tabs} />
                 </div>
                 <div className="col-md-9">
-                    <Tabs tabs={tabs} />
+                    <div style={{ marginLeft: "8rem" }}>
+                        <Tabs tabs={tabs} />
+                    </div>
                 </div>
             </div>
         </Layout>
+
+
+
     );
+    
 };
 
 export default StoryDemo;

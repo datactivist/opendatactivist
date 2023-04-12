@@ -10,12 +10,14 @@
     padding: 1rem;
     background-color: #FFF1EB; /* ajustez la couleur de fond selon vos préférences */
     overflow-y: auto;
+    overflow: auto;
   }
   
   .sidebar ul {
     list-style-type: none;
     padding: 0;
   }
+  
   
   .sidebar h2 {
     margin-bottom: 1rem;
