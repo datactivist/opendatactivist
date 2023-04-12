@@ -28,6 +28,12 @@ const StoriesCatalog = () => {
     router.push(`/stories/${storyId}`);
   };
 
+  function formatDate(dateString) {
+    const options = { month: 'long', year: 'numeric' };
+    return new Date(dateString).toLocaleDateString('fr-FR', options);
+  }
+
+
   return (
     <div className={styles.container}>
       <h1>Catalogue des Stories</h1>
@@ -47,24 +53,25 @@ const StoriesCatalog = () => {
           >
             <h2>{story.title}</h2>
             <p>{story.description}</p>
-            <p>{story.public_date}</p>
+            <p>{formatDate(story.public_date)}</p>
             <p>{story.topics.join(', ')}</p>
           </div>
         ))}
       </div>
       <br></br>
       <h2>Prochainement publiées</h2>
-<div className={styles.roadmap}>
-  {upcomingStories.map((story) => (
-    <div key={story.id} className={styles['roadmap-item']}>
-      <div className={styles['timeline-marker']}></div>
-      <div className={styles['roadmap-content']}>
-        <h3>{story.title}</h3>
-        <p>{story.public_date}</p>
+      <div className={styles.roadmap}>
+        {upcomingStories.map((story) => (
+          <div key={story.id} className={styles['roadmap-item']}>
+            <div className={styles['timeline-marker']}></div>
+            <div className={styles['roadmap-content']}>
+              <h3>{story.title}</h3>
+              <p>{formatDate(story.public_date)}</p>
+            </div>
+
+          </div>
+        ))}
       </div>
-    </div>
-  ))}
-</div>
 
 
     </div>
