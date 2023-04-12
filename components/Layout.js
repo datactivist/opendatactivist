@@ -64,14 +64,14 @@ export default function Layout({ children }) {
             <Link href="/" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Accueil</Button>
             </Link>
-            <Link href="/methodes" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Méthodes</Button>
-            </Link>
-            <Link href="/usages" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Cas d'utilisation</Button>
-            </Link>
-            <Link href="/collections" passHref>
+            <Link href="/stories" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Patchworks</Button>
+            </Link>
+            <Link href="/products" passHref>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Data products</Button>
+            </Link>
+            <Link href="/methodes" passHref>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Articles</Button>
             </Link>
           </nav>
         </Toolbar>

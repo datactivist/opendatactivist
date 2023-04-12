@@ -83,3 +83,9 @@
     color: #E95459;
   }
   
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

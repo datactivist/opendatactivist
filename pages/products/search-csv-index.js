@@ -66,11 +66,26 @@ const Search = () => {
             )}
           </div>
         </div>
-        <Link href={`/products/search-csv/${selectedFile}`} passHref>
-          <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
-            Voir dans un tableau filtrable
-          </button>
-        </Link>
+        <div className={`${styles.buttonContainer}`}>
+          <Link href={`/products/search-csv/${selectedFile}`} passHref>
+            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+              Voir dans un tableau filtrable
+            </button>
+          </Link>
+          <br></br>
+          <Link href={`/products/empty-csv/${selectedFile}`} passHref>
+            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+              Analyser le taux de remplissage
+            </button>
+          </Link>
+          <br></br>
+          <Link href={`/api/data/${selectedFile}`} passHref>
+            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+              Accéder à l'API
+            </button>
+          </Link>
+        </div>
+
       </div>
     </Layout>
   );
