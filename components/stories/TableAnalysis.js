@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, TextField } from '@mui/material';
 
-function TableAnalysis({ filename }) {
+function TableAnalysis({ filename, maxRows = 10 }) {
   const [data, setData] = useState([]);
   const [searchTerms, setSearchTerms] = useState({});
-  const [displayedRows, setDisplayedRows] = useState(10);
+  const [displayedRows, setDisplayedRows] = useState(maxRows);
 
   useEffect(() => {
     const fetchData = async () => {
