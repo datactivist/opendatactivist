@@ -48,6 +48,18 @@
     margin-bottom: 0.5rem;
   }
   
+  .topic {
+    background-color: #FFF1EB; /* Couleur de fond rose */
+    border-radius: 5px;
+    color: rgb(41, 41, 41);
+    padding: 3px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-family: monospace;
+  }
+  
   .roadmap {
     display: flex;
     flex-direction: column;

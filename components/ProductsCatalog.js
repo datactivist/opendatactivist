@@ -53,8 +53,15 @@ const ProductsCatalog = () => {
           >
             <h2>{product.title}</h2>
             <p>{product.description}</p>
-            <p>{product.public_date}</p>
-            <p>{product.topics.join(', ')}</p>
+            <br></br>
+            <p>🗓 {formatDate(product.public_date)}</p>
+            <div>
+        {product.topics.map((topic, index) => (
+          <span key={index} className={styles.topic}>
+            {topic}
+          </span>
+        ))}
+      </div>
           </div>
         ))}
       </div>
