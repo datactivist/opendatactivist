@@ -45,19 +45,26 @@ const StoriesCatalog = () => {
         onChange={handleSearch}
       />
       <div className={styles.gallery}>
-        {publishedStories.map((story) => (
-          <div
-            key={story.id}
-            className={styles['story-card']}
-            onClick={() => handleCardClick(story.id)}
-          >
-            <h2>{story.title}</h2>
-            <p>{story.description}</p>
-            <p>{formatDate(story.public_date)}</p>
-            <p>{story.topics.join(', ')}</p>
-          </div>
+  {publishedStories.map((story) => (
+    <div
+      key={story.id}
+      className={styles['story-card']}
+      onClick={() => handleCardClick(story.id)}
+    >
+      <h2>{story.title}</h2>
+      <p>{story.description}</p>
+      <br></br>
+      <p>🗓 {formatDate(story.public_date)}</p>
+      <div>
+        {story.topics.map((topic, index) => (
+          <span key={index} className={styles.topic}>
+            {topic}
+          </span>
         ))}
       </div>
+    </div>
+  ))}
+</div>
       <br></br>
       <h2>Prochainement publiées</h2>
       <div className={styles.roadmap}>
