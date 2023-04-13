@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Styles from '../../styles/Tabs.module.css';
+import arrowRight from '../../public/images/design/arrow-right.svg';
+import Image from 'next/image';
+
 
 const Tabs = ({ tabs }) => {
     const [activeTab, setActiveTab] = useState(0);
@@ -30,14 +33,14 @@ const Tabs = ({ tabs }) => {
             setActiveTab(tabIndex);
         }
     };
-    
+
 
     useEffect(() => {
         setActiveTabFromUrl();
         window.addEventListener('popstate', handlePopState);
         return () => window.removeEventListener('popstate', handlePopState);
     }, []);
-      
+
 
     useEffect(() => {
         setActiveSection(tabs[activeTab]?.section || '');
@@ -62,7 +65,7 @@ const Tabs = ({ tabs }) => {
         const anchor = firstTab.title.replace(/\s+/g, '-').toLowerCase();
         return { section, anchor };
     });
-    
+
 
     useEffect(() => {
         if (containerRef.current && activeTabRef.current) {
@@ -77,6 +80,13 @@ const Tabs = ({ tabs }) => {
 
     const activeComponent = tabs[activeTab].component;
     const activeProps = tabs[activeTab].props;
+
+    const handleNextStepClick = () => {
+        if (activeTab < tabs.length - 1) {
+            handleTabClick(activeTab + 1);
+        }
+    };
+
 
     return (
         <div>
@@ -104,6 +114,7 @@ const Tabs = ({ tabs }) => {
                     }
                     return null;
                 })}
+                <Image src={arrowRight} alt="Next step" className={Styles.nextStepArrow} onClick={handleNextStepClick} width={40} height={300} />
             </div>
             <div className={Styles.tabContent}>
                 {React.createElement(activeComponent, activeProps)}

@@ -7,10 +7,14 @@
     left: 0;
     height: 100%;
     width: 300px; /* ajustez la largeur de la sidebar selon vos préférences */
-    padding: 1rem;
-    background-color: #FFF1EB; /* ajustez la couleur de fond selon vos préférences */
+    padding: 0.5rem;
+    background-color: #173541; /* ajustez la couleur de fond selon vos préférences */
     overflow-y: auto;
     overflow: auto;
+    border-right: #e2e2e2;
+    border-right-style: solid;
+    color: #fff;
+    font-size: 1.3rem;
   }
   
   .sidebar ul {
@@ -23,13 +27,30 @@
     margin-bottom: 1rem;
   }
 
+  .titleBox {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #173541;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #fff;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+  
+
   .sectionList {
     list-style: none;
     padding-left: 0;
   }
   
   .sectionListItem {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-left: 0rem;
   }
   
@@ -41,9 +62,12 @@
     border-radius: 4px;
     font-size: 14px;
     text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
   }
   
   .sectionLinkActive {
-    background-color: #c53d46;
+    background-color: #E95459;
+    border-color: #E95459;
   }
   
