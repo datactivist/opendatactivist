@@ -36,8 +36,9 @@ const Sidebar = ({ sidebarData, sectionsData, tabs }) => {
     <div className={styles.sidebar}>
       <br />
       <br />
-      <h3>{title}</h3>
-      <hr />
+      <div className={styles.titleBox}>
+        <h3 className={styles.title}>{title}</h3>
+      </div>
       <div className={styles.sidebar__sections}>
         <h4>Sommaire</h4>
         <ul className={styles.sectionList}>
@@ -66,7 +67,7 @@ const Sidebar = ({ sidebarData, sectionsData, tabs }) => {
             <div key={index} className={styles.sidebar__item}>
               <span
                 style={{
-                  backgroundColor: '#fff',
+                  backgroundColor: '#FFF1EB',
                   color: 'black',
                   padding: '0.5em',
                   borderRadius: '4px',

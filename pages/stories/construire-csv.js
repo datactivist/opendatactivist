@@ -78,7 +78,7 @@ const StoryDemo = () => {
             props: { filename: '/construirecsv/resume' },
         },
         {
-            title: 'Exemple de CSV exploitable',
+            title: 'Exemple de CSV',
             section: 'Démo',
             component: TableAnalysis,
             props: { filename: 'deniro' },
@@ -113,7 +113,7 @@ const StoryDemo = () => {
                     <Sidebar sidebarData={sidebarData} sectionsData={sectionsData} tabs={tabs} />
                 </div>
                 <div className="col-md-9">
-                    <div style={{ marginLeft: "8rem" }}>
+                    <div style={{ marginLeft: "16rem" }}>
                         <Tabs tabs={tabs} />
                     </div>
                 </div>
