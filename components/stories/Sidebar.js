@@ -8,7 +8,8 @@ const Sidebar = ({ sidebarData, sectionsData, tabs }) => {
   const router = useRouter();
 
   const navigateToTopic = (topic) => {
-    router.push(`/topics/${topic.toLowerCase().replace(/ /g, '-')}`);
+    const encodedTopic = encodeURIComponent(topic.toLowerCase());
+    router.push(`/stories?topic=${encodedTopic}`);
   };
 
   const [activeSectionIndex, setActiveSectionIndex] = useState(-1);
@@ -66,15 +67,8 @@ const Sidebar = ({ sidebarData, sectionsData, tabs }) => {
           {topics.map((topic, index) => (
             <div key={index} className={styles.sidebar__item}>
               <span
-                style={{
-                  backgroundColor: '#FFF1EB',
-                  color: 'black',
-                  padding: '0.5em',
-                  borderRadius: '4px',
-                  display: 'inline-block',
-                  marginBottom: '10px',
-                  fontSize: '14px',
-                }}
+                className={styles.topicButton}
+                onClick={() => navigateToTopic(topic)}
               >
                 {topic}
               </span>
