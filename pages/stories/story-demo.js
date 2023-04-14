@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import { getMethods } from '../../lib/markdown';
 import CsvReader from '../../components/stories/CsvReader';
 import MarkdownContent from '../../components/stories/MarkdownContent';
 import TableAnalysis from '../../components/stories/TableAnalysis';
@@ -9,6 +8,7 @@ import Sidebar from '../../components/stories/Sidebar';
 import DatagouvId from '../../components/stories/DatagouvId';
 import DiscourseFrame from '../../components/stories/DiscourseFrame';
 import LinksDisplay from '../../components/stories/LinksDisplay';
+import JsonGallery from '../../components/stories/JsonGallery';
 
 
 const StoryDemo = () => {
@@ -61,7 +61,13 @@ const StoryDemo = () => {
             section: 'Autres ressources',
             component: LinksDisplay,
             props: { ids: ['dicosigles', 'referentiel-open-data'] },
-          },
+        },
+        {
+            title: 'Un benchmark',
+            section: 'Autres ressources',
+            component: JsonGallery,
+            props: { filename: 'deniro' },
+        },
         {
             title: 'Conversation',
             section: 'Conclusion',

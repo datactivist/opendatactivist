@@ -11,13 +11,14 @@
     border-radius: 10px;
     outline: none;
     transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Open Sans', sans-serif; /* Police Open Sans */
   }
   
   .search:focus {
     border-color: #0070f3;
     box-shadow: 0 0 0 1px #0070f3;
   }
-  
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -49,9 +50,9 @@
   }
   
   .topic {
-    background-color: #FFF1EB; /* Couleur de fond rose */
+    background-color: #173541; 
     border-radius: 5px;
-    color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
     padding: 3px 8px;
     margin-right: 5px;
     margin-bottom: 5px;

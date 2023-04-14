@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { marked } from 'marked';
+import styles from '/styles/MarkdownContent.module.css';
 
 const MarkdownContent = ({ filename }) => {
   const [content, setContent] = useState('');
@@ -20,7 +21,7 @@ const MarkdownContent = ({ filename }) => {
 
   return (
     <div
-      className="markdown-content"
+      className={styles.markdownContent}
       dangerouslySetInnerHTML={{ __html: content ? marked(content) : '' }}
     />
   );

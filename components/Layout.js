@@ -57,7 +57,7 @@ export default function Layout({ children }) {
             justifyContent: 'space-between',
           }}
         >
-          <Typography variant="h4" component="div">
+          <Typography variant="h3" component="div">
             <a href="/">Open Datactivist</a>
           </Typography>
           <nav>
