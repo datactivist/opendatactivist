@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
+import { getMethods } from '../../lib/markdown';
 import CsvReader from '../../components/stories/CsvReader';
 import MarkdownContent from '../../components/stories/MarkdownContent';
 import TableAnalysis from '../../components/stories/TableAnalysis';
@@ -7,6 +8,8 @@ import Tabs from '../../components/stories/Tabs';
 import Sidebar from '../../components/stories/Sidebar';
 import DatagouvId from '../../components/stories/DatagouvId';
 import DiscourseFrame from '../../components/stories/DiscourseFrame';
+import LinksDisplay from '../../components/stories/LinksDisplay';
+
 
 const StoryDemo = () => {
 
@@ -52,7 +55,13 @@ const StoryDemo = () => {
             section: 'Déchiffrer les données',
             component: MarkdownContent,
             props: { filename: 'test3' },
-        },
+        },     
+        {
+            title: 'Liens utiles',
+            section: 'Autres ressources',
+            component: LinksDisplay,
+            props: { ids: ['dicosigles', 'referentiel-open-data'] },
+          },
         {
             title: 'Conversation',
             section: 'Conclusion',
