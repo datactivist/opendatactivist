@@ -14,6 +14,14 @@
       "description": "Code et données pour un référentiel français de l'open data",
       "url": "https://gitlab.com/multi-coop/referentiel-open-data",
       "topics": ["open data", "territoires", "tableau de bord"]
+    },
+    {
+        "id": "un-autre-lien",
+        "title": "Un autre lien",
+        "type": "dataviz",
+        "description": "Une description",
+        "url": "https://gitlab.com/multi-coop/referentiel-open-data",
+        "topics": ["open data", "tableau de bord"]
     }
   ]
   
