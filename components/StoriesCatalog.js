@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import storiesMetadata from '../public/sitedata/stories-catalog.json';
 import styles from '../styles/stories-catalog.module.css';
 
-const StoriesCatalog = () => {
+const StoriesCatalog = ({ topicFilter = '' }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const router = useRouter();
 
@@ -13,10 +13,15 @@ const StoriesCatalog = () => {
 
   const filteredStories = storiesMetadata.filter((story) => {
     const searchValue = searchTerm.toLowerCase();
+    const topicMatch = topicFilter
+      ? story.topics.some((topic) => topic.toLowerCase() === topicFilter.toLowerCase())
+      : true;
+
     return (
-      story.title.toLowerCase().includes(searchValue) ||
-      story.description.toLowerCase().includes(searchValue) ||
-      story.topics.some((topic) => topic.toLowerCase().includes(searchValue))
+      topicMatch &&
+      (story.title.toLowerCase().includes(searchValue) ||
+        story.description.toLowerCase().includes(searchValue) ||
+        story.topics.some((topic) => topic.toLowerCase().includes(searchValue)))
     );
   });
 
@@ -37,6 +42,7 @@ const StoriesCatalog = () => {
   return (
     <div className={styles.container}>
       <h1>Catalogue des Stories</h1>
+      <br></br>
       <input
         className={styles.search}
         type="search"

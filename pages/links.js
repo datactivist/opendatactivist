@@ -1,17 +1,17 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
-import StoriesCatalog from '../components/StoriesCatalog';
+import LinksCatalog from '../components/LinksCatalog';
 
-const StoriesIndex = () => {
+const LinksIndex = () => {
   const router = useRouter();
   const { topic } = router.query;
 
   return (
     <Layout>
-      <StoriesCatalog topicFilter={topic} />
+      <LinksCatalog topicFilter={topic} />
     </Layout>
   );
 };
 
-export default StoriesIndex;
+export default LinksIndex;

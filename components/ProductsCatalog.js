@@ -37,6 +37,7 @@ const ProductsCatalog = () => {
   return (
     <div className={styles.container}>
       <h1>Catalogue des Produits</h1>
+      <br></br>
       <input
         className={styles.search}
         type="search"

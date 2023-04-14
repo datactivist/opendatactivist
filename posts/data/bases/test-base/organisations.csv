@@ -1,0 +1,11 @@
+﻿Organisation,Type,Description,Réutilisations,Jeux de données
+Ville de Paris,Ville,Organisation gouvernementale locale située en France.,Arboricity,"Arbres remarquables,Délibérations"
+Ville de Lyon,Ville,Organisation gouvernementale locale située en France.,"Cycle paths,Paris Green",Prénoms
+Ville de Montpellier,Ville,Organisation gouvernementale locale située en France.,Naming,Subventions
+Métropole de Rouen,Métropole,Organisation gouvernementale locale située en France.,"Shopping,Lyon Connect",GTFS
+Région SUD,Région,Organisation gouvernementale régionale située en France.,,"Achats,Pistes cyclables"
+CD Loire,CD,Organisation gouvernementale départementale située en France.,,Abris vélo
+SNCF,Entreprise,Entreprise publique,Bike shelters,
+Région Ile de France,Région,Organisation gouvernementale régionale située en France.,Transit,
+GRSF,Entreprise,Entreprise publique,Funding,
+IPOLS,Entreprise,Entreprise publique,Deliberations,

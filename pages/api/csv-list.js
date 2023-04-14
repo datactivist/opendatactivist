@@ -1,3 +1,4 @@
+// Cette API liste tous les noms de CSV dans /posts/data
 import fs from 'fs';
 import path from 'path';
 

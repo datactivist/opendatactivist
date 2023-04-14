@@ -1,0 +1,19 @@
+[
+    {
+      "id": "dicosigles",
+      "title": "Dicosigles",
+      "type": "outil",
+      "description": "Dictionnaire des sigles de l’administration française",
+      "url": "https://dicosigles.fr/",
+      "topics": ["sigles", "dictionnaire", "acronymes", "annuaire"]
+    },
+    {
+      "id": "referentiel-open-data",
+      "title": "Référentiel open data",
+      "type": "dataviz",
+      "description": "Code et données pour un référentiel français de l'open data",
+      "url": "https://gitlab.com/multi-coop/referentiel-open-data",
+      "topics": ["open data", "territoires", "tableau de bord"]
+    }
+  ]
+  
