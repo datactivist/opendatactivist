@@ -41,7 +41,8 @@ const StoriesCatalog = ({ topicFilter = '' }) => {
 
   return (
     <div className={styles.container}>
-      <h1>Catalogue des Stories</h1>
+      <h1>Catalogue des méthodes guidées</h1>
+      <br></br>
       <br></br>
       <input
         className={styles.search}
@@ -59,8 +60,6 @@ const StoriesCatalog = ({ topicFilter = '' }) => {
     >
       <h2>{story.title}</h2>
       <p>{story.description}</p>
-      <br></br>
-      <p>🗓 {formatDate(story.public_date)}</p>
       <div>
         {story.topics.map((topic, index) => (
           <span key={index} className={styles.topic}>
@@ -68,6 +67,8 @@ const StoriesCatalog = ({ topicFilter = '' }) => {
           </span>
         ))}
       </div>
+      <br></br>
+      <p>🗓 {formatDate(story.public_date)}</p>
     </div>
   ))}
 </div>

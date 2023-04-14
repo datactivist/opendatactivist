@@ -33,9 +33,9 @@ export default function Home() {
             <p>Tous nos articles en accès libre, pour produire et utiliser des données</p>
           </a>
 
-          <a href="/usages" className={styles.card}>
-            <h3>Cas d'utilisation &rarr;</h3>
-            <p>Des cas pratiques pour vous inspirer</p>
+          <a href="/links" className={styles.card}>
+            <h3>Ressources externes &rarr;</h3>
+            <p>Des liens vers des ressources et outils pour vous inspirer</p>
           </a>
 
           <a
