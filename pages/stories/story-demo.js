@@ -66,7 +66,7 @@ const StoryDemo = () => {
             title: 'Un benchmark',
             section: 'Autres ressources',
             component: JsonGallery,
-            props: { filename: 'deniro' },
+            props: { filename: 'benchmark-datalab' },
         },
         {
             title: 'Conversation',
