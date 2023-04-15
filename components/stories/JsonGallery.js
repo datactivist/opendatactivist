@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Grid, Card, CardContent, Typography, Button, TextField, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+import LinkIcon from '@mui/icons-material/Link';
+
 
 function JsonGallery({ filename }) {
     const [data, setData] = useState([]);
@@ -74,6 +76,14 @@ function JsonGallery({ filename }) {
         width: '20rem',
         marginRight: '1rem',
       },
+      header: {
+        backgroundColor: '#173541',
+        color: '#fff',
+        padding: '0.5rem',
+        fontSize: '1.2rem',
+        fontWeight: 'bold',
+        borderRadius: '8px 8px 0 0',
+      },      
     };
   
     const filteredData = data.filter((item) => {
@@ -99,46 +109,58 @@ function JsonGallery({ filename }) {
             />
           </div>
           <div style={styles.galleryContainer}>
-            {filteredData.map((item, index) => (
-              <div key={index} style={styles.galleryItem}>
-                <Card style={styles.card}>
-                  <CardContent>
-                    {Object.keys(item).map((key, i) => {
-                      const content = item[key];
-                      const isLongText = content.length > 50;
-                      const shouldExpand = expanded[index];
-                      const displayText = shouldExpand ? content : content.substring(0, 200) + '...';
-                      const buttonText = shouldExpand ? 'Réduire' : 'Déplier';
-                      const isUrl = key.toLowerCase().includes('url') || content.includes('http');
-                      return (
-                        <div key={i}>
-                          <Typography style={styles.title}>{key}</Typography>
-                          {isUrl ? (
-                            <Typography style={styles.content}>
-                              <a href={content} target="_blank" rel="noopener noreferrer">
-                                {displayText}
-                              </a>
-                            </Typography>
-                          ) : (
-                            <Typography style={styles.content}>{displayText}</Typography>
-                          )}
-                          {isLongText && (
-                            <Button
-                              variant="text"
-                              style={styles.expandButton}
-                              onClick={() => toggleExpand(index)}
-                            >
-                              {buttonText}
-                            </Button>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
-          </div>
+      {filteredData.map((item, index) => (
+        <div key={index} style={styles.galleryItem}>
+          <Card style={styles.card}>
+            <CardContent>
+              {Object.keys(item).map((key, i) => {
+                const content = item[key];
+                const isLongText = content.length > 50;
+                const shouldExpand = expanded[index];
+                const displayText = shouldExpand
+                  ? content
+                  : content.substring(0, 200) + "...";
+                const buttonText = shouldExpand ? "Réduire" : "Déplier";
+                const isUrl = key.toLowerCase().includes('url') || content.includes('http');
+
+
+                return (
+                  <div key={i}>
+                    {i === 0 ? (
+                      <Typography style={styles.header}>{content}</Typography>
+                    ) : (
+                      <>
+                        <Typography style={styles.title}>{key}</Typography>
+          {isUrl ? (
+            <Typography style={styles.content}>
+              <a href={content} target="_blank" rel="noopener noreferrer">
+                <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
+              </a>
+            </Typography>
+                        ) : (
+                          <Typography style={styles.content}>
+                            {displayText}
+                          </Typography>
+                        )}
+                        {isLongText && (
+                          <Button
+                            variant="text"
+                            style={styles.expandButton}
+                            onClick={() => toggleExpand(index)}
+                          >
+                            {buttonText}
+                          </Button>
+                        )}
+                      </>
+                    )}
+                  </div>
+                );
+              })}
+            </CardContent>
+          </Card>
+        </div>
+      ))}
+    </div>
         </>
       );
 }
