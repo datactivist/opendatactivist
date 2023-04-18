@@ -1,6 +1,6 @@
 ## Bienvenue dans le patchwork d'ouverture des algorithmes publics
 
-![Eval1](/images/algo/algo1.png)
+![Bienvenue](/images/algo/algo1.png)
 
 **Un parcours d'accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics**
 

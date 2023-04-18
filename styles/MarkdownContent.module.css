@@ -33,6 +33,12 @@
     border-bottom: 1px solid #E95459;
 }
 
+.markdownContent li {
+    text-decoration: none;
+    list-style: square;
+    margin-top: 0.5rem;
+}
+
 .markdownContent a:hover {
     background-color: #E95459;
     color: #fff;
