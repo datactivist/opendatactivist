@@ -83,7 +83,6 @@ const StoryDemo = () => {
         topics: [
             "Algorithmes",
             "Commande publique",
-            // Ajoutez d'autres topics ici
         ],
     };
 

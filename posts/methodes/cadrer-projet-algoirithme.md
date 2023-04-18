@@ -46,3 +46,5 @@ Ce modèle est assez détaillé et offre une réflexion intéressante sur ce que
 ### Préciser votre projet de registre
 
 La ressource clé présente différents périmètres de registre et donc différentes manières de procéder en allant du registre exhaustif au registre thématique.
+
+#### [Ressource clé](https://nx12829.your-storageshare.de/s/zZfxPeANqApSXcF)

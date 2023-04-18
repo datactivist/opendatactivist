@@ -16,12 +16,28 @@
       "topics": ["open data", "territoires", "tableau de bord"]
     },
     {
-        "id": "un-autre-lien",
-        "title": "Un autre lien",
+        "id": "nifnaf-dataviz-covid",
+        "title": "Covid19 - Les graphiques #NIFNAF",
         "type": "dataviz",
-        "description": "Une description",
-        "url": "https://gitlab.com/multi-coop/referentiel-open-data",
-        "topics": ["open data", "tableau de bord"]
+        "description": "Retrouvez ici des graphiques #NIFNAF vus dans les médias (français ou étrangers) avec la source, la date et l'erreur repérée.",
+        "url": "https://padlet.com/julia_dumont/covid19-les-graphiques-nifnaf-puilc4nj7dwj",
+        "topics": ["visualisation", "erreurs", "media", "journalisme"]
+    },
+    {
+      "id": "reperer-erreurs-dataviz",
+      "title": "EMI et mathématiques : repérer les erreurs de datavisualisation",
+      "type": "article",
+      "description": "Le traitement de l’information sous forme de données peut induire des représentations biaisées. À travers l’exemple du traitement médiatique de la crise sanitaire, cette activité interroge la manière de représenter les chiffres et d’induire la lecture des données.",
+      "url": "https://clemi.fr/fr/ressources/nos-ressources-pedagogiques/ressources-pedagogiques/emi-et-mathematiques-reperer-les-erreurs-de-datavisualisation.html",
+      "topics": ["visualisation", "erreurs", "media", "journalisme", "education", "enseignement"]
+    },
+    {
+      "id": "bad-data-takes",
+      "title": "Bad Data Takes",
+      "type": "compte twitter",
+      "description": "Compte twitter : critique de dataviz, avec humour",
+      "url": "https://twitter.com/BadDataTakes",
+      "topics": ["visualisation", "erreurs", "media", "humour"]
     }
   ]
   
