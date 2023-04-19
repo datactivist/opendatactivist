@@ -28,7 +28,7 @@ export default function Home() {
             <p>Des guides outillés pour construire des projets étape par étape</p>
           </a>
 
-          <a href="/methodes" className={styles.card}>
+          <a href="/docs" className={styles.card}>
             <h3>Articles &rarr;</h3>
             <p>Tous nos articles en accès libre, pour produire et utiliser des données</p>
           </a>

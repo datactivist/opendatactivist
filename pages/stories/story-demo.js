@@ -9,6 +9,7 @@ import DatagouvId from '../../components/stories/DatagouvId';
 import DiscourseFrame from '../../components/stories/DiscourseFrame';
 import LinksDisplay from '../../components/stories/LinksDisplay';
 import JsonGallery from '../../components/stories/JsonGallery';
+import DocsDisplay from '../../components/stories/DocsDisplay';
 
 
 const StoryDemo = () => {
@@ -67,6 +68,12 @@ const StoryDemo = () => {
             section: 'Autres ressources',
             component: JsonGallery,
             props: { filename: 'benchmark-datalab' },
+        },
+        {
+            title: 'Docs utiles',
+            section: 'Autres ressources',
+            component: DocsDisplay,
+            props: { ids: ['factualite', 'standards-territoires'] },
         },
         {
             title: 'Conversation',

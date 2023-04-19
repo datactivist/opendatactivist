@@ -5,7 +5,7 @@
   .search {
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 60%;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -48,6 +48,15 @@
   .story-card p {
     margin-bottom: 0.5rem;
   }
+
+  .story-image {
+    width: 100%; /* La largeur occupera 100% de l'espace disponible */
+    height: 200px; /* Définit une hauteur fixe */
+    object-fit: cover; /* Redimensionne et rogne l'image pour remplir l'espace tout en conservant son aspect ratio */
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
   
   .topic {
     background-color: #173541; 
@@ -92,5 +101,27 @@
   
   .roadmap-content p {
     margin-bottom: 0;
+  }
+  
+  .type-filter {
+    width: 100%;
+    max-width: 250px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    appearance: none; /* Remove default appearance for certain browsers */
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    font-size: 1.2rem;
+  }
+  
+  .type-filter:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 1px #0070f3;
   }
   

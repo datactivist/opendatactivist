@@ -44,6 +44,8 @@
     "react-syntax-highlighter": "^15.5.0",
     "react-table": "^7.8.0",
     "recharts": "^2.5.0",
+    "rehype": "^12.0.1",
+    "rehype-parse": "^8.0.4",
     "remark-html": "^15.0.2"
   }
 }

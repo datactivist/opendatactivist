@@ -70,7 +70,7 @@ export default function Layout({ children }) {
             <Link href="/products" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Data products</Button>
             </Link>
-            <Link href="/methodes" passHref>
+            <Link href="/docs" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Articles</Button>
             </Link>
           </nav>
