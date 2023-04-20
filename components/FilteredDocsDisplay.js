@@ -34,7 +34,7 @@ const FilteredDocsDisplay = ({ docsList }) => {
           >
             <div className={styles['image-container']}>
               {doc.metadata.image && (
-                <img src={doc.metadata.image} alt={doc.metadata.title} />
+                <img src={doc.metadata.image} alt={doc.metadata.title} style={{ maxHeight: '200px', objectFit: 'cover', width: '100%' }} />
               )}
             </div>
             <h2>{doc.metadata.title}</h2>
