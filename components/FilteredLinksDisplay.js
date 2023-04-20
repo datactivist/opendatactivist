@@ -25,9 +25,7 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
 
   return (
     <div style={{ backgroundColor: '#f8f8f8', padding: '1rem', borderRadius: '10px', marginTop: '10px', marginBottom :'10px' }}>
-      <h2>Liens utiles</h2>
-      <br />
-      <div className={styles.gallery}>
+      <div className={styles.gallery} style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))' }}>
         {links.map((link) => (
           <div
             key={link.id}

@@ -28,9 +28,13 @@ Du texte
 
 <br></br>
 
+## Cas pratiques
+
 %%FilteredDocsDisplay:factualite,standards-territoires%%
 
-%%FilteredLinksDisplay:dicosigles%%
+## Liens utiles
+
+%%FilteredLinksDisplay:dicosigles,nifnaf-dataviz-covid%%
 
 ## Un autre titre
 
