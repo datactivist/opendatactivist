@@ -46,13 +46,16 @@ Sylvain explique comment cet instinct se manifeste dans notre société, notamme
 - Hans Rosling et la factualité
 - Les instincts dramatiques
 
+<br></br>
+
+## [Accéder à la présentation](https://datactivist.coop/infolab_poitiers/facto_sandwich/#1)
+
+<br></br>
+
 <div class="responsiveIframe">
   <iframe
     width="100%"
     height="500"
     src="https://datactivist.coop/infolab_poitiers/facto_sandwich/#1">
   </iframe>
-  <div class="fullscreen-button" style="text-align: center;">
-    <button>Voir en plein écran</button>
-  </div>
 </div>
