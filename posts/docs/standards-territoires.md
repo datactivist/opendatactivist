@@ -38,6 +38,8 @@ Les exemples internationaux incluent :
 - Open Contracting Data Standard (OCDS)
 - International Aid Transparency Initiative (IATI)
 
+%%FilteredDocsDisplay:presentation-gtfs%%
+
 # Sommaire
 
 - Présentation
@@ -60,3 +62,9 @@ Les exemples internationaux incluent :
     src="https://datactivist.coop/nec/#1">
   </iframe>
 </div>
+
+<br></br>
+
+## Guides complémentaires
+
+%%FilteredDocsDisplay:ouvrir-donnees-transports%%

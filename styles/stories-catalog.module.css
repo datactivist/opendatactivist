@@ -60,7 +60,7 @@
   
   .topic {
     background-color: #173541; 
-    border-radius: 5px;
+    border-radius: 20px;
     color: rgb(255, 255, 255);
     padding: 3px 8px;
     margin-right: 5px;
@@ -111,7 +111,7 @@
     margin-bottom: 1rem;
     margin-left: 2rem;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     appearance: none; /* Remove default appearance for certain browsers */
