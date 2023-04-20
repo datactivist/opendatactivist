@@ -13,7 +13,7 @@ const LinksDisplay = ({ ids = [] }) => {
     <div className={styles.container}>
         <h2>Ressources utiles</h2>
         <br></br>
-      <div className={styles.gallery}>
+        <div className={styles.gallery} style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }}>
         {filteredLinks.map((link) => (
           <div
             key={link.id}
@@ -24,11 +24,6 @@ const LinksDisplay = ({ ids = [] }) => {
             <p>{link.description}</p>
             <br />
             <div>
-              {link.topics.map((topic, index) => (
-                <span key={index} className={styles.topic}>
-                  {topic}
-                </span>
-              ))}
             </div>
           </div>
         ))}
