@@ -47,13 +47,16 @@ Les exemples internationaux incluent :
 - Quelques exemples internationaux
 - Conclusion
 
+<br></br>
+
+## [Accéder à la présentation](https://datactivist.coop/nec/#1)
+
+<br></br>
+
 <div class="responsiveIframe">
   <iframe
     width="100%"
     height="500"
     src="https://datactivist.coop/nec/#1">
   </iframe>
-  <div class="fullscreen-button" style="text-align: center;">
-    <button>Voir en plein écran</button>
-  </div>
 </div>

@@ -2,50 +2,57 @@ import React, { useEffect, useState } from 'react';
 import { marked } from 'marked';
 import styles from '/styles/MarkdownContent.module.css';
 import Layout from './Layout';
+import FilteredDocsDisplay from './FilteredDocsDisplay';
+import FilteredLinksDisplay from './FilteredLinksDisplay';
+
+
 
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
   const [content, setContent] = useState('');
+  
 
-  useEffect(() => {
-    const fetchMarkdownContent = async () => {
-      try {
-        const res = await fetch(`/api/docs?filename=${filename}`);
-        const data = await res.json();
-        setMetadata(data.metadata);
-        setContent(marked(data.content));
-      } catch (error) {
-        console.error('Erreur lors de la récupération du contenu Markdown', error);
+  const createContentElements = (htmlContent) => {
+    const contentParts = htmlContent.split(/(%%FilteredDocsDisplay:[^%]*%%|%%FilteredLinksDisplay:[^%]*%%)/);
+    return contentParts.map((part, index) => {
+      const matchDocs = part.match(/%%FilteredDocsDisplay:([^%]*)%%/);
+      if (matchDocs) {
+        const docsList = matchDocs[1].split(",").map((doc) => doc.trim());
+        return <FilteredDocsDisplay key={`filtered-docs-display-${index}`} docsList={docsList} />;
+      } else {
+        const matchLinks = part.match(/%%FilteredLinksDisplay:([^%]*)%%/);
+        if (matchLinks) {
+          const linksList = matchLinks[1].split(",").map((link) => link.trim());
+          return <FilteredLinksDisplay key={`filtered-links-display-${index}`} ids={linksList} />;
+        } else {
+          return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
+        }
       }
-    };
-
-    fetchMarkdownContent();
-  }, [filename]);
-
-  const openFullscreen = (e) => {
-    e.preventDefault();
-    const iframe = e.target.closest(".responsiveIframe").querySelector("iframe");
-    if (iframe.requestFullscreen) {
-      iframe.requestFullscreen();
-    } else if (iframe.webkitRequestFullscreen) { // Safari
-      iframe.webkitRequestFullscreen();
-    } else if (iframe.msRequestFullscreen) { // IE11
-      iframe.msRequestFullscreen();
-    }
+    });
   };
 
-  useEffect(() => {
-    const handleButtonClick = (e) => {
-      if (e.target.closest(".fullscreen-button")) {
-        openFullscreen(e);
-      }
-    };
-
-    document.addEventListener("click", handleButtonClick);
-    return () => document.removeEventListener("click", handleButtonClick);
-  }, []);
-
-
+  const TitleWithBackground = ({ title }) => {
+    return (
+      <div style={{ position: 'relative' }}>
+        <h1 style={{ 
+          position: 'relative', 
+          textAlign: 'center', 
+          fontSize: '3rem', 
+          color: 'white', 
+          zIndex: 1, 
+          padding: '1rem', 
+          lineHeight: '1em', 
+          background: '#173541',
+          backgroundClip: 'text',
+          borderRadius: '10px',
+          fontWeight: '1000'
+        }}>
+          {title}
+        </h1>
+      </div>
+    );
+  };
+    
   useEffect(() => {
     const fetchMarkdownContent = async () => {
       try {
@@ -60,28 +67,23 @@ const MarkdownDocs = ({ filename }) => {
 
     fetchMarkdownContent();
   }, [filename]);
-
-
 
   return (
     <Layout>
-      <div style={{ backgroundColor: 'white', marginLeft: '10em', marginRight: '10em' }}> {/* Conteneur externe avec fond rose */}
-        <h1 style={{ textAlign: 'center', fontSize: '3rem' }}>{metadata.title}</h1>
-        <br></br>
+      <div style={{ backgroundColor: 'white', marginLeft: '10em', marginRight: '10em' }}>
+      <TitleWithBackground title={metadata.title} />
+        <br />
         <img
           src={metadata.image}
           alt={metadata.title}
-          style={{ width: '100%', display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: '20px' }}
+          style={{ width: '100%', display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: '10px' }}
         />
-        <br></br>
-        <p style={{ width: '80%', display: 'block', marginLeft: 'auto', fontSize:'1.5rem', marginRight: 'auto', color: '#696969' ,textAlign: 'center'}}>{metadata.description}</p>
-        <br></br>
-        <div
-          className={styles.markdownContent}
-          dangerouslySetInnerHTML={{ __html: content ? content : '' }}
-        />
-
-
+        <br />
+        <p style={{ width: '80%', display: 'block', marginLeft: 'auto', fontSize: '1.5rem', marginRight: 'auto', color: '#696969', textAlign: 'center' }}>{metadata.description}</p>
+        <br />
+        <div className={styles.markdownContent}>
+          {createContentElements(content)}
+        </div>
       </div>
     </Layout>
   );

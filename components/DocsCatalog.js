@@ -72,25 +72,27 @@ const DocsCatalog = () => {
       </select>
       <div className={styles.gallery}>
         {filteredDocs.map((doc) => (
-          <div
-            key={doc.name}
-            className={styles['story-card']}
-            onClick={() => handleCardClick(doc.name)}
-          >
-            {doc.metadata.image && (
-              <img
-                src={doc.metadata.image}
-                alt={`Illustration pour ${doc.metadata.title}`}
-                className={styles['story-image']}
-              />
-            )}
-            <h2>{doc.metadata.title}</h2>
-            <p>{doc.metadata.description}</p>
-          </div>
+          doc.metadata.index !== 0 && (
+            <div
+              key={doc.name}
+              className={styles['story-card']}
+              onClick={() => handleCardClick(doc.name)}
+            >
+              {doc.metadata.image && (
+                <img
+                  src={doc.metadata.image}
+                  alt={`Illustration pour ${doc.metadata.title}`}
+                  className={styles['story-image']}
+                />
+              )}
+              <h2>{doc.metadata.title}</h2>
+              <p>{doc.metadata.description}</p>
+            </div>
+          )
         ))}
       </div>
     </div>
   );
 };
 
-export default DocsCatalog
+export default DocsCatalog;
