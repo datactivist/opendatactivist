@@ -1,9 +1,0 @@
-﻿Jeu de données,Organisations,Description,Format,Statut,Mots clés
-Arbres remarquables,Ville de Paris,recensement des arbres exceptionnels de la ville de Paris.,CSV,Publié,"Environnement,Nature,Arbres"
-Prénoms,Ville de Lyon, liste des prénoms donnés à des enfants à leur naissance en France.,CSV,En cours de publication,"Prénom,Etat civil"
-Subventions,Ville de Montpellier,liste des subventions attribuées par l'État français à différentes organisations.,CSV,Non identifié,"Subventions,Transparence"
-Délibérations,Ville de Paris,comptes-rendus des décisions prises par les instances gouvernementales et administratives locales.,JSON,Publié,"Transparence,Délibérations"
-GTFS,Métropole de Rouen,ensemble de données standard pour la description des services de transport public en commun.,GTFS,Publié,Transports
-Achats,Région SUD,liste des marchés publics conclus par les administrations et les organismes publics.,CSV,En cours de publication,Transparence
-Abris vélo,CD Loire,emplacements des abris pour vélos dans les différentes villes.,JSON,Non identifié,"Transports,Vélo"
-Pistes cyclables,Région SUD,localisation des pistes cyclables sur les routes des différentes villes.,GeoJSON,Publié,"Transports,Vélo"

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import EmptyCsv from '../../../components/stories/EmptyCsv';
+import EmptyCsv from '../../../components/products/EmptyCsv';
 import Layout from '../../../components/Layout';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogTitle, TextField, Button } from '@mui/material';

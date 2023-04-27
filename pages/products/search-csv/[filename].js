@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import TableAnalysis from '../../../components/stories/TableAnalysis';
+import TableAnalysis from '../../../components/products/TableAnalysis';
 import Layout from '../../../components/Layout';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogTitle, TextField, Button } from '@mui/material';

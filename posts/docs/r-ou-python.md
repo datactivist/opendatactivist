@@ -1,6 +1,6 @@
 ---
 title: R ou Python - quel outil pour la Data Science ?
-image: /images/rpython-cover.jpeg
+image: /images/docs/rpython-cover.jpeg
 description: Comment choisir entre R et Python, deux langages de data science incontournables.
 type: Guide
 tags:
@@ -67,7 +67,7 @@ Les tâches courantes du data scientist peuvent être réalisées avec succès a
 
 <br></br>
 
-![table1](/images/rpython.png)
+![table1](/images/docs/rpython.png)
 
 *Liste (non-exhaustive) des librairies utilisées*
 
@@ -182,7 +182,7 @@ Essayons de récapituler tout ce qui a été dit…
 
 <br></br>
 
-![table2](/images/rpython-table2.png)
+![table2](/images/docs/rpython-table2.png)
 
 <br></br>
 

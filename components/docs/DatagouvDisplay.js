@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const DatagouvId = ({ ids }) => {
+const DatagouvDisplay = ({ ids }) => {
   const [datasetsInfo, setDatasetsInfo] = useState([]);
 
   useEffect(() => {
@@ -23,36 +23,28 @@ const DatagouvId = ({ ids }) => {
   const uniq = ids.length === 1;
 
   return (
-    <div id="datagouv-id">
-      <h2>Données ouvertes utilisées</h2>
+    <div>
       <p>
         Cette méthode se base sur{' '}
         {uniq
           ? 'un jeu de données ouvert, accessible'
           : 'plusieurs jeux de données ouverts, accessibles'}{' '}
-        via{' '}
-        <a href="https://data.gouv.fr" target="_blank" rel="noopener noreferrer">data.gouv.fr</a>
+        via <b>data.gouv.fr</b>
         &nbsp;:
       </p>
+      <div style={{ backgroundColor: '#f8f8f8', padding: '0.8rem', borderRadius: '10px', marginTop: '10px', marginBottom :'10px' }}>
       <div className={`${uniq ? '' : 'two-column-grid'} dataset-container`}>
-      {datasetsInfo.map((item, index) => (
-        <div key={index} className="dataset-item">
-          <h3>
-            {ids[index] && (
-              <a
-                href={`https://www.data.gouv.fr/fr/datasets/${ids[index]}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {item.title}
-              </a>
-            )}
-          </h3>
-          <p>{item.organization}</p>
-        </div>
-      ))}
-    </div>
-    <style jsx>{`
+        {datasetsInfo.map((item, index) => (
+          <div key={index} className="dataset-item">
+            <h3>
+              <a href={`https://www.data.gouv.fr/fr/datasets/${ids[index]}`} target="_blank" rel="noopener noreferrer">{item.title}</a>
+            </h3>
+            <p>{item.organization}</p>
+          </div>
+        ))}
+      </div>
+      </div>
+      <style jsx>{`
         #api-open-data-sources {
           margin-bottom: 60px;
         }
@@ -73,6 +65,11 @@ const DatagouvId = ({ ids }) => {
           color: black ;
           text-decoration: none;
         }
+        article a {
+          text-decoration: none;
+          color: black;
+          border: none;
+        }
         .dataset-container {
           margin: 30px auto;
           display: grid;
@@ -81,25 +78,37 @@ const DatagouvId = ({ ids }) => {
         }
         .dataset-item {
           padding: 20px;
-          background-color: #f8f8f8;
           border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          transition: background-color 0.2s ease;
+          background-color: #fff;
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
         }
         .dataset-item:hover {
-          background-color: #e8e8e8;
+          background-color: #fff;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          transform: scale(1.02);
         }
         h3 {
           margin-bottom: 10px;
           font-size: 1.2rem;
-          font-weight: 00;
+          font-weight: 700;
           font-family: 'Montserrat', sans-serif;
-        }
-        p {
-          font-size: 16px;
-          font-weight: 400;
-        }
-      `}</style>
-    </div>
-  );
+          cursor: pointer;
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+`}</style>
+
+        </div>
+    );
 };
 
-export default DatagouvId;
+export default DatagouvDisplay;
