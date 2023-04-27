@@ -68,7 +68,7 @@ function JsonGallery({ filename }) {
         margin: '1rem',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'flex-end',
+        justifyContent: 'flex-start',
       },
       searchInput: {
         backgroundColor: '#fff',

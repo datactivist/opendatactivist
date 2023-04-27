@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../styles/links-catalog.module.css';
+import styles from '../../styles/links-catalog.module.css';
 
 const FilteredDocsDisplay = ({ docsList }) => {
   const [docs, setDocs] = useState([]);

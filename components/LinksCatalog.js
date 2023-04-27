@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import linksMetadata from '../public/sitedata/links-catalog.json';
-import styles from '../styles/links-catalog.module.css';
+import styles from '../styles/Links-catalog.module.css';
 
 const LinksCatalog = ({ topicFilter = '' }) => {
   const [searchTerm, setSearchTerm] = useState('');

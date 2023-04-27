@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { marked } from 'marked';
-import styles from '/styles/MarkdownContent.module.css';
-import Layout from './Layout';
+import styles from '../../styles/MarkdownContent.module.css';
+import Layout from '../Layout';
 import FilteredDocsDisplay from './FilteredDocsDisplay';
 import FilteredLinksDisplay from './FilteredLinksDisplay';
-
+import DatagouvDisplay from './DatagouvDisplay';
+import JsonGalleryDisplay from './JsonGalleryDisplay';
 
 
 const MarkdownDocs = ({ filename }) => {
@@ -13,7 +14,7 @@ const MarkdownDocs = ({ filename }) => {
 
 
   const createContentElements = (htmlContent) => {
-    const contentParts = htmlContent.split(/(%%FilteredDocsDisplay:[^%]*%%|%%FilteredLinksDisplay:[^%]*%%)/);
+    const contentParts = htmlContent.split(/(%%FilteredDocsDisplay:[^%]*%%|%%FilteredLinksDisplay:[^%]*%%|%%DatagouvDisplay:[^%]*%%|%%JsonGalleryDisplay:[^%]*%%)/);
     return contentParts.map((part, index) => {
       const matchDocs = part.match(/%%FilteredDocsDisplay:([^%]*)%%/);
       if (matchDocs) {
@@ -25,11 +26,23 @@ const MarkdownDocs = ({ filename }) => {
           const linksList = matchLinks[1].split(",").map((link) => link.trim());
           return <FilteredLinksDisplay key={`filtered-links-display-${index}`} ids={linksList} />;
         } else {
-          return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
+          const matchDataGouv = part.match(/%%DatagouvDisplay:([^%]*)%%/);
+          if (matchDataGouv) {
+            const ids = matchDataGouv[1].split(",").map((id) => id.trim());
+            return <DatagouvDisplay key={`datagouv-display-${index}`} ids={ids} />;
+          } else {
+            const matchJsonGallery = part.match(/%%JsonGalleryDisplay:([^%]*)%%/);
+            if (matchJsonGallery) {
+              const [filename, title] = matchJsonGallery[1].split(",").map((value) => value.trim());
+              return <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title} />;
+            } else {
+              return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
+            }
+          }
         }
       }
     });
-  };
+  };  
 
   const TitleWithBackground = ({ title }) => {
     return (
@@ -70,16 +83,16 @@ const MarkdownDocs = ({ filename }) => {
 
   return (
     <Layout>
-      <div style={{ backgroundColor: 'white', marginLeft: '10em', marginRight: '10em' }}>
+      <div style={{ backgroundColor: 'white', margin: '0 auto', maxWidth: '800px', padding: '0 20px' }}>
         <TitleWithBackground title={metadata.title} />
         <br />
         <img
           src={metadata.image}
           alt={metadata.title}
-          style={{ width: '100%', display: 'block', marginLeft: 'auto', marginRight: 'auto', maxHeight: '400px', objectFit: 'cover', borderRadius: '10px' }}
+          style={{ width: '100%', display: 'block', maxHeight: '400px', objectFit: 'cover', borderRadius: '10px' }}
         />
         <br />
-        <p style={{ width: '80%', display: 'block', marginLeft: 'auto', fontSize: '1.5rem', marginRight: 'auto', color: '#696969', textAlign: 'center' }}>{metadata.description}</p>
+        <p style={{ width: '100%', display: 'block', fontSize: '1.5rem', color: '#696969', textAlign: 'center' }}>{metadata.description}</p>
         <br />
         <div className={styles.markdownContent}>
           {createContentElements(content)}

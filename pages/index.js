@@ -21,7 +21,7 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-        <a href="/stories"
+        <a href="/"
             className={styles.card}
           >
             <h3>Patchworks &rarr;</h3>

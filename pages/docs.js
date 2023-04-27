@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
-import DocsCatalog from '../components/DocsCatalog';
+import DocsCatalog from '../components/docs/DocsCatalog';
 
 const DocsIndex = () => {
   const router = useRouter();

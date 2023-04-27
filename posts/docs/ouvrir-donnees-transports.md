@@ -1,6 +1,6 @@
 ---
 title: Pourquoi et comment ouvrir ses données de transport ?
-image: /images/transport1.png
+image: /images/docs/transport1.png
 description: Une méthode en trois étapes, qui peut être mise en oeuvre par des personnes ayant un niveau débutant.
 type: Guide
 tags:
@@ -15,7 +15,7 @@ Pour connaître les horaires des cars régionaux et scolaires, ou ceux des bus d
 
 <br></br>
 
-![transport2](/images/transport2.png)
+![transport2](/images/docs/transport2.png)
 
 <br></br>
 
@@ -80,7 +80,7 @@ A cette étape, on suppose que les données sur le réseau de transports sont fa
 
 <br></br>
 
-![transport3](/images/transport3.png)
+![transport3](/images/docs/transport3.png)
 
 <br></br>
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
-import storiesMetadata from '../public/sitedata/stories-catalog.json';
-import styles from '../styles/stories-catalog.module.css';
+import storiesMetadata from '../../public/sitedata/stories-catalog.json';
+import styles from '../../styles/stories-catalog.module.css';
 
 const StoriesCatalog = ({ topicFilter = '' }) => {
   const [searchTerm, setSearchTerm] = useState('');

@@ -64,9 +64,6 @@ export default function Layout({ children }) {
             <Link href="/" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Accueil</Button>
             </Link>
-            <Link href="/stories" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Patchworks</Button>
-            </Link>
             <Link href="/products" passHref>
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Data products</Button>
             </Link>

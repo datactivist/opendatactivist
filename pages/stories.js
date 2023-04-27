@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
-import StoriesCatalog from '../components/StoriesCatalog';
+import StoriesCatalog from '../components/stories/StoriesCatalog';
 
 const StoriesIndex = () => {
   const router = useRouter();

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import MarkdownDocs from '../../components/MarkdownDocs';
+import MarkdownDocs from '../../components/docs/MarkdownDocs';
 
 const DocsPage = () => {
   const router = useRouter();

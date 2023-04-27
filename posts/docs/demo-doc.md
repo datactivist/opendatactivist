@@ -36,6 +36,11 @@ Du texte
 
 %%FilteredLinksDisplay:dicosigles,nifnaf-dataviz-covid%%
 
-## Un autre titre
+## Les données utilisées
 
-Encore du texte
+%%DatagouvDisplay:5c4ae55a634f4117716d5656,5b7ffc618b4c4169d30727e0%%
+
+## Un benchmark
+
+%%JsonGalleryDisplay:benchmark-datalab, Exemple de données%%
+
