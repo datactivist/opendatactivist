@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import ProductsCatalog from '../components/ProductsCatalog';
+import ProductsCatalog from '../components/products/ProductsCatalog';
 
 const ProductIndex = () => {
   return (

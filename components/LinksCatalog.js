@@ -1,11 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import linksMetadata from '../public/sitedata/links-catalog.json';
 import styles from '../styles/Links.catalog.module.css';
+import Cards from './nav/Cards';
+import Gallery from './nav/Gallery';
+import tagStyles from '../styles/Tags.module.css';
+import SearchBar from './nav/SearchBar';
 
-const LinksCatalog = ({ topicFilter = '' }) => {
+const LinksCatalog = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [tagFilter, setTagFilter] = useState('');
   const router = useRouter();
+  const { query } = router;
+
+  useEffect(() => {
+    if (query.tag) {
+      setTagFilter(decodeURIComponent(query.tag));
+    } else {
+      setTagFilter('');
+    }
+  }, [query]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
@@ -13,53 +27,49 @@ const LinksCatalog = ({ topicFilter = '' }) => {
 
   const filteredLinks = linksMetadata.filter((link) => {
     const searchValue = searchTerm.toLowerCase();
-    const topicMatch = topicFilter
-      ? link.topics.some((topic) => topic.toLowerCase() === topicFilter.toLowerCase())
+    const tagMatch = tagFilter
+      ? link.tags.some((tag) => tag.toLowerCase() === tagFilter.toLowerCase())
       : true;
 
     return (
-      topicMatch &&
+      tagMatch &&
       (link.title.toLowerCase().includes(searchValue) ||
         link.description.toLowerCase().includes(searchValue) ||
-        link.topics.some((topic) => topic.toLowerCase().includes(searchValue)))
+        link.tags.some((tag) => tag.toLowerCase().includes(searchValue)))
     );
   });
 
-  const handleCardClick = (linkId) => {
-    window.open(filteredLinks.find((link) => link.id === linkId).url, '_blank');
+  const handleCardClick = (linkId, tag) => {
+    const link = filteredLinks.find((link) => link.id === linkId);
+    console.log('link:', link);
+    if (tag) {
+      router.push(`/links?tag=${encodeURIComponent(tag)}`);
+    } else if (link && link.url) {
+      window.location.href = link.url;
+    } else {
+    }
   };
-
+  
+  
+  
+  
   return (
     <div className={styles.container}>
-      <h1>Catalogue des Liens</h1>
+      <h1>Ressources externes</h1>
       <br />
-      <input
-        className={styles.search}
-        type="search"
-        placeholder="Recherche"
-        value={searchTerm}
-        onChange={handleSearch}
-      />
-      <div className={styles.gallery}>
-        {filteredLinks.map((link) => (
-          <div
-            key={link.id}
-            className={styles['link-card']}
-            onClick={() => handleCardClick(link.id)}
-          >
-            <h2>{link.title}</h2>
-            <p>{link.description}</p>
-            <br />
-            <div>
-              {link.topics.map((topic, index) => (
-                <span key={index} className={styles.topic}>
-                  {topic}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+      {tagFilter && (
+        <div>
+          <a className={tagStyles.tag} onClick={() => router.push('/links')}>
+            {tagFilter}
+          </a>
+          <br />
+          <br />
+        </div>
+      )}
+      <Gallery>
+        <Cards items={filteredLinks} onClick={(linkId, tag) => handleCardClick(linkId, tag)} tagRoute="links" />
+      </Gallery>
     </div>
   );
 };
