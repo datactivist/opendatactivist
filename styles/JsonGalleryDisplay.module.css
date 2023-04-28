@@ -1,0 +1,70 @@
+.galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .galleryItem {
+    flex-basis: calc(50% - 1rem);
+    margin: 0.5rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: #173541;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #757575;
+  }
+  
+  .content {
+    font-size: 0.9rem;
+    color: #424242;
+  }
+  
+  .expandButton {
+    margin-top: 0.5rem;
+    color: #173541;
+  }
+  
+  .searchContainer {
+    margin: 1rem;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+  }
+  
+  .searchInput {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 20rem;
+    margin-right: 1rem;
+  }
+  
+  .header {
+    background-color: #173541;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+  }
+  

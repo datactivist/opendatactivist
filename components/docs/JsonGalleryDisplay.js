@@ -6,6 +6,7 @@ import LinkIcon from '@mui/icons-material/Link';
 const JsonGalleryDisplay = ({ filename }) => {
   const [data, setData] = useState([]);
   const [searchText, setSearchText] = useState('');
+  const [expanded, setExpanded] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -17,10 +18,12 @@ const JsonGalleryDisplay = ({ filename }) => {
     fetchData();
   }, [filename]);
 
-  const [expanded, setExpanded] = useState({});
-
   const toggleExpand = (index) => {
-    setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
+    setExpanded((prev) => {
+      const newState = [...prev];
+      newState[index] = !newState[index];
+      return newState;
+    });
   };
 
   const styles = {
@@ -29,6 +32,8 @@ const JsonGalleryDisplay = ({ filename }) => {
       flexWrap: 'wrap',
       justifyContent: 'center',
       marginTop: '1rem',
+      flexBasis: 'calc((100% - 2rem)/3)',
+      flexBasis: 'calc((100% - 2rem)/3)',
     },
     galleryItem: {
       flexBasis: 'calc(50% - 1rem)',
@@ -38,10 +43,13 @@ const JsonGalleryDisplay = ({ filename }) => {
       backgroundColor: '#fff',
       borderRadius: '8px',
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-      transition: 'box-shadow 0.2s ease-in-out',
+      transition: 'box-shadow 0.2s ease-in-out, max-height 0.5s ease-in-out', // Transition pour la hauteur de la carte
       '&:hover': {
         boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
       },
+      marginBottom: '1rem',
+      maxHeight: '400px', // Hauteur maximale de la carte
+      overflow: 'hidden', // Cache le contenu qui dépasse
     },
     title: {
       fontSize: '1.1rem',
@@ -63,6 +71,11 @@ const JsonGalleryDisplay = ({ filename }) => {
       marginTop: '0.5rem',
       color: '#173541',
     },
+    expandButtonContainer: {
+      marginTop: '0.5rem',
+      display: 'flex',
+      justifyContent: 'center',
+    },
     searchContainer: {
       margin: '1rem',
       display: 'flex',
@@ -83,13 +96,18 @@ const JsonGalleryDisplay = ({ filename }) => {
       fontWeight: 'bold',
       borderRadius: '8px 8px 0 0',
     },
+    expandAllButton: {
+      margin: '1rem',
+      color: '#173541',
+    },
   };
 
-  const filteredData = Array.isArray(data) ? data.filter((item) => {
-    const values = Object.values(item).join('').toLowerCase();
-    return values.includes(searchText.toLowerCase());
-  }) : [];
-  
+  const filteredData = Array.isArray(data)
+    ? data.filter((item) => {
+      const values = Object.values(item).join('').toLowerCase();
+      return values.includes(searchText.toLowerCase());
+    })
+    : [];
 
   return (
     <>
@@ -112,58 +130,83 @@ const JsonGalleryDisplay = ({ filename }) => {
       <div style={styles.galleryContainer}>
         {filteredData.map((item, index) => (
           <div key={index} style={styles.galleryItem}>
-            <Card style={styles.card}>
-              <CardContent>
-                {Object.keys(item).map((key, i) => {
-                  const content = item[key];
-                  const isLongText = content.length > 50;
-                  const shouldExpand = expanded[index];
-                  const displayText = shouldExpand
-                    ? content
-                    : content.substring(0, 200) + '...';
-                  const buttonText = shouldExpand ? 'Réduire' : 'Déplier';
-                  const isUrl =
-                    key.toLowerCase().includes('url') || content.includes('http');
-  
-                  return (
-                    <div key={i}>
-                      {i === 0 ? (
-                        <Typography style={styles.header}>{content}</Typography>
-                      ) : (
-                        <>
-                          <Typography style={styles.title}>{key}</Typography>
-                          {isUrl ? (
-                            <Typography style={styles.content}>
-                              <a
-                                href={content}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <LinkIcon style={{ verticalAlign: 'middle' }} />{' '}
-                                Accéder au site
-                              </a>
-                            </Typography>
-                          ) : (
-                            <Typography style={styles.content}>
-                              {displayText}
-                            </Typography>
-                          )}
-                          {isLongText && (
-                            <Button
-                              variant="text"
-                              style={styles.expandButton}
-                              onClick={() => toggleExpand(index)}
-                            >
-                              {buttonText}
-                            </Button>
-                          )}
-                        </>
-                      )}
-                    </div>
-                  );
-                })}
-              </CardContent>
-            </Card>
+            <Card style={{ ...styles.card, maxHeight: expanded[index] ? 'none' : '400px' }}>
+  <CardContent style={{ height: '100%' }}>
+  {Object.keys(item)
+  .sort((key1, key2) => {
+    if (key1.toLowerCase().includes('url')) return -1;
+    if (key2.toLowerCase().includes('url')) return 1;
+    return 0;
+  })
+  .map((key, i) => {
+    const content = item[key];
+    const isLongText = content.length > 50;
+    const shouldExpand = expanded[index];
+    const displayText = shouldExpand ? content : content.substring(0, 200) + '...';
+    const buttonText = shouldExpand ? 'Réduire' : 'Déplier';
+    const isUrl = key.toLowerCase().includes('url') || content.includes('http');
+
+    return (
+      <div key={i} style={{ height: '100%' }}>
+        {i === 0 ? (
+          <Typography style={styles.header}>{content}</Typography>
+        ) : (
+          <>
+            <Typography style={styles.title}>{key}</Typography>
+            {isUrl ? (
+              <Typography style={styles.content}>
+                <a href={content} target="_blank" rel="noopener noreferrer">
+                  <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
+                </a>
+              </Typography>
+            ) : (
+              <Typography style={styles.content}>{displayText}</Typography>
+            )}
+            {isLongText && (
+              <div style={{ textAlign: 'right' }}>
+                {expanded[index] ? (
+                  <Button variant="text" style={styles.expandButton} onClick={() => toggleExpand(index)}>
+                    Réduire
+                  </Button>
+                ) : (
+                  <Button variant="text" style={styles.expandButton} onClick={() => toggleExpand(index)}>
+                    Déplier
+                  </Button>
+                )}
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    );
+  })}
+
+
+  </CardContent>
+  {Object.keys(item).length > 1 && (
+    <div style={{ textAlign: 'center' }}>
+      <Button
+        variant="text"
+        style={styles.expandAllButton}
+        onClick={() => toggleExpand(index)}
+      >
+        {expanded[index] ? 'Réduire tout' : 'Déplier tout'}
+      </Button>
+    </div>
+  )}
+</Card>
+
+            {styles.card.maxHeight === '400px' && (
+              <div style={styles.expandButtonContainer}>
+                <Button
+                  variant="text"
+                  style={styles.expandButton}
+                  onClick={() => toggleExpand(index)}
+                >
+                  Déplier
+                </Button>
+              </div>
+            )}
           </div>
         ))}
       </div>

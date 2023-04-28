@@ -20,7 +20,7 @@ const DocsGallery = () => {
       try {
         const response = await fetch('/api/docs?action=list');
         const data = await response.json();
-        setDocsMetadata(data);
+        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); // filtrer les éléments dont l'index est égal à 0
       } catch (error) {
         console.error('Erreur lors de la récupération des métadonnées des documents', error);
       }
