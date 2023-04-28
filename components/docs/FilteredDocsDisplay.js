@@ -37,7 +37,7 @@ const FilteredDocsDisplay = ({ docsList }) => {
       }}
     >
       <Gallery>
-      <Cards items={docs} onClick={handleCardClick} noTags={true} />
+      <Cards items={docs} onClick={handleCardClick} showTags={false} />
       </Gallery>
     </div>
   );

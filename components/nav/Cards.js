@@ -26,28 +26,30 @@ const Cards = ({
     items,
     onClick,
     tagRoute,
-    noTags = false, // défaut à false
+    showTags = true, 
     renderItem = (item) => (
       <>
         <div>
           {item.metadata?.image && (
-            <div href={`/docs/${item.name}`}>
               <img
                 src={item.metadata.image}
                 alt={item.metadata.title}
                 className={styles['card-image']}
               />
-            </div>
           )}
         </div>
         <h2 href={`/docs/${item.name}`}>{item.metadata ? item.metadata.title : item.title}</h2>
         <p>{item.metadata ? item.metadata.description : item.description}</p>
-        {!noTags && renderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
+        {showTags && renderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
       </>
     ),
   }) => {
     const handleClick = (item) => {
-      onClick(item.name);
+      if (item.url) {
+        window.open(item.url, '_blank');
+      } else {
+        onClick(item.name);
+      }
     };
   
     return (
@@ -60,7 +62,6 @@ const Cards = ({
       </>
     );
   };
-  
   
 
 export default Cards;
