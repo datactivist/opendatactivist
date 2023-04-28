@@ -34,7 +34,8 @@ const MarkdownDocs = ({ filename }) => {
             const matchJsonGallery = part.match(/%%JsonGalleryDisplay:([^%]*)%%/);
             if (matchJsonGallery) {
               const [filename, title] = matchJsonGallery[1].split(",").map((value) => value.trim());
-              return <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title} />;
+              return  <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title} />;
+
             } else {
               return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
             }
