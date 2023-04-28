@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .card-image {
+    width: 100%; /* La largeur occupera 100% de l'espace disponible */
+    height: 150px; /* Définit une hauteur fixe */
+    object-fit: cover; /* Redimensionne et rogne l'image pour remplir l'espace tout en conservant son aspect ratio */
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  

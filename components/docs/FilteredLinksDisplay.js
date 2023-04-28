@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../../styles/Links.catalog.module.css';
+import Cards from '../nav/Cards';
+import Gallery from '../nav/Gallery';
 
 const FilteredLinksDisplay = ({ ids = [] }) => {
   const [links, setLinks] = useState([]);
@@ -25,21 +27,9 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
 
   return (
     <div style={{ backgroundColor: '#f8f8f8', padding: '1rem', borderRadius: '10px', marginTop: '10px', marginBottom :'10px' }}>
-      <div className={styles.gallery} style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))' }}>
-        {links.map((link) => (
-          <div
-            key={link.id}
-            className={styles['link-card']}
-            onClick={() => handleCardClick(link.id)}
-          >
-            <h2>{link.title}</h2>
-            <p>{link.description}</p>
-            <br />
-            <div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <Gallery>
+        <Cards items={links} onClick={handleCardClick} noTags={true} />
+      </Gallery>
     </div>
   );
 };

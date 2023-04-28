@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../../styles/stories-catalog.module.css';
+import Cards from '../nav/Cards';
+import Gallery from '../nav/Gallery';
+import SearchBar from '../nav/SearchBar';
+import TypeFilter from '../nav/TypeFilter';
+import styles from '../../styles/Tags.module.css';
 
-const DocsCatalog = () => {
+const DocsGallery = () => {
+  const router = useRouter();
+  const { query } = router;
+
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('');
+  const [selectedTag, setSelectedTag] = useState('');
   const [docsMetadata, setDocsMetadata] = useState([]);
-  const router = useRouter();
 
   useEffect(() => {
     const fetchDocsMetadata = async () => {
@@ -20,7 +27,13 @@ const DocsCatalog = () => {
     };
 
     fetchDocsMetadata();
-  }, []);
+
+    if (query.tag) {
+      setSelectedTag(decodeURIComponent(query.tag));
+    } else {
+      setSelectedTag('');
+    }
+  }, [query]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
@@ -38,9 +51,13 @@ const DocsCatalog = () => {
   const filteredDocs = docsMetadata.filter((doc) => {
     const searchValue = searchTerm.toLowerCase();
     const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
+    const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
+    const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
 
     return (
       typeMatch &&
+      typeUrl &&
+      tagUrl &&
       (doc.metadata.title.toLowerCase().includes(searchValue) ||
         doc.metadata.description.toLowerCase().includes(searchValue))
     );
@@ -51,48 +68,27 @@ const DocsCatalog = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div>
+      <br />
       <h1>Catalogue des contenus</h1>
-      <br></br>
-      <br></br>
-      <input
-        className={styles.search}
-        type="search"
-        placeholder="Recherche"
-        value={searchTerm}
-        onChange={handleSearch}
-      />
-      <select value={selectedType} onChange={handleTypeFilter} className={styles['type-filter']}>
-        <option value="">Tous les types</option>
-        {getUniqueTypes().map((type, index) => (
-          <option key={index} value={type}>
-            {type}
-          </option>
-        ))}
-      </select>
-      <div className={styles.gallery}>
-        {filteredDocs.map((doc) => (
-          doc.metadata.index !== 0 && (
-            <div
-              key={doc.name}
-              className={styles['story-card']}
-              onClick={() => handleCardClick(doc.name)}
-            >
-              {doc.metadata.image && (
-                <img
-                  src={doc.metadata.image}
-                  alt={`Illustration pour ${doc.metadata.title}`}
-                  className={styles['story-image']}
-                />
-              )}
-              <h2>{doc.metadata.title}</h2>
-              <p>{doc.metadata.description}</p>
-            </div>
-          )
-        ))}
-      </div>
+      <br />
+      <br />
+      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+      <TypeFilter selectedType={selectedType} handleTypeFilter={handleTypeFilter} uniqueTypes={getUniqueTypes()} />
+      {selectedTag && (
+  <div>
+    <a className={styles.tag} onClick={() => router.push('/docs')}>
+      {selectedTag}
+    </a>
+    <br></br>
+    <br></br>
+  </div>
+)}
+      <Gallery>
+      <Cards items={filteredDocs} onClick={(linkId, tag) => handleCardClick(linkId, tag)} tagRoute="docs" />
+      </Gallery>
     </div>
   );
 };
 
-export default DocsCatalog;
+export default DocsGallery;
