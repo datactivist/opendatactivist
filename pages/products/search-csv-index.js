@@ -73,6 +73,12 @@ const Search = () => {
             </button>
           </Link>
           <br></br>
+          <Link href={`/products/json-gallery/${selectedFile}`} passHref>
+            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+              Voir dans une vue gallerie
+            </button>
+          </Link>
+          <br></br>
           <Link href={`/products/empty-csv/${selectedFile}`} passHref>
             <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
               Analyser le taux de remplissage

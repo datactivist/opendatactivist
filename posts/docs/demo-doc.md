@@ -43,4 +43,3 @@ Du texte
 ## Un benchmark
 
 %%JsonGalleryDisplay:benchmark-datalab, Exemple de données%%
-

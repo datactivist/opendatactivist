@@ -12,6 +12,7 @@ const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
   const [content, setContent] = useState('');
 
+  const [isGalleryExpanded, setIsGalleryExpanded] = useState(false);
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(/(%%FilteredDocsDisplay:[^%]*%%|%%FilteredLinksDisplay:[^%]*%%|%%DatagouvDisplay:[^%]*%%|%%JsonGalleryDisplay:[^%]*%%)/);
@@ -34,7 +35,8 @@ const MarkdownDocs = ({ filename }) => {
             const matchJsonGallery = part.match(/%%JsonGalleryDisplay:([^%]*)%%/);
             if (matchJsonGallery) {
               const [filename, title] = matchJsonGallery[1].split(",").map((value) => value.trim());
-              return  <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title} />;
+              return  <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title}  isExpanded={isGalleryExpanded}
+              setIsExpanded={setIsGalleryExpanded} />;
 
             } else {
               return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
@@ -84,7 +86,7 @@ const MarkdownDocs = ({ filename }) => {
 
   return (
     <Layout>
-      <div style={{ backgroundColor: 'white', margin: '0 auto', maxWidth: '800px', padding: '0 20px' }}>
+      <div style={{ backgroundColor: 'white', margin: '0 auto', maxWidth: '900px', padding: '0 20px' }}>
         <TitleWithBackground title={metadata.title} />
         <br />
         <img
