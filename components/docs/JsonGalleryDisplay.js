@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Grid, Card, CardContent, Typography, Button, TextField, InputAdornment } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
+import { Card, CardContent, Typography, Dialog, DialogTitle, DialogContent, Button } from '@mui/material';
+import SearchBar from '../nav/SearchBar';
 import LinkIcon from '@mui/icons-material/Link';
 
 const JsonGalleryDisplay = ({ filename }) => {
   const [data, setData] = useState([]);
-  const [searchText, setSearchText] = useState('');
-  const [expanded, setExpanded] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCard, setSelectedCard] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,198 +18,189 @@ const JsonGalleryDisplay = ({ filename }) => {
     fetchData();
   }, [filename]);
 
-  const toggleExpand = (index) => {
-    setExpanded((prev) => {
-      const newState = [...prev];
-      newState[index] = !newState[index];
-      return newState;
-    });
-  };
-
   const styles = {
     galleryContainer: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      justifyContent: 'center',
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(40%, 2fr))',
+      justifyContent: 'left',
       marginTop: '1rem',
-      flexBasis: 'calc((100% - 2rem)/3)',
-      flexBasis: 'calc((100% - 2rem)/3)',
+      backgroundColor: 'rgba(240, 240, 240, 0.5)',
+      borderRadius: '10px',
     },
     galleryItem: {
-      flexBasis: 'calc(50% - 1rem)',
       margin: '0.5rem',
     },
     card: {
       backgroundColor: '#fff',
       borderRadius: '8px',
       boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-      transition: 'box-shadow 0.2s ease-in-out, max-height 0.5s ease-in-out', // Transition pour la hauteur de la carte
       '&:hover': {
         boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
+        transform: 'scale(1.02)',
       },
       marginBottom: '1rem',
-      maxHeight: '400px', // Hauteur maximale de la carte
-      overflow: 'hidden', // Cache le contenu qui dépasse
+      cursor: 'pointer',
     },
     title: {
       fontSize: '1.1rem',
       fontWeight: 'bold',
       marginBottom: '0.5rem',
-      marginTop: '1rem',
-      color: '#173541',
+      marginTop: '0rem',
     },
-    subtitle: {
-      fontSize: '1rem',
-      marginBottom: '0.5rem',
-      color: '#757575',
+    firstTitle: {
+      color: '#ffffff',
+      backgroundColor: '#173541',
+      padding: '0.25rem',
+      borderRadius: '6px',
     },
     content: {
       fontSize: '0.9rem',
       color: '#424242',
+      marginBottom: '1rem',
     },
-    expandButton: {
-      marginTop: '0.5rem',
-      color: '#173541',
-    },
-    expandButtonContainer: {
-      marginTop: '0.5rem',
-      display: 'flex',
-      justifyContent: 'center',
-    },
-    searchContainer: {
-      margin: '1rem',
-      display: 'flex',
-      alignItems: 'left',
-      justifyContent: 'flex-start',
-    },
-    searchInput: {
-      backgroundColor: '#fff',
-      borderRadius: '8px',
-      width: '20rem',
-      marginRight: '1rem',
-    },
-    header: {
-      backgroundColor: '#173541',
-      color: '#fff',
-      padding: '0.5rem',
-      fontSize: '1.2rem',
+    dialogTitle: {
       fontWeight: 'bold',
-      borderRadius: '8px 8px 0 0',
     },
-    expandAllButton: {
-      margin: '1rem',
-      color: '#173541',
+    dialogContent: {
+      fontSize: '1rem',
+    },
+    dialogField: {
+      backgroundColor: '#ffffff',
+      borderRadius: '6px',
+      padding: '0.5rem',
+      marginBottom: '1rem',
+      marginTop: '1rem',
+    },
+    dialogBackground: {
+      backgroundColor: 'rgba(240, 240, 240, 0.5)',
     },
   };
 
-  const filteredData = Array.isArray(data)
-    ? data.filter((item) => {
-      const values = Object.values(item).join('').toLowerCase();
-      return values.includes(searchText.toLowerCase());
-    })
-    : [];
+  const isUrl = (value) => typeof value === 'string' && value.startsWith('http');
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleCardClick = (cardData) => {
+    setSelectedCard(cardData);
+  };
+
+  const handleClose = () => {
+    setSelectedCard(null);
+  };
+
+  const [hoveredCard, setHoveredCard] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredCard(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredCard(null);
+  };
+
+  const filteredData = data.filter((item) => {
+    const values = Object.values(item).join('').toLowerCase();
+    return values.includes(searchTerm.toLowerCase());
+  });
 
   return (
     <>
-      <div style={styles.searchContainer}>
-        <TextField
-          label="Rechercher"
-          variant="outlined"
-          justifyContent="flex-start"
-          size="small"
-          onChange={(e) => setSearchText(e.target.value)}
-          InputProps={{
-            endAdornment: (
-              <InputAdornment position="end">
-                <SearchIcon style={{ color: '#173541' }} />
-              </InputAdornment>
-            ),
-          }}
-        />
+      <div style={{ display: 'block', justifyContent: 'space-between' }}>
+        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+        <a href={`/products/json-gallery/${filename}`} target="_blank" rel="noopener noreferrer">
+        <Button
+  variant="contained"
+  sx={{
+    backgroundColor: '#fff',
+    color: '#000',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    marginTop: '0rem',
+    paddingTop: '6px',
+    borderRadius: '8px',
+    marginBottom: '0.3rem',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+    borderColor: '#ccc',
+    cursor: 'pointer',
+    '&:hover': {
+      backgroundColor: '#E95459',
+      color: '#fff',
+      borderWidth: '1px',
+    },
+  }}
+>
+🖥 Voir la gallerie complète
+</Button>
+        </a>
+        <div style={styles.galleryContainer}>
+        {filteredData.slice(0, 4).map((item, index) => (
+            <div key={index} style={styles.galleryItem}>
+              <Card
+                style={
+                  index === hoveredCard
+                    ? { ...styles.card, boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)', transform: 'scale(1.02)' }
+                    : styles.card
+                }
+                onClick={() => handleCardClick(item)}
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <CardContent>
+                  {Object.entries(item).slice(0, 3).map(([key, content], i) => (
+                    <div key={i}>
+                      <Typography style={i === 0 ? { ...styles.title, ...styles.firstTitle } : styles.title}>
+                        {i === 0 ? content : key}
+                      </Typography>
+                      {i !== 0 && (
+                        isUrl(content) ? (
+                          <Typography style={styles.content}>
+                            <a href={content} target="_blank" rel="noopener noreferrer">
+                              <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
+                            </a>
+                          </Typography>
+                        ) : (
+                          <Typography style={styles.content}>{content}</Typography>
+                        )
+                      )}
+                    </div>
+                  ))}
+                </CardContent>
+              </Card>
+            </div>
+          ))}
+        </div>
       </div>
-      <div style={styles.galleryContainer}>
-        {filteredData.map((item, index) => (
-          <div key={index} style={styles.galleryItem}>
-            <Card style={{ ...styles.card, maxHeight: expanded[index] ? 'none' : '400px' }}>
-  <CardContent style={{ height: '100%' }}>
-  {Object.keys(item)
-  .sort((key1, key2) => {
-    if (key1.toLowerCase().includes('url')) return -1;
-    if (key2.toLowerCase().includes('url')) return 1;
-    return 0;
-  })
-  .map((key, i) => {
-    const content = item[key];
-    const isLongText = content.length > 50;
-    const shouldExpand = expanded[index];
-    const displayText = shouldExpand ? content : content.substring(0, 200) + '...';
-    const buttonText = shouldExpand ? 'Réduire' : 'Déplier';
-    const isUrl = key.toLowerCase().includes('url') || content.includes('http');
-
-    return (
-      <div key={i} style={{ height: '100%' }}>
-        {i === 0 ? (
-          <Typography style={styles.header}>{content}</Typography>
-        ) : (
-          <>
-            <Typography style={styles.title}>{key}</Typography>
-            {isUrl ? (
-              <Typography style={styles.content}>
-                <a href={content} target="_blank" rel="noopener noreferrer">
-                  <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
-                </a>
-              </Typography>
-            ) : (
-              <Typography style={styles.content}>{displayText}</Typography>
-            )}
-            {isLongText && (
-              <div style={{ textAlign: 'right' }}>
-                {expanded[index] ? (
-                  <Button variant="text" style={styles.expandButton} onClick={() => toggleExpand(index)}>
-                    Réduire
-                  </Button>
-                ) : (
-                  <Button variant="text" style={styles.expandButton} onClick={() => toggleExpand(index)}>
-                    Déplier
-                  </Button>
-                )}
-              </div>
-            )}
-          </>
-        )}
-      </div>
-    );
-  })}
-
-
-  </CardContent>
-  {Object.keys(item).length > 1 && (
-    <div style={{ textAlign: 'center' }}>
-      <Button
-        variant="text"
-        style={styles.expandAllButton}
-        onClick={() => toggleExpand(index)}
-      >
-        {expanded[index] ? 'Réduire tout' : 'Déplier tout'}
-      </Button>
-    </div>
-  )}
-</Card>
-
-            {styles.card.maxHeight === '400px' && (
-              <div style={styles.expandButtonContainer}>
-                <Button
-                  variant="text"
-                  style={styles.expandButton}
-                  onClick={() => toggleExpand(index)}
-                >
-                  Déplier
-                </Button>
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+      {selectedCard && (
+        <>
+          {(() => {
+            const [firstFieldValue] = Object.entries(selectedCard)[0];
+            return (
+              <Dialog open={!!selectedCard} onClose={handleClose} maxWidth="md" fullWidth>
+                <DialogTitle style={{ ...styles.dialogTitle, ...styles.firstTitle }}>{firstFieldValue}</DialogTitle>
+                <DialogContent style={styles.dialogBackground}>
+                  {Object.entries(selectedCard).map(([key, content], i) => (
+                    <div key={i} style={i !== 0 ? styles.dialogField : {}}>
+                      <Typography style={i !== 0 ? styles.dialogTitle : { display: 'none' }}>{key}</Typography>
+                      {i !== 0 && isUrl(content) ? (
+                        <Typography style={styles.content}>
+                          <a href={content} target="_blank" rel="noopener noreferrer">
+                            <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
+                          </a>
+                        </Typography>
+                      ) : (
+                        i !== 0 && <Typography style={styles.dialogContent}>{content}</Typography>
+                      )}
+                    </div>
+                  ))}
+                </DialogContent>
+              </Dialog>
+            );
+          })()}
+        </>
+      )}
     </>
   );
 };
