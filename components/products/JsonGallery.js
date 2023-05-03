@@ -9,6 +9,8 @@ const JsonGallery = ({ filename }) => {
     const [data, setData] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedCard, setSelectedCard] = useState(null);
+    const [activeFilter, setActiveFilter] = useState('');
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -25,27 +27,30 @@ const JsonGallery = ({ filename }) => {
 
     const styles = {
         galleryContainer: {
-            display: 'flex',
-            flexWrap: 'wrap',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(calc(33% - 1rem), 1fr))',
+            gridAutoRows: '1fr',
+            gridGap: '0.5rem',
             justifyContent: 'left',
             marginTop: '0.5rem',
-            backgroundColor :'rgba(240, 240, 240, 0.5)',
-            borderRadius : '10px',
+            backgroundColor: 'rgba(240, 240, 240, 0.5)',
+            borderRadius: '10px',
         },
         galleryItem: {
-            flexBasis: 'calc(33% - 1rem)',
-            margin: '0.5rem',
+            display: 'flex',
+            flexDirection: 'column',
         },
         card: {
+            flex: '1',
             backgroundColor: '#fff',
             borderRadius: '8px',
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
             '&:hover': {
                 boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
-                transform: 'scale(1.02)', // Ajouter cette ligne pour agrandir légèrement la carte au survol
+                transform: 'scale(1.02)',
             },
             marginBottom: '1rem',
-            cursor: 'pointer', // Ajouter cette ligne pour indiquer que la carte est cliquable
+            cursor: 'pointer',
         },
         title: {
             fontSize: '1.1rem',
@@ -108,8 +113,11 @@ const JsonGallery = ({ filename }) => {
 
     const filteredData = data.filter((item) => {
         const values = Object.values(item).join('').toLowerCase();
-        return values.includes(searchTerm.toLowerCase());
-    });
+        return (
+          values.includes(searchTerm.toLowerCase()) &&
+          (activeFilter === '' || item[Object.keys(item)[2]].toLowerCase() === activeFilter.toLowerCase())
+        );
+      });
 
     return (
         <Layout>
@@ -157,7 +165,7 @@ const JsonGallery = ({ filename }) => {
                 {selectedCard && (
                     <>
                         {(() => {
-                            const [firstFieldKey, firstFieldValue] = Object.entries(selectedCard)[0];
+                            const [firstFieldValue] = Object.entries(selectedCard)[0];
                             return (
                                 <Dialog open={!!selectedCard} onClose={handleClose} maxWidth="md" fullWidth>
                                     <DialogTitle style={{ ...styles.dialogTitle, ...styles.firstTitle }}>{firstFieldValue}</DialogTitle>

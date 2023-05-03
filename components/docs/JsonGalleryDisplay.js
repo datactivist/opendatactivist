@@ -8,6 +8,7 @@ const JsonGalleryDisplay = ({ filename }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCard, setSelectedCard] = useState(null);
 
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(`/api/data/${filename}`);
@@ -23,12 +24,20 @@ const JsonGalleryDisplay = ({ filename }) => {
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(40%, 2fr))',
       justifyContent: 'left',
-      marginTop: '1rem',
+      marginTop: '0.5rem',
       backgroundColor: 'rgba(240, 240, 240, 0.5)',
       borderRadius: '10px',
+      flexWrap: 'wrap',
     },
     galleryItem: {
       margin: '0.5rem',
+      width: '100%',
+    },
+    galleryItemWrapper: {
+      flexGrow: 1,
+      flexBasis: 'calc(50% - 1rem)',
+      margin: '0.5rem',
+      display: 'flex',
     },
     card: {
       backgroundColor: '#fff',
@@ -38,8 +47,9 @@ const JsonGalleryDisplay = ({ filename }) => {
         boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)',
         transform: 'scale(1.02)',
       },
-      marginBottom: '1rem',
+      marginBottom: '0rem',
       cursor: 'pointer',
+      height: '100%', // Ajout de cette ligne
     },
     title: {
       fontSize: '1.1rem',
@@ -110,65 +120,67 @@ const JsonGalleryDisplay = ({ filename }) => {
       <div style={{ display: 'block', justifyContent: 'space-between' }}>
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
         <a href={`/products/json-gallery/${filename}`} target="_blank" rel="noopener noreferrer">
-        <Button
-  variant="contained"
-  sx={{
-    backgroundColor: '#fff',
-    color: '#000',
-    fontSize: '16px',
-    fontWeight: 'bold',
-    marginTop: '0rem',
-    paddingTop: '6px',
-    borderRadius: '8px',
-    marginBottom: '0.3rem',
-    borderStyle: 'solid',
-    borderWidth: '1px',
-    borderColor: '#ccc',
-    cursor: 'pointer',
-    '&:hover': {
-      backgroundColor: '#E95459',
-      color: '#fff',
-      borderWidth: '1px',
-    },
-  }}
->
-🖥 Voir la gallerie complète
-</Button>
+          <Button
+            variant="contained"
+            sx={{
+              backgroundColor: '#fff',
+              color: '#000',
+              fontSize: '16px',
+              fontWeight: 'bold',
+              marginTop: '0rem',
+              paddingTop: '6px',
+              borderRadius: '8px',
+              marginBottom: '0.3rem',
+              borderStyle: 'solid',
+              borderWidth: '1px',
+              borderColor: '#ccc',
+              cursor: 'pointer',
+              '&:hover': {
+                backgroundColor: '#E95459',
+                color: '#fff',
+                borderWidth: '1px',
+              },
+            }}
+          >
+            🖥 Voir la gallerie complète
+          </Button>
         </a>
         <div style={styles.galleryContainer}>
-        {filteredData.slice(0, 4).map((item, index) => (
-            <div key={index} style={styles.galleryItem}>
-              <Card
-                style={
-                  index === hoveredCard
-                    ? { ...styles.card, boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)', transform: 'scale(1.02)' }
-                    : styles.card
-                }
-                onClick={() => handleCardClick(item)}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <CardContent>
-                  {Object.entries(item).slice(0, 3).map(([key, content], i) => (
-                    <div key={i}>
-                      <Typography style={i === 0 ? { ...styles.title, ...styles.firstTitle } : styles.title}>
-                        {i === 0 ? content : key}
-                      </Typography>
-                      {i !== 0 && (
-                        isUrl(content) ? (
-                          <Typography style={styles.content}>
-                            <a href={content} target="_blank" rel="noopener noreferrer">
-                              <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
-                            </a>
-                          </Typography>
-                        ) : (
-                          <Typography style={styles.content}>{content}</Typography>
-                        )
-                      )}
-                    </div>
-                  ))}
-                </CardContent>
-              </Card>
+          {filteredData.slice(0, 6).map((item, index) => (
+            <div key={index} style={styles.galleryItemWrapper}>
+              <div style={styles.galleryItem}>
+                <Card
+                  style={
+                    index === hoveredCard
+                      ? { ...styles.card, boxShadow: '0 0 20px rgba(0, 0, 0, 0.2)', transform: 'scale(1.02)' }
+                      : styles.card
+                  }
+                  onClick={() => handleCardClick(item)}
+                  onMouseEnter={() => handleMouseEnter(index)}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <CardContent>
+                    {Object.entries(item).slice(0, 3).map(([key, content], i) => (
+                      <div key={i}>
+                        <Typography style={i === 0 ? { ...styles.title, ...styles.firstTitle } : styles.title}>
+                          {i === 0 ? content : key}
+                        </Typography>
+                        {i !== 0 && (
+                          isUrl(content) ? (
+                            <Typography style={styles.content}>
+                              <a href={content} target="_blank" rel="noopener noreferrer">
+                                <LinkIcon style={{ verticalAlign: 'middle' }} /> Accéder au site
+                              </a>
+                            </Typography>
+                          ) : (
+                            <Typography style={styles.content}>{content}</Typography>
+                          )
+                        )}
+                      </div>
+                    ))}
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           ))}
         </div>
