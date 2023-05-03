@@ -48,6 +48,8 @@ const MarkdownDocs = ({ filename }) => {
   };
 
   const TitleWithBackground = ({ title, imageUrl }) => {
+    const smallScreen = window.innerWidth <= 768;
+  
     return (
       <div style={{ position: 'relative' }}>
         <img
@@ -65,11 +67,11 @@ const MarkdownDocs = ({ filename }) => {
           style={{
             position: 'absolute',
             top: '50%',
-            left: '5%', // Modifiez la valeur de "left" pour créer une marge à gauche
-            right: '5%', // Ajoutez une propriété "right" pour créer une marge à droite
+            left: smallScreen ? '10%' : '5%', 
+            right: smallScreen ? '10%' : '5%', 
             transform: 'translateY(-50%)',
             textAlign: 'center',
-            fontSize: '3rem',
+            fontSize: smallScreen ? '2rem' : '3rem',
             color: 'white',
             zIndex: 1,
             padding: '1rem',
@@ -83,7 +85,7 @@ const MarkdownDocs = ({ filename }) => {
         </h1>
       </div>
     );
-  };
+  };  
   
   
 

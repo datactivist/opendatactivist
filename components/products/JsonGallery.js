@@ -28,14 +28,15 @@ const JsonGallery = ({ filename }) => {
     const styles = {
         galleryContainer: {
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(calc(33% - 1rem), 1fr))',
-            gridAutoRows: '1fr',
-            gridGap: '0.5rem',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+            gap: '1rem',
+            padding: '1rem',
             justifyContent: 'left',
             marginTop: '0.5rem',
             backgroundColor: 'rgba(240, 240, 240, 0.5)',
             borderRadius: '10px',
-        },
+            flexWrap: 'wrap',
+          },
         galleryItem: {
             display: 'flex',
             flexDirection: 'column',
