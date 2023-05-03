@@ -15,6 +15,10 @@ index: 1
 
 > Ces deux check-list permettent de lister les étapes et le matériel nécessaires pour un hackathon. À adapter pour chaque évènement.
 
+## Guide complémentaire
+
+%%FilteredDocsDisplay:organiser-sprint-data%%
+
 ## Check-list des tâches et étapes
 
 ### [Accéder à la check-list](https://docs.google.com/spreadsheets/u/1/d/1FR8nTa9c78_P_x_rUG4RW-bV2GaoRZxtzKhNcXlu0kc/preview#gid=0)

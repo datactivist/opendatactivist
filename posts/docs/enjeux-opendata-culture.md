@@ -5,7 +5,7 @@ description: Appréhender le contexte et les opportunités d’une politique Ope
 type: Formation
 tags:
   - culture
-  - astuces
+  - stratégie
 index: 1
 --- 
 
