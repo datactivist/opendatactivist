@@ -1,0 +1,38 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["testing-library"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:jest-dom/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/prop-types": 0, // turn to 1 when ready
+    "no-unused-vars": 0, // turn to 2 when ready
+    "react/no-unescaped-entities": 0, // turn to 2 when ready
+    "no-empty": 0, // turn to 2 when ready
+    "no-undef": 0, // turn to 2 when ready
+    "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }],
+    "react-hooks/rules-of-hooks": 0, // turn to 1 when ready
+    "react-hooks/exhaustive-deps": 1,
+    "testing-library/no-unnecessary-act": 1
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  }
+}
