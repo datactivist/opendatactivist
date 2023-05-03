@@ -13,11 +13,12 @@
   }
   
   .card-image {
-    width: 100%; /* La largeur occupera 100% de l'espace disponible */
-    height: 150px; /* Définit une hauteur fixe */
-    object-fit: cover; /* Redimensionne et rogne l'image pour remplir l'espace tout en conservant son aspect ratio */
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
     border-radius: 4px;
     margin-bottom: 1rem;
+    cursor: pointer;
   }
   
   .card-title {
