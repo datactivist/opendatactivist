@@ -102,17 +102,37 @@
       "description": "Le programme d'open content du Palais national de Taiwan",
       "url": "https://theme.npm.edu.tw/opendata/?lang=2",
       "tags": ["culture", "portail", "open content", "musée", "international"]
+    },
+    {
+      "id": "openrefine",
+      "title": "Open Refine",
+      "type": "outil",
+      "description": "Un outil pour transformer et mettre en qualité des données",
+      "url": "  https://openrefine.org/",
+      "tags": ["qualité", "outil"]
+    },
+    {
+      "id": "dataproofer",
+      "title": "Data Proofer",
+      "type": "outil",
+      "description": "Réaliser automatiquement des contrôles sur les données et faire un diagnostic rapide",
+      "url": "https://dataproofer.org/",
+      "tags": ["qualité", "outil", "validation"]
+    },
+    {
+      "id": "tod",
+      "title": "Team Open Data",
+      "type": "outil",
+      "description": "Le forum francophone dédié à l'open data",
+      "url": "https://teamopendata.org/",
+      "tags": ["forum", "open data", "discussion"]
+    },
+    {
+      "id": "framateam",
+      "title": "FramaTeam",
+      "type": "outil",
+      "description": "Outil pour créer un espace de discussion d'équipe",
+      "url": "https://framateam.org/login",
+      "tags": ["forum", "discussion", "open source"]
     }
   ]
-
-
-
-
-
-
-
-
-  
-
-  
-  

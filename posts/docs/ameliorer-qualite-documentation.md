@@ -40,3 +40,7 @@ La présentation inclut également des exemples de données propres et sales, ai
     src="https://datactivist.coop/futurocite_ouvrir-ma-ville/qualite_donnees/index.html#1">
   </iframe>
 </div>
+
+# Guide complémentaire
+
+%%FilteredDocsDisplay:demo-open-refine%%
