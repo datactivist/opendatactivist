@@ -68,7 +68,7 @@ export default function Layout({ children }) {
               <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Data products</Button>
             </Link>
             <Link href="/docs" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Articles</Button>
+              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Docs</Button>
             </Link>
           </nav>
         </Toolbar>

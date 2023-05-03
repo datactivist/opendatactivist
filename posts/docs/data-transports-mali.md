@@ -1,6 +1,6 @@
 ---
 title: Data Transport Mali
-image: /images/docs/dtmali.png
+image: /images/docs/dtmali.jpeg
 description: Faciliter l’accès aux données de transports interurbains en Afrique de l'Ouest
 type: Cas pratique
 tags:

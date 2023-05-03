@@ -1,6 +1,6 @@
 ---
 title: Documenter et améliorer la qualité des données
-image: /images/docs/ameliorer-qualite-documentation.png
+image: /images/docs/ameliorer-qualite-documentation.jpeg
 description: Quelles sont les meilleuurs pratiques pour documenter des jeux de données et améliorer leur qualité ?
 type: Formation
 tags:

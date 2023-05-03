@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../../styles/Links.catalog.module.css';
 import Cards from '../nav/Cards';
 import Gallery from '../nav/Gallery';
 

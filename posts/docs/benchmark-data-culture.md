@@ -13,3 +13,9 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 # Liste des portails
 
 %%JsonGalleryDisplay:benchmark-data-culture, Exemple de données%%
+
+<br></br>
+
+# Lecture complémentaire
+
+%%FilteredDocsDisplay:enjeux-opendata-culture%%
