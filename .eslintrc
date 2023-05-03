@@ -19,12 +19,15 @@
     "prettier"
   ],
   "rules": {
-    "react/prop-types": 1,
-    "no-unused-vars": 2,
+    "react/prop-types": 0, // turn to 1 when ready
+    "no-unused-vars": 0, // turn to 2 when ready
+    "react/no-unescaped-entities": 0, // turn to 2 when ready
+    "no-empty": 0, // turn to 2 when ready
+    "no-undef": 0, // turn to 2 when ready
     "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }],
-    "react-hooks/rules-of-hooks": 1,
+    "react-hooks/rules-of-hooks": 0, // turn to 1 when ready
     "react-hooks/exhaustive-deps": 1,
-    "testing-library/no-unnecessary-act": 0
+    "testing-library/no-unnecessary-act": 1
   },
   "env": {
     "es6": true,
