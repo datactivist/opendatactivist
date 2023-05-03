@@ -38,6 +38,81 @@
       "description": "Compte twitter : critique de dataviz, avec humour",
       "url": "https://twitter.com/BadDataTakes",
       "tags": ["visualisation", "erreurs", "media", "humour"]
+    },
+    {
+      "id": "madada",
+      "title": "Ma DaDa",
+      "type": "outil",
+      "description": "Ma Dada est un site associatif qui permet de faire des demandes d’accès aux documents administratifs communicables.",
+      "url": "https://madada.fr/",
+      "tags": ["demande", "accès", "droit", "cada"]
+    },
+    {
+      "id": "datasheets-tod",
+      "title": "Datasheets for Datasets",
+      "type": "méthode",
+      "description": "Traduction et adaptation du modèle de description des données “Datasheet for Datasets”",
+      "url": "https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400",
+      "tags": ["qualité", "documentation", "métadonnées", "standards"]
+    },
+    {
+      "id": "greenpeace-cantines",
+      "title": "Crowdsourcing sur les menus des cantines",
+      "type": "article",
+      "description": "Retour sur une campagne open data pour repérer la viande dans les cantines",
+      "url": "https://medium.com/datactivist/greenpeace-retour-sur-une-campagne-open-data-pour-rep%C3%A9rer-la-viande-dans-les-cantines-5c12859f94ba",
+      "tags": ["alimentation", "media", "activisme", "crowdsourcing"]
+    },
+    {
+      "id": "pop-culture",
+      "title": "pop.culture.gouv",
+      "type": "portail",
+      "description": "POP : la plateforme ouverte du patrimoine",
+      "url": "https://www.pop.culture.gouv.fr/",
+      "tags": ["culture", "portail", "open content"]
+    },
+    {
+      "id": "musee-bretagne",
+      "title": "Collections du Musée de Bretagne",
+      "type": "portail",
+      "description": "Plus de 350 000 oeuvres et documents en accès libre",
+      "url": "http://collections.musee-bretagne.fr/",
+      "tags": ["culture", "portail", "open content", "musée", "bretagne"]
+    },
+    {
+      "id": "doremus",
+      "title": "Do-Ré-Mus",
+      "type": "portail",
+      "description": "Un moteur de recherche liant les données sur les dates des performances, les interprètes, les enregistrements, les instruments, les partitions, etc..",
+      "url": "http://data.doremus.org/",
+      "tags": ["culture", "portail", "open content", "musique"]
+    },
+    {
+      "id": "getty-museum",
+      "title": "Open content - Getty Museum",
+      "type": "portail",
+      "description": "Le programme d'open content du Getty Museum",
+      "url": "https://www.getty.edu/projects/open-content-program/",
+      "tags": ["culture", "portail", "open content", "musée", "international"]
+    },
+    {
+      "id": "palais-taiwan",
+      "title": "Open content - Palais national de Taiwan",
+      "type": "portail",
+      "description": "Le programme d'open content du Palais national de Taiwan",
+      "url": "https://theme.npm.edu.tw/opendata/?lang=2",
+      "tags": ["culture", "portail", "open content", "musée", "international"]
     }
   ]
+
+
+
+
+
+
+
+
+  
+
+  
   

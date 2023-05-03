@@ -1,6 +1,6 @@
 ---
 title: Factualité / Factfulness
-image: /images/docs/factualite.png
+image: /images/docs/factualite.jpeg
 description: Comment corriger ses mauvaises intuitions en utilisant les données ?
 type: Formation
 tags:

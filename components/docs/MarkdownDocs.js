@@ -35,8 +35,8 @@ const MarkdownDocs = ({ filename }) => {
             const matchJsonGallery = part.match(/%%JsonGalleryDisplay:([^%]*)%%/);
             if (matchJsonGallery) {
               const [filename, title] = matchJsonGallery[1].split(",").map((value) => value.trim());
-              return  <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title}  isExpanded={isGalleryExpanded}
-              setIsExpanded={setIsGalleryExpanded} />;
+              return <JsonGalleryDisplay key={`json-gallery-${index}`} filename={filename} title={title} isExpanded={isGalleryExpanded}
+                setIsExpanded={setIsGalleryExpanded} />;
 
             } else {
               return <div key={`markdown-part-${index}`} dangerouslySetInnerHTML={{ __html: part }} />;
@@ -45,29 +45,47 @@ const MarkdownDocs = ({ filename }) => {
         }
       }
     });
-  };  
+  };
 
-  const TitleWithBackground = ({ title }) => {
+  const TitleWithBackground = ({ title, imageUrl }) => {
     return (
       <div style={{ position: 'relative' }}>
-        <h1 style={{
-          position: 'relative',
-          textAlign: 'center',
-          fontSize: '3rem',
-          color: 'white',
-          zIndex: 1,
-          padding: '1rem',
-          lineHeight: '1em',
-          background: '#173541',
-          backgroundClip: 'text',
-          borderRadius: '10px',
-          fontWeight: '1000'
-        }}>
+        <img
+          src={imageUrl}
+          alt={title}
+          style={{
+            width: '100%',
+            display: 'block',
+            maxHeight: '400px',
+            objectFit: 'cover',
+            borderRadius: '10px',
+          }}
+        />
+        <h1
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '5%', // Modifiez la valeur de "left" pour créer une marge à gauche
+            right: '5%', // Ajoutez une propriété "right" pour créer une marge à droite
+            transform: 'translateY(-50%)',
+            textAlign: 'center',
+            fontSize: '3rem',
+            color: 'white',
+            zIndex: 1,
+            padding: '1rem',
+            lineHeight: '1em',
+            background: 'rgba(23, 53, 65, 0.8)',
+            borderRadius: '10px',
+            fontWeight: '1000',
+          }}
+        >
           {title}
         </h1>
       </div>
     );
   };
+  
+  
 
   useEffect(() => {
     const fetchMarkdownContent = async () => {
@@ -87,13 +105,8 @@ const MarkdownDocs = ({ filename }) => {
   return (
     <Layout>
       <div style={{ backgroundColor: 'white', margin: '0 auto', maxWidth: '900px', padding: '0 20px' }}>
-        <TitleWithBackground title={metadata.title} />
+      <TitleWithBackground title={metadata.title} imageUrl={metadata.image} />
         <br />
-        <img
-          src={metadata.image}
-          alt={metadata.title}
-          style={{ width: '100%', display: 'block', maxHeight: '400px', objectFit: 'cover', borderRadius: '10px' }}
-        />
         <br />
         <p style={{ width: '100%', display: 'block', fontSize: '1.5rem', color: '#696969', textAlign: 'center' }}>{metadata.description}</p>
         <br />
