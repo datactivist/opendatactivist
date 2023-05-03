@@ -1,6 +1,6 @@
 # Guide de contributions
 
-> **Note**
+> **Note**  
 > For an English version of this document, please see [CONTRIBUTING.en.md](/CONTRIBUTING.en.md).
 
 Merci de l'intérêt que vous portez à ce projet ! Toutes les contributions sont les bienvenues, qu'il s'agisse de rapports d'erreurs, de demandes de fonctionnalités, d'ajout de contenu, d'améliorations de la documentation ou de modifications du code.
@@ -47,4 +47,5 @@ npm run lint
 
 Alternativement, si vous utilisez **VSCode**, vous pouvez installer les extensions associés à **ESLint** et **Prettier** pour obtenir un feedback directement dans votre éditeur.
 
-Ce projet utilise husky pour s'assurer que le code est conforme avant chaque commit, si `npm run lint` ou `npm run test` renvoie des erreurs, le commit est annulé.
+> **Warning**  
+> Ce projet utilise [husky](https://www.npmjs.com/package/husky) pour s'assurer que le code est conforme avant chaque commit, si `npm run lint` ou `npm run test` renvoie des erreurs, le commit est annulé.

@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-> **Note**
+> **Note**  
 > Pour une version française de ce document, veuillez consulter [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 Thank you for your interest in contributing to our project! We welcome all contributions, including bug reports, feature requests, documentation improvements, and code changes.
@@ -45,4 +45,5 @@ npm run lint
 
 Alternatively, if you are using **VSCode**, you can install the associated **ESLint** and **Prettier** extensions to get feedback directly in your editor.
 
-This project uses husky to ensure that the code is compliant before each commit, if `npm run lint` or `npm run test` returns errors, the commit is cancelled.
+> **Warning**  
+> This project uses husky to ensure that the code is compliant before each commit, if `npm run lint` or `npm run test` returns errors, the commit is cancelled.

@@ -2,11 +2,8 @@
 
 ## Installation in development mode
 
-### Prerequisites
-
-You need to have node installed (v12 or later release)
-
-### Installation
+> **Warning**  
+> You need to have node installed (v12 or later release)
 
 Clone this repository :
 

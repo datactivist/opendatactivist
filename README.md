@@ -2,7 +2,8 @@ A website to learn data and open data, based on Next.js.
 
 ## To clone and run on your local setup :
 
-**You need to have node installed (v12 or later release)**
+> **Warning**  
+> You need to have node installed (v12 or later release)
 
 Clone this repository :
 
@@ -24,3 +25,7 @@ npm run dev
 ```
 
 By default, the development server is accessible at the following address: http://localhost:3000.
+
+## Contributing
+
+If you wish to contribute in any forms, please read the [contributing guidelines](/CONTRIBUTING.md) on how you can do so.
