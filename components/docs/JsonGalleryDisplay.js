@@ -22,7 +22,7 @@ const JsonGalleryDisplay = ({ filename }) => {
   const styles = {
     galleryContainer: {
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(40%, 2fr))',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
       justifyContent: 'left',
       marginTop: '0.5rem',
       backgroundColor: 'rgba(240, 240, 240, 0.5)',
@@ -34,10 +34,13 @@ const JsonGalleryDisplay = ({ filename }) => {
       width: '100%',
     },
     galleryItemWrapper: {
-      flexGrow: 1,
-      flexBasis: 'calc(50% - 1rem)',
-      margin: '0.5rem',
       display: 'flex',
+      justifyContent: 'center',
+      flexDirection: 'column',
+      alignItems: 'center',
+      margin: '0.5rem',
+      flexBasis: 'calc(50% - 1rem)',
+      flexGrow: 1,
     },
     card: {
       backgroundColor: '#fff',
@@ -49,7 +52,7 @@ const JsonGalleryDisplay = ({ filename }) => {
       },
       marginBottom: '0rem',
       cursor: 'pointer',
-      height: '100%', // Ajout de cette ligne
+      height: '100%', 
     },
     title: {
       fontSize: '1.1rem',
