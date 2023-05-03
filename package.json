@@ -7,10 +7,10 @@
     "prepare": "husky install",
     "format": "prettier --write ./**/*.{js,ts,tsx}",
     "lint": "eslint . --ext .js --cache",
-    "lint:fix": "npm lint --fix",
+    "lint:fix": "npm run lint --fix",
     "coverage": "jest --coverage",
     "test": "jest",
-    "run-all-checks": "npm lint && npm test"
+    "all-checks": "npm run lint && npm run test"
   },
   "lint-staged": {
     "*.js": [
