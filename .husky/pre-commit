@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# to uncomment when we have tests and initial linting has been done
+#npm run test && npm run lint
