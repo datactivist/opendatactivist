@@ -21,47 +21,51 @@ const renderTagButtons = (tags, tagRoute) => {
   return null;
 };
 
-
 const Cards = ({
-    items,
-    onClick,
-    tagRoute,
-    showTags = true, 
-    renderItem = (item) => (
-      <>
-        <div>
-          {item.metadata?.image && (
-              <img
-                src={item.metadata.image}
-                alt={item.metadata.title}
-                className={styles['card-image']}
-              />
-          )}
-        </div>
-        <h2 href={`/docs/${item.name}`}>{item.metadata ? item.metadata.title : item.title}</h2>
-        <p>{item.metadata ? item.metadata.description : item.description}</p>
-        {showTags && renderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-      </>
-    ),
-  }) => {
-    const handleClick = (item) => {
-      if (item.url) {
-        window.open(item.url, '_blank');
-      } else {
-        onClick(item.name);
-      }
-    };
-  
-    return (
-      <>
-        {items.map((item) => (
-          <div key={item.id} className={styles.card} onClick={() => handleClick(item)}>
-            {renderItem(item)}
-          </div>
-        ))}
-      </>
-    );
+  items,
+  onClick,
+  tagRoute,
+  showTags = true,
+  renderItem = (item) => (
+    <>
+      <div>
+        {item.metadata?.image && (
+          <img
+            src={item.metadata.image}
+            alt={item.metadata.title}
+            className={styles['card-image']}
+          />
+        )}
+      </div>
+      <h2 href={`/docs/${item.name}`}>
+        {item.metadata ? item.metadata.title : item.title}
+      </h2>
+      <p>{item.metadata ? item.metadata.description : item.description}</p>
+      {showTags && renderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
+    </>
+  ),
+}) => {
+  const handleClick = (item) => {
+    if (item.url) {
+      window.open(item.url, '_blank');
+    } else {
+      onClick(item.name);
+    }
   };
-  
+
+  return (
+    <>
+      {items.map((item) => (
+        <div
+          key={item.id}
+          className={styles.card}
+          onClick={() => handleClick(item)}
+        >
+          {renderItem(item)}
+        </div>
+      ))}
+    </>
+  );
+};
 
 export default Cards;

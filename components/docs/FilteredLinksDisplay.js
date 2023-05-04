@@ -25,7 +25,15 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
   };
 
   return (
-    <div style={{ backgroundColor: '#f8f8f8', padding: '1rem', borderRadius: '10px', marginTop: '10px', marginBottom :'10px' }}>
+    <div
+      style={{
+        backgroundColor: '#f8f8f8',
+        padding: '1rem',
+        borderRadius: '10px',
+        marginTop: '10px',
+        marginBottom: '10px',
+      }}
+    >
       <Gallery>
         <Cards items={links} onClick={handleCardClick} showTags={false} />
       </Gallery>

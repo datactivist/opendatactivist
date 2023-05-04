@@ -49,10 +49,7 @@ const LinksCatalog = () => {
     } else {
     }
   };
-  
-  
-  
-  
+
   return (
     <div className={styles.container}>
       <h1>Ressources externes</h1>
@@ -68,7 +65,11 @@ const LinksCatalog = () => {
         </div>
       )}
       <Gallery>
-        <Cards items={filteredLinks} onClick={(linkId, tag) => handleCardClick(linkId, tag)} tagRoute="links" />
+        <Cards
+          items={filteredLinks}
+          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+          tagRoute="links"
+        />
       </Gallery>
     </div>
   );

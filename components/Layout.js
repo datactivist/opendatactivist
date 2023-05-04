@@ -62,13 +62,25 @@ export default function Layout({ children }) {
           </Typography>
           <nav>
             <Link href="/" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Accueil</Button>
+              <Button
+                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+              >
+                Accueil
+              </Button>
             </Link>
             <Link href="/products" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Data products</Button>
+              <Button
+                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+              >
+                Data products
+              </Button>
             </Link>
             <Link href="/docs" passHref>
-              <Button sx={{ color: 'black', fontWeight : '500', fontSize: '16px' }}>Docs</Button>
+              <Button
+                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+              >
+                Docs
+              </Button>
             </Link>
           </nav>
         </Toolbar>
@@ -94,19 +106,59 @@ export default function Layout({ children }) {
             alignItems: 'center',
           }}
         >
-      <a href="https://twitter.com/datactivi_st" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
-        <Image src="/images/footer/twitter.svg" alt="Twitter" width={30} height={30} />
-      </a>
-      <a href="https://www.linkedin.com/company/datactivist" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
-        <Image src="/images/footer/linkedin.svg" alt="LinkedIn" width={30} height={30} />
-      </a>
-      <a href="https://medium.com/datactivist" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
-        <Image src="/images/footer/medium.svg" alt="Medium" width={30} height={30} />
-      </a>
-      <a href="mailto:hello@datactivist.coop" target="_blank" rel="noopener noreferrer" style={{ marginRight: "40px" }}>
-        <Image src="/images/footer/mail.svg" alt="Email" width={30} height={30} />
-      </a>
-      </Box>
+          <a
+            href="https://twitter.com/datactivi_st"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: '40px' }}
+          >
+            <Image
+              src="/images/footer/twitter.svg"
+              alt="Twitter"
+              width={30}
+              height={30}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/datactivist"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: '40px' }}
+          >
+            <Image
+              src="/images/footer/linkedin.svg"
+              alt="LinkedIn"
+              width={30}
+              height={30}
+            />
+          </a>
+          <a
+            href="https://medium.com/datactivist"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: '40px' }}
+          >
+            <Image
+              src="/images/footer/medium.svg"
+              alt="Medium"
+              width={30}
+              height={30}
+            />
+          </a>
+          <a
+            href="mailto:hello@datactivist.coop"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginRight: '40px' }}
+          >
+            <Image
+              src="/images/footer/mail.svg"
+              alt="Email"
+              width={30}
+              height={30}
+            />
+          </a>
+        </Box>
       </footer>
     </div>
   );

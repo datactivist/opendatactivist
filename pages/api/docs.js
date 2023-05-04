@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       const docsPath = path.join(process.cwd(), 'posts', 'docs');
       const files = fs.readdirSync(docsPath);
 
-      const fileNames = files.map(file => {
+      const fileNames = files.map((file) => {
         const filePath = path.join(docsPath, file);
         const fileContent = fs.readFileSync(filePath, 'utf8');
         const { data } = matter(fileContent);
@@ -22,17 +22,26 @@ export default async function handler(req, res) {
 
       res.status(200).json(fileNames);
     } catch (error) {
-      res.status(500).json({ message: 'Erreur lors de la récupération des fichiers.' });
+      res
+        .status(500)
+        .json({ message: 'Erreur lors de la récupération des fichiers.' });
     }
   } else {
     try {
-      const filePath = path.join(process.cwd(), 'posts', 'docs', `${filename}.md`);
+      const filePath = path.join(
+        process.cwd(),
+        'posts',
+        'docs',
+        `${filename}.md`,
+      );
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContent);
 
       res.status(200).json({ metadata: data, content });
     } catch (error) {
-      res.status(500).json({ message: 'Erreur lors de la récupération du contenu.' });
+      res
+        .status(500)
+        .json({ message: 'Erreur lors de la récupération du contenu.' });
     }
   }
 }

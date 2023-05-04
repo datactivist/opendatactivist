@@ -20,17 +20,19 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-
-        <a href="/"
-            className={styles.card}
-          >
+          <a href="/" className={styles.card}>
             <h3>Patchworks &rarr;</h3>
-            <p>Des guides outillés pour construire des projets étape par étape</p>
+            <p>
+              Des guides outillés pour construire des projets étape par étape
+            </p>
           </a>
 
           <a href="/docs" className={styles.card}>
             <h3>Articles &rarr;</h3>
-            <p>Tous nos articles en accès libre, pour produire et utiliser des données</p>
+            <p>
+              Tous nos articles en accès libre, pour produire et utiliser des
+              données
+            </p>
           </a>
 
           <a href="/links" className={styles.card}>
@@ -38,14 +40,9 @@ export default function Home() {
             <p>Des liens vers des ressources et outils pour vous inspirer</p>
           </a>
 
-          <a
-            href="/products"
-            className={styles.card}
-          >
+          <a href="/products" className={styles.card}>
             <h3>Data products &rarr;</h3>
-            <p>
-              Nos outils en accès libre, pour faciliter vos projets
-            </p>
+            <p>Nos outils en accès libre, pour faciliter vos projets</p>
           </a>
         </div>
       </main>
@@ -99,5 +96,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }

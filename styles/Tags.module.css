@@ -1,23 +1,22 @@
 .tags-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem 0;
-  }
-  
-  .tag {
-    background-color: #173541;
-    color: #fff;
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-    margin-right: 0.5rem;
-    cursor: pointer;
-    font-family: monospace;
-    transition: background-color 0.3s ease;
-    border-style: none;
-  }
-  
-  .tag:hover {
-    background-color: #e95459;
-    border-style: none;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.tag {
+  background-color: #173541;
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-family: monospace;
+  transition: background-color 0.3s ease;
+  border-style: none;
+}
+
+.tag:hover {
+  background-color: #e95459;
+  border-style: none;
+}

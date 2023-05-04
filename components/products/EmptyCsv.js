@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+} from '@mui/material';
 
 function EmptyCsv({ filename, maxRows = 10 }) {
   const [data, setData] = useState([]);
@@ -16,7 +24,7 @@ function EmptyCsv({ filename, maxRows = 10 }) {
         Object.keys(jsonData[0]).reduce((acc, key) => {
           acc[key] = '';
           return acc;
-        }, {})
+        }, {}),
       );
     };
 
@@ -62,8 +70,8 @@ function EmptyCsv({ filename, maxRows = 10 }) {
 
   const filteredData = data.filter((row) =>
     Object.entries(searchTerms).every(([key, searchTerm]) =>
-      (row[key]?.toLowerCase() || '').includes(searchTerm.toLowerCase())
-    )
+      (row[key]?.toLowerCase() || '').includes(searchTerm.toLowerCase()),
+    ),
   );
 
   const visibleData = filteredData.slice(0, displayedRows);
@@ -87,7 +95,9 @@ function EmptyCsv({ filename, maxRows = 10 }) {
           <TableBody>
             {leastFilledRows.map((row) => (
               <TableRow key={row.index}>
-                <TableCell>{data[row.index][Object.keys(data[row.index])[0]]}</TableCell>
+                <TableCell>
+                  {data[row.index][Object.keys(data[row.index])[0]]}
+                </TableCell>
                 <TableCell>{row.percentFilled.toFixed(2)}%</TableCell>
               </TableRow>
             ))}

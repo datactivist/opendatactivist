@@ -13,33 +13,34 @@ const Tags = ({ items = [], activeTags, setActiveTags }) => {
   };
 
   const renderTagButtons = (tags) => {
-  return tags.map((tag) => {
-    const handleClick = () => {
-      router.push(`/docs?tag=${encodeURIComponent(tag)}`);
-    };
-    return (
-      <button key={tag} onClick={handleClick}>
-        {tag}
-      </button>
-    );
-  });
-};
+    return tags.map((tag) => {
+      const handleClick = () => {
+        router.push(`/docs?tag=${encodeURIComponent(tag)}`);
+      };
+      return (
+        <button key={tag} onClick={handleClick}>
+          {tag}
+        </button>
+      );
+    });
+  };
 
-return (
+  return (
     <div className={styles.tags}>
       {items &&
         items.map((tag) => (
           <button
             key={tag}
-            className={`${styles.tag} ${activeTags.includes(tag) ? styles.active : ''}`}
+            className={`${styles.tag} ${
+              activeTags.includes(tag) ? styles.active : ''
+            }`}
             onClick={() => handleClick(tag)}
           >
             {tag}
           </button>
         ))}
     </div>
-  );  
+  );
 };
-
 
 export default Tags;
