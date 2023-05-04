@@ -134,5 +134,13 @@
       "description": "Outil pour créer un espace de discussion d'équipe",
       "url": "https://framateam.org/login",
       "tags": ["forum", "discussion", "open source"]
+    },
+    {
+      "id": "laboria",
+      "title": "LaborIA",
+      "type": "rapport",
+      "description": "Rapport d'enquête sur l'impact de l'intelligence artificielle sur le travail",
+      "url": "https://matrice.io/app/uploads/2023/03/Rapport-Laboria-_-VF.pdf",
+      "tags": ["rapport", "IA", "travail"]
     }
   ]
