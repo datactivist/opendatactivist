@@ -13,7 +13,7 @@ index: 1
 
 # Présentation
 
-> Cette formation a été réalisée par Datactivist, dans le cadre du hackavis de Poitiers
+> Cette formation a été réalisée par Datactivist, dans le cadre du hackaviz de Poitiers
 
 ### 👉 [Accéder à la présentation](https://datactivist.coop/infolab_poitiers/formation_hackaviz/#1)
 
