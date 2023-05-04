@@ -3,7 +3,7 @@ import styles from '../../styles/Cards.module.css';
 import { useRouter } from 'next/router';
 import tagStyles from '../../styles/Tags.module.css';
 
-const renderTagButtons = (tags, tagRoute) => {
+const RenderTagButtons = (tags, tagRoute) => {
   const router = useRouter();
   if (tags) {
     return tags.map((tag) => {
@@ -41,7 +41,7 @@ const Cards = ({
         {item.metadata ? item.metadata.title : item.title}
       </h2>
       <p>{item.metadata ? item.metadata.description : item.description}</p>
-      {showTags && renderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
+      {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
     </>
   ),
 }) => {
