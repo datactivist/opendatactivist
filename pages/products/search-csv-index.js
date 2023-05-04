@@ -109,7 +109,7 @@ const Search = () => {
               }`}
               disabled={!selectedFile}
             >
-              Accéder à l'API
+              Accéder à l&apos;API
             </button>
           </Link>
         </div>

@@ -15,7 +15,6 @@ import {
 export default function Layout({ children }) {
   useEffect(() => {
     const footer = document.querySelector('footer');
-    const footerHeight = footer.offsetHeight;
     const screenHeight = window.innerHeight;
     const bodyHeight = document.body.offsetHeight;
 

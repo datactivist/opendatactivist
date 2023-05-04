@@ -9,10 +9,9 @@ import {
   Paper,
 } from '@mui/material';
 
-function EmptyCsv({ filename, maxRows = 10 }) {
+function EmptyCsv({ filename = 10 }) {
   const [data, setData] = useState([]);
-  const [searchTerms, setSearchTerms] = useState({});
-  const [displayedRows, setDisplayedRows] = useState(maxRows);
+  const [, setSearchTerms] = useState({});
   const [leastFilledRows, setLeastFilledRows] = useState([]);
 
   useEffect(() => {
@@ -42,7 +41,7 @@ function EmptyCsv({ filename, maxRows = 10 }) {
       let filledCount = 0;
       let totalCount = 0;
 
-      for (const [key, value] of Object.entries(row)) {
+      for (const [, value] of Object.entries(row)) {
         const trimmedValue = value?.trim();
         totalCount++;
 
@@ -62,23 +61,9 @@ function EmptyCsv({ filename, maxRows = 10 }) {
     setLeastFilledRows(sortedRows.slice(0, 10));
   }, [data]);
 
-  const handleSearchTermChange = (e, key) => {
-    const newSearchTerms = { ...searchTerms };
-    newSearchTerms[key] = e.target.value;
-    setSearchTerms(newSearchTerms);
-  };
-
-  const filteredData = data.filter((row) =>
-    Object.entries(searchTerms).every(([key, searchTerm]) =>
-      (row[key]?.toLowerCase() || '').includes(searchTerm.toLowerCase()),
-    ),
-  );
-
-  const visibleData = filteredData.slice(0, displayedRows);
-
   return (
     <div>
-      <h1>Analyse du fichier CSV "{filename}"</h1>
+      <h1>Analyse du fichier CSV &quot;{filename}&quot;</h1>
       <h2>Enregistrements les moins complets :</h2>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }}>

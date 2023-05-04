@@ -34,7 +34,7 @@ export default function SearchCsv() {
         Intégrer cette analyse
       </Button>
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Code d'intégration</DialogTitle>
+        <DialogTitle>Code d&apos;intégration</DialogTitle>
         <DialogContent>
           <TextField
             value={iframeCode}

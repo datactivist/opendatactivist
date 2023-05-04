@@ -15,7 +15,7 @@ const JsonGallery = ({ filename }) => {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCard, setSelectedCard] = useState(null);
-  const [activeFilter, setActiveFilter] = useState('');
+  const [activeFilter,] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {

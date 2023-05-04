@@ -46,7 +46,6 @@ const LinksCatalog = () => {
       router.push(`/links?tag=${encodeURIComponent(tag)}`);
     } else if (link && link.url) {
       window.location.href = link.url;
-    } else {
     }
   };
 

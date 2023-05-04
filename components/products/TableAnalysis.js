@@ -13,7 +13,7 @@ import {
 function TableAnalysis({ filename, maxRows = 10 }) {
   const [data, setData] = useState([]);
   const [searchTerms, setSearchTerms] = useState({});
-  const [displayedRows, setDisplayedRows] = useState(maxRows);
+  const [displayedRows,] = useState(maxRows);
 
   useEffect(() => {
     const fetchData = async () => {
