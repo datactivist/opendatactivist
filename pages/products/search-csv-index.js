@@ -5,14 +5,16 @@ import Layout from '../../components/Layout';
 
 import styles from '../../styles/Search.module.css';
 
-const getSuggestions = async value => {
+const getSuggestions = async (value) => {
   const response = await fetch(`/api/csv-list`);
   const { files } = await response.json();
   const inputValue = value.trim().toLowerCase();
   const inputLength = inputValue.length;
-  return inputLength === 0 ? [] : files.filter(file =>
-    file.toLowerCase().slice(0, inputLength) === inputValue
-  );
+  return inputLength === 0
+    ? []
+    : files.filter(
+        (file) => file.toLowerCase().slice(0, inputLength) === inputValue,
+      );
 };
 
 const Search = () => {
@@ -25,7 +27,7 @@ const Search = () => {
     value,
     onChange: (event, { newValue }) => {
       setValue(newValue);
-    }
+    },
   };
 
   const onSuggestionSelected = (event, { suggestionValue }) => {
@@ -52,8 +54,8 @@ const Search = () => {
             }}
             onSuggestionsClearRequested={() => setSuggestions([])}
             onSuggestionSelected={onSuggestionSelected}
-            getSuggestionValue={value => value}
-            renderSuggestion={suggestion => <div>{suggestion}</div>}
+            getSuggestionValue={(value) => value}
+            renderSuggestion={(suggestion) => <div>{suggestion}</div>}
             inputProps={inputProps}
           />
           <br />
@@ -68,30 +70,49 @@ const Search = () => {
         </div>
         <div className={`${styles.buttonContainer}`}>
           <Link href={`/products/search-csv/${selectedFile}`} passHref>
-            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+            <button
+              className={`${styles.button} ${
+                selectedFile ? styles.selected : ''
+              }`}
+              disabled={!selectedFile}
+            >
               Voir dans un tableau filtrable
             </button>
           </Link>
           <br></br>
           <Link href={`/products/json-gallery/${selectedFile}`} passHref>
-            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+            <button
+              className={`${styles.button} ${
+                selectedFile ? styles.selected : ''
+              }`}
+              disabled={!selectedFile}
+            >
               Voir dans une vue gallerie
             </button>
           </Link>
           <br></br>
           <Link href={`/products/empty-csv/${selectedFile}`} passHref>
-            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
+            <button
+              className={`${styles.button} ${
+                selectedFile ? styles.selected : ''
+              }`}
+              disabled={!selectedFile}
+            >
               Analyser le taux de remplissage
             </button>
           </Link>
           <br></br>
           <Link href={`/api/data/${selectedFile}`} passHref>
-            <button className={`${styles.button} ${selectedFile ? styles.selected : ''}`} disabled={!selectedFile}>
-              Accéder à l'API
+            <button
+              className={`${styles.button} ${
+                selectedFile ? styles.selected : ''
+              }`}
+              disabled={!selectedFile}
+            >
+              Accéder à l&apos;API
             </button>
           </Link>
         </div>
-
       </div>
     </Layout>
   );

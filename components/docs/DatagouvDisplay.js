@@ -8,12 +8,12 @@ const DatagouvDisplay = ({ ids }) => {
       const data = await Promise.all(
         ids.map(async (id) => {
           const response = await fetch(
-            `https://www.data.gouv.fr/api/1/datasets/${id}`
+            `https://www.data.gouv.fr/api/1/datasets/${id}`,
           );
           const json = await response.json();
           const { title, organization } = json;
           return { title, organization: organization.name };
-        })
+        }),
       );
       setDatasetsInfo(data);
     };
@@ -32,17 +32,31 @@ const DatagouvDisplay = ({ ids }) => {
         via <b>data.gouv.fr</b>
         &nbsp;:
       </p>
-      <div style={{ backgroundColor: '#f8f8f8', padding: '0.8rem', borderRadius: '10px', marginTop: '10px', marginBottom :'10px' }}>
-      <div className={`${uniq ? '' : 'two-column-grid'} dataset-container`}>
-        {datasetsInfo.map((item, index) => (
-          <div key={index} className="dataset-item">
-            <h3>
-              <a href={`https://www.data.gouv.fr/fr/datasets/${ids[index]}`} target="_blank" rel="noopener noreferrer">{item.title}</a>
-            </h3>
-            <p>{item.organization}</p>
-          </div>
-        ))}
-      </div>
+      <div
+        style={{
+          backgroundColor: '#f8f8f8',
+          padding: '0.8rem',
+          borderRadius: '10px',
+          marginTop: '10px',
+          marginBottom: '10px',
+        }}
+      >
+        <div className={`${uniq ? '' : 'two-column-grid'} dataset-container`}>
+          {datasetsInfo.map((item, index) => (
+            <div key={index} className="dataset-item">
+              <h3>
+                <a
+                  href={`https://www.data.gouv.fr/fr/datasets/${ids[index]}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.title}
+                </a>
+              </h3>
+              <p>{item.organization}</p>
+            </div>
+          ))}
+        </div>
       </div>
       <style jsx>{`
         #api-open-data-sources {
@@ -106,9 +120,8 @@ const DatagouvDisplay = ({ ids }) => {
     font-family: 'Montserrat', sans-serif;
   }
 `}</style>
-
-        </div>
-    );
+    </div>
+  );
 };
 
 export default DatagouvDisplay;

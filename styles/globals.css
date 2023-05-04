@@ -6,12 +6,11 @@ body {
 }
 
 a {
-  color: #000	;
+  color: #000;
   text-decoration: inherit;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 * {
   box-sizing: border-box;

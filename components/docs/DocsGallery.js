@@ -22,7 +22,10 @@ const DocsGallery = () => {
         const data = await response.json();
         setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); // filtrer les éléments dont l'index est égal à 0
       } catch (error) {
-        console.error('Erreur lors de la récupération des métadonnées des documents', error);
+        console.error(
+          'Erreur lors de la récupération des métadonnées des documents',
+          error,
+        );
       }
     };
 
@@ -74,18 +77,26 @@ const DocsGallery = () => {
       <br />
       <br />
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      <TypeFilter selectedType={selectedType} handleTypeFilter={handleTypeFilter} uniqueTypes={getUniqueTypes()} />
+      <TypeFilter
+        selectedType={selectedType}
+        handleTypeFilter={handleTypeFilter}
+        uniqueTypes={getUniqueTypes()}
+      />
       {selectedTag && (
-  <div>
-    <a className={styles.tag} onClick={() => router.push('/docs')}>
-      {selectedTag}
-    </a>
-    <br></br>
-    <br></br>
-  </div>
-)}
+        <div>
+          <a className={styles.tag} onClick={() => router.push('/docs')}>
+            {selectedTag}
+          </a>
+          <br></br>
+          <br></br>
+        </div>
+      )}
       <Gallery>
-      <Cards items={filteredDocs} onClick={(linkId, tag) => handleCardClick(linkId, tag)} tagRoute="docs" />
+        <Cards
+          items={filteredDocs}
+          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+          tagRoute="docs"
+        />
       </Gallery>
     </div>
   );

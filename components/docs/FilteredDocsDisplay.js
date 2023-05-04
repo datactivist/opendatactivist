@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Gallery from '../nav/Gallery';
 import Cards from '../nav/Cards';
 
-
 const FilteredDocsDisplay = ({ docsList }) => {
   const [docs, setDocs] = useState([]);
 
@@ -14,7 +13,10 @@ const FilteredDocsDisplay = ({ docsList }) => {
         const filteredDocs = data.filter((doc) => docsList.includes(doc.name));
         setDocs(filteredDocs);
       } catch (error) {
-        console.error('Erreur lors de la récupération des documents filtrés:', error);
+        console.error(
+          'Erreur lors de la récupération des documents filtrés:',
+          error,
+        );
       }
     };
 
@@ -36,7 +38,7 @@ const FilteredDocsDisplay = ({ docsList }) => {
       }}
     >
       <Gallery>
-      <Cards items={docs} onClick={handleCardClick} showTags={false} />
+        <Cards items={docs} onClick={handleCardClick} showTags={false} />
       </Gallery>
     </div>
   );

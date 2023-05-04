@@ -46,13 +46,9 @@ const LinksCatalog = () => {
       router.push(`/links?tag=${encodeURIComponent(tag)}`);
     } else if (link && link.url) {
       window.location.href = link.url;
-    } else {
     }
   };
-  
-  
-  
-  
+
   return (
     <div className={styles.container}>
       <h1>Ressources externes</h1>
@@ -68,7 +64,11 @@ const LinksCatalog = () => {
         </div>
       )}
       <Gallery>
-        <Cards items={filteredLinks} onClick={(linkId, tag) => handleCardClick(linkId, tag)} tagRoute="links" />
+        <Cards
+          items={filteredLinks}
+          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+          tagRoute="links"
+        />
       </Gallery>
     </div>
   );
