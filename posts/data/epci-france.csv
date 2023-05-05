@@ -1,0 +1,1256 @@
+Nom Officiel EPCI;Nom Officiel Région;Nom Officiel Département;Code Officiel EPCI;Code Officiel Région;Code Officiel Département;Code Officiel Courant EPCI;Type;Fait Partie d'une CTU
+CC du Grand Chambord;Centre-Val de Loire;Loir-et-Cher;244100798;24;41;244100798;CC;Non
+Orléans Métropole;Centre-Val de Loire;Loiret;244500468;24;45;244500468;ME;Non
+CC du Pays de Revigny-sur-Ornain;Grand Est;Meuse;245501184;44;55;245501184;CC;Non
+CC de Cattenom et Environs;Grand Est;Moselle;245700695;44;57;245700695;CC;Non
+CC de la Vallée de Saint-Amarin;Grand Est;Haut-Rhin;246800205;44;68;246800205;CC;Non
+CC Sud Côte Chalonnaise;Bourgogne-Franche-Comté;Saône-et-Loire;247104094;27;71;247104094;CC;Non
+CC Somme Sud-Ouest;Hauts-de-France;Somme;200071181;32;80;200071181;CC;Non
+CC Castelnaudary Lauragais Audois;Occitanie;Aude;200035855;76;11;200035855;CC;Non
+Grenoble-Alpes-Métropole;Auvergne-Rhône-Alpes;Isère;200040715;84;38;200040715;ME;Non
+CC de Domme-Villefranche du Périgord;Nouvelle-Aquitaine;Dordogne;200041440;75;24;200041440;CC;Non
+CA Maubeuge Val de Sambre;Hauts-de-France;Nord;200043396;32;59;200043396;CA;Non
+CC Berry Grand Sud;Centre-Val de Loire;Cher;200049484;24;18;200049484;CC;Non
+CC Terres du Haut Berry;Centre-Val de Loire;Cher;200066330;24;18;200066330;CC;Non
+CC Creuse Sud Ouest;Nouvelle-Aquitaine;Creuse;200067189;75;23;200067189;CC;Non
+CC Les Bertranges;Bourgogne-Franche-Comté,Centre-Val de Loire;Cher,Nièvre;200068088;24,27;18,58;200068088;CC;Non
+CC Rurales de l'Entre-deux-Mers;Nouvelle-Aquitaine;Gironde;200069599;75;33;200069599;CC;Non
+CC Terres de Bresse;Bourgogne-Franche-Comté;Saône-et-Loire;200071538;27;71;200071538;CC;Non
+CA de la Région de Château-Thierry;Hauts-de-France;Aisne;200072031;32;2;200072031;CA;Non
+CC de la Thiérache du Centre;Hauts-de-France;Aisne;240200444;32;2;240200444;CC;Non
+CC de l'Alta Rocca;Corse;Corse-du-Sud;242000495;94;2A;242000495;CC;Oui
+CC de Calvi Balagne;Corse;Haute-Corse;242020105;94;2B;242020105;CC;Oui
+CC du Diois;Auvergne-Rhône-Alpes;Drôme;242600534;84;26;242600534;CC;Non
+CC Vallée de l'Hérault;Occitanie;Hérault;243400694;76;34;243400694;CC;Non
+CC du Pilat Rhodanien;Auvergne-Rhône-Alpes;Loire;244200895;84;42;244200895;CC;Non
+CC des Pays de Cayres et de Pradelles;Auvergne-Rhône-Alpes;Haute-Loire;244301123;84;43;244301123;CC;Non
+CC du Vexin-Thelle;Hauts-de-France;Oise;246000707;32;60;246000707;CC;Non
+CC du Pays de l'Huisne Sarthoise;Pays de la Loire;Sarthe;247200686;52;72;247200686;CC;Non
+CA Dracénie Provence Verdon Agglomération;Provence-Alpes-Côte d'Azur;Var;248300493;93;83;248300493;CA;Non
+CU Limoges Métropole;Nouvelle-Aquitaine;Haute-Vienne;248719312;75;87;248719312;CU;Non
+CC Arnon Boischaut Cher;Centre-Val de Loire;Cher;200027076;24;18;200027076;CC;Non
+CC Pays du Mont-Blanc;Auvergne-Rhône-Alpes;Haute-Savoie;200034882;84;74;200034882;CC;Non
+CC Vexin Centre;Île-de-France;Val-d'Oise;200035970;11;95;200035970;CC;Non
+CC des Gorges de l'Ardèche;Auvergne-Rhône-Alpes;Ardèche;200039808;84;7;200039808;CC;Non
+CC des Albères,de la Côte Vermeille et de l'Illibéris;Occitanie;Pyrénées-Orientales;200043602;76;66;200043602;CC;Non
+CA Communauté Paris-Saclay;Île-de-France;Essonne;200056232;11;91;200056232;CA;Non
+CC de la Porte des Vosges Méridionales;Grand Est;Vosges;200068377;44;88;200068377;CC;Non
+CC des Causses à l'Aubrac;Occitanie;Aveyron;200068484;76;12;200068484;CC;Non
+CC Gorges Causses Cévennes;Occitanie;Lozère;200069151;76;48;200069151;CC;Non
+CC Pays Fort Sancerrois Val de Loire;Centre-Val de Loire;Cher;200069227;24;18;200069227;CC;Non
+CC Pays de Fontenay-Vendée;Pays de la Loire;Vendée;200071934;52;85;200071934;CC;Non
+CA Annonay Rhône Agglo;Auvergne-Rhône-Alpes;Ardèche;200072015;84;7;200072015;CA;Non
+CC Pays d'Opale;Hauts-de-France;Pas-de-Calais;200072478;32;62;200072478;CC;Non
+CC Val Briard;Île-de-France;Seine-et-Marne;200072874;11;77;200072874;CC;Non
+CC du Chemin des Dames;Hauts-de-France;Aisne;240200592;32;2;240200592;CC;Non
+CC du Pays d'Olmes;Occitanie;Ariège;240900464;76;9;240900464;CC;Non
+Toulouse Métropole;Occitanie;Haute-Garonne;243100518;76;31;243100518;ME;Non
+CA de Béziers-Méditerranée;Occitanie;Hérault;243400769;76;34;243400769;CA;Non
+CC Brocéliande Communauté;Bretagne;Ille-et-Vilaine;243500618;53;35;243500618;CC;Non
+CC Les Versants d'Aime;Auvergne-Rhône-Alpes;Savoie;247300817;84;73;247300817;CC;Non
+CC Rumilly Terre de Savoie;Auvergne-Rhône-Alpes;Haute-Savoie;247400740;84;74;247400740;CC;Non
+CC du Pays de l'Ourcq;Île-de-France;Seine-et-Marne;247700065;11;77;247700065;CC;Non
+CA du Sud;La Réunion;La Réunion;249740085;4;974;249740085;CA;Non
+CA de la Région Dieppoise;Normandie;Seine-Maritime;247600786;28;76;247600786;CA;Non
+CC Cœur de Sologne;Centre-Val de Loire;Loir-et-Cher;200000800;24;41;200000800;CC;Non
+CC des Ballons des Hautes-Vosges;Grand Est;Vosges;200033868;44;88;200033868;CC;Non
+CC de la Haute Somme (Combles - Péronne - Roisel);Hauts-de-France;Somme;200037059;32;80;200037059;CC;Non
+CC du Quercy Blanc;Occitanie;Lot;200039519;76;46;200039519;CC;Non
+CC du Val de l'Oise;Hauts-de-France;Aisne;200040426;32;2;200040426;CC;Non
+CC Chinon,Vienne et Loire;Centre-Val de Loire;Indre-et-Loire;200043081;24;37;200043081;CC;Non
+CA Sète Agglopôle Méditerranée;Occitanie;Hérault;200066355;76;34;200066355;CA;Non
+CC Alpes-Provence-Verdon - Sources de Lumière;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence;200068625;93;4;200068625;CC;Non
+CC Terres de Chalosse;Nouvelle-Aquitaine;Landes;200069631;75;40;200069631;CC;Non
+CC Plaine Limagne;Auvergne-Rhône-Alpes;Puy-de-Dôme;200071199;84;63;200071199;CC;Non
+CC des Hauts Tolosans;Occitanie;Haute-Garonne;200071314;76;31;200071314;CC;Non
+CC du Pays de Saint-Fulgent - Les Essarts;Pays de la Loire;Vendée;200071918;52;85;200071918;CC;Non
+CC des Coteaux du Girou;Occitanie;Haute-Garonne;243100732;76;31;243100732;CC;Non
+CC Castillon/Pujols;Nouvelle-Aquitaine;Dordogne,Gironde;243301454;75;24,33;243301454;CC;Non
+CC Côte d'Émeraude;Bretagne;Côtes-d'Armor,Ille-et-Vilaine;243500725;53;22,35;243500725;CC;Non
+CA du Pays Voironnais;Auvergne-Rhône-Alpes;Isère;243800984;84;38;243800984;CA;Non
+CC de la Vallée du Lot et du Vignoble;Occitanie;Lot;244600433;76;46;244600433;CC;Non
+CC des Pays du Sel et du Vermois;Grand Est;Meurthe-et-Moselle;245400189;44;54;245400189;CC;Non
+CA Valenciennes Métropole;Hauts-de-France;Nord;245901160;32;59;245901160;CA;Non
+CC de la Région de Molsheim-Mutzig;Grand Est;Bas-Rhin;246701064;44;67;246701064;CC;Non
+CA Colmar Agglomération;Grand Est;Haut-Rhin;246800726;44;68;246800726;CA;Non
+CC Falaises du Talou;Normandie;Seine-Maritime;247600729;28;76;247600729;CC;Non
+CC de Flandre Intérieure;Hauts-de-France;Nord;200040947;32;59;200040947;CC;Non
+CC Terre Lorraine du Longuyonnais;Grand Est;Meurthe-et-Moselle;200043693;44;54;200043693;CC;Non
+Métropole de Lyon;Auvergne-Rhône-Alpes;Rhône;200046977;84;69;200046977;ME;Non
+CU Caen la Mer;Normandie;Calvados;200065597;28;14;200065597;CU;Non
+CC Aubrac,Carladez et Viadène;Occitanie;Aveyron;200067171;76;12;200067171;CC;Non
+CA de Saint-Dizier Der et Blaise;Grand Est;Haute-Marne,Marne;200068666;44;51,52;200068666;CA;Non
+CC Lavalette Tude Dronne;Nouvelle-Aquitaine;Charente;200070282;75;16;200070282;CC;Non
+CA Riom Limagne et Volcans;Auvergne-Rhône-Alpes;Puy-de-Dôme;200070753;84;63;200070753;CA;Non
+CA Evreux Portes de Normandie;Normandie;Eure;200071454;28;27;200071454;CA;Non
+CA Agglomération du Choletais;Pays de la Loire;Maine-et-Loire;200071678;52;49;200071678;CA;Non
+CA Territoires Vendômois;Centre-Val de Loire;Loir-et-Cher;200072072;24;41;200072072;CA;Non
+CC Mirebellois et Fontenois;Bourgogne-Franche-Comté;Côte-d'Or;200072825;27;21;200072825;CC;Non
+CC Carnelle Pays-de-France;Île-de-France;Val-d'Oise;200073013;11;95;200073013;CC;Non
+CA Rambouillet Territoires;Île-de-France;Yvelines;200073344;11;78;200073344;CA;Non
+CA du Puy-en-Velay;Auvergne-Rhône-Alpes;Haute-Loire;200073419;84;43;200073419;CA;Non
+CC de l'Argonne Ardennaise;Grand Est;Ardennes;240800920;44;8;240800920;CC;Non
+CC du Pays de Salars;Occitanie;Aveyron;241200658;76;12;241200658;CC;Non
+CA Royan Atlantique;Nouvelle-Aquitaine;Charente-Maritime;241700640;75;17;241700640;CA;Non
+CA de Bastia;Corse;Haute-Corse;242000354;94;2B;242000354;CA;Oui
+CC du Montbardois;Bourgogne-Franche-Comté;Côte-d'Or;242101491;27;21;242101491;CC;Non
+CC du Grand Pontarlier;Bourgogne-Franche-Comté;Doubs;242500338;27;25;242500338;CC;Non
+CA de la Presqu'île de Guérande Atlantique (Cap Atlantique);Bretagne,Pays de la Loire;Loire-Atlantique,Morbihan;244400610;52,53;44,56;244400610;CA;Non
+CC des Lisières de l'Oise;Hauts-de-France;Oise;246000749;32;60;246000749;CC;Non
+CA Le Grand Chalon;Bourgogne-Franche-Comté;Saône-et-Loire;247100589;27;71;247100589;CA;Non
+CA Étampois Sud-Essonne;Île-de-France;Essonne;200017846;11;91;200017846;CA;Non
+CA Val de Garonne Agglomération;Nouvelle-Aquitaine;Lot-et-Garonne;200030674;75;47;200030674;CA;Non
+CA Chartres Métropole;Centre-Val de Loire;Eure-et-Loir;200033181;24;28;200033181;CA;Non
+CC Bastides de Lomagne;Occitanie;Gers;200034726;76;32;200034726;CC;Non
+CC Marche Occitane - Val d'Anglin;Centre-Val de Loire;Indre;200035137;24;36;200035137;CC;Non
+CC Briance Sud Haute Vienne;Nouvelle-Aquitaine;Haute-Vienne;200040814;75;87;200040814;CC;Non
+CC Lieuvin Pays d'Auge;Normandie;Eure;200066017;28;27;200066017;CC;Non
+CC Portes du Berry entre Loire et Val d'Aubois;Centre-Val de Loire;Cher;200011781;24;18;200011781;CC;Non
+CC de Desvres-Samer;Hauts-de-France;Pas-de-Calais;200018083;32;62;200018083;CC;Non
+CC Centre Tarn;Occitanie;Tarn;200034049;76;81;200034049;CC;Non
+CC du Pays de Barr;Grand Est;Bas-Rhin;200034270;44;67;200034270;CC;Non
+CC Cœur de Chartreuse;Auvergne-Rhône-Alpes;Isère,Savoie;200040111;84;38,73;200040111;CC;Non
+CC du Crestois et de Pays de Saillans Cœur de Drôme;Auvergne-Rhône-Alpes;Drôme;200040509;84;26;200040509;CC;Non
+CC de la Vallée de l'Oise et des Trois Forêts;Île-de-France;Val-d'Oise;249500455;11;95;249500455;CC;Non
+CA Mauges Communauté;Pays de la Loire;Maine-et-Loire;200060010;52;49;200060010;CA;Non
+CC Val ès Dunes;Normandie;Calvados;200065589;28;14;200065589;CC;Non
+CC des Monts du Lyonnais;Auvergne-Rhône-Alpes;Loire,Rhône;200066587;84;42,69;200066587;CC;Non
+CC du Pays de Saverne;Grand Est;Bas-Rhin;200068112;44;67;200068112;CC;Non
+CA de Cambrai;Hauts-de-France;Nord;200068500;32;59;200068500;CA;Non
+CC Albret Communauté;Nouvelle-Aquitaine;Lot-et-Garonne;200068948;75;47;200068948;CC;Non
+CC des Terres d'Apcher-Margeride-Aubrac;Occitanie;Lozère;200069185;76;48;200069185;CC;Non
+CC Haute-Provence-Pays de Banon;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence;200071025;93;4;200071025;CC;Non
+CC Thiérache Sambre et Oise;Hauts-de-France;Aisne;200071983;32;2;200071983;CC;Non
+CC du Pays Rignacois;Occitanie;Aveyron;241200625;76;12;241200625;CC;Non
+CC La Septaine;Centre-Val de Loire;Cher;241800374;24;18;241800374;CC;Non
+CC du Pays Fouesnantais;Bretagne;Finistère;242900660;53;29;242900660;CC;Non
+CC du Clermontais;Occitanie;Hérault;243400355;76;34;243400355;CC;Non
+CA Châteauroux Métropole;Centre-Val de Loire;Indre;243600327;24;36;243600327;CA;Non
+CC de la Sologne des Rivières;Centre-Val de Loire;Loir-et-Cher;244100806;24;41;244100806;CC;Non
+CC de Nozay;Pays de la Loire;Loire-Atlantique;244400537;52;44;244400537;CC;Non
+CC du Sud Marnais;Grand Est;Marne;245100979;44;51;245100979;CC;Non
+CC Pyrénées catalanes;Occitanie;Pyrénées-Orientales;246600464;76;66;246600464;CC;Non
+CC de la Région de Guebwiller;Grand Est;Haut-Rhin;246800569;44;68;246800569;CC;Non
+CC de Commercy - Void - Vaucouleurs;Grand Est;Meuse;200066157;44;55;200066157;CC;Non
+CC Amognes Cœur du Nivernais;Bourgogne-Franche-Comté;Nièvre;200067908;27;58;200067908;CC;Non
+CA Creil Sud Oise;Hauts-de-France;Oise;200068047;32;60;200068047;CA;Non
+CC de la Dombes;Auvergne-Rhône-Alpes;Ain;200069193;84;1;200069193;CC;Non
+CC du Haut-Poitou;Nouvelle-Aquitaine;Vienne;200069763;75;86;200069763;CC;Non
+CC des Terres du Val de Loire;Centre-Val de Loire;Loiret,Loir-et-Cher;200070183;24;41,45;200070183;CC;Non
+CC Haute Maurienne Vanoise;Auvergne-Rhône-Alpes;Savoie;200070340;84;73;200070340;CC;Non
+CC Couesnon Marches de Bretagne;Bretagne;Ille-et-Vilaine;200070688;53;35;200070688;CC;Non
+CA Fougères Agglomération;Bretagne;Ille-et-Vilaine;200072452;53;35;200072452;CA;Non
+CC du Grand Langres;Grand Est;Haute-Marne;200072999;44;52;200072999;CC;Non
+CA Le Grand Narbonne;Occitanie;Aude;241100593;76;11;241100593;CA;Non
+CC Larzac et Vallées;Occitanie;Aveyron;241200906;76;12;241200906;CC;Non
+CC de Haute Cornouaille;Bretagne;Finistère;242900561;53;29;242900561;CC;Non
+CC du Pays de la Zorn;Grand Est;Bas-Rhin;246700959;44;67;246700959;CC;Non
+CC du Pays de Ribeauvillé;Grand Est;Haut-Rhin;246800577;44;68;246800577;CC;Non
+CC de la Vallée de Munster;Grand Est;Haut-Rhin;246800585;44;68;246800585;CC;Non
+CC Orée de Bercé - Belinois;Pays de la Loire;Sarthe;247200447;52;72;247200447;CC;Non
+CA Le Grand Périgueux;Nouvelle-Aquitaine;Dordogne;200040392;75;24;200040392;CA;Non
+CC Portes de la Creuse en Marche;Nouvelle-Aquitaine;Creuse;200041556;75;23;200041556;CC;Non
+CA du Pays Basque;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067106;75;64;200067106;CA;Non
+CA Golfe du Morbihan - Vannes Agglomération;Bretagne;Morbihan;200067932;53;56;200067932;CA;Non
+CC des Vosges du Sud;Bourgogne-Franche-Comté;Territoire de Belfort;200069060;27;90;200069060;CC;Non
+CC du Ternois;Hauts-de-France;Pas-de-Calais,Somme;200069672;32;62,80;200069672;CC;Non
+CC Mellois en Poitou;Nouvelle-Aquitaine;Deux-Sèvres;200069755;75;79;200069755;CC;Non
+CC Pyrénées Vallées des Gaves;Occitanie;Hautes-Pyrénées;200070811;76;65;200070811;CC;Non
+CC Artagnan de Fezensac;Occitanie;Gers;243200607;76;32;243200607;CC;Non
+CC des Portes de Vassivière;Nouvelle-Aquitaine;Haute-Vienne;248719353;75;87;248719353;CC;Non
+CC des Hauts de Flandre;Hauts-de-France;Nord;200040954;32;59;200040954;CC;Non
+CC du Val Marnaysien;Bourgogne-Franche-Comté;Doubs,Haute-Saône;200041887;27;25,70;200041887;CC;Non
+CC du Pays de Lubersac-Pompadour;Nouvelle-Aquitaine;Corrèze;200066603;75;19;200066603;CC;Non
+CC de Petite Camargue;Occitanie;Gard;243000593;76;30;243000593;CC;Non
+CC Cœur Haute Lande;Nouvelle-Aquitaine;Landes;200069656;75;40;200069656;CC;Non
+CC Seine et Aube;Grand Est;Aube;200070126;44;10;200070126;CC;Non
+CC Touraine Vallée de l'Indre;Centre-Val de Loire;Indre-et-Loire;200072650;24;37;200072650;CC;Non
+CC du Canton de Charly-sur-Marne;Hauts-de-France;Aisne;240200584;32;2;240200584;CC;Non
+CC Celavu-Prunelli;Corse;Corse-du-Sud;242000503;94;2A;242000503;CC;Oui
+CC Rhony,Vistre,Vidourle;Occitanie;Gard;243000569;76;30;243000569;CC;Non
+CC Les Rives de la Laurence;Nouvelle-Aquitaine;Gironde;243301249;75;33;243301249;CC;Non
+CC Jura Nord;Bourgogne-Franche-Comté;Jura;243900560;27;39;243900560;CC;Non
+CC du Pays de Bray;Hauts-de-France;Oise;246000913;32;60;246000913;CC;Non
+CC du Pays de Niederbronn-les-Bains;Grand Est;Bas-Rhin;246701098;44;67;246701098;CC;Non
+CC Pays de Montereau;Île-de-France;Seine-et-Marne;247700107;11;77;247700107;CC;Non
+CC l'Orée de la Brie;Île-de-France;Essonne,Seine-et-Marne;247700644;11;77,91;247700644;CC;Non
+CC du Thouarsais;Nouvelle-Aquitaine;Deux-Sèvres;247900798;75;79;247900798;CC;Non
+Métropole Toulon-Provence-Méditerranée;Provence-Alpes-Côte d'Azur;Var;248300543;93;83;248300543;ME;Non
+CC Entre Juine et Renarde (CCEJR);Île-de-France;Essonne;249100553;11;91;249100553;CC;Non
+CA Saint-Brieuc Armor Agglomération;Bretagne;Côtes-d'Armor;200069409;53;22;200069409;CA;Non
+CC des Monts d'Alban et du Villefranchois;Occitanie;Tarn;200034031;76;81;200034031;CC;Non
+CC Cazals-Salviac;Occitanie;Lot;200035327;76;46;200035327;CC;Non
+CC du Provinois;Île-de-France;Seine-et-Marne;200037133;11;77;200037133;CC;Non
+CC Beaujolais Pierres Dorées;Auvergne-Rhône-Alpes;Rhône;200040574;84;69;200040574;CC;Non
+CC Cœur de l'Avesnois;Hauts-de-France;Nord;200043263;32;59;200043263;CC;Non
+CC du Haut Val d'Oise;Île-de-France;Val-d'Oise;249500489;11;95;249500489;CC;Non
+CC Saint-Flour Communauté;Auvergne-Rhône-Alpes;Cantal;200066660;84;15;200066660;CC;Non
+CC Argentan Intercom;Normandie;Orne;200068450;28;61;200068450;CC;Non
+CC Les Vals du Dauphiné;Auvergne-Rhône-Alpes;Isère;200068567;84;38;200068567;CC;Non
+CC Fumel Vallée du Lot;Nouvelle-Aquitaine;Lot-et-Garonne;200068930;75;47;200068930;CC;Non
+CC Médoc Atlantique;Nouvelle-Aquitaine;Gironde;200070720;75;33;200070720;CC;Non
+CC Les Portes de l'Ile de France;Île-de-France;Yvelines;200071074;11;78;200071074;CC;Non
+CC Challans-Gois Communauté;Pays de la Loire;Vendée;200071629;52;85;200071629;CC;Non
+CC du Pays Fertois et du Bocage Carrougien;Normandie;Orne;200071652;28;61;200071652;CC;Non
+CC Baud Communauté;Bretagne;Morbihan;200096675;53;56;200096675;CC;Non
+CC du Val de Cher;Auvergne-Rhône-Alpes;Allier;240300566;84;3;240300566;CC;Non
+CC du Pays d'Huriel;Auvergne-Rhône-Alpes;Allier;240300657;84;3;240300657;CC;Non
+CC Pays Forcalquier et Montagne de Lure;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence;240400440;93;4;240400440;CC;Non
+CC du Pays des Paillons;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;240600593;93;6;240600593;CC;Non
+CC Ardenne,Rives de Meuse;Grand Est;Ardennes;240800821;44;8;240800821;CC;Non
+CC Sud-Roussillon;Occitanie;Pyrénées-Orientales;246600282;76;66;246600282;CC;Non
+CC de la Basse-Zorn;Grand Est;Bas-Rhin;246700843;44;67;246700843;CC;Non
+CA de La Rochelle;Nouvelle-Aquitaine;Charente-Maritime;241700434;75;17;241700434;CA;Non
+CC de Saulieu;Bourgogne-Franche-Comté;Côte-d'Or;242101442;27;21;242101442;CC;Non
+CC du Pays Grenadois;Nouvelle-Aquitaine;Landes;244000824;75;40;244000824;CC;Non
+CC Coteaux et Vallées des Luys;Nouvelle-Aquitaine;Landes;244000881;75;40;244000881;CC;Non
+CA Grand Longwy Agglomération;Grand Est;Meurthe-et-Moselle;245400262;44;54;245400262;CA;Non
+CC du Pays Orne Moselle;Grand Est;Moselle;245701271;44;57;245701271;CC;Non
+CC du Pays Solesmois;Hauts-de-France;Nord;245901038;32;59;245901038;CC;Non
+CC Pyrénées Cerdagne;Occitanie;Pyrénées-Orientales;246600399;76;66;246600399;CC;Non
+CC de la Vallée de la Doller et du Soultzbach;Grand Est;Haut-Rhin;246800676;44;68;246800676;CC;Non
+CC du Pays de l'Arbresle (CCPA);Auvergne-Rhône-Alpes;Rhône;246900625;84;69;246900625;CC;Non
+CC Aygues-Ouvèze en Provence (CCAOP);Provence-Alpes-Côte d'Azur;Vaucluse;248400160;93;84;248400160;CC;Non
+CC du Pays de Pouzauges;Pays de la Loire;Vendée;248500464;52;85;248500464;CC;Non
+CC du Val d'Essonne (CCVE);Île-de-France;Essonne;249100546;11;91;249100546;CC;Non
+CC Piège Lauragais Malepère;Occitanie;Aude;200035707;76;11;200035707;CC;Non
+CC Astarac Arros en Gascogne;Occitanie;Gers;200035756;76;32;200035756;CC;Non
+CC Lacs et Gorges du Verdon;Provence-Alpes-Côte d'Azur;Var;200040210;93;83;200040210;CC;Non
+CC de la Baie du Cotentin;Normandie;Manche;200042729;28;50;200042729;CC;Non
+CC Entre Beauce et Perche;Centre-Val de Loire;Eure-et-Loir;200058360;24;28;200058360;CC;Non
+CC de Damvillers Spincourt;Grand Est;Meuse;200066173;44;55;200066173;CC;Non
+CC Élan Limousin Avenir Nature;Nouvelle-Aquitaine;Haute-Vienne;200066512;75;87;200066512;CC;Non
+CC Chablis Villages et Terroirs;Bourgogne-Franche-Comté;Yonne;200067080;27;89;200067080;CC;Non
+CC Monts,Rance et Rougier;Occitanie;Aveyron;200067163;76;12;200067163;CC;Non
+CC Vallées et Plateau d'Ardenne;Grand Est;Ardennes;200067759;44;8;200067759;CC;Non
+CC Terre d'Eau;Grand Est;Vosges;200068682;44;88;200068682;CC;Non
+CC Intercom de la Vire au Noireau;Normandie;Calvados;200068799;28;14;200068799;CC;Non
+CC Bretagne porte de Loire Communauté;Bretagne;Ille-et-Vilaine;200070662;53;35;200070662;CC;Non
+CA Sarreguemines Confluences;Grand Est;Bas-Rhin,Moselle;200070746;44;57,67;200070746;CA;Non
+CC Bretagne Romantique;Bretagne;Ille-et-Vilaine;243500733;53;35;243500733;CC;Non
+CC du Centre du Haut-Rhin;Grand Est;Haut-Rhin;246800445;44;68;246800445;CC;Non
+CC du Pays de Fayence;Provence-Alpes-Côte d'Azur;Var;200004802;93;83;200004802;CC;Non
+CA du Grand Cahors;Occitanie;Lot;200023737;76;46;200023737;CA;Non
+CC du Kochersberg;Grand Est;Bas-Rhin;200034635;44;67;200034635;CC;Non
+CA Carcassonne Agglo;Occitanie;Aude;200035715;76;11;200035715;CA;Non
+CC Val de Gray;Bourgogne-Franche-Comté;Haute-Saône;200036549;27;70;200036549;CC;Non
+CC du Serein;Bourgogne-Franche-Comté;Yonne;200039709;27;89;200039709;CC;Non
+CC du Triangle Vert;Bourgogne-Franche-Comté;Haute-Saône;200041861;27;70;200041861;CC;Non
+CC des Portes de Meuse;Grand Est;Meuse;200066108;44;55;200066108;CC;Non
+CC Spelunca-Liamone;Corse;Corse-du-Sud;200067049;94;2A;200067049;CC;Oui
+CC du Béarn des Gaves;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067288;75;64;200067288;CC;Non
+CC Val de Gâtine;Nouvelle-Aquitaine;Deux-Sèvres;200069748;75;79;200069748;CC;Non
+CC Mad et Moselle;Grand Est;Meurthe-et-Moselle,Moselle;200070738;44;54,57;200070738;CC;Non
+CC Retz-en-Valois;Hauts-de-France;Aisne;200071991;32;2;200071991;CC;Non
+CC du Pays de Saint-Éloy;Auvergne-Rhône-Alpes;Puy-de-Dôme;200072080;84;63;200072080;CC;Non
+CA de Béthune-Bruay,Artois-Lys Romane;Hauts-de-France;Pas-de-Calais;200072460;32;62;200072460;CA;Non
+CC Châteaubriant-Derval;Pays de la Loire;Loire-Atlantique;200072726;52;44;200072726;CC;Non
+CC des Crêtes Préardennaises;Grand Est;Ardennes;240800862;44;8;240800862;CC;Non
+CC du Pays de Landivisiau;Bretagne;Finistère;242900751;53;29;242900751;CC;Non
+CA du Pays de Landerneau-Daoulas;Bretagne;Finistère;242900801;53;29;242900801;CA;Non
+CC Arc Sud Bretagne;Bretagne;Morbihan;200027027;53;56;200027027;CC;Non
+CC du Sud Messin;Grand Est;Moselle;200039907;44;57;200039907;CC;Non
+CC Bassée-Montois;Île-de-France;Seine-et-Marne;200040251;11;77;200040251;CC;Non
+CC de la Région de Suippes;Grand Est;Marne;200042620;44;51;200042620;CC;Non
+CC Sausseron Impressionnistes;Île-de-France;Val-d'Oise;249500430;11;95;249500430;CC;Non
+CC de la Châtaigneraie Cantalienne;Auvergne-Rhône-Alpes;Cantal;200066678;84;15;200066678;CC;Non
+CC Serein et Armance;Bourgogne-Franche-Comté;Yonne;200067304;27;89;200067304;CC;Non
+CA Grand Lac;Auvergne-Rhône-Alpes;Savoie;200068674;84;73;200068674;CA;Non
+CC Anjou Loir et Sarthe;Pays de la Loire;Maine-et-Loire;200068955;52;49;200068955;CC;Non
+CC Seulles Terre et Mer;Normandie;Calvados;200069516;28;14;200069516;CC;Non
+CC Touraine Ouest Val de Loire;Centre-Val de Loire;Indre-et-Loire;200072981;24;37;200072981;CC;Non
+CC du Liancourtois;Hauts-de-France;Oise;246000129;32;60;246000129;CC;Non
+CC de la Région de Bar-sur-Aube;Grand Est;Aube;241000405;44;10;241000405;CC;Non
+CC des Vallées de la Tille et de l'Ignon;Bourgogne-Franche-Comté;Côte-d'Or;242100154;27;21;242100154;CC;Non
+CC de la Save au Touch;Occitanie;Haute-Garonne;243100781;76;31;243100781;CC;Non
+CC Liffré-Cormier Communauté;Bretagne;Ille-et-Vilaine;243500774;53;35;243500774;CC;Non
+CC Haut-Jura Arcade Communauté;Bourgogne-Franche-Comté;Jura;243900479;27;39;243900479;CC;Non
+CC du Pays Morcenais;Nouvelle-Aquitaine;Landes;244000691;75;40;244000691;CC;Non
+CA d'Hénin-Carvin;Hauts-de-France;Pas-de-Calais;246200299;32;62;246200299;CA;Non
+CC de la Vallée Verte;Auvergne-Rhône-Alpes;Haute-Savoie;247400047;84;74;247400047;CC;Non
+CC des Deux Rives;Nouvelle-Aquitaine,Occitanie;Gers,Lot-et-Garonne,Tarn-et-Garonne;248200016;75,76;32,47,82;248200016;CC;Non
+CA de Cergy-Pontoise;Île-de-France;Val-d'Oise,Yvelines;249500109;11;78,95;249500109;CA;Non
+CC Arbois,Poligny,Salins,Cœur du Jura;Bourgogne-Franche-Comté;Jura;200071595;27;39;200071595;CC;Non
+CC de Lévézou Pareloup;Occitanie;Aveyron;241200765;76;12;241200765;CC;Non
+Rennes Métropole;Bretagne;Ille-et-Vilaine;243500139;53;35;243500139;ME;Non
+CC La Grandvallière;Bourgogne-Franche-Comté;Jura;243900610;27;39;243900610;CC;Non
+CC Gartempe Saint-Pardoux;Nouvelle-Aquitaine;Haute-Vienne;248719262;75;87;248719262;CC;Non
+CC Ouche et Montagne;Bourgogne-Franche-Comté;Côte-d'Or;200039055;27;21;200039055;CC;Non
+CC Aunis Sud;Nouvelle-Aquitaine;Charente-Maritime;200041614;75;17;200041614;CC;Non
+CC du Val d'Amboise;Centre-Val de Loire;Indre-et-Loire;200043065;24;37;200043065;CC;Non
+CA du Grand Nord de Mayotte;Mayotte;Mayotte;200060465;6;976;200060465;CA;Oui
+CC Grand Sud Tarn et Garonne;Occitanie;Tarn-et-Garonne;200066652;76;82;200066652;CC;Non
+CC Serre-Ponçon Val d'Avance;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Hautes-Alpes;200067320;93;4,05;200067320;CC;Non
+CC Beaucaire Terre d'Argence;Occitanie;Gard;243000585;76;30;243000585;CC;Non
+CC du Haut Pays du Montreuillois;Hauts-de-France;Pas-de-Calais;200069235;32;62;200069235;CC;Non
+CA Tarbes-Lourdes-Pyrénées;Occitanie;Hautes-Pyrénées;200069300;76;65;200069300;CA;Non
+CC Cœur de Maurienne Arvan;Auvergne-Rhône-Alpes;Savoie;200070464;84;73;200070464;CC;Non
+CC Usses et Rhône;Auvergne-Rhône-Alpes;Ain,Haute-Savoie;200070852;84;1,74;200070852;CC;Non
+CC Terre de Picardie;Hauts-de-France;Somme;200070928;32;80;200070928;CC;Non
+CA Les Sables d'Olonne Agglomération;Pays de la Loire;Vendée;200071165;52;85;200071165;CA;Non
+CC des Grands Lacs;Nouvelle-Aquitaine;Landes;244000873;75;40;244000873;CC;Non
+CC du Pays d'Alésia et de la Seine;Bourgogne-Franche-Comté;Côte-d'Or;242101459;27;21;242101459;CC;Non
+CC Altitude 800;Bourgogne-Franche-Comté;Doubs;242504488;27;25;242504488;CC;Non
+CC du Plateau de Frasne et du Val de Drugeon (CFD);Bourgogne-Franche-Comté;Doubs;242504496;27;25;242504496;CC;Non
+CC Auzon Communauté;Auvergne-Rhône-Alpes;Haute-Loire;244301099;84;43;244301099;CC;Non
+CC des Loges;Centre-Val de Loire;Loiret;244500427;24;45;244500427;CC;Non
+CA du Boulonnais;Hauts-de-France;Pas-de-Calais;246200729;32;62;246200729;CA;Non
+CC de la Région d'Audruicq;Hauts-de-France;Pas-de-Calais;246200844;32;62;246200844;CC;Non
+CC du Pays de Lumbres;Hauts-de-France;Pas-de-Calais;246201016;32;62;246201016;CC;Non
+CA Grand Montauban;Occitanie;Tarn-et-Garonne;248200099;76;82;248200099;CA;Non
+CC Territoriale Sud-Luberon;Provence-Alpes-Côte d'Azur;Vaucluse;248400285;93;84;248400285;CC;Non
+CC du Gâtinais en Bourgogne;Bourgogne-Franche-Comté;Yonne;248900748;27;89;248900748;CC;Non
+CC Le Dourdannais en Hurepoix (CCDH);Île-de-France;Essonne;249100595;11;91;249100595;CC;Non
+CC Les Portes Briardes entre Villes et Forêts;Île-de-France;Seine-et-Marne;200023125;11;77;200023125;CC;Non
+CC d'Auberive Vingeanne et Montsaugeonnais;Grand Est;Haute-Marne;200027308;44;52;200027308;CC;Non
+CC des Hauts du Val de Saône;Bourgogne-Franche-Comté;Haute-Saône;200036150;27;70;200036150;CC;Non
+CC du Pays de Serres en Quercy;Occitanie;Tarn-et-Garonne;200040418;76;82;200040418;CC;Non
+CC Auray Quiberon Terre Atlantique;Bretagne;Morbihan;200043123;53;56;200043123;CC;Non
+CC de la Haute Ariège;Occitanie;Ariège;200066363;76;9;200066363;CC;Non
+CC Intercom Bernay Terres de Normandie;Normandie;Eure;200066413;28;27;200066413;CC;Non
+CA Clisson Sèvre et Maine Agglo;Pays de la Loire;Loire-Atlantique;200067635;52;44;200067635;CA;Non
+CA du Pays de Saint-Omer;Hauts-de-France;Pas-de-Calais;200069037;32;62;200069037;CA;Non
+CC Leff Armor Communauté;Bretagne;Côtes-d'Armor;200069086;53;22;200069086;CC;Non
+CC Randon - Margeride;Occitanie;Lozère;200069102;76;48;200069102;CC;Non
+CA Lisieux Normandie;Normandie;Calvados;200069532;28;14;200069532;CA;Non
+CC du Territoire Nord Picardie;Hauts-de-France;Somme;200070951;32;80;200070951;CC;Non
+CC Commentry Montmarault Néris Communauté;Auvergne-Rhône-Alpes;Allier;200071512;84;3;200071512;CC;Non
+CC du Val de Drôme en Biovallée;Auvergne-Rhône-Alpes;Drôme;242600252;84;26;242600252;CC;Non
+CC du Haut Allier;Occitanie;Lozère;200006930;76;48;200006930;CC;Non
+CC du Grand Pic Saint-Loup;Occitanie;Hérault;200022986;76;34;200022986;CC;Non
+CC Bresse Revermont 71;Bourgogne-Franche-Comté;Saône-et-Loire;200042414;27;71;200042414;CC;Non
+CC Conflent-Canigó;Occitanie;Pyrénées-Orientales;200049211;76;66;200049211;CC;Non
+CC Pays Rhin - Brisach;Grand Est;Haut-Rhin;200066025;44;68;200066025;CC;Non
+CC de l'Aire à l'Argonne;Grand Est;Meuse;200066140;44;55;200066140;CC;Non
+CC Isigny-Omaha Intercom;Normandie;Calvados;200066801;28;14;200066801;CC;Non
+CC Presqu'île de Crozon-Aulne maritime;Bretagne;Finistère;200066868;53;29;200066868;CC;Non
+CC Cœur de Garonne;Occitanie;Haute-Garonne;200068815;76;31;200068815;CC;Non
+CC Communauté Bray-Eawy;Normandie;Seine-Maritime;200070068;28;76;200070068;CC;Non
+CC du Grand Roye;Hauts-de-France;Somme;200070977;32;80;200070977;CC;Non
+CA de la Baie de Somme;Hauts-de-France;Somme;200070993;32;80;200070993;CA;Non
+CC Entr'Allier Besbre et Loire;Auvergne-Rhône-Alpes;Allier;200071470;84;3;200071470;CC;Non
+CC des Collines du Perche Normand;Normandie;Orne;200071504;28;61;200071504;CC;Non
+CC de Charente Limousine;Nouvelle-Aquitaine;Charente;200072049;75;16;200072049;CC;Non
+CC du Pays du Vermandois;Hauts-de-France;Aisne;240200493;32;2;240200493;CC;Non
+CA d'Arles-Crau-Camargue-Montagnette;Provence-Alpes-Côte d'Azur;Bouches-du-Rhône;241300417;93;13;241300417;CA;Non
+CC du Kreiz-Breizh (CCKB);Bretagne;Côtes-d'Armor;242200715;53;22;242200715;CC;Non
+CC Périgord-Limousin;Nouvelle-Aquitaine;Dordogne;242400752;75;24;242400752;CC;Non
+CC Vendée,Sèvre,Autise;Pays de la Loire;Vendée;248500563;52;85;248500563;CC;Non
+CC du Nogentais;Grand Est;Aube;200006716;44;10;200006716;CC;Non
+CA du Pays de Saint-Gilles-Croix-de-Vie;Pays de la Loire;Vendée;200023778;52;85;200023778;CA;Non
+CA du Caudrésis et du Catésis;Hauts-de-France;Nord;200030633;32;59;200030633;CA;Non
+CU d'Arras;Hauts-de-France;Pas-de-Calais;200033579;32;62;200033579;CU;Non
+CC de la Costa Verde;Corse;Haute-Corse;200034205;94;2B;200034205;CC;Oui
+CC de Marana-Golo;Corse;Haute-Corse;200036499;94;2B;200036499;CC;Oui
+CA Montélimar Agglomération;Auvergne-Rhône-Alpes;Drôme;200040459;84;26;200040459;CA;Non
+CC du Guillestrois et du Queyras;Provence-Alpes-Côte d'Azur;Hautes-Alpes;200067452;93;5;200067452;CC;Non
+CC Comtal Lot et Truyère;Occitanie;Aveyron;200067478;76;12;200067478;CC;Non
+CC Lyons Andelle;Normandie;Eure;200070142;28;27;200070142;CC;Non
+CC Coeur du Pays Haut;Grand Est;Meurthe-et-Moselle,Meuse;200070290;44;54,55;200070290;CC;Non
+CC Picardie des Châteaux;Hauts-de-France;Aisne;200071769;32;2;200071769;CC;Non
+CC des Portes de l'Entre-deux-Mers;Nouvelle-Aquitaine;Gironde;243301439;75;33;243301439;CC;Non
+CC du Pays Bellegardien (CCPB);Auvergne-Rhône-Alpes;Ain;240100891;84;1;240100891;CC;Non
+CC de Gémozac et de la Saintonge Viticole;Nouvelle-Aquitaine;Charente-Maritime;241700632;75;17;241700632;CC;Non
+CC du Bassin de Marennes;Nouvelle-Aquitaine;Charente-Maritime;241700699;75;17;241700699;CC;Non
+CC La Domitienne;Occitanie;Hérault;243400488;76;34;243400488;CC;Non
+CC du Pays d'Issoudun;Centre-Val de Loire;Cher,Indre;243600236;24;18,36;243600236;CC;Non
+CC des Monts de Gy;Bourgogne-Franche-Comté;Haute-Saône;247000698;27;70;247000698;CC;Non
+CC du Val de Somme;Hauts-de-France;Somme;248000499;32;80;248000499;CC;Non
+CA Ventoux-Comtat-Venaissin (COVE);Provence-Alpes-Côte d'Azur;Vaucluse;248400053;93;84;248400053;CA;Non
+CA du Grand Sénonais;Bourgogne-Franche-Comté;Yonne;248900334;27;89;248900334;CA;Non
+CC du Massif du Sancy;Auvergne-Rhône-Alpes;Cantal,Puy-de-Dôme;246300966;84;15,63;246300966;CC;Non
+CC du Quercy Caussadais;Occitanie;Tarn-et-Garonne;248200057;76;82;248200057;CC;Non
+CC Pays de Nemours;Île-de-France;Seine-et-Marne;200023240;11;77;200023240;CC;Non
+CC Causses Aigoual Cévennes;Occitanie;Gard;200034601;76;30;200034601;CC;Non
+CA Villefranche Beaujolais Saône;Auvergne-Rhône-Alpes;Ain,Rhône;200040590;84;1,69;200040590;CA;Non
+CC Enclave des Papes-Pays de Grignan;Auvergne-Rhône-Alpes,Provence-Alpes-Côte d'Azur;Drôme,Vaucluse;200040681;84,93;26,84;200040681;CC;Non
+CC du Cap Corse;Corse;Haute-Corse;200042943;94;2B;200042943;CC;Oui
+CC du Sud Avesnois;Hauts-de-France;Nord;200043404;32;59;200043404;CC;Non
+CC de la Moivre à la Coole;Grand Est;Marne;200043438;44;51;200043438;CC;Non
+CC Osartis Marquion;Hauts-de-France;Pas-de-Calais;200044048;32;62;200044048;CC;Non
+CA Douaisis Agglo;Hauts-de-France;Nord;200044618;32;59;200044618;CA;Non
+CC Meurthe Mortagne Moselle;Grand Est;Meurthe-et-Moselle;200067643;44;54;200067643;CC;Non
+CC Andaine - Passais;Normandie;Orne;200068443;28;61;200068443;CC;Non
+CA du Libournais;Nouvelle-Aquitaine;Gironde;200070092;75;33;200070092;CA;Non
+CC de Gevrey-Chambertin et de Nuits-Saint-Georges;Bourgogne-Franche-Comté;Côte-d'Or;200070894;27;21;200070894;CC;Non
+CC Vendée Grand Littoral;Pays de la Loire;Vendée;200071900;52;85;200071900;CC;Non
+CC du Pays de Tarascon;Occitanie;Ariège;240900431;76;9;240900431;CC;Non
+CC du Pays Viganais;Occitanie;Gard;243000270;76;30;243000270;CC;Non
+CC de l'Estuaire;Nouvelle-Aquitaine;Gironde;243300811;75;33;243300811;CC;Non
+CC du Créonnais;Nouvelle-Aquitaine;Gironde;243301215;75;33;243301215;CC;Non
+CC des Collines du Nord Dauphiné;Auvergne-Rhône-Alpes;Isère;243801255;84;38;243801255;CC;Non
+CA du Grand Dax;Nouvelle-Aquitaine;Landes;244000675;75;40;244000675;CA;Non
+CC Grand Lieu Communauté;Pays de la Loire;Loire-Atlantique;244400438;52;44;244400438;CC;Non
+CC du Pays de Montmédy;Grand Est;Meuse;245501259;44;55;245501259;CC;Non
+CC de Blavet Bellevue Océan;Bretagne;Morbihan;245600440;53;56;245600440;CC;Non
+CA Val d'Europe Agglomération;Île-de-France;Seine-et-Marne;247700339;11;77;247700339;CA;Non
+CU Le Mans Métropole;Pays de la Loire;Sarthe;247200132;52;72;247200132;CU;Non
+CC Campagne-de-Caux;Normandie;Seine-Maritime;247600505;28;76;247600505;CC;Non
+CC des Villes Sœurs;Hauts-de-France,Normandie;Seine-Maritime,Somme;247600588;28,32;76,80;247600588;CC;Non
+CC Caux - Austreberthe;Normandie;Seine-Maritime;247600646;28;76;247600646;CC;Non
+CA du Centre de la Martinique;Martinique;Martinique;249720061;2;972;249720061;CA;Oui
+CC Lodévois et Larzac;Occitanie;Hérault;200017341;76;34;200017341;CC;Non
+CC des Savanes;Guyane;Guyane;200027548;3;973;200027548;CC;Oui
+CC Armagnac Adour;Occitanie;Gers;200035632;76;32;200035632;CC;Non
+CC des Monts de Lacaune et de la Montagne du Haut Languedoc;Occitanie;Hérault,Tarn;200066553;76;34,81;200066553;CC;Non
+CC du Volvestre;Occitanie;Haute-Garonne;200066819;76;31;200066819;CC;Non
+CA de Châlons-en-Champagne;Grand Est;Marne;200066876;44;51;200066876;CA;Non
+CA Grand Auch Cœur de Gascogne;Occitanie;Gers;200066926;76;32;200066926;CA;Non
+CC du Haut-Béarn;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067262;75;64;200067262;CC;Non
+CC Ponthieu-Marquenterre;Hauts-de-France;Somme;200070936;32;80;200070936;CC;Non
+CC Domfront Tinchebray Interco;Normandie;Orne;200071520;28;61;200071520;CC;Non
+CA du Bassin de Bourg-en-Bresse;Auvergne-Rhône-Alpes;Ain;200071751;84;1;200071751;CA;Non
+CC des Vallées du Haut-Anjou;Pays de la Loire;Maine-et-Loire;200071868;52;49;200071868;CC;Non
+CC Haut Limousin en Marche;Nouvelle-Aquitaine;Haute-Vienne;200071942;75;87;200071942;CC;Non
+CC de la Champagne Conlinoise et du Pays de Sillé;Pays de la Loire;Sarthe;200072718;52;72;200072718;CC;Non
+CC de la Muse et des Raspes du Tarn;Occitanie;Aveyron;241200914;76;12;241200914;CC;Non
+CC de la Lomagne Gersoise;Occitanie;Gers;243200391;76;32;243200391;CC;Non
+CC du Pays de Château-Gontier;Pays de la Loire;Mayenne;245300447;52;53;245300447;CC;Non
+CC du Pays Haut Val d'Alzette;Grand Est;Meurthe-et-Moselle,Moselle;245701404;44;54,57;245701404;CC;Non
+CC Pays de Nérondes;Centre-Val de Loire;Cher;200007177;24;18;200007177;CC;Non
+CC Sauer-Pechelbronn;Grand Est;Bas-Rhin;200013050;44;67;200013050;CC;Non
+CC Isle Vern Salembre en Périgord;Nouvelle-Aquitaine;Dordogne;200040095;75;24;200040095;CC;Non
+CC de l'Outre-Forêt;Grand Est;Bas-Rhin;200040178;44;67;200040178;CC;Non
+CA du Pays de Laon;Hauts-de-France;Aisne;200043495;32;2;200043495;CA;Non
+CC Dômes Sancy Artense;Auvergne-Rhône-Alpes;Puy-de-Dôme;200069169;84;63;200069169;CC;Non
+CC de la Côte d'Albâtre;Normandie;Seine-Maritime;200069839;28;76;200069839;CC;Non
+CA Mâconnais Beaujolais Agglomération;Auvergne-Rhône-Alpes,Bourgogne-Franche-Comté;Ain,Saône-et-Loire;200070308;27,84;1,71;200070308;CA;Non
+CC Poher communauté;Bretagne;Côtes-d'Armor,Finistère;242900744;53;22,29;242900744;CC;Non
+CC des Coteaux Bellevue;Occitanie;Haute-Garonne;243100815;76;31;243100815;CC;Non
+CC Médullienne;Nouvelle-Aquitaine;Gironde;243301389;75;33;243301389;CC;Non
+CC du Pays Tarusate;Nouvelle-Aquitaine;Landes;244000766;75;40;244000766;CC;Non
+CC Côte Landes Nature;Nouvelle-Aquitaine;Landes;244000857;75;40;244000857;CC;Non
+CC Maremne Adour Côte Sud;Nouvelle-Aquitaine;Landes;244000865;75;40;244000865;CC;Non
+CA Montargoise et Rives du Loing (A.M.E.);Centre-Val de Loire;Loiret;244500203;24;45;244500203;CA;Non
+CC Giennoises;Centre-Val de Loire;Loiret;244500211;24;45;244500211;CC;Non
+CC de l'Aire Cantilienne;Hauts-de-France;Oise;246000764;32;60;246000764;CC;Non
+CC de la Vallée de Villé;Grand Est;Bas-Rhin;246700777;44;67;246700777;CC;Non
+CC des Combes;Bourgogne-Franche-Comté;Haute-Saône;247000367;27;70;247000367;CC;Non
+CC Rahin et Chérimont;Bourgogne-Franche-Comté;Haute-Saône;247000821;27;70;247000821;CC;Non
+CC Entre Saône et Grosne;Bourgogne-Franche-Comté;Saône-et-Loire;247103765;27;71;247103765;CC;Non
+CC du Canton de La Chambre;Auvergne-Rhône-Alpes;Savoie;247300361;84;73;247300361;CC;Non
+CC Vaison Ventoux;Auvergne-Rhône-Alpes,Provence-Alpes-Côte d'Azur;Drôme,Vaucluse;248400335;84,93;26,84;248400335;CC;Non
+CU Perpignan Méditerranée Métropole;Occitanie;Pyrénées-Orientales;200027183;76;66;200027183;CU;Non
+CC du Ried de Marckolsheim;Grand Est;Bas-Rhin,Haut-Rhin;200030526;44;67,68;200030526;CC;Non
+CC du Piémont Cévenol;Occitanie;Gard;200034411;76;30;200034411;CC;Non
+CC de Saint-Méen Montauban;Bretagne;Ille-et-Vilaine;200038990;53;35;200038990;CC;Non
+CC Val Eyrieux;Auvergne-Rhône-Alpes;Ardèche;200041465;84;7;200041465;CC;Non
+CC de l'Oust à Brocéliande;Bretagne;Morbihan;200066785;53;56;200066785;CC;Non
+CC Côte Ouest Centre Manche;Normandie;Manche;200067031;28;50;200067031;CC;Non
+CC Saint Affricain,Roquefort,Sept Vallons;Occitanie;Aveyron;200067155;76;12;200067155;CC;Non
+CC Creuse Confluence;Nouvelle-Aquitaine;Creuse;200067544;75;23;200067544;CC;Non
+CC Thelloise;Hauts-de-France;Oise;200067973;32;60;200067973;CC;Non
+CC Terroir de Caux;Normandie;Seine-Maritime;200068534;28;76;200068534;CC;Non
+CA Saumur Val de Loire;Pays de la Loire;Maine-et-Loire;200071876;52;49;200071876;CA;Non
+CC Vallée de l'Ubaye - Serre-Ponçon;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence;200072304;93;4;200072304;CC;Non
+CA Laval Agglomération;Pays de la Loire;Mayenne;200083392;52;53;200083392;CA;Non
+CA Grand Calais Terres et Mers;Hauts-de-France;Pas-de-Calais;200090751;32;62;200090751;CA;Non
+CA Concarneau Cornouaille Agglomération;Bretagne;Finistère;242900769;53;29;242900769;CA;Non
+CA Morlaix Communauté;Bretagne;Finistère;242900835;53;29;242900835;CA;Non
+CA Lorient Agglomération;Bretagne;Morbihan;200042174;53;56;200042174;CA;Non
+CC des Paysages de la Champagne;Grand Est;Marne;200066850;44;51;200066850;CC;Non
+CC Haut-Léon Communauté;Bretagne;Finistère;200067072;53;29;200067072;CC;Non
+CC La Rochefoucauld porte du Périgord;Nouvelle-Aquitaine;Charente;200068914;75;16;200068914;CC;Non
+CC Meuse Rognon;Grand Est;Haute-Marne;200069664;44;52;200069664;CC;Non
+CC Médoc Cœur de Presqu'île;Nouvelle-Aquitaine;Gironde;200069995;75;33;200069995;CC;Non
+CC Ambert Livradois Forez;Auvergne-Rhône-Alpes;Puy-de-Dôme;200070761;84;63;200070761;CC;Non
+CA Vichy Communauté;Auvergne-Rhône-Alpes;Allier;200071363;84;3;200071363;CA;Non
+CC Le Gesnois Bilurien;Pays de la Loire;Sarthe;200072684;52;72;200072684;CC;Non
+CA Tulle Agglo;Nouvelle-Aquitaine;Corrèze;241927201;75;19;241927201;CA;Non
+CA du Pays de l'Or;Occitanie;Hérault;243400470;76;34;243400470;CA;Non
+CC des Pays d'Oise et d'Halatte;Hauts-de-France;Oise;246000921;32;60;246000921;CC;Non
+CA du Grand Dole;Bourgogne-Franche-Comté;Jura;200010650;27;39;200010650;CA;Non
+Métropole Rouen Normandie;Normandie;Seine-Maritime;200023414;28;76;200023414;ME;Non
+CC du Sud-Artois;Hauts-de-France;Pas-de-Calais;200035442;32;62;200035442;CC;Non
+CA Flers Agglo;Normandie;Orne;200035814;28;61;200035814;CA;Non
+CC du Golfe de Saint-Tropez;Provence-Alpes-Côte d'Azur;Var;200036077;93;83;200036077;CC;Non
+CC du Perche et Haut Vendômois;Centre-Val de Loire;Loir-et-Cher;200040772;24;41;200040772;CC;Non
+CC de la Plaine du Rhin;Grand Est;Bas-Rhin;200041283;44;67;200041283;CC;Non
+CC de Parthenay-Gâtine;Nouvelle-Aquitaine;Deux-Sèvres;200041333;75;79;200041333;CC;Non
+CC de Villedieu Intercom;Normandie;Manche;200043354;28;50;200043354;CC;Non
+CC du Sud Gironde;Nouvelle-Aquitaine;Gironde;200043974;75;33;200043974;CC;Non
+CA du Grand Annecy;Auvergne-Rhône-Alpes;Haute-Savoie;200066793;84;74;200066793;CA;Non
+CA La Roche-sur-Yon Agglomération;Pays de la Loire;Vendée;248500589;52;85;248500589;CA;Non
+CC Le Tonnerrois en Bourgogne;Bourgogne-Franche-Comté;Yonne;200039642;27;89;200039642;CC;Non
+CA Plaine Vallée;Île-de-France;Val-d'Oise;200056380;11;95;200056380;CA;Non
+CA Paris - Vallée de la Marne;Île-de-France;Seine-et-Marne;200057958;11;77;200057958;CA;Non
+CC Decazeville Communauté;Occitanie;Aveyron;200067064;76;12;200067064;CC;Non
+CA Pau Béarn Pyrénées;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067254;75;64;200067254;CA;Non
+CC Les Balcons du Dauphiné;Auvergne-Rhône-Alpes;Isère;200068542;84;38;200068542;CC;Non
+CC des Forêts du Perche;Centre-Val de Loire;Eure-et-Loir;200069912;24;28;200069912;CC;Non
+CC Terres Touloises;Grand Est;Meurthe-et-Moselle;200070563;44;54;200070563;CC;Non
+CC du Pays de Lapalisse;Auvergne-Rhône-Alpes;Allier;240300491;84;3;240300491;CC;Non
+CC du Rouillacais;Nouvelle-Aquitaine;Charente;241600303;75;16;241600303;CC;Non
+CC Dieulefit-Bourdeaux;Auvergne-Rhône-Alpes;Drôme;242600492;84;26;242600492;CC;Non
+CC Douarnenez Communauté;Bretagne;Finistère;242900645;53;29;242900645;CC;Non
+CC du Pays Foyen;Nouvelle-Aquitaine;Dordogne,Gironde;243301371;75;24,33;243301371;CC;Non
+CC de Bièvre Est;Auvergne-Rhône-Alpes;Isère;243801073;84;38;243801073;CC;Non
+CC des Collines du Perche;Centre-Val de Loire;Loir-et-Cher;244100293;24;41;244100293;CC;Non
+CC de l'Ernée;Pays de la Loire;Mayenne;245300355;52;53;245300355;CC;Non
+CC du Haut Vallespir;Occitanie;Pyrénées-Orientales;246600548;76;66;246600548;CC;Non
+CC Communauté de communes du Pays Sabolien;Pays de la Loire;Mayenne,Sarthe;247200090;52;53,72;247200090;CC;Non
+CA Sud Sainte Baume;Provence-Alpes-Côte d'Azur;Var;248300394;93;83;248300394;CA;Non
+CC Océan Marais de Monts;Pays de la Loire;Vendée;248500258;52;85;248500258;CC;Non
+CC de la Vanne et du Pays d'Othe;Bourgogne-Franche-Comté;Yonne;248900664;27;89;248900664;CC;Non
+CC du Sud Territoire;Bourgogne-Franche-Comté;Territoire de Belfort;249000241;27;90;249000241;CC;Non
+CC du Vexin-Val de Seine;Île-de-France;Val-d'Oise;249500513;11;95;249500513;CC;Non
+CA CIVIS (Communauté Intercommunale des VIlles Solidaires);La Réunion;La Réunion;249740077;4;974;249740077;CA;Non
+CC de Marie-Galante;Guadeloupe;Guadeloupe;249710047;1;971;249710047;CC;Non
+CA du Nord Basse-Terre;Guadeloupe;Guadeloupe;249710062;1;971;249710062;CA;Non
+CC de l'Est Guyanais;Guyane;Guyane;249730052;3;973;249730052;CC;Oui
+CC Rhône Lez Provence;Provence-Alpes-Côte d'Azur;Vaucluse;200000628;93;84;200000628;CC;Non
+CC Isle Double Landais;Nouvelle-Aquitaine;Dordogne;200040384;75;24;200040384;CC;Non
+CA Luberon Monts de Vaucluse;Provence-Alpes-Côte d'Azur;Vaucluse;200040442;93;84;200040442;CA;Non
+CC du Pays Rhénan;Grand Est;Bas-Rhin;200041325;44;67;200041325;CC;Non
+CC du Bassin de Joinville en Champagne;Grand Est;Haute-Marne;200044253;44;52;200044253;CC;Non
+CA Cœur d'Essonne Agglomération;Île-de-France;Essonne;200057859;11;91;200057859;CA;Non
+CC Hautes Terres Communauté;Auvergne-Rhône-Alpes;Cantal;200066637;84;15;200066637;CC;Non
+CA du Cotentin;Normandie;Manche;200067205;28;50;200067205;CA;Non
+CC Mond'Arverne Communauté;Auvergne-Rhône-Alpes;Puy-de-Dôme;200069177;84;63;200069177;CC;Non
+CC du Pays de Bitche;Grand Est;Moselle;200069441;44;57;200069441;CC;Non
+CA Fécamp Caux Littoral Agglomération;Normandie;Seine-Maritime;200069821;28;76;200069821;CA;Non
+CC de la Veyle;Auvergne-Rhône-Alpes;Ain;200070555;84;1;200070555;CC;Non
+CA ECLA  (Espace Communautaire Lons Agglomération);Bourgogne-Franche-Comté;Jura;200071116;27;39;200071116;CA;Non
+CC Haute Sarthe Alpes Mancelles;Pays de la Loire;Sarthe;200072700;52;72;200072700;CC;Non
+CC de Gâtine et Choisilles - Pays de Racan;Centre-Val de Loire;Indre-et-Loire;200073237;24;37;200073237;CC;Non
+CC Forêts,Lacs,Terres en Champagne;Grand Est;Aube;241000223;44;10;241000223;CC;Non
+CC de Bayeux Intercom;Normandie;Calvados;241400555;28;14;241400555;CC;Non
+CC du Doubs Baumois;Bourgogne-Franche-Comté;Doubs;242504447;27;25;242504447;CC;Non
+Bordeaux Métropole;Nouvelle-Aquitaine;Gironde;243300316;75;33;243300316;ME;Non
+CA Bassin d'Arcachon Sud (COBAS);Nouvelle-Aquitaine;Gironde;243300563;75;33;243300563;CA;Non
+CC Pays de Châteaugiron Communauté;Bretagne;Ille-et-Vilaine;243500659;53;35;243500659;CC;Non
+CC du Lac d'Aiguebelette (CCLA);Auvergne-Rhône-Alpes;Savoie;247300668;84;73;247300668;CC;Non
+CC du Pays d'Étain;Grand Est;Meuse;245501242;44;55;245501242;CC;Non
+CC du Pays Noyonnais;Hauts-de-France;Oise;246000756;32;60;246000756;CC;Non
+CC des Quatre Rivières;Auvergne-Rhône-Alpes;Haute-Savoie;247400666;84;74;247400666;CC;Non
+CA des Sorgues du Comtat;Provence-Alpes-Côte d'Azur;Vaucluse;248400293;93;84;248400293;CA;Non
+CC Yvetot Normandie;Normandie;Seine-Maritime;247600620;28;76;247600620;CC;Non
+CC du Pays de Mortagne;Pays de la Loire;Vendée;248500662;52;85;248500662;CC;Non
+CC Le Grésivaudan;Auvergne-Rhône-Alpes;Isère;200018166;84;38;200018166;CC;Non
+CC du Mont des Avaloirs;Pays de la Loire;Mayenne;200042182;52;53;200042182;CC;Non
+CC Grand Orb communauté de communes en Languedoc;Occitanie;Hérault;200042646;76;34;200042646;CC;Non
+CC du Pays de Mormal;Hauts-de-France;Nord;200043321;32;59;200043321;CC;Non
+CA de Dembeni/Mamoudzou;Mayotte;Mayotte;200060457;6;976;200060457;CA;Oui
+CC Causses et Vallée de la Dordogne;Occitanie;Lot;200066371;76;46;200066371;CC;Non
+CC Haute-Corrèze Communauté;Nouvelle-Aquitaine;Corrèze,Creuse;200066744;75;19,23;200066744;CC;Non
+CC Morvan Sommets et Grands Lacs;Bourgogne-Franche-Comté;Nièvre;200067890;27;58;200067890;CC;Non
+CC Haut Chemin-Pays de Pange;Grand Est;Moselle;200067957;44;57;200067957;CC;Non
+CC Bresse Haute Seille;Bourgogne-Franche-Comté;Jura;200069615;27;39;200069615;CC;Non
+CC Entre Arroux,Loire et Somme;Bourgogne-Franche-Comté;Saône-et-Loire;200070316;27;71;200070316;CC;Non
+CC Thiers Dore et Montagne;Auvergne-Rhône-Alpes;Puy-de-Dôme;200070712;84;63;200070712;CC;Non
+CA Privas Centre Ardèche;Auvergne-Rhône-Alpes;Ardèche;200071413;84;7;200071413;CA;Non
+CC des Portes du Luxembourg;Grand Est;Ardennes;240800847;44;8;240800847;CC;Non
+CC Lyon Saint Exupéry en Dauphiné;Auvergne-Rhône-Alpes;Isère;243800935;84;38;243800935;CC;Non
+CC Pontivy Communauté;Bretagne;Côtes-d'Armor,Morbihan;245614433;53;22,56;245614433;CC;Non
+CA Annemasse-les Voirons-Agglomération;Auvergne-Rhône-Alpes;Haute-Savoie;200011773;84;74;200011773;CA;Non
+CA Roannais Agglomération;Auvergne-Rhône-Alpes;Loire;200035731;84;42;200035731;CA;Non
+CC Cœur de France;Centre-Val de Loire;Cher;200036135;24;18;200036135;CC;Non
+CA Guingamp-Paimpol Agglomération de l'Armor à l'Argoat;Bretagne;Côtes-d'Armor;200067981;53;22;200067981;CA;Non
+CA Valence Romans Agglo;Auvergne-Rhône-Alpes;Drôme;200068781;84;26;200068781;CA;Non
+CC du Grand Châteaudun;Centre-Val de Loire;Eure-et-Loir;200069961;24;28;200069961;CC;Non
+CC Vienne et Gartempe;Nouvelle-Aquitaine;Vienne;200070043;75;86;200070043;CC;Non
+CA Terres de Montaigu;Pays de la Loire;Vendée;200070233;52;85;200070233;CA;Non
+CC Anjou Bleu Communauté;Pays de la Loire;Maine-et-Loire;244900809;52;49;244900809;CC;Non
+CC de la Marche Berrichonne;Centre-Val de Loire;Indre;200007052;24;36;200007052;CC;Non
+CA Val Parisis;Île-de-France;Val-d'Oise;200058485;11;95;200058485;CA;Non
+CC Bruyères-Vallons des Vosges;Grand Est;Vosges;200042000;44;88;200042000;CC;Non
+CC Sud Alsace Largue;Grand Est;Haut-Rhin;200066033;44;68;200066033;CC;Non
+CC de Montesquieu;Nouvelle-Aquitaine;Gironde;243301264;75;33;243301264;CC;Non
+CC Aubrac Lot Causses Tarn;Occitanie;Lozère;200069268;76;48;200069268;CC;Non
+CC Loir-Lucé-Bercé;Pays de la Loire;Sarthe;200070373;52;72;200070373;CC;Non
+CC du Pays de Dol et de la Baie du Mont Saint-Michel;Bretagne;Ille-et-Vilaine;200070670;53;35;200070670;CC;Non
+CC Touraine Val de Vienne;Centre-Val de Loire;Indre-et-Loire;200072668;24;37;200072668;CC;Non
+CA de Forbach Porte de France;Grand Est;Moselle;245700372;44;57;245700372;CA;Non
+Dijon Métropole;Bourgogne-Franche-Comté;Côte-d'Or;242100410;27;21;242100410;ME;Non
+CC du Pays de Saint-Aulaye;Nouvelle-Aquitaine;Dordogne;242400935;75;24;242400935;CC;Non
+CC du Pays de Conches;Normandie;Eure;242700276;28;27;242700276;CC;Non
+CC du Pays de Lunel;Occitanie;Hérault;243400520;76;34;243400520;CC;Non
+CC du Castelrenaudais;Centre-Val de Loire;Indre-et-Loire;243700499;24;37;243700499;CC;Non
+CC de Bléré Val de Cher;Centre-Val de Loire;Indre-et-Loire;243700820;24;37;243700820;CC;Non
+CC du Pays d'Ancenis;Pays de la Loire;Loire-Atlantique,Maine-et-Loire;244400552;52;44,49;244400552;CC;Non
+CC de la Plaine du Nord Loiret;Centre-Val de Loire;Loiret;244500542;24;45;244500542;CC;Non
+CC du Pays de Duras;Nouvelle-Aquitaine;Lot-et-Garonne;244700449;75;47;244700449;CC;Non
+CC des Vallons du Lyonnais (CCVL);Auvergne-Rhône-Alpes;Rhône;246900724;84;69;246900724;CC;Non
+CC Maurienne Galibier;Auvergne-Rhône-Alpes;Savoie;247300452;84;73;247300452;CC;Non
+CC Porte de Maurienne;Auvergne-Rhône-Alpes;Savoie;247300676;84;73;247300676;CC;Non
+CA de l'Albigeois (C2A);Occitanie;Tarn;248100737;76;81;248100737;CA;Non
+CA Beaune,Côte et Sud - Communauté Beaune-Chagny-Nolay;Bourgogne-Franche-Comté;Côte-d'Or,Saône-et-Loire;200006682;27;21,71;200006682;CA;Non
+CA du Grand Guéret;Nouvelle-Aquitaine;Creuse;200034825;75;23;200034825;CA;Non
+CC des Bastides Dordogne-Périgord;Nouvelle-Aquitaine;Dordogne;200034833;75;24;200034833;CC;Non
+CA du Pays Nord Martinique;Martinique;Martinique;200041788;2;972;200041788;CA;Oui
+CC Ouest Limousin;Nouvelle-Aquitaine;Haute-Vienne;200066520;75;87;200066520;CC;Non
+CC Ploërmel Communauté;Bretagne;Morbihan;200066777;53;56;200066777;CC;Non
+CA de la Provence Verte;Provence-Alpes-Côte d'Azur;Var;200068104;93;83;200068104;CA;Non
+CA d'Épinal;Grand Est;Vosges;200068757;44;88;200068757;CA;Non
+CC des Vallées d'Auge et du Merlerault;Normandie;Orne;200069458;28;61;200069458;CC;Non
+CC du Territoire de Lunéville à Baccarat;Grand Est;Meurthe-et-Moselle;200070324;44;54;200070324;CC;Non
+CA Agglo Pays d'Issoire;Auvergne-Rhône-Alpes;Puy-de-Dôme;200070407;84;63;200070407;CA;Non
+CC de Seille et Grand Couronné;Grand Est;Meurthe-et-Moselle;200070589;44;54;200070589;CC;Non
+CC de l'Île-Rousse - Balagne;Corse;Haute-Corse;200073104;94;2B;200073104;CC;Oui
+CC du Briançonnais;Provence-Alpes-Côte d'Azur;Hautes-Alpes;240500439;93;5;240500439;CC;Non
+CC du Réquistanais;Occitanie;Aveyron;241200542;76;12;241200542;CC;Non
+CC du Plateau de Russey;Bourgogne-Franche-Comté;Doubs;242504355;27;25;242504355;CC;Non
+CC du Pays du Neubourg;Normandie;Eure;242700607;28;27;242700607;CC;Non
+Nantes Métropole;Pays de la Loire;Loire-Atlantique;244400404;52;44;244400404;ME;Non
+CC Baugeois Vallée;Pays de la Loire;Maine-et-Loire;244900882;52;49;244900882;CC;Non
+CC Cœur de Tarentaise;Auvergne-Rhône-Alpes;Savoie;200023299;84;73;200023299;CC;Non
+CC Cluses-Arve et Montagnes;Auvergne-Rhône-Alpes;Haute-Savoie;200033116;84;74;200033116;CC;Non
+CC de la Vallée de la Haute Sarthe;Normandie;Orne;200035103;28;61;200035103;CC;Non
+CC Ventoux Sud;Auvergne-Rhône-Alpes,Provence-Alpes-Côte d'Azur;Drôme,Vaucluse;200035723;84,93;26,84;200035723;CC;Non
+CC de Lacq-Orthez;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200039204;75;64;200039204;CC;Non
+CC de Portes Sud Périgord;Nouvelle-Aquitaine;Dordogne;200040889;75;24;200040889;CC;Non
+CC du Bassin de Pont-à-Mousson;Grand Est;Meurthe-et-Moselle;200041515;44;54;200041515;CC;Non
+CC Vallées de l'Orne et de l'Odon;Normandie;Calvados;200066728;28;14;200066728;CC;Non
+CC du Royans-Vercors;Auvergne-Rhône-Alpes;Drôme;200067767;84;26;200067767;CC;Non
+CC Sèvre et Loire;Pays de la Loire;Loire-Atlantique;200067866;52;44;200067866;CC;Non
+CA de la Région de Compiègne et de la Basse Automne;Hauts-de-France;Oise;200067965;32;60;200067965;CA;Non
+CC Les Coteaux Bordelais;Nouvelle-Aquitaine;Gironde;243301355;75;33;243301355;CC;Non
+CA Troyes Champagne Métropole;Grand Est;Aube;200069250;44;10;200069250;CA;Non
+CC des Coteaux du Val d'Arros;Occitanie;Hautes-Pyrénées;200070803;76;65;200070803;CC;Non
+CC Gérardmer Hautes Vosges;Grand Est;Vosges;200096642;44;88;200096642;CC;Non
+CC Cère et Goul en Carladès;Auvergne-Rhône-Alpes;Cantal;241501089;84;15;241501089;CC;Non
+CC Cœur de Saintonge;Nouvelle-Aquitaine;Charente-Maritime;241700517;75;17;241700517;CC;Non
+CC Val'Aïgo;Occitanie;Haute-Garonne;243100773;76;31;243100773;CC;Non
+CC des Cévennes Gangeoises et Suménoises;Occitanie;Gard,Hérault;243400736;76;30,34;243400736;CC;Non
+CC Val d'Ille-Aubigné;Bretagne;Ille-et-Vilaine;243500667;53;35;243500667;CC;Non
+CC du Pays d'Urfé;Auvergne-Rhône-Alpes;Loire;244200820;84;42;244200820;CC;Non
+CC de la Picardie Verte;Hauts-de-France;Oise;246000848;32;60;246000848;CC;Non
+Clermont Auvergne Métropole;Auvergne-Rhône-Alpes;Puy-de-Dôme;246300701;84;63;246300701;ME;Non
+CC de la Haute-Bigorre;Occitanie;Hautes-Pyrénées;246500482;76;65;246500482;CC;Non
+CC du Pays de Lure;Bourgogne-Franche-Comté;Haute-Saône;247000664;27;70;247000664;CC;Non
+CC de la Vallée du Gapeau;Provence-Alpes-Côte d'Azur;Var;248300410;93;83;248300410;CC;Non
+CC du Pays de la Châtaigneraie;Pays de la Loire;Vendée;248500415;52;85;248500415;CC;Non
+CC de l'Aillantais en Bourgogne;Bourgogne-Franche-Comté;Yonne;248900524;27;89;248900524;CC;Non
+CA de Castres Mazamet;Occitanie;Tarn;248100430;76;81;248100430;CA;Non
+CC du Pays de Lamastre;Auvergne-Rhône-Alpes;Ardèche;200016905;84;7;200016905;CC;Non
+CC Provence Verdon;Provence-Alpes-Côte d'Azur;Var;200040202;93;83;200040202;CC;Non
+CC de la Haute Comté;Bourgogne-Franche-Comté;Haute-Saône;200041721;27;70;200041721;CC;Non
+CC Dombes Saône Vallée;Auvergne-Rhône-Alpes;Ain;200042497;84;1;200042497;CC;Non
+CC Val de Charente;Nouvelle-Aquitaine;Charente;200043016;75;16;200043016;CC;Non
+CC Quercy Vert-Aveyron;Occitanie;Tarn-et-Garonne;200066884;76;82;200066884;CC;Non
+CC de l'Alsace Bossue;Grand Est;Bas-Rhin;200067841;44;67;200067841;CC;Non
+CC Cœur du Perche;Normandie;Orne;200068435;28;61;200068435;CC;Non
+CA Le Muretain Agglo;Occitanie;Haute-Garonne;200068641;76;31;200068641;CA;Non
+CC des Hautes Terres de l'Aubrac;Occitanie;Lozère;200069144;76;48;200069144;CC;Non
+CC Pays d'Orthe et Arrigans;Nouvelle-Aquitaine;Landes;200069417;75;40;200069417;CC;Non
+CC Jabron-Lure-Vançon-Durance;Auvergne-Rhône-Alpes,Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Drôme;200071033;84,93;4,26;200071033;CC;Non
+CC du Fronsadais;Nouvelle-Aquitaine;Gironde;243301397;75;33;243301397;CC;Non
+CC Ardèche Rhône Coiron;Auvergne-Rhône-Alpes;Ardèche;200071405;84;7;200071405;CC;Non
+CA du Pays de Meaux;Île-de-France;Seine-et-Marne;200072130;11;77;200072130;CA;Non
+CC Estuaire et Sillon;Pays de la Loire;Loire-Atlantique;200072734;52;44;200072734;CC;Non
+CC de la Castagniccia-Casinca;Corse;Haute-Corse;200073252;94;2B;200073252;CC;Oui
+CC de Freyming-Merlebach;Grand Est;Moselle;245700398;44;57;245700398;CC;Non
+CC de l'Île d'Oléron;Nouvelle-Aquitaine;Charente-Maritime;241700624;75;17;241700624;CC;Non
+CA du Sicoval;Occitanie;Haute-Garonne;243100633;76;31;243100633;CA;Non
+CC Cœur de Lozère;Occitanie;Lozère;244800405;76;48;244800405;CC;Non
+CC Moselle et Madon;Grand Est;Meurthe-et-Moselle;245400171;44;54;245400171;CC;Non
+CC du Territoire de Fresnes-en-Woëvre;Grand Est;Meuse;245501176;44;55;245501176;CC;Non
+CC du Val d'Argent;Grand Est;Haut-Rhin;246800395;44;68;246800395;CC;Non
+CA du Grand Villeneuvois;Nouvelle-Aquitaine;Lot-et-Garonne;200023307;75;47;200023307;CA;Non
+CA du Pays de Grasse;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;200039857;93;6;200039857;CA;Non
+CC du Périgord Ribéracois;Nouvelle-Aquitaine;Dordogne;200040400;75;24;200040400;CC;Non
+CC Sidobre Vals et Plateaux;Occitanie;Tarn;200066561;76;81;200066561;CC;Non
+CA Alès Agglomération;Occitanie;Gard;200066918;76;30;200066918;CA;Non
+CC Chalosse Tursan;Nouvelle-Aquitaine;Landes;200069649;75;40;200069649;CC;Non
+CC Pays de Nexon Monts de Chalus;Nouvelle-Aquitaine;Haute-Vienne;200070506;75;87;200070506;CC;Non
+CC du Grand Autunois Morvan;Bourgogne-Franche-Comté;Saône-et-Loire;200070530;27;71;200070530;CC;Non
+CA de Saint-Dié-des-Vosges;Grand Est;Meurthe-et-Moselle,Vosges;200071066;44;54,88;200071066;CA;Non
+CA Agglomération d'Agen;Nouvelle-Aquitaine;Lot-et-Garonne;200096956;75;47;200096956;CA;Non
+CC du Pays de Tronçais;Auvergne-Rhône-Alpes;Allier;240300558;84;3;240300558;CC;Non
+CC de Millau Grands Causses;Occitanie;Aveyron,Lozère;241200567;76;12,48;241200567;CC;Non
+CC de Ventadour - Egletons - Monédières;Nouvelle-Aquitaine;Corrèze;241900133;75;19;241900133;CC;Non
+CC du Pays d'Uzerche;Nouvelle-Aquitaine;Corrèze;241927243;75;19;241927243;CC;Non
+CC du Pays Dunois;Nouvelle-Aquitaine;Creuse;242320109;75;23;242320109;CC;Non
+CA de Nevers;Bourgogne-Franche-Comté;Nièvre;245804406;27;58;245804406;CA;Non
+CC Roussillon-Conflent;Occitanie;Pyrénées-Orientales;246600415;76;66;246600415;CC;Non
+CC des 1000 étangs;Bourgogne-Franche-Comté;Haute-Saône;247000854;27;70;247000854;CC;Non
+CC Moret Seine et Loing;Île-de-France;Seine-et-Marne;247700032;11;77;247700032;CC;Non
+CC du Jovinien;Bourgogne-Franche-Comté;Yonne;248900938;27;89;248900938;CC;Non
+CA Caux Seine Agglo;Normandie;Seine-Maritime;200010700;28;76;200010700;CA;Non
+CA de Blois Agglopolys;Centre-Val de Loire;Loir-et-Cher;200030385;24;41;200030385;CA;Non
+CC du Lautrécois et du Pays d'Agout;Occitanie;Tarn;200034056;76;81;200034056;CC;Non
+CC du Pays de Mortagne-au-Perche;Normandie;Orne;200036069;28;61;200036069;CC;Non
+CC Pays des Vans en Cévennes;Auvergne-Rhône-Alpes;Ardèche;200039832;84;7;200039832;CC;Non
+CC Alpes d'Azur;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;200039931;93;6;200039931;CC;Non
+CA du Bocage Bressuirais;Nouvelle-Aquitaine;Deux-Sèvres;200040244;75;79;200040244;CA;Non
+CA Haut - Bugey Agglomération;Auvergne-Rhône-Alpes;Ain;200042935;84;1;200042935;CA;Non
+CC Arize Lèze;Occitanie;Ariège;200066223;76;9;200066223;CC;Non
+CC des Portes d'Ariège Pyrénées;Occitanie;Ariège;200066231;76;9;200066231;CC;Non
+CC du Pays de Trie et du Magnoac;Occitanie;Hautes-Pyrénées;200070795;76;65;200070795;CC;Non
+CC Bresse Louhannaise Intercom';Bourgogne-Franche-Comté;Saône-et-Loire;200071579;27;71;200071579;CC;Non
+CC Val-de-Cher-Controis;Centre-Val de Loire;Loir-et-Cher;200072064;24;41;200072064;CC;Non
+CC Isle-Loue-Auvézère en Périgord;Nouvelle-Aquitaine;Dordogne;242401024;75;24;242401024;CC;Non
+CA Redon Agglomération;Bretagne,Pays de la Loire;Ille-et-Vilaine,Loire-Atlantique,Morbihan;243500741;52,53;35,44,56;243500741;CA;Non
+CC des Quatre Rivières;Bourgogne-Franche-Comté;Haute-Saône;247000623;27;70;247000623;CC;Non
+CC du Val de Bouzanne;Centre-Val de Loire;Indre;200018521;24;36;200018521;CC;Non
+CC Rives de l'Ain - Pays du Cerdon;Auvergne-Rhône-Alpes;Ain;200029999;84;1;200029999;CC;Non
+CC des Sources de l'Orne;Normandie;Orne;200035111;28;61;200035111;CC;Non
+CA Estérel Côte d'Azur Agglomération;Provence-Alpes-Côte d'Azur;Var;200035319;93;83;200035319;CA;Non
+CC Airvaudais-Val du Thouet;Nouvelle-Aquitaine;Deux-Sèvres;200041416;75;79;200041416;CC;Non
+CC du Pithiverais;Centre-Val de Loire;Loiret;200066280;24;45;200066280;CC;Non
+CC Haut Nivernais-Val d'Yonne;Bourgogne-Franche-Comté;Nièvre,Yonne;200067429;27;58,89;200067429;CC;Non
+CA des Deux Baies en Montreuillois;Hauts-de-France;Pas-de-Calais;200069029;32;62;200069029;CA;Non
+CA Mont-Saint-Michel-Normandie;Normandie;Manche;200069425;28;50;200069425;CA;Non
+CC de Vezouze en Piémont;Grand Est;Meurthe-et-Moselle;200069433;44;54;200069433;CC;Non
+CC Entre Bièvre et Rhône;Auvergne-Rhône-Alpes;Isère;200085751;84;38;200085751;CC;Non
+CC des Hautes Vosges;Grand Est;Vosges;200096634;44;88;200096634;CC;Non
+CC Cœur de Nacre;Normandie;Calvados;241400860;28;14;241400860;CC;Non
+CA du Pays Ajaccien;Corse;Corse-du-Sud;242010056;94;2A;242010056;CA;Oui
+CC du Val de Morteau;Bourgogne-Franche-Comté;Doubs;242504116;27;25;242504116;CC;Non
+CC Bastides et Vallons du Gers;Occitanie;Gers;243200508;76;32;243200508;CC;Non
+CA du Pays de Saint Malo Agglomération;Bretagne;Ille-et-Vilaine;243500782;53;35;243500782;CA;Non
+CC des Vals d'Aix et Isable;Auvergne-Rhône-Alpes;Loire;244200614;84;42;244200614;CC;Non
+CC Loire et Semène;Auvergne-Rhône-Alpes;Haute-Loire;244301131;84;43;244301131;CC;Non
+CA Portes de France-Thionville;Grand Est;Moselle;245701362;44;57;245701362;CA;Non
+CC du Val d'Orne;Normandie;Orne;246100390;28;61;246100390;CC;Non
+CC des Aspres;Occitanie;Pyrénées-Orientales;246600449;76;66;246600449;CC;Non
+Eurométropole de Strasbourg;Grand Est;Bas-Rhin;246700488;44;67;246700488;ME;Non
+CC du Pays Fléchois;Pays de la Loire;Sarthe;247200348;52;72;247200348;CC;Non
+CC du Val de Sarthe;Pays de la Loire;Sarthe;247200629;52;72;247200629;CC;Non
+CC de Noblat;Nouvelle-Aquitaine;Haute-Vienne;248719361;75;87;248719361;CC;Non
+CC Faucigny-Glières;Auvergne-Rhône-Alpes;Haute-Savoie;200000172;84;74;200000172;CC;Non
+CC des Lacs de Champagne;Grand Est;Aube;200040137;44;10;200040137;CC;Non
+CC du Pays de Fénelon;Nouvelle-Aquitaine;Dordogne;200040830;75;24;200040830;CC;Non
+CC de la Montagne Noire;Occitanie;Aude;200042463;76;11;200042463;CC;Non
+CC Sud-Hérault;Occitanie;Hérault;200042653;76;34;200042653;CC;Non
+CC Bièvre Isère;Auvergne-Rhône-Alpes;Isère;200059392;84;38;200059392;CC;Non
+CA de Chaumont;Grand Est;Haute-Marne;200068658;44;52;200068658;CA;Non
+CC du Val de Sully;Centre-Val de Loire;Loiret;200070100;24;45;200070100;CC;Non
+CC Neste Barousse;Occitanie;Hautes-Pyrénées;200070829;76;65;200070829;CC;Non
+CA du Saint-Quentinois;Hauts-de-France;Aisne;200071892;32;2;200071892;CA;Non
+CC Porte du Jura;Bourgogne-Franche-Comté;Jura;200072056;27;39;200072056;CC;Non
+CC du Canton d'Oulchy-le-Château;Hauts-de-France;Aisne;240200519;32;2;240200519;CC;Non
+CC FerCher;Centre-Val de Loire;Cher;241800457;24;18;241800457;CC;Non
+CC du Bonnevalais;Centre-Val de Loire;Eure-et-Loir;242852465;24;28;242852465;CC;Non
+CC du Pont du Gard;Occitanie;Gard;243000684;76;30;243000684;CC;Non
+CC Jalle-Eau-Bourde;Nouvelle-Aquitaine;Gironde;243301165;75;33;243301165;CC;Non
+CC de Mimizan;Nouvelle-Aquitaine;Landes;244000543;75;40;244000543;CC;Non
+CC du Pays de Lauzun;Nouvelle-Aquitaine;Lot-et-Garonne;244700464;75;47;244700464;CC;Non
+CC Bresse Nord Intercom';Bourgogne-Franche-Comté;Saône-et-Loire;247100647;27;71;247100647;CC;Non
+CA du Grand Avignon (COGA);Occitanie,Provence-Alpes-Côte d'Azur;Gard,Vaucluse;248400251;76,93;30,84;248400251;CA;Non
+CC du Pays des Achards;Pays de la Loire;Vendée;248500530;52;85;248500530;CC;Non
+CC du Val de Vienne;Nouvelle-Aquitaine;Haute-Vienne;248719288;75;87;248719288;CC;Non
+CA Territoire de la Côte Ouest (TCO);La Réunion;La Réunion;249740101;4;974;249740101;CA;Non
+Metz Métropole;Grand Est;Moselle;200039865;44;57;200039865;ME;Non
+CC Loué - Brûlon - Noyen;Pays de la Loire;Sarthe;200040475;52;72;200040475;CC;Non
+CC Perthois-Bocage et Der;Grand Est;Marne;200042992;44;51;200042992;CC;Non
+CA du Bassin de Brive;Nouvelle-Aquitaine;Corrèze;200043172;75;19;200043172;CA;Non
+CC des 7 Vallées;Hauts-de-France;Pas-de-Calais;200044030;32;62;200044030;CC;Non
+CC Roumois Seine;Normandie;Eure,Seine-Maritime;200066405;28;27,76;200066405;CC;Non
+CC Monts d'Arrée Communauté;Bretagne;Finistère;200067197;53;29;200067197;CC;Non
+CC Sud Nivernais;Bourgogne-Franche-Comté;Nièvre;200067700;27;58;200067700;CC;Non
+CC Couserans-Pyrénées;Occitanie;Ariège;200067940;76;9;200067940;CC;Non
+CC des Vosges côté Sud Ouest;Grand Est;Vosges;200068773;44;88;200068773;CC;Non
+CA Moulins Communauté;Auvergne-Rhône-Alpes,Bourgogne-Franche-Comté;Allier,Nièvre;200071140;27,84;3,58;200071140;CA;Non
+CC des Vallées de la Braye et de l'Anille;Pays de la Loire;Sarthe;200072692;52;72;200072692;CC;Non
+CC de Vie et Boulogne;Pays de la Loire;Vendée;200072882;52;85;200072882;CC;Non
+CC des Rives du Haut-Allier;Auvergne-Rhône-Alpes;Haute-Loire;200073393;84;43;200073393;CC;Non
+CA Seine-Eure;Normandie;Eure;200089456;28;27;200089456;CA;Non
+CA de Sophia Antipolis;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;240600585;93;6;240600585;CA;Non
+CA Rodez Agglomération;Occitanie;Aveyron;241200187;76;12;241200187;CA;Non
+CA de Nîmes Métropole;Occitanie;Gard;243000643;76;30;243000643;CA;Non
+Montpellier Méditerranée Métropole;Occitanie;Hérault;243400017;76;34;243400017;ME;Non
+CC du Saulnois;Grand Est;Moselle;245701206;44;57;245701206;CC;Non
+CC Aure Louron;Occitanie;Hautes-Pyrénées;246500573;76;65;246500573;CC;Non
+CC Canaux et Forêts en Gâtinais;Centre-Val de Loire;Loiret;200067676;24;45;200067676;CC;Non
+CC des 4B Sud Charente;Nouvelle-Aquitaine;Charente;200029734;75;16;200029734;CC;Non
+CC de Thann-Cernay;Grand Est;Haut-Rhin;200036465;44;68;200036465;CC;Non
+CA La Riviera du Levant;Guadeloupe;Guadeloupe;200041507;1;971;200041507;CA;Non
+CA Ardenne Métropole;Grand Est;Ardennes;200041630;44;8;200041630;CA;Non
+CA de la Porte du Hainaut;Hauts-de-France;Nord;200042190;32;59;200042190;CA;Non
+CC du Pays de Craon;Pays de la Loire;Mayenne;200048551;52;53;200048551;CC;Non
+CC Interco Normandie Sud Eure;Centre-Val de Loire,Normandie;Eure,Eure-et-Loir;200066462;24,28;27,28;200066462;CC;Non
+CC Loue-Lison;Bourgogne-Franche-Comté;Doubs;200068070;27;25;200068070;CC;Non
+CC Sarrebourg Moselle Sud;Grand Est;Moselle;200068146;44;57;200068146;CC;Non
+CC de Mirecourt Dompaire;Grand Est;Vosges;200068369;44;88;200068369;CC;Non
+CC des Campagnes de l'Artois;Hauts-de-France;Pas-de-Calais;200069482;32;62;200069482;CC;Non
+CC Saint-Marcellin Vercors Isère Communauté;Auvergne-Rhône-Alpes;Isère;200070431;84;38;200070431;CC;Non
+CC des Terres d'Auxois;Bourgogne-Franche-Comté;Côte-d'Or;200071017;27;21;200071017;CC;Non
+CC Marches du Velay-Rochebaron;Auvergne-Rhône-Alpes;Haute-Loire;200073427;84;43;200073427;CC;Non
+Métropole Européenne de Lille;Hauts-de-France;Nord;200093201;32;59;200093201;ME;Non
+CC Centre Morbihan Communauté;Bretagne;Morbihan;200096683;53;56;200096683;CC;Non
+CC Sumène - Artense;Auvergne-Rhône-Alpes;Cantal;241501055;84;15;241501055;CC;Non
+CC du Pays Châtillonnais;Bourgogne-Franche-Comté;Côte-d'Or;242101434;27;21;242101434;CC;Non
+CC Cœur d'Astarac en Gascogne;Occitanie;Gers;243200425;76;32;243200425;CC;Non
+CU Angers Loire Métropole;Pays de la Loire;Maine-et-Loire;244900015;52;49;244900015;CU;Non
+CC des Trois Forêts;Grand Est;Haute-Marne;245200597;44;52;245200597;CC;Non
+CC de Haute-Tarentaise;Auvergne-Rhône-Alpes;Savoie;247300254;84;73;247300254;CC;Non
+CC du Sor et de l'Agout;Occitanie;Tarn;248100158;76;81;248100158;CC;Non
+CC Gâtinais Val de Loing;Île-de-France;Seine-et-Marne;200023919;11;77;200023919;CC;Non
+CC Méditerranée Porte des Maures;Provence-Alpes-Côte d'Azur;Var;200027100;93;83;200027100;CC;Non
+CC du Châtillonnais en Berry;Centre-Val de Loire;Indre;200035848;24;36;200035848;CC;Non
+CC Forêts,Seine et Suzon;Bourgogne-Franche-Comté;Côte-d'Or;200039063;27;21;200039063;CC;Non
+CC Val Vanoise;Auvergne-Rhône-Alpes;Savoie;200040798;84;73;200040798;CC;Non
+CC Vallée de la Dordogne et Forêt Bessède;Nouvelle-Aquitaine;Dordogne;200041051;75;24;200041051;CC;Non
+CC du Centre-Ouest;Mayotte;Mayotte;200059871;6;976;200059871;CC;Oui
+CA Pays de Montbéliard Agglomération;Bourgogne-Franche-Comté;Doubs;200065647;27;25;200065647;CA;Non
+CC Val de Meuse - Voie Sacrée;Grand Est;Meuse;200066165;44;55;200066165;CC;Non
+CC Cingal-Suisse Normande;Normandie;Calvados;200066710;28;14;200066710;CC;Non
+CC Senlis Sud Oise;Hauts-de-France;Oise;200066975;32;60;200066975;CC;Non
+CC de Miribel et du Plateau;Auvergne-Rhône-Alpes;Ain;240100800;84;1;240100800;CC;Non
+CC Maine Cœur de Sarthe;Pays de la Loire;Sarthe;200068963;52;72;200068963;CC;Non
+CC Val de Ligne;Auvergne-Rhône-Alpes;Ardèche;240700617;84;7;240700617;CC;Non
+CC de l'Orvin et de l'Ardusson;Grand Est;Aube;241000488;44;10;241000488;CC;Non
+CC Les Trois Provinces;Centre-Val de Loire;Cher;241800432;24;18;241800432;CC;Non
+CU Grand Besançon Métropole;Bourgogne-Franche-Comté;Doubs;242500361;27;25;242500361;CU;Non
+CC du Saves;Occitanie;Gers;243200599;76;32;243200599;CC;Non
+CC du Grand Cubzaguais;Nouvelle-Aquitaine;Gironde;243301223;75;33;243301223;CC;Non
+CC Val Guiers;Auvergne-Rhône-Alpes;Savoie;247300528;84;73;247300528;CC;Non
+CA de la Région Nazairienne et de l'Estuaire (CARENE);Pays de la Loire;Loire-Atlantique;244400644;52;44;244400644;CA;Non
+CC de Belle-Île-en-Mer;Bretagne;Morbihan;245600465;53;56;245600465;CC;Non
+CC Flandre Lys;Hauts-de-France;Nord,Pas-de-Calais;245900758;32;59,62;245900758;CC;Non
+CC de la Plaine d'Estrées;Hauts-de-France;Oise;246000897;32;60;246000897;CC;Non
+CC Entre Dore et Allier;Auvergne-Rhône-Alpes;Puy-de-Dôme;246301097;84;63;246301097;CC;Non
+CA Marne et Gondoire;Île-de-France;Seine-et-Marne;247700594;11;77;247700594;CA;Non
+CC du Pays de Villersexel;Bourgogne-Franche-Comté;Doubs,Haute-Saône;247000714;27;25,70;247000714;CC;Non
+CC du Pays d'Héricourt;Bourgogne-Franche-Comté;Doubs,Haute-Saône;247000722;27;25,70;247000722;CC;Non
+Métropole du Grand Paris;Île-de-France;Essonne,Hauts-de-Seine,Paris,Seine-Saint-Denis,Val-de-Marne,Val-d'Oise;200054781;11;75,91,92,93,94,95;200054781;ME;Non
+CC Mayenne Communauté;Pays de la Loire;Mayenne;200055887;52;53;200055887;CC;Non
+CA Lannion-Trégor Communauté;Bretagne;Côtes-d'Armor;200065928;53;22;200065928;CA;Non
+CA Saint-Avold Synergie;Grand Est;Moselle;200067502;44;57;200067502;CA;Non
+CC des Deux Vallées Vertes;Bourgogne-Franche-Comté;Doubs;200068294;27;25;200068294;CC;Non
+CC Cœur de Beauce;Centre-Val de Loire;Eure-et-Loir;200070159;24;28;200070159;CC;Non
+CA Bergeracoise;Nouvelle-Aquitaine;Dordogne;200070647;75;24;200070647;CA;Non
+CC du Chaourçois et du Val d'Armance;Grand Est;Aube;200071041;44;10;200071041;CC;Non
+CC de la Côtière à Montluel;Auvergne-Rhône-Alpes;Ain;240100610;84;1;240100610;CC;Non
+CA de la Riviera Française;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;240600551;93;6;240600551;CA;Non
+CC du Pays Sostranien;Nouvelle-Aquitaine;Creuse;242300135;75;23;242300135;CC;Non
+CC du Pays Bigouden Sud;Bretagne;Finistère;242900702;53;29;242900702;CC;Non
+CC du Pays de Meslay-Grez;Pays de la Loire;Mayenne;245300223;52;53;245300223;CC;Non
+CA Saint Germain Boucles de Seine;Île-de-France;Val-d'Oise,Yvelines;200058519;11;78,95;200058519;CA;Non
+CC de la Vallée de Chamonix-Mont-Blanc;Auvergne-Rhône-Alpes;Haute-Savoie;200023372;84;74;200023372;CC;Non
+CA du Gard Rhodanien;Occitanie;Gard;200034692;76;30;200034692;CA;Non
+CC Écueillé-Valençay;Centre-Val de Loire;Indre;200040558;24;36;200040558;CC;Non
+CC Aunis Atlantique;Nouvelle-Aquitaine;Charente-Maritime;200041499;75;17;200041499;CC;Non
+CC du Réolais en Sud Gironde;Nouvelle-Aquitaine;Gironde;200044394;75;33;200044394;CC;Non
+CA Roissy Pays de France;Île-de-France;Seine-et-Marne,Val-d'Oise;200055655;11;77,95;200055655;CA;Non
+CA Saint-Louis Agglomération;Grand Est;Haut-Rhin;200066058;44;68;200066058;CA;Non
+CC Serre-Ponçon;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Hautes-Alpes;200067742;93;4,05;200067742;CC;Non
+CC Convergence Garonne;Nouvelle-Aquitaine;Gironde;200069581;75;33;200069581;CC;Non
+CC Val de Saône Centre;Auvergne-Rhône-Alpes;Ain;200070118;84;1;200070118;CC;Non
+CC Cœur de Berry;Centre-Val de Loire;Cher;200070571;24;18;200070571;CC;Non
+CC Pays d'Évian Vallée d'Abondance;Auvergne-Rhône-Alpes;Haute-Savoie;200071967;84;74;200071967;CC;Non
+CC Nebbiu - Conca d'Oro;Corse;Haute-Corse;200073120;94;2B;200073120;CC;Oui
+CC du Rhône aux Gorges de l'Ardèche;Auvergne-Rhône-Alpes;Ardèche;240700864;84;7;240700864;CC;Non
+CC Le Dunois;Centre-Val de Loire;Cher;241800424;24;18;241800424;CC;Non
+CC de la Châtre et Sainte-Sévère;Centre-Val de Loire;Indre;243600350;24;36;243600350;CC;Non
+CC du Massif du Vercors;Auvergne-Rhône-Alpes;Isère;243801024;84;38;243801024;CC;Non
+CU d'Alençon;Normandie,Pays de la Loire;Orne,Sarthe;246100663;28,52;61,72;246100663;CU;Non
+CC de Marcigny;Bourgogne-Franche-Comté;Saône-et-Loire;247100639;27;71;247100639;CC;Non
+CC des Sources du Lac d'Annecy;Auvergne-Rhône-Alpes;Haute-Savoie;247400773;84;74;247400773;CC;Non
+CC de Londinières;Normandie;Seine-Maritime;247600604;28;76;247600604;CC;Non
+CA Versailles Grand Parc (C.A.V.G.P.);Île-de-France;Essonne,Yvelines;247800584;11;78,91;247800584;CA;Non
+CC Briance-Combade;Nouvelle-Aquitaine;Haute-Vienne;248719338;75;87;248719338;CC;Non
+CA de Bar-le-Duc - Sud Meuse;Grand Est;Meuse;200033025;44;55;200033025;CA;Non
+CC du Clunisois;Bourgogne-Franche-Comté;Saône-et-Loire;200040293;27;71;200040293;CC;Non
+CC Pévèle-Carembault;Hauts-de-France;Nord;200041960;32;59;200041960;CC;Non
+CA Saint-Lô Agglo;Normandie;Manche;200066389;28;50;200066389;CA;Non
+CC Midi Corrézien;Nouvelle-Aquitaine;Corrèze;200066769;75;19;200066769;CC;Non
+CC de Vendeuvre-Soulaines;Grand Est;Aube;200066892;44;10;200066892;CC;Non
+CC des 4 Rivières;Normandie;Eure,Seine-Maritime;200069730;28;27,76;200069730;CC;Non
+CC Sud Retz Atlantique;Pays de la Loire;Loire-Atlantique;200071546;52;44;200071546;CC;Non
+CC Val de Gers;Occitanie;Gers;200072320;76;32;200072320;CC;Non
+CC Pasquale Paoli;Corse;Haute-Corse;200073138;94;2B;200073138;CC;Oui
+CC Cagire Garonne Salat;Occitanie;Haute-Garonne;200073146;76;31;200073146;CC;Non
+CC de la Plaine de l'Ain;Auvergne-Rhône-Alpes;Ain;240100883;84;1;240100883;CC;Non
+CC du Pays Gentiane;Auvergne-Rhône-Alpes;Cantal;241500255;84;15;241500255;CC;Non
+CA Terre de Provence;Provence-Alpes-Côte d'Azur;Bouches-du-Rhône;200035087;93;13;200035087;CA;Non
+CC Charlieu-Belmont;Auvergne-Rhône-Alpes;Loire;200035202;84;42;200035202;CC;Non
+CC du Pays du Saintois;Grand Est;Meurthe-et-Moselle;200035772;44;54;200035772;CC;Non
+CC Porte de Drômardèche;Auvergne-Rhône-Alpes;Ardèche,Drôme;200040491;84;7,26;200040491;CC;Non
+CA Rochefort Océan;Nouvelle-Aquitaine;Charente-Maritime;200041762;75;17;200041762;CA;Non
+CA Grand Paris Sud Seine Essonne Sénart;Île-de-France;Essonne,Seine-et-Marne;200059228;11;77,91;200059228;CA;Non
+CC Vézère-Monédières-Millesources;Nouvelle-Aquitaine;Corrèze;200066645;75;19;200066645;CC;Non
+CC Pleyben-Châteaulin-Porzay;Bretagne;Finistère;200067247;53;29;200067247;CC;Non
+CC Grand-Figeac;Occitanie;Aveyron,Lot;200067361;76;12,46;200067361;CC;Non
+CA Provence-Alpes-Agglomération;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence;200067437;93;4;200067437;CA;Non
+CC Bouzonvillois-Trois Frontières;Grand Est;Moselle;200067486;44;57;200067486;CC;Non
+CC Champagnole Nozeroy Jura;Bourgogne-Franche-Comté;Jura;200069623;27;39;200069623;CC;Non
+CC Sud Sarthe;Pays de la Loire;Sarthe;200073112;52;72;200073112;CC;Non
+CC Touraine-Est Vallées;Centre-Val de Loire;Indre-et-Loire;200073161;24;37;200073161;CC;Non
+CC de l'Île de Ré;Nouvelle-Aquitaine;Charente-Maritime;241700459;75;17;241700459;CC;Non
+CC du Pays entre Loire et Rhône;Auvergne-Rhône-Alpes;Loire;244200630;84;42;244200630;CC;Non
+CC de l'Arc Mosellan;Grand Est;Moselle;245701354;44;57;245701354;CC;Non
+CC de la Vallée de la Bruche;Grand Est;Bas-Rhin;246700306;44;67;246700306;CC;Non
+CC de Sélestat;Grand Est;Bas-Rhin;246700967;44;67;246700967;CC;Non
+CC des Deux Vallées;Île-de-France;Essonne;249100157;11;91;249100157;CC;Non
+CA Durance-Lubéron-Verdon Agglomération;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Var;200034700;93;4,83;200034700;CA;Non
+CC des Bastides en Haut-Agenais Périgord;Nouvelle-Aquitaine;Lot-et-Garonne;200036523;75;47;200036523;CC;Non
+CC Saône Doubs Bresse;Bourgogne-Franche-Comté;Saône-et-Loire;200040038;27;71;200040038;CC;Non
+CA Loire Forez Agglomération;Auvergne-Rhône-Alpes;Loire;200065886;84;42;200065886;CA;Non
+CC de Sézanne-Sud Ouest Marnais;Grand Est;Marne;200066835;44;51;200066835;CC;Non
+CA Quimper Bretagne Occidentale;Bretagne;Finistère;200068120;53;29;200068120;CA;Non
+CC Terres de Perche;Centre-Val de Loire;Eure-et-Loir;200070167;24;28;200070167;CC;Non
+CC du Pithiverais-Gâtinais;Centre-Val de Loire;Loiret;200071850;24;45;200071850;CC;Non
+CC Maine Saosnois;Normandie,Pays de la Loire;Orne,Sarthe;200072676;28,52;61,72;200072676;CC;Non
+CC Sud Vendée Littoral;Pays de la Loire;Vendée;200073260;52;85;200073260;CC;Non
+CC Mézenc-Loire-Meygal;Auvergne-Rhône-Alpes;Haute-Loire;200073401;84;43;200073401;CC;Non
+CC Terre d'Émeraude Communauté;Bourgogne-Franche-Comté;Jura;200090579;27;39;200090579;CC;Non
+CC des Portes du Haut-Doubs;Bourgogne-Franche-Comté;Doubs;242504181;27;25;242504181;CC;Non
+CC Lauragais Revel Sorezois;Occitanie;Aude,Haute-Garonne,Tarn;243100567;76;11,31,81;243100567;CC;Non
+CC de la Terre des Deux Caps;Hauts-de-France;Pas-de-Calais;246200380;32;62;246200380;CC;Non
+CC du Quercy Rouergue et des Gorges de l'Aveyron;Occitanie;Tarn,Tarn-et-Garonne;248200107;76;81,82;248200107;CC;Non
+CC du Pays Loudunais;Nouvelle-Aquitaine;Vienne;248600447;75;86;248600447;CC;Non
+CA Grand Sud Caraïbe;Guadeloupe;Guadeloupe;249710070;1;971;249710070;CA;Non
+CC de l'Oriente;Corse;Haute-Corse;200015162;94;2B;200015162;CC;Oui
+CC des Montagnes du Giffre;Auvergne-Rhône-Alpes;Haute-Savoie;200034098;84;74;200034098;CC;Non
+CC Bugey Sud;Auvergne-Rhône-Alpes;Ain;200040350;84;1;200040350;CC;Non
+CC des Hauts du Perche;Normandie;Orne;200068856;28;61;200068856;CC;Non
+CC Ouest Aveyron Communauté;Occitanie;Aveyron,Lot;200069383;76;12,46;200069383;CC;Non
+CC Mâconnais - Tournugeois;Bourgogne-Franche-Comté;Saône-et-Loire;200069698;27;71;200069698;CC;Non
+CC Les Avant-Monts;Occitanie;Hérault;200071058;76;34;200071058;CC;Non
+CC d'Arcis,Mailly,Ramerupt;Grand Est;Aube;200071777;44;10;200071777;CC;Non
+CA du Pays de Gex;Auvergne-Rhône-Alpes;Ain;240100750;84;1;240100750;CA;Non
+CA GrandSoissons Agglomération;Hauts-de-France;Aisne;240200477;32;2;240200477;CA;Non
+CC des Trois Rivières;Hauts-de-France;Aisne;240200600;32;2;240200600;CC;Non
+CC du Plateau de Montbazens;Occitanie;Aveyron;241200674;76;12;241200674;CC;Non
+CC du Pays de l'Ozon;Auvergne-Rhône-Alpes;Rhône;246900765;84;69;246900765;CC;Non
+CC de la Région de Blain;Pays de la Loire;Loire-Atlantique;244400453;52;44;244400453;CC;Non
+CC du Causse de Labastide-Murat;Occitanie;Lot;244600573;76;46;244600573;CC;Non
+CC des Deux Vallées;Hauts-de-France;Oise;246000772;32;60;246000772;CC;Non
+CC Pays de Nay;Nouvelle-Aquitaine,Occitanie;Hautes-Pyrénées,Pyrénées-Atlantiques;246401756;75,76;64,65;246401756;CC;Non
+CC Agly Fenouillèdes;Occitanie;Pyrénées-Orientales;246600423;76;66;246600423;CC;Non
+CC du Pays de Rouffach,Vignobles et Châteaux;Grand Est;Haut-Rhin;246800494;44;68;246800494;CC;Non
+CA de Vesoul;Bourgogne-Franche-Comté;Haute-Saône;247000011;27;70;247000011;CA;Non
+CC du Pays des Sorgues et des Monts de Vaucluse;Provence-Alpes-Côte d'Azur;Vaucluse;248400319;93;84;248400319;CC;Non
+CC Pays de Chantonnay;Pays de la Loire;Vendée;248500340;52;85;248500340;CC;Non
+CC Côtes de Meuse Woëvre;Grand Est;Meuse;200034874;44;55;200034874;CC;Non
+CA du Niortais;Nouvelle-Aquitaine;Deux-Sèvres;200041317;75;79;200041317;CA;Non
+CC Vallons de Haute-Bretagne Communauté;Bretagne;Ille-et-Vilaine;200043990;53;35;200043990;CC;Non
+CA Arlysère;Auvergne-Rhône-Alpes;Savoie;200068997;84;73;200068997;CA;Non
+CC Interrégionale Aumale - Blangy-sur-Bresle;Hauts-de-France,Normandie;Seine-Maritime,Somme;200069722;28,32;76,80;200069722;CC;Non
+CC des Portes Euréliennes d'Île-de-France;Centre-Val de Loire;Eure-et-Loir;200069953;24;28;200069953;CC;Non
+CA du Grand Cognac;Nouvelle-Aquitaine;Charente;200070514;75;16;200070514;CA;Non
+CC Combrailles Sioule et Morge;Auvergne-Rhône-Alpes;Puy-de-Dôme;200072098;84;63;200072098;CC;Non
+CC Pyrénées Haut Garonnaises;Occitanie;Haute-Garonne;200072635;76;31;200072635;CC;Non
+CC du Pays de Falaise;Normandie;Calvados;241400514;28;14;241400514;CC;Non
+CC du Sartenais Valinco Taravo;Corse;Corse-du-Sud;242010130;94;2A;242010130;CC;Oui
+CC de Bénévent Grand Bourg;Nouvelle-Aquitaine;Creuse;242320000;75;23;242320000;CC;Non
+CC Brenne - Val de Creuse;Centre-Val de Loire;Indre;243600319;24;36;243600319;CC;Non
+CC du Pays de Lalbenque-Limogne;Occitanie;Lot;244600532;76;46;244600532;CC;Non
+CC Roi Morvan Communauté;Bretagne;Morbihan;245614417;53;56;245614417;CC;Non
+CU Le Creusot Montceau-les-Mines;Bourgogne-Franche-Comté;Saône-et-Loire;247100290;27;71;247100290;CU;Non
+CC du Pays du Coquelicot;Hauts-de-France;Somme;248000747;32;80;248000747;CC;Non
+CC de Blaye;Nouvelle-Aquitaine;Gironde;200023794;75;33;200023794;CC;Non
+CC Plaines et Monts de France;Île-de-France;Seine-et-Marne;200033090;11;77;200033090;CC;Non
+CA de Saint-Quentin-en-Yvelines;Île-de-France;Yvelines;200058782;11;78;200058782;CA;Non
+CC du Sud;Mayotte;Mayotte;200060473;6;976;200060473;CC;Oui
+CC Corbières Salanque Méditerranée;Occitanie;Aude,Pyrénées-Orientales;200070365;76;11,66;200070365;CC;Non
+CC Saint Cyr Mère Boitier entre Charolais et Mâconnais;Bourgogne-Franche-Comté;Saône-et-Loire;200071645;27;71;200071645;CC;Non
+CC du Val de l'Eyre;Nouvelle-Aquitaine;Gironde;243301405;75;33;243301405;CC;Non
+CC des Portes de la Thiérache;Hauts-de-France;Aisne;240200634;32;2;240200634;CC;Non
+CC du Pays d'Othe;Grand Est;Aube;241000447;44;10;241000447;CC;Non
+CC Cap Sizun - Pointe du Raz;Bretagne;Finistère;242900629;53;29;242900629;CC;Non
+CC du Pays de Sommières;Occitanie;Gard;243000296;76;30;243000296;CC;Non
+CC des Vallées d'Aigueblanche;Auvergne-Rhône-Alpes;Savoie;247300015;84;73;247300015;CC;Non
+CC de la Station des Rousses-Haut Jura;Bourgogne-Franche-Comté;Jura;243900354;27;39;243900354;CC;Non
+CC du Gévaudan;Occitanie;Lozère;244800470;76;48;244800470;CC;Non
+CC du Bocage Mayennais;Pays de la Loire;Mayenne;245300389;52;53;245300389;CC;Non
+CC du Vallespir;Occitanie;Pyrénées-Orientales;246600373;76;66;246600373;CC;Non
+CC Cœur d'Yvelines;Île-de-France;Yvelines;247800618;11;78;247800618;CC;Non
+CA Grand Châtellerault;Nouvelle-Aquitaine;Vienne;248600413;75;86;248600413;CA;Non
+CC Yonne Nord;Bourgogne-Franche-Comté;Yonne;248900896;27;89;248900896;CC;Non
+CC des Coëvrons;Pays de la Loire;Mayenne;200033298;52;53;200033298;CC;Non
+CC des Landes d'Armagnac;Nouvelle-Aquitaine;Landes;200035541;75;40;200035541;CC;Non
+CC de la Haute Saintonge;Nouvelle-Aquitaine;Charente-Maritime;200041523;75;17;200041523;CC;Non
+CC Dronne et Belle;Nouvelle-Aquitaine;Dordogne;200041572;75;24;200041572;CC;Non
+CC de l'Argonne Champenoise;Grand Est;Marne;200042703;44;51;200042703;CC;Non
+CC Creuse Grand Sud;Nouvelle-Aquitaine;Creuse;200044014;75;23;200044014;CC;Non
+Métropole d'Aix-Marseille-Provence;Provence-Alpes-Côte d'Azur;Bouches-du-Rhône,Var,Vaucluse;200054807;93;13,83,84;200054807;ME;Non
+CC du Minervois au Caroux;Occitanie;Hérault;200066348;76;34;200066348;CC;Non
+CC Xaintrie Val'Dordogne;Nouvelle-Aquitaine;Corrèze;200066751;75;19;200066751;CC;Non
+CC Cœur de Loire;Bourgogne-Franche-Comté;Nièvre;200067916;27;58;200067916;CC;Non
+CC des Baronnies en Drôme Provençale;Auvergne-Rhône-Alpes;Drôme;200068229;84;26;200068229;CC;Non
+CC du Sisteronais-Buëch;Auvergne-Rhône-Alpes,Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Drôme,Hautes-Alpes;200068765;84,93;04,05,26;200068765;CC;Non
+CC du Confluent et des Coteaux de Prayssas;Nouvelle-Aquitaine;Lot-et-Garonne;200068922;75;47;200068922;CC;Non
+CC Isle et Crempse en Périgord;Nouvelle-Aquitaine;Dordogne;200069094;75;24;200069094;CC;Non
+CC Avre Luce Noye;Hauts-de-France;Somme;200070969;32;80;200070969;CC;Non
+CC Loches Sud Touraine;Centre-Val de Loire;Indre-et-Loire;200071587;24;37;200071587;CC;Non
+CC de la Montagne d'Ardèche;Auvergne-Rhône-Alpes;Ardèche;200072007;84;7;200072007;CC;Non
+CC Cœur de Charente;Nouvelle-Aquitaine;Charente;200072023;75;16;200072023;CC;Non
+CC Adour Madiran;Nouvelle-Aquitaine,Occitanie;Hautes-Pyrénées,Pyrénées-Atlantiques;200072106;75,76;64,65;200072106;CC;Non
+CA Seine Normandie Agglomération;Normandie;Eure;200072312;28;27;200072312;CA;Non
+CC de la Champagne Picarde;Hauts-de-France;Aisne;240200576;32;2;240200576;CC;Non
+Brest Métropole;Bretagne;Finistère;242900314;53;29;242900314;ME;Non
+CC de la Tenarèze;Occitanie;Gers;243200417;76;32;243200417;CC;Non
+CC des Sucs;Auvergne-Rhône-Alpes;Haute-Loire;244301016;84;43;244301016;CC;Non
+CC d'Erdre et Gesvres;Pays de la Loire;Loire-Atlantique;244400503;52;44;244400503;CC;Non
+CC du Pays de Valois;Hauts-de-France;Oise;246000871;32;60;246000871;CC;Non
+CC du Pays de Sainte-Odile;Grand Est;Bas-Rhin;246701080;44;67;246701080;CC;Non
+CA Amiens Métropole;Hauts-de-France;Somme;248000531;32;80;248000531;CA;Non
+CC de la Lomagne Tarn-et-Garonnaise;Occitanie;Tarn-et-Garonne;248200065;76;82;248200065;CC;Non
+CC des Portes de Romilly-sur-Seine;Grand Est;Aube;200000545;44;10;200000545;CC;Non
+CC de la Gascogne Toulousaine;Occitanie;Gers,Haute-Garonne;200023620;76;31,32;200023620;CC;Non
+CC Cœur de Savoie;Auvergne-Rhône-Alpes;Savoie;200041010;84;73;200041010;CC;Non
+CC du Pays de Montbozon et du Chanois;Bourgogne-Franche-Comté;Haute-Saône;200041853;27;70;200041853;CC;Non
+CC de Granville,Terre et Mer;Normandie;Manche;200042604;28;50;200042604;CC;Non
+CC des Vallées du Clain;Nouvelle-Aquitaine;Vienne;200043628;75;86;200043628;CC;Non
+CC Beauce Val de Loire;Centre-Val de Loire;Loir-et-Cher;200055481;24;41;200055481;CC;Non
+CC du Pays de Stenay et du Val Dunois;Grand Est;Meuse;200066132;44;55;200066132;CC;Non
+CC des Luys en Béarn;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067239;75;64;200067239;CC;Non
+CA Thonon Agglomération;Auvergne-Rhône-Alpes;Haute-Savoie;200067551;84;74;200067551;CA;Non
+CC du Vimeu;Hauts-de-France;Somme;200070944;32;80;200070944;CC;Non
+CA Vienne Condrieu;Auvergne-Rhône-Alpes;Isère,Rhône;200077014;84;38,69;200077014;CA;Non
+CC du Pays des Ecrins;Provence-Alpes-Côte d'Azur;Hautes-Alpes;240500462;93;5;240500462;CC;Non
+CC Terre d'Auge;Normandie;Calvados;241400878;28;14;241400878;CC;Non
+CA Hérault-Méditerranée;Occitanie;Hérault;243400819;76;34;243400819;CA;Non
+CC Quercy - Bouriane;Occitanie;Lot;244600482;76;46;244600482;CC;Non
+CC du District Urbain de Faulquemont (DUF);Grand Est;Moselle;245700133;44;57;245700133;CC;Non
+CC du Pays de Phalsbourg;Grand Est;Moselle;245700950;44;57;245700950;CC;Non
+CU de Dunkerque;Hauts-de-France;Nord;245900428;32;59;245900428;CU;Non
+CA de Lens - Liévin;Hauts-de-France;Pas-de-Calais;246200364;32;62;246200364;CA;Non
+CC des Portes de Rosheim;Grand Est;Bas-Rhin;246700744;44;67;246700744;CC;Non
+CC du Pays Rochois;Auvergne-Rhône-Alpes;Haute-Savoie;247400724;84;74;247400724;CC;Non
+CC du Pays Mornantais (COPAMO);Auvergne-Rhône-Alpes;Rhône;246900740;84;69;246900740;CC;Non
+CC de l'Agglomération Migennoise;Bourgogne-Franche-Comté;Yonne;248900383;27;89;248900383;CC;Non
+CC Thoré Montagne Noire;Occitanie;Tarn;248100745;76;81;248100745;CC;Non
+CA du Centre Littoral;Guyane;Guyane;249730045;3;973;249730045;CA;Oui
+CC du Pays de Pontchâteau Saint-Gildas-des-Bois;Pays de la Loire;Loire-Atlantique;200000438;52;44;200000438;CC;Non
+CC de la Plaine Dijonnaise;Bourgogne-Franche-Comté;Côte-d'Or;200000925;27;21;200000925;CC;Non
+CC des Portes de Sologne;Centre-Val de Loire;Loiret;200005932;24;45;200005932;CC;Non
+CA Lamballe Terre et Mer;Bretagne;Côtes-d'Armor;200069391;53;22;200069391;CA;Non
+CC de Fium'orbu Castellu;Corse;Haute-Corse;200033827;94;2B;200033827;CC;Oui
+CC Pays d'Uzès;Occitanie;Gard;200034379;76;30;200034379;CC;Non
+CC de Vitry,Champagne et Der;Grand Est;Marne;200034718;44;51;200034718;CC;Non
+CC de Cèze Cévennes;Auvergne-Rhône-Alpes,Occitanie;Ardèche,Gard;200035129;76,84;7,30;200035129;CC;Non
+CA Cannes Pays de Lérins;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;200039915;93;6;200039915;CA;Non
+CC Drôme Sud Provence;Auvergne-Rhône-Alpes;Drôme;200042901;84;26;200042901;CC;Non
+CU Grand Paris Seine et Oise;Île-de-France;Yvelines;200059889;11;78;200059889;CU;Non
+CC Normandie-Cabourg-Pays d'Auge;Normandie;Calvados;200065563;28;14;200065563;CC;Non
+CC Coteaux et Plaines du Pays Lafrançaisain;Occitanie;Tarn-et-Garonne;200067122;76;82;200067122;CC;Non
+CC Billom Communauté;Auvergne-Rhône-Alpes;Puy-de-Dôme;200067627;84;63;200067627;CC;Non
+CC du Canton d'Erstein;Grand Est;Bas-Rhin;200067924;44;67;200067924;CC;Non
+CC de la Mossig et du Vignoble;Grand Est;Bas-Rhin;200068864;44;67;200068864;CC;Non
+CC Orne Lorraine Confluences;Grand Est;Meurthe-et-Moselle;200070845;44;54;200070845;CC;Non
+CC de l'Est de la Somme;Hauts-de-France;Aisne,Somme;200070985;32;2,80;200070985;CC;Non
+CC Bresse et Saône;Auvergne-Rhône-Alpes;Ain;200071371;84;1;200071371;CC;Non
+CA Chauny-Tergnier-La Fère;Hauts-de-France;Aisne;200071785;32;2;200071785;CA;Non
+CC du Vexin Normand;Normandie;Eure;200071843;28;27;200071843;CC;Non
+CC du Val d'Amour;Bourgogne-Franche-Comté;Jura;243900420;27;39;243900420;CC;Non
+CA Mont-de-Marsan Agglomération;Nouvelle-Aquitaine;Landes;244000808;75;40;244000808;CA;Non
+CC du Haut-Lignon;Auvergne-Rhône-Alpes;Haute-Loire;244301107;84;43;244301107;CC;Non
+CC des Quatre Vallées;Centre-Val de Loire;Loiret;244500419;24;45;244500419;CC;Non
+CC Lot et Tolzac;Nouvelle-Aquitaine;Lot-et-Garonne;244701405;75;47;244701405;CC;Non
+CC Cœur d'Ostrevent;Hauts-de-France;Nord;245901152;32;59;245901152;CC;Non
+CC des Sablons;Hauts-de-France;Oise;246000582;32;60;246000582;CC;Non
+CC de Semur-en-Brionnais;Bourgogne-Franche-Comté;Saône-et-Loire;247103864;27;71;247103864;CC;Non
+CC du Pays de Cruseilles;Auvergne-Rhône-Alpes;Haute-Savoie;247400112;84;74;247400112;CC;Non
+CA Melun Val de Seine;Île-de-France;Seine-et-Marne;247700057;11;77;247700057;CA;Non
+CC Val 81;Occitanie;Tarn;248100497;76;81;248100497;CC;Non
+CA Intercommunale du Nord de la Réunion (CINOR);La Réunion;La Réunion;249740119;4;974;249740119;CA;Non
+CC du Perche;Centre-Val de Loire;Eure-et-Loir;200006971;24;28;200006971;CC;Non
+CC du Romorantinais et du Monestois;Centre-Val de Loire;Loir-et-Cher;200018406;24;41;200018406;CC;Non
+Métropole Nice Côte d'Azur;Provence-Alpes-Côte d'Azur;Alpes-Maritimes;200030195;93;6;200030195;ME;Non
+CC Gally Mauldre;Île-de-France;Yvelines;200034130;11;78;200034130;CC;Non
+CC Terrassonnais Haut Périgord Noir;Nouvelle-Aquitaine;Dordogne;200041150;75;24;200041150;CC;Non
+CC de la Vallée de l'Homme;Nouvelle-Aquitaine;Dordogne;200041168;75;24;200041168;CC;Non
+CA Gaillac-Graulhet;Occitanie;Tarn;200066124;76;81;200066124;CA;Non
+CC Tannay-Brinon-Corbigny;Bourgogne-Franche-Comté;Nièvre;200067692;27;58;200067692;CC;Non
+CC de l'Oise Picarde;Hauts-de-France;Oise;200068005;32;60;200068005;CC;Non
+CC Champagne Boischauts;Centre-Val de Loire;Indre;200068880;24;36;200068880;CC;Non
+CC du Civraisien en Poitou;Nouvelle-Aquitaine;Vienne;200070035;75;86;200070035;CC;Non
+CC du Plateau de Lannemezan;Occitanie;Hautes-Pyrénées;200070787;76;65;200070787;CC;Non
+CC Le Grand Charolais;Auvergne-Rhône-Alpes,Bourgogne-Franche-Comté;Allier,Saône-et-Loire;200071884;27,84;3,71;200071884;CC;Non
+CC du Bas Armagnac;Occitanie;Gers;243200409;76;32;243200409;CC;Non
+CC de la Sologne des Étangs;Centre-Val de Loire;Loir-et-Cher;244100780;24;41;244100780;CC;Non
+Métropole du Grand Nancy;Grand Est;Meurthe-et-Moselle;245400676;44;54;245400676;ME;Non
+CC du Pays d'Iroise;Bretagne;Finistère;242900074;53;29;242900074;CC;Non
+CC de l'Oisans;Auvergne-Rhône-Alpes;Isère;243800745;84;38;243800745;CC;Non
+CC de l'Île de Noirmoutier;Pays de la Loire;Vendée;248500191;52;85;248500191;CC;Non
+CA de l'Espace Sud de la Martinique;Martinique;Martinique;249720053;2;972;249720053;CA;Oui
+CC de l'Ouest Guyanais;Guyane;Guyane;249730037;3;973;249730037;CC;Oui
+CC du Pays de Maîche;Bourgogne-Franche-Comté;Doubs;200023075;27;25;200023075;CC;Non
+CC Sarlat-Périgord Noir;Nouvelle-Aquitaine;Dordogne;200027217;75;24;200027217;CC;Non
+CC d'Aire-sur-l'Adour;Nouvelle-Aquitaine,Occitanie;Gers,Landes;200030435;75,76;32,40;200030435;CC;Non
+CC Tarn-Agout;Occitanie;Haute-Garonne,Tarn;200034023;76;31,81;200034023;CC;Non
+CC du Cordais et du Causse (4 C);Occitanie;Tarn;200034064;76;81;200034064;CC;Non
+CC du Grand Saint-Émilionnais;Nouvelle-Aquitaine;Gironde;200035533;75;33;200035533;CC;Non
+CC Terres de Saône;Bourgogne-Franche-Comté;Haute-Saône;200041879;27;70;200041879;CC;Non
+CC du Bazadais;Nouvelle-Aquitaine;Gironde;200043982;75;33;200043982;CC;Non
+CC du Pays de Mirepoix;Occitanie;Ariège;200044469;76;9;200044469;CC;Non
+CA Mulhouse Alsace Agglomération;Grand Est;Haut-Rhin;200066009;44;68;200066009;CA;Non
+CC Loudéac Communauté - Bretagne Centre;Bretagne;Côtes-d'Armor;200067460;53;22;200067460;CC;Non
+CC de la Cléry,du Betz et de l'Ouanne;Bourgogne-Franche-Comté,Centre-Val de Loire;Loiret,Yonne;200067668;24,27;45,89;200067668;CC;Non
+CA Gap-Tallard-Durance;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Hautes-Alpes;200067825;93;4,05;200067825;CA;Non
+CC Éguzon - Argenton - Vallée de la Creuse;Centre-Val de Loire;Indre;200068872;24;36;200068872;CC;Non
+CA Grand Belfort;Bourgogne-Franche-Comté;Territoire de Belfort;200069052;27;90;200069052;CA;Non
+CC des Deux Morin;Île-de-France;Seine-et-Marne;200072544;11;77;200072544;CC;Non
+CU Le Havre Seine Métropole;Normandie;Seine-Maritime;200084952;28;76;200084952;CU;Non
+CC Berg et Coiron;Auvergne-Rhône-Alpes;Ardèche;240700815;84;7;240700815;CC;Non
+CC de Montbenoît;Bourgogne-Franche-Comté;Doubs;242500320;27;25;242500320;CC;Non
+CC du Pays de Sancey-Belleherbe;Bourgogne-Franche-Comté;Doubs;242504371;27;25;242504371;CC;Non
+CC du Haut Pays Bigouden;Bretagne;Finistère;242900710;53;29;242900710;CC;Non
+CA du Bassin d'Arcachon Nord;Nouvelle-Aquitaine;Gironde;243301504;75;33;243301504;CA;Non
+CC Roche aux Fées Communauté;Bretagne;Ille-et-Vilaine;243500634;53;35;243500634;CC;Non
+CC Chabris - Pays de Bazelle;Centre-Val de Loire;Indre;243600202;24;36;243600202;CC;Non
+CC du Seignanx;Nouvelle-Aquitaine;Landes;244000659;75;40;244000659;CC;Non
+CC de la Forêt;Centre-Val de Loire;Loiret;244500484;24;45;244500484;CC;Non
+CC du Warndt;Grand Est;Moselle;245701164;44;57;245701164;CC;Non
+CC Loire et Allier;Bourgogne-Franche-Comté;Nièvre;245801063;27;58;245801063;CC;Non
+CC du Plateau Picard;Hauts-de-France;Oise;246000566;32;60;246000566;CC;Non
+CC du Pays des Sources;Hauts-de-France;Oise;246000855;32;60;246000855;CC;Non
+CC du Genevois;Auvergne-Rhône-Alpes;Haute-Savoie;247400690;84;74;247400690;CC;Non
+CC de la Vallée du Garon (CCVG);Auvergne-Rhône-Alpes;Rhône;246900757;84;69;246900757;CC;Non
+CC des Vallées de Thônes;Auvergne-Rhône-Alpes;Haute-Savoie;247400617;84;74;247400617;CC;Non
+CC du Haut-Chablais;Auvergne-Rhône-Alpes;Haute-Savoie;247400682;84;74;247400682;CC;Non
+CC du Pays Houdanais (C.C.P.H.);Centre-Val de Loire,Île-de-France;Eure-et-Loir,Yvelines;247800550;11,24;28,78;247800550;CC;Non
+CC du Pays des Herbiers;Pays de la Loire;Vendée;248500621;52;85;248500621;CC;Non
+CA Intercommunale de la Réunion Est (CIREST);La Réunion;La Réunion;249740093;4;974;249740093;CA;Non
+CC du Sud Corse;Corse;Corse-du-Sud;200040764;94;2A;200040764;CC;Oui
+CC de Pont-Audemer / Val de Risle;Normandie;Eure;200065787;28;27;200065787;CC;Non
+CC Argonne-Meuse;Grand Est;Meuse;200066116;44;55;200066116;CC;Non
+CA du Beauvaisis;Hauts-de-France;Oise;200067999;32;60;200067999;CA;Non
+CC Champsaur-Valgaudemar;Provence-Alpes-Côte d'Azur;Hautes-Alpes;200068096;93;5;200068096;CC;Non
+CC des Cévennes au Mont Lozère;Occitanie;Lozère;200069136;76;48;200069136;CC;Non
+CC des Savoir-Faire;Bourgogne-Franche-Comté,Grand Est;Haute-Marne,Haute-Saône;200070332;27,44;52,70;200070332;CC;Non
+CC de Pouilly-en-Auxois/Bligny-sur-Ouche;Bourgogne-Franche-Comté;Côte-d'Or;200071207;27;21;200071207;CC;Non
+CC Saint-Pourçain Sioule Limagne;Auvergne-Rhône-Alpes;Allier;200071389;84;3;200071389;CC;Non
+CC du Périgord Nontronnais;Nouvelle-Aquitaine;Dordogne;200071819;75;24;200071819;CC;Non
+CC Brioude Sud Auvergne;Auvergne-Rhône-Alpes;Haute-Loire;200085728;84;43;200085728;CC;Non
+CC du Pays de Salers;Auvergne-Rhône-Alpes;Cantal;241501139;84;15;241501139;CC;Non
+CC de la Région de Levroux;Centre-Val de Loire;Indre;243600293;24;36;243600293;CC;Non
+CA du Grand Angoulême;Nouvelle-Aquitaine;Charente;200071827;75;16;200071827;CA;Non
+CC du Pays de la Serre;Hauts-de-France;Aisne;240200469;32;2;240200469;CC;Non
+CC du Pays de Mauriac;Auvergne-Rhône-Alpes;Cantal;241500271;84;15;241500271;CC;Non
+CA Quimperlé Communauté;Bretagne;Finistère;242900694;53;29;242900694;CA;Non
+CC Terre de Camargue;Occitanie;Gard;243000650;76;30;243000650;CC;Non
+CA du Val de Fensch;Grand Est;Moselle;245701222;44;57;245701222;CA;Non
+CC de la Vallée de Kaysersberg;Grand Est;Haut-Rhin;246800551;44;68;246800551;CC;Non
+CC Sauldre et Sologne;Centre-Val de Loire;Cher;200000933;24;18;200000933;CC;Non
+CA de Saintes;Nouvelle-Aquitaine;Charente-Maritime;200036473;75;17;200036473;CA;Non
+CC Avallon,Vézelay,Morvan;Bourgogne-Franche-Comté;Yonne;200039758;27;89;200039758;CC;Non
+CA Agglo du Pays de Dreux;Centre-Val de Loire,Normandie;Eure,Eure-et-Loir;200040277;24,28;27,28;200040277;CA;Non
+CC Haut Val de Sèvre;Nouvelle-Aquitaine;Deux-Sèvres;200041994;75;79;200041994;CC;Non
+CC Pyrénées Audoises;Occitanie;Aude;200043776;76;11;200043776;CC;Non
+CC de Petite-Terre;Mayotte;Mayotte;200050532;6;976;200050532;CC;Oui
+CC Terres des Confluences;Occitanie;Tarn-et-Garonne;200066322;76;82;200066322;CC;Non
+CC Coutances Mer et Bocage;Normandie;Manche;200067023;28;50;200067023;CC;Non
+CA de Haguenau;Grand Est;Bas-Rhin;200067874;44;67;200067874;CA;Non
+CC Inter-Caux-Vexin;Normandie;Seine-Maritime;200070449;28;76;200070449;CC;Non
+CC Tille et Venelle;Bourgogne-Franche-Comté;Côte-d'Or;200070910;27;21;200070910;CC;Non
+CC Chavanon Combrailles et Volcans;Auvergne-Rhône-Alpes;Puy-de-Dôme;200071215;84;63;200071215;CC;Non
+CC du Limouxin;Occitanie;Aude;200071926;76;11;200071926;CC;Non
+CC du Bassin d'Aubenas;Auvergne-Rhône-Alpes;Ardèche;200073245;84;7;200073245;CC;Non
+CC Conques-Marcillac;Occitanie;Aveyron;241200641;76;12;241200641;CC;Non
+CA du Bassin d'Aurillac;Auvergne-Rhône-Alpes;Cantal;241500230;84;15;241500230;CA;Non
+Saint-Etienne Métropole;Auvergne-Rhône-Alpes;Loire;244200770;84;42;244200770;ME;Non
+CC de la Vallée d'Ossau;Nouvelle-Aquitaine;Pyrénées-Atlantiques;246400337;75;64;246400337;CC;Non
+CC Arve et Salève;Auvergne-Rhône-Alpes;Haute-Savoie;247400583;84;74;247400583;CC;Non
+CC du Pays de Saint-Yrieix;Nouvelle-Aquitaine;Corrèze,Haute-Vienne;248700189;75;19,87;248700189;CC;Non
+CA Val d'Yerres Val de Seine;Île-de-France;Essonne;200058477;11;91;200058477;CA;Non
+CC de la Région de Rambervillers;Grand Est;Vosges;200005957;44;88;200005957;CC;Non
+CC Haut-Jura Saint-Claude;Bourgogne-Franche-Comté;Jura;200026573;27;39;200026573;CC;Non
+CC du Trièves;Auvergne-Rhône-Alpes;Isère;200030658;84;38;200030658;CC;Non
+CC Ardèche des Sources et Volcans;Auvergne-Rhône-Alpes;Ardèche;200039824;84;7;200039824;CC;Non
+CC Sundgau;Grand Est;Haut-Rhin;200066041;44;68;200066041;CC;Non
+CA de l'Auxerrois;Bourgogne-Franche-Comté;Yonne;200067114;27;89;200067114;CA;Non
+CC Houve-Pays Boulageois;Grand Est;Moselle;200067650;44;57;200067650;CC;Non
+CA Épernay,Coteaux et Plaine de Champagne;Grand Est;Marne;200067684;44;51;200067684;CA;Non
+CC des Lacs et Montagnes du Haut-Doubs;Bourgogne-Franche-Comté;Doubs;200069565;27;25;200069565;CC;Non
+CC Plateau de Caux-Doudeville-Yerville;Normandie;Seine-Maritime;200069847;28;76;200069847;CC;Non
+CC Auxonne Pontailler Val de Saône;Bourgogne-Franche-Comté;Côte-d'Or;200070902;27;21;200070902;CC;Non
+CC du Val de l'Aisne;Hauts-de-France;Aisne;240200501;32;2;240200501;CC;Non
+CA Bourges Plus;Centre-Val de Loire;Cher;241800507;24;18;241800507;CA;Non
+CC Latitude Nord Gironde;Nouvelle-Aquitaine;Gironde;243301181;75;33;243301181;CC;Non
+CC de la Plaine Jurassienne;Bourgogne-Franche-Comté;Jura;243901089;27;39;243901089;CC;Non
+CC du Pays de Villeneuve en Armagnac Landais;Nouvelle-Aquitaine;Landes;244000774;75;40;244000774;CC;Non
+CC des Monts du Pilat;Auvergne-Rhône-Alpes;Loire;244200622;84;42;244200622;CC;Non
+CC du Pays de Limours (CCPL);Île-de-France;Essonne;249100074;11;91;249100074;CC;Non
+CA Vitré Communauté;Bretagne;Ille-et-Vilaine;200039022;53;35;200039022;CA;Non
+CA de l'Ouest Rhodanien;Auvergne-Rhône-Alpes;Rhône;200040566;84;69;200040566;CA;Non
+CC de la Matheysine;Auvergne-Rhône-Alpes;Isère;200040657;84;38;200040657;CC;Non
+CC Carmausin-Ségala;Occitanie;Tarn;200040905;76;81;200040905;CC;Non
+CC du Pays Rethélois;Grand Est;Ardennes;200043156;44;8;200043156;CC;Non
+CA du Nord Grande Terre;Guadeloupe;Guadeloupe;200044691;1;971;200044691;CA;Non
+CC de Forez-Est;Auvergne-Rhône-Alpes;Loire;200065894;84;42;200065894;CC;Non
+CC de Puisaye-Forterre;Bourgogne-Franche-Comté;Nièvre,Yonne;200067130;27;58,89;200067130;CC;Non
+CC du Nord Est Béarn;Nouvelle-Aquitaine;Pyrénées-Atlantiques;200067296;75;64;200067296;CC;Non
+CC Marche et Combraille en Aquitaine;Nouvelle-Aquitaine;Creuse;200067593;75;23;200067593;CC;Non
+CC de l'Ouest Vosgien;Grand Est;Haute-Marne,Vosges;200068559;44;52,88;200068559;CC;Non
+CA Dinan Agglomération;Bretagne;Côtes-d'Armor;200068989;53;22;200068989;CA;Non
+CC Mont Lozère;Occitanie;Gard,Lozère;200069128;76;30,48;200069128;CC;Non
+CU du Grand Poitiers;Nouvelle-Aquitaine;Vienne;200069854;75;86;200069854;CU;Non
+CC Loire Layon Aubance;Pays de la Loire;Maine-et-Loire;200071553;52;49;200071553;CC;Non
+CA Arche Agglo;Auvergne-Rhône-Alpes;Ardèche,Drôme;200073096;84;7,26;200073096;CA;Non
+CA Coulommiers Pays de Brie;Île-de-France;Seine-et-Marne;200090504;11;77;200090504;CA;Non
+CC de la Haute Vallée de Chevreuse;Île-de-France;Yvelines;200033173;11;78;200033173;CC;Non
+CC de Montaigne Montravel et Gurson;Nouvelle-Aquitaine;Dordogne;200034197;75;24;200034197;CC;Non
+CC de la Beauce Loirétaine;Centre-Val de Loire;Loiret;200035764;24;45;200035764;CC;Non
+CC de la Pieve de l'Ornano et du Taravo;Corse;Corse-du-Sud;200038958;94;2A;200038958;CC;Oui
+CC Pays d'Apt-Luberon;Provence-Alpes-Côte d'Azur;Alpes-de-Haute-Provence,Vaucluse;200040624;93;4,84;200040624;CC;Non
+CC Rhône Crussol;Auvergne-Rhône-Alpes;Ardèche;200041366;84;7;200041366;CC;Non
+CC Ardennes Thiérache;Grand Est;Ardennes;200041622;44;8;200041622;CC;Non
+CA du Grand Verdun;Grand Est;Meuse;200049187;44;55;200049187;CA;Non
+CC du Pays de Honfleur-Beuzeville;Normandie;Calvados,Eure;200066827;28;14,27;200066827;CC;Non
+CU du Grand Reims;Grand Est;Marne;200067213;44;51;200067213;CU;Non
+CC de Hanau-La Petite Pierre;Grand Est;Bas-Rhin;200067783;44;67;200067783;CC;Non
+CC Saône-Beaujolais;Auvergne-Rhône-Alpes;Rhône;200067817;84;69;200067817;CC;Non
+CC Berry Loire Puisaye;Centre-Val de Loire;Loiret;200068278;24;45;200068278;CC;Non
+CC du Bassin Auterivain Haut-Garonnais;Occitanie;Haute-Garonne;200068807;76;31;200068807;CC;Non
+CC Pré-Bocage Intercom;Normandie;Calvados;200069524;28;14;200069524;CC;Non
+CA Montluçon Communauté;Auvergne-Rhône-Alpes;Allier;200071082;84;3;200071082;CA;Non
+CC Vierzon-Sologne-Berry;Centre-Val de Loire;Cher;200090561;24;18;200090561;CC;Non
+CC Médoc Estuaire;Nouvelle-Aquitaine;Gironde;243301447;75;33;243301447;CC;Non
+CC Aveyron Bas Ségala Viaur;Occitanie;Aveyron;241200807;76;12;241200807;CC;Non
+CC du Pays de Wissembourg;Grand Est;Bas-Rhin;246700926;44;67;246700926;CC;Non
+CC du Centre Corse;Corse;Haute-Corse;242020071;94;2B;242020071;CC;Oui
+CC Rives de Saône;Bourgogne-Franche-Comté;Côte-d'Or;242101509;27;21;242101509;CC;Non
+CC Montfort Communauté;Bretagne;Ille-et-Vilaine;243500550;53;35;243500550;CC;Non
+CC de Yenne;Auvergne-Rhône-Alpes;Savoie;247300262;84;73;247300262;CC;Non
+Tours Métropole Val de Loire;Centre-Val de Loire;Indre-et-Loire;243700754;24;37;243700754;ME;Non
+CC des Coteaux et Landes de Gascogne;Nouvelle-Aquitaine;Lot-et-Garonne;244701355;75;47;244701355;CC;Non
+CC de la Grande Vallée de la Marne;Grand Est;Marne;245100615;44;51;245100615;CC;Non
+CC du Nivernais Bourbonnais;Bourgogne-Franche-Comté;Nièvre;245804497;27;58;245804497;CC;Non
+CC du Pays Riolais;Bourgogne-Franche-Comté;Haute-Saône;247000706;27;70;247000706;CC;Non
+CC du Pays de Luxeuil;Bourgogne-Franche-Comté;Haute-Saône;247000755;27;70;247000755;CC;Non
+CC Fier et Usses;Auvergne-Rhône-Alpes;Haute-Savoie;247400567;84;74;247400567;CC;Non
+CC du Pays Réuni d'Orange;Provence-Alpes-Côte d'Azur;Vaucluse;248400236;93;84;248400236;CC;Non
+CC Région Lézignanaise,Corbières et Minervois;Occitanie;Aude;200035863;76;11;200035863;CC;Non
+CC Vals de Saintonge Communauté;Nouvelle-Aquitaine;Charente-Maritime;200041689;75;17;200041689;CC;Non
+CC des Coteaux Arrats Gimone;Occitanie;Gers;200042372;76;32;200042372;CC;Non
+CC Bazois Loire Morvan;Bourgogne-Franche-Comté;Nièvre;200067882;27;58;200067882;CC;Non
+CC Pays Ségali Communauté;Occitanie;Aveyron;200068831;76;12;200068831;CC;Non
+CC du Barséquanais en Champagne;Grand Est;Aube;200069003;44;10;200069003;CC;Non
+CA du Grand Chambéry;Auvergne-Rhône-Alpes;Savoie;200069110;84;73;200069110;CA;Non
+CC Brie des Rivières et Châteaux;Île-de-France;Seine-et-Marne;200070779;11;77;200070779;CC;Non
+CC du Pays Arnay Liernais;Bourgogne-Franche-Comté;Côte-d'Or;200071173;27;21;200071173;CC;Non
+CC Nièvre et Somme;Hauts-de-France;Somme;200071223;32;80;200071223;CC;Non
+CC du Bocage Bourbonnais;Auvergne-Rhône-Alpes;Allier;200071496;84;3;200071496;CC;Non
+CC Vallée des Baux-Alpilles (CC VBA);Provence-Alpes-Côte d'Azur;Bouches-du-Rhône;241300375;93;13;241300375;CC;Non
+CC du Pays des Abers;Bretagne;Finistère;242900553;53;29;242900553;CC;Non
+CC du Grand Armagnac;Occitanie;Gers;243200458;76;32;243200458;CC;Non
+CC du Pays de Colombey et du Sud Toulois;Grand Est;Meurthe-et-Moselle,Vosges;245400510;44;54,88;245400510;CC;Non
+CC de l'Est Lyonnais (CCEL);Auvergne-Rhône-Alpes;Rhône;246900575;84;69;246900575;CC;Non
+CA Cap Excellence;Guadeloupe;Guadeloupe;200018653;1;971;200018653;CA;Non
+CC Berry-Loire-Vauvise;Centre-Val de Loire;Cher;200032514;24;18;200032514;CC;Non
+CC du Frontonnais;Occitanie;Haute-Garonne;200034957;76;31;200034957;CC;Non
+CC Rives de Moselle;Grand Est;Moselle;200039949;44;57;200039949;CC;Non
+CC Porte Océane du Limousin;Nouvelle-Aquitaine;Haute-Vienne;200059400;75;87;200059400;CC;Non
+CC Norge et Tille;Bourgogne-Franche-Comté;Côte-d'Or;200069540;27;21;200069540;CC;Non
+CA Pornic Agglo Pays de Retz;Pays de la Loire;Loire-Atlantique;200067346;52;44;200067346;CA;Non
+CC Côtes de Champagne et Val de Saulx;Grand Est;Marne;200067379;44;51;200067379;CC;Non
+CC Buëch-Dévoluy;Provence-Alpes-Côte d'Azur;Hautes-Alpes;200067445;93;5;200067445;CC;Non
+CA Pays Foix-Varilhes;Occitanie;Ariège;200067791;76;9;200067791;CA;Non
+CC des Pays de L'Aigle;Normandie;Orne;200068468;28;61;200068468;CC;Non
+CC Brionnais Sud Bourgogne;Bourgogne-Franche-Comté;Saône-et-Loire;200070548;27;71;200070548;CC;Non
+CA du Pays de Fontainebleau;Île-de-France;Seine-et-Marne;200072346;11;77;200072346;CA;Non
+CC Cœur et Coteaux du Comminges;Occitanie;Haute-Garonne;200072643;76;31;200072643;CC;Non
+CC du Pays Beaume-Drobie;Auvergne-Rhône-Alpes;Ardèche;240700302;84;7;240700302;CC;Non
+CC du Val d'Ay;Auvergne-Rhône-Alpes;Ardèche;240700716;84;7;240700716;CC;Non
+CC Cœur Côte Fleurie;Normandie;Calvados;241400415;28;14;241400415;CC;Non
+CC Communauté Lesneven Côte des Légendes;Bretagne;Finistère;242900793;53;29;242900793;CC;Non
+CC Cœur de Brenne;Centre-Val de Loire;Indre;243600343;24;36;243600343;CC;Non
+CC du Pays de Montfaucon;Auvergne-Rhône-Alpes;Haute-Loire;244300307;84;43;244300307;CC;Non
+CC de la Brie Champenoise;Grand Est;Marne;245100888;44;51;245100888;CC;Non
+CC du Bassin de Pompey;Grand Est;Meurthe-et-Moselle;245400601;44;54;245400601;CC;Non
+CC du Pays du Sanon;Grand Est;Meurthe-et-Moselle;245400759;44;54;245400759;CC;Non
+CC du Sammiellois;Grand Est;Meuse;245500327;44;55;245500327;CC;Non
+CC Questembert Communauté;Bretagne;Morbihan;245614383;53;56;245614383;CC;Non
+CC du Clermontois;Hauts-de-France;Oise;246000376;32;60;246000376;CC;Non
+CC du Sud Est Manceau;Pays de la Loire;Sarthe;247200421;52;72;247200421;CC;Non
+CC Brie Nangissienne;Île-de-France;Seine-et-Marne;247700701;11;77;247700701;CC;Non
+CC Cœur du Var;Provence-Alpes-Côte d'Azur;Var;248300550;93;83;248300550;CC;Non
+CC des Terres du Lauragais;Occitanie;Haute-Garonne;200071298;76;31;200071298;CC;Non
+CC Val de l'Indre - Brenne;Centre-Val de Loire;Indre;243600301;24;36;243600301;CC;Non
+CA Porte de l'Isère (C.A.P.I);Auvergne-Rhône-Alpes;Isère;243800604;84;38;243800604;CA;Non
+CC du Sud Estuaire;Pays de la Loire;Loire-Atlantique;244400586;52;44;244400586;CC;Non
