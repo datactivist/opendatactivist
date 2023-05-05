@@ -10,12 +10,13 @@ import {
 import SearchBar from '../nav/SearchBar';
 import LinkIcon from '@mui/icons-material/Link';
 import Layout from '../Layout';
+import FieldFilter from '../nav/FieldFilter';
 
 const JsonGallery = ({ filename }) => {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCard, setSelectedCard] = useState(null);
-  const [activeFilter,] = useState('');
+  const [activeFilter, setActiveFilter] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -90,6 +91,18 @@ const JsonGallery = ({ filename }) => {
     dialogBackground: {
       backgroundColor: 'rgba(240, 240, 240, 0.5)',
     },
+    flexContainer: {
+      display: 'flex',
+      justifyContent: 'space-between',
+    },
+    filterPanel: {
+      width: '25%',
+      marginRight: '1rem',
+      borderLeft: '1px solid rgba(0, 0, 0, 0.1)',
+    },
+    searchBarContainer: {
+      marginBottom: '1rem',
+    },
   };
 
   const isUrl = (value) =>
@@ -116,24 +129,41 @@ const JsonGallery = ({ filename }) => {
   const handleMouseLeave = () => {
     setHoveredCard(null);
   };
+  
+  const handleFilterChange = (updatedFilter) => {
+    setActiveFilter((prevFilters) => ({
+      ...prevFilters,
+      [updatedFilter.key]: updatedFilter.selected,
+    }));
+  };
+
 
   const filteredData = data.filter((item) => {
     const values = Object.values(item).join('').toLowerCase();
     return (
       values.includes(searchTerm.toLowerCase()) &&
-      (activeFilter === '' ||
-        item[Object.keys(item)[2]].toLowerCase() === activeFilter.toLowerCase())
+      Object.entries(activeFilter).every(([key, value]) => {
+        return (
+          item[key] ?
+          value === null || item[key].toLowerCase() === value.toLowerCase()
+          :
+          true
+        );
+      })
     );
   });
+  
 
   return (
     <Layout>
-      <div>
+    <div style={styles.flexContainer}>
+      <div style={{ width: 'calc(70% - 1rem)' }}>
         <br></br>
         <br></br>
-        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      </div>
-      <div style={styles.galleryContainer}>
+        <div style={styles.searchBarContainer}>
+          <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+        </div>
+        <div style={styles.galleryContainer}>
         {filteredData.map((item, index) => (
           <div key={index} style={styles.galleryItem}>
             <Card
@@ -240,7 +270,12 @@ const JsonGallery = ({ filename }) => {
           </>
         )}
       </div>
-    </Layout>
+      </div>
+      <div style={styles.filterPanel}>
+        <FieldFilter data={data} onFilterChange={handleFilterChange} />
+      </div>
+    </div>
+  </Layout>
   );
 };
 
