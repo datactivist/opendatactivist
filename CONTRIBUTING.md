@@ -16,7 +16,14 @@ Lorsque vous ouvrez une issue :
 
 ## Contribuer au contenu
 
-> TODO
+### Ajouter un doc 
+
+Ajout rapide : https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md
+
+Quels types de contenus publier dans le dossier docs ?
+- article (type billet de blog) 
+- présentation, 
+- liste de liens ou d'objets (benchmarks)
 
 ## Contribuer au code
 
