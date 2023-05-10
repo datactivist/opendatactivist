@@ -81,7 +81,22 @@ Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-
 #### Intégrer d'autres contenus
 
 Tout l'intérêt du site est de permettre de trouver facilement du contenu pertinent au bon endroit.
-Plusieurs intégrations sont possibles 
+
+Plusieurs intégrations sont possibles :
+
+**1. Un autre doc**
+
+Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il sufit d'ajouter le code suivant
+
+```
+### Un cas pratique pertinent
+
+%%Docs:nom-du-doc%%
+```
+
+Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
+
+```%%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
 
 ## Contribuer au code
 
