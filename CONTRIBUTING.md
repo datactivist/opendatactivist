@@ -61,7 +61,7 @@ Chaque document peut être rédigé en markdown, avec un peu de html.
 
 ```Du texte```
 
-Un saut de ligne
+Un saut de ligne :
 
 ```</br>```
 
