@@ -155,9 +155,16 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 ```markdown
 ## Liens utiles
 
-%%Links:dicosigles,nifnaf-dataviz-covid%%
+%%Links:id-unique-lien%%
 ```
+>**Note**
+>Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
+```markdown
+## Liens utiles
+
+%%Links:id-unique-lien,autrelien,lien3%%
+```
 
 ## Contribuer au code
 
