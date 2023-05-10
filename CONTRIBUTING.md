@@ -94,7 +94,8 @@ Ajouter une image :
 ```html
 <img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>
 ```
-Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-doc/votre-image.png
+>**Note**
+>Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-doc/votre-image.png
 
 Ajouter un iframe
 
