@@ -175,13 +175,16 @@ Exemple : ```5de8f397634f4164071119c5```
 
 3.2. - Intégrez le dans votre doc
 
+```markdown
+## Les données utilisées
 %%Datagouv:5de8f397634f4164071119c5%%
+```
 
 >**Note**
 >Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
 ```markdown
-## Liens utiles
+## Les données utilisées
 
 %%Datagouv:5b7ffc618b4c4169d30727e0,5de8f397634f4164071119c5%%
 ```
