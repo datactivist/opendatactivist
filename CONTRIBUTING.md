@@ -189,6 +189,22 @@ Exemple : ```5de8f397634f4164071119c5```
 %%Datagouv:5b7ffc618b4c4169d30727e0,5de8f397634f4164071119c5%%
 ```
 
+#### 4. Des données sous la forme d'une gallerie
+
+4.1 - Ajoutez un CSV dans le fichier ```/posts/data```
+>**Note**
+>Nommez le fichier de manière simple, du type ```liste-epci-france```
+>Veillez à supprimer les champs qui comportent des textes trop longs ou qui ne sont pas adaptés pour un affichage en lecture (exemple : les coordonnées géographiques)
+
+>**Warning**
+>Les performances ne sont pas optimales le CSV comporte plusieurs millers d'enregistrements
+
+4.2 - Intégrez la gallerie dans votre doc
+```markdown
+%%JsonGallery:nom-de-votre-csv%%
+```
+
+
 
 ## Contribuer au code
 
