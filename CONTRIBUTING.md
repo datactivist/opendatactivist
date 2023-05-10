@@ -115,7 +115,7 @@ Tout l'intérêt du site est de permettre de trouver facilement du contenu perti
 
 Plusieurs intégrations sont possibles :
 
-**1. Un autre doc**
+#### 1. Un autre doc
 
 Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il sufit d'ajouter le code suivant
 
@@ -133,7 +133,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 %%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
 ```
 
-**2. Des liens**
+#### 2. Des liens
 
 Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
 
