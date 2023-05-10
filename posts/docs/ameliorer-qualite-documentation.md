@@ -7,6 +7,7 @@ tags:
   - qualité
   - documentation
 index: 1
+date: 2021-01-12
 --- 
 
 ## Présentation
@@ -43,4 +44,4 @@ La présentation inclut également des exemples de données propres et sales, ai
 
 # Guide complémentaire
 
-%%FilteredDocsDisplay:demo-open-refine%%
+%%Docs:demo-open-refine%%

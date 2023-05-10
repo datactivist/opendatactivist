@@ -10,6 +10,7 @@ tags:
   - usage
   - GTFS
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2018-11-01
 --- 
 # Description
 
@@ -23,4 +24,4 @@ Le projet Data Transport Mali a pour objectif principal de proposer un portail d
 
 Datactivist a accompagné l'équipe sur la construction d'un fichier GTFS.
 
-%%FilteredDocsDisplay:presentation-gtfs,ouvrir-donnees-transports%%
+%%Docs:presentation-gtfs,ouvrir-donnees-transports%%

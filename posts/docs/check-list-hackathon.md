@@ -9,6 +9,7 @@ tags:
   - logistique
   - gestion de projets
 index: 1
+date: 2018-07-01
 --- 
 
 # Description
@@ -17,7 +18,7 @@ index: 1
 
 ## Guide complémentaire
 
-%%FilteredDocsDisplay:organiser-sprint-data%%
+%%Docs:organiser-sprint-data%%
 
 ## Check-list des tâches et étapes
 

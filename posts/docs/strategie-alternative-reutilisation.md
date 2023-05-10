@@ -7,6 +7,7 @@ tags:
   - réutilisation
   - astuces
 index: 1
+date: 2021-07-25
 --- 
 
 ## Présentation
@@ -34,7 +35,7 @@ index: 1
 - Un exemple de problème de documentation
 - Datasheet for Datasets : une approche alternative pour la documentation des données
 
-%%FilteredLinksDisplay:datasheets-tod%%
+%%Links:datasheets-tod%%
 
 #### Défi 3 : la qualité des données
 
@@ -48,7 +49,7 @@ index: 1
 
 - Madada.fr : faciliter l'exercice du droit d'accès
 
-%%FilteredLinksDisplay:madada%%
+%%Links:madada%%
 
 #### Stratégie 2 : Scraper les données du web
 
@@ -66,7 +67,7 @@ index: 1
 - Greenpeace : une campagne sur les cantines
 - Regards Citoyens : numériser les déclarations
 
-%%FilteredDocsDisplay:greenpeace-crowdsourcing%%
+%%Docs:greenpeace-crowdsourcing%%
 
 <br></br>
 
@@ -86,4 +87,4 @@ index: 1
 
 # Lecture complémentaire
 
-%%FilteredDocsDisplay:data-literacy%%
+%%Docs:data-literacy%%

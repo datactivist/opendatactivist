@@ -66,6 +66,13 @@ const DocsGallery = () => {
     );
   });
 
+  const sortedDocs = filteredDocs.sort((docA, docB) => {
+    const dateA = new Date(docA.metadata.date);
+    const dateB = new Date(docB.metadata.date);
+    return dateB - dateA;
+  });
+
+
   const handleCardClick = (docName) => {
     router.push(`/docs/${docName}`);
   };
@@ -92,11 +99,11 @@ const DocsGallery = () => {
         </div>
       )}
       <Gallery>
-        <Cards
-          items={filteredDocs}
-          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-          tagRoute="docs"
-        />
+      <Cards
+        items={sortedDocs}
+        onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+         tagRoute="docs"
+      />
       </Gallery>
     </div>
   );

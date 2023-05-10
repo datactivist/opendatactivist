@@ -8,6 +8,7 @@ tags:
   - nettoyer
   - technique
 index: 1
+date: 2020-09-26
 --- 
 
 # Présentation
@@ -115,4 +116,4 @@ Pour paraphraser Hadley Whickam paraphrasant Léon Tolstoï :
 
 # Guide complémentaire
 
-%%FilteredDocsDisplay:demo-open-refine%%
+%%Docs:demo-open-refine%%

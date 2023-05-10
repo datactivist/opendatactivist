@@ -8,10 +8,11 @@ tags:
   - santé
   - travail
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2021-10-01
 --- 
 
 > Datactivist a réalisé ce rencensement pour la Banque des Territoires en 2020.
 
 # Liste des données
 
-%%JsonGalleryDisplay:carto-ensembles-territoires%%
+%%JsonGallery:carto-ensembles-territoires%%

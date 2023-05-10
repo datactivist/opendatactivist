@@ -9,6 +9,7 @@ tags:
   - gestion de projets
   - astuces
 index: 1
+date: 2019-09-18
 --- 
 
 # Présentation
@@ -54,17 +55,17 @@ C'est un format de co-création, associant sur un temps court des profils et des
 - Planifier et répartir le travail
 - Un retroplanning type pour anticiper les taches à réaliser
 
-%%FilteredDocsDisplay:check-list-hackathon%%
+%%Docs:check-list-hackathon%%
 
 - Conseil 1 : anticiper au maximum la logistique
 - Conseil 2 : préparer les données bien en amont
 
-%%FilteredLinksDisplay:datasheets-tod,dataproofer%%
+%%Links:datasheets-tod,dataproofer%%
 
 - Conseil 3 : cibler les participants
 - Conseil 4 : mettre en place des espaces de discussion et de documentation
 
-%%FilteredLinksDisplay:tod,framateam%%
+%%Links:tod,framateam%%
 
 ## L’animation du sprint data
 

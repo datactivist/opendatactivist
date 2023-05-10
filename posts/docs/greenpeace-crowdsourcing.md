@@ -10,6 +10,7 @@ tags:
   - médias
   - activisme
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2017-07-01
 --- 
 # Description
 
@@ -27,10 +28,10 @@ Elle a permis de montrer que **70% des enfants mangent viande ou poisson tous le
 
 # 🔎 En savoir plus sur le projet
 
-%%FilteredLinksDisplay:greenpeace-cantines%%
+%%Links:greenpeace-cantines%%
 
 <br></br>
 
 # 📘 Lecture complémentaire
 
-%%FilteredDocsDisplay:strategie-alternative-reutilisation%%
+%%Docs:strategie-alternative-reutilisation%%

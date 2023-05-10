@@ -6,6 +6,7 @@ type: Formation
 tags:
   - standards
   - territoires
+date: 2021-10-13
 --- 
 
 # Résumé de la formation
@@ -38,7 +39,7 @@ Les exemples internationaux incluent :
 - Open Contracting Data Standard (OCDS)
 - International Aid Transparency Initiative (IATI)
 
-%%FilteredDocsDisplay:presentation-gtfs%%
+%%Docs:presentation-gtfs%%
 
 # Sommaire
 
@@ -67,4 +68,4 @@ Les exemples internationaux incluent :
 
 ## Guides complémentaires
 
-%%FilteredDocsDisplay:ouvrir-donnees-transports%%
+%%Docs:ouvrir-donnees-transports%%

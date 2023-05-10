@@ -11,6 +11,7 @@ tags:
   - langage
   - librairies
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2023-03-27
 --- 
 
 > La Data Science est devenue l’un des domaines les plus importants de l’informatique moderne. Deux langages majeurs ont émergé comme des incontournables : **R et Python.**

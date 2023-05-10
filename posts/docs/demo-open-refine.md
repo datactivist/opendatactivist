@@ -8,11 +8,12 @@ tags:
   - qualité
   - data science
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2022-01-01
 ---
 
 > Ce guide a été produit par Datactivist, pour le Ministère de la Culture. L'outil Open Refine est un outil qui permet de nettoyer et préparer des données, par exemple pour réaliser une visualisation.
 
-%%FilteredLinksDisplay:openrefine%%
+%%Links:openrefine%%
 
 # Charger un fichier
 
@@ -161,4 +162,4 @@ Cette fois cela fonctionne mieux, on peut ensuite récupérer les coordonnées g
 
 # Guide complémentaire
 
-%%FilteredDocsDisplay:ameliorer-qualite-documentation%%
+%%Docs:ameliorer-qualite-documentation%%
