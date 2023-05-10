@@ -18,9 +18,9 @@ Lorsque vous ouvrez une issue :
 
 ### Ajouter un doc 
 
-[Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
+⚡️ [Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
 
-[Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
+👉 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
 
 Quels types de contenus publier dans le dossier docs ?
 - article (type billet de blog) 
