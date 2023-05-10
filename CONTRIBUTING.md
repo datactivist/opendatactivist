@@ -32,6 +32,7 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 ```title``` : titre du doc
 
 ```image``` : le chemin de l'image qui illustre le doc. 
+> **Warning**  
 > Veiller à ce que l'image d'illustration ne dépasse pas les 150 KB
 
 ```description``` : la description courte du contenu, en une phrase
