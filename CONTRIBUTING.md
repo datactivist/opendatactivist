@@ -14,9 +14,9 @@ Lorsque vous ouvrez une issue :
 > 1. Vérifiez les [issues](https://github.com/datactivist/nextjs-doc/issues) et [pull requests](https://github.com/datactivist/nextjs-doc/pulls) pour vous assurez que le problème ou la fonctionalité n'ont pas déja été adréssé ou sont en cours de traitement.
 > 2. Soyez le plus descriptif possible quant à la nature du problème ou de la fonctionnalité. Si vous avez trouvé un problème, fournissez des étapes pour le reproduire lorsque cela est possible.
 
-## Contribuer au contenu
+# Contribuer au contenu
 
-### Ajouter un doc 
+## Ajouter un doc 
 
 ⚡️ [Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
 
@@ -27,7 +27,7 @@ Quels types de contenus publier dans le dossier docs ?
 - présentation, 
 - liste de liens ou d'objets (benchmarks)
 
-#### Compléter les métadonnées (entête YAML)
+### Compléter les métadonnées (entête YAML)
 
 Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le catalogue des documents.
 
@@ -47,7 +47,7 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 
 ```index``` : date de publication au format ```yyyymmdd```
 
-#### Rédiger votre contenu (Markdown / html)
+### Rédiger votre contenu (Markdown / html)
 
 Chaque document peut être rédigé en markdown, avec un peu de html.
 
@@ -109,7 +109,7 @@ Ajouter un iframe
 </div>
 ```
 
-#### Intégrer d'autres contenus
+### Intégrer d'autres contenus
 
 Tout l'intérêt du site est de permettre de trouver facilement du contenu pertinent au bon endroit.
 
