@@ -102,23 +102,30 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 %%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
 ```
 
-**1. Des liens**
+**2. Des liens**
 
 Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
 
-Ajoutez votre lien comme ceci à la fin du fichier
+2.1. Ajoutez votre lien comme ceci à la fin du fichier
 
 ```json
  {
-      "id": "laboria",
-      "title": "LaborIA",
-      "type": "rapport",
-      "description": "Rapport d'enquête sur l'impact de l'intelligence artificielle sur le travail",
-      "url": "https://matrice.io/app/uploads/2023/03/Rapport-Laboria-_-VF.pdf",
-      "tags": ["rapport", "IA", "travail"]
-    }
+      "id": "id-unique-lien",
+      "title": "Le nom du lien",
+      "type": "outil",
+      "description": "Description courte du lien",
+      "url": "https://votre-url.com",
+      "tags": ["Data Science", "IA", "Climat"]
+ }
  ```
+ 
+2.2. Intégrez votre lien dans le corps de texte de votre doc
 
+```markdown
+## Liens utiles
+
+%%Links:dicosigles,nifnaf-dataviz-covid%%
+```
 
 
 ## Contribuer au code
