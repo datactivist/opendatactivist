@@ -51,27 +51,43 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 
 Chaque document peut être rédigé en markdown, avec un peu de html.
 
-```# Titre de premier niveau```
+```markdown
+# Titre de premier niveau
+```
 
-```## Titre de 2e niveau```
+```markdown
+## Titre de 2e niveau
+```
 
-```### Titre de 3e niveau```
+```markdown
+### Titre de 3e niveau
+```
 
-```#### Titre de 4e niveau```
+```markdown
+#### Titre de 4e niveau
+```
 
-```Du texte```
+```markdown
+Du texte
+```
 
-Un saut de ligne : ```</br>```
+Un saut de ligne : 
 
-```#### Titre de 4e niveau```
+```html
+</br>
+```
 
-```#### Titre de 4e niveau```
+```markdown
+**Texte en gras**
+```
 
-```**Texte en gras**```
+```markdown
+*Texte en italique*
+```
 
-```*Texte en italique*```
-
-```[Voici un lien](https://datactivist.coop)```
+```markdown
+[Voici un lien](https://datactivist.coop)
+```
 
 Ajouter une image : 
 
