@@ -166,6 +166,27 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien,autrelien,lien3%%
 ```
 
+#### 3. Des jeux de données data.gouv.fr
+
+Si vous souhaitez afficher des jeux de données pertinents (et qu'ils sont disponibles sur data.gouv.fr) :
+
+3.1 - Récupérez l'identifiant d'un jeu de données sur data.gouv.fr (onglet informations > ID)
+Exemple : ```5de8f397634f4164071119c5```
+
+3.2. - Intégrez le dans votre doc
+
+%%Datagouv:5de8f397634f4164071119c5%%
+
+>**Note**
+>Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
+
+```markdown
+## Liens utiles
+
+%%Datagouv:5b7ffc618b4c4169d30727e0,5de8f397634f4164071119c5%%
+```
+
+
 ## Contribuer au code
 
 Les contributions sur ce dépôt sont les bienvenues !
