@@ -94,12 +94,23 @@ const JsonGallery = ({ filename }) => {
     flexContainer: {
       display: 'flex',
       justifyContent: 'space-between',
+      '@media (max-width: 1067px)': {
+        flexDirection: 'column',
+      },
     },
+    
     filterPanel: {
-      width: '25%',
+      width: '0%',
       marginRight: '1rem',
       borderLeft: '1px solid rgba(0, 0, 0, 0.1)',
+      '@media (max-width: 767px)': {
+        width: '100%',
+        marginRight: 0,
+        borderTop: '1px solid rgba(0, 0, 0, 0.1)',
+        borderLeft: 'none',
+      },
     },
+    
     searchBarContainer: {
       marginBottom: '1rem',
     },
@@ -157,6 +168,9 @@ const JsonGallery = ({ filename }) => {
   return (
     <Layout>
     <div style={styles.flexContainer}>
+    <div style={styles.filterPanel}>
+        <FieldFilter data={data} onFilterChange={handleFilterChange} />
+      </div>
       <div style={{ width: 'calc(70% - 1rem)' }}>
         <br></br>
         <br></br>
@@ -270,9 +284,6 @@ const JsonGallery = ({ filename }) => {
           </>
         )}
       </div>
-      </div>
-      <div style={styles.filterPanel}>
-        <FieldFilter data={data} onFilterChange={handleFilterChange} />
       </div>
     </div>
   </Layout>
