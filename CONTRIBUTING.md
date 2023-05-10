@@ -47,7 +47,7 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 
 ```index``` : date de publication au format ```yyyymmdd```
 
-#### Rédiger contenu (Markdown / html)
+#### Rédiger votre contenu (Markdown / html)
 
 Chaque document peut être rédigé en markdown, avec un peu de html.
 
@@ -59,16 +59,31 @@ Chaque document peut être rédigé en markdown, avec un peu de html.
 
 ```#### Titre de 4e niveau```
 
+```Du texte```
+
+Un saut de ligne
+
+```</br>```
+
+```#### Titre de 4e niveau```
+
+```#### Titre de 4e niveau```
+
 ```**Texte en gras**```
 
 ```*Texte en italique*```
 
 ```[Voici un lien](https://datactivist.coop)```
 
-Ajouter une image : ```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
+Ajouter une image : 
+
+```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
 Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-doc/votre-image.png
 
+#### Intégrer d'autres contenus
 
+Tout l'intérêt du site est de permettre de trouver facilement du contenu pertinent au bon endroit.
+Plusieurs intégrations sont possibles 
 
 ## Contribuer au code
 
