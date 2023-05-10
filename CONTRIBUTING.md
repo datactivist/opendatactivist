@@ -61,9 +61,7 @@ Chaque document peut être rédigé en markdown, avec un peu de html.
 
 ```Du texte```
 
-Un saut de ligne :
-
-```</br>```
+Un saut de ligne : ```</br>```
 
 ```#### Titre de 4e niveau```
 
