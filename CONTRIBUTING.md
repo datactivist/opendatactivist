@@ -18,12 +18,18 @@ Lorsque vous ouvrez une issue :
 
 ### Ajouter un doc 
 
-Ajout rapide : https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md
+[Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
 
 Quels types de contenus publier dans le dossier docs ?
 - article (type billet de blog) 
 - présentation, 
 - liste de liens ou d'objets (benchmarks)
+
+#### Les métadonnées (entête YAML)
+Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le catalogue des documents
+
+```test```
+
 
 ## Contribuer au code
 
