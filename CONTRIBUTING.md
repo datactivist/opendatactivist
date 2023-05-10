@@ -75,8 +75,22 @@ Un saut de ligne : ```</br>```
 
 Ajouter une image : 
 
-```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
+```html
+<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>
+```
 Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-doc/votre-image.png
+
+Ajouter un iframe
+
+```html
+<div class="responsiveIframe">
+  <iframe
+    width="100%"
+    height="500"
+    src="https://datactivist.coop/upop/#1">
+  </iframe>
+</div>
+```
 
 #### Intégrer d'autres contenus
 
@@ -88,7 +102,7 @@ Plusieurs intégrations sont possibles :
 
 Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il sufit d'ajouter le code suivant
 
-```
+```markdown
 ### Un cas pratique pertinent
 
 %%Docs:nom-du-doc%%
@@ -96,7 +110,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 >**Note**
 >Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
-```
+```markdown
 ### Quelques articles complémentaires
 
 %%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
