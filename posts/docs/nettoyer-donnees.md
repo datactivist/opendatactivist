@@ -8,6 +8,7 @@ tags:
   - nettoyer
   - technique
 index: 1
+date: 2020-09-26
 --- 
 
 # Présentation

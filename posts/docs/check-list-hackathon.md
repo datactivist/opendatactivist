@@ -9,6 +9,7 @@ tags:
   - logistique
   - gestion de projets
 index: 1
+date: 2018-07-01
 --- 
 
 # Description

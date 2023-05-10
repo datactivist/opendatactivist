@@ -7,6 +7,7 @@ tags:
   - réutilisation
   - astuces
 index: 1
+date: 2021-07-25
 --- 
 
 ## Présentation

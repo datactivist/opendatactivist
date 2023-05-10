@@ -9,6 +9,7 @@ tags:
   - gestion de projets
   - astuces
 index: 1
+date: 2019-09-18
 --- 
 
 # Présentation

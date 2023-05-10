@@ -6,6 +6,7 @@ type: Formation
 tags:
   - standards
   - territoires
+date: 2021-10-13
 --- 
 
 # Résumé de la formation

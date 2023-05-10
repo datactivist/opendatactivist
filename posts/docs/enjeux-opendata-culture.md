@@ -7,6 +7,7 @@ tags:
   - culture
   - stratégie
 index: 1
+date: 2023-04-01
 --- 
 
 ## Présentation

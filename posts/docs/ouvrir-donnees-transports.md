@@ -7,6 +7,7 @@ tags:
   - transports
   - GTFS
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 2019-01-14
 --- 
 
 > Alors que les grandes métropoles voient fleurir depuis plusieurs années des services numériques et des applications autour de leur réseau de transport, les territoires moins denses et les réseaux interurbains sont encore souvent invisibles sur internet.
