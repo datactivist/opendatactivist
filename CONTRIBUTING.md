@@ -20,6 +20,8 @@ Lorsque vous ouvrez une issue :
 
 [Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
 
+[Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
+
 Quels types de contenus publier dans le dossier docs ?
 - article (type billet de blog) 
 - présentation, 
@@ -63,8 +65,9 @@ Chaque document peut être rédigé en markdown, avec un peu de html.
 
 ```[Voici un lien](https://datactivist.coop)```
 
-**Une image :** ```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
-Pour ajouter une image, la placer dans le dossier public/images/doc
+Ajouter une image : ```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
+Pour ajouter une image, la placer dans le dossier public/images/docs/dossier-du-doc/votre-image.png
+
 
 
 ## Contribuer au code
