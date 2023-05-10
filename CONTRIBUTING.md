@@ -25,12 +25,14 @@ Quels types de contenus publier dans le dossier docs ?
 - présentation, 
 - liste de liens ou d'objets (benchmarks)
 
-#### Les métadonnées (entête YAML)
-Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le catalogue des documents
+#### Compléter les métadonnées (entête YAML)
+
+Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le catalogue des documents.
 
 ```title``` : titre du doc
 
-```image``` : le chemin de l'image qui illustre le doc
+```image``` : le chemin de l'image qui illustre le doc. 
+> Veiller à ce que l'image d'illustration ne dépasse pas les 150 KB
 
 ```description``` : la description courte du contenu, en une phrase
 
@@ -42,6 +44,26 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 
 ```index``` : date de publication au format ```yyyymmdd```
 
+#### Rédiger contenu (Markdown / html)
+
+Chaque document peut être rédigé en markdown, avec un peu de html.
+
+```# Titre de premier niveau```
+
+```## Titre de 2e niveau```
+
+```### Titre de 3e niveau```
+
+```#### Titre de 4e niveau```
+
+```**Texte en gras**```
+
+```*Texte en italique*```
+
+```[Voici un lien](https://datactivist.coop)```
+
+**Une image :** ```<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>```
+Pour ajouter une image, la placer dans le dossier public/images/doc
 
 
 ## Contribuer au code
