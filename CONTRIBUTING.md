@@ -120,7 +120,7 @@ Plusieurs intégrations sont possibles :
 Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il sufit d'ajouter le code suivant
 
 ```markdown
-### Un cas pratique pertinent
+## Un cas pratique pertinent
 
 %%Docs:nom-du-doc%%
 ```
@@ -128,7 +128,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 >Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
 ```markdown
-### Quelques articles complémentaires
+## Quelques articles complémentaires
 
 %%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
 ```
