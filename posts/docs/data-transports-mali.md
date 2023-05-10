@@ -23,4 +23,4 @@ Le projet Data Transport Mali a pour objectif principal de proposer un portail d
 
 Datactivist a accompagné l'équipe sur la construction d'un fichier GTFS.
 
-%%FilteredDocsDisplay:presentation-gtfs,ouvrir-donnees-transports%%
+%%Docs:presentation-gtfs,ouvrir-donnees-transports%%

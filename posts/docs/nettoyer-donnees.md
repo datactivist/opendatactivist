@@ -115,4 +115,4 @@ Pour paraphraser Hadley Whickam paraphrasant Léon Tolstoï :
 
 # Guide complémentaire
 
-%%FilteredDocsDisplay:demo-open-refine%%
+%%Docs:demo-open-refine%%

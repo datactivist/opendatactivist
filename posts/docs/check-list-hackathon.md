@@ -17,7 +17,7 @@ index: 1
 
 ## Guide complémentaire
 
-%%FilteredDocsDisplay:organiser-sprint-data%%
+%%Docs:organiser-sprint-data%%
 
 ## Check-list des tâches et étapes
 

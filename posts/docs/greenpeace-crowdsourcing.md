@@ -27,10 +27,10 @@ Elle a permis de montrer que **70% des enfants mangent viande ou poisson tous le
 
 # 🔎 En savoir plus sur le projet
 
-%%FilteredLinksDisplay:greenpeace-cantines%%
+%%Links:greenpeace-cantines%%
 
 <br></br>
 
 # 📘 Lecture complémentaire
 
-%%FilteredDocsDisplay:strategie-alternative-reutilisation%%
+%%Docs:strategie-alternative-reutilisation%%

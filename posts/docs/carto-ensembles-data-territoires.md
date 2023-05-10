@@ -14,4 +14,4 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 
 # Liste des données
 
-%%JsonGalleryDisplay:carto-ensembles-territoires%%
+%%JsonGallery:carto-ensembles-territoires%%

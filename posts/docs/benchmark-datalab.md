@@ -15,4 +15,4 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 
 # Parcourir la liste des datalabs 
 
-%%JsonGalleryDisplay:benchmark-datalab, Exemple de données%%
+%%JsonGallery:benchmark-datalab, Exemple de données%%

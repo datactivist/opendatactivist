@@ -43,4 +43,4 @@ La présentation inclut également des exemples de données propres et sales, ai
 
 # Guide complémentaire
 
-%%FilteredDocsDisplay:demo-open-refine%%
+%%Docs:demo-open-refine%%

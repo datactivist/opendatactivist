@@ -15,10 +15,10 @@ const MarkdownDocs = ({ filename }) => {
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
-      /(%%FilteredDocsDisplay:[^%]*%%|%%FilteredLinksDisplay:[^%]*%%|%%DatagouvDisplay:[^%]*%%|%%JsonGalleryDisplay:[^%]*%%)/,
+      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%)/,
     );
     return contentParts.map((part, index) => {
-      const matchDocs = part.match(/%%FilteredDocsDisplay:([^%]*)%%/);
+      const matchDocs = part.match(/%%Docs:([^%]*)%%/);
       if (matchDocs) {
         const docsList = matchDocs[1].split(',').map((doc) => doc.trim());
         return (
@@ -28,7 +28,7 @@ const MarkdownDocs = ({ filename }) => {
           />
         );
       } else {
-        const matchLinks = part.match(/%%FilteredLinksDisplay:([^%]*)%%/);
+        const matchLinks = part.match(/%%Links:([^%]*)%%/);
         if (matchLinks) {
           const linksList = matchLinks[1].split(',').map((link) => link.trim());
           return (
@@ -38,7 +38,7 @@ const MarkdownDocs = ({ filename }) => {
             />
           );
         } else {
-          const matchDataGouv = part.match(/%%DatagouvDisplay:([^%]*)%%/);
+          const matchDataGouv = part.match(/%%Datagouv:([^%]*)%%/);
           if (matchDataGouv) {
             const ids = matchDataGouv[1].split(',').map((id) => id.trim());
             return (
@@ -46,7 +46,7 @@ const MarkdownDocs = ({ filename }) => {
             );
           } else {
             const matchJsonGallery = part.match(
-              /%%JsonGalleryDisplay:([^%]*)%%/,
+              /%%JsonGallery:([^%]*)%%/,
             );
             if (matchJsonGallery) {
               const [filename, title] = matchJsonGallery[1]

@@ -42,7 +42,7 @@ index: 1
 - Questionnements sur le RGPD, influences sur le management
 - Exemple du LaborIA
 
-%%FilteredLinksDisplay:laboria%%
+%%Links:laboria%%
 
 <br></br>
 

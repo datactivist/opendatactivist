@@ -41,7 +41,7 @@ Premièrement, cela leur permet de développer, ou laisser se développer des so
 
 ## Notre cas pratique :
 
-%%FilteredDocsDisplay:data-transports-mali%%
+%%Docs:data-transports-mali%%
 
 Datactivist a accompagné un [projet de standardisation et d’ouverture de données de transports interurbains du Mali](https://forum.ogptoolbox.org/t/presentation-du-projet-data-transport-mali/590), avec lequel nous avons commencé à tester cette méthode. Ce cas illustrera ponctuellement la suite de l’article.
 <br></br>
@@ -90,7 +90,7 @@ A cette étape, on suppose que les données sur le réseau de transports sont fa
 
 C’est une base de données relationnelle, qui permet, grâce à des arrêts, des lignes et des trajets à identifiants uniques, de modéliser des itinéraires dans des applications de transports, de gérer le réseau et mettre à jour les horaires, et un grand nombre d’autres usages : voici une liste d’applications utilisant ce format, et notre introduction au format GTFS pour en savoir plus.
 
-%%FilteredDocsDisplay:presentation-gtfs%%
+%%Docs:presentation-gtfs%%
 
 ## En pratique
 
@@ -144,4 +144,4 @@ Pour terminer, il faut retenir que construire un GTFS ne requiert pas de compét
 
 ## Guides complémentaires
 
-%%FilteredDocsDisplay:standards-territoires%%
+%%Docs:standards-territoires%%

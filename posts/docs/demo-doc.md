@@ -8,6 +8,7 @@ tags:
   - dataviz
   - fact checking
 index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+date: 20230510
 --- 
 
 # Introduction
@@ -30,16 +31,16 @@ Du texte
 
 ## Cas pratiques
 
-%%FilteredDocsDisplay:factualite,standards-territoires%%
+%%Docs:factualite,standards-territoires%%
 
 ## Liens utiles
 
-%%FilteredLinksDisplay:dicosigles,nifnaf-dataviz-covid%%
+%%Links:dicosigles,nifnaf-dataviz-covid%%
 
 ## Les données utilisées
 
-%%DatagouvDisplay:5c4ae55a634f4117716d5656,5b7ffc618b4c4169d30727e0%%
+%%Datagouv:5c4ae55a634f4117716d5656,5b7ffc618b4c4169d30727e0%%
 
 ## Un benchmark
 
-%%JsonGalleryDisplay:benchmark-datalab, Exemple de données%%
+%%JsonGallery:benchmark-datalab, Exemple de données%%

@@ -42,7 +42,7 @@ index: 1
 
 ## Quelques exemples de stratégies
 
-%%FilteredLinksDisplay:pop-culture,musee-bretagne,doremus,getty-museum,palais-taiwan%%
+%%Links:pop-culture,musee-bretagne,doremus,getty-museum,palais-taiwan%%
 
 <br></br>
 
@@ -62,4 +62,4 @@ index: 1
 
 # Lecture complémentaire
 
-%%FilteredDocsDisplay:benchmark-data-culture%%
+%%Docs:benchmark-data-culture%%
