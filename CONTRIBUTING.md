@@ -96,7 +96,11 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 >**Note**
 >Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
-```%%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
+```
+### Quelques articles complémentaires
+
+%%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
+```
 
 ## Contribuer au code
 
