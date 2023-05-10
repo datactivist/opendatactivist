@@ -93,7 +93,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 
 %%Docs:nom-du-doc%%
 ```
->**Note :**
+>**Note**
 >Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
 
 ```%%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
