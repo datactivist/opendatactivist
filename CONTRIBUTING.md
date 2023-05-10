@@ -102,6 +102,25 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 %%Docs:nom-du-doc,nom-deuxieme-doc,nom-troisieme-doc%%```
 ```
 
+**1. Des liens**
+
+Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+
+Ajoutez votre lien comme ceci à la fin du fichier
+
+```json
+ {
+      "id": "laboria",
+      "title": "LaborIA",
+      "type": "rapport",
+      "description": "Rapport d'enquête sur l'impact de l'intelligence artificielle sur le travail",
+      "url": "https://matrice.io/app/uploads/2023/03/Rapport-Laboria-_-VF.pdf",
+      "tags": ["rapport", "IA", "travail"]
+    }
+ ```
+
+
+
 ## Contribuer au code
 
 Les contributions sur ce dépôt sont les bienvenues !
