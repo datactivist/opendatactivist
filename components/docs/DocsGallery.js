@@ -100,10 +100,10 @@ const DocsGallery = () => {
       )}
       <Gallery>
       <Cards
-  items={sortedDocs}
-  onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-  tagRoute="docs"
-/>
+        items={sortedDocs}
+        onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+         tagRoute="docs"
+      />
       </Gallery>
     </div>
   );
