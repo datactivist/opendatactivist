@@ -29,11 +29,17 @@ Quels types de contenus publier dans le dossier docs ?
 Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le catalogue des documents
 
 ```title``` : titre du doc
+
 ```image``` : le chemin de l'image qui illustre le doc
+
 ```description``` : la description courte du contenu, en une phrase
+
 ```type``` : Formation, Liste, Guide, Cas pratique...
+
 ```tags``` : les mots clés (dataviz, commande publique, qualité, etc...)
+
 ```index``` : ```0``` pour ne pas afficher le contenu dans le catalogue, ```1``` pour qu'il s'affiche dans le catalogue
+
 ```index``` : date de publication au format ```yyyymmdd```
 
 
