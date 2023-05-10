@@ -45,7 +45,7 @@ Il s'agit des métadonnées du fichier, qui permettent notamment d'alimenter le 
 
 ```index``` : ```0``` pour ne pas afficher le contenu dans le catalogue, ```1``` pour qu'il s'affiche dans le catalogue
 
-```index``` : date de publication au format ```yyyymmdd```
+```index``` : date de publication au format ```yyyy-mm-dd```
 
 ### Rédiger votre contenu (Markdown / html)
 
