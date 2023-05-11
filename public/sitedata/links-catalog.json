@@ -21,7 +21,7 @@
         "type": "dataviz",
         "description": "Retrouvez ici des graphiques #NIFNAF vus dans les médias (français ou étrangers) avec la source, la date et l'erreur repérée.",
         "url": "https://padlet.com/julia_dumont/covid19-les-graphiques-nifnaf-puilc4nj7dwj",
-        "tags": ["visualisation", "erreurs", "media", "journalisme"]
+        "tags": ["erreurs", "media", "journalisme", "dataviz"]
     },
     {
       "id": "reperer-erreurs-dataviz",
@@ -29,7 +29,7 @@
       "type": "article",
       "description": "Le traitement de l’information sous forme de données peut induire des représentations biaisées. À travers l’exemple du traitement médiatique de la crise sanitaire, cette activité interroge la manière de représenter les chiffres et d’induire la lecture des données.",
       "url": "https://clemi.fr/fr/ressources/nos-ressources-pedagogiques/ressources-pedagogiques/emi-et-mathematiques-reperer-les-erreurs-de-datavisualisation.html",
-      "tags": ["visualisation", "erreurs", "media", "journalisme", "education", "enseignement"]
+      "tags": ["dataviz", "erreurs", "media", "journalisme", "education", "enseignement"]
     },
     {
       "id": "bad-data-takes",
@@ -37,7 +37,7 @@
       "type": "compte twitter",
       "description": "Compte twitter : critique de dataviz, avec humour",
       "url": "https://twitter.com/BadDataTakes",
-      "tags": ["visualisation", "erreurs", "media", "humour"]
+      "tags": ["dataviz", "erreurs", "media", "humour"]
     },
     {
       "id": "madada",
@@ -109,7 +109,7 @@
       "type": "outil",
       "description": "Un outil pour transformer et mettre en qualité des données",
       "url": "  https://openrefine.org/",
-      "tags": ["qualité", "outil"]
+      "tags": ["qualité", "outil", "open refine"]
     },
     {
       "id": "dataproofer",
@@ -142,5 +142,198 @@
       "description": "Rapport d'enquête sur l'impact de l'intelligence artificielle sur le travail",
       "url": "https://matrice.io/app/uploads/2023/03/Rapport-Laboria-_-VF.pdf",
       "tags": ["rapport", "IA", "travail"]
+    },
+    {
+      "id": "fdr-donnees-contenus-culturels",
+      "title": "Feuille de route – Données et contenus culturels",
+      "type": "rapport",
+      "description": "Feuille de route sur la politique du ministère de la Culture concernant les données, les algorithmes et les codes sources",
+      "url": "https://www.culture.gouv.fr/Espace-documentation/Documentation-administrative/Feuille-de-route-Donnees-et-contenus-culturels",
+      "tags": ["administration", "culture", "open content"]
+    },
+    {
+      "id": "rapport-ouverture-donnees-culturelles",
+      "title": "Rapport « Ouverture et partage des données publiques culturelles",
+      "type": "rapport",
+      "description": "Pour une(r)évolution numérique dans le secteur culturel », Camille Domange, publié par le ministère de la Culture et de la Communication",
+      "url": "https://www.culture.gouv.fr/Espace-documentation/Rapports/Open-Data-ouverture-et-partage-des-donnees-publiques-culturelles",
+      "tags": ["administration", "culture", "open content"]
+    },
+    {
+      "id": "musees-hautesaone-wikipedia",
+      "title": "Les musées départementaux de la Haute-Saône et Wikipédia",
+      "type": "article",
+      "description": "Une présentation de la participation d’un réseau de musées à l’encyclopédie Wikipédia",
+      "url": "https://journals.openedition.org/ocim/1642",
+      "tags": ["wikipedia", "musée", "open content", "culture"]
+    },
+    {
+      "id": "guide-utilisation-images-art",
+      "title": "Guide pratique pour la recherche et la réutilisation des images d’œuvres d’art",
+      "type": "guide",
+      "description": "Enjeux juridiques et bonnes pratiques",
+      "url": "https://www.inha.fr/_resources/PDF/2021/2021_LIVRET_GUIDE-PRATIQUE_web_15062021.pdf",
+      "tags": ["musée", "open content", "culture", "droit", "image"]
+    },
+    {
+      "id": "droit-images-art",
+      "title": "Droits des images, histoire de l’art et société",
+      "type": "rapport",
+      "description": "Rapport sur les régimes de diffusion des images patrimoniales et leur impact sur la recherche, l’enseignement et la mise en valeur des collections publique",
+      "url": "https://www.inha.fr/_attachments/rapport-final-du-programme-images-usages-article/INHA_rapport_images_usages.pdf?download=true",
+      "tags": ["droit", "image", "open content", "culture"]
+    },
+    {
+      "id": "droit-auteur-patrimoine",
+      "title": "Le droit d’auteur du photographe et le patrimoine culturel",
+      "type": "rapport",
+      "description": "Numérique et recherche en histoire de l’art",
+      "url": "https://numrha.hypotheses.org/2137",
+      "tags": ["droit", "image", "patrimoine", "culture"]
+    },
+    {
+      "id": "data-culture-gouv",
+      "title": "data.culture.gouv.fr",
+      "type": "portail",
+      "description": "La plateforme de données ouvertes du ministère de la Culture",
+      "url": "https://data.culture.gouv.fr/pages/home/",
+      "tags": ["portail", "open data", "culture", "administration"]
+    },
+    {
+      "id": "open-glam",
+      "title": "Open Glam",
+      "type": "site",
+      "description": "Open Glam est un réseau informel de personnes et d’organisations cherchant à favoriser l’ouverture des contenus conservés ou produits par les institutions culturelles",
+      "url": "https://openglam.org/france/",
+      "tags": ["wikipedia", "open knowledge foundation", "culture", "réseau"]
+    },
+    {
+      "id": "schema-data-gouv",
+      "title": "schema.data.gouv.fr",
+      "type": "portail",
+      "description": "Portail de référencement des schémas de données publiques pour la France.",
+      "url": "https://schema.data.gouv.fr/",
+      "tags": ["schema", "standards", "etalab"]
+    },
+    {
+      "id": "iconautes",
+      "title": "Iconautes",
+      "type": "site",
+      "description": "Des informations, des recensions et des ressources autour de l'accès aux images et de leur réutilisation en Histoire de l'art.",
+      "url": "https://iconautes.inha.fr/fr/index.html",
+      "tags": ["schema", "standards", "etalab"]
+    },
+    {
+      "id": "openrefine-patrimoineetnumerique",
+      "title": "OpenRefine, “Excel aux hormones” pour nettoyage de données",
+      "type": "guide",
+      "description": "Un tutoriel pour nettoyer des données",
+      "url": "https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees",
+      "tags": ["open refine", "outil", "tutoriel"]
+    },
+    {
+      "id": "openrefine-mathieusaby",
+      "title": "Tuto OpenRefine : nettoyer, préparer et transformer des données",
+      "type": "guide",
+      "description": "Un tutoriel complet pour utiliser Open Refine",
+      "url": "https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees",
+      "tags": ["open refine", "outil", "tutoriel"]
+    },
+    {
+      "id": "openrefine-archives",
+      "title": "Cas d’utilisation d’OpenRefine pour les #archives",
+      "type": "article",
+      "description": "Extraire les cotes de tous les IR en XML-EAD pour avoir en résultat un fichier CSV",
+      "url": "https://medium.com/@seeksanusername/cas-concret-dutilisation-d-openrefine-pour-les-archives-442726996b74",
+      "tags": ["open refine", "outil", "cas pratique", "archives", "culture"]
+    },
+    {
+      "id": "openrefine-caspratique",
+      "title": "D'un inventaire PDF à un fichier XML",
+      "type": "article",
+      "description": "Un pas à pas illustré et détaillé pour passer d'un magnifique inventaire PDF très textuel à un inventaire électronique publiable sur un portail d'archives.",
+      "url": "https://patrimoine-et-numerique.fr/tutoriels/69-38-d-un-inventaire-pdf-a-un-fichier-xml-cas-pratique-openrefine",
+      "tags": ["storymap", "cas pratique", "archives", "culture"]
+    },
+    {
+      "id": "archives-storymap-13",
+      "title": "Exemple d'une storymap - Archives des Bouches-du-Rhône",
+      "type": "article",
+      "description": "Exemple d'une storymap pour l'exposition coloniale de Marseille.",
+      "url": "https://www.archives13.fr/n/l-exposition-coloniale-de-marseille-de/n:298",
+      "tags": ["storymap", "cas pratique", "archives", "culture"]
+    },
+    {
+      "id": "exemples-storymap",
+      "title": "Exemples de storymaps",
+      "type": "site",
+      "description": "Exemples de storymaps par le Smithsonian Garden",
+      "url": "https://gardens.si.edu/collections/plants/living-collections-management/story-maps/",
+      "tags": ["storymap", "cas pratique", "musée", "culture"]
+    },
+    {
+      "id": "chrono-museeorsay",
+      "title": "Musée d’Orsay - Chronologie interactive",
+      "type": "dataviz",
+      "description": "Exemple de chronologe interactive",
+      "url": "https://sculptures-polychromes.musee-orsay.fr/index.php/Browse/objects",
+      "tags": ["chronologie", "culture", "musée", "dataviz"]
+    },
+    {
+      "id": "chrono-mbalyon",
+      "title": "Musée des Beaux Arts de Lyon - Chronologie interactive",
+      "type": "dataviz",
+      "description": "Exemple de chronologe interactive",
+      "url": "https://www.mba-lyon.fr/fr/type-de-collection/arts-graphiques",
+      "tags": ["chronologie", "culture", "musée", "dataviz"]
+    },
+    {
+      "id": "matrimoine-paris",
+      "title": "Carte du Matrimoine parisien",
+      "type": "dataviz",
+      "description": "Une carte réalisée sur Umap",
+      "url": "https://umap.openstreetmap.fr/fr/map/le-matrimoine-parisien_273260#13/48.8592/2.3430",
+      "tags": ["matrimoine", "culture", "cartographie", "dataviz"]
+    },
+    {
+      "id": "archives-angers",
+      "title": "Archives d'Angers",
+      "type": "dataviz",
+      "description": "Une carte des archives d'Angers",
+      "url": "https://archives.angers.fr/",
+      "tags": ["archives", "culture", "cartographie", "dataviz"]
+    },
+    {
+      "id": "archives-marseille-carte",
+      "title": "Cartographie des archives photos de Marseille",
+      "type": "dataviz",
+      "description": "Carte réalisée à partir des photos en open data des Archives Municipales de Marseille",
+      "url": "https://umap.openstreetmap.fr/fr/map/carte-des-photos-en-open-data-des-am-de-marseille_628303#12/43.2947/5.4252",
+      "tags": ["archives", "culture", "cartographie", "dataviz"]
+    },
+    {
+      "id": "crotos",
+      "title": "Crotos",
+      "type": "outil",
+      "description": "Moteur de recherche et d'affichage d'œuvres d'art s'appuyant sur Wikidata  et Wikimedia Commons",
+      "url": "https://zone47.com/crotos/",
+      "tags": ["art", "culture", "wikipedia", "open content"]
+    },
+    {
+      "id": "dashboard-moulins",
+      "title": "Dataviz sur les moulins",
+      "type": "dataviz",
+      "description": "Tableau de bord et cartographie des moulins en France, à partir des données des Archives Nationales",
+      "url": "https://aldonzel.github.io/moulins/test_flex.html",
+      "tags": ["culture", "archives", "tableau de bord", "dataviz"]
+    },
+    {
+      "id": "reuse-culture",
+      "title": "Réutilisations des données culturelles",
+      "type": "portail",
+      "description": "La page des réutilisations des données culturelles sur data.gouv.fr",
+      "url": "https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=culture_and_recreation",
+      "tags": ["culture", "réutilisation", "cas pratique"]
     }
   ]
+

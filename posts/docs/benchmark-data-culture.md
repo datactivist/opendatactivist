@@ -13,10 +13,10 @@ date: 2023-04-01
 
 # Liste des portails
 
-%%JsonGallery:benchmark-data-culture, Exemple de données%%
+%%JsonGallery:benchmark-data-culture%%
 
 <br></br>
 
 # Lecture complémentaire
 
-%%Docs:enjeux-opendata-culture%%
+%%Docs:enjeux-opendata-culture,biblio-opendata-culture%%

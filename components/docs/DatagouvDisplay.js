@@ -24,18 +24,10 @@ const DatagouvDisplay = ({ ids }) => {
 
   return (
     <div>
-      <p>
-        Cette méthode se base sur{' '}
-        {uniq
-          ? 'un jeu de données ouvert, accessible'
-          : 'plusieurs jeux de données ouverts, accessibles'}{' '}
-        via <b>data.gouv.fr</b>
-        &nbsp;:
-      </p>
       <div
         style={{
           backgroundColor: '#f8f8f8',
-          padding: '0.8rem',
+          padding: '0.5rem',
           borderRadius: '10px',
           marginTop: '10px',
           marginBottom: '10px',

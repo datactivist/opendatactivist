@@ -156,9 +156,18 @@ Tentons la réconciliation sur une autre colonne : *Référence*. Wikidata intè
 
 Cette fois cela fonctionne mieux, on peut ensuite récupérer les coordonnées géographiques des monuments, *add columns*, *add columns from reconcilied values*
 
-<br></br>
+</br>
 
 <img src="/images/docs/demo-open-refine/demo_OR_15.png" alt="15" width="600"/>
+
+</br>
+</br>
+
+# Quelques cas d'utilisation d'Open Refine
+
+%%Links:openrefine-patrimoineetnumerique,openrefine-archives,openrefine-caspratique%%
+
+</br>
 
 # Guide complémentaire
 

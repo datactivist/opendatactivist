@@ -37,9 +37,9 @@ const Cards = ({
           />
         )}
       </div>
-      <h2 href={`/docs/${item.name}`}>
+      <h3 href={`/docs/${item.name}`}>
         {item.metadata ? item.metadata.title : item.title}
-      </h2>
+      </h3>
       <p>{item.metadata ? item.metadata.description : item.description}</p>
       {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
     </>

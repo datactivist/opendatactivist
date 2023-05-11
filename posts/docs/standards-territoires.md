@@ -66,6 +66,6 @@ Les exemples internationaux incluent :
 
 <br></br>
 
-## Guides complémentaires
+## Nos ressources sur les standards de données
 
-%%Docs:ouvrir-donnees-transports%%
+%%Docs:ouvrir-donnees-transports,standard-archives-avignon,ouverture-commande-publique%%
