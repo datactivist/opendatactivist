@@ -63,4 +63,4 @@ date: 2023-04-01
 
 # Lecture complémentaire
 
-%%Docs:benchmark-data-culture%%
+%%Docs:benchmark-data-culture,biblio-opendata-culture%%
