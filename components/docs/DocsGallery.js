@@ -11,8 +11,8 @@ const DocsGallery = () => {
   const { query } = router;
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedType, setSelectedType] = useState(query.type || '');
-  const [selectedTag, setSelectedTag] = useState(query.tag || '');
+  const [selectedType, setSelectedType] = useState('');
+  const [selectedTag, setSelectedTag] = useState('');
   const [docsMetadata, setDocsMetadata] = useState([]);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const DocsGallery = () => {
       try {
         const response = await fetch('/api/docs?action=list');
         const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); 
+        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); // filtrer les éléments dont l'index est égal à 0
       } catch (error) {
         console.error(
           'Erreur lors de la récupération des métadonnées des documents',
@@ -30,20 +30,13 @@ const DocsGallery = () => {
     };
 
     fetchDocsMetadata();
-  }, []);
 
-  useEffect(() => {
-    const newQuery = { ...query };
-    if (selectedType) newQuery.type = selectedType;
-    else delete newQuery.type;
-    if (selectedTag) newQuery.tag = selectedTag;
-    else delete newQuery.tag;
-
-    router.push({
-      pathname: '/docs',
-      query: newQuery,
-    });
-  }, [selectedType, selectedTag]);
+    if (query.tag) {
+      setSelectedTag(decodeURIComponent(query.tag));
+    } else {
+      setSelectedTag('');
+    }
+  }, [query]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
@@ -79,6 +72,7 @@ const DocsGallery = () => {
     return dateB - dateA;
   });
 
+
   const handleCardClick = (docName) => {
     router.push(`/docs/${docName}`);
   };
@@ -97,7 +91,7 @@ const DocsGallery = () => {
       />
       {selectedTag && (
         <div>
-          <a className={styles.tag} onClick={() => setSelectedTag('')}>
+          <a className={styles.tag} onClick={() => router.push('/docs')}>
             {selectedTag}
           </a>
           <br></br>
@@ -105,14 +99,14 @@ const DocsGallery = () => {
         </div>
       )}
       <Gallery>
-        <Cards
-          items={sortedDocs}
-          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-          tagRoute="docs"
-        />
+      <Cards
+        items={sortedDocs}
+        onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+         tagRoute="docs"
+      />
       </Gallery>
     </div>
-  );  
+  );
 };
 
 export default DocsGallery;
