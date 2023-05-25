@@ -5,6 +5,8 @@ import Gallery from '../nav/Gallery';
 import SearchBar from '../nav/SearchBar';
 import TypeFilter from '../nav/TypeFilter';
 import styles from '../../styles/Tags.module.css';
+import ListView from '../nav/ListView';
+import Image from 'next/image';
 
 const DocsGallery = () => {
   const router = useRouter();
@@ -14,6 +16,7 @@ const DocsGallery = () => {
   const [selectedType, setSelectedType] = useState('');
   const [selectedTag, setSelectedTag] = useState('');
   const [docsMetadata, setDocsMetadata] = useState([]);
+  const [viewMode, setViewMode] = useState('gallery');
 
   useEffect(() => {
     const fetchDocsMetadata = async () => {
@@ -72,6 +75,18 @@ const DocsGallery = () => {
     return dateB - dateA;
   });
 
+  const toggleViewMode = () => {
+    const newViewMode = viewMode === 'list' ? 'gallery' : 'list';
+    setViewMode(newViewMode);
+    localStorage.setItem('viewMode', newViewMode);
+  };
+
+  useEffect(() => {
+    const localViewMode = localStorage.getItem('viewMode');
+    if (localViewMode) {
+      setViewMode(localViewMode);
+    }
+  }, []);
 
   const handleCardClick = (docName) => {
     router.push(`/docs/${docName}`);
@@ -88,7 +103,26 @@ const DocsGallery = () => {
         selectedType={selectedType}
         handleTypeFilter={handleTypeFilter}
         uniqueTypes={getUniqueTypes()}
-      />
+              />
+              <button onClick={toggleViewMode} className={styles.toggleViewButton}>
+            {viewMode === 'list' ? (
+              <Image
+                src="/icons/gallery.svg" 
+                alt="Gallery View"
+                width={34}
+                height={34}
+                className={styles.icon}
+              />
+            ) : (
+              <Image
+                src="/icons/list.svg" 
+                alt="List View"
+                width={34}
+                height={34}
+                className={styles.icon}
+              />
+            )}
+          </button>
       {selectedTag && (
         <div>
           <a className={styles.tag} onClick={() => router.push('/docs')}>
@@ -98,14 +132,22 @@ const DocsGallery = () => {
           <br></br>
         </div>
       )}
-      <Gallery>
-      <Cards
+      {viewMode === 'list' ? (
+      <ListView
         items={sortedDocs}
         onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-         tagRoute="docs"
+        tagRoute="docs"
       />
+    ) : (
+      <Gallery>
+        <Cards
+          items={sortedDocs}
+          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+          tagRoute="docs"
+        />
       </Gallery>
-    </div>
+    )}
+  </div>
   );
 };
 

@@ -2,7 +2,7 @@
 title: Benchmark des datalabs
 image: /images/docs/datalab-painting.png
 description: La liste des datalabs français et leurs caractéristiques
-type: Liste
+type: Liste de ressources
 tags:
   - datalab
   - stratégie

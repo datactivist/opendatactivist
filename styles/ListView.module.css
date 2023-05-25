@@ -1,0 +1,56 @@
+/* ListView.module.css */
+.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .listItem:hover {
+    background-color: #fff9f9; 
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .description {
+    margin: 10px 0 0;
+    color: #666;
+  }
+  
+  .tagList {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tagListItem {
+    margin-right: 10px;
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .tagButton {
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  

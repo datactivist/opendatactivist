@@ -2,7 +2,7 @@
 title: Cartographie des données sur la santé au travail
 image: /images/docs/carto-sante-travail.jpg
 description: Liste des données existantes et modalités d'accès
-type: Liste
+type: Liste de ressources
 tags:
   - cartographie de données
   - santé
