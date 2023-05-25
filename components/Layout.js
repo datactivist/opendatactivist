@@ -71,7 +71,7 @@ export default function Layout({ children }) {
               <Button
                 sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
               >
-                Data products
+                Nos outils
               </Button>
             </Link>
             <Link href="/docs" passHref>

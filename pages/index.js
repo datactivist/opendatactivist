@@ -28,9 +28,9 @@ export default function Home() {
           </a>
 
           <a href="/docs" className={styles.card}>
-            <h3>Articles &rarr;</h3>
+            <h3>Nos articles &rarr;</h3>
             <p>
-              Tous nos articles en accès libre, pour produire et utiliser des
+              Tous nos contenus en accès libre, pour produire et utiliser des
               données
             </p>
           </a>
@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
           <a href="/products" className={styles.card}>
-            <h3>Data products &rarr;</h3>
+            <h3>Nos outils &rarr;</h3>
             <p>Nos outils en accès libre, pour faciliter vos projets</p>
           </a>
         </div>
