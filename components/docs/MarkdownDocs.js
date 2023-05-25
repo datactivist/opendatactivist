@@ -6,6 +6,7 @@ import FilteredDocsDisplay from './FilteredDocsDisplay';
 import FilteredLinksDisplay from './FilteredLinksDisplay';
 import DatagouvDisplay from './DatagouvDisplay';
 import JsonGalleryDisplay from './JsonGalleryDisplay';
+import DocsMetadata from './DocsMetadata';
 
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
@@ -145,6 +146,8 @@ const MarkdownDocs = ({ filename }) => {
       >
         <TitleWithBackground title={metadata.title} imageUrl={metadata.image} />
         <br />
+        <br />
+        <DocsMetadata metadata={metadata} />
         <br />
         <p
           style={{

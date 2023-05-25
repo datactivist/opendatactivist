@@ -20,3 +20,11 @@
   background-color: #e95459;
   border-style: none;
 }
+.toggleViewButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: 9px;
+  margin-left: 20px;
+}

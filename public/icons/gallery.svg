@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200pt" height="1200pt" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <path d="m0 336h336v-324h-336zm84-240h168v156h-168z"/>
+  <path d="m432 336h336v-324h-336zm84-240h168v156h-168z"/>
+  <path d="m864 12v324h324v-324zm240 240h-156v-156h156z"/>
+  <path d="m0 768h336v-336h-336zm84-252h168v168h-168z"/>
+  <path d="m432 768h336v-336h-336zm84-252h168v168h-168z"/>
+  <path d="m864 768h324v-336h-324zm84-252h156v168h-156z"/>
+  <path d="m0 1188h336v-324h-336zm84-240h168v156h-168z"/>
+  <path d="m432 1188h336v-324h-336zm84-240h168v156h-168z"/>
+  <path d="m864 1188h324v-324h-324zm84-240h156v156h-156z"/>
+ </g>
+</svg>

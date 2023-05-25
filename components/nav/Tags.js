@@ -12,21 +12,6 @@ const Tags = ({ items = [], activeTags, setActiveTags }) => {
     });
   };
   
-  /* Commented unused, I think this Tags.js component is not used anywhere as well ?
-  const renderTagButtons = (tags) => {
-    return tags.map((tag) => {
-      const handleClick = () => {
-        router.push(`/docs?tag=${encodeURIComponent(tag)}`);
-      };
-      return (
-        <button key={tag} onClick={handleClick}>
-          {tag}
-        </button>
-      );
-    });
-  };
-  */
-
   return (
     <div className={styles.tags}>
       {items &&
