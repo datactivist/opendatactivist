@@ -6,6 +6,7 @@ type: Formation
 tags:
   - qualité
   - documentation
+  - format
 index: 1
 date: 2021-01-12
 --- 
@@ -42,6 +43,8 @@ La présentation inclut également des exemples de données propres et sales, ai
   </iframe>
 </div>
 
-# Guide complémentaire
+<br/>
 
-%%Docs:demo-open-refine%%
+# Guides complémentaires
+
+%%Docs:demo-open-refine,canevas-fondamentaux-opendata%%

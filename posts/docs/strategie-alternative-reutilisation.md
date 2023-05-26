@@ -71,7 +71,7 @@ date: 2021-07-25
 
 <br></br>
 
-## 👉 [Accéder à la présentation](https://datactivist.coop/madics1)
+## 👉 [Accéder à la présentation](https://datactivist.coop/madics)
 
 <br></br>
 
