@@ -20,7 +20,7 @@
 .link {
   text-decoration: none;
   color: #333;
-  font-size: 1.2rem; /* Modifier la taille de police ici */
+  font-size: 1.2rem; 
 }
 
 .link:hover {
