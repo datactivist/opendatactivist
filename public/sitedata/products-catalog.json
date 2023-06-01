@@ -1,10 +1,19 @@
 [
     {
-      "name": "search-csv-index",
-      "title": "CSV facile",
-      "description": "Visualiser un CSV, le transformer en API JSON, analyser les enregistrements vides",
-      "public_date": "2023-04-12",
-      "topics": ["CSV", "API", "Qualité", "JSON"]
+      "name": "dataposition",
+      "title": "DataPosition",
+      "description": "Évaluez vos connaissances et compétences sur le cycle de la donnée",
+      "image": "images/products/dataposition.png",
+      "public_date": "2020-01-01",
+      "topics": ["Compétences", "Test", "Formation"]
+    },
+    {
+      "name": "fresque-opendata",
+      "title": "Fresque des données ouvertes",
+      "description": "Sensibilisez tous les publics à l‘ouverture des données",
+      "image": "images/products/fresque-opendata.webp",
+      "public_date": "2023-06-01",
+      "topics": ["Atelier", "Animation", "Formation"]
     }
   ]
   

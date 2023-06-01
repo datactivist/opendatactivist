@@ -1,7 +1,7 @@
 ---
 title: Canevas - Les fondamentaux de l'open data
 image: /images/docs/fondamentaux-od.jpeg
-description: Un carnet à compléter par les participants, pour un atelier d'initiation à l'open data
+description: Un carnet à compléter par les participants, lors d'une fresque des données ouvertes
 type: Atelier
 tags:
   - carnet
@@ -16,7 +16,7 @@ date: 2023-04-11
 
 ## Présentation
 
-> Ce canevas, réalisé par Datactivist, s'utilise comme un carnet de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
+> Ce canevas, réalisé par Datactivist dans le cadre de la fresque des données ouvertes pour BercyHub. Il peut s'utiliser aussi comme un carnet de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
 
 ### 👉 [Accéder au canevas](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
 
@@ -37,6 +37,10 @@ date: 2023-04-11
 - **Les formats de fichiers** : Présentation des différents formats de fichiers couramment utilisés pour les données, avec leurs caractéristiques et leurs utilisations.
 
 <br/>
+
+# Notre produit dédié
+
+%%Products:fresque-opendata%%
 
 ## Le lexique inclus
 

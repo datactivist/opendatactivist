@@ -95,7 +95,8 @@ const DocsGallery = () => {
   return (
     <div>
       <br />
-      <h1>Catalogue des contenus</h1>
+      <br />
+      <h1>Tous nos contenus ouverts</h1>
       <br />
       <br />
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
