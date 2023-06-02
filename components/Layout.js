@@ -14,11 +14,10 @@ import {
 import styles from '../styles/Layout.module.css';
 
 export default function Layout({ children }) {
-  // code pour le footer
 
   const [showLayout] = useState(true);
   const [appBarPosition, setAppBarPosition] = useState('fixed');
-  const [lastScrollPos, setLastScrollPos] = useState(0); // Nouvel état pour stocker la dernière position de défilement
+  const [lastScrollPos, setLastScrollPos] = useState(0); 
 
   useEffect(() => {
     const handleScroll = () => {
