@@ -1,3 +1,4 @@
+// components/Layout.js
 import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -13,28 +14,23 @@ import {
 import styles from '../styles/Layout.module.css';
 
 export default function Layout({ children }) {
-  const [showLayout, setShowLayout] = useState(true);
+  // code pour le footer
+
+  const [showLayout] = useState(true);
   const [appBarPosition, setAppBarPosition] = useState('fixed');
-  const [scrollY, setScrollY] = useState(0);
+  const [lastScrollPos, setLastScrollPos] = useState(0); // Nouvel état pour stocker la dernière position de défilement
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.pageYOffset;
-      const threshold = 200; // Définissez ici la valeur de défilement à partir de laquelle l'app bar commence à se déplacer
+      const currentScrollPos = window.pageYOffset;
 
-      if (currentScrollY > threshold && appBarPosition === 'fixed') {
-        setAppBarPosition('relative');
-      } else if (currentScrollY <= threshold && appBarPosition === 'relative') {
+      if (currentScrollPos < lastScrollPos && appBarPosition !== 'fixed') {
         setAppBarPosition('fixed');
+      } else if (currentScrollPos > lastScrollPos && appBarPosition !== 'relative') {
+        setAppBarPosition('relative');
       }
 
-      if (currentScrollY > scrollY) {
-        setShowLayout(false);
-      } else {
-        setShowLayout(true);
-      }
-
-      setScrollY(currentScrollY);
+      setLastScrollPos(currentScrollPos);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -42,7 +38,7 @@ export default function Layout({ children }) {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [appBarPosition, scrollY]);
+  }, [appBarPosition, lastScrollPos]);
 
   return (
     <div>
@@ -54,50 +50,52 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AppBar
-        position={appBarPosition}
-        className={styles.appBar}
-        sx={{
-          backgroundColor: 'white',
-          transition: 'transform 0.3s ease-in-out',
-          transform: showLayout ? 'translateY(0)' : 'translateY(-100%)',
-        }}
-      >
-        <Toolbar
+      {showLayout && (
+        <AppBar
+          position={appBarPosition}
+          className={styles.appBar}
           sx={{
-            display: 'flex',
-            justifyContent: 'space-between',
+            backgroundColor: 'white',
+            transition: 'transform 0.3s ease-in-out',
+            transform: appBarPosition === 'fixed' ? 'translateY(0)' : 'translateY(-100%)',
           }}
         >
-          <Typography variant="h3" component="div">
-            <a href="/">Open Datactivist</a>
-          </Typography>
-          <nav>
-            <Link href="/" passHref>
-              <Button
-                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
-              >
-                Accueil
-              </Button>
-            </Link>
-            <Link href="/products" passHref>
-              <Button
-                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
-              >
-                Nos outils
-              </Button>
-            </Link>
-            <Link href="/docs" passHref>
-              <Button
-                sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
-              >
-                Docs
-              </Button>
-            </Link>
-          </nav>
-        </Toolbar>
-      </AppBar>
-
+          <Toolbar
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+            }}
+          >
+            <Typography variant="h3" component="div">
+              <a href="/">Open Datactivist</a>
+            </Typography>
+            <nav>
+              <Link href="/" passHref>
+                <Button
+                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                >
+                  Accueil
+                </Button>
+              </Link>
+              <Link href="/products" passHref>
+                <Button
+                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                >
+                  Nos outils
+                </Button>
+              </Link>
+              <Link href="/docs" passHref>
+                <Button
+                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                >
+                  Docs
+                </Button>
+              </Link>
+            </nav>
+          </Toolbar>
+        </AppBar>
+      )}
+  
       <Container
         maxWidth="lg"
         sx={{ paddingTop: showLayout ? '64px' : '0' }}
@@ -106,7 +104,7 @@ export default function Layout({ children }) {
           <main>{children}</main>
         </Box>
       </Container>
-
+  
       <footer>
         <Box
           sx={{
@@ -176,5 +174,5 @@ export default function Layout({ children }) {
         </Box>
       </footer>
     </div>
-  );
+  );  
 }
