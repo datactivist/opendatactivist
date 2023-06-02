@@ -90,6 +90,25 @@ const MarkdownDocs = ({ filename }) => {
     });
   };
 
+  function slugify(text) {
+    return text.toLowerCase().replace(/\W/g, '-');
+  }
+
+  marked.use({
+    renderer: {
+      heading(text, level) {
+        const slug = slugify(text);
+        return `
+          <h${level} id="${slug}" onClick="location.href='#${slug}'">
+            ${text}
+            <span class="hash-link" style="visibility: hidden; pointer-events: none;">#</span>
+          </h${level}>
+        `;
+      },
+    },
+});
+
+
   const TitleWithBackground = ({ title, imageUrl }) => {
     const smallScreen = window.innerWidth <= 768;
 
@@ -144,9 +163,21 @@ const MarkdownDocs = ({ filename }) => {
         );
       }
     };
-
+  
     fetchMarkdownContent();
   }, [filename]);
+
+  useEffect(() => {
+    if (content) {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.substr(1); // remove '#'
+        const element = document.getElementById(id);
+        if (element) element.scrollIntoView();
+      }
+    }
+  }, [content]);
+  
 
   return (
     <Layout>

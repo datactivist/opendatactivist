@@ -13,6 +13,7 @@
 .markdownContent h4 {
   color: #333;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 
 .markdownContent h1 {
@@ -29,6 +30,13 @@
 
 .markdownContent h4 {
   font-size: 1em;
+}
+
+.markdownContent h1:hover .hash-link,
+.markdownContent h2:hover .hash-link,
+.markdownContent h3:hover .hash-link,
+.markdownContent h4:hover .hash-link {
+  visibility: visible;
 }
 
 .markdownContent a {

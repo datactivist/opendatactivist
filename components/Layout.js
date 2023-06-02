@@ -1,5 +1,4 @@
-// components/Layout.js
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -11,32 +10,39 @@ import {
   Button,
   Box,
 } from '@mui/material';
+import styles from '../styles/Layout.module.css';
 
 export default function Layout({ children }) {
+  const [showLayout, setShowLayout] = useState(true);
+  const [appBarPosition, setAppBarPosition] = useState('fixed');
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
-    const footer = document.querySelector('footer');
-    const screenHeight = window.innerHeight;
-    const bodyHeight = document.body.offsetHeight;
+    const handleScroll = () => {
+      const currentScrollY = window.pageYOffset;
+      const threshold = 200; // Définissez ici la valeur de défilement à partir de laquelle l'app bar commence à se déplacer
 
-    if (screenHeight > bodyHeight) {
-      footer.style.position = 'fixed';
-      footer.style.bottom = '0';
-      footer.style.width = '100%';
-    } else {
-      footer.style.position = 'static';
-    }
-
-    window.addEventListener('resize', () => {
-      const bodyHeight = document.body.offsetHeight;
-      if (screenHeight > bodyHeight) {
-        footer.style.position = 'fixed';
-        footer.style.bottom = '0';
-        footer.style.width = '100%';
-      } else {
-        footer.style.position = 'static';
+      if (currentScrollY > threshold && appBarPosition === 'fixed') {
+        setAppBarPosition('relative');
+      } else if (currentScrollY <= threshold && appBarPosition === 'relative') {
+        setAppBarPosition('fixed');
       }
-    });
-  }, []);
+
+      if (currentScrollY > scrollY) {
+        setShowLayout(false);
+      } else {
+        setShowLayout(true);
+      }
+
+      setScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [appBarPosition, scrollY]);
 
   return (
     <div>
@@ -48,8 +54,15 @@ export default function Layout({ children }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <AppBar position="fixed" sx={{ backgroundColor: 'white' }}>
+      <AppBar
+        position={appBarPosition}
+        className={styles.appBar}
+        sx={{
+          backgroundColor: 'white',
+          transition: 'transform 0.3s ease-in-out',
+          transform: showLayout ? 'translateY(0)' : 'translateY(-100%)',
+        }}
+      >
         <Toolbar
           sx={{
             display: 'flex',
@@ -85,8 +98,11 @@ export default function Layout({ children }) {
         </Toolbar>
       </AppBar>
 
-      <Container maxWidth="lg">
-        <Box sx={{ paddingTop: '64px', paddingBottom: '60px' }}>
+      <Container
+        maxWidth="lg"
+        sx={{ paddingTop: showLayout ? '64px' : '0' }}
+      >
+        <Box sx={{ paddingBottom: '60px' }}>
           <main>{children}</main>
         </Box>
       </Container>
@@ -94,7 +110,7 @@ export default function Layout({ children }) {
       <footer>
         <Box
           sx={{
-            position: 'fixed',
+            position: showLayout ? 'fixed' : 'static',
             bottom: 0,
             width: '100%',
             height: 60,

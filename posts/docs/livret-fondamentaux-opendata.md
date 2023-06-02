@@ -17,7 +17,7 @@ date: 2023-04-11
 
 > Ce livret, réalisé par Datactivist dans le cadre de la fresque des données ouvertes pour BercyHub. Il peut s'utiliser aussi comme un support de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
 
-### 👉 [Accéder au livret](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
+### 👉 [Accéder au livret](https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3)
 
 <br></br>
 
@@ -47,7 +47,7 @@ date: 2023-04-11
 
 “Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” [Source : CNIL](https://www.cnil.fr/fr/cnil-direct/question/une-donnee-caractere-personnel-cest-quoi)
 
-### Anonymisation : 
+### Anonymisation :
 
 Traitement des données personnelles qui vise à rendre impossible toute réidentification de la personne. Elle est irréversible (technique destructive d’informations). Elle permet de conserver les données sans limitation.
 
@@ -69,7 +69,7 @@ Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code p
 
 <br/>
 
-## 👉 [Accéder au livret](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
+## 👉 [Accéder au livret](https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3)
 
 <br></br>
 
@@ -77,7 +77,7 @@ Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code p
   <iframe
     width="100%"
     height="500"
-    src="https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397">
+    src="https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3">
   </iframe>
 </div>
 
