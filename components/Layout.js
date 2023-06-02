@@ -23,9 +23,9 @@ export default function Layout({ children }) {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
 
-      if (currentScrollPos < lastScrollPos && appBarPosition !== 'fixed') {
+      if (currentScrollPos < lastScrollPos && appBarPosition !== 'sticky') {
         setAppBarPosition('fixed');
-      } else if (currentScrollPos > lastScrollPos && appBarPosition !== 'relative') {
+      } else if (currentScrollPos > lastScrollPos && appBarPosition !== 'sticky') {
         setAppBarPosition('relative');
       }
 
