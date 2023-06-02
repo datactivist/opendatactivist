@@ -334,6 +334,62 @@
       "description": "La page des réutilisations des données culturelles sur data.gouv.fr",
       "url": "https://www.data.gouv.fr/fr/reuses/?page_size=21&topic=culture_and_recreation",
       "tags": ["culture", "réutilisation", "cas pratique"]
+    },
+    {
+      "id": "cnil-donnee-personnelle",
+      "title": "Qu'est-ce qu'une donnée à caractère personnel ?",
+      "type": "guide",
+      "description": "Une définition et des précisions sur ce qu'est une donnée à caractère personnel, par la CNIL",
+      "url": "https://www.cnil.fr/fr/cnil-direct/question/une-donnee-caractere-personnel-cest-quoi",
+      "tags": ["données personnelles", "CNIL", "protection des données"]
+    },
+    {
+      "id": "licence-ouverte-etalab",
+      "title": "Licence Ouverte / Open Licence",
+      "type": "licence",
+      "description": "Une présentation de la Licence Ouverte / Open Licence par Etalab",
+      "url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+      "tags": ["open data", "licence", "Etalab"]
+    },
+    {
+      "id": "loi-republique-numerique",
+      "title": "Loi pour une République numérique",
+      "type": "loi",
+      "description": "Le texte de la loi pour une République numérique sur Légifrance",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033202746",
+      "tags": ["loi", "république numérique", "Légifrance"]
+    },
+    {
+      "id": "covidtracker",
+      "title": "CovidTracker",
+      "type": "outil",
+      "description": "Outil de suivi de l'évolution de la Covid-19 en France",
+      "url": "https://covidtracker.fr/",
+      "tags": ["covid", "santé", "dataviz"]
+    },
+    {
+      "id": "signaux-faibles",
+      "title": "Signaux Faibles",
+      "type": "projet",
+      "description": "Projet de détection précoce des difficultés des entreprises",
+      "url": "https://beta.gouv.fr/startups/signaux-faibles.html",
+      "tags": ["entreprise", "beta.gouv", "IA"]
+    },
+    {
+      "id": "demandes-valeurs-foncieres",
+      "title": "Demandes de valeurs foncières",
+      "type": "outil",
+      "description": "Accès aux données de ventes immobilières, par Etalab",
+      "url": "https://app.dvf.etalab.gouv.fr/",
+      "tags": ["immobilier", "open data", "Etalab"]
+    },
+    {
+      "id": "openfoodfacts",
+      "title": "Open Food Facts",
+      "type": "projet",
+      "description": "Base de données sur les produits alimentaires du monde entier",
+      "url": "https://fr.openfoodfacts.org/",
+      "tags": ["alimentation", "open data", "santé"]
     }
   ]
 

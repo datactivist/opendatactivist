@@ -41,32 +41,6 @@ date: 2023-04-11
 
 %%Products:fresque-opendata%%
 
-## Le lexique inclus
-
-### DCP - Données à caractère personnel :
-
-“Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” [Source : CNIL](https://www.cnil.fr/fr/cnil-direct/question/une-donnee-caractere-personnel-cest-quoi)
-
-### Anonymisation :
-
-Traitement des données personnelles qui vise à rendre impossible toute réidentification de la personne. Elle est irréversible (technique destructive d’informations). Elle permet de conserver les données sans limitation.
-
-### Pseudonymisation :
-
-Traitement des données personnelles qui vise à ne plus attribuer les données à une personne physique identifiée. Elle consiste à remplacer les données directement identifiantes (ex : nom, prénom) par des données indirectement identifiantes (un alias, un numéro). Elle est réversible.
-
-### Schéma de données : 
-
-Les schémas de données sont des gabarits qui précisent les différents champs au sein d’un jeu de données, leur ordre, les valeurs possibles, etc. Ils permettent une montée en qualité des données et facilitent les usages en simplifiant la compilation entre données de différents producteurs. Source : [schema.data.gouv.fr](https://schema.data.gouv.fr/apropos.html)
-
-### Format des données : 
-
-La manière dont les données sont structurées et mises à disposition des personnes et des machines. Il s’agit autant du format du fichier de données (csv, xlsx, geojson…) que du format du contenu des données. Les formats ouverts et adaptés aux traitements par machines favorisent les usages.
-
-### Code INSEE ou COG : 
-
-Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code postal mais ne lui correspond pas. Par exemple, le code commune contient cinq chiffres ou lettres. Il est composé avec le code département et de la codification sur trois ou deux chiffres de la commune ou de l'arrondissement.
-
 <br/>
 
 ## 👉 [Accéder au livret](https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3)
@@ -83,6 +57,6 @@ Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code p
 
 <br></br>
 
-# Lecture complémentaire
+# Guides complémentaires
 
-%%Docs:ameliorer-qualite-documentation%%
+%%Docs:lexique-fondamentaux-opendata,ameliorer-qualite-documentation%%
