@@ -1,10 +1,9 @@
 ---
-title: Canevas - Les fondamentaux de l'open data
+title: Livret - Les fondamentaux de l'open data
 image: /images/docs/fondamentaux-od.jpeg
-description: Un carnet à compléter par les participants, lors d'une fresque des données ouvertes
+description: Un livret à compléter par les participants, lors d'une fresque des données ouvertes
 type: Atelier
 tags:
-  - carnet
   - atelier
   - qualité
   - vocabulaire
@@ -16,9 +15,9 @@ date: 2023-04-11
 
 ## Présentation
 
-> Ce canevas, réalisé par Datactivist dans le cadre de la fresque des données ouvertes pour BercyHub. Il peut s'utiliser aussi comme un carnet de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
+> Ce livret, réalisé par Datactivist dans le cadre de la fresque des données ouvertes pour BercyHub. Il peut s'utiliser aussi comme un support de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
 
-### 👉 [Accéder au canevas](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
+### 👉 [Accéder au livret](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
 
 <br></br>
 
@@ -44,7 +43,7 @@ date: 2023-04-11
 
 ## Le lexique inclus
 
-### DCP - Données à caractère personnel : 
+### DCP - Données à caractère personnel :
 
 “Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” [Source : CNIL](https://www.cnil.fr/fr/cnil-direct/question/une-donnee-caractere-personnel-cest-quoi)
 
@@ -52,7 +51,7 @@ date: 2023-04-11
 
 Traitement des données personnelles qui vise à rendre impossible toute réidentification de la personne. Elle est irréversible (technique destructive d’informations). Elle permet de conserver les données sans limitation.
 
-### Pseudonymisation : 
+### Pseudonymisation :
 
 Traitement des données personnelles qui vise à ne plus attribuer les données à une personne physique identifiée. Elle consiste à remplacer les données directement identifiantes (ex : nom, prénom) par des données indirectement identifiantes (un alias, un numéro). Elle est réversible.
 
@@ -70,7 +69,7 @@ Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code p
 
 <br/>
 
-## 👉 [Accéder au canevas](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
+## 👉 [Accéder au livret](https://docs.google.com/presentation/d/1UdpDZTeQ_PQpmCA3UqRHVwFDtvThGqfMcCwo7_XjO5k/preview?slide=id.g10eed7e4ff9_0_397)
 
 <br></br>
 
