@@ -19,13 +19,19 @@ date: 2023-04-11
 
 ---
 
+## Le livret
+
+%%Docs:livret-fondamentaux-opendata%%
+
 <br/>
 
 # Le lexique
 
 ### DCP - Données à caractère personnel :
 
-“Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” [Source : CNIL](https://www.cnil.fr/fr/cnil-direct/question/une-donnee-caractere-personnel-cest-quoi)
+“Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” 
+
+%%Links:cnil-donnee-personnelle%%
 
 ### Anonymisation :
 
@@ -35,15 +41,17 @@ Traitement des données personnelles qui vise à rendre impossible toute réiden
 
 Traitement des données personnelles qui vise à ne plus attribuer les données à une personne physique identifiée. Elle consiste à remplacer les données directement identifiantes (ex : nom, prénom) par des données indirectement identifiantes (un alias, un numéro). Elle est réversible.
 
-### Schéma de données : 
+### Schéma de données :
 
-Les schémas de données sont des gabarits qui précisent les différents champs au sein d’un jeu de données, leur ordre, les valeurs possibles, etc. Ils permettent une montée en qualité des données et facilitent les usages en simplifiant la compilation entre données de différents producteurs. Source : [schema.data.gouv.fr](https://schema.data.gouv.fr/apropos.html)
+Les schémas de données sont des gabarits qui précisent les différents champs au sein d’un jeu de données, leur ordre, les valeurs possibles, etc. Ils permettent une montée en qualité des données et facilitent les usages en simplifiant la compilation entre données de différents producteurs. **Source : schema.data.gouv.fr**
+
+%%Links:schema-data-gouv%%
 
 ### Format des données :
 
 La manière dont les données sont structurées et mises à disposition des personnes et des machines. Il s’agit autant du format du fichier de données (csv, xlsx, geojson…) que du format du contenu des données. Les formats ouverts et adaptés aux traitements par machines favorisent les usages.
 
-### Code INSEE ou COG : 
+### Code INSEE ou COG :
 
 Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code postal mais ne lui correspond pas. Par exemple, le code commune contient cinq chiffres ou lettres. Il est composé avec le code département et de la codification sur trois ou deux chiffres de la commune ou de l'arrondissement.
 
@@ -51,21 +59,23 @@ Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code p
 
 L'article 15 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 prévoit que « la Société a le droit de demander compte à tout Agent public de son administration.» Il a constitué le fondement de la transparence administrative et a conduit à la création d'institutions comme les Archives Nationales ou la Cour des Comptes.
 
-### Mise en données du monde
+### Mise en données du monde :
 
 La mise en données du monde ou "datafication" désigne le phénomène dans lequel presque tous les aspects du monde et de la vie humaine laissent une trace sous la forme de données numériques. Capteurs, smartphones, procédures numériques : le volume de données a explosé au cours des 20 dernières années.
 
-### Science ouverte
+### Science ouverte :
 
 La science ouverte vise à la diffusion sans entrave des données, méthodes et résultats de la recherche scientifique. Ce mouvement qui vise à démocratiser les savoirs scientifiques repose sur plusieurs piliers dont l'ouverture la plus large des données de la recherche selon le principe "aussi ouvert que possible, aussi fermé que nécessaire."
 
-### Statistique
+### Statistique :
 
 La statistique désigne la discipline qui étudie des phénomènes à travers la collecte, le traitement et l'analyse de données. À la fois outil de savoir et outil de pouvoir selon le sociologue Alain Desrosières, elle a permis d'exprimer sous une forme numérique ce qui, auparavant, était exprimé par des mots. La statistique repose aujourd'hui en France sur l’Insee et les 16 services statistiques ministériels (SSM).
 
-### Données publiques ouvertes par défaut
+### Données publiques ouvertes par défaut :
 
 Le premier principe de la charte internationale de l'open data demande que l'ouverture devienne la norme : les données publiques devraient être ouvertes, sauf exception légale, sans que le public ait à les demander. En France, ce principe s'est traduit dans la Loi pour une République Numérique de 2016 pour toutes les administrations et collectivités de plus de 3500 habitants et 50 agents.
+
+%%Links:loi-republique-numerique%%
 
 ### Données à jour et complètes
 
@@ -91,7 +101,7 @@ Dans son cinquième principe, la charte internationale défend l'idée que l'ope
 
 Dans son sixième principe, la charte internationale de l'open data suggère que la société civile et le secteur privé peuvent libérer la créativité dès lors que les données sont ouvertes. L'innovation par la réutilisation des données ouvertes jouera un rôle important face aux défis du dérèglement climatique et de la montée des inégalités.
 
-### Pour la modernisation : 
+### Pour la modernisation :
 
 Les politiques d’open data reposent aussi sur leur capacité à provoquer des changements dans le fonctionnement de l’administration : transversalité, désilotage, innovation ouverte… En France, le Ministère de la transformation et de la fonction publique assure la mise en œuvre de l'ouverture des données et l'envisage comme un moyen de faire émerger un service public "augmenté" par la collaboration avec la société civile.
 
@@ -99,13 +109,17 @@ Les politiques d’open data reposent aussi sur leur capacité à provoquer des 
 
 Le Partenariat pour un Gouvernement Ouvert est une institution internationale créée en 2011 qui rassemble 77 pays dont la France. Il repose sur 3 grands piliers : transparence, participation citoyenne et collaboration avec la société civile. Chaque pays participant prend une série d'engagements tous les deux ans portant notamment sur l'ouverture ou la réutilisation de données.
 
-### Suivi de la pandémie : 
+### Suivi de la pandémie :
 
 Les médiateurs de données ont joué un rôle important dans le suivi de la pandémie. Par ex., le site CovidTracker, développé par Guillaume Rozier, a aidé les citoyens à suivre l'épidémie de Covid-19 avec des tableaux de bord interactifs et simples à comprendre et à utiliser. Fin 2020, le site a enregistré près de 15 millions de visites mensuelles. D'autres médiateurs comme Météo Covid ou Our World in Data ont aidé massivement le public à comprendre les données.
+
+%%Links:covidtracker%%
 
 ### Signaux Faibles :
 
 Signaux Faibles est une "startup d'État" qui a pour objectif de mieux cibler les interventions en remédiation de l’État vers les entreprises en difficulté. Pour cela, elle utilise un modèle de machine learning (apprentissage machine) à base de données administratives issues de différents organismes (Banque de France, Ministère de l'Économie, Agence centrale des organismes de sécurité sociale, etc...) dont une partie sont ouvertes.
+
+%%Links:signaux-faibles%%
 
 ### Détection des entreprises en difficulté :
 
@@ -115,9 +129,13 @@ Signaux Faibles est une start-up d'État qui utilise des données publiques et p
 
 L’ouverture de la base "Demandes de Valeurs Foncières" (DVF) par la DGFiP avec l'appui de la DINUM en 2019 a démontré la capacité d'innovation de l'open data. Cette ouverture a bénéficié à de nombreux services sur l’analyse des prix de l’immobilier par des acteurs installés de l'immobilier (SeLoger, Meilleurs Agents…), des startups (Homedata, Kelquartier…) ou l'optimisation du pilotage des politiques publiques autour du logement par les acteurs publics comme le MTE, le CEREMA ou l'ADEME.
 
+%%Links:demandes-valeurs-foncieres%%
+
 ### Transparence des produits alimentaires : 
 
 Open Food Facts est une base de données collaborative sur les produits alimentaires née en France en 2012. 9000 contributeurs dans 200 pays y ont renseigné des données sur plus de 2,5 millions de produits. En plus de l'application mobile Open Food Facts, ces données ont aussi servi à la création de Yuka, utilisé par 21 millions de personnes, et à concevoir le système d'étiquetage nutritionnel Nutriscore.
+
+%%Links:openfoodfacts%%
 
 ### Planification des itinéraires en transports : 
 
@@ -198,6 +216,8 @@ Le rapport au Premier ministre du député Bothorel sur la politique de la donn�
 
 L’insuffisance de la documentation est un défaut majeur des données ouvertes. Sur data.gouv.fr, 22 % des jeux de données ont une description de moins de 180 caractères (soit un SMS) et 59 % moins de 1 000 caractères (une demi-page). C'est généralement insuffisant pour que les réutilisateurs comprennent le contenu et les limites des données.
 
+%%Docs:ameliorer-qualite-documentation%%
+
 ### Amélioration continue :
 
 Il est indispensable de prendre en compte les pratiques des réutilisateurs en amont de la production des jeux de données. Pour ce faire, une réflexion sur leur structure, sur le format des fichiers ou sur la documentation doit être menée systématiquement et tout au long du cycle de vie des données pour faciliter l’appropriation des données par des acteurs tiers.
@@ -214,22 +234,10 @@ Il est indispensable de prendre en compte les pratiques des réutilisateurs en a
 
 La Loi pour une République Numérique impose un principe d’ouverture des données par défaut à toutes les administrations de plus de 50 agents et, pour les collectivités locales, de plus de 3500 habitants. Il concerne un périmètre très large comprenant les documents communiqués suite à des demandes CADA, les “bases de données” et les données “dont la publication présente un intérêt économique, social, sanitaire ou environnemental”.
 
+%%Links:loi-republique-numerique%%
+
 <br/>
-
-## 👉 [Accéder au livret](https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3)
-
-<br></br>
-
-<div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://docs.google.com/presentation/d/1--PxiDrDZodVMIoyePXbmftI9Ea_0WQBGoliTbcfzyg/preview?slide=id.g1949e2873d4_0_3">
-  </iframe>
-</div>
-
-<br></br>
 
 # Lecture complémentaire
 
-%%Docs:ameliorer-qualite-documentation%%
+%%Docs:livret-fondamentaux-opendata%%
