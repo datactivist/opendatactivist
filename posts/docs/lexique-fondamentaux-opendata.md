@@ -131,11 +131,19 @@ L’ouverture de la base "Demandes de Valeurs Foncières" (DVF) par la DGFiP ave
 
 %%Links:demandes-valeurs-foncieres%%
 
+#### Le jeu de données :
+
+%%Datagouv:5c4ae55a634f4117716d5656%%
+
 ### Transparence des produits alimentaires : 
 
 Open Food Facts est une base de données collaborative sur les produits alimentaires née en France en 2012. 9000 contributeurs dans 200 pays y ont renseigné des données sur plus de 2,5 millions de produits. En plus de l'application mobile Open Food Facts, ces données ont aussi servi à la création de Yuka, utilisé par 21 millions de personnes, et à concevoir le système d'étiquetage nutritionnel Nutriscore.
 
 %%Links:openfoodfacts%%
+
+#### Les jeux de données :
+
+%%Datagouv:53699e2aa3a729239d205dea,5985d205c751df6d505e7e86%%
 
 ### Planification des itinéraires en transports : 
 
