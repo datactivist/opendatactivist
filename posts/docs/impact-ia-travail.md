@@ -16,8 +16,6 @@ date: 2022-05-01
 
 > Cette formation a été réalisée par Maëlle Fouquenet, pour l'INTEP
 
-### 👉 [Accéder à la présentation](https://docs.google.com/presentation/d/1hJ6oPogGlbOBtRtbVB3Yd_6fX5_bm4lHkSnw9MKVs5g/preview?slide=id.g50a179ce52_0_0)
-
 <br></br>
 
 ## Programme de la formation

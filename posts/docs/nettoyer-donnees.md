@@ -15,8 +15,6 @@ date: 2020-09-26
 
 > Cette formation, réalisée par Sylvain Lapoix, est la 3ème partie du programme appelé "Fake news à l’épreuve des faits".
 
-## [Accéder à la présentation](https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#1)
-
 </br>
 
 # Résumé du contenu

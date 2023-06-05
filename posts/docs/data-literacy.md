@@ -15,8 +15,6 @@ date: 2018-02-01
 
 > Cette formation, réalisée par Sylvain Lapoix, aborde le sujet de la littératie des données (la capacité à lire et comprendre des données - et ce qui en est fait).
 
-### [Accéder à la présentation](https://datactivist.coop/crij_aura_dataliteracy/intro_dataliteracy/index.html#1)
-
 ## Résumé des idées clés
 
 - Les données sont **collectées en permanence**, de manière active ou passive.

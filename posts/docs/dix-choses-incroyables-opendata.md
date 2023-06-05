@@ -15,8 +15,6 @@ date: 2019-06-24
 
 > Cette formation, réalisée par Joël Gombin, présente 10 exempes d'utilisations inattendues ou emblématiques de données ouvertes
 
-### [Accéder à la présentation](https://datactivist.coop/dataweek/#1)
-
 ## Les 10 exemples
 
 1. [Yuka](https://yuka.io/)

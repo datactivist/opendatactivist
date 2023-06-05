@@ -17,8 +17,6 @@ date: 2022-04-07
 
 > Cette présentation aborde plusieurs sujets liés à la commande publique et à l'open data. Elle décrit également les données essentielles de la commande publique, qui doivent être publiées depuis octobre 2018. Ces données doivent être mises à disposition sur le profil de l'acheteur et doivent contenir des informations sur la procédure de passation du marché, le contenu du contrat et l'exécution du marché.
 
-### [Accéder à la présentation](https://docs.google.com/presentation/d/1qgprHzP1UYw1Y3IJ3LHZ3soykHZz36ca/preview?slide=id.g1239248e414_0_5)
-
 <br></br>
 
 ## Résumé des sujets abordés
