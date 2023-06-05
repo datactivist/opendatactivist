@@ -1,4 +1,4 @@
-import ProductPage from "../../components/nav/ProductPage"
+import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
 
 export default function Produit() {
@@ -14,6 +14,7 @@ export default function Produit() {
     Elle est réalisée lors d'un <b>atelier avec différentes équipes</b>, à l'aide notammment d'un jeu de cartes et de carnets de bord
     <br></br>
     Les équipes sont challengées par les animateurs, pour faire avancer les échanges et aboutir à la fresque.`,
+    imageUrl: '/images/products/fresque-opendata.webp',
     targets: ['👩‍🏫 Novices', '🧑🏻‍💻 Agents publics qui manipulent déjà des données', '🧑‍💼 Personnes en charge d‘une stratégie data'],
     testimonials: [
       {text: "J’ai été très impressionné par ce qu’on fait, on a su travailler en intelligence collective et on a construit ensemble quelque chose de logique.", author: "Participant - BercyHub"},

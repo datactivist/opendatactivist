@@ -1,10 +1,11 @@
-import ProductPage from "../../components/nav/ProductPage"
+import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
 
 export default function Produit() {
   const produit = {
     nom: 'DataPosition',
     baseline: 'Évaluez vos connaissances et compétences sur le cycle de la donnée',
+    imageUrl: '/images/products/dataposition.png',
     description: `Dataposition est un test réalisé par Datactivist, qui permet d‘évaluer son niveau 
                   sur différents aspects de la donnée : présenter et expliquer, modéliser, réaliser 
                   une jointure, cartographier, cataloguer, animer une équipe...`,

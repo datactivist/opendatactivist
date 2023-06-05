@@ -2,12 +2,13 @@ import React from 'react';
 import styles from '../../styles/ProductPage.module.css';
 import FilteredDocsDisplay from "../docs/FilteredDocsDisplay"; 
 
-const ProductPage = ({ nom, baseline, description, targets, liens, testimonials, docsList }) => {  
+const ProductPage = ({ nom, baseline, description, targets, liens, testimonials, docsList, imageUrl }) => {  
   return (
     <div className={styles.productBox}>
       <h1>{nom}</h1>
       <p className={styles.baseline}>{baseline}</p>
       <br />
+      <img src={imageUrl} alt={nom} className={styles.productImage} />
       <div className={styles.description} dangerouslySetInnerHTML={{ __html: description }} />
       <br />
       <div>
