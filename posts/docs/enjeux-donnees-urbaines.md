@@ -16,8 +16,6 @@ date: 2021-03-08
 
 > Cette présentation, par Joël Gombin, traite des enjeux politiques et historiques des données au service de la ville intelligente.
 
-### [Accéder à la présentation](https://datactivist.coop/upop/#1)
-
 ## Résumé des sujets abordés
 
 Les sujets abordés dans cette présentation incluent :

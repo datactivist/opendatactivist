@@ -14,8 +14,6 @@ date: 2023-04-01
 
 > Cette formation a été réalisée par Datactivist, pour le Ministère de la Culture
 
-### 👉 [Accéder à la présentation](https://datactivist.coop/ministere-culture/jour1.html#1)
-
 <br></br>
 
 ---

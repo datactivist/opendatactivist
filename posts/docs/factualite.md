@@ -14,8 +14,6 @@ date: 2019-11-28
 
 > Cette formation, réalisée par Sylvain Lapoix, porte sur la façon de corriger les mauvaises intuitions en utilisant les données.
 
-### [Accéder à la présentation](https://datactivist.coop/infolab_poitiers/facto_sandwich/#1)
-
 <br></br>
 
 ## L'exemple du site Gapminder

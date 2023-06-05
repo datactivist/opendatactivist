@@ -16,8 +16,6 @@ date: 2019-06-24
 
 > Cette formation, réalisée par Magalie Dartus, présente un aperçu des formats et des outils de visualisation de données, ainsi que des exemples de dataviz. Le contenu comprend également des ateliers pour apprendre à réaliser des visualisations de données, tels que des diagrammes à barres et des cartes.
 
-### [Accéder à la présentation](https://datactivist.coop/dataweek/dataviz/#1)
-
 <br></br>
 
 # Résumé des sujets abordés
