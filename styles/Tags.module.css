@@ -1,8 +1,10 @@
-.tags-container {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Share+Tech+Mono&display=swap');
+
+.tagContainer {
   display: flex;
-  flex-wrap: wrap;
-  margin: 1rem 0;
+  align-items: center;
 }
+
 
 .tag {
   background-color: #173541;
@@ -11,9 +13,9 @@
   border-radius: 3px;
   margin-right: 0.5rem;
   cursor: pointer;
-  font-family: monospace;
   transition: background-color 0.3s ease;
   border-style: none;
+  font-family: 'Share Tech Mono', monospace;  
 }
 
 .tag:hover {
@@ -24,7 +26,18 @@
   background: none;
   border: none;
   cursor: pointer;
-  position: relative;
-  top: 9px;
-  margin-left: 20px;
+  top: 0px;
+  margin-left: 10px;
+}
+
+.closeButton {
+  align-items: bottom;
+  justify-content: bottom;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #e95459; /* Nouvelle couleur au survol */
 }
