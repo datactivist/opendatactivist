@@ -19,7 +19,7 @@
 }
 
 .markdownContent h1 {
-  font-size: 2.4em;
+  font-size: 2.2em;
   font-weight: 900;
 }
 
@@ -116,4 +116,22 @@
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
   color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .markdownContent h1 {
+    font-size: 1.5em;
+  }
+
+  .markdownContent h2 {
+    font-size: 1.2em;
+  }
+
+  .markdownContent h3 {
+    font-size: 1em;
+  }
+
+  .markdownContent h4 {
+    font-size: 0.9em;
+  }
 }

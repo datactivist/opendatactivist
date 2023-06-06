@@ -26,9 +26,10 @@
   background: none;
   border: none;
   cursor: pointer;
-  top: 0px;
-  margin-left: 10px;
+  position: relative;
+  top: 10px;
 }
+
 
 .closeButton {
   align-items: bottom;
@@ -40,4 +41,10 @@
 
 .closeButton:hover {
   color: #e95459; /* Nouvelle couleur au survol */
+}
+
+.control-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

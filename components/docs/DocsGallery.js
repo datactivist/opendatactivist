@@ -98,34 +98,34 @@ const DocsGallery = () => {
 
   return (
     <div>
-      <br />
       <h1>Tous nos contenus ouverts</h1>
-      <br />
-      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      <TypeFilter
-        selectedType={selectedType}
-        handleTypeFilter={handleTypeFilter}
-        uniqueTypes={getUniqueTypes()}
-      />
-      <button onClick={toggleViewMode} className={styles.toggleViewButton}>
-        {viewMode === 'list' ? (
-          <Image
-            src="/icons/gallery.svg"
-            alt="Gallery View"
-            width={34}
-            height={34}
-            className={styles.icon}
-          />
-        ) : (
-          <Image
-            src="/icons/list.svg"
-            alt="List View"
-            width={34}
-            height={34}
-            className={styles.icon}
-          />
-        )}
-      </button>
+      <div className="control-panel">
+        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+        <TypeFilter
+          selectedType={selectedType}
+          handleTypeFilter={handleTypeFilter}
+          uniqueTypes={getUniqueTypes()}
+        />
+        <button onClick={toggleViewMode} className={styles.toggleViewButton}>
+          {viewMode === 'list' ? (
+            <Image
+              src="/icons/gallery.svg"
+              alt="Gallery View"
+              width={34}
+              height={34}
+              className={styles.icon}
+            />
+          ) : (
+            <Image
+              src="/icons/list.svg"
+              alt="List View"
+              width={34}
+              height={34}
+              className={styles.icon}
+            />
+          )}
+        </button>
+      </div>
       {selectedTag && (
         <div>
           <div className={styles.tagContainer}>
