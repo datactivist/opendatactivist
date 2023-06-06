@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .appBar {
-  background-color: transparent; /* Modifier la couleur de fond en transparent */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: white; 
   color: #333;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e5e5e5;
+  position: sticky;
+  z-index: 1000;
 }
 
+.appBar.sticky {
+  position: sticky;
+  top: 0;
+}
 
 .toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
+  padding: 10px 0;
+  z-index: 1000;
 }
 
 .navLinks {
@@ -20,13 +33,14 @@
 
 .link {
   text-decoration: none;
-  color: #333;
-  font-size: 1.2rem; 
+  color: #173541;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .link:hover {
   font-weight: 800;
-  color: #173541;
+  color: #e95459;
 }
 
 .footer {
@@ -39,10 +53,16 @@
   font-family: 'Montserrat', sans-serif;
   color: #173541;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .container {
   padding: 2rem 0;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70%; /* la largeur de contenu est 80% de la largeur de la fenêtre */
+}

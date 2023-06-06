@@ -3,13 +3,19 @@
 
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, #ffffff, #f7eded);
   font-size: 18px;
+  box-sizing: border-box;
+}
+
+.title, .description, .grid {
+  max-width: 80%; 
+  margin: 0 auto;
 }
 
 .title a {
@@ -20,7 +26,7 @@
 
 .title {
   margin: 0 0 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   line-height: 1.15;
   font-size: 3.6rem;
   text-align: left;
@@ -34,7 +40,7 @@
   max-width: 50%;
   font-weight: 500;
   margin-bottom: 2rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .description span {
@@ -43,10 +49,13 @@
 }
 
 .grid {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 1rem;
+  margin-left: 2rem;
 }
+
+
 
 .card {
   flex: 1;
@@ -76,7 +85,7 @@
 }
 
 .card p {
-  margin: 0 0 2rem 0; /* Added space for the button */
+  margin: 0 0 2rem 0;
 }
 
 .viewButton {
@@ -84,13 +93,13 @@
   padding: 10px 20px;
   color: white;
   border-radius: 20px;
-  background: linear-gradient(45deg, #173541 30%, #5899ab 90%);
+  background: linear-gradient(45deg, #173541 30%, #197993 90%);
   text-decoration: none;
   transition: background 0.3s ease; 
 }
 
 .viewButton:hover {
-  background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+  background: linear-gradient(45deg, #e95459 30%, #d55a7b 90%);
 }
 
 .viewButton:active {
@@ -114,64 +123,62 @@
 }
 
 .tag1 {
-  color: #7900b6;
+  color: #e95656;
 }
 
 .tag2 {
-  color: #00c1f2;
+  color: #ec4f89;
 }
 
 .tag3 {
-  color: #ff6b1b;
+  color: #f07575;
 }
 
 .tag4 {
-  color: #c95adc;
+  color: #ef61c9;
 }
 
 .tag5 {
-  color: #00791a;
+  color: #f16666;
 }
 
 .tag1:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
-  background-color: #7900b6;
+  background-color: #ea9595;
 }
 
 .tag2:hover {
   text-decoration: underline;
   color: white;
-  background-color: #00c1f2;
+  background-color: #eb8db0;
 }
 
 .tag3:hover {
   text-decoration: underline;
   color: white;
-  background-color: #ff6b1b;
+  background-color: #ee9595;
 }
 
 .tag4:hover {
   text-decoration: underline;
   color: white;
-  background-color: #c95adc;
+  background-color: #ed9ad7;
 }
 
 .tag5:hover {
   text-decoration: underline;
   color: white;
-  background-color: #00791a;
+  background-color: #f19a9a;
 }
 
-
-
 @media (max-width: 768px) {
-  .card {
-    max-width: 90%;
-    flex: 1 0 90%;
+  .description {
+    font-size: 1.8rem;
+    max-width: 80%;
   }
 
-  .description {
-    max-width: 100%;
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

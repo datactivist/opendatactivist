@@ -3,14 +3,6 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Container,
-  Button,
-  Box,
-} from '@mui/material';
 import styles from '../styles/Layout.module.css';
 
 export default function Layout({ children }) {
@@ -22,22 +14,23 @@ export default function Layout({ children }) {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-
-      if (currentScrollPos < lastScrollPos && appBarPosition !== 'sticky') {
-        setAppBarPosition('fixed');
-      } else if (currentScrollPos > lastScrollPos && appBarPosition !== 'sticky') {
+  
+      if (currentScrollPos < lastScrollPos) {
+        setAppBarPosition('sticky');
+      } else {
         setAppBarPosition('relative');
       }
-
+  
       setLastScrollPos(currentScrollPos);
     };
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [appBarPosition, lastScrollPos]);
+  }, [lastScrollPos]);
+  
 
   return (
     <div>
@@ -50,71 +43,41 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {showLayout && (
-        <AppBar
-        position={appBarPosition}
-        className={styles.appBar}
-        sx={{ backgroundColor: "transparent" }}
-      >
-          <Toolbar className={styles.toolbar}>
-          <Typography variant="h3" component="div">
+          <header className={`${styles.appBar} ${styles[appBarPosition]}`}>
+          <div className={styles.toolbar}>
+            <h3>
               <a href="/" className={styles.title}>open </a>
-              <Image
-                src="/images/footer/logo-datactivist.png"
-                alt="Datactivist logo"
-                width={220}
-                height={220}
-              />
-            </Typography>
+                <Image
+                  src="/images/footer/logo-datactivist.png"
+                  alt="Datactivist logo"
+                  width={220}
+                  height={220}
+                  priority
+                />
+            </h3>
             <nav className={styles.navLinks}>
-              <Link href="/" passHref>
-                <Button
-                  className={styles.link}
-                >
-                  Accueil
-                </Button>
-              </Link>
-              <Link href="/products" passHref>
-                <Button
-                  className={styles.link}
-                >
-                  Nos outils
-                </Button>
-              </Link>
-              <Link href="/docs" passHref>
-                <Button
-                  className={styles.link}
-                >
-                  Docs
-                </Button>
-              </Link>
-            </nav>
-          </Toolbar>
-        </AppBar>
+            <Link href="/" passHref>
+              <span className={styles.link}>Accueil</span>
+            </Link>
+            <Link href="/products" passHref>
+              <span className={styles.link}>Nos outils</span>
+            </Link>
+            <Link href="/docs" passHref>
+              <span className={styles.link}>Docs</span>
+            </Link>
+          </nav>
+          </div>
+        </header>
       )}
-  
-      <Container
-        maxWidth="lg"
-        className={showLayout ? styles.container : ''}
-      >
-        <Box sx={{ paddingBottom: '60px' }}>
+      <div className={styles.layout}>
+      <div className={`container ${showLayout ? styles.container : ''}`}>
+        <div className={showLayout ? styles.box : ''}>
           <main>{children}</main>
-        </Box>
-      </Container>
+        </div>
+      </div>
   
       <footer className={styles.footer}>
-        <Box
-          sx={{
-            position: showLayout ? 'fixed' : 'static',
-            bottom: 0,
-            width: '100%',
-            height: 60,
-            background: '#fff',
-            zIndex: 2,
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
+        <div className={showLayout ? styles.footerBox : ''}>
           <a
             href="https://twitter.com/datactivi_st"
             target="_blank"
@@ -167,8 +130,9 @@ export default function Layout({ children }) {
               height={30}
             />
           </a>
-        </Box>
+        </div>
       </footer>
+    </div>
     </div>
   );  
 }

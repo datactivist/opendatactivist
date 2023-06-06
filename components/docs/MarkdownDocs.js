@@ -109,8 +109,19 @@ const MarkdownDocs = ({ filename }) => {
 });
 
 
-  const TitleWithBackground = ({ title, imageUrl }) => {
-    const smallScreen = window.innerWidth <= 768;
+const TitleWithBackground = ({ title, imageUrl }) => {
+  const [smallScreen, setSmallScreen] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
     return (
       <div style={{ position: 'relative' }}>
@@ -133,7 +144,7 @@ const MarkdownDocs = ({ filename }) => {
             right: smallScreen ? '10%' : '5%',
             transform: 'translateY(-50%)',
             textAlign: 'center',
-            fontSize: smallScreen ? '2rem' : '3rem',
+            fontSize: smallScreen ? '1.6rem' : '3rem',
             color: 'white',
             zIndex: 1,
             padding: '1rem',

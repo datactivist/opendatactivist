@@ -36,9 +36,7 @@ const ProductsCatalog = () => {
 
   return (
     <div>
-      <br/>
       <h1>Nos outils et produits</h1>
-      <br />
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
       <Gallery>
         {filteredProducts.map((item) => (
