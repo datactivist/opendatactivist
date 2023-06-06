@@ -63,4 +63,4 @@ authors:
 
 # Lecture complémentaire
 
-%%Docs:benchmark-data-culture,biblio-opendata-culture%%
+%%Docs:benchmark-data-culture,biblio-opendata-culture,standard-archives-publiques%%

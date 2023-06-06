@@ -1,5 +1,5 @@
 ---
-title: Un standard de données pour les archives municipales d’Avignon
+title: Un standard de données pour les archives publiques
 image: /images/docs/standard-archives-avignon.jpeg
 description: En quelques mois, une équipe composée de représentants du SIAF, de l’AAF et de Datactivist a travaillé pour mettre au point un standard pour les données des registres d’entrées
 type: Cas pratique
