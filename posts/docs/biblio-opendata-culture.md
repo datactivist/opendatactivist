@@ -79,7 +79,7 @@ authors:
 
 # Nos ressources complémentaires
 
-%%Docs:enjeux-opendata-culture%%
+%%Docs:enjeux-opendata-culture,standard-archives-publiques%%
 
 </br>
 

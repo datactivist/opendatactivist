@@ -25,7 +25,7 @@ Pour démultiplier l'impact des données territoriales, nous avons besoin à ter
 
 ### Les schémas de données
 
-Les schémas de données décrivent des modèles de données : quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles, etc. Les schémas permettent de valider qu'un jeu de données se conforme à un schéma, de générer de la documentation automatiquement, de générer des données ou de proposer des formulaires standardisés. 
+Les schémas de données décrivent des modèles de données : quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles, etc. Les schémas permettent de valider qu'un jeu de données se conforme à un schéma, de générer de la documentation automatiquement, de générer des données ou de proposer des formulaires standardisés.
 
 <br></br>
 
@@ -68,4 +68,4 @@ Les exemples internationaux incluent :
 
 ## Nos ressources sur les standards de données
 
-%%Docs:ouvrir-donnees-transports,standard-archives-avignon,ouverture-commande-publique%%
+%%Docs:ouvrir-donnees-transports,standard-archives-publiques,ouverture-commande-publique%%
