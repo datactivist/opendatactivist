@@ -9,6 +9,8 @@ tags:
   - portail
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
 date: 2019-04-03
+authors:
+  - etienne-pichot-damon
 ---
 Quand on ouvre un portail open data, ce n’est pas juste pour que des gens téléchargent des données.
 

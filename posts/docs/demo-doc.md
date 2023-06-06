@@ -9,6 +9,9 @@ tags:
   - fact checking
 index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
 date: 2023-05-10
+authors:
+  - equipe-datactivist
+  - prenom-nom
 --- 
 
 # Introduction

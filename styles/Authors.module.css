@@ -1,0 +1,29 @@
+.authorsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  .authorImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+  }
+  
+  .authorName {
+    font-size: 13px;
+  }
+
+  .authorNameLarge {
+    font-size: 15px;
+  }
+  
+  

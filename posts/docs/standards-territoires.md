@@ -7,6 +7,8 @@ tags:
   - standards
   - territoires
 date: 2021-10-13
+authors:
+  - samuel-goeta
 --- 
 
 # Résumé de la formation

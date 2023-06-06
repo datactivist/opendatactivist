@@ -9,6 +9,8 @@ tags:
   - technique
 index: 1
 date: 2020-09-26
+authors:
+  - sylvain-lapoix
 --- 
 
 # Présentation

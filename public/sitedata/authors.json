@@ -1,0 +1,59 @@
+{   
+    "equipe-datactivist": {
+      "name": "Equipe Datactivist",
+      "image": "/images/authors/equipe-datactivist.jpeg"
+    },
+    "cecile-le-guen": {
+      "name": "Cécile Le Guen",
+      "image": "/images/authors/cecile-le-guen.jpeg"
+    },
+    "etienne-pichot-damon": {
+      "name": "Etienne Pichot Damon",
+      "image": "/images/authors/etienne-pichot-damon.jpeg"
+    },
+    "sylvain-lapoix": {
+        "name": "Sylvain Lapoix",
+        "image": "/images/authors/sylvain-lapoix.jpeg"
+    },
+    "guillaume-martin": {
+        "name": "Guillaume Martin",
+        "image": "/images/authors/guillaume-martin.jpeg"
+    },
+    "joel-gombin": {
+        "name": "Joël Gombin",
+        "image": "/images/authors/joel-gombin.jpeg"
+    },
+    "magalie-dartus": {
+        "name": "Magalie Dartus",
+        "image": "/images/authors/magalie-dartus.jpeg"
+    },
+    "anne-laure-donzel": {
+        "name": "Anne-Laure Donzel",
+        "image": "/images/authors/anne-laure-donzel.jpeg"
+    },
+    "samuel-goeta": {
+        "name": "Samuel Goëta",
+        "image": "/images/authors/samuel-goeta.jpeg"
+    },
+    "maelle-fouquenet": {
+        "name": "Maëlle Fouquenet",
+        "image": "/images/authors/maelle-fouquenet.jpeg"
+    },
+    "anthony-gigerich": {
+        "name": "Anthony Gigerich",
+        "image": "/images/authors/anthony-gigerich.jpeg"
+    },
+    "clement-mandron": {
+        "name": "Clément Mandron",
+        "image": "/images/authors/clement-mandron.jpeg"
+    },
+    "emeline-vandeven": {
+        "name": "Emeline Vandeven",
+        "image": "/images/authors/emeline-vandeven.jpeg"
+    },
+    "diane-thierry": {
+        "name": "Diane Thierry",
+        "image": "/images/authors/diane-thierry.jpeg"
+    }
+  }
+  

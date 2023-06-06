@@ -8,6 +8,8 @@ tags:
   - dataviz
   - fact checking
 date: 2019-11-28
+authors:
+  - sylvain-lapoix
 --- 
 
 # Résumé de la formation
