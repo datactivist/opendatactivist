@@ -92,63 +92,74 @@ const DocsGallery = () => {
     router.push(`/docs/${docName}`);
   };
 
+  const handleTagDeselection = () => {
+    router.push('/docs');
+  };
+
   return (
     <div>
       <br />
-      <br />
       <h1>Tous nos contenus ouverts</h1>
-      <br />
       <br />
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
       <TypeFilter
         selectedType={selectedType}
         handleTypeFilter={handleTypeFilter}
         uniqueTypes={getUniqueTypes()}
-              />
-              <button onClick={toggleViewMode} className={styles.toggleViewButton}>
-            {viewMode === 'list' ? (
-              <Image
-                src="/icons/gallery.svg" 
-                alt="Gallery View"
-                width={34}
-                height={34}
-                className={styles.icon}
-              />
-            ) : (
-              <Image
-                src="/icons/list.svg" 
-                alt="List View"
-                width={34}
-                height={34}
-                className={styles.icon}
-              />
-            )}
-          </button>
+      />
+      <button onClick={toggleViewMode} className={styles.toggleViewButton}>
+        {viewMode === 'list' ? (
+          <Image
+            src="/icons/gallery.svg"
+            alt="Gallery View"
+            width={34}
+            height={34}
+            className={styles.icon}
+          />
+        ) : (
+          <Image
+            src="/icons/list.svg"
+            alt="List View"
+            width={34}
+            height={34}
+            className={styles.icon}
+          />
+        )}
+      </button>
       {selectedTag && (
         <div>
-          <a className={styles.tag} onClick={() => router.push('/docs')}>
-            {selectedTag}
-          </a>
-          <br></br>
-          <br></br>
+          <div className={styles.tagContainer}>
+            <span className={styles.tag}>{selectedTag}</span>
+            <button className={styles.closeButton} onClick={handleTagDeselection}>
+              <Image
+                src="/images/icons/close.svg"
+                alt="Close"
+                width={30}
+                height={30}
+                className={styles.closeIcon}
+              />
+            </button>
+          </div>
+          <br />
+          <br />
         </div>
       )}
       {viewMode === 'list' ? (
-      <ListView
-        items={sortedDocs}
-        onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-        tagRoute="docs"
-      />
-    ) : (
-      <Gallery>
-        <Cards
+        <ListView
           items={sortedDocs}
           onClick={(linkId, tag) => handleCardClick(linkId, tag)}
           tagRoute="docs"
         />
-      </Gallery>
-    )}
-  </div>
+      ) : (
+        <Gallery>
+          <Cards
+            items={sortedDocs}
+            onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+            tagRoute="docs"
+          />
+        </Gallery>
+      )}
+    </div>
   );
 };
 

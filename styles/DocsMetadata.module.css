@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Share+Tech+Mono&display=swap');
+
 .docsMetadata {
     margin-top: 20px;
     font-size: 18px;
@@ -33,10 +35,10 @@
     margin-right: 0.5rem;
     margin-top: 5px;
     cursor: pointer;
-    font-family: monospace;
+    font-family: 'Share Tech Mono', monospace;  
     transition: background-color 0.3s ease;
     border-style: none;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .tagButton:hover {

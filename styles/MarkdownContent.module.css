@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
 .markdownContent {
   font-family: 'Open sans', sans-serif;
   font-size: 16px;
@@ -17,11 +19,13 @@
 }
 
 .markdownContent h1 {
-  font-size: 2em;
+  font-size: 2.4em;
+  font-weight: 900;
 }
 
 .markdownContent h2 {
   font-size: 1.5em;
+  font-weight: 900;
 }
 
 .markdownContent h3 {

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.css'; 
 
 export default function Home() {
   return (
@@ -15,86 +15,39 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Des méthodes et des cas pratiques en accès libre <br></br>
-          <code>Produire des données</code> <code>Utiliser des données</code>
+          Des méthodes et des cas pratiques en accès libre,
+          pour <span>produire et utiliser des données</span>.
         </p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
-            <h3>Patchworks &rarr;</h3>
+          <div className={styles.card}>
+            <h3>Nos contenus ouverts &rarr;</h3>
             <p>
-              Des guides outillés pour construire des projets étape par étape
+              Des contenus en accès libre, pour se former sur la donnée, comprendre les enjeux de l‘open data, et s‘inspirer de cas pratiques.
             </p>
-          </a>
+            <a href="/docs" className={styles.viewButton}>
+              Voir les contenus
+            </a>
+            <div className={styles.tagsBox}>
+              <a href="/docs?tag=qualité" className={`${styles.tag} ${styles.tag1}`}>#Qualité des données</a>
+              <a href="/docs?tag=strategie" className={`${styles.tag} ${styles.tag2}`}>#Stratégie</a>
+              <a href="/docs?tag=culture" className={`${styles.tag} ${styles.tag3}`}>#Culture</a>
+              <a href="/docs?tag=territoires" className={`${styles.tag} ${styles.tag4}`}>#Territoires</a>
+              <a href="/docs?tag=hackathon" className={`${styles.tag} ${styles.tag5}`}>#Hackathons</a>
+              <a href="/docs" className={`${styles.tag} ${styles.tag3}`}>#...</a>
+            </div>
 
-          <a href="/docs" className={styles.card}>
-            <h3>Nos articles &rarr;</h3>
-            <p>
-              Tous nos contenus en accès libre, pour produire et utiliser des
-              données
-            </p>
-          </a>
+          </div>
 
-          <a href="/links" className={styles.card}>
-            <h3>Ressources externes &rarr;</h3>
-            <p>Des liens vers des ressources et outils pour vous inspirer</p>
-          </a>
-
-          <a href="/products" className={styles.card}>
-            <h3>Nos outils &rarr;</h3>
-            <p>Nos outils en accès libre, pour faciliter vos projets</p>
-          </a>
+          <div className={styles.card}>
+            <h3>Nos outils et produits &rarr;</h3>
+            <p>Des outils et produits pour faciliter vos projets, accessibles en open source et personnalisables avec nos équipes.</p>
+            <a href="/products" className={styles.viewButton}>
+              Voir les outils
+            </a>
+          </div>
         </div>
       </main>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #eaeaea;
-          border-radius: 5px;
-          padding: 0.5rem;
-          font-size: 1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: Montserrat;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   );
 }

@@ -53,39 +53,35 @@ export default function Layout({ children }) {
         <AppBar
           position={appBarPosition}
           className={styles.appBar}
-          sx={{
-            backgroundColor: 'white',
-            transition: 'transform 0.3s ease-in-out',
-            transform: appBarPosition === 'fixed' ? 'translateY(0)' : 'translateY(-100%)',
-          }}
         >
-          <Toolbar
-            sx={{
-              display: 'flex',
-              justifyContent: 'space-between',
-            }}
-          >
-            <Typography variant="h3" component="div">
-              <a href="/">Open Datactivist</a>
+          <Toolbar className={styles.toolbar}>
+          <Typography variant="h3" component="div">
+              <a href="/" className={styles.title}>open </a>
+              <Image
+                src="/images/footer/logo-datactivist.png"
+                alt="Datactivist logo"
+                width={220}
+                height={220}
+              />
             </Typography>
-            <nav>
+            <nav className={styles.navLinks}>
               <Link href="/" passHref>
                 <Button
-                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                  className={styles.link}
                 >
                   Accueil
                 </Button>
               </Link>
               <Link href="/products" passHref>
                 <Button
-                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                  className={styles.link}
                 >
                   Nos outils
                 </Button>
               </Link>
               <Link href="/docs" passHref>
                 <Button
-                  sx={{ color: 'black', fontWeight: '500', fontSize: '16px' }}
+                  className={styles.link}
                 >
                   Docs
                 </Button>
@@ -97,14 +93,14 @@ export default function Layout({ children }) {
   
       <Container
         maxWidth="lg"
-        sx={{ paddingTop: showLayout ? '64px' : '0' }}
+        className={showLayout ? styles.container : ''}
       >
         <Box sx={{ paddingBottom: '60px' }}>
           <main>{children}</main>
         </Box>
       </Container>
   
-      <footer>
+      <footer className={styles.footer}>
         <Box
           sx={{
             position: showLayout ? 'fixed' : 'static',
