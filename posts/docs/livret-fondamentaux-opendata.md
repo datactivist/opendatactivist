@@ -11,6 +11,9 @@ tags:
   - format
 index: 1
 date: 2023-04-11
+authors:
+  - clement-mandron
+  - maelle-fouquenet
 --- 
 
 ## Présentation

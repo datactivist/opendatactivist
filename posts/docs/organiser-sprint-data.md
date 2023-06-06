@@ -10,6 +10,8 @@ tags:
   - astuces
 index: 1
 date: 2019-09-18
+authors:
+  - samuel-goeta
 --- 
 
 # Présentation

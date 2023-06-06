@@ -10,6 +10,8 @@ tags:
   - gestion de projets
 index: 1
 date: 2018-07-01
+authors:
+  - cecile-le-guen
 --- 
 
 # Description

@@ -10,6 +10,8 @@ tags:
   - design
 index: 1
 date: 2019-06-24
+authors:
+  - magalie-dartus
 --- 
 
 # Présentation

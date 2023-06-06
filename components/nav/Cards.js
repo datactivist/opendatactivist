@@ -2,13 +2,14 @@ import React from 'react';
 import styles from '../../styles/Cards.module.css';
 import { useRouter } from 'next/router';
 import tagStyles from '../../styles/Tags.module.css';
+import Authors from './Authors';
 
 const RenderTagButtons = (tags, tagRoute) => {
   const router = useRouter();
   if (tags) {
     return tags.map((tag) => {
       const handleClick = (e) => {
-        e.stopPropagation(); // Ajouter ici
+        e.stopPropagation();
         router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
       };
       return (
@@ -21,11 +22,27 @@ const RenderTagButtons = (tags, tagRoute) => {
   return null;
 };
 
+const formatDateToNow = (dateString) => {
+  const dateObj = new Date(dateString);
+  const diffTime = Math.abs(new Date() - dateObj);
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+  if (diffDays < 365) {
+    const diffMonths = Math.floor(diffDays / 30);
+    return diffMonths <= 1 ? 'il y a 1 mois' : `il y a ${diffMonths} mois`;
+  } else {
+    const diffYears = Math.floor(diffDays / 365);
+    return diffYears <= 1 ? 'il y a 1 an' : `il y a ${diffYears} ans`;
+  }
+};
+
 const Cards = ({
   items,
   onClick,
   tagRoute,
   showTags = true,
+  showDate = true,
+  showAuthors = true,
   renderItem = (item) => (
     <>
       <div>
@@ -42,6 +59,12 @@ const Cards = ({
       </h3>
       <p>{item.metadata ? item.metadata.description : item.description}</p>
       {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
+      {showAuthors && item.metadata?.authors && <Authors authorIds={item.metadata.authors} />}
+      {showDate && item.metadata?.date && (
+        <div className={styles.date}>
+          <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}
+        </div>
+      )}
     </>
   ),
 }) => {

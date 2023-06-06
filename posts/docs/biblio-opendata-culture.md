@@ -8,7 +8,9 @@ tags:
   - culture
   - archives
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
-date: 2023-10-04
+date: 2023-04-10
+authors:
+  - anne-laure-donzel
 --- 
 
 > Datactivist vous propose une curation de ressources, outils, guides dédiés à la culture, aux archives et à l'open data

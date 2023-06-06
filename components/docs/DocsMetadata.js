@@ -2,9 +2,10 @@ import React from 'react';
 import { format } from 'date-fns';
 import { fr } from 'date-fns/locale';
 import styles from '../../styles/DocsMetadata.module.css';
+import Authors from '../nav/Authors';
 
 const DocsMetadata = ({ metadata }) => {
-  const { type, tags, date } = metadata;
+  const { type, tags, date, authors } = metadata;
 
   const handleTagClick = (tag) => {
     const url = `/docs?tag=${encodeURIComponent(tag)}`;
@@ -25,9 +26,11 @@ const DocsMetadata = ({ metadata }) => {
           </p>
         )}
         {date && type && <>&nbsp; &nbsp;|&nbsp; &nbsp;</>}
-        <p>
-          📕 {type}
-        </p>
+        {type && (
+          <p>
+            📕 {type}
+          </p>
+        )}
       </div>
       {tags && (
         <div className={styles.metadataRow}>
@@ -40,6 +43,11 @@ const DocsMetadata = ({ metadata }) => {
               {tag}
             </button>
           ))}
+        </div>
+      )}
+      {authors && (
+        <div className={styles.metadataRow}>
+          <Authors authorIds={authors} largeText={true} />
         </div>
       )}
       <hr className={styles.separator} />
