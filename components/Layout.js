@@ -51,9 +51,10 @@ export default function Layout({ children }) {
       </Head>
       {showLayout && (
         <AppBar
-          position={appBarPosition}
-          className={styles.appBar}
-        >
+        position={appBarPosition}
+        className={styles.appBar}
+        sx={{ backgroundColor: "transparent" }}
+      >
           <Toolbar className={styles.toolbar}>
           <Typography variant="h3" component="div">
               <a href="/" className={styles.title}>open </a>
