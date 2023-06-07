@@ -7,6 +7,7 @@ import TypeFilter from '../nav/TypeFilter';
 import styles from '../../styles/Tags.module.css';
 import ListView from '../nav/ListView';
 import Image from 'next/image';
+import authorsData from '../../public/sitedata/authors.json';
 
 const DocsGallery = () => {
   const router = useRouter();
@@ -15,6 +16,7 @@ const DocsGallery = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('');
   const [selectedTag, setSelectedTag] = useState('');
+  const [selectedAuthor, setSelectedAuthor] = useState('');
   const [docsMetadata, setDocsMetadata] = useState([]);
   const [viewMode, setViewMode] = useState('gallery');
 
@@ -23,7 +25,7 @@ const DocsGallery = () => {
       try {
         const response = await fetch('/api/docs?action=list');
         const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); // filtrer les éléments dont l'index est égal à 0
+        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); 
       } catch (error) {
         console.error(
           'Erreur lors de la récupération des métadonnées des documents',
@@ -31,13 +33,20 @@ const DocsGallery = () => {
         );
       }
     };
-
     fetchDocsMetadata();
+  }, []);
 
+  useEffect(() => {
     if (query.tag) {
       setSelectedTag(decodeURIComponent(query.tag));
     } else {
       setSelectedTag('');
+    }
+    
+    if (query.author) {
+      setSelectedAuthor(decodeURIComponent(query.author));
+    } else {
+      setSelectedAuthor('');
     }
   }, [query]);
 
@@ -49,6 +58,7 @@ const DocsGallery = () => {
     setSelectedType(event.target.value);
   };
 
+
   const getUniqueTypes = () => {
     const allTypes = docsMetadata.map((doc) => doc.metadata.type);
     return Array.from(new Set(allTypes));
@@ -59,11 +69,13 @@ const DocsGallery = () => {
     const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
     const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
     const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
+    const authorMatch = selectedAuthor ? doc.metadata.authors.includes(selectedAuthor) : true;
 
     return (
       typeMatch &&
       typeUrl &&
       tagUrl &&
+      authorMatch &&
       (doc.metadata.title.toLowerCase().includes(searchValue) ||
         doc.metadata.description.toLowerCase().includes(searchValue))
     );
@@ -74,6 +86,20 @@ const DocsGallery = () => {
     const dateB = new Date(docB.metadata.date);
     return dateB - dateA;
   });
+
+  const [selectedAuthorName, setSelectedAuthorName] = useState('');
+
+  useEffect(() => {
+    if (query.author) {
+      setSelectedAuthor(decodeURIComponent(query.author));
+      const authorId = decodeURIComponent(query.author);
+      const authorName = authorsData[authorId].name; // Récupérer le nom de l'auteur à partir de l'ID
+      setSelectedAuthorName(authorName);
+    } else {
+      setSelectedAuthor('');
+      setSelectedAuthorName('');
+    }
+  }, [query]);
 
   const toggleViewMode = () => {
     const newViewMode = viewMode === 'list' ? 'gallery' : 'list';
@@ -95,6 +121,15 @@ const DocsGallery = () => {
   const handleTagDeselection = () => {
     router.push('/docs');
   };
+
+  const handleAuthorDeselection = () => {
+    router.push('/docs');
+  };
+
+  const handleAuthorClick = (authorId) => {
+    router.push(`/authors/${authorId}`);
+  };
+  
 
   return (
     <div>
@@ -144,6 +179,26 @@ const DocsGallery = () => {
           <br />
         </div>
       )}
+      {selectedAuthor && (
+  <div>
+    <div className={styles.tagContainer}>
+      <span className={styles.tag} onClick={() => handleAuthorClick(selectedAuthor)}>
+        {selectedAuthorName}
+      </span>
+              <button className={styles.closeButton} onClick={handleAuthorDeselection}>
+                <Image
+                  src="/images/icons/close.svg"
+                  alt="Close"
+                  width={30}
+                  height={30}
+                  className={styles.closeIcon}
+                />
+              </button>
+            </div>
+            <br />
+            <br />
+          </div>
+        )}
       {viewMode === 'list' ? (
         <ListView
           items={sortedDocs}
@@ -155,8 +210,9 @@ const DocsGallery = () => {
           <Cards
             items={sortedDocs}
             onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+            onAuthorClick={(authorId) => handleAuthorClick(authorId)}
             tagRoute="docs"
-          />
+              />
         </Gallery>
       )}
     </div>

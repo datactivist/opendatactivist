@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/Authors.module.css';
 
-const Authors = ({ authorIds, largeText = false }) => {
-    const [authorsData, setAuthorsData] = useState({});
+const Authors = ({ authorIds, largeText = false, onAuthorClick = () => {} }) => {
+  const [authorsData, setAuthorsData] = useState({});
 
   useEffect(() => {
     fetch('/sitedata/authors.json')
       .then(response => response.json())
       .then(data => setAuthorsData(data));
   }, []);
+
+  const handleAuthorClick = (e, id) => {
+    e.stopPropagation();
+    onAuthorClick(id);
+  };
 
   return (
     <div className={styles.authorsContainer}>
@@ -22,7 +27,11 @@ const Authors = ({ authorIds, largeText = false }) => {
                 alt={author.name}
                 className={styles.authorImage}
               />
-              <div className={`${styles.authorName} ${largeText ? styles.authorNameLarge : ''}`}>
+              <div
+                key={id}
+                className={`${styles.authorName} ${largeText ? styles.authorNameLarge : ''}`}
+                onClick={(e) => handleAuthorClick(e, id)}
+              >
                 {author.name}
               </div>
             </div>

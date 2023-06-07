@@ -19,11 +19,53 @@
   }
   
   .authorName {
-    font-size: 13px;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 14px;
   }
 
+  .authorName:hover {
+    background-color: #e95459;
+    color: white;
+    font-weight: 700;
+  }
+  
   .authorNameLarge {
     font-size: 15px;
   }
   
+  .authorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  .authorHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .authorImageLarge {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 20%;
+  }
+  
+  .authorInfo {
+    flex: 1;
+  }
+  
+  .authorBio {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px;
+    border-left: 8px solid #e95459;
+    padding-left: 20px;  
+  }
