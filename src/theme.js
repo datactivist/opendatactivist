@@ -42,8 +42,7 @@ const theme = createTheme({
     MuiBox: {
       styleOverrides: {
         root: {
-          // Ajoutez les styles pour les éléments Box ici
-          backgroundColor: '#f5f5f5', // Par exemple, définir la couleur d'arrière-plan
+          backgroundColor: '#f5f5f5',
         },
       },
     },
