@@ -5,8 +5,8 @@ description: Une liste des ensembles de données que l'on retrouve dans les coll
 type: Liste de ressources
 tags:
   - cartographie de données
-  - santé
-  - travail
+  - territoires
+  - standards
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
 date: 2021-10-01
 authors:
