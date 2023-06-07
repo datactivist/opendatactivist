@@ -7,6 +7,7 @@ import TypeFilter from '../nav/TypeFilter';
 import styles from '../../styles/Tags.module.css';
 import ListView from '../nav/ListView';
 import Image from 'next/image';
+import authorsData from '../../public/sitedata/authors.json';
 
 const DocsGallery = () => {
   const router = useRouter();
@@ -24,7 +25,7 @@ const DocsGallery = () => {
       try {
         const response = await fetch('/api/docs?action=list');
         const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); // filtrer les éléments dont l'index est égal à 0
+        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); 
       } catch (error) {
         console.error(
           'Erreur lors de la récupération des métadonnées des documents',
@@ -85,6 +86,20 @@ const DocsGallery = () => {
     const dateB = new Date(docB.metadata.date);
     return dateB - dateA;
   });
+
+  const [selectedAuthorName, setSelectedAuthorName] = useState('');
+
+  useEffect(() => {
+    if (query.author) {
+      setSelectedAuthor(decodeURIComponent(query.author));
+      const authorId = decodeURIComponent(query.author);
+      const authorName = authorsData[authorId].name; // Récupérer le nom de l'auteur à partir de l'ID
+      setSelectedAuthorName(authorName);
+    } else {
+      setSelectedAuthor('');
+      setSelectedAuthorName('');
+    }
+  }, [query]);
 
   const toggleViewMode = () => {
     const newViewMode = viewMode === 'list' ? 'gallery' : 'list';
@@ -165,11 +180,11 @@ const DocsGallery = () => {
         </div>
       )}
       {selectedAuthor && (
-          <div>
-            <div className={styles.tagContainer}>
-              <span className={styles.tag} onClick={() => handleAuthorClick(selectedAuthor)}>
-                {selectedAuthor}
-              </span>
+  <div>
+    <div className={styles.tagContainer}>
+      <span className={styles.tag} onClick={() => handleAuthorClick(selectedAuthor)}>
+        {selectedAuthorName}
+      </span>
               <button className={styles.closeButton} onClick={handleAuthorDeselection}>
                 <Image
                   src="/images/icons/close.svg"
