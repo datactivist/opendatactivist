@@ -15,6 +15,7 @@ const DocsGallery = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('');
   const [selectedTag, setSelectedTag] = useState('');
+  const [selectedAuthor, setSelectedAuthor] = useState('');
   const [docsMetadata, setDocsMetadata] = useState([]);
   const [viewMode, setViewMode] = useState('gallery');
 
@@ -31,13 +32,20 @@ const DocsGallery = () => {
         );
       }
     };
-
     fetchDocsMetadata();
+  }, []);
 
+  useEffect(() => {
     if (query.tag) {
       setSelectedTag(decodeURIComponent(query.tag));
     } else {
       setSelectedTag('');
+    }
+    
+    if (query.author) {
+      setSelectedAuthor(decodeURIComponent(query.author));
+    } else {
+      setSelectedAuthor('');
     }
   }, [query]);
 
@@ -49,6 +57,7 @@ const DocsGallery = () => {
     setSelectedType(event.target.value);
   };
 
+
   const getUniqueTypes = () => {
     const allTypes = docsMetadata.map((doc) => doc.metadata.type);
     return Array.from(new Set(allTypes));
@@ -59,11 +68,13 @@ const DocsGallery = () => {
     const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
     const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
     const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
+    const authorMatch = selectedAuthor ? doc.metadata.authors.includes(selectedAuthor) : true;
 
     return (
       typeMatch &&
       typeUrl &&
       tagUrl &&
+      authorMatch &&
       (doc.metadata.title.toLowerCase().includes(searchValue) ||
         doc.metadata.description.toLowerCase().includes(searchValue))
     );
@@ -95,6 +106,15 @@ const DocsGallery = () => {
   const handleTagDeselection = () => {
     router.push('/docs');
   };
+
+  const handleAuthorDeselection = () => {
+    router.push('/docs');
+  };
+
+  const handleAuthorClick = (authorId) => {
+    router.push(`/authors/${authorId}`);
+  };
+  
 
   return (
     <div>
@@ -144,6 +164,26 @@ const DocsGallery = () => {
           <br />
         </div>
       )}
+      {selectedAuthor && (
+          <div>
+            <div className={styles.tagContainer}>
+              <span className={styles.tag} onClick={() => handleAuthorClick(selectedAuthor)}>
+                {selectedAuthor}
+              </span>
+              <button className={styles.closeButton} onClick={handleAuthorDeselection}>
+                <Image
+                  src="/images/icons/close.svg"
+                  alt="Close"
+                  width={30}
+                  height={30}
+                  className={styles.closeIcon}
+                />
+              </button>
+            </div>
+            <br />
+            <br />
+          </div>
+        )}
       {viewMode === 'list' ? (
         <ListView
           items={sortedDocs}
@@ -155,8 +195,9 @@ const DocsGallery = () => {
           <Cards
             items={sortedDocs}
             onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+            onAuthorClick={(authorId) => handleAuthorClick(authorId)}
             tagRoute="docs"
-          />
+              />
         </Gallery>
       )}
     </div>

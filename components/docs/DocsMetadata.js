@@ -3,9 +3,15 @@ import { format } from 'date-fns';
 import { fr } from 'date-fns/locale';
 import styles from '../../styles/DocsMetadata.module.css';
 import Authors from '../nav/Authors';
+import { useRouter } from 'next/router';
 
 const DocsMetadata = ({ metadata }) => {
   const { type, tags, date, authors } = metadata;
+  const router = useRouter();
+
+  const handleAuthorClick = (authorId) => {
+    router.push(`/authors/${authorId}`);
+  };
 
   const handleTagClick = (tag) => {
     const url = `/docs?tag=${encodeURIComponent(tag)}`;
@@ -47,7 +53,7 @@ const DocsMetadata = ({ metadata }) => {
       )}
       {authors && (
         <div className={styles.metadataRow}>
-          <Authors authorIds={authors} largeText={true} />
+          <Authors authorIds={authors} largeText={true} onAuthorClick={handleAuthorClick} />
         </div>
       )}
       <hr className={styles.separator} />

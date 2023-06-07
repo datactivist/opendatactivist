@@ -43,7 +43,7 @@ const Cards = ({
   showTags = true,
   showDate = true,
   showAuthors = true,
-  renderItem = (item) => (
+  renderItem = (item, onAuthorClick) => (
     <>
       <div>
         {item.metadata?.image && (
@@ -54,12 +54,12 @@ const Cards = ({
           />
         )}
       </div>
-      <h3 href={`/docs/${item.name}`}>
+      <h3 onClick={() => onAuthorClick(item.metadata?.authors[0])}>
         {item.metadata ? item.metadata.title : item.title}
       </h3>
       <p>{item.metadata ? item.metadata.description : item.description}</p>
       {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-      {showAuthors && item.metadata?.authors && <Authors authorIds={item.metadata.authors} />}
+      {showAuthors && item.metadata?.authors && <Authors authorIds={item.metadata.authors} onAuthorClick={onAuthorClick} />}
       {showDate && item.metadata?.date && (
         <div className={styles.date}>
           <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}
@@ -68,12 +68,18 @@ const Cards = ({
     </>
   ),
 }) => {
+  const router = useRouter();
+
   const handleClick = (item) => {
     if (item.url) {
       window.open(item.url, '_blank');
     } else {
       onClick(item.name);
     }
+  };
+
+  const handleAuthorClickInCard = (authorId) => {
+    router.push(`/docs?author=${encodeURIComponent(authorId)}`);
   };
 
   return (
@@ -84,7 +90,7 @@ const Cards = ({
           className={styles.card}
           onClick={() => handleClick(item)}
         >
-          {renderItem(item)}
+          {renderItem(item, handleAuthorClickInCard)}
         </div>
       ))}
     </>
