@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import JsonGallery from '../../../components/products/JsonGallery';
+import JsonGallery from '../../../components/data/JsonGallery';
 
 const JsonGalleryPage = () => {
   const router = useRouter();
