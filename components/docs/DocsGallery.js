@@ -115,7 +115,7 @@ const DocsGallery = () => {
   }, []);
 
   const handleCardClick = (docName) => {
-    router.push(`/docs/${docName}`);
+    router.push(`/docs/${docName}`, undefined, { shallow: true });
   };
 
   const handleTagDeselection = () => {
@@ -127,8 +127,8 @@ const DocsGallery = () => {
   };
 
   const handleAuthorClick = (authorId) => {
-    router.push(`/authors/${authorId}`);
-  };
+    router.replace(`/authors/${authorId}`);
+  };  
   
 
   return (
