@@ -390,6 +390,14 @@
       "description": "Base de données sur les produits alimentaires du monde entier",
       "url": "https://fr.openfoodfacts.org/",
       "tags": ["alimentation", "open data", "santé"]
+    },
+    {
+      "id": "data-spectrum",
+      "title": "The Data Spectrum",
+      "type": "schema",
+      "description": "Un schéma de l'Open Data Institute, pour comprendre le degré d'ouverture des données",
+      "url": "https://www.theodi.org/about-the-odi/the-data-spectrum/",
+      "tags": ["open data institute", "rgpd", "données personnelles", "licence"]
     }
   ]
 
