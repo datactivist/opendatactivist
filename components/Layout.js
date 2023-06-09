@@ -5,11 +5,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Layout.module.css';
 
-export default function Layout({ children }) {
-
-  const [showLayout] = useState(true);
-  const [appBarPosition, setAppBarPosition] = useState('fixed');
+const Layout = ({ children }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [appBarPosition, setAppBarPosition] = useState('sticky');
   const [lastScrollPos, setLastScrollPos] = useState(0); 
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +33,6 @@ export default function Layout({ children }) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollPos]);
-  
 
   return (
     <div>
@@ -38,24 +40,25 @@ export default function Layout({ children }) {
         <title>Open Datactivist</title>
         <meta
           name="description"
-          content="Un catalogue de méthodes avec recherche et filtrage"
+          content="Un catalogue de méthodes dédiées à l'open data"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {showLayout && (
-          <header className={`${styles.appBar} ${styles[appBarPosition]}`}>
-          <div className={styles.toolbar}>
-            <h3>
-              <a href="/" className={styles.title}>open </a>
-                <Image
-                  src="/images/footer/logo-datactivist.png"
-                  alt="Datactivist logo"
-                  width={220}
-                  height={220}
-                  priority
-                />
-            </h3>
-            <nav className={styles.navLinks}>
+      <header className={`${styles.appBar} ${styles[appBarPosition]}`}>
+        <div className={styles.toolbar}>
+          <button onClick={toggleMenu} className={styles.hamburgerButton}>☰</button>
+          <div className={styles.titleContainer}>
+            <a href="/" className={styles.title}>open </a>
+            <Image
+              src="/images/footer/logo-datactivist.png"
+              alt="Datactivist logo"
+              width={220}
+              height={220}
+              priority
+              className={styles.logo}
+            />
+          </div>
+          <nav className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
             <Link href="/" passHref>
               <span className={styles.link}>Accueil</span>
             </Link>
@@ -66,18 +69,19 @@ export default function Layout({ children }) {
               <span className={styles.link}>Docs</span>
             </Link>
           </nav>
-          </div>
-        </header>
-      )}
-      <div className={styles.layout}>
-      <div className={`container ${showLayout ? styles.container : ''}`}>
-        <div className={showLayout ? styles.box : ''}>
-          <main>{children}</main>
         </div>
-      </div>
-  
+      </header>
+
+      <main className={styles.layout}>
+        <div className={`container ${styles.container}`}>
+          <div className={styles.box}>
+            {children}
+          </div>
+        </div>
+      </main>
+
       <footer className={styles.footer}>
-        <div className={showLayout ? styles.footerBox : ''}>
+        <div className={styles.footerBox}>
           <a
             href="https://twitter.com/datactivi_st"
             target="_blank"
@@ -133,6 +137,7 @@ export default function Layout({ children }) {
         </div>
       </footer>
     </div>
-    </div>
   );  
 }
+
+export default Layout;

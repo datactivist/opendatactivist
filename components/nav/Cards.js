@@ -54,12 +54,17 @@ const Cards = ({
           />
         )}
       </div>
-      <h3 onClick={() => onAuthorClick(item.metadata?.authors[0])}>
+      <h3>
         {item.metadata ? item.metadata.title : item.title}
       </h3>
       <p>{item.metadata ? item.metadata.description : item.description}</p>
       {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-      {showAuthors && item.metadata?.authors && <Authors authorIds={item.metadata.authors} onAuthorClick={onAuthorClick} />}
+      {showAuthors && item.metadata?.authors && (
+        <Authors
+          authorIds={item.metadata.authors}
+          onAuthorClick={onAuthorClick}
+        />
+      )}
       {showDate && item.metadata?.date && (
         <div className={styles.date}>
           <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}

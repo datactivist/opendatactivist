@@ -3,19 +3,19 @@ import styles from '../../styles/Authors.module.css';
 
 const Authors = ({ authorIds, largeText = false, onAuthorClick = () => {} }) => {
   const [authorsData, setAuthorsData] = useState({});
-  const [isLoading, setIsLoading] = useState(true); // Ajouter ceci
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     fetch('/sitedata/authors.json')
       .then(response => response.json())
       .then(data => {
         setAuthorsData(data);
-        setIsLoading(false); 
+        setIsLoading(false);
       });
   }, []);
 
-  const handleAuthorClick = (e, id) => {
-    e.stopPropagation();
+  const handleAuthorClick = (event, id) => {
+    event.stopPropagation();
     onAuthorClick(id);
   };
 
@@ -38,7 +38,7 @@ const Authors = ({ authorIds, largeText = false, onAuthorClick = () => {} }) => 
               <div
                 key={id}
                 className={`${styles.authorName} ${largeText ? styles.authorNameLarge : ''}`}
-                onClick={(e) => handleAuthorClick(e, id)}
+                onClick={(event) => handleAuthorClick(event, id)}
               >
                 {author.name}
               </div>
