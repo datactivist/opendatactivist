@@ -8,6 +8,7 @@ import DatagouvDisplay from './DatagouvDisplay';
 import JsonGalleryDisplay from './JsonGalleryDisplay';
 import DocsMetadata from './DocsMetadata';
 import ProductDisplay from './ProductsDisplay';
+import Partners from '../nav/Partners';
 
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
@@ -219,7 +220,28 @@ const TitleWithBackground = ({ title, imageUrl }) => {
         <br />
         <div className={styles.markdownContent}>
           {createContentElements(content)}
-        </div>
+          </div>
+        {metadata.partners && (
+          <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            border: '10px solid #ededed',
+            borderRadius: '26px',
+            padding: '20px',
+            marginTop: '20px',
+          }}
+          >
+            <p>
+             <strong> Ce contenu a été défini et testé avec{' '}
+              {metadata.partners.length > 1 ? 'plusieurs partenaires :' : 'un partenaire :'}
+              </strong>  </p>
+            <br></br>
+            <Partners partnersIds={metadata.partners} />
+          </div>
+        )}
       </div>
     </Layout>
   );

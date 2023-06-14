@@ -7,7 +7,7 @@ tags:
   - cartographie de données
   - santé
   - travail
-index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+index: 1 
 date: 2019-06-01
 authors:
   - equipe-datactivist

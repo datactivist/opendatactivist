@@ -17,6 +17,22 @@
     object-fit: cover;
     margin-right: 5px;
   }
+
+  .partnerImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 8%;
+    object-fit: scale-down;
+    margin-right: 5px;
+  }
+
+  .partnerImageLarge {
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+    border-radius: 0%;
+    padding-top: 2rem;
+  }
   
   .authorName {
     border: none;
@@ -27,6 +43,23 @@
     cursor: pointer;
     outline: inherit;
     font-size: 14px;
+  }
+
+  .partnerName {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 18px;
+    margin-right: 2rem;
+  }
+
+  .partnerName:hover{
+    background-color: #e95459;
+    color: white;
   }
 
   .authorName:hover {
@@ -68,3 +101,26 @@
     border-left: 8px solid #e95459;
     padding-left: 20px;  
   }
+
+  .productBox {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .h1Gray {
+    color: #173541	;
+    font-size: 34px;
+    font-style: italic;
+  }
+  
+  .partnerBox {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .partnerBox:hover {
+    transform: scale(1.05);
+  }
+  

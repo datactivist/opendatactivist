@@ -134,6 +134,14 @@ const Layout = ({ children }) => {
               height={30}
             />
           </a>
+          <div>
+            <Link href="/partners">
+              <span className={styles.footerLink}>🤍 Partenaires</span>
+            </Link>
+            <Link href="/stats">
+              <span className={styles.footerLink}>📊 Stats</span>
+            </Link>
+          </div>
         </div>
       </footer>
     </div>

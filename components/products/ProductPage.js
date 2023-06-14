@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from '../../styles/ProductPage.module.css';
-import FilteredDocsDisplay from "../docs/FilteredDocsDisplay"; 
+import FilteredDocsDisplay from "../docs/FilteredDocsDisplay";
+import Partners from '../nav/Partners';
 
-const ProductPage = ({ nom, baseline, description, targets, liens, testimonials, docsList, imageUrl }) => {  
+const ProductPage = ({ nom, baseline, description, targets, liens, testimonials, docsList, imageUrl, partnersIds }) => { 
   return (
     <div className={styles.productBox}>
       <h1>{nom}</h1>
@@ -33,6 +34,12 @@ const ProductPage = ({ nom, baseline, description, targets, liens, testimonials,
           </div>
         ))}
       </div>
+      {partnersIds && partnersIds.length > 0 && (
+        <>
+          <h3>Nos partenaires :</h3>
+          <Partners partnersIds={partnersIds} />
+        </>
+      )}
       {docsList && docsList.length > 0 && (
         <>
           <h3>Contenus liés :</h3>

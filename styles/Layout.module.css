@@ -106,3 +106,15 @@
   }
 }
 
+.footerLink {
+  color: #333;
+  text-decoration: none;
+  margin-right: 40px;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}
+
+.footerLink:hover {
+  color: #e95459;
+}

@@ -12,6 +12,8 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2022-01-01
 authors:
   - guillaume-martin
+partners:
+  - metropole-bordeaux
 --- 
 
 > Ce travail de recensement a été réalisé par Datactivist

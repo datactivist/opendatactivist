@@ -12,6 +12,8 @@ index: 1
 date: 2019-09-18
 authors:
   - samuel-goeta
+partners:
+  - infolab-poitiers
 --- 
 
 # Présentation

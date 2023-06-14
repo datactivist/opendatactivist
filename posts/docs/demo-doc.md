@@ -9,9 +9,10 @@ tags:
   - fact checking
 index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
 date: 2023-05-10
-authors:
-  - equipe-datactivist
+authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / préférence, "equipe-datactivist"
   - prenom-nom
+partners: #le ou les partenaires ou clients, qui ont permis de créer ce contenu, ou avec qui il a été testé.
+  - partner-name
 --- 
 
 # Introduction

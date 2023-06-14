@@ -1,0 +1,47 @@
+{   
+    "bercy-hub": {
+      "name": "Bercy Hub",
+      "image": "/images/partners/mefr.jpeg",
+      "description":"Au sein du Ministère de l'Economie, des Finances et de la Relance, le Bercy Hub a pour objectif de faire de la donnée un actif stratégique et mettre en place la politique de la donnée ministérielle."
+    },
+    "metropole-lille": {
+      "name": "Métropole Européenne de Lille",
+      "image": "/images/partners/metropole-lille.jpeg",
+      "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
+    },
+    "ort-sud": {
+      "name": "Observatoire Régional des Transports - Région Sud",
+      "image": "/images/partners/region-sud.jpeg",
+      "description": "L'ORT collecte et diffuse des données et des rapports sur les transports de passagers et de marchandises, au service des acteurs de la région Sud"
+    },
+    "ministere-culture": {
+      "name": "Ministère de la Culture",
+      "image": "/images/partners/ministere-culture.jpeg",
+      "description": "Le Ministère de la Culture s'est engagé dans l'ouverture de ses données depuis 2016"
+    },
+    "banque-des-territoires": {
+      "name": "Banque des Territoires",
+      "image": "/images/partners/banque-des-territoires.jpeg",
+      "description": "La Banque des Territoires accompagne les acteurs territoriaux dans l'élaboration et le déploiement de leurs projets d'avenir."
+    },
+    "infolab-poitiers": {
+      "name": "Infolab du Grand Poitiers",
+      "image": "/images/partners/infolab.jpeg",
+      "description": "Porté par la communauté urbaine du Grands Poitiers, l'infolab est un programme d'animation territoriale autour de la donnée ouverte. Il s'appuie sur le portail open data de la collectivité."
+    },
+    "futurocite": {
+      "name": "Futurocité",
+      "image": "/images/partners/futurocite.jpeg",
+      "description": "FuturoCité, en Belgique propose une approche intégrée sur le thème des données territoriales pour le secteur public, allant de la sensibilisation des acteurs clés à la valorisation des données grâce à la mise en œuvre de politiques de données publiques telles que l'Open Data."
+    },
+    "dreal-grand-est": {
+      "name": "DREAL Grand Est",
+      "image": "/images/partners/prefet-grand-est.jpeg",
+      "description": "La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français."
+    },
+    "metropole-bordeaux": {
+      "name": "Bordeaux Métropole",
+      "image": "/images/partners/metropole-bordeaux.jpeg",
+      "description": "La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010."
+    }
+}

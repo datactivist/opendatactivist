@@ -11,6 +11,8 @@ index: 1
 date: 2021-01-12
 authors:
   - sylvain-lapoix
+partners:
+  - futurocite
 --- 
 
 ## Présentation
