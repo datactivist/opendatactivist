@@ -11,6 +11,8 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2021-10-01
 authors:
   - equipe-datactivist
+partners:
+  - banque-des-territoires
 --- 
 
 > Datactivist a réalisé ce rencensement pour la Banque des Territoires en 2020.

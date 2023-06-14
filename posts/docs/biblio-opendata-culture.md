@@ -11,6 +11,8 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2023-04-10
 authors:
   - anne-laure-donzel
+partners:
+  - ministere-culture
 --- 
 
 > Datactivist vous propose une curation de ressources, outils, guides dédiés à la culture, aux archives et à l'open data

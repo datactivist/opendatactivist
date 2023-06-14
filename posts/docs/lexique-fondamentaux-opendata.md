@@ -12,6 +12,8 @@ date: 2023-04-11
 authors:
   - clement-mandron
   - maelle-fouquenet
+partners:
+  - bercy-hub
 --- 
 
 # Présentation
@@ -32,7 +34,7 @@ authors:
 
 ### DCP - Données à caractère personnel :
 
-“Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.” 
+“Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.”
 
 %%Links:cnil-donnee-personnelle%%
 

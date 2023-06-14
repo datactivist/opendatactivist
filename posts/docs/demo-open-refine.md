@@ -10,7 +10,9 @@ tags:
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
 date: 2022-01-01
 authors:
-  - equipe-datactivist
+  - anne-laure-donzel
+partners:
+  - ministere-culture
 ---
 
 > Ce guide a été produit par Datactivist, pour le Ministère de la Culture. L'outil Open Refine est un outil qui permet de nettoyer et préparer des données, par exemple pour réaliser une visualisation.

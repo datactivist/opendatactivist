@@ -7,7 +7,7 @@ tags:
   - strategie
   - audit
   - portail
-index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+index: 1
 date: 2019-04-03
 authors:
   - etienne-pichot-damon

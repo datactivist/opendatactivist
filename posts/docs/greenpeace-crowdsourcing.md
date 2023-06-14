@@ -9,7 +9,7 @@ tags:
   - cantines
   - médias
   - activisme
-index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+index: 1
 date: 2017-07-01
 authors: 
   - samuel-goeta

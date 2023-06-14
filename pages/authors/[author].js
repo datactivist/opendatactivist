@@ -48,7 +48,8 @@ const AuthorPage = () => {
 
   return (
     <Layout>
-      <br />
+          <h1 className={styles.h1Gray}>...Notre équipe</h1>
+          <div className={styles.productBox}>
       <div className={styles.authorContainer}>
         <div className={styles.authorHeader}>
           <img src={authorData.image} alt={authorData.name} className={styles.authorImageLarge} />
@@ -64,6 +65,7 @@ const AuthorPage = () => {
         <Gallery>
           <Cards items={authorDocs} onClick={(linkId) => router.push(`/docs/${linkId}`)} tagRoute="docs" showDate={false} showAuthors={false} />
         </Gallery>
+      </div>
       </div>
     </Layout>
   );

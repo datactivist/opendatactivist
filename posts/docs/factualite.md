@@ -10,6 +10,8 @@ tags:
 date: 2019-11-28
 authors:
   - sylvain-lapoix
+partners: 
+  - infolab-poitiers
 --- 
 
 # Résumé de la formation
