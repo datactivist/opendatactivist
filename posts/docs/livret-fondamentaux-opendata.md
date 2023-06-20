@@ -1,7 +1,7 @@
 ---
 title: Livret - Les fondamentaux de l'open data
 image: /images/docs/fondamentaux-od.jpeg
-description: Un livret à compléter par les participants, lors d'une fresque des données ouvertes
+description: Un livret à compléter par les participant•e•s, lors d'une fresque des données ouvertes
 type: Atelier
 tags:
   - atelier

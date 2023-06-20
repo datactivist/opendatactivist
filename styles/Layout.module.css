@@ -113,8 +113,11 @@
   cursor: pointer;
   justify-content: center;
   display: flex;
+  font-weight: 500;
 }
 
 .footerLink:hover {
-  color: #e95459;
+  color: #ffffff;
+  background-color: #e95459;
+  font-weight: bold;
 }
