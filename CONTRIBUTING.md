@@ -197,7 +197,7 @@ Exemple : ```5de8f397634f4164071119c5```
 >Veillez à supprimer les champs qui comportent des textes trop longs ou qui ne sont pas adaptés pour un affichage en lecture (exemple : les coordonnées géographiques)
 
 >**Warning**
->Les performances ne sont pas optimales le CSV comporte plusieurs millers d'enregistrements
+>Les performances ne sont pas optimales si le CSV comporte plusieurs millers d'enregistrements
 
 4.2 - Intégrez la gallerie dans votre doc
 ```markdown
