@@ -135,8 +135,12 @@ const Layout = ({ children }) => {
             />
           </a>
           <div>
+            <hr></hr>
             <Link href="/partners">
               <span className={styles.footerLink}>🤍 Partenaires</span>
+            </Link>
+            <Link href="/links">
+              <span className={styles.footerLink}>🔗 Ressources externes</span>
             </Link>
             <Link href="/stats">
               <span className={styles.footerLink}>📊 Stats</span>
