@@ -15,7 +15,7 @@ export default function Produit() {
     <br></br>
     Les équipes sont challengées par les animateurs, pour faire avancer les échanges et aboutir à la fresque.`,
     imageUrl: '/images/products/fresque-opendata.webp',
-    targets: ['👩‍🏫 Novices', '🧑🏻‍💻 Agents publics qui manipulent déjà des données', '🧑‍💼 Personnes en charge d‘une stratégie data'],
+    targets: ['👩‍🏫 Novices en matière de données, y compris les personnes n‘en manipulant pas', '🧑🏻‍💻 Agents publics qui manipulent déjà des données', '🧑‍💼 Personnes en charge d‘une stratégie data'],
     partnersIds: ['bercy-hub'],
     testimonials: [
       {text: "J’ai été très impressionné par ce qu’on fait, on a su travailler en intelligence collective et on a construit ensemble quelque chose de logique.", author: "Participant - BercyHub"},
