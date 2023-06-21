@@ -23,7 +23,7 @@ export default function Home() {
           <div className={styles.card}>
             <h3>Nos contenus ouverts &rarr;</h3>
             <p>
-              Des contenus en accès libre, pour se former sur la donnée, comprendre les enjeux de l‘open data, et s‘inspirer de cas pratiques.
+              Des contenus en accès libre, pour se former à la donnée, comprendre les enjeux de l‘open data, et s‘inspirer de cas pratiques.
             </p>
             <a href="/docs" className={styles.viewButton}>
               Voir les contenus
