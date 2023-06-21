@@ -10,7 +10,8 @@ tags:
 index: 1
 date: 2022-06-01
 authors:
-  - equipe-datactivist
+  - guillaume-martin
+  - maelle-fouquenet
 partners:
   - civiteo
   - gens-evenement
