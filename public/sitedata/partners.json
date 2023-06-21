@@ -43,5 +43,15 @@
       "name": "Bordeaux Métropole",
       "image": "/images/partners/metropole-bordeaux.jpeg",
       "description": "La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010."
+    },
+    "civiteo": {
+      "name": "CIVITEO",
+      "image": "/images/partners/civiteo.jpeg",
+      "description": "CIVITEO est une société de conseil créée par Jacques Priol, qui développe une expertise autour du sujet stratégique de « la place de la donnée dans la décision publique ». CIVITEO est un partenaire de Datactivist, au sein de l'alliance Data Publica"
+    },
+    "gens-evenement": {
+      "name": "Gens d'évènements",
+      "image": "/images/partners/gens-evenement.jpeg",
+      "description": "Gens d’Événement est une agence conseil en communication événementielle basée à Paris et à Nantes."
     }
 }
