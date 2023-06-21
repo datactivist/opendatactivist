@@ -1,5 +1,5 @@
 ---
-title: Lexique - Les fondamentaux de l'open data
+title: Lexique  - L'open data, pour quoi faire ?
 image: /images/docs/lexique-fondamentaux-od.jpeg
 description: L'essentiel du vocabulaire de l'open data.
 type: Lexique
