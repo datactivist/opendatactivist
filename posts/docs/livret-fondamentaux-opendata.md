@@ -14,6 +14,8 @@ date: 2023-04-11
 authors:
   - clement-mandron
   - maelle-fouquenet
+  - magalie-dartus
+  - samuel-goeta
 partners:
   - bercy-hub
 --- 

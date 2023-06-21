@@ -49,14 +49,16 @@ const Layout = ({ children }) => {
           <button onClick={toggleMenu} className={styles.hamburgerButton}>☰</button>
           <div className={styles.titleContainer}>
             <a href="/" className={styles.title}>open </a>
-            <Image
-              src="/images/footer/logo-datactivist.png"
-              alt="Datactivist logo"
-              width={220}
-              height={220}
-              priority
-              className={styles.logo}
-            />
+            <Link href="/" passHref>
+              <Image
+                src="/images/footer/logo-datactivist.png"
+                alt="Datactivist logo"
+                width={220}
+                height={220}
+                priority
+                className={styles.logo}
+              />
+            </Link>
           </div>
           <nav className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
             <Link href="/" passHref>

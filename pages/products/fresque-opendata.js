@@ -18,12 +18,12 @@ export default function Produit() {
     targets: ['👩‍🏫 Novices en matière de données, y compris les personnes n‘en manipulant pas', '🧑🏻‍💻 Agents publics qui manipulent déjà des données', '🧑‍💼 Personnes en charge d‘une stratégie data'],
     partnersIds: ['bercy-hub'],
     testimonials: [
-      {text: "J’ai été très impressionné par ce qu’on fait, on a su travailler en intelligence collective et on a construit ensemble quelque chose de logique.", author: "Participant - BercyHub"},
-      {text: "C’était ludique. On a fait ensemble et on retient.", author: "Participant - BercyHub"},
-      {text: "J’ai beaucoup aimé, c’était très ludique, pas du tout descendant. Et puis on a appris sans s’en rendre vraiment compte, on était proactif.", author: "Participant - BercyHub"},
-      {text: "C’est vraiment bien, on voit l’ensemble du process et pas juste les résultats de l’open data, ça permet de bien clarifier.", author: "Participant - BercyHub"},
-      {text: "Avant l’atelier, j’avais un peu peur de venir parce que je n’y connais rien en data. En fait c’est vraiment accessible", author: "Participant - BercyHub"},
-      {text: "C’est très créatif et collectif. On échange beaucoup entre nous.", author: "Participant - BercyHub"}
+      {text: "J’ai été très impressionné par ce qu’on fait, on a su travailler en intelligence collective et on a construit ensemble quelque chose de logique.", author: "Participant•e - BercyHub"},
+      {text: "C’était ludique. On a fait ensemble et on retient.", author: "Participant•e - BercyHub"},
+      {text: "J’ai beaucoup aimé, c’était très ludique, pas du tout descendant. Et puis on a appris sans s’en rendre vraiment compte, on était proactif.", author: "Participant•e - BercyHub"},
+      {text: "C’est vraiment bien, on voit l’ensemble du process et pas juste les résultats de l’open data, ça permet de bien clarifier.", author: "Participant•e - BercyHub"},
+      {text: "Avant l’atelier, j’avais un peu peur de venir parce que je n’y connais rien en data. En fait c’est vraiment accessible", author: "Participant•e - BercyHub"},
+      {text: "C’est très créatif et collectif. On échange beaucoup entre nous.", author: "Participant•e - BercyHub"}
 
     ],
     liens: [
