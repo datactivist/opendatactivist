@@ -1,5 +1,5 @@
 ---
-title: En images - L'exposition souriez vous-êtes captés
+title: En images - L'exposition "Souriez, vous-êtes captés"
 image: /images/docs/expo-smartcity.jpeg
 description: Une exposition qui décrypte la smart city
 type: Gallerie d'images
@@ -17,3 +17,7 @@ partners:
 --- 
 
 %%Images:expo%%
+
+# En savoir plus sur l'exposition
+
+%%Products:expo-smartcity%%
