@@ -5,7 +5,7 @@ export default function Produit() {
   const produit = {
     docsList: ['expo-smartcity-images'],
 
-    nom: 'Exposition - Souriez, vous-êtes captés',
+    nom: 'Exposition - Souriez, vous êtes captés',
     baseline: 'Une exposition qui décrypte la smart city',
     description: `
     <h3>Plongez au cœur des rues connectées ! </h3>
