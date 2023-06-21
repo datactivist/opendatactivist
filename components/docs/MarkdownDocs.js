@@ -9,6 +9,7 @@ import JsonGalleryDisplay from './JsonGalleryDisplay';
 import DocsMetadata from './DocsMetadata';
 import ProductDisplay from './ProductsDisplay';
 import Partners from '../nav/Partners';
+import ImageGallery from './ImageGallery';
 
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
@@ -18,7 +19,7 @@ const MarkdownDocs = ({ filename }) => {
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
-      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%)/,
+      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%|%%Images:[^%]*%%)/,
     );
     return contentParts.map((part, index) => {
       const matchDocs = part.match(/%%Docs:([^%]*)%%/);
@@ -65,24 +66,35 @@ const MarkdownDocs = ({ filename }) => {
                 />
               );
             } else {
-              const matchProducts = part.match(/%%Products:([^%]*)%%/);
-              if (matchProducts) {
-                const productIds = matchProducts[1]
-                  .split(',')
-                  .map((id) => id.trim());
+              const matchImages = part.match(/%%Images:([^%]*)%%/);
+              if (matchImages) {
+                const galleryName = matchImages[1].trim();
                 return (
-                  <ProductDisplay
-                    key={`product-display-${index}`}
-                    ids={productIds}
+                  <ImageGallery
+                    key={`image-gallery-${index}`}
+                    galleryName={galleryName}
                   />
                 );
               } else {
-                return (
-                  <div
-                    key={`markdown-part-${index}`}
-                    dangerouslySetInnerHTML={{ __html: part }}
-                  />
-                );
+                const matchProducts = part.match(/%%Products:([^%]*)%%/);
+                if (matchProducts) {
+                  const productIds = matchProducts[1]
+                    .split(',')
+                    .map((id) => id.trim());
+                  return (
+                    <ProductDisplay
+                      key={`product-display-${index}`}
+                      ids={productIds}
+                    />
+                  );
+                } else {
+                  return (
+                    <div
+                      key={`markdown-part-${index}`}
+                      dangerouslySetInnerHTML={{ __html: part }}
+                    />
+                  );
+                }
               }
             }
           }
