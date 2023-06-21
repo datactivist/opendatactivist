@@ -10,6 +10,13 @@ const ProductPage = ({ nom, baseline, description, targets, liens, testimonials,
       <p className={styles.baseline}>{baseline}</p>
       <br />
       <img src={imageUrl} alt={nom} className={styles.productImage} />
+      {partnersIds && partnersIds.length > 0 && (
+        <>
+          <h3>Nos partenaires :</h3>
+          <Partners partnersIds={partnersIds} />
+          <br></br>
+        </>
+      )}
       <div className={styles.description} dangerouslySetInnerHTML={{ __html: description }} />
       <br />
       <div>
@@ -34,12 +41,6 @@ const ProductPage = ({ nom, baseline, description, targets, liens, testimonials,
           </div>
         ))}
       </div>
-      {partnersIds && partnersIds.length > 0 && (
-        <>
-          <h3>Nos partenaires :</h3>
-          <Partners partnersIds={partnersIds} />
-        </>
-      )}
       {docsList && docsList.length > 0 && (
         <>
           <h3>Contenus liés :</h3>
