@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 
 export default function Produit() {
   const produit = {
-    docsList: ['livret-fondamentaux-opendata','cartes-fresque-opendata'],
+    docsList: ['livret-fondamentaux-opendata','cartes-fresque-opendata','lexique-opendata'],
 
     nom: 'Fresque des données ouvertes',
     baseline: 'Sensibilisez tous les publics à l‘ouverture des données',
