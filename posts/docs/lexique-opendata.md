@@ -255,4 +255,4 @@ La Loi pour une République Numérique impose un principe d’ouverture des donn
 
 # Lecture complémentaire
 
-%%Docs:livret-fondamentaux-opendata%%
+%%Docs:livret-fondamentaux-opendata,fresque-opendata%%
