@@ -65,4 +65,4 @@ partners:
 
 # Guides complémentaires
 
-%%Docs:lexique-opendata,ameliorer-qualite-documentation%%
+%%Docs:lexique-opendata,fresque-opendata,ameliorer-qualite-documentation%%
