@@ -61,14 +61,11 @@ const Layout = ({ children }) => {
             </Link>
           </div>
           <nav className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
-            <Link href="/" passHref>
-              <span className={styles.link}>Accueil</span>
-            </Link>
             <Link href="/products" passHref>
-              <span className={styles.link}>Nos outils</span>
+              <span className={styles.link}>Outils / produits</span>
             </Link>
             <Link href="/docs" passHref>
-              <span className={styles.link}>Docs</span>
+              <span className={styles.link}>Contenus ouverts</span>
             </Link>
           </nav>
         </div>
