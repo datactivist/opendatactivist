@@ -42,6 +42,12 @@ const DocsGallery = () => {
     } else {
       setSelectedTag('');
     }
+
+    if (query.type) {
+      setSelectedType(decodeURIComponent(query.type));
+    } else {
+      setSelectedType('');
+    }
     
     if (query.author) {
       setSelectedAuthor(decodeURIComponent(query.author));
@@ -56,8 +62,13 @@ const DocsGallery = () => {
 
   const handleTypeFilter = (event) => {
     setSelectedType(event.target.value);
+    let newUrl = `/docs?type=${encodeURIComponent(event.target.value)}`;
+    if (query.tag) {
+      newUrl += `&tag=${encodeURIComponent(query.tag)}`;
+    }
+    router.push(newUrl, undefined, { shallow: true });
   };
-
+  
 
   const getUniqueTypes = () => {
     const allTypes = docsMetadata.map((doc) => doc.metadata.type);

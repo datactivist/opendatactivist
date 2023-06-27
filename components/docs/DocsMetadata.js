@@ -18,6 +18,11 @@ const DocsMetadata = ({ metadata }) => {
     window.open(url, '_blank');
   };
 
+  const handleTypeClick = (type) => {
+    const url = `/docs?type=${encodeURIComponent(type)}`;
+    window.open(url, '_blank');
+  };
+
   const formatDate = (dateString) => {
     const dateObj = new Date(dateString);
     return format(dateObj, 'd MMMM yyyy', { locale: fr });
@@ -33,10 +38,15 @@ const DocsMetadata = ({ metadata }) => {
         )}
         {date && type && <>&nbsp; &nbsp;|&nbsp; &nbsp;</>}
         {type && (
-          <p>
+        <p>
+          <button
+            className={styles.typeButton}
+            onClick={() => handleTypeClick(type)}
+          >
             📕 {type}
-          </p>
-        )}
+          </button>
+        </p>
+      )}
       </div>
       {tags && (
         <div className={styles.metadataRow}>

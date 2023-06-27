@@ -45,4 +45,22 @@
     background-color: #e95459;
     border-style: none;
   }
+
+  .typeButton {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat, sans serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #1c4b65;
+  }
+
+  .typeButton:hover {
+    color:#e95459 ;
+    cursor: pointer;
+  }
   
