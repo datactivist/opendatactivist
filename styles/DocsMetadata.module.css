@@ -63,4 +63,10 @@
     color:#e95459 ;
     cursor: pointer;
   }
+
+  .authorsContainer {
+  display: flex;
+  justify-content: center;
+}
+
   

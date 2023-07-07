@@ -63,7 +63,12 @@ const DocsMetadata = ({ metadata }) => {
       )}
       {authors && (
         <div className={styles.metadataRow}>
-          <Authors authorIds={authors} largeText={true} onAuthorClick={handleAuthorClick} />
+        <Authors
+          authorIds={authors}
+          largeText={true}
+          onAuthorClick={handleAuthorClick}
+          onlyDatactivist={false}
+        />
         </div>
       )}
       <hr className={styles.separator} />

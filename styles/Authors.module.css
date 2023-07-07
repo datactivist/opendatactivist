@@ -124,3 +124,44 @@
     transform: scale(1.05);
   }
   
+  .partnerLogo {
+    width: 150px;
+    object-fit: contain;
+    margin-left: 0rem;
+  }
+  
+  .contributorImage {
+    max-width: 50px;
+    height: auto;
+  }
+
+  .contributorsContainer {
+    grid-area: contributors;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .contributor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .contributor p {
+    transition: background-color 0.1s;
+    margin-left: 1em;
+  }
+  
+  .contributor:hover p {
+    background-color: #e95459;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .galleryContainer {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/Authors.module.css';
 
-const Authors = ({ authorIds, largeText = false, onAuthorClick = () => {} }) => {
+const Authors = ({ authorIds, largeText = false,   onlyDatactivist = false,  onAuthorClick = () => {} }) => {
   const [authorsData, setAuthorsData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
@@ -27,7 +27,7 @@ const Authors = ({ authorIds, largeText = false, onAuthorClick = () => {} }) => 
     <div className={styles.authorsContainer}>
       {authorIds.map((id) => {
         const author = authorsData[id];
-        if (author) {
+        if (author && (!onlyDatactivist || author.organisation === 'datactivist')) {
           return (
             <div key={id} className={styles.author}>
               <img

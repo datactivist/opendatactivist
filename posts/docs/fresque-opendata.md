@@ -14,6 +14,8 @@ authors:
   - maelle-fouquenet
   - magalie-dartus
   - samuel-goeta
+  - guillaume-coldre
+  - natacha-roger
 partners:
   - bercy-hub
 --- 

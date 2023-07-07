@@ -18,9 +18,7 @@ const Partners = ({ partnersIds, largeText = false }) => {
       });
   }, []);
 
-  // Définir une fonction pour gérer le clic sur un partenaire
   const handlePartnerClick = (id) => {
-    // Navigate to the partner page
     router.push(`/partners/${id}`);
   };
 
