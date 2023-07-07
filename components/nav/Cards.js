@@ -61,9 +61,10 @@ const Cards = ({
       {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
       {showAuthors && item.metadata?.authors && (
         <Authors
-          authorIds={item.metadata.authors}
-          onAuthorClick={onAuthorClick}
-        />
+        authorIds={item.metadata.authors}
+        onAuthorClick={onAuthorClick}
+        onlyDatactivist={true}
+      />
       )}
       {showDate && item.metadata?.date && (
         <div className={styles.date}>
