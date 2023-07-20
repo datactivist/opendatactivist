@@ -21,7 +21,15 @@
       "description": "Une exposition qui décrypte la smart city",
       "image": "images/products/expo-smartcity-product.jpeg",
       "public_date": "2023-06-01",
-      "topics": ["Atelier", "Animation", "Formation"]
+      "topics": ["Exposition", "Animation", "Evenement"]
+    },
+    {
+      "name": "teamopendata",
+      "title": "#TeamOpenData",
+      "description": "Rejoignez la communauté francophone de l‘open data",
+      "image": "images/products/tod.png",
+      "public_date": "2016-02-01",
+      "topics": ["Forum", "Communauté", "Echange"]
     }
   ]
   
