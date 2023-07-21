@@ -15,6 +15,7 @@ export default function Produit() {
       {text: "Dataposition nous a fait gagner beaucoup de temps pour organiser les équipe !", author: "Organisateur d'un hackathon"}
     ],
     liens: [
+        {url: '/apps/quizz/dataposition', texte: '🎯 Testez le questionnaire en accès libre'},
         {url: 'https://github.com/datactivist/fast-dataposition', texte: '🔎 Accéder au dépôt Github'},
         {url: 'mailto:hello@datactivist.coop', texte: '✉️ Nous contacter pour en savoir plus'},
       ]
