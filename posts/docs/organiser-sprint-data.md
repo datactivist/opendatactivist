@@ -65,6 +65,9 @@ C'est un format de co-création, associant sur un temps court des profils et des
 %%Links:datasheets-tod,dataproofer%%
 
 - Conseil 3 : cibler les participants
+
+%%Products:dataposition%%
+
 - Conseil 4 : mettre en place des espaces de discussion et de documentation
 
 %%Links:tod,framateam%%
