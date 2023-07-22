@@ -45,31 +45,49 @@ const Cards = ({
   showAuthors = true,
   renderItem = (item, onAuthorClick) => (
     <>
+    {item.type === 'tod' ? (
       <div>
-        {item.metadata?.image && (
-          <img
-            src={item.metadata.image}
-            alt={item.metadata.title}
-            className={styles['card-image']}
-          />
-        )}
-      </div>
-      <h3>
-        {item.metadata ? item.metadata.title : item.title}
-      </h3>
-      <p>{item.metadata ? item.metadata.description : item.description}</p>
-      {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-      {showAuthors && item.metadata?.authors && (
-        <Authors
-        authorIds={item.metadata.authors}
-        onAuthorClick={onAuthorClick}
-        onlyDatactivist={true}
-      />
-      )}
-      {showDate && item.metadata?.date && (
-        <div className={styles.date}>
-          <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}
+        <div className={styles['title-container']}>
+          <h3>
+            💬 {item.title}
+          </h3>
+          <button 
+            onClick={() => window.open(item.url, '_blank')} 
+            className={styles['forum-button']}
+          >
+            Rejoindre la discussion
+          </button>
         </div>
+      </div>
+    ) : (
+        <>
+          <div>
+            {item.metadata?.image && (
+              <img
+                src={item.metadata.image}
+                alt={item.metadata.title}
+                className={styles['card-image']}
+              />
+            )}
+          </div>
+          <h3>
+            {item.metadata ? item.metadata.title : item.title}
+          </h3>
+          <p>{item.metadata ? item.metadata.description : item.description}</p>
+          {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
+          {showAuthors && item.metadata?.authors && (
+            <Authors
+            authorIds={item.metadata.authors}
+            onAuthorClick={onAuthorClick}
+            onlyDatactivist={true}
+          />
+          )}
+          {showDate && item.metadata?.date && (
+            <div className={styles.date}>
+              <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}
+            </div>
+          )}
+        </>
       )}
     </>
   ),
