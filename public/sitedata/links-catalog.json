@@ -398,6 +398,38 @@
       "description": "Un schéma de l'Open Data Institute, pour comprendre le degré d'ouverture des données",
       "url": "https://www.theodi.org/about-the-odi/the-data-spectrum/",
       "tags": ["open data institute", "rgpd", "données personnelles", "licence"]
+    },
+    {
+      "id": "208",
+      "title": "Open Data et Content dans le domaine culturel",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/open-data-et-content-dans-le-domaine-culturel/208",
+      "tags": ["culture"]
+    },
+    {
+      "id": "747",
+      "title": "Les données ouvertes au musée",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/les-donnees-ouvertes-au-musee/747",
+      "tags": ["culture", "musée"]
+    },
+    {
+      "id": "2469",
+      "title": "Médiation scientifique autour de la donnée",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/mediation-scientifique-autour-de-la-donnee/2469",
+      "tags": ["mediation", "exposition"]
+    },
+    {
+      "id": "1448",
+      "title": "Des analytics à l’impact, pourquoi évaluer une politique open data ?",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/des-analytics-a-l-impact-pourquoi-evaluer-une-politique-open-data/1448",
+      "tags": ["évaluation", "portail","stratégie"]
     }
   ]
 

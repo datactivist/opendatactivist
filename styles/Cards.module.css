@@ -64,3 +64,41 @@
   align-items: center;
   justify-content: center;
 }
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.forum-button {
+  background-color: #173541; 
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 10px 24px;
+  text-decoration: none;
+  order: 3;
+  width: 100%;
+  border-radius: 6px; 
+}
+
+
+.forum-button:hover {
+  background-color: #e95459; 
+  color: white; 
+}
+
+@media (min-width: 600px) { 
+  .forum-button {
+    order: 2; 
+    width: auto; 
+  }
+}
+

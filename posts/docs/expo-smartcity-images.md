@@ -22,3 +22,7 @@ partners:
 # En savoir plus sur l'exposition
 
 %%Products:expo-smartcity%%
+
+# On en discute sur #TeamOpenData
+
+%%Links:2469%%

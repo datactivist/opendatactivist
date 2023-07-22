@@ -121,3 +121,7 @@ Et dernier exemple d’opportunité : lorsqu’une donnée est en ligne, il n’
 <br></br>
 
 Et pour rendre la démarche plus efficiente, il ne suffit pas de solliciter et d’espérer des réutilisations, il faut aussi savoir profiter pleinement de tout ce que l’open data peut apporter pour l’organisation elle-même : éviter des développements, réduire des pertes de temps et les coûts, et surtout : transformer les politiques publiques.
+
+# On en discute sur #TeamOpenData
+
+%%Links:1448%%

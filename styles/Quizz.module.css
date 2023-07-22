@@ -63,3 +63,7 @@
     color: rgb(97, 97, 97);
   }
   
+  .chart-container {
+    width: 90%; /* Adjust this to control the width of the chart */
+    height: 70%; /* Adjust this to control the height of the chart */
+  }
