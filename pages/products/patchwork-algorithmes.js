@@ -5,6 +5,7 @@ export default function Produit() {
   const produit = {
     nom: 'Patchwork Algorithmes',
     baseline: 'Un parcours d‘accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics',
+    partnersIds: ['metropole-lille'],
     imageUrl: '/images/products/patchwork-algorithmes.png',
     description: `Le patchwork algorithmes est un ensemble de <b>ressources, d'outils et de documentations</b> regroupés pour vous aider à construire et publier votre registre des algorithmes publics.
     <h3>5 étapes pour ouvrir et rendre compte des algorithmes publics</h3>

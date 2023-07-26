@@ -47,7 +47,8 @@
       "description": "Un parcours d'accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics",
       "image": "images/products/patchwork-algorithmes.png",
       "public_date": "2022-01-01",
-      "topics": ["Algorithmes", "Méthode"]
+      "topics": ["Algorithmes", "Méthode"],
+      "partners": ["metropole-lille"]
     },
     {
       "name": "patchwork-opendata",
