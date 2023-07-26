@@ -47,7 +47,7 @@ Les données existent sur un spectre ; **le spectre va de fermé à partagé à 
 
 </br>
 
-🔎 Vous pouvez aussi téléchargez les [ressources complémentaires sur le site de l'Open Data Institute](https://www.theodi.org/about-the-odi/the-data-spectrum/)
+🔎 Vous pouvez aussi télécharger les [ressources complémentaires sur le site de l'Open Data Institute](https://www.theodi.org/about-the-odi/the-data-spectrum/)
 
 </br>
 </br>

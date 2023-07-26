@@ -4,9 +4,9 @@ image: /images/products/screen-conciergerie.png
 description: Comment permettre aux utilisateurs de portails open data de trouver plus facilement des jeux de données ?
 type: Bibliographie
 tags:
-  - qualité
-  - documentation
-  - format
+  - IA
+  - découvrabilité
+  - portail
 index: 1
 date: 2021-11-11
 authors:

@@ -4,11 +4,6 @@
       "image": "/images/partners/mefr.jpeg",
       "description":"Au sein du Ministère de l'Economie, des Finances et de la Relance, le Bercy Hub a pour objectif de faire de la donnée un actif stratégique et mettre en place la politique de la donnée ministérielle."
     },
-    "metropole-lille": {
-      "name": "Métropole Européenne de Lille",
-      "image": "/images/partners/metropole-lille.jpeg",
-      "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
-    },
     "region-sud": {
       "name": "Région Sud",
       "image": "/images/partners/region-sud.jpeg",
@@ -53,5 +48,25 @@
       "name": "Gens d'évènements",
       "image": "/images/partners/gens-evenement.jpeg",
       "description": "Gens d’Événement est une agence conseil en communication événementielle basée à Paris et à Nantes."
+    },
+    "anct": {
+      "name": "Agence Nationale de la Cohésion des Territoires",
+      "image": "/images/partners/anct.svg",
+      "description": "L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales."
+    },
+    "sciencespo-sgl": {
+      "name": "Sciences Po Saint-Gremain-en-Laye",
+      "image": "/images/partners/sciencespo-sgl.png",
+      "description": "Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT"
+    },
+    "urfist-occitanie": {
+      "name": "URFIST Occitanie",
+      "image": "/images/partners/urfist-occitanie.png",
+      "description": "L'URFIST Occitanie est un organisme de formation et de recherche, membre du Réseau URFIST composé de 7 unités en France, créé en 1982."
+    },
+    "metropole-lille": {
+      "name": "Métropole Européenne de Lille",
+      "image": "/images/partners/metropole-lille.jpeg",
+      "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
     }
 }
