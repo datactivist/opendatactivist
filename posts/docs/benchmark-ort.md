@@ -11,7 +11,7 @@ date: 2020-09-01
 authors: 
   - etienne-pichot-damon
 partners:
-  - ort-sud
+  - region-sud
 --- 
 
 # Liste des ressources

@@ -64,6 +64,20 @@
   }
   
   .chart-container {
-    width: 90%; /* Adjust this to control the width of the chart */
-    height: 70%; /* Adjust this to control the height of the chart */
+    width: 90%; 
+    height: 70%; 
   }
+
+  .progressBar {
+    width: 100%;
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #e95459;
+  }
+  
