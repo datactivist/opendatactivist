@@ -37,9 +37,35 @@
       "title": "Conciergerie de données",
       "description": "Améliorez la découvrabilité de vos données ouvertes",
       "image": "images/products/conciergerie.png",
-      "public_date": "2016-02-01",
+      "public_date": "2020-01-01",
       "topics": ["Découvrabilité", "Outil", "Chatbot"],
       "partners": "region-sud"
+    },
+    {
+      "name": "patchwork-algorithmes",
+      "title": "Patchwork Algorithmes",
+      "description": "Un parcours d'accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics",
+      "image": "images/products/patchwork-algorithmes.png",
+      "public_date": "2022-01-01",
+      "topics": ["Algorithmes", "Méthode"]
+    },
+    {
+      "name": "patchwork-opendata",
+      "title": "Patchwork Open Data",
+      "description": "Un parcours d'accompagnement de bout-en-bout pour se lancer dans l'open data",
+      "image": "images/products/patchwork-opendata.jpeg",
+      "public_date": "2020-01-01",
+      "topics": ["Collectivités", "Méthode"],
+      "partners": ["anct", "sciencespo-sgl"]
+    },
+    {
+      "name": "patchwork-pgd",
+      "title": "Patchwork PGD",
+      "description": "Un parcours d'accompagnement de bout-en-bout pour construire son plan de gestion des données",
+      "image": "images/products/patchwork-pgd.png",
+      "public_date": "2020-01-01",
+      "topics": ["PGD", "Méthode"],
+      "partners": ["urfist-occitanie"]
     }
   ]
   

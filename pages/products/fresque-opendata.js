@@ -4,7 +4,6 @@ import Layout from "../../components/Layout"
 export default function Produit() {
   const produit = {
     docsList: ['livret-fondamentaux-opendata','cartes-fresque-opendata','lexique-opendata'],
-
     nom: 'Fresque des données ouvertes',
     baseline: 'Sensibilisez tous les publics à l‘ouverture des données',
     description: `La fresque des données ouvertes a pour but de rendre compréhensibles les tenants et aboutissants 

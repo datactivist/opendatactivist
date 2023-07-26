@@ -105,9 +105,7 @@ const PartnerPage = () => {
           <br />
           <div className={styles.galleryContainer}>
             <Gallery>
-            <h1>Contenus</h1>
               <Cards items={partnerDocs} onClick={(linkId) => router.push(`/docs/${linkId}`)} tagRoute="docs" showDate={false} showPartners={false} />
-            <h1>Produits</h1>
               <Cards items={partnerProducts} onClick={(productId) => router.push(`/products/${productId}`)} tagRoute="products" showDate={false} showPartners={false} />
             </Gallery>
           </div>
