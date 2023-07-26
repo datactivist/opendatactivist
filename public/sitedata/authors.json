@@ -39,6 +39,12 @@
         "bio": "Archéologue pendant une quinzaine d'année, Magalie a dirigé des opérations de fouille en France et à l’étranger avant de se reconvertir dans la géomatique. Ses centres d’intérêts professionnels la poussent désormais vers l’open data et l’animation d’équipes. Elle a une prédilection toute particulière pour la cartographie libre et le crowdsourcing.",
         "organisation": "datactivist"
     },
+    "mathieu-morey": {
+        "name": "Mathieu Morey",
+        "image": "/images/authors/mathieu-morey.jpeg",
+        "bio": "Mathieu est chercheur en informatique, spécialisé en data science et machine learning. Il développe des méthodes et des outils pour améliorer la découvrabilité et la qualité des données ouvertes, au bénéfice des producteurs et des réutilisateurs.",
+        "organisation": "datactivist"
+    },
     "anne-laure-donzel": {
         "name": "Anne-Laure Donzel",
         "image": "/images/authors/anne-laure-donzel.jpeg",
@@ -60,7 +66,7 @@
     "anthony-gigerich": {
         "name": "Anthony Gigerich",
         "image": "/images/authors/anthony-gigerich.jpeg",
-        "bio": "Anthony est diplômé du Master Informatique Intelligence Artificielle de l'université d'Aix-Marseille. Anthony travaille en collaboration avec Mathieu dans ses projets de R&D. Il aide également l'équipe à développer différents outils permettant d'améliorer l'accessibilité aux données.",
+        "bio": "Anthony est diplômé du Master Informatique Intelligence Artificielle de l'université d'Aix-Marseille. Il travaille en collaboration avec Mathieu dans ses projets de R&D. Il aide également l'équipe à développer différents outils permettant d'améliorer l'accessibilité aux données.",
         "organisation": "datactivist"
     },
     "clement-mandron": {

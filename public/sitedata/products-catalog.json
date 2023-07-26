@@ -13,7 +13,8 @@
       "description": "Sensibilisez tous les publics à l‘ouverture des données",
       "image": "images/products/fresque-opendata.webp",
       "public_date": "2023-06-01",
-      "topics": ["Atelier", "Animation", "Formation"]
+      "topics": ["Atelier", "Animation", "Formation"],
+      "partners": "bercy-hub"
     },
     {
       "name": "expo-smartcity",
@@ -29,7 +30,16 @@
       "description": "Rejoignez la communauté francophone de l‘open data",
       "image": "images/products/tod.png",
       "public_date": "2016-02-01",
-      "topics": ["Forum", "Communauté", "Echange"]
+      "topics": ["Forum", "Communauté", "Outil"]
+    },
+    {
+      "name": "conciergerie",
+      "title": "Conciergerie de données",
+      "description": "Améliorez la découvrabilité de vos données ouvertes",
+      "image": "images/products/conciergerie.png",
+      "public_date": "2016-02-01",
+      "topics": ["Découvrabilité", "Outil", "Chatbot"],
+      "partners": "region-sud"
     }
   ]
   

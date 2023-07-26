@@ -78,6 +78,15 @@ const Quiz = () => {
   let profile = getTopProfile();
 let profileData = getProfileDescription(profile);
 
+const ProgressBar = ({ current, total }) => {
+  const percentage = (current / total) * 100;
+  
+  return (
+    <div className={styles.progressBar}>
+      <div className={styles.progress} style={{ width: `${percentage}%` }} />
+    </div>
+  );
+};
 
   return (
     <Layout>
@@ -85,6 +94,7 @@ let profileData = getProfileDescription(profile);
     <h1>Quizz Data Position</h1>
     <p className={styles.baseLine}>Évaluez vos connaissances et compétences sur le cycle de la donnée</p>
   </div>
+  <ProgressBar current={currentQuestion} total={data.length} />
   <div className={styles.container}>
     {currentQuestion < data.length ? (
       <div className={styles.content}>

@@ -9,10 +9,10 @@
       "image": "/images/partners/metropole-lille.jpeg",
       "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
     },
-    "ort-sud": {
-      "name": "Observatoire Régional des Transports - Région Sud",
+    "region-sud": {
+      "name": "Région Sud",
       "image": "/images/partners/region-sud.jpeg",
-      "description": "L'ORT collecte et diffuse des données et des rapports sur les transports de passagers et de marchandises, au service des acteurs de la région Sud"
+      "description": "La Région Sud Provence-Alpes-Côte d’Azur s'est engagée dans l'ouverture de ses données depuis 2017."
     },
     "ministere-culture": {
       "name": "Ministère de la Culture",
