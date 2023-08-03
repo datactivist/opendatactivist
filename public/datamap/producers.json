@@ -1,0 +1,338 @@
+[
+  {
+    "producer-label": "Beta Gouv",
+    "producer-id": "beta-gouv",
+    "producer-url": "",
+    "data": "registredepreuves-idf-transports"
+  },
+  {
+    "producer-label": "BlaBlaCar",
+    "producer-id": "blablacar",
+    "producer-url": "https://dev.blablacar.com/terms",
+    "data": "airesdecovoiturage-idf-transports,origines-destinati-idf-transports,apiblablacar-sud-transports"
+  },
+  {
+    "producer-label": "CITIO",
+    "producer-id": "citio",
+    "producer-url": "",
+    "data": "citio:matricesod,-idf-transports"
+  },
+  {
+    "producer-label": "Cristolib",
+    "producer-id": "cristolib",
+    "producer-url": "",
+    "data": "stationsdevéloen-idf-transports"
+  },
+  {
+    "producer-label": "Eco Compteurs",
+    "producer-id": "eco-compteurs",
+    "producer-url": "",
+    "data": "historiquedunombre-idf-transports"
+  },
+  {
+    "producer-label": "Géovélo",
+    "producer-id": "geovelo",
+    "producer-url": "",
+    "data": "aménagementsvéloen-idf-transports,stationnementvéloe-idf-transports"
+  },
+  {
+    "producer-label": "Île de France Mobilités",
+    "producer-id": "île-de-france-mobilites",
+    "producer-url": "",
+    "data": "stationsdevéloen-idf-transports,aménagementsvéloen-idf-transports,stationnementvéloe-idf-transports,garesetstationsdu-idf-transports,tracésdeslignesré-idf-transports,parcsvéligoenîle--idf-transports,parcsrelaisenîle--idf-transports,historiquedesdonné-idf-transports,cartesdestravaux2-idf-transports,tracésduréseaude-idf-transports,stationsbusenîle--idf-transports,lignesdetransport-idf-transports,\"gares,stationsetp-idf-transports\",référentieldesarrê-idf-transports,requêtessurvianav-idf-transports,prochainspassagesa-idf-transports,subventionsattribué-idf-transports,horairesprévussur-idf-transports"
+  },
+  {
+    "producer-label": "INSEE",
+    "producer-id": "insee",
+    "producer-url": "",
+    "data": "basesirenedesentr-idf-transports,mobilitésprofession-idf-transports,donnéessocio-économ-idf-transports,basecomparateurde-idf-transports,caractéristiquesdes-idf-transports,mobilitésprofession-sud-transports,migrationsrésidenti-sud-transports,nombredéquipements-sud-transports,donnéessocio-démogr-sud-transports,logementen2015-sud-transports"
+  },
+  {
+    "producer-label": "Institut d'Aménagement et d'Urbanisme IDF",
+    "producer-id": "institut-d'amenagement-et-d'urbanisme-idf",
+    "producer-url": "",
+    "data": "cumuldenuisancese-idf-transports,projetsdaménagemen-idf-transports,projetsdevoiesrou-idf-transports,projetsdetransport-idf-transports"
+  },
+  {
+    "producer-label": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation",
+    "producer-id": "ministère-de-l'enseignement-superieur--de-la-recherche-et-de-l'innovation",
+    "producer-url": "",
+    "data": "effectifdesprincip-idf-transports"
+  },
+  {
+    "producer-label": "ONISR",
+    "producer-id": "onisr",
+    "producer-url": "",
+    "data": "basededonnéesacci-idf-transports"
+  },
+  {
+    "producer-label": "OpenChargeMap",
+    "producer-id": "openchargemap",
+    "producer-url": "",
+    "data": "bornesderecharges-idf-transports"
+  },
+  {
+    "producer-label": "OpenStreetMap",
+    "producer-id": "openstreetmap",
+    "producer-url": "https://www.openstreetmap.org/",
+    "data": "aménagementsvéloen-idf-transports,stationnementvéloe-idf-transports,poi(openstreetmap)-idf-transports,infrastructuresdet-sud-transports,infrastructurescycl-sud-transports,localisationdesbor-sud-transports"
+  },
+  {
+    "producer-label": "RATP Dev",
+    "producer-id": "ratp-dev",
+    "producer-url": "",
+    "data": "horairesprévussur-idf-transports,datalake-idf-transports"
+  },
+  {
+    "producer-label": "Région Île de France",
+    "producer-id": "region-île-de-france",
+    "producer-url": "",
+    "data": "enquêtesménagesdép-idf-transports,etablissementsscola-idf-transports"
+  },
+  {
+    "producer-label": "Smovengo",
+    "producer-id": "smovengo",
+    "producer-url": "",
+    "data": "stationvélib-disp-idf-transports"
+  },
+  {
+    "producer-label": "SNCF Transilien",
+    "producer-id": "sncf-transilien",
+    "producer-url": "",
+    "data": "régularitémensuelle-idf-transports,comptagedesvoyageu-idf-transports,gtfstransilien-idf-transports,apitempsréeltrans-idf-transports,horairesprévussur-idf-transports"
+  },
+  {
+    "producer-label": "Uber",
+    "producer-id": "uber",
+    "producer-url": "",
+    "data": "uber:tempsdetraj-idf-transports,uber:tempsdetraj-idf-transports"
+  },
+  {
+    "producer-label": "Vélo Territoires",
+    "producer-id": "velo-territoires",
+    "producer-url": "https://www.velo-territoires.org/",
+    "data": "segmentscyclables-idf-transports"
+  },
+  {
+    "producer-label": "VelO2",
+    "producer-id": "velo2",
+    "producer-url": "",
+    "data": "stationsdevéloen-idf-transports"
+  },
+  {
+    "producer-label": "Ville de Paris",
+    "producer-id": "ville-de-paris",
+    "producer-url": "",
+    "data": "stationnementsurvo-idf-transports,comptageroutier-d-idf-transports,parcsdestationneme-idf-transports,stationsmobilib-idf-transports,horodateurs–transa-idf-transports,localisationdestro-idf-transports,stationvélib-disp-idf-transports"
+  },
+  {
+    "producer-label": "Waze",
+    "producer-id": "waze",
+    "producer-url": "",
+    "data": "waze:alertessigna-idf-transports,waze:embouteillage-idf-transports"
+  },
+  {
+    "producer-label": "Anses",
+    "producer-id": "anses",
+    "producer-url": "",
+    "data": "rnv3p(réseaunation-sante-travail,r-nano-sante-travail"
+  },
+  {
+    "producer-label": "DARES",
+    "producer-id": "dares",
+    "producer-url": "",
+    "data": "surveillancemédical-sante-travail,enquêtesconditions-sante-travail,coi-sante-travail"
+  },
+  {
+    "producer-label": "Santé Publique France",
+    "producer-id": "sante-publique-france",
+    "producer-url": "",
+    "data": "matgene-sante-travail,matphyto-sante-travail,evalutil-sante-travail,epinano-sante-travail,surveillancedesret-sante-travail,suividesvictimesd-sante-travail,dispositifnational-sante-travail,cohortedesurveilla-sante-travail,coset-msa-sante-travail,coset-rsi-sante-travail,maladiesàcaractère-sante-travail,exp-pro-sante-travail,cipa/cipa-tox-sante-travail,multi-expo-sante-travail,surveillancedelam-sante-travail,surveillancedelam-sante-travail,centralisationdesp-sante-travail"
+  },
+  {
+    "producer-label": "INRS",
+    "producer-id": "inrs",
+    "producer-url": "",
+    "data": "colchic-sante-travail,solvex-sante-travail,fibrex-sante-travail,scola-sante-travail,scol@miante-sante-travail,epicea-sante-travail,sepia-sante-travail,orfila-sante-travail"
+  },
+  {
+    "producer-label": "GIS EVREST",
+    "producer-id": "gis-evrest",
+    "producer-url": "",
+    "data": "evrest-sante-travail"
+  },
+  {
+    "producer-label": "DREES",
+    "producer-id": "drees",
+    "producer-url": "",
+    "data": "enquêtesantéetiti-sante-travail"
+  },
+  {
+    "producer-label": "INSERM",
+    "producer-id": "inserm",
+    "producer-url": "",
+    "data": "cohortegazel-sante-travail,cohorteconstances-sante-travail"
+  },
+  {
+    "producer-label": "CNRACL - Fonds National de Prévention (Caisse des dépots)",
+    "producer-id": "cnracl---fonds-national-de-prevention-(caisse-des-depots)",
+    "producer-url": "",
+    "data": "banquenationalede-sante-travail"
+  },
+  {
+    "producer-label": "IRDES",
+    "producer-id": "irdes",
+    "producer-url": "",
+    "data": "basededonnéeshygi-sante-travail"
+  },
+  {
+    "producer-label": "APCME",
+    "producer-id": "apcme",
+    "producer-url": "",
+    "data": "sic(systèmedinfor-sante-travail"
+  },
+  {
+    "producer-label": "GISCOP 93",
+    "producer-id": "giscop-93",
+    "producer-url": "",
+    "data": "enquêtepermanentec-sante-travail"
+  },
+  {
+    "producer-label": "CNAMTS",
+    "producer-id": "cnamts",
+    "producer-url": "",
+    "data": "donnéesdusniiram(-sante-travail,basenationalesge-t-sante-travail"
+  },
+  {
+    "producer-label": "Equipe de Médecine du Travail du CHU de Grenoble",
+    "producer-id": "equipe-de-medecine-du-travail-du-chu-de-grenoble",
+    "producer-url": "",
+    "data": "exporisq-hap:expos-sante-travail"
+  },
+  {
+    "producer-label": "APST Centre-Val de Loire",
+    "producer-id": "apst-centre-val-de-loire",
+    "producer-url": "",
+    "data": "acaciapstcentre(a-sante-travail"
+  },
+  {
+    "producer-label": "CNAV",
+    "producer-id": "cnav",
+    "producer-url": "",
+    "data": "systèmenationalde-sante-travail"
+  },
+  {
+    "producer-label": "AGEFIPH",
+    "producer-id": "agefiph",
+    "producer-url": "",
+    "data": "déclarationobligato-sante-travail"
+  },
+  {
+    "producer-label": "IRSN",
+    "producer-id": "irsn",
+    "producer-url": "",
+    "data": "siseri-sante-travail"
+  },
+  {
+    "producer-label": "CCMSA",
+    "producer-id": "ccmsa",
+    "producer-url": "",
+    "data": "phytattitude-sante-travail,observatoiredeszoo-sante-travail,sérothèque-sante-travail"
+  },
+  {
+    "producer-label": "Transdev",
+    "producer-id": "transdev",
+    "producer-url": "",
+    "data": "fréquentationréseau-sud-transports"
+  },
+  {
+    "producer-label": "SNCF",
+    "producer-id": "sncf",
+    "producer-url": "",
+    "data": "retardsdestrainse-sud-transports,utilisationdurésea-sud-transports,régularitémensuelle-sud-transports,tarificationterpar-sud-transports,gtfsdester-sud-transports,fréquentationengar-sud-transports"
+  },
+  {
+    "producer-label": "DIRMED",
+    "producer-id": "dirmed",
+    "producer-url": "",
+    "data": "comptagesdevéhicul-sud-transports,donnéesissuesdesp-sud-transports"
+  },
+  {
+    "producer-label": "Aéroport Marseille Provence",
+    "producer-id": "aeroport-marseille-provence",
+    "producer-url": "",
+    "data": "nombredepassagers-sud-transports,volsréalisés-laé-sud-transports,fretaérien:tonnag-sud-transports"
+  },
+  {
+    "producer-label": "DREAL PACA",
+    "producer-id": "dreal-paca",
+    "producer-url": "",
+    "data": "donnéesdescentres-sud-transports"
+  },
+  {
+    "producer-label": "Pôle Emploi",
+    "producer-id": "pôle-emploi",
+    "producer-url": "",
+    "data": "donnéesdelapipôl-sud-transports"
+  },
+  {
+    "producer-label": "Ministère des Transports (MTES)",
+    "producer-id": "ministère-des-transports-(mtes)",
+    "producer-url": "",
+    "data": "registreélectroniqu-sud-transports,indicateursdetrafi-sud-transports"
+  },
+  {
+    "producer-label": "Métropole de Nice",
+    "producer-id": "metropole-de-nice",
+    "producer-url": "",
+    "data": "gtfsréseaulignesd-sud-transports,cartographiedesair-sud-transports"
+  },
+  {
+    "producer-label": "Métropole Aix Marseille Provence",
+    "producer-id": "metropole-aix-marseille-provence",
+    "producer-url": "",
+    "data": "gtfsdelamétropole-sud-transports,gtfsnavettesrtm-sud-transports"
+  },
+  {
+    "producer-label": "Région Sud",
+    "producer-id": "region-sud",
+    "producer-url": "",
+    "data": "lignesexpressesrég-sud-transports,lignesdautocarsin-sud-transports"
+  },
+  {
+    "producer-label": "Flixbus",
+    "producer-id": "flixbus",
+    "producer-url": "",
+    "data": "gtfsdeflixbuseth-sud-transports"
+  },
+  {
+    "producer-label": "Ministère de l'Economie et des Finances",
+    "producer-id": "ministère-de-l'economie-et-des-finances",
+    "producer-url": "",
+    "data": "prixdescarburants-sud-transports"
+  },
+  {
+    "producer-label": "Ministère de l'Interieur",
+    "producer-id": "ministère-de-l'interieur",
+    "producer-url": "",
+    "data": "basededonnéesdes-sud-transports,radarsautomatiques-sud-transports"
+  },
+  {
+    "producer-label": "Cerema",
+    "producer-id": "cerema",
+    "producer-url": "",
+    "data": "indicateursdetrafi-sud-transports"
+  },
+  {
+    "producer-label": "Beta.gouv",
+    "producer-id": "beta.gouv",
+    "producer-url": "",
+    "data": "donnéesissuesdure-sud-transports"
+  },
+  {
+    "producer-label": "Grand Port Maritime de Marseille Fos",
+    "producer-id": "grand-port-maritime-de-marseille-fos",
+    "producer-url": "",
+    "data": "traficportuairede-sud-transports"
+  }
+]
