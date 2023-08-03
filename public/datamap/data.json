@@ -1,11 +1,11 @@
 [
   {
-    "data-id": "registredepreuves-idf-transports",
+    "data-id": "registredepreuvesdecovoitu-idf-transports",
     "data-label": "Registre de preuves de covoiturage",
     "data-description": "Plateforme technique permettant à l’ensemble des opérateurs de covoiturage, volontaires, de faire converger et d’attester les trajets effectués par leurs utilisateurs.",
     "data-url": "https://www.data.gouv.fr/fr/datasets/trajets-realises-en-covoiturage-registre-de-preuve-de-covoiturage/",
     "data-producer": "Beta Gouv",
-    "data-tags": "santé au travail,vigilance,prévention,pathologies professionnelles,émergence,CCPP,SST",
+    "data-tags": "Covoiturage,Usage",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -16,12 +16,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "airesdecovoiturage-idf-transports",
+    "data-id": "airesdecovoiturage(blablaca-idf-transports",
     "data-label": "Aires de covoiturage (blablacar)",
     "data-description": "Données consolidées avec Transport Data Gouv",
     "data-url": "https://www.data.gouv.fr/fr/datasets/aires-de-covoiturage-en-france/",
     "data-producer": "BlaBlaCar",
-    "data-tags": "Substance nanoparticulaire,acteurs,quantités,usages,identification,caractérisation,traçabilité",
+    "data-tags": "Cartographie,Aménagement,Stationnement,Intermodalité",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 2000,
@@ -32,12 +32,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "origines-destinati-idf-transports",
+    "data-id": "origines-destinationsdecov-idf-transports",
     "data-label": "Origines - destinations de covoiturage (prochaines 24h - à archiver)",
     "data-description": "API temps réel de BlaBlaCar",
     "data-url": "https://dev.blablacar.com/api-explorer/search-api/versions/1.0//",
     "data-producer": "BlaBlaCar",
-    "data-tags": "Expositions professionnelles,contraintes organisationnelles,risques physiques,risques chimiques,risques biologiques,risques psycho-sociaux",
+    "data-tags": "Voiture,Temps réel,Usage,Historique,Tarification,Origine destination,Fréquentation,Prix",
     "data-access": "Accès sous condition",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -48,12 +48,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "stationsdevéloen-idf-transports",
+    "data-id": "stationsdevéloenlibreserv-idf-transports",
     "data-label": "Stations de vélo en libre service (VélO2 et Cristolib) - Disponibilités en temps réel",
     "data-description": "Ce jeu de données donne les disponibilités en temps réel des stations Cristolib (Créteil) et VélO2 (Cergy Pontoise). La mise à jour est faite à la minute.",
     "data-url": "https://opendata.stif.info/explore/dataset/jcdecaux-bike-stations-data/information/?location=10,48.90962,2.23691&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités,VelO2,Cristolib",
-    "data-tags": "Conditions de travail,santé,risques psychosociaux et physiques",
+    "data-tags": "Cartographie,Temps réel,Vélo,Station,Fréquentation,Historique,Usage",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 53,
@@ -64,12 +64,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "historiquedunombre-idf-transports",
+    "data-id": "historiquedunombredepassag-idf-transports",
     "data-label": "Historique du nombre de passage de vélos - capteur géolocalisé",
     "data-description": "Cartographie et historique du nombre de passages de vélos sur plusieurs compteurs, en France et Île de France.",
     "data-url": "http://www.eco-public.com/ParcPublic/?id=891#",
     "data-producer": "Eco Compteurs",
-    "data-tags": "Expositions professionnelles,risques physiques,risques chimiques,risques biologiques,risques organisationnels,… open data",
+    "data-tags": "Cartographie,Piste Cyclable,Vélo,Fréquentation,Historique,Compteurs,Trafic,Usage",
     "data-access": "",
     "data-format": "Dataviz - site web",
     "data-record-count": "",
@@ -80,12 +80,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "aménagementsvéloen-idf-transports",
+    "data-id": "aménagementsvéloenîle-de-fr-idf-transports",
     "data-label": "Aménagements vélo en Île-de-France",
     "data-description": "Couche géographique décrivant les aménagements cyclables linéaires en Île-de-France : pistes cyclables, bandes cyclables, zones de rencontre...",
     "data-url": "https://opendata.stif.info/explore/dataset/amenagements-velo-en-ile-de-france/information/?location=14,48.8328,2.34043&basemap=jawg.streets",
     "data-producer": "OpenStreetMap,Île de France Mobilités,Géovélo",
-    "data-tags": "Produits Phytopharmaceutiques,Pesticides,Expositions,Open data,Agriculture,Rétrospectif,Dom",
+    "data-tags": "Cartographie,réseau,Piste Cyclable,Vélo,Segments,Voirie,Aménagement,OSM",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 56075,
@@ -96,12 +96,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "stationnementvéloe-idf-transports",
+    "data-id": "stationnementvéloenîle-de-f-idf-transports",
     "data-label": "Stationnement vélo en Île-de-France",
     "data-description": "Couche géographique décrivant les emplacements de stationnement pour vélo en Île-de-France : arceaux, râtelier, stations Véligo...",
     "data-url": "https://opendata.stif.info/explore/dataset/stationnement-velo-en-ile-de-france/information/?location=11,48.81772,2.39502&basemap=jawg.streets",
     "data-producer": "OpenStreetMap,Île de France Mobilités,Géovélo",
-    "data-tags": "Amiante,Fibres minérales artificielles,Particules nanométriques,exposition professionnelle",
+    "data-tags": "Cartographie,Piste Cyclable,Vélo,Aménagement,Stationnement,OSM",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 8459,
@@ -112,12 +112,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "garesetstationsdu-idf-transports",
+    "data-id": "garesetstationsduréseaufe-idf-transports",
     "data-label": "Gares et stations du réseau ferré d'Île-de-France (par ligne)",
     "data-description": "Couche géographique décrivant, par ligne, les gares de Train et de RER, les stations de métro, de tramways, de val et de funiculaire ouvertes aux voyageurs en Île-de-France.",
     "data-url": "https://opendata.stif.info/explore/dataset/emplacement-des-gares-idf/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "cohorte,surveillance santé,nanoparticules",
+    "data-tags": "Ligne,Cartographie,réseau,Gare,Point,Station,GTFS",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1140,
@@ -128,12 +128,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "tracésdeslignesré-idf-transports",
+    "data-id": "tracésdeslignesrégulièresd-idf-transports",
     "data-label": "Tracés des lignes régulières de bus en Ile-de-France",
     "data-description": "Couche géographique décrivant les itinéraires des lignes régulières de bus en Île-de-France, déclarées administrativement à Île-de-France Mobilités par les opérateurs.",
     "data-url": "https://opendata.stif.info/explore/dataset/bus_lignes/table/?location=12,48.85579,2.35434&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "Plomb,biosurveillance,centralisation de données,plombémie professionnelle",
+    "data-tags": "Bus,Ligne,réseau,Cartographie,GTFS",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1482,
@@ -144,12 +144,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "parcsvéligoenîle--idf-transports",
+    "data-id": "parcsvéligoenîle-de-france-idf-transports",
     "data-label": "Parcs Véligo en Île-de-France",
     "data-description": "Véligo est un service de stationnement de vélos offrant des abris en libre-service et des consignes collectives sécurisées.",
     "data-url": "https://opendata.stif.info/explore/dataset/parcs-veligo/table/?location=12,48.86517,2.42352&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "cohorte,surveillance santé,amiante,silice,cancérogène",
+    "data-tags": "Cartographie,Vélo",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 157,
@@ -160,12 +160,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "parcsrelaisenîle--idf-transports",
+    "data-id": "parcsrelaisenîle-de-france-idf-transports",
     "data-label": "Parcs Relais en Île-de-France",
     "data-description": "Parcs Relais en Île-de-France",
     "data-url": "https://opendata.stif.info/explore/dataset/parcs-relais-idf/information/?location=11,48.78379,2.43759&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "surveillance santé,amiante",
+    "data-tags": "Voirie,Stationnement,Parc relais,Cartographie",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 46,
@@ -176,12 +176,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "historiquedesdonné-idf-transports",
+    "data-id": "historiquedesdonnéesdevali-idf-transports",
     "data-label": "Historique des données de validation (2015-2017)",
     "data-description": "Validations sur le réseau ferré : Nombre de validations par jour (1er et 2eme semestre)\nValidations sur le réseau ferré : Profils horaires par jour type (1er et 2eme semestre)\nValidations sur le réseau de surface : Nombre de validations par jour (1er et 2eme semestre)\nValidations sur le réseau de surface : Profils horaires par jour type (1er et 2eme semestre)",
     "data-url": "https://opendata.stif.info/explore/dataset/histo-validations/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "amiante,surveillance,santé,expositions environnementales,expositions professionnelles,reconnaissance médico sociale en maladie professionnelle et au Fiva,DO",
+    "data-tags": "Bus,Gare,Station,Fréquentation,Historique,Usage,Billetique,Validation",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -192,12 +192,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "cartesdestravaux2-idf-transports",
+    "data-id": "cartesdestravaux2019-idf-transports",
     "data-label": "Cartes des travaux 2019",
     "data-description": "Des travaux sont prévus sur le réseau SNCF et RATP durant l'année 2019. Pour vous permettre d'anticiper vos déplacements, Île-de-France Mobilités met à votre disposition les plans schématiques des travaux par mois.",
     "data-url": "https://opendata.stif.info/explore/dataset/cartes-des-travaux-2019/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "surveillance,causes de décès,facteurs professionnels",
+    "data-tags": "réseau,Aménagement,Cartographie,Station",
     "data-access": "Open data",
     "data-format": "Peu exploitable (ex : PDF)",
     "data-record-count": "",
@@ -208,12 +208,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "tracésduréseaude-idf-transports",
+    "data-id": "tracésduréseaudetransport-idf-transports",
     "data-label": "Tracés du réseau de transport ferré d'Ile-de-France",
     "data-description": "Description linéaire du réseau ferré d’ïle-de-France, avec mise en avant des lignes de Transport en Commun subventionnées par Ile-de-France Mobilités.",
     "data-url": "https://opendata.stif.info/explore/dataset/traces-du-reseau-ferre-idf/information/?location=13,48.8611,2.35691&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "cohorte,suivi,surveillance santé,expositions professionnelles,agriculteurs,salariés agricoles",
+    "data-tags": "réseau,Ligne,Cartographie,Segments",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1641,
@@ -224,12 +224,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "stationsbusenîle--idf-transports",
+    "data-id": "stationsbusenîle-de-france-idf-transports",
     "data-label": "Stations bus en Île-de-France",
     "data-description": "Couche géographique décrivant les gares routières d'Île-de-France.",
     "data-url": "https://opendata.stif.info/explore/dataset/gares-routieres-idf/information/?location=12,48.84427,2.35107&basemap=jawg.streets",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "cohorte,suivi,surveillance santé,expositions professionnelles,indépendants (commerçants,artisans,professions libérales)",
+    "data-tags": "Autocar,Cartographie,Gare routière,Arrêt",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 208,
@@ -240,12 +240,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "lignesdetransport-idf-transports",
+    "data-id": "lignesdetransportenprojet-idf-transports",
     "data-label": "Lignes de transport en projet en Ile-de-France",
     "data-description": "Couche géographique décrivant les tracés des projets de transport en commun en Île-de-France.",
     "data-url": "https://opendata.stif.info/explore/dataset/projets_lignes_idf/information/?basemap=osmtransport&location=13,48.89277,2.36704",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "Surveillance,risques professionnels,médecine du travail,SST,réseau,sous-déclaration",
+    "data-tags": "Bus,réseau,Ligne,Cartographie,Aménagement,Modélisation,Projets",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 102,
@@ -256,12 +256,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "gares,stationsetp-idf-transports",
+    "data-id": "gares,stationsetpôlesdéch-idf-transports",
     "data-label": "Gares, stations et pôles d'échanges multimodaux en projet en Ile-de-France",
     "data-description": "Couche géographique recensant les arrêts et pôles d'échanges multimodaux des tracés des projets de transport en commun en Île-de-France.",
     "data-url": "https://opendata.stif.info/explore/dataset/projets_arrets_idf/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "expositions professionnelles,outils,codage des emplois,bases de données,matrices,Ev@lutil",
+    "data-tags": "Intermodalité,Gare,Station,Modélisation,Aménagement,Correspondance",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 443,
@@ -272,12 +272,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "référentieldesarrê-idf-transports",
+    "data-id": "référentieldesarrêtsdetran-idf-transports",
     "data-label": "Référentiel des arrêts de transport en commun en Ile-de-France",
     "data-description": "Ce jeu de données propose en un seul fichier l'ensemble des objets du référentiel arrêts d'Île-de-France ainsi que l'arborescence des objets.",
     "data-url": "https://opendata.stif.info/explore/dataset/referentiel-arret-tc-idf/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "Produits Phytopharmaceutiques,Pesticides,Toxicologie,Homologation,Rétrospectif,Agriculture,Open Data",
+    "data-tags": "Cartographie,réseau,Bus,Ligne,Correspondance,Intermodalité,Arrêt,Station",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 36688,
@@ -288,12 +288,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "requêtessurvianav-idf-transports",
+    "data-id": "requêtessurvianavigo-idf-transports",
     "data-label": "Requêtes sur Via Navigo",
     "data-description": "Recherches d'itinéraires sur l'application Navigo : origines destinations",
     "data-url": "",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "Expositions professionnelles,risques chimiques,physiques,biologiques,risques organisationnels,psychosociaux…",
+    "data-tags": "Usage,Recherche itinéraire,Temps de trajet",
     "data-access": "Aucun accès",
     "data-format": "",
     "data-record-count": "",
@@ -304,12 +304,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "prochainspassagesa-idf-transports",
+    "data-id": "prochainspassagesauxarrêts-idf-transports",
     "data-label": "Prochains passages aux arrêts",
     "data-description": "Possibilité de croiser le GTFS (référentiel des arrêts identiques)",
     "data-url": "https://opendata.stif.info/explore/dataset/perimetre-tr-plateforme-stif/information/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "surveillance,mortalité par suicide,agriculteurs",
+    "data-tags": "Usage,Historique,Ligne,Modélisation,Temps réel,GTFS,Temps de trajet,Arrêt,Ponctualité,Retard",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 31722,
@@ -320,12 +320,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "subventionsattribué-idf-transports",
+    "data-id": "subventionsattribuéesparîle-idf-transports",
     "data-label": "Subventions attribuées par Île de France Mobilités",
     "data-description": "Liste des organismes ayant reçus des subventions de la part d'IDFM, avec montants associés.",
     "data-url": "https://www.data.gouv.fr/fr/datasets/subventions-ile-de-france-mobilites/",
     "data-producer": "Île de France Mobilités",
-    "data-tags": "surveillance,mortalité par suicide,salariés agricoles",
+    "data-tags": "Mode,Usage,Subvention",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -336,12 +336,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "basesirenedesentr-idf-transports",
+    "data-id": "basesirenedesentrepriseset-idf-transports",
     "data-label": "Base Sirene des entreprises et de leurs établissements v3 ß",
     "data-description": "Cartographie des entreprises et associations (et tranches effectifs) en Ile de France",
     "data-url": "https://data.iledefrance.fr/explore/dataset/base-sirene-v3-ss/information/",
     "data-producer": "INSEE",
-    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,subtances et agents chimiques et biologiques",
+    "data-tags": "Cartographie,Densité,Desserte,Effectifs",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 2352206,
@@ -352,12 +352,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "mobilitésprofession-idf-transports",
+    "data-id": "mobilitésprofessionnellesen-idf-transports",
     "data-label": "Mobilités professionnelles en 2014 : déplacements domicile - lieu de travail",
     "data-description": "Chaque ligne fournit le flux de personnes se déplaçant entre une commune ou arrondissement de résidence et une commune ou arrondissement du lieu de travail.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/mobilites-professionnelles-en-2014-deplacements-domicile-lieu-de-travail/information/",
     "data-producer": "INSEE",
-    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,solvants",
+    "data-tags": "Domicile Travail,Usage,Origine destination,Densité,Modélisation",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 201686,
@@ -368,12 +368,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "donnéessocio-économ-idf-transports",
+    "data-id": "donnéessocio-économiquescarr-idf-transports",
     "data-label": "Données socio-économiques carroyées de l'INSEE",
     "data-description": "Intégration dans ODS à venir : requêtes, filtres et visualisations facilitées",
     "data-url": "https://insee.fr/fr/statistiques/4176305",
     "data-producer": "INSEE",
-    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,fibres organiques artificielles,fibres inorganiques hors amiante",
+    "data-tags": "Cartographie,Modélisation,Densité,Statistiques,Emploi,Population",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -384,12 +384,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "basecomparateurde-idf-transports",
+    "data-id": "basecomparateurdeterritoire-idf-transports",
     "data-label": "Base comparateur de territoires",
     "data-description": "Ce jeu de données présente une trentaine d’indicateurs décrivant la population, les logements, les revenus, l’emploi et les établissements au niveau communal.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/base-comparateur-de-territoires/information/?location=12,48.81423,2.314&basemap=jawg.streets",
     "data-producer": "INSEE",
-    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,subtances et agents chimiques",
+    "data-tags": "Cartographie,Population,Statistiques",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1299,
@@ -400,12 +400,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "caractéristiquesdes-idf-transports",
+    "data-id": "caractéristiquesdesentrepris-idf-transports",
     "data-label": "Caractéristiques des entreprises et établissements au 31 décembre 2015",
     "data-description": "Le jeu de données fournit la répartition des établissements actifs et des postes salariés selon le secteur d’activité agrégé et selon la taille de l’établissement.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/caracteristiques-des-etablissements-au-31-decembre-2015/information/?location=12,48.94494,2.24155&basemap=jawg.streets",
     "data-producer": "INSEE",
-    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,amiante",
+    "data-tags": "Cartographie,Population,Statistiques,Emploi,Entreprises",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1299,
@@ -416,12 +416,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "cumuldenuisancese-idf-transports",
+    "data-id": "cumuldenuisancesenvironneme-idf-transports",
     "data-label": "Cumul de nuisances environnementales - Grille Régionale au pas de 500M d'Île-de-France",
     "data-description": "Le nombre cumulé de nuisances et pollutions a été calculé à la maille de 500 m de côté à partir des 5 indicateurs de nuisances et pollutions, élaborés en partenariat avec Airparif, Bruitparif, la DRIEE Ile-de-France et l'ARS Ile-de-France: la pollution de l'air, le bruit, la pollution des sols, la pollution de l'eau distribuée, les pollutions chroniques diffuses liées à l'activité industrielle.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/cumul-de-nuisances-environnementales-grille-regionale-au-pas-de-500m-dile-de-fr0/information/?location=12,48.85459,2.34301&basemap=jawg.streets",
     "data-producer": "Institut d'Aménagement et d'Urbanisme IDF",
-    "data-tags": "accidents du travail,retour d'expérience,analyse d'accidents,prevention des accidents du travail",
+    "data-tags": "Cartographie,Nuisance,Environnement,Pollution",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 49226,
@@ -432,12 +432,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "projetsdaménagemen-idf-transports",
+    "data-id": "projetsdaménagementenîle-d-idf-transports",
     "data-label": "Projets d'aménagement en Île-de-France",
     "data-description": "Situation 2019\nPrincipaux secteurs de projet d'aménagement en Île-de-France.",
     "data-url": "http://data.iau-idf.fr/datasets/041ac6032e02455a9db22dc6c14b8ad9_52",
     "data-producer": "Institut d'Aménagement et d'Urbanisme IDF",
-    "data-tags": "santé au travail,subtances et agents chimiques,mélanges,composition,produits chimiques",
+    "data-tags": "Aménagement,Projets,Cartographie,Modélisation",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1651,
@@ -448,12 +448,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "projetsdevoiesrou-idf-transports",
+    "data-id": "projetsdevoiesroutières-idf-transports",
     "data-label": "Projets de voies routières",
     "data-description": "Projets de voies routières de la Région Île-de-France localisés sur la CDGT du Sdrif approuvé par décret le 27 décembre 2013",
     "data-url": "http://data.iau-idf.fr/datasets/cdb0429f33a04706832cc27ea91af00c_66",
     "data-producer": "Institut d'Aménagement et d'Urbanisme IDF",
-    "data-tags": "santé au travail,subtances et agents chimiques,mélanges,composition,produits chimiques",
+    "data-tags": "Cartographie,Modélisation,Voirie,Projets",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 26,
@@ -464,12 +464,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "projetsdetransport-idf-transports",
+    "data-id": "projetsdetransportdelarég-idf-transports",
     "data-label": "Projets de transport de la Région Île-de-France",
     "data-description": "Cette couche a été créée dans le but d'avoir une couche unique permettant de cartographier les projets de transports en commun régionaux retenus lors du vote du Conseil Régional (se référer aussi au fascicule mise en oeuvre). La cartographie de cette base de données concourt à une vision d'un réseau de transport à l'horizon 2030 en Île-de-France. Cette donnée a notamment pour but de répondre à l'objectif de produire une information d'un niveau de précision adapté à une carte au 1/150000 qui doit également respecter le niveau de subsidiarité du document Régional qu'est le SDRIF (se référer au fascicule Orientations règlementaires et carte de destination générale des différentes parties du territoire 2013 ). Des différences peuvent apparaître entre ces données et la carte officielle du SDRIF adopté le 18 octobre 2013 et approuvé le 27 décembre 2013",
     "data-url": "http://data.iau-idf.fr/datasets/f2d55bcd631d4b949c756dddcc4d4be6_68",
     "data-producer": "Institut d'Aménagement et d'Urbanisme IDF",
-    "data-tags": "Vécu au travail,santé infrapathologique",
+    "data-tags": "Bus,réseau,Ligne,Cartographie,Aménagement,Modélisation,Projets",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 111,
@@ -480,12 +480,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "effectifdesprincip-idf-transports",
+    "data-id": "effectifdesprincipauxétabli-idf-transports",
     "data-label": "Effectif des principaux établissements d'enseignement supérieur",
     "data-description": "Caractéristiques des principaux établissements d'enseignement supérieur. Situation à date.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/principaux-etablissements-denseignement-superieur/information/?disjunctive.type_d_etablissement&disjunctive.typologie_d_universites_et_assimiles&sort=uo_lib&location=11,48.84923,2.36618&basemap=jawg.streets",
     "data-producer": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation",
-    "data-tags": "",
+    "data-tags": "Cartographie,Densité,Desserte,Effectifs,Scolaire",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 122,
@@ -496,12 +496,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "basededonnéesacci-idf-transports",
+    "data-id": "basededonnéesaccidentscorp-idf-transports",
     "data-label": "Base de données accidents corporels de la circulation",
     "data-description": "Pour chaque accident corporel (soit un accident survenu sur une voie ouverte à la circulation publique, impliquant au moins un véhicule et ayant fait au moins une victime ayant nécessité des soins), des saisies d’information décrivant l’accident sont effectuées par l’unité des forces de l’ordre (police, gendarmerie, etc.) qui est intervenue sur le lieu de l’accident.",
     "data-url": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/",
     "data-producer": "ONISR",
-    "data-tags": "Cohorte,entreprise,EDF-GDF,morbidité,mortalité,faceurs biomécaniques,facteurs chimiques,facteurs psychosciaux,biobanque",
+    "data-tags": "Accidents,Historique,Cartographie",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -512,12 +512,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "bornesderecharges-idf-transports",
+    "data-id": "bornesderechargespourvéhic-idf-transports",
     "data-label": "Bornes de recharges pour véhicules électriques",
     "data-description": "Cartographie des bornes de recharge",
     "data-url": "https://openchargemap.org/site/poi",
     "data-producer": "OpenChargeMap",
-    "data-tags": "Cohorte,population générale,adultes,morbidité,mortalité,facteurs biomécaniques,facteurs chimiques,facteurs psychosciaux,biobanque,échantillon représentatif",
+    "data-tags": "Cartographie,Voiture électrique,Voiture,VE",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -533,7 +533,7 @@
     "data-description": "Point d'intérêt cartographiés sur OpenStreetMap : arrêts de bus, points d'arrêts, mobilier urbain",
     "data-url": "https://overpass-turbo.eu/",
     "data-producer": "OpenStreetMap",
-    "data-tags": "",
+    "data-tags": "Cartographie,Arrêt,Point",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -544,12 +544,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "enquêtesménagesdép-idf-transports",
+    "data-id": "enquêtesménagesdéplacements-idf-transports",
     "data-label": "Enquêtes ménages déplacements",
     "data-description": "Donnée non ouverte. Peut faire l'objet d'une demande CADA",
     "data-url": "",
     "data-producer": "Région Île de France",
-    "data-tags": "Accidents de service,de trajet,maladies professionnelles",
+    "data-tags": "Usage,Statistiques,Modélisation,Origine destination,Domicile Travail",
     "data-access": "Données jamais ouvertes",
     "data-format": "Format spécifique / chiffré",
     "data-record-count": "",
@@ -560,12 +560,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "etablissementsscola-idf-transports",
+    "data-id": "etablissementsscolairespubli-idf-transports",
     "data-label": "Etablissements scolaires publics et privés sous contrat en 2018 (Lycées, EREA, ERPD) Région Île-de-France",
     "data-description": "Localisation et effectifs des établissements scolaires franciliens publics et privés sous contrat en Ile-de-France.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/lycees_pu_pr_finances_region_ile_de_france/information/?location=12,48.85082,2.29254&basemap=jawg.streets",
     "data-producer": "Région Île de France",
-    "data-tags": "Santé,consommation de soins,idemnités journalières,accidents du travail,maladies professionnelles,travail,carrière professionnelle",
+    "data-tags": "Cartographie,Densité,Desserte,Effectifs,Scolaire",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 700,
@@ -576,12 +576,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "régularitémensuelle-idf-transports",
+    "data-id": "régularitémensuelletransilie-idf-transports",
     "data-label": "Régularité mensuelle Transilien",
     "data-description": "Ponctualité mensuelle Transilien depuis janvier 2013.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/regularite-mensuelle-transilien/information/?sort=date&dataChart=eyJ0aW1lc2NhbGUiOiIiLCJxdWVyaWVzIjpbeyJ4QXhpcyI6ImRhdGUiLCJzb3J0IjoiIiwibWF4cG9pbnRzIjo1MCwiY2hhcnRzIjpbeyJ5QXhpcyI6Im5vbWJyZV9kZV92b3lhZ2V1cnNfYV9sX2hldXJlX3BvdXJfdW5fdm95YWdldXJfZW5fcmV0YXJkIiwiZnVuYyI6IkFWRyIsImNvbG9yIjoiIzJmN2VkOCIsInR5cGUiOiJzcGxpbmUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJyZWd1bGFyaXRlLW1lbnN1ZWxsZS10cmFuc2lsaWVuIiwib3B0aW9ucyI6e319fV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9",
     "data-producer": "SNCF Transilien",
-    "data-tags": "",
+    "data-tags": "Historique,Ponctualité,Retard,Horaires,Temps de trajet",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 988,
@@ -592,12 +592,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "comptagedesvoyageu-idf-transports",
+    "data-id": "comptagedesvoyageursmontant-idf-transports",
     "data-label": "Comptage des voyageurs montants dans les trains Transilien",
     "data-description": "Comptage des voyageurs montants dans les trains Transilien par tranche horaire.",
     "data-url": "https://data.iledefrance.fr/explore/dataset/voyageurs-montant-en-gare-sur-le-reseau-transilien/information/?sort=ligne&dataChart=eyJxdWVyaWVzIjpbeyJ4QXhpcyI6ImxpZ25lIiwic29ydCI6InNlcmllMSIsIm1heHBvaW50cyI6NTAsImNoYXJ0cyI6W3sieUF4aXMiOiJtb250YW50cyIsImZ1bmMiOiJTVU0iLCJjb2xvciI6IiMyZjdlZDgiLCJ0eXBlIjoiYmFyIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWV9XSwiY29uZmlnIjp7ImRhdGFzZXQiOiJ2b3lhZ2V1cnMtbW9udGFudC1lbi1nYXJlLXN1ci1sZS1yZXNlYXUtdHJhbnNpbGllbiIsIm9wdGlvbnMiOnsic29ydCI6ImxpZ25lIn19fV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9",
     "data-producer": "SNCF Transilien",
-    "data-tags": "santé au travail,cancers professionnels,Seine-Saint-Denis,connaissance,reconnaissance,prévention.",
+    "data-tags": "Usage,Fréquentation,Ligne,Station,Gare,Modélisation",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 7230,
@@ -613,7 +613,7 @@
     "data-description": "Lignes, arrêts, horaires du réseau Transilien",
     "data-url": "https://data.iledefrance.fr/explore/dataset/horaires-des-lignes-transilien/information/",
     "data-producer": "SNCF Transilien",
-    "data-tags": "",
+    "data-tags": "GTFS,réseau,Modélisation,Temps de trajet,Horaires,Arrêt",
     "data-access": "Open data",
     "data-format": "GTFS",
     "data-record-count": "",
@@ -624,12 +624,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "apitempsréeltrans-idf-transports",
+    "data-id": "apitempsréeltransilien-idf-transports",
     "data-label": "API Temps réel Transilien",
     "data-description": "API donnant accès aux prochains départs pour une gare donnée du réseau SNCF Transilien.",
     "data-url": "https://data.sncf.com/explore/dataset/api-temps-reel-transilien/information/",
     "data-producer": "SNCF Transilien",
-    "data-tags": "",
+    "data-tags": "Temps réel,Retard,Temps de trajet",
     "data-access": "Accès sous condition",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -640,12 +640,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "horairesprévussur-idf-transports",
+    "data-id": "horairesprévussurleslignes-idf-transports",
     "data-label": "Horaires prévus sur les lignes de transport en commun d'Ile-de-France (GTFS)",
     "data-description": "Ensemble de fichiers décrivant l'offre de transport (horaires, parcours, lignes, arrêts, correspondances entre arrêts) prévue sur les trois prochaines semaines, pour l'ensemble des lignes de transport en commun d'Ile-de-France (OPTILE, RATP et SNCF). Ces fichiers sont mis à jour toutes les semaines, le jeudi.\n\nLes fichiers regroupent l'offre des lignes de trains, RER, métros, tramways, bus et cars franciliens.",
     "data-url": "https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/information/",
     "data-producer": "Île de France Mobilités,RATP Dev,SNCF Transilien",
-    "data-tags": "santé au travail,évaluation des risques,expologie",
+    "data-tags": "Ligne,Bus,GTFS,réseau,Temps de trajet,Horaires",
     "data-access": "Open data",
     "data-format": "GTFS",
     "data-record-count": "",
@@ -656,12 +656,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "uber:tempsdetraj-idf-transports",
+    "data-id": "uber:tempsdetrajetsorigin-idf-transports",
     "data-label": "Uber : temps de trajets origine - destination",
     "data-description": "Temps de trajet d'un contour IRIS à un autre en Région Île de France",
     "data-url": "https://movement.uber.com/explore/paris/travel-times/query?lang=fr-FR&si=9&ti=&ag=iris&dt[tpb]=ALL_DAY&dt[wd;]=1,2,3,4,5,6,7&dt[dr][sd]=2018-12-01&dt[dr][ed]=2018-12-31&cd=&sa;=&sdn=",
     "data-producer": "Uber",
-    "data-tags": "Santé au travail,risques professionnels,outil prospectif,diagnostic territorial,stratégie de prévention",
+    "data-tags": "Usage,Temps de trajet,Origine destination,Historique,VTC",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 2585,
@@ -677,7 +677,7 @@
     "data-description": "Voies cyclables",
     "data-url": "https://datactivist.opendatasoft.com/explore/dataset/test-ratp-on3v-segments/table/",
     "data-producer": "Vélo Territoires",
-    "data-tags": "",
+    "data-tags": "Piste Cyclable,réseau,Cartographie,Vélo,Segments,Voirie",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 54721,
@@ -688,12 +688,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "stationnementsurvo-idf-transports",
+    "data-id": "stationnementsurvoiepubliqu-idf-transports",
     "data-label": "Stationnement sur voie publique - emprises",
     "data-description": "Le jeu de données présente les emprises des zones de stationnement de différents types (payant, rotatif, mixte, livraison, autocars, vélos, deux-roues motorisés...).",
     "data-url": "https://opendata.paris.fr/explore/dataset/stationnement-sur-voie-publique-emprises/information/?location=14,48.88391,2.35537&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InN0YXRpb25uZW1lbnQtc3VyLXZvaWUtcHVibGlxdWUtZW1wcmlzZXMiLCJvcHRpb25zIjp7fX0sImNoYXJ0cyI6W3siYWxpZ25Nb250aCI6dHJ1ZSwidHlwZSI6ImNvbHVtbiIsImZ1bmMiOiJDT1VOVCIsInlBeGlzIjoibG9uIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiIzAwMzM2NiJ9XSwieEF4aXMiOiJwbGFjYWwiLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiIiLCJzb3J0IjoiIn1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlLCJ0aW1lc2NhbGUiOiIifQ%3D%3D",
     "data-producer": "Ville de Paris",
-    "data-tags": "",
+    "data-tags": "Stationnement,Voiture,Aménagement,Voirie,Cartographie",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 59640,
@@ -704,12 +704,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "comptageroutier-d-idf-transports",
+    "data-id": "comptageroutier-donnéestra-idf-transports",
     "data-label": "Comptage routier - Données trafic issues des capteurs permanents",
     "data-description": "Ce jeu de données comprend l'ensemble des données horaires de débit et taux d'occupation remontées par les capteurs permanents de trafic installés sur le réseau renseigné de la Ville de Paris (réseau urbain et boulevard périphérique).",
     "data-url": "https://opendata.paris.fr/explore/dataset/comptages-routiers-permanents/information/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImNvbXB0YWdlcy1yb3V0aWVycy1wZXJtYW5lbnRzIiwib3B0aW9ucyI6e319LCJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiaXVfYWMiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMDAzMzY2In1dLCJ4QXhpcyI6InRfMWgiLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D",
     "data-producer": "Ville de Paris",
-    "data-tags": "Expositions professionnelles,travailleurs,rayonnements ionisants",
+    "data-tags": "Fréquentation,Usage,Voiture,Historique,Voiture électrique,Trafic",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 80000442,
@@ -720,12 +720,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "parcsdestationneme-idf-transports",
+    "data-id": "parcsdestationnementconcédé-idf-transports",
     "data-label": "Parcs de stationnement concédés",
     "data-description": "Ce jeu de données permet de visualiser les entrées des parcs de stationnements concédés de la Ville de Paris et d'en connaître l'offre tarifaire ainsi que les types de véhicules accueillis.",
     "data-url": "https://opendata.paris.fr/explore/dataset/parcs-de-stationnement-concedes-de-la-ville-de-paris/information/?location=12,48.87274,2.36722&basemap=jawg.streets",
     "data-producer": "Ville de Paris",
-    "data-tags": "Santé au travail,pathologies professionnelles,risque chimique,produits phytosanitaires",
+    "data-tags": "Cartographie,Stationnement,Tarification,Horaires,VE",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 175,
@@ -741,7 +741,7 @@
     "data-description": "Ce jeu de données reprend la localisation des stations Mobilib', la nouvelle offre pour l'autopartage de la Ville de Paris.",
     "data-url": "https://opendata.paris.fr/explore/dataset/liste-des-stations-de-services-de-vehicules/information/?disjunctive.code_post&disjunctive.motorisation&disjunctive.fonctionnelle&location=16,48.87561,2.29702&basemap=jawg.streets",
     "data-producer": "Ville de Paris",
-    "data-tags": "Santé au travail,pathologies professionnelles,risque biologique,zoonoses",
+    "data-tags": "Voiture,Voiture électrique,Voirie",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 392,
@@ -752,12 +752,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "horodateurs–transa-idf-transports",
+    "data-id": "horodateurs–transactionsde-idf-transports",
     "data-label": "Horodateurs – transactions de paiement",
     "data-description": "Données de transaction de paiement 2014 pour l'ensemble des horodateurs. \n\nCes fichiers peuvent être mis en relation avec la couche de donnée cartographique des horodateurs (mobilier) via l’identifiant NUMHORO (n° d'horodateur.",
     "data-url": "https://opendata.paris.fr/explore/dataset/horodateurs-transactions-de-paiement/table/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6Imhvcm9kYXRldXJzLXRyYW5zYWN0aW9ucy1kZS1wYWllbWVudCIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoibGluZSIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6Imhvcm9kYXRldXIiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMDAzMzY2In1dLCJ4QXhpcyI6ImZpbl9zdGF0aW9ubmVtZW50IiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIifV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9",
     "data-producer": "Ville de Paris",
-    "data-tags": "\"\"Santé au travail, pathologies professionnelles, risque biologique, zoonoses Infectiologie, pathologies émergentes, biologie\"\"",
+    "data-tags": "Fréquentation,Usage,Stationnement,Tarification",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 24448029,
@@ -768,12 +768,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "localisationdestro-idf-transports",
+    "data-id": "localisationdestrottinettes-idf-transports",
     "data-label": "Localisation des trottinettes en free floating",
     "data-description": "20000 objets",
     "data-url": "",
     "data-producer": "Ville de Paris",
-    "data-tags": "",
+    "data-tags": "Trottinettes",
     "data-access": "Accès restreint",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 20000,
@@ -784,12 +784,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "stationvélib-disp-idf-transports",
+    "data-id": "stationvélib-disponibilité-idf-transports",
     "data-label": "Station vélib - disponibilité en temps réel",
     "data-description": "Cartographie des stations Vélib et du nombre de vélos et places disponibles en temps réel",
     "data-url": "https://opendata.paris.fr/explore/dataset/velib-disponibilite-en-temps-reel/map/?location=14,48.86559,2.36283&basemap=jawg.streets",
     "data-producer": "Smovengo,Ville de Paris",
-    "data-tags": "",
+    "data-tags": "Cartographie,Temps réel,Vélo,Station,Fréquentation,Historique,Usage",
     "data-access": "Open data",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": 1360,
@@ -800,12 +800,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "waze:alertessigna-idf-transports",
+    "data-id": "waze:alertessignaléesparl-idf-transports",
     "data-label": "Waze : alertes signalées par les conducteurs en temps réel",
     "data-description": "Cartographie temps réel des bouchons et accidents signalés par les utilisateurs de Waze",
     "data-url": "",
     "data-producer": "Waze",
-    "data-tags": "",
+    "data-tags": "Cartographie,Usage,Historique,Voiture,Voirie,Trafic,Modélisation,Temps réel,Accidents",
     "data-access": "Accès restreint",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -816,12 +816,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "waze:embouteillage-idf-transports",
+    "data-id": "waze:embouteillagesdétectés-idf-transports",
     "data-label": "Waze : embouteillages détectés en temps réel",
     "data-description": "Cartographie temps réel des embouteillages détectés automatiquement par Waze",
     "data-url": "",
     "data-producer": "Waze",
-    "data-tags": "",
+    "data-tags": "Cartographie,Usage,Historique,Voiture,Voirie,Trafic,Modélisation,Temps réel,Embouteillage",
     "data-access": "Accès restreint",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -832,12 +832,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "citio:matricesod,-idf-transports",
+    "data-id": "citio:matricesod,tauxdef-idf-transports",
     "data-label": "CITIO : Matrices OD, taux de fraude, charge à bord",
     "data-description": "",
     "data-url": "",
     "data-producer": "CITIO",
-    "data-tags": "",
+    "data-tags": "Fraud,Charge,OD",
     "data-access": "Accès sous condition",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -853,7 +853,7 @@
     "data-description": "Datamart Opération\nDonnées SAE\n \n•\tLignes du réseau\n•\tPoint d'arrêt/stop\n•\tVéhicules\n•\tConducteurs\n•\tCourses (ligne + direction)\n•\tEmplacement (porte) des cellules de comptage\n•\tCellules de comptage\n•\tSAE (information sur les courses : horaire théorique, horaire réelle, arrêt, temps d'arrêt, …)\n \n \nDatamart Ticketing\nDonnées provenant des systèmes billettiques\n \n•\tLe lieu de la validations (stop + ligne) \n•\tLa date et heure de la validation \n•\tLe valideur / véhicule de la validation \n•\tLe numéro de support ANONYMISE de la validation \n•\tDes informations de profil client (si disponibles) pour chaque numéro de support : \n•\tLe type de produit détenu au moment de la validation \n•\tLa commune de résidence \n•\tL’année de naissance \n•\tLe sexe \n \n \nDatamart Marketing\n•\tClients\n•\tProduits existant (abonnements, ticket, …)\n•\tInformations de contact pour le Marketing\n \n \nGTFS\n•\tagency.txt regroupe les informations sur le service de transport (compagnies de transport, nom du réseau)\n•\tcalendar.txt et calendar_dates.txt qui contiennent le calendrier de circulation\n•\troutes.txt présente le nom et la direction des routes (au sens d'une origine-destination)\n•\tstops.txt liste tous les points d'arrêt et propose d'éventuelles informations\n•\ttrips.txt détaille les courses, sous la forme d'une table de liaison entre les services (agency), les routes et les régimes de circulation (calendar.txt et calendar_dates.txt)\n•\tstops_times.txt présente les horaires des courses aux points d'arrêt\n•\ttransfers.txt présente les correspondances entre plusieurs points d'arrêt\n•\tshapes.txt permet le tracé d'une route sur une carte\n•\tfrequencies.txt indique le temps entre deux courses d'une ligne (pour celles qui n'ont pas d'horaires fixes aux points d'arrêts)\n+ Info traffic\n \n \nMaintenance\n•\tFournisseur\n•\tMatériel\n•\tProblèmes\n•\tAchat\n•\tMagasin\n==> Inventaire, Reception de commande et utilisation du matériel",
     "data-url": "",
     "data-producer": "RATP Dev",
-    "data-tags": "",
+    "data-tags": "Operation,Validation,SAE,Marketing,GTFS,Maintenance",
     "data-access": "Accès sous condition",
     "data-format": "API : CSV, XML, JSON, GeoJSON",
     "data-record-count": "",
@@ -864,7 +864,7 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "donnéeshttps://tran-idf-transports",
+    "data-id": "donnéeshttps://transportdata-idf-transports",
     "data-label": "Données https://transport.data.gouv.fr/",
     "data-description": "- Horaires transports en commun\n- SAE\n- Autocars\n- VLS\n- Borne de recharges véhicules électriques\n- Données aériennes\n- Données ferroviaires\nRéseaux routiers",
     "data-url": "https://transport.data.gouv.fr/",
@@ -880,7 +880,7 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "uber:tempsdetraj-idf-transports",
+    "data-id": "uber:tempsdetrajet,vitess-idf-transports",
     "data-label": "Uber : Temps de trajet, vitesse, nouvelles mobilité heatmap",
     "data-description": "Uniquement sur Paris et banlieue",
     "data-url": "https://movement.uber.com/explore/paris?lang=en-US",
@@ -896,12 +896,12 @@
     "datamap-perimeter": "Région Île de France"
   },
   {
-    "data-id": "rnv3p(réseaunation-sante-travail",
+    "data-id": "rnv3p(réseaunationaldevigi-sante-travail",
     "data-label": "RNV3P (Réseau National de Vigilance et de Prévention des Pathologies Professionnelles)",
     "data-description": "Le rnv3p est un dispositif de vigilance et de prévention pour la santé au travail fondé sur des centres de référence.\nIl est constitué  simultanément d'un réseau de compétence en santé au travail et d'une base de données sanitaires.",
     "data-url": "",
     "data-producer": "Anses",
-    "data-tags": "",
+    "data-tags": "santé au travail,vigilance,prévention,pathologies professionnelles,émergence,CCPP,SST",
     "data-access": "",
     "data-format": "Excel, CSV",
     "data-record-count": "",
@@ -917,7 +917,7 @@
     "data-description": "Site de télédéclaration des substances à l'état nanoparticulaire",
     "data-url": "",
     "data-producer": "Anses",
-    "data-tags": "",
+    "data-tags": "Substance nanoparticulaire,acteurs,quantités,usages,identification,caractérisation,traçabilité",
     "data-access": "Accès restreint",
     "data-format": "Excel, CSV",
     "data-record-count": "",
@@ -928,12 +928,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "surveillancemédical-sante-travail",
+    "data-id": "surveillancemédicaledesexpo-sante-travail",
     "data-label": "Surveillance médicale des expositions aux risques professionnels (SUMER)",
     "data-description": "Enquête transversale répétée",
     "data-url": "",
     "data-producer": "DARES",
-    "data-tags": "",
+    "data-tags": "Expositions professionnelles,contraintes organisationnelles,risques physiques,risques chimiques,risques biologiques,risques psycho-sociaux",
     "data-access": "Accès sous condition",
     "data-format": "Excel",
     "data-record-count": "",
@@ -944,12 +944,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "enquêtesconditions-sante-travail",
+    "data-id": "enquêtesconditionsdetravail-sante-travail",
     "data-label": "Enquêtes conditions de travail",
     "data-description": "Depuis 1978 : Enquête sur les conditions de travail, enquête complémentaire à l'enquête emploi.  Enquête transversale répétée tous les 7 ans.\nEnquête longitudinale depuis  2013 (répétée tous les 3 ans) sur les conditions de travail et l'exposition aux RPS.",
     "data-url": "",
     "data-producer": "DARES",
-    "data-tags": "",
+    "data-tags": "Conditions de travail,santé,risques psychosociaux et physiques",
     "data-access": "Accès sous condition",
     "data-format": "Excel",
     "data-record-count": "",
@@ -965,7 +965,7 @@
     "data-description": "Matrices emplois-expositions / Système de surveillance des expositions professionnelles",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Expositions professionnelles,risques physiques,risques chimiques,risques biologiques,risques organisationnels,… open data",
     "data-access": "Accès sous condition",
     "data-format": "Excel",
     "data-record-count": "",
@@ -981,7 +981,7 @@
     "data-description": "Système de surveillance des expositions professionnelles aux produits phytopharmaceutiques.",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Produits Phytopharmaceutiques,Pesticides,Expositions,Open data,Agriculture,Rétrospectif,Dom",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -997,7 +997,7 @@
     "data-description": "Bases documentaires de données d'exposition sur les fibres et les particules nanométriques",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Amiante,Fibres minérales artificielles,Particules nanométriques,exposition professionnelle",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1013,7 +1013,7 @@
     "data-description": "Cohorte prospective; Sujet: nanoparticules;",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "cohorte,surveillance santé,nanoparticules",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1024,12 +1024,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "centralisationdesp-sante-travail",
+    "data-id": "centralisationdesplombémies-sante-travail",
     "data-label": "Centralisation des plombémies professionnelles",
     "data-description": "Base de données de biosurvellance des plombémies professionnelles",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Plomb,biosurveillance,centralisation de données,plombémie professionnelle",
     "data-access": "Aucun accès",
     "data-format": "",
     "data-record-count": "",
@@ -1040,12 +1040,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "surveillancedesret-sante-travail",
+    "data-id": "surveillancedesretraitésdu-sante-travail",
     "data-label": "Surveillance des retraités du RSI exposés à l’amiante (ESPRI)",
     "data-description": "Cohorte de travailleurs indépendant ayant pris leur retraite entre 2004-2008",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "cohorte,surveillance santé,amiante,silice,cancérogène",
     "data-access": "Accès restreint",
     "data-format": "Excel",
     "data-record-count": "",
@@ -1056,12 +1056,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "suividesvictimesd-sante-travail",
+    "data-id": "suividesvictimesdelamiant-sante-travail",
     "data-label": "Suivi des victimes de l'amiante",
     "data-description": "Cohorte de surveilance des victimes, à partir des données du Fonds d'Indemniation des Victimes de l'Amiante (FIVA);",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "surveillance santé,amiante",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1072,12 +1072,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "dispositifnational-sante-travail",
+    "data-id": "dispositifnationaldesurveil-sante-travail",
     "data-label": "Dispositif national de surveillance des mésothéliomes (DNSM) remplaçant à terme le PNSM et la DO",
     "data-description": "Dispositif national de surveillance des mésothéliomes, intégrant les expositions et la reconnaissance médico-sociale",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "amiante,surveillance,santé,expositions environnementales,expositions professionnelles,reconnaissance médico sociale en maladie professionnelle et au Fiva,DO",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1088,12 +1088,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "cohortedesurveilla-sante-travail",
+    "data-id": "cohortedesurveillancedela-sante-travail",
     "data-label": "Cohorte de surveillance de la mortalité par profession (COSMOP)",
     "data-description": "cohorte de surveillance de la mortalité par causes basée sur des échantillons représentatifs de l'Insee",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "surveillance,causes de décès,facteurs professionnels",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1109,7 +1109,7 @@
     "data-description": "cohorte prospective de surveillance de la santé des actifs affiliés au régime MSA",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "cohorte,suivi,surveillance santé,expositions professionnelles,agriculteurs,salariés agricoles",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1125,7 +1125,7 @@
     "data-description": "cohorte prospective de surveillance de la santé des actifs affiliés au régime RSI (à l'inclusion)",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "cohorte,suivi,surveillance santé,expositions professionnelles,indépendants (commerçants,artisans,professions libérales)",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1136,12 +1136,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "maladiesàcaractère-sante-travail",
+    "data-id": "maladiesàcaractèreprofessio-sante-travail",
     "data-label": "Maladies à caractère professionnel (MCP)",
     "data-description": "Système de surveillance - receuil sur deux périodes de 15 jours consécutifs chaque année.",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Surveillance,risques professionnels,médecine du travail,SST,réseau,sous-déclaration",
     "data-access": "Aucun accès",
     "data-format": "",
     "data-record-count": "",
@@ -1157,7 +1157,7 @@
     "data-description": "Site Internet / Outils d'aide à l'évaluation des expositions professionnelles",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "expositions professionnelles,outils,codage des emplois,bases de données,matrices,Ev@lutil",
     "data-access": "",
     "data-format": "Excel",
     "data-record-count": "",
@@ -1173,7 +1173,7 @@
     "data-description": "Base de données sur les substances actives phytopharmaceutiques : usages homologués depuis 1961 et caractéristiques toxicologiques.",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Produits Phytopharmaceutiques,Pesticides,Toxicologie,Homologation,Rétrospectif,Agriculture,Open Data",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1189,7 +1189,7 @@
     "data-description": "Système de surveillance des expositions professionnelles multiples",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "Expositions professionnelles,risques chimiques,physiques,biologiques,risques organisationnels,psychosociaux…",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1200,12 +1200,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "surveillancedelam-sante-travail",
+    "data-id": "surveillancedelamortalitép-sante-travail",
     "data-label": "Surveillance de la mortalité par suicide des agriculteurs exploitants\nInscrit dans le 1er Plan de prévention du suicide dans le monde agricole",
     "data-description": "Cohorte de surveillance de la mortalité des agriculteurs exploitants basée sur l'appariement des données de la Caisse centrale de mutualité sociale agricole (CCMSA) et des données de mortalité du CépiDc-Inserm",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "surveillance,mortalité par suicide,agriculteurs",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1216,12 +1216,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "surveillancedelam-sante-travail",
+    "data-id": "surveillancedelamortalitép-sante-travail",
     "data-label": "Surveillance de la mortalité par suicide des salariés agricoles\n\nInscrit dans le 2e Plan de prévention du suicide dans le monde agricole",
     "data-description": "Cohorte de surveillance de la mortalité des salariés agricoles basée sur l'appariement des données de la Caisse centrale de mutualité sociale agricole (CCMSA) et des données de mortalité du CépiDc-Inserm",
     "data-url": "",
     "data-producer": "Santé Publique France",
-    "data-tags": "",
+    "data-tags": "surveillance,mortalité par suicide,salariés agricoles",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1237,7 +1237,7 @@
     "data-description": "Registre de données d'expostion",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,subtances et agents chimiques et biologiques",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1253,7 +1253,7 @@
     "data-description": "Outil de mise à disposition des données COLCHIC concernant les solvants",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,solvants",
     "data-access": "Accès restreint",
     "data-format": "impression",
     "data-record-count": "",
@@ -1269,7 +1269,7 @@
     "data-description": "Outil de mise à disposition des données COLCHIC concernant les fibres organisques ou inorganiques (hors amiante)",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,fibres organiques artificielles,fibres inorganiques hors amiante",
     "data-access": "Accès restreint",
     "data-format": "impression",
     "data-record-count": "",
@@ -1285,7 +1285,7 @@
     "data-description": "Registre de données d'expostion",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,subtances et agents chimiques",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1301,7 +1301,7 @@
     "data-description": "Registre de données d'expostion",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,exposition professionnelle,exposition respiratoire,amiante",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1317,7 +1317,7 @@
     "data-description": "Registre d'accidents du travail",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "accidents du travail,retour d'expérience,analyse d'accidents,prevention des accidents du travail",
     "data-access": "Accès restreint",
     "data-format": "impression",
     "data-record-count": "",
@@ -1333,7 +1333,7 @@
     "data-description": "Registre de compositions de mélanges",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,subtances et agents chimiques,mélanges,composition,produits chimiques",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1349,7 +1349,7 @@
     "data-description": "Registre de compositions de mélanges",
     "data-url": "",
     "data-producer": "INRS",
-    "data-tags": "",
+    "data-tags": "santé au travail,subtances et agents chimiques,mélanges,composition,produits chimiques",
     "data-access": "Accès restreint",
     "data-format": "Peu exploitable (ex : PDF)",
     "data-record-count": "",
@@ -1365,7 +1365,7 @@
     "data-description": "Observatoire",
     "data-url": "",
     "data-producer": "GIS EVREST",
-    "data-tags": "",
+    "data-tags": "Vécu au travail,santé infrapathologique",
     "data-access": "Accès restreint",
     "data-format": "Excel",
     "data-record-count": "",
@@ -1376,7 +1376,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "enquêtesantéetiti-sante-travail",
+    "data-id": "enquêtesantéetitinérairepr-sante-travail",
     "data-label": "Enquête Santé et Itinéraire Professionnel (SIP)",
     "data-description": "Contacté, sans réponse à ce jour",
     "data-url": "",
@@ -1397,7 +1397,7 @@
     "data-description": "Cohorte épidémiologique prospective",
     "data-url": "",
     "data-producer": "INSERM",
-    "data-tags": "",
+    "data-tags": "Cohorte,entreprise,EDF-GDF,morbidité,mortalité,faceurs biomécaniques,facteurs chimiques,facteurs psychosciaux,biobanque",
     "data-access": "Accès sous condition",
     "data-format": "",
     "data-record-count": "",
@@ -1413,7 +1413,7 @@
     "data-description": "Cohorte épidémiologique prospective en population générale adulte",
     "data-url": "",
     "data-producer": "INSERM",
-    "data-tags": "",
+    "data-tags": "Cohorte,population générale,adultes,morbidité,mortalité,facteurs biomécaniques,facteurs chimiques,facteurs psychosciaux,biobanque,échantillon représentatif",
     "data-access": "Accès sous condition",
     "data-format": "",
     "data-record-count": "",
@@ -1440,12 +1440,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "banquenationalede-sante-travail",
+    "data-id": "banquenationalededonnéesbn-sante-travail",
     "data-label": "Banque Nationale de Données BND",
     "data-description": "Base de données sur les AT/MP des agents des collectivités territoriales et hospitalières affiliés à la CNRACL",
     "data-url": "",
     "data-producer": "CNRACL - Fonds National de Prévention (Caisse des dépots)",
-    "data-tags": "",
+    "data-tags": "Accidents de service,de trajet,maladies professionnelles",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1456,12 +1456,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "basededonnéeshygi-sante-travail",
+    "data-id": "basededonnéeshygie-sante-travail",
     "data-label": "Base de données HYGIE",
     "data-description": "Système d'information pour la recherche sur les liens entre les parcours professionnels des salariés du secteur privé et leur consommation de prestations d'assurance maladie.",
     "data-url": "",
     "data-producer": "IRDES",
-    "data-tags": "",
+    "data-tags": "Santé,consommation de soins,idemnités journalières,accidents du travail,maladies professionnelles,travail,carrière professionnelle",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1472,7 +1472,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "sic(systèmedinfor-sante-travail",
+    "data-id": "sic(systèmedinformationcon-sante-travail",
     "data-label": "SIC (Système d'information Concret)",
     "data-description": "",
     "data-url": "",
@@ -1488,12 +1488,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "enquêtepermanentec-sante-travail",
+    "data-id": "enquêtepermanentecancerspro-sante-travail",
     "data-label": "Enquête Permanente Cancers Professionnels",
     "data-description": "Registre de (1) parcours professionnels, (2) d'expositions, et (3) de suivi de dossiers de déclaration de reconnaissance en maladie professionnelle de patients atteints de cancers en Seine-Saint-Denis",
     "data-url": "",
     "data-producer": "GISCOP 93",
-    "data-tags": "",
+    "data-tags": "santé au travail,cancers professionnels,Seine-Saint-Denis,connaissance,reconnaissance,prévention.",
     "data-access": "Accès restreint",
     "data-format": "Variable",
     "data-record-count": "",
@@ -1504,7 +1504,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "donnéesdusniiram(-sante-travail",
+    "data-id": "donnéesdusniiram(consommati-sante-travail",
     "data-label": "Données du SNIIRAM (consommations de soin, etc.)",
     "data-description": "",
     "data-url": "",
@@ -1520,7 +1520,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "basenationalesge-t-sante-travail",
+    "data-id": "basenationalesge-tapr(systè-sante-travail",
     "data-label": "Base nationale SGE-TAPR (Système de Gestion des Entreprises - Tarification Prévention",
     "data-description": "Base collectant les informations conformément à l'art. L422-2 du CSS : Les caisses d'assurance retraite et de la santé au travail recueillent et groupent dans le cadre de leur circonscription et pour les diverses catégories d'établissements tous renseignements permettant d'établir les statistiques des accidents du travail et des maladies professionnelles, en tenant compte de leurs causes et des circonstances dans lesquelles ils sont survenus, de leur fréquence et de leurs effets, notamment de la durée et de l'importance des incapacités qui en résultent.\nCes statistiques sont centralisées par la caisse nationale de l'assurance maladie et communiquées annuellement aux autorités compétentes de l'Etat.",
     "data-url": "",
@@ -1536,12 +1536,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "exporisq-hap:expos-sante-travail",
+    "data-id": "exporisq-hap:expositionprof-sante-travail",
     "data-label": "EXPORISQ-HAP : exposition professionnelle  aux Hydrocarbures Aromatiques Polycycliques (HAP) et activités à risques",
     "data-description": "Données d'exposition individuelle",
     "data-url": "",
     "data-producer": "Equipe de Médecine du Travail du CHU de Grenoble",
-    "data-tags": "",
+    "data-tags": "santé au travail,évaluation des risques,expologie",
     "data-access": "Accès restreint",
     "data-format": "",
     "data-record-count": "",
@@ -1552,12 +1552,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "acaciapstcentre(a-sante-travail",
+    "data-id": "acaciapstcentre(analysecol-sante-travail",
     "data-label": "ACACI.APST Centre\n(Analyse Collective des besoins diagnostic territorial)",
     "data-description": "Base administrative des effectifs suivis par les SSTI de la région Centre-Val de Loire, données d'expositions grandes enquêtes, données transversales répétées et longitudinales, données de sinistralité région Centre-Val de Loire",
     "data-url": "",
     "data-producer": "APST Centre-Val de Loire",
-    "data-tags": "",
+    "data-tags": "Santé au travail,risques professionnels,outil prospectif,diagnostic territorial,stratégie de prévention",
     "data-access": "Accès restreint",
     "data-format": "Excel, CSV",
     "data-record-count": "",
@@ -1568,7 +1568,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "systèmenationalde-sante-travail",
+    "data-id": "systèmenationaldegestionde-sante-travail",
     "data-label": "Système National de Gestion des Carrières",
     "data-description": "Contacté, sans réponse à ce jour",
     "data-url": "",
@@ -1584,7 +1584,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "déclarationobligato-sante-travail",
+    "data-id": "déclarationobligatoiredempl-sante-travail",
     "data-label": "Déclaration obligatoire d'emploi des travailleurs handicapés (DOETH)",
     "data-description": "Contacté, sans réponse à ce jour",
     "data-url": "",
@@ -1605,7 +1605,7 @@
     "data-description": "Registre national des résultats individuels de l'exposition professionnelle aux rayonnements ionisants",
     "data-url": "",
     "data-producer": "IRSN",
-    "data-tags": "",
+    "data-tags": "Expositions professionnelles,travailleurs,rayonnements ionisants",
     "data-access": "Accès sous condition",
     "data-format": "Excel",
     "data-record-count": "",
@@ -1621,7 +1621,7 @@
     "data-description": "Observatoire / registre de morbidité / pathologies induites par les produits phytosanitaires et les biocides",
     "data-url": "",
     "data-producer": "CCMSA",
-    "data-tags": "",
+    "data-tags": "Santé au travail,pathologies professionnelles,risque chimique,produits phytosanitaires",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1632,12 +1632,12 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "observatoiredeszoo-sante-travail",
+    "data-id": "observatoiredeszoonosesena-sante-travail",
     "data-label": "Observatoire des zoonoses en agriculture",
     "data-description": "Observatoire / registre de morbidité / zoonose",
     "data-url": "",
     "data-producer": "CCMSA",
-    "data-tags": "",
+    "data-tags": "Santé au travail,pathologies professionnelles,risque biologique,zoonoses",
     "data-access": "",
     "data-format": "",
     "data-record-count": "",
@@ -1653,7 +1653,7 @@
     "data-description": "Sérothèque",
     "data-url": "",
     "data-producer": "CCMSA",
-    "data-tags": "",
+    "data-tags": "santé au travail",
     "data-access": "Accès sous condition",
     "data-format": "Excel",
     "data-record-count": "",
@@ -1664,7 +1664,7 @@
     "datamap-perimeter": "France"
   },
   {
-    "data-id": "fréquentationréseau-sud-transports",
+    "data-id": "fréquentationréseauxtransdev-sud-transports",
     "data-label": "Fréquentation réseaux transdev",
     "data-description": "",
     "data-url": "",
@@ -1680,7 +1680,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "retardsdestrainse-sud-transports",
+    "data-id": "retardsdestrainsettrainss-sud-transports",
     "data-label": "Retards des trains et trains supprimés (TER)",
     "data-description": "",
     "data-url": "",
@@ -1696,7 +1696,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "utilisationdurésea-sud-transports",
+    "data-id": "utilisationduréseauparles-sud-transports",
     "data-label": "Utilisation du réseau par les trains",
     "data-description": "",
     "data-url": "",
@@ -1712,7 +1712,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "comptagesdevéhicul-sud-transports",
+    "data-id": "comptagesdevéhiculesdansl-sud-transports",
     "data-label": "Comptages de véhicules dans l'aire urbaine de Marseille",
     "data-description": "200 stations de comptage",
     "data-url": "",
@@ -1728,7 +1728,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "donnéesissuesdesp-sud-transports",
+    "data-id": "donnéesissuesdespatrouilles-sud-transports",
     "data-label": "Données issues des patrouilles sur les routes",
     "data-description": "Panneaux renversés, animaux sauvages écrasés... Echantillons pas assez représentatifs en raison d'un nombre d'incidents reportés très inférieur à la réalité",
     "data-url": "",
@@ -1744,7 +1744,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "nombredepassagers-sud-transports",
+    "data-id": "nombredepassagerspardestin-sud-transports",
     "data-label": "Nombre de passagers par destination et par mois depuis l'Aéroport Marseille Provence",
     "data-description": "Mois ; destination ; nombre de passagers",
     "data-url": "",
@@ -1760,7 +1760,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "volsréalisés-laé-sud-transports",
+    "data-id": "volsréalisés-laéroportmar-sud-transports",
     "data-label": "Vols réalisés - l'Aéroport Marseille Provence",
     "data-description": "Date ; heure ; destination",
     "data-url": "",
@@ -1776,7 +1776,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "fretaérien:tonnag-sud-transports",
+    "data-id": "fretaérien:tonnageparmois-sud-transports",
     "data-label": "Fret aérien : tonnage par mois - Aéroport Marseille Provence",
     "data-description": "Mois ; volume de fret (en tonnes)",
     "data-url": "",
@@ -1792,7 +1792,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "donnéesdescentres-sud-transports",
+    "data-id": "donnéesdescentresdecontrôl-sud-transports",
     "data-label": "Données des centres de contrôles techniques",
     "data-description": "Géolocalisation des centres de controles techniques PL et VL",
     "data-url": "",
@@ -1808,7 +1808,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "mobilitésprofession-sud-transports",
+    "data-id": "mobilitésprofessionnellesdes-sud-transports",
     "data-label": "Mobilités professionnelles des individus résidant ou travaillant en Provence-Alpes-Côte d'Azur : déplacements commune de résidence / commune de travail en 2015",
     "data-description": "Données bilocalisées domicile-travail à la commune, décrivant les caractéristiques de l'individu, de son ménage et de sa résidence principale,\nvariables de tri : commune de résidence / commune de travail (y compris commune de travail située dans les pays frontaliers),\nchamp : individus actifs ayant un emploi et âgés de 15 ans ou plus.",
     "data-url": "https://trouver.datasud.fr/dataset/mobilites-professionnelles-des-individus-residant-ou-travaillant-en-provence-alpes-cote-azur",
@@ -1824,7 +1824,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "migrationsrésidenti-sud-transports",
+    "data-id": "migrationsrésidentiellesvers-sud-transports",
     "data-label": "Migrations résidentielles vers/en provenance de Provence-Alpes-Côte d'Azur : localisation à la commune de résidence et à la commune de résidence antérieure en 2015",
     "data-description": "Migrations résidentielles vers/en provenance de Provence-Alpes-Côte d'Azur : localisation à la commune de résidence et à la commune de résidence antérieure en 2015.\n\nLe fichier contient les données bilocalisées résidence actuelle-résidence antérieure (1 an auparavant), décrivant les caractéristiques de l'individu ainsi que celles du ménage auquel il appartient.",
     "data-url": "https://trouver.datasud.fr/dataset/migrations-residentielles-vers-en-provenance-de-provence-alpes-cote-dazur-localisation-a-la-commune",
@@ -1840,7 +1840,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "nombredéquipements-sud-transports",
+    "data-id": "nombredéquipementsetdeser-sud-transports",
     "data-label": "Nombre d'équipements et de services dans le domaine du tourisme et du transport en 2018",
     "data-description": "",
     "data-url": "https://www.insee.fr/fr/statistiques/3568638?sommaire=3568656",
@@ -1856,7 +1856,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "donnéesdelapipôl-sud-transports",
+    "data-id": "donnéesdelapipôleemploi-sud-transports",
     "data-label": "Données de l'API Pôle Emploi",
     "data-description": "",
     "data-url": "",
@@ -1872,7 +1872,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "donnéessocio-démogr-sud-transports",
+    "data-id": "donnéessocio-démographiques-sud-transports",
     "data-label": "Données socio-démographiques",
     "data-description": "",
     "data-url": "",
@@ -1888,7 +1888,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "infrastructuresdet-sud-transports",
+    "data-id": "infrastructuresdetransporte-sud-transports",
     "data-label": "Infrastructures de transport et mobilité sur OpenStreetMap",
     "data-description": "",
     "data-url": "",
@@ -1904,7 +1904,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "registreélectroniqu-sud-transports",
+    "data-id": "registreélectroniquenational-sud-transports",
     "data-label": "Registre électronique national des entreprises de transport",
     "data-description": "",
     "data-url": "https://www.ecologique-solidaire.gouv.fr/liste-des-entreprises-inscrites-au-registre-electronique-national-des-entreprises-transport-route-et",
@@ -1920,7 +1920,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "gtfsbusurbainsda-sud-transports",
+    "data-id": "gtfsbusurbainsdanslesbou-sud-transports",
     "data-label": "GTFS  bus urbains dans les Bouches du Rhône",
     "data-description": "Aix En Bus \nCar Treize\nCiota en Bus\nBus des Cigales\nBus des colines\nBus de la Marcouline\nBus de l'Etang\nUlysse\nLa côte Bleue",
     "data-url": "",
@@ -1936,7 +1936,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "gtfsréseaulignesd-sud-transports",
+    "data-id": "gtfsréseaulignesdazur-sud-transports",
     "data-label": "GTFS Réseau Lignes d'Azur",
     "data-description": "",
     "data-url": "http://opendata.nicecotedazur.org/data/dataset/export-quotidien-au-format-gtfs-du-reseau-de-transport-lignes-d-azur",
@@ -1952,7 +1952,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "gtfsdelamétropole-sud-transports",
+    "data-id": "gtfsdelamétropoleaix-marse-sud-transports",
     "data-label": "GTFS de la métropole Aix-Marseille",
     "data-description": "",
     "data-url": "https://www.lepilote.com/fr/open-data/83",
@@ -1968,7 +1968,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "lignesexpressesrég-sud-transports",
+    "data-id": "lignesexpressesrégionales:-sud-transports",
     "data-label": "Lignes Expresses Régionales : Points d'arrêts et horaires des lignes",
     "data-description": "Horaires des Lignes Express Régionales avec les points d’arrêts, les calendriers, et les routes.\nDonnées publiées en Open Data par la Direction des Trains Régionaux et de l'Intermodalité\nMise à jour quotidienne par extraction automatisée du système d'information multimodal régional.",
     "data-url": "https://trouver.datasud.fr/dataset/lignes-expresses-regionales-points-darrets-et-horaires-des-lignes",
@@ -1984,7 +1984,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "lignesdautocarsin-sud-transports",
+    "data-id": "lignesdautocarsinterurbains-sud-transports",
     "data-label": "Lignes d'autocars interurbains de la Région Sud Provence-Alpes-Côte d'Azur",
     "data-description": "Les horaires des Lignes interurbaines avec les points d’arrêts, les calendriers, et les routes.\nLes données sont mise à jour quotidiennement.\nLes données sont disponibles au format GTFS.",
     "data-url": "https://trouver.datasud.fr/dataset/lignes-autocars-interurbains-regionsud",
@@ -2000,7 +2000,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "gtfsdeflixbuseth-sud-transports",
+    "data-id": "gtfsdeflixbusethistorique-sud-transports",
     "data-label": "GTFS de Flixbus et historique des GTFS",
     "data-description": "Horaires et lignes de la compagnie FlixBus",
     "data-url": "https://transitfeeds.com/p/flixbus/795?p=1",
@@ -2016,7 +2016,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "infrastructurescycl-sud-transports",
+    "data-id": "infrastructurescyclables-sud-transports",
     "data-label": "Infrastructures cyclables",
     "data-description": "",
     "data-url": "",
@@ -2032,7 +2032,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "régularitémensuelle-sud-transports",
+    "data-id": "régularitémensuelleterdepui-sud-transports",
     "data-label": "Régularité mensuelle TER depuis 2013",
     "data-description": "Régularité mensuelle TER depuis janvier 2013.\n\nSur TER, la régularité est calculée lors de l’arrivée du train à la dernière gare de son parcours (terminus). Ce mode de calcul, qui n’intègre pas les gares intermédiaires, propose le retard cumulé sur l’ensemble d’un trajet.\n\nL’indicateur utilisé est celui de la « régularité à cinq minutes » : un train est considéré en retard s’il arrive cinq minutes après son heure prévue. Les données proposées ne sont pas détaillées par ligne TER mais agrégées pour tous les TER d’une Région.\n\nEn accord avec les Régions qui sont les autorités organisatrices des transports pour TER, un train supprimé avant 16h la veille de sa circulation ne sera pas comptabilisé. En revanche, si l’annonce de sa suppression n’a pu être faite la veille avant 16h, le train sera bien comptabilisé comme un train supprimé, que cette suppression soit totale ou partielle (le train a effectué qu’une partie de son parcours).",
     "data-url": "https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-ter/table/?disjunctive.region&sort=-date&refine.region=Provence+Alpes+C%C3%B4te+d%27Azur",
@@ -2048,7 +2048,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "tarificationterpar-sud-transports",
+    "data-id": "tarificationterparliaisons-sud-transports",
     "data-label": "Tarification TER par liaisons (Origine-Destination)",
     "data-description": "Découvrez la tarification des trajets en TER par origine-destination, ainsi que les différents tarifs des abonnements mensuels.\n\nTarif normal = Tarif normal pour un trajet en TER en 2nde classe\nAbonnement Jeune Mensuel = Abonnement mensuel illimité pour un trajet en TER en 2nde classe sur une relation déterminée à destination des Jeunes (plus d’informations sur le site TER de votre région)\nAbonnement Tout Public Mensuel = Abonnement mensuel illimité pour un trajet en TER en 2nde classe sur une relation déterminée (plus d’informations sur le site TER de votre région)\nConsultez le barème de référence régional de tarification TER en téléchargeant les fichiers PDF en pièce jointe.\n\nPour plus d'informations, rendez-vous sur les sites TER de chaque région.",
     "data-url": "https://ressources.data.sncf.com/explore/dataset/tarifs-ter-par-od/table/?disjunctive.region&sort=region&refine.region=PROVENCE+ALPES+C%C3%94TE+D%27AZUR",
@@ -2080,7 +2080,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "fréquentationengar-sud-transports",
+    "data-id": "fréquentationengares-sud-transports",
     "data-label": "Fréquentation en gares",
     "data-description": "Ce jeu de données représente la fréquentation annuelle de l’ensemble des 3000 gares voyageurs de 2015 à 2018.\n\nCes informations sont issues d’une part des données de billetterie pour le trafic national et régional hors Ile-de-France, et d’autre part d’une extrapolation pour le trafic régional Ile-de-France à partir des comptages réalisés tous les 3 à 4 ans et publiés par ailleurs en OpenData.\n\nLa méthodologie de calcul a été revue afin de fiabiliser les estimations de fréquentation annuelle, notamment concernant la prise en compte des voyages effectués par les abonnés des transports conventionnés régionaux et les extrapolations réalisées à partir des comptages pour le trafic régional Ile-de-France.\n\nPar ailleurs, une estimation de la proportion des non voyageurs issue des enquêtes en gare a été ajoutée. En l’absence d’enquête, un taux par défaut a été pris (20% pour les gares a et b hors Ile-de-France et 0% pour les gares b Ile-de-France et c).\n\nCes données sont mises à jour annuellement.",
     "data-url": "https://data.sncf.com/explore/dataset/frequentation-gares/table/?sort=nom_gare&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJ0cmVlbWFwIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoidG90YWxfdm95YWdldXJzX25vbl92b3lhZ2V1cnNfMjAxOCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLWN1c3RvbSJ9XSwieEF4aXMiOiJub21fZ2FyZSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiJzZXJpZTEtMSIsInNlcmllc0JyZWFrZG93biI6IiIsInNlcmllc0JyZWFrZG93blRpbWVzY2FsZSI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiZnJlcXVlbnRhdGlvbi1nYXJlcyIsIm9wdGlvbnMiOnsic29ydCI6Im5vbV9nYXJlIn19fV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9",
@@ -2112,7 +2112,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "cartographiedesair-sud-transports",
+    "data-id": "cartographiedesairesdestat-sud-transports",
     "data-label": "Cartographie des aires de stationnement pour les personnes à mobilité réduite (Nice)",
     "data-description": "",
     "data-url": "http://opendata.nicecotedazur.org/data/dataset/cartographie-des-aires-de-stationnement-pour-les-personnes-a-mobilite-reduite-nice",
@@ -2128,7 +2128,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "localisationdesbor-sud-transports",
+    "data-id": "localisationdesbornesderec-sud-transports",
     "data-label": "Localisation des bornes de recharge des véhicules électriques",
     "data-description": "",
     "data-url": "",
@@ -2160,7 +2160,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "basededonnéesdes-sud-transports",
+    "data-id": "basededonnéesdesaccidents-sud-transports",
     "data-label": "Base de données des accidents corporels de la circulation",
     "data-description": "Pour chaque accident corporel (soit un accident survenu sur une voie ouverte à la circulation publique, impliquant au moins un véhicule et ayant fait au moins une victime ayant nécessité des soins), des saisies d’information décrivant l’accident sont effectuées par l’unité des forces de l’ordre (police, gendarmerie, etc.) qui est intervenue sur le lieu de l’accident. Ces saisies sont rassemblées dans une fiche intitulée bulletin d’analyse des accidents corporels. L’ensemble de ces fiches constitue le fichier national des accidents corporels de la circulation dit \" Fichier BAAC \" administré par l’Observatoire national interministériel de la sécurité routière \"ONISR\".\n\nLes bases de données, extraites du fichier BAAC, répertorient l'intégralité des accidents corporels de la circulation intervenus durant une année précise en France métropolitaine ainsi que les départements d’Outre-mer (Guadeloupe, Guyane, Martinique, La Réunion et Mayotte depuis 2012) avec une description simplifiée. Cela comprend des informations de localisation de l’accident, telles que renseignées ainsi que des informations concernant les caractéristiques de l’accident et son lieu, les véhicules impliqués et leurs victimes.\n\nPar rapport aux bases de données agrégées 2005-2010 et 2006-2011 actuellement disponibles sur le site www.data.gouv.fr, les bases de données de 2005 à 2018 sont désormais annuelles et composées de 4 fichiers (Caractéristiques – Lieux – Véhicules – Usagers ) au format csv.\n\nAvertissement : Les données sur la qualification de blessé hospitalisé pour l’année 2018 ne peuvent être comparées aux années précédentes suite à des modifications de process de saisie des forces de l’ordre.\n\nCes bases occultent néanmoins certaines données spécifiques relatives aux usagers et aux véhicules et à leur comportement dans la mesure où la divulgation de ces données porterait atteinte à la protection de la vie privée des personnes physiques aisément identifiables ou ferait apparaître le comportement de telles personnes alors que la divulgation de ce comportement pourrait leur porter préjudice (avis de la CADA – 2 janvier 2012).",
     "data-url": "https://www.data.gouv.fr/fr/datasets/base-de-donnees-accidents-corporels-de-la-circulation/",
@@ -2176,7 +2176,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "radarsautomatiques-sud-transports",
+    "data-id": "radarsautomatiques:bilansa-sud-transports",
     "data-label": "Radars automatiques : bilans annuels du nombre de flashs",
     "data-description": "Bilans annuels concernant le nombre de flashs générés par chacun des radars fixes au cours de l’année.\n\nLes radars fixes, avec ou sans la fonction double sens.\nLes radars discriminants, qui sont capables de verbaliser les poids lourds sur leur vitesse limite autorisée spécifique.\nLes radars tronçons qui verbalise les excès de vitesse sur la vitesse moyenne du véhicule sur le tronçon.\nLes radars sont classés par département. Le numéro de la route et la direction sont indiqués, ainsi que le sens de circulation et la date de mise en service.\n\nLes données d'origine sont situées sur le site de la sécurité routière, en format PDF.\nLes fichiers publiés ici sont issus de ces PDF (utilisation du logiciel Tabula pour extraire les données et les convertir au format CSV).",
     "data-url": "https://www.data.gouv.fr/fr/datasets/radars-automatiques-bilans-annuels-du-nombre-de-flashs/",
@@ -2192,7 +2192,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "indicateursdetrafi-sud-transports",
+    "data-id": "indicateursdetraficroutier-sud-transports",
     "data-label": "Indicateurs de trafic routier journalier (tous véhicules et poids lourds)",
     "data-description": "Les indicateurs ci-dessous montrent l'évolution des trafics pour un certain nombre de régions françaises. Ils sont construits pour comparer le trafic actuel à une situation \"avant crise\". Les courbes permettent donc la lecture directe de la baisse de trafic observée (en pourcentage) par rapport à la situation de base (le « 0 »).\n\nCes indicateurs sont issus de données de trafic de plus de 1200 stations de comptage réparties sur l’ensemble du réseau routier national non concédé.",
     "data-url": "http://dataviz.cerema.fr/trafic-routier/",
@@ -2224,7 +2224,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "donnéesissuesdure-sud-transports",
+    "data-id": "donnéesissuesduregistrede-sud-transports",
     "data-label": "Données issues du registre de preuves de covoiturage",
     "data-description": "",
     "data-url": "https://www.data.gouv.fr/fr/datasets/trajets-realises-en-covoiturage-registre-de-preuve-de-covoiturage/",
@@ -2272,7 +2272,7 @@
     "datamap-perimeter": "Région Sud"
   },
   {
-    "data-id": "traficportuairede-sud-transports",
+    "data-id": "traficportuairedemarseille-sud-transports",
     "data-label": "Trafic portuaire de Marseille Fos",
     "data-description": "Trafics portuaire de 2010 à 2017",
     "data-url": "https://trouver.datasud.fr/dataset/trafic-portuaire-de-marseille-fos",
