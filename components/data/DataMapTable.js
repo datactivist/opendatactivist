@@ -6,6 +6,43 @@ const DataMapTable = ({ search }) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
+    const thElements = document.querySelectorAll("th");
+
+    thElements.forEach((th) => {
+        let startOffset;
+
+        th.style.position = 'relative';
+
+        const grip = document.createElement('div');
+        grip.innerHTML = "&nbsp;";
+        grip.style.top = 0;
+        grip.style.right = 0;
+        grip.style.bottom = 0;
+        grip.style.width = '10px';
+        grip.style.position = 'absolute';
+        grip.style.cursor = 'col-resize';
+        grip.addEventListener('mousedown', mouseDownHandler);
+        th.appendChild(grip);
+
+        function mouseDownHandler(e) {
+            startOffset = th.offsetWidth - e.pageX;
+            document.addEventListener('mousemove', mouseMoveHandler);
+            document.addEventListener('mouseup', mouseUpHandler);
+        }
+
+        function mouseMoveHandler(e) {
+            th.style.width = startOffset + e.pageX + 'px';
+        }
+
+        function mouseUpHandler() {
+            document.removeEventListener('mousemove', mouseMoveHandler);
+            document.removeEventListener('mouseup', mouseUpHandler);
+        }
+    });
+}, []);
+
+
+  useEffect(() => {
     setData([]);
   
     const url = search 

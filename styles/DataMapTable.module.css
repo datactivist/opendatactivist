@@ -7,7 +7,8 @@
 
 .tableData {
     text-align: left;
-    padding: 15px;
+    font-size: 14px;
+    padding: 8px;
     max-height: 70px; 
     overflow:hidden; 
     white-space: nowrap; 
@@ -21,7 +22,9 @@
     top: 0;
     position: sticky;
     z-index: 10;
-    background-color: rgb(241, 241, 241); 
+    background-color: rgb(241, 241, 241);
+    white-space: nowrap; 
+    padding: 10px;
 }
 
 .tableHeader:first-child {
@@ -70,11 +73,11 @@
     color: #ffffff;
     text-decoration: none;
     background-color: #173541;
-    padding: 5px 10px; 
+    padding: 5px 5px; 
     border-radius: 5px;
     display: inline-block; 
     transition: background-color 0.2s ease; 
-    font-size: 14px;
+    font-size: 12px;
 }
   
 .tableLink:hover {
@@ -116,3 +119,45 @@
 .tdWidthExtraLarge {
     width: 450px;
 }
+
+.container {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchForm {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+  
+  .searchForm input {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .searchForm input:focus {
+    border-color: #173541;
+  }
+  
+  .searchForm button {
+    background-color: #173541;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .searchForm button:hover {
+    background-color: #E95459;
+  }
