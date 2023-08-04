@@ -4,68 +4,36 @@ import { promisify } from 'util';
 
 const readFileAsync = promisify(fs.readFile);
 
-async function getDataFromFile(filename) {
-  const filePath = path.join(process.cwd(), 'public', 'datamap', filename);
-  const fileContents = await readFileAsync(filePath, 'utf8');
-  return JSON.parse(fileContents);
+async function getDataFromFile(fileName) {
+  const filePath = path.join(process.cwd(), 'public', 'datamap', fileName);
+  const fileData = await readFileAsync(filePath, 'utf8');
+  return JSON.parse(fileData);
 }
 
-async function handler(req, res) {
-  if (req.method !== 'GET') {
-    res.status(400).send({ message: 'Only GET requests are allowed' });
-    return;
-  }
+export default async function handler(req, res) {
+  const { query } = req;
 
-  const { query: { producerlabel, tag, search, all } } = req;
-
+  // Get data from files
   const data = await getDataFromFile('data.json');
   const producers = await getDataFromFile('producers.json');
   const tags = await getDataFromFile('tags.json');
 
-  if (all === 'data') {
-    res.status(200).json(data);
-    return;
-  } else if (all === 'producers') {
-    res.status(200).json(producers);
-    return;
-  } else if (all === 'tags') {
+  if (query.alltags) {
     res.status(200).json(tags);
-    return;
-  }
-
-  let result = null;
-
-  if (producerlabel) {
-    const producer = producers.find(p => p['producer-label'].toLowerCase() === producerlabel.toLowerCase());
-    if (producer) {
-      const dataIds = producer.data.split(',');
-      result = data.filter(d => dataIds.includes(d['data-id']));
-    }
-  } else if (tag) {
-    const tagEntry = tags.find(t => t.tag.toLowerCase() === tag.toLowerCase());
-    if (tagEntry) {
-      const dataIds = tagEntry.data.split(',');
-      result = data.filter(d => dataIds.includes(d['data-id']));
-    }
-  } else if (search) {
-    const searchLower = search.toLowerCase();
-    result = data.filter(d => 
-      d['data-label'].toLowerCase().includes(searchLower) || 
-      d['data-producer'].toLowerCase().includes(searchLower) ||
-      d['data-description'].toLowerCase().includes(searchLower) ||
-      d['datamap-perimeter'].toLowerCase().includes(searchLower)
-    );
+  } else if (query.allproducers) {
+    res.status(200).json(producers);
+  } else if (query.data === 'all') { // <-- Changed this line
+    res.status(200).json(data);
+  } else if (query.producerlabel) {
+    const producerData = data.filter(d => d['data-producer'] === query.producerlabel);
+    res.status(200).json(producerData);
+  } else if (query.tag) {
+    const tagData = data.filter(d => d['data-tags'].includes(query.tag));
+    res.status(200).json(tagData);
+  } else if (query['datamap-id']) {
+    const datamapData = data.filter(d => d['datamap-id'] === query['datamap-id']);
+    res.status(200).json(datamapData);
   } else {
-    res.status(400).send({ message: 'Please specify either producerlabel, tag, search, or all' });
-    return;
+    res.status(400).json({ error: 'Invalid query parameter' });
   }
-
-  if (!result || result.length === 0) {
-    res.status(404).send({ message: 'No results found' });
-    return;
-  }
-
-  res.status(200).json(result);
 }
-
-export default handler;
