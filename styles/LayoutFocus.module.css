@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.appBar {
+  background-color: white; 
+  color: #333;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e5e5e5;
+  position: sticky;
+  z-index: 1000;
+}
+
+.appBar.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.link {
+  text-decoration: none;
+  color: #173541;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 7px;
+}
+
+.link:hover {
+  font-weight: 800;
+  color: #e95459;
+}
+
+.footer {
+  padding: 1rem 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #173541;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.container {
+  padding: 2rem 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+.hamburgerButton {
+  display: none; 
+  font-size: 30px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.titleContainer, .logo {
+  display: inline-block;  
+}
+
+@media screen and (max-width: 600px) {
+  .titleContainer, .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hamburgerButton {
+    display: block;
+    color: #173541;
+    background-color: transparent;
+    border-width: 0px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .navLinks.showMenu {
+    display:inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+}
+
+.footerLink {
+  color: #333;
+  text-decoration: none;
+  margin-right: 40px;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.footerLink:hover {
+  color: #ffffff;
+  background-color: #e95459;
+  font-weight: bold;
+}
