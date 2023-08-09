@@ -1,0 +1,14 @@
+[
+    {
+      "datamap-id": "idf-transports",
+      "datamap-name":"Cartographie des données transports et mobilités en Île de France"
+    },
+    {
+        "datamap-id": "sante-travail",
+        "datamap-name":"Cartographie des données santé au travail"
+    },
+    {
+        "datamap-id": "sud-transports",
+        "datamap-name":"Cartographie des données transports et mobilités en Région Sud"
+    }
+]

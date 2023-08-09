@@ -9,7 +9,7 @@ const DataMapSearch2 = ({ data, setData }) => {
   
       if (event.target.value !== '') {
         const filteredData = data.filter((row) =>
-          ['data-label', 'data-description', 'data-tags'].some((key) =>
+          ['data-label', 'data-description', 'data-tags', 'data-producer'].some((key) =>
             row[key].toLowerCase().includes(event.target.value.toLowerCase())
           )
         );

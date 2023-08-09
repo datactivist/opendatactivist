@@ -15,9 +15,10 @@
   .table th {
     position: sticky;
     top: 0;
-    background:#e8e8e8 ;
+    background:#fbfbfb ;
     border-bottom: 3px solid #ddd !important;
     font-size: 15px;
+    top: -2px
   }
   
   .table th:first-child {
@@ -43,9 +44,23 @@
     position: sticky;
     left: 0;
     background: rgb(247, 247, 247);
-    width: 400px;
+    width: 450px;
     border-right: 3px solid #ddd !important;
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .resizeHandle {
+    cursor: ew-resize;
+    width: 5px;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .resizeHandle:hover {
+    border-right: 5px solid rgb(143, 203, 255);
   }
   
   .rowHeight {
@@ -69,6 +84,17 @@
     font-size: 14px;
 }
 
+.format {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 14px;
+}
+
 .tag {
     display: inline-block;
     padding: 5px;
@@ -77,6 +103,17 @@
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 14px;
+}
+
+.producer {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 1px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #efefef;
+  font-size: 14px;
 }
 
 .tableLink {
@@ -147,4 +184,3 @@
   .buttonText {
     font-size: 0.8em;
   }
-  
