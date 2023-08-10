@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     res.status(200).json(tags);
   } else if (query.allproducers) {
     res.status(200).json(producers);
-  } else if (query.data === 'all') { // <-- Changed this line
+  } else if (query.data === 'all') { 
     res.status(200).json(data);
   } else if (query.producerlabel) {
     const producerData = data.filter(d => d['data-producer'] === query.producerlabel);

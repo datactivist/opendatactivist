@@ -14,6 +14,11 @@ partners:
   - region-sud
 --- 
 
-# Liste des ressources
+# Liste des données
 
-%%JsonGallery:benchmark-ort, Exemple de données%%
+<iframe
+  width="100%"
+  height="800"
+  src="/view/datamaplight?data&datamap-id=sud-transports"
+  sandbox="allow-same-origin allow-scripts">
+</iframe>

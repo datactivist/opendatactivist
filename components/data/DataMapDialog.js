@@ -3,10 +3,25 @@ import { Dialog, DialogTitle, DialogContent as MuiDialogContent, Typography } fr
 import styles from '../../styles/DataMapTable2.module.css';
 import { styled } from '@mui/system';
 
-const colors = [
-  '#ffadad', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff',
-  '#a0c4ff', '#bdb2ff', '#ffc6ff', '#fffffc', '#b5b9bc'
-];
+const getColorByLength = (length) => {
+  if (length < 3) return '#';
+  if (length === 3) return '#fff1e6';
+  if (length === 4) return '#fde2e4';
+  if (length === 5) return '#caffbf';
+  if (length === 6) return '#e2ece9';
+  if (length === 7) return '#bee1e6';
+  if (length === 8) return '#f0efeb';
+  if (length === 9) return '#eae4e9';
+  if (length === 10) return '#dfe7fd';
+  if (length === 11) return '#cddafd';
+  if (length === 12) return '#d7e1fd';
+  if (length === 13) return '#f9c6c9';
+  if (length === 14) return '#dbcdf0';
+  if (length === 15) return '#c6def1';
+  if (length === 16) return '#c9e4de';
+  if (length === 17) return '#faedcb';
+  return '#f5efe8'; 
+}; 
 
 const accessColors = {
   "Open data": "#023047",
@@ -89,13 +104,13 @@ const DataMapDialog = ({ open, onClose, data }) => {
                       {producer.trim()}
                     </span>
                   ))
-                ) : field === 'data-tags' ? data[field].split(',').map((tag, idx) => (
+                ) : field === 'data-tags' ? data[field].split(',').map((tag) => (
                   <span 
-                    key={idx} 
-                    className={styles.tag}
-                    style={{ backgroundColor: colors[idx % colors.length] }}>
-                    {tag.trim()}
-                  </span>
+                  key={index} 
+                  className={styles.tag}
+                  style={{ backgroundColor: getColorByLength(tag.trim().length) }}>
+                  {tag.trim()}
+                </span>
                 )) : (
                   data[field]
                 )}
