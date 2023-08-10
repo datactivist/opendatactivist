@@ -10,10 +10,25 @@ const accessColors = {
   "Aucun accès": "#fb8500",
 };
 
-const colors = [
-  '#ffadad', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff',
-  '#a0c4ff', '#bdb2ff', '#ffc6ff', '#fffffc', '#b5b9bc'
-];  
+const getColorByLength = (length) => {
+  if (length < 3) return '#eae4e9';
+  if (length === 3) return '#fff1e6';
+  if (length === 4) return '#fde2e4';
+  if (length === 5) return '#fad2e1';
+  if (length === 6) return '#e2ece9';
+  if (length === 7) return '#bee1e6';
+  if (length === 8) return '#f0efeb';
+  if (length === 9) return '#caffbf';
+  if (length === 10) return '#dfe7fd';
+  if (length === 11) return '#cddafd';
+  if (length === 12) return '#d7e1fd';
+  if (length === 13) return '#f9c6c9';
+  if (length === 14) return '#dbcdf0';
+  if (length === 15) return '#c6def1';
+  if (length === 16) return '#c9e4de';
+  if (length === 17) return '#faedcb';
+  return '#f5efe8'; 
+}; 
 
 const formatColors = {
   "API":"#90be6d",
@@ -122,7 +137,9 @@ const DataMapTable2 = ({ data }) => {
                   </div>
                 </td>
                 <td>{row['data-description']}</td>
-                <td className={styles.tableData}><a href={row['data-url']} className={styles.tableLink}>🔗 Voir les données</a></td>
+                <td className={styles.tableData}>
+                  {row['data-url'] ? <a href={row['data-url']} className={styles.tableLink}>🔗 Voir les données</a> : null}
+                </td>
                 <td className={styles.tableData}>
                 {row['data-producer'].split(',').map((producer, index) => (
                   <span key={index} className={styles.producer}>
@@ -130,16 +147,16 @@ const DataMapTable2 = ({ data }) => {
                   </span>
                 ))}
               </td>
-                <td className={styles.tableData}>
-                  {row['data-tags'].split(',').map((tag, index) => (
-                    <span 
-                      key={index} 
-                      className={styles.tag}
-                      style={{ backgroundColor: colors[index % colors.length] }}>
-                      {tag.trim()}
-                    </span>
-                  ))}
-                </td>      
+              <td className={styles.tableData}>
+              {row['data-tags'].split(',').map((tag, index) => (
+                <span 
+                  key={index} 
+                  className={styles.tag}
+                  style={{ backgroundColor: getColorByLength(tag.trim().length) }}>
+                  {tag.trim()}
+                </span>
+              ))}
+            </td>     
                 <td>
                   {row['data-access'].split(',').map((access, index) => (
                     <span 
