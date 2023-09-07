@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../../styles/DataMapCard.module.css';
+import DataMapDialog from './DataMapDialog';
 
 const DataMapCard = ({ data }) => {
+  const [dialogOpen, setDialogOpen] = useState(false);
   const producers = data['data-producer'].split(',');
 
   const getColorByLength = (length) => {
@@ -26,24 +28,39 @@ const DataMapCard = ({ data }) => {
 
   return (
     <div className={styles.card}>
+      <DataMapDialog 
+        open={dialogOpen} 
+        onClose={() => setDialogOpen(false)} 
+        data={data} 
+      />
+      <button 
+        className={styles.expandButton}
+        onClick={() => setDialogOpen(true)}
+        title="Voir la fiche"
+      >
+        <img src="/images/icons/view.svg" alt="expand" style={{width: '24px', height: '24px'}} />
+      </button>
+
       <h3 className={styles.cardTitle}>{data['data-label']}</h3>
       <p className={styles.cardDescription}>{data['data-description']}</p>
       {data['data-url'] ? <a href={data['data-url']} className={styles.cardLink}>🔗 Voir les données</a> : null}
+      
       <div>
         {producers.map((producer, index) => (
           <span key={index} className={styles.cardProducer}>{producer}</span>
         ))}
       </div>
+      
       <div>
-        {data['data-tags'].split(',').map((tag, index) => (
-          <span 
-            key={index} 
-            className={styles.tag}
-            style={{ backgroundColor: getColorByLength(tag.trim().length) }}>
-            {tag.trim()}
-          </span>
-        ))}
-      </div>
+      {data['data-tags'].split(',').slice(0, 3).map((tag, index) => (
+        <span 
+          key={index} 
+          className={styles.tag}
+          style={{ backgroundColor: getColorByLength(tag.trim().length) }}>
+          {tag.trim()}
+        </span>
+      ))}
+    </div>
     </div>
   );
 };
