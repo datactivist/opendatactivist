@@ -15,4 +15,11 @@ authors:
 
 # Liste des données
 
-%%JsonGallery:carto-sante-travail%%
+### [👉 Accéder à la cartographie de données](/datamap?data=&datamap-id=sante-travail&view=gallery)
+
+<iframe
+  width="100%"
+  height="800"
+  src="/view/datamaplight?data&datamap-id=sante-travail"
+  sandbox="allow-same-origin allow-scripts">
+</iframe>
