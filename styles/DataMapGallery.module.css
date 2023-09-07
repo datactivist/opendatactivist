@@ -1,5 +1,11 @@
 .galleryContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* Align cards to the start */
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align cards to the start */
+  background: linear-gradient(135deg, #f3f9fb, #fff4f9f1);
+}
+
+
+
+
+
