@@ -28,15 +28,51 @@
 
 .link {
   text-decoration: none;
-  color: #173541;
+  color: #828282;
   font-size: 1.2rem;
-  font-weight: 600;
-  margin: 7px;
+  font-weight: 800;
+  margin: 5px;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .link:hover {
   font-weight: 800;
   color: #e95459;
+}
+
+.userContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  background-color: white;
+  display: none;
+}
+
+.dropdownOpen {
+  display: block;
+}
+
+.dropdownItem {
+  font-size: 0.8rem; 
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff; 
+  background-color: #173541; 
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #e95459; 
+  color: #ffffff;
 }
 
 .footer {
