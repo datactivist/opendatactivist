@@ -22,7 +22,16 @@ const Layout = ({ children }) => {
     setMenuOpen(!menuOpen);
   }
 
+  const forceUpdate = React.useReducer(bool => !bool, false)[1];
+
   useEffect(() => {
+    const session = supabase.auth.getSession();
+    
+    setLoggedIn(!!session);
+
+    // Force a re-render
+    forceUpdate();
+
     // Listen for session updates
     const { data: authListener } = supabase.auth.onAuthStateChange((event) => {
       if (event === 'SIGNED_IN') {
@@ -31,11 +40,6 @@ const Layout = ({ children }) => {
         setLoggedIn(false);
       }
     });
-
-    const session = supabase.auth.getSession();
-    if (session) {
-      setLoggedIn(true);
-    }
 
     return () => {
       if (authListener && typeof authListener.unsubscribe === 'function') {
