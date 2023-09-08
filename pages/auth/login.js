@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { supabase } from "../../utils/supabaseClient";
 import { useRouter } from 'next/router'; // Import the useRouter hook
+import styles from '../../styles/Login.module.css'
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -23,24 +24,34 @@ export default function Login() {
     }
   };
 
-  return (
-    <div>
-      <form onSubmit={handleLogin}>
-        <input 
-          type="email" 
-          placeholder="Email" 
-          value={email}
-          onChange={(e) => setEmail(e.target.value)} 
-        />
-        <input 
-          type="password" 
-          placeholder="Password" 
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          autoComplete="current-password" 
-        />
-        <button type="submit">Login</button>
+  const handleRegistrationRedirect = () => {
+    router.push('/auth/register');
+}
+
+return (
+  <div className={styles.container}>
+      <form onSubmit={handleLogin} className={styles.form}>
+          <input 
+              type="email" 
+              placeholder="Email" 
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className={styles.input}
+          />
+          <input 
+              type="password" 
+              placeholder="Mot de passe" 
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              autoComplete="current-password"
+              className={styles.input}
+          />
+          <button type="submit" className={styles.button}>Me connecter</button>
+          <div className={styles.registerPrompt}>
+              Vous n‘avez pas de compte?
+              <span className={styles.registerLink} onClick={handleRegistrationRedirect}>Inscrivez-vous</span>
+          </div>
       </form>
-    </div>
-  );
+  </div>
+);
 }

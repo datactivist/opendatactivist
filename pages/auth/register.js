@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from "../../utils/supabaseClient";
+import styles from '../../styles/Login.module.css';
 
 export default function Register() {
   const [email, setEmail] = useState('');
@@ -20,21 +21,31 @@ export default function Register() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSignUp}>
+    <div className={styles.container}>
+      <form onSubmit={handleSignUp} className={styles.form}>
         <input 
           type="email" 
           placeholder="Email" 
           value={email}
-          onChange={(e) => setEmail(e.target.value)} 
+          onChange={(e) => setEmail(e.target.value)}
+          className={styles.input}
         />
         <input 
           type="password" 
-          placeholder="Password" 
+          placeholder="Mot de passe" 
           value={password}
-          onChange={(e) => setPassword(e.target.value)} 
+          onChange={(e) => setPassword(e.target.value)}
+          className={styles.input}
         />
-        <button type="submit">Register</button>
+        <button type="submit" className={styles.button}>Créer mon compte</button>
+        <div className={styles.registerPrompt}>
+          Vous avez déjà un compte? 
+          <span 
+            className={styles.registerLink} 
+            onClick={() => window.location.href="/auth/login"}>
+            Connectez-vous ici
+          </span>
+      </div>
       </form>
     </div>
   );

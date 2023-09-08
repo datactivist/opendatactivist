@@ -28,7 +28,7 @@
 
 .link {
   text-decoration: none;
-  color: #828282;
+  color: #173541;
   font-size: 1.2rem;
   font-weight: 800;
   margin: 5px;
@@ -39,7 +39,8 @@
 
 .link:hover {
   font-weight: 800;
-  color: #e95459;
+  color: #ffffff;
+  background-color: #173541;
 }
 
 .userContainer {
