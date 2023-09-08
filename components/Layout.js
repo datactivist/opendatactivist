@@ -4,35 +4,82 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/Layout.module.css';
+import { supabase } from "../utils/supabaseClient";
+import userIcon from '/public/icons/user.svg';  // Import your user icon
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [appBarPosition, setAppBarPosition] = useState('sticky');
   const [lastScrollPos, setLastScrollPos] = useState(0); 
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   }
 
   useEffect(() => {
+    // Listen for session updates
+    const { data: authListener } = supabase.auth.onAuthStateChange((event) => {
+      if (event === 'SIGNED_IN') {
+        setLoggedIn(true);
+      } else {
+        setLoggedIn(false);
+      }
+    });
+
+    const session = supabase.auth.getSession();
+    if (session) {
+      setLoggedIn(true);
+    }
+
+    return () => {
+      if (authListener && typeof authListener.unsubscribe === 'function') {
+        authListener.unsubscribe();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-  
       if (currentScrollPos < lastScrollPos) {
         setAppBarPosition('sticky');
       } else {
         setAppBarPosition('relative');
       }
-  
       setLastScrollPos(currentScrollPos);
     };
-  
+
     window.addEventListener('scroll', handleScroll);
-  
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollPos]);
+
+  useEffect(() => {
+    const closeDropdown = (event) => {
+      if (dropdownOpen && !event.target.closest(".dropdown-container")) {
+        setDropdownOpen(false);
+      }
+    };
+
+    window.addEventListener("click", closeDropdown);
+
+    return () => {
+      window.removeEventListener("click", closeDropdown);
+    };
+  }, [dropdownOpen]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setLoggedIn(false);
+  };
 
   return (
     <div>
@@ -62,11 +109,25 @@ const Layout = ({ children }) => {
           </div>
           <nav className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
             <Link href="/products" passHref>
-              <span className={styles.link}>Outils / produits</span>
+              <span className={styles.link}>Outils & produits</span>
             </Link>
             <Link href="/docs" passHref>
               <span className={styles.link}>Contenus ouverts</span>
             </Link>
+            <div className={`${styles.userContainer} dropdown-container`} onClick={toggleDropdown}>
+              <Image src={userIcon} alt="User" width={30} height={30} />
+              <div className={`${styles.dropdownMenu} ${dropdownOpen ? styles.dropdownOpen : ''}`}>
+              {loggedIn ? (
+                <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
+                  Me déconnecter
+                </div>
+              ) : (
+                <Link href="/auth/login" passHref>
+                  <span className={`${styles.link} ${styles.dropdownItem}`}>Me connecter</span>
+                </Link>
+              )}
+            </div>
+            </div>
           </nav>
         </div>
       </header>

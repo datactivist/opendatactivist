@@ -8,24 +8,30 @@ export default function TestAccess() {
     useEffect(() => {
         // Check if there's an active session upon loading the component
         const checkSession = async () => {
-            const { data: session } = await supabase.auth.getSession();
+            const session = supabase.auth.getSession();
+            
             if (session) {
                 setLoggedIn(true);
             }
+            
             setLoading(false);
         };
+        
         checkSession();
 
         // Listen for authentication state changes
-        const authListener = supabase.auth.onAuthStateChange((event) => {
-            if (event === 'SIGNED_IN') {
+        const authListener = supabase.auth.onAuthStateChange((event, session) => {
+            console.log("Event:", event);
+            console.log("Session:", session);
+            
+            if (event === 'SIGNED_IN' || session) {
                 setLoggedIn(true);
             } else {
                 setLoggedIn(false);
             }
             setLoading(false);
         });
-
+        
         // Cleanup: Unsubscribe from the auth changes when component is unmounted
         return () => {
             if (authListener && typeof authListener.unsubscribe === 'function') {
