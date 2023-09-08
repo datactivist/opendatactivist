@@ -19,7 +19,7 @@ export default function Login() {
       console.error("Error logging in:", error.message);
     } else {
       // Redirect to /access/test upon successful login
-      router.push('/access/test');
+      router.push('/access/testaccess');
     }
   };
 
