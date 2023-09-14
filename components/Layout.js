@@ -111,16 +111,21 @@ const Layout = ({ children }) => {
             <div className={`${styles.userContainer} dropdown-container`} onClick={toggleDropdown}>
               <Image src={userIcon} alt="User" width={30} height={30} />
               <div className={`${styles.dropdownMenu} ${dropdownOpen ? styles.dropdownOpen : ''}`}>
-          {loggedIn ? (
-            <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
-              Me déconnecter
-            </div>
-          ) : (
-            <Link href="/auth/login" passHref>
-              <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
-            </Link>
-          )}
-        </div>
+              {loggedIn ? (
+                  <>
+                      <Link href="/auth/my-account" passHref>
+                          <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
+                      </Link>
+                      <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
+                          Me déconnecter
+                      </div>
+                  </>
+              ) : (
+                  <Link href="/auth/login" passHref>
+                      <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
+                  </Link>
+              )}
+          </div>
       </div>
           </nav>
         </div>
