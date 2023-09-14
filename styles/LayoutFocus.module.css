@@ -6,8 +6,6 @@
   margin-left: 2rem;
   margin-right: 2rem;
   border-bottom: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #e5e5e5;
   position: sticky;
   z-index: 1000;
 }
@@ -56,14 +54,14 @@
 }
 
 .container {
-  padding: 2rem 0;
+  padding: 0rem 0;
 }
 
 .layout {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 98%;
+  width: 100%;
 }
 .hamburgerButton {
   display: none; 
@@ -121,4 +119,36 @@
   color: #ffffff;
   background-color: #e95459;
   font-weight: bold;
+}
+
+.userContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  display: none;
+}
+
+.dropdownOpen {
+  display: block;
+}
+
+.dropdownItem {
+  font-size: 0.8rem; 
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff; 
+  background-color: #173541; 
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #e95459; 
+  color: #ffffff;
 }
