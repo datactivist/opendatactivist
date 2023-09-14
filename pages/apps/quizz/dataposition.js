@@ -1,12 +1,51 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Layout from '../../../components/Layout';
-import styles from '../../../styles/Quizz.module.css'; 
+import styles from '../../../styles/Quizz.module.css';
+import { supabase } from "../../../utils/supabaseClient";
+import { useRouter } from 'next/router';
 
 const Quiz = () => {
   const [data, setData] = useState([]);
   const [profiles, setProfiles] = useState({});
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [user, setUser] = useState(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    async function fetchUser() {
+        const { data, error } = await supabase.auth.getUser();
+
+        if (error) {
+            console.error("Error fetching user:", error.message);
+            if (data) {
+                console.log("User data:", data);
+            }
+        } else if (data) {
+            setUser(data.user);
+        } else {
+            router.push('/auth/login');
+        }
+    }
+
+    fetchUser();
+  }, []);
+
+  const handleSaveResult = async () => {
+    if(!profile || !user?.email) return;
+
+    const { data, error } = await supabase
+        .from('dataposition')
+        .insert([
+            { email: user.email, profile }
+        ]);
+
+    if (error) {
+        console.error("Error inserting data:", error.message, error.details);
+    } else {
+        console.log("Data saved:", data);
+    }
+  };
 
   useEffect(() => {
     // Fetch the quiz data
@@ -111,18 +150,21 @@ const ProgressBar = ({ current, total }) => {
       </div>
     ) : (
       <div className={styles.content}>
-        <div className={styles.resultBox}>
-        <h2>Votre profil :</h2>
-        <h3>{profile}</h3>
-        <p>{profileData.description}</p>
-        <br></br>
-        <img src={profileData.imagePath} alt={profile} />
+      <div className={styles.resultBox}>
+        <div>
+          <h2>Votre profil :</h2>
+          <h3>{profile}</h3>
+          <p>{profileData.description}</p>
+        </div>
+        <div className={styles.imageButtonContainer}>
+          <img src={profileData.imagePath} alt={profile} />
+          {user && <button className={styles.sendButton} onClick={handleSaveResult}>Enregistrer mon résultat</button>}
         </div>
       </div>
-    )}
-  </div>
-</Layout>
-
+      </div>
+      )}
+      </div>
+    </Layout>
   );
 };
 
