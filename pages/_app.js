@@ -3,9 +3,19 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Head from 'next/head';
 import theme from '../src/theme';
 import '../styles/globals.css';
+import { createPagesBrowserClient } from '@supabase/auth-helpers-nextjs'
+import { SessionContextProvider } from '@supabase/auth-helpers-react'
+import { useState } from 'react'
 
 function MyApp({ Component, pageProps }) {
+
+    const [supabaseClient] = useState(() => createPagesBrowserClient())
+
   return (
+    <SessionContextProvider
+    supabaseClient={supabaseClient}
+    initialSession={pageProps.initialSession}
+  >
     <>
       <Head>
         <link
@@ -18,6 +28,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </>
+    </SessionContextProvider>
   );
 }
 
