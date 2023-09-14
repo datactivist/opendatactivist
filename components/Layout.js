@@ -22,31 +22,26 @@ const Layout = ({ children }) => {
     setMenuOpen(!menuOpen);
   }
 
-  const forceUpdate = React.useReducer(bool => !bool, false)[1];
-
   useEffect(() => {
-    const session = supabase.auth.getSession();
-    
-    setLoggedIn(!!session);
-
-    // Force a re-render
-    forceUpdate();
-
-    // Listen for session updates
-    const { data: authListener } = supabase.auth.onAuthStateChange((event) => {
-      if (event === 'SIGNED_IN') {
+    async function checkUserSession() {
+      const { data, error } = await supabase.auth.getUser();
+      
+      if (error) {
+        console.error("Error fetching user:", error.message);
+      } else if (data) {
         setLoggedIn(true);
       } else {
         setLoggedIn(false);
       }
-    });
-
-    return () => {
-      if (authListener && typeof authListener.unsubscribe === 'function') {
-        authListener.unsubscribe();
-      }
-    };
+    }
+    
+    checkUserSession();
   }, []);
+  
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setLoggedIn(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -79,11 +74,6 @@ const Layout = ({ children }) => {
       window.removeEventListener("click", closeDropdown);
     };
   }, [dropdownOpen]);
-
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
-    setLoggedIn(false);
-  };
 
   return (
     <div>
@@ -121,17 +111,17 @@ const Layout = ({ children }) => {
             <div className={`${styles.userContainer} dropdown-container`} onClick={toggleDropdown}>
               <Image src={userIcon} alt="User" width={30} height={30} />
               <div className={`${styles.dropdownMenu} ${dropdownOpen ? styles.dropdownOpen : ''}`}>
-              {loggedIn ? (
-                <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
-                  Me déconnecter
-                </div>
-              ) : (
-                <Link href="/auth/login" passHref>
-                  <span className={`${styles.link} ${styles.dropdownItem}`}>Me connecter</span>
-                </Link>
-              )}
+          {loggedIn ? (
+            <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
+              Me déconnecter
             </div>
-            </div>
+          ) : (
+            <Link href="/auth/login" passHref>
+              <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
+            </Link>
+          )}
+        </div>
+      </div>
           </nav>
         </div>
       </header>

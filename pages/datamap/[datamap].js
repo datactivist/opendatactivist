@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import DataMapTable2 from '../components/data/DataMapTable2';
-import DataMapSearch2 from '../components/data/DataMapSearch2';
-import LayoutFocus from '../components/LayoutFocus';
-import DataMapGallery from '../components/data/DataMapGallery';
+import DataMapTable2 from '../../components/data/DataMapTable2';
+import DataMapSearch2 from '../../components/data/DataMapSearch2';
+import LayoutFocus from '../../components/LayoutFocus';
+import DataMapGallery from '../../components/data/DataMapGallery';
 
 const DataMapPage = () => {
   const router = useRouter();

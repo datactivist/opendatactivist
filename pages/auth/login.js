@@ -1,35 +1,35 @@
 import { useState } from 'react';
 import { supabase } from "../../utils/supabaseClient";
-import { useRouter } from 'next/router'; // Import the useRouter hook
-import styles from '../../styles/Login.module.css'
+import { useRouter } from 'next/router';
+import styles from '../../styles/Login.module.css';
 
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const router = useRouter(); // Instantiate the useRouter hook
+  const router = useRouter();
 
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const { error } = await supabase.auth.signInWithPassword({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password
     });
 
     if (error) {
       console.error("Error logging in:", error.message);
-    } else {
-      // Redirect to /access/test upon successful login
-      router.push('/docs');
+      // Consider showing an error message to the user
+    } else if (data && data.user) {
+      router.push('/auth/my-account');
     }
   };
 
   const handleRegistrationRedirect = () => {
-    router.push('/auth/register');
-}
+    router.push('/auth/register'); // Change this to your registration/sign-up page
+  };
 
-return (
-  <div className={styles.container}>
+  return (
+    <div className={styles.container}>
       <form onSubmit={handleLogin} className={styles.form}>
           <input 
               type="email" 
@@ -52,6 +52,6 @@ return (
               <span className={styles.registerLink} onClick={handleRegistrationRedirect}>Inscrivez-vous</span>
           </div>
       </form>
-  </div>
-);
+    </div>
+  );
 }
