@@ -3,8 +3,8 @@
 .appBar {
   background-color: white; 
   color: #333;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-bottom: 1px;
   position: sticky;
   z-index: 1000;
@@ -26,7 +26,7 @@
 
 .link {
   text-decoration: none;
-  color: #828282;
+  color: #173541;
   font-size: 1.2rem;
   font-weight: 800;
   margin: 5px;
@@ -37,7 +37,8 @@
 
 .link:hover {
   font-weight: 800;
-  color: #e95459;
+  color: #ffffff;
+  background-color: #173541;
 }
 
 .footer {
@@ -149,6 +150,6 @@
 }
 
 .dropdownItem:hover {
-  background-color: #e95459; 
+  background-color: #4ED9CC	; 
   color: #ffffff;
 }

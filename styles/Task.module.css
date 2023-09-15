@@ -1,0 +1,44 @@
+.taskButton {
+    background-color: #173541; 
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    padding: 10px 24px;
+    text-decoration: none;
+    order: 3;
+    width: 100%;
+    border-radius: 6px; 
+  }
+  
+  
+  .taskButton:hover {
+    background-color: #e95459; 
+    color: white; 
+  }
+
+  .profileName {
+    font-size: 1em;  
+    font-weight: bold;  
+    margin-bottom: 10px;  
+}
+
+.profileImage {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 105px;  
+    height: 100px; 
+    border-radius: 5px; 
+}
+
+
+.profileDescription{
+    font-size: 0.9em;
+}
+
