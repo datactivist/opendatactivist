@@ -1,11 +1,8 @@
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background: linear-gradient(180deg, #f1f6ff, #ffedf3);
 }
 
 .title {
@@ -22,3 +19,124 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.panelVisible {
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    border-right: 2px solid #ededed;
+    transition: width 0.1s ease-in-out;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+.panelHidden {
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.showPanelButton {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center; 
+    flex: 0 0 auto; 
+    height: 50px; 
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 30px;  
+    height: 30px;
+    cursor: pointer;
+}
+
+.linkButton {
+    display: block;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: #000000 ;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    border-color: #ededed;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.linkButton:hover {
+    color: #4ED9CC	;
+}
+
+.card {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px; 
+    transition: transform 0.1s ease-in-out;
+    position: relative;
+    padding: 60px 20px 20px 20px;
+  }
+  
+  .card:hover {
+   border: 1px solid #d7d7d7;
+}
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .todoIcon {
+    position: absolute;
+    top: 10px;
+    margin-bottom: 20px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-50%); 
+    left: 50%;
+  }
+  
+  .userDetails {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .fieldName {
+    font-weight: 600; 
+    font-size: 1.1em; 
+    color: #555; 
+  }
+  
+  .emailBox {
+    background-color: #f1f1f1;
+    padding: 4px 16px; 
+    border-radius: 4px; 
+    font-weight: 400; 
+    font-size: 1em; 
+    color: #686868; 
+    max-width: 100%; 
+    margin-left: 10px;
+  }
+  
+  
