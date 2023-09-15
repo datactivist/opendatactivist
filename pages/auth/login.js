@@ -20,7 +20,7 @@ export default function Login() {
       console.error("Error logging in:", error.message);
       // Consider showing an error message to the user
     } else if (data && data.user) {
-      router.push('/docs');
+      router.push('/account/mes-informations');
     }
   };
 
