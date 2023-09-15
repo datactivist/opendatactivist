@@ -64,11 +64,10 @@
 .linkButton {
     display: block;
     padding: 0px 0px;
+    padding-bottom: 10px;
     text-decoration: none;
     color: #ffffff ;
     cursor: pointer;
-    border-bottom: 1px solid;
-    border-color: #b3b3b3;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
