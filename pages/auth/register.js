@@ -25,7 +25,7 @@ export default function Register() {
     <div className={styles.container}>
       {isAwaitingVerification ? (
         <div className={styles.awaitingVerification}>
-          En attente de vérification
+          📧 En attente de vérification
         </div>
       ) : (
         <form onSubmit={handleSignUp} className={styles.form}>
