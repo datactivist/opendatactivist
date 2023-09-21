@@ -16,7 +16,7 @@ partners:
 
 # Liste des données
 
-### [👉 Accéder à la cartographie de données](/datamap?data=&datamap-id=sud-transports&view=gallery)
+### [👉 Accéder à la cartographie de données](/datamap/datamap?data=&datamap-id=sud-transports&view=gallery)
 
 <iframe
   width="100%"
