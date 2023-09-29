@@ -430,6 +430,46 @@
       "description": "",
       "url": "https://teamopendata.org/t/des-analytics-a-l-impact-pourquoi-evaluer-une-politique-open-data/1448",
       "tags": ["évaluation", "portail","stratégie"]
+    },
+    {
+      "id": "statactivisme-livre",
+      "title": "📕 Statctivisme",
+      "type": "livre",
+      "description": "Par Emmanuel Didier - Faire de la statistique, instrument du gouvernement des grands nombres, une arme critique. Militer avec des chiffres, ce serait faire du statactivisme.",
+      "url": "https://www.placedeslibraires.fr/livre/9782355220548-stat-activisme-emmanuel-didier",
+      "tags": ["activisme", "statistiques","critique"]
+    },
+    {
+      "id": "rework-livre",
+      "title": "📕 Rework",
+      "type": "livre",
+      "description": "Derrière ce best-seller classé notamment dans les meilleures ventes du New York Times, on retrouve Jason Fried et David Heinemeier-Hansson, fondateurs de la société Basecamp, précurseurs de la création d'applications qui facilitent le travail",
+      "url": "https://www.placedeslibraires.fr/livre/9782100846146-rework-reussir-autrement-entrepreneurs-auto-entrepreneurs-patrons-ou-salaries-2e-edition-jason-fried-david-hansson-heinemeier",
+      "tags": ["travail", "méthodes"]
+    },
+    {
+      "id": "factfulness-livre",
+      "title": "📕 Factfulness",
+      "type": "livre",
+      "description": "Par Hans Rosling - Alors que les fake news pullulent, cet essai confirme l'importance de la vérité des faits et des chiffres, et nous aide à traquer les biais de pensée qui déforment notre vision des choses.",
+      "url": "https://www.placedeslibraires.fr/livre/9782080289674-factfulness-penser-clairement-ca-s-apprend-hans-rosling",
+      "tags": ["fact-checking", "méthodes"]
+    },
+    {
+      "id": "travail-invisible-livre",
+      "title": "📕 Le travail invisible des données",
+      "type": "livre",
+      "description": "Par Jérôme Denis - Éléments pour une sociologie des infrastructure scripturales",
+      "url": "https://www.pressesdesmines.com/produit/le-travail-invisible-des-donnees",
+      "tags": ["stratégie"]
+    },
+    {
+      "id": "datanomics-livre",
+      "title": "📕 Datanomics",
+      "type": "livre",
+      "description": "Les nouveaux business models des données – Simon Chignard, Louis-David Benyayer",
+      "url": "https://www.fypeditions.com/datanomics-les-nouveaux-business-models-donnees-simon-chignard-louis-david-benyayer",
+      "tags": ["économie", "stratégie"]
     }
   ]
 
