@@ -1,7 +1,7 @@
 ---
 title: La bibliothèque de Datactivist
-image: /images/docs/bibliotheque-datactivist.jpg
-description: Livres et lectures recommandées pour s'initier et se perfectionner sur la data
+image: /images/docs/bibliotheque-datactivist.jpeg
+description: Lectures recommandées pour s'initier à la donnée et se perfectionner.
 type: Liste de ressources
 tags:
   - visualisations
