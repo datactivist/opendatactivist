@@ -166,7 +166,36 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien,autrelien,lien3%%
 ```
 
-#### 3. Des jeux de données data.gouv.fr
+#### 3. Une conversation sur TeamOpenData
+
+3.1. Ajoutez le lien de la conversation à la suite du [fichier des liens](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+
+> **Warning**  
+> Pour que le lien s'affiche comme une conversation, il est nécessaire de le catégoriser en "type = tod"
+
+Exemple : 
+
+```json
+    {
+      "id": "2469",
+      "title": "Médiation scientifique autour de la donnée",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/mediation-scientifique-autour-de-la-donnee/2469",
+      "tags": ["mediation", "exposition"]
+    },
+```
+3.2. Intégrez votre lien dans le corps de texte de votre doc
+
+```markdown
+## On en discute sur TeamOpenData
+
+%%Links:2469%%
+```
+
+#### 4. Une cartographie de données
+
+#### 5. Des jeux de données data.gouv.fr
 
 Si vous souhaitez afficher des jeux de données pertinents (et qu'ils sont disponibles sur data.gouv.fr) :
 
