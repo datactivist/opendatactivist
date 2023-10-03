@@ -22,3 +22,7 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
 # Nos autres coups de coeur
 
 %%Links:travail-invisible-livre,datanomics-livre%%
+
+
+---
+*Image d'illustration : CarnegieCB, Licence Ouverte, via Wikimedia Commons*
