@@ -195,6 +195,16 @@ Exemple :
 
 #### 4. Une cartographie de données
 
+(Méthode complète à venir)
+
+4.1. Téléchargez les exports des tables depuis Airtable (base master - cartographies de données)
+
+4.2. Remplacer les fichiers public/datamap
+
+4.3. Insérez un iframe du datamap vers la vue épurée. Exemple : https://open.datactivist.coop/view/datamaplight?data&datamap-id=sud-transports
+
+4.4. Ajoutez un lien vers la cartographie complète. Exemple : https://open.datactivist.coop/datamap/datamap?data=&datamap-id=sud-transports&view=gallery 
+
 #### 5. Des jeux de données data.gouv.fr
 
 Si vous souhaitez afficher des jeux de données pertinents (et qu'ils sont disponibles sur data.gouv.fr) :
@@ -218,7 +228,7 @@ Exemple : ```5de8f397634f4164071119c5```
 %%Datagouv:5b7ffc618b4c4169d30727e0,5de8f397634f4164071119c5%%
 ```
 
-#### 4. Des données sous la forme d'une gallerie
+#### 6. Des données sous la forme d'une gallerie
 
 4.1 - Ajoutez un CSV dans le fichier ```/posts/data```
 >**Note**
@@ -232,8 +242,6 @@ Exemple : ```5de8f397634f4164071119c5```
 ```markdown
 %%JsonGallery:nom-de-votre-csv%%
 ```
-
-
 
 ## Contribuer au code
 
