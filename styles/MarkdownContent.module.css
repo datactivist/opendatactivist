@@ -100,3 +100,28 @@
     font-size: 0.9em;
   }
 }
+
+
+.markdownContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Open sans', sans-serif;
+}
+
+.markdownContent th,
+.markdownContent td {
+  border: 1px solid #e8e8e8;
+  padding: 12px;
+  text-align: left;
+}
+
+.markdownContent th {
+  background-color: #173541	;
+  color: white ;
+  font-size: 18px;
+}
+
+.markdownContent tr:nth-child(even) {
+  background-color: #ffffff;
+}

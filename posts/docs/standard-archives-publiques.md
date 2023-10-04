@@ -70,6 +70,12 @@ Ainsi, en quelques mois, une équipe composée de représentants du SIAF, de l�
 
 </br>
 
+## On en discute sur #TeamOpenData
+
+%%Links:3014%%
+
+</br>
+
 # Notre recensement des données archives en France
 
 %%JsonGallery:recensement-donnees-archives%%

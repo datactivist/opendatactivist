@@ -1,6 +1,6 @@
 ---
 title: Benchmark des datalabs
-image: /images/docs/datalab-painting.png
+image: /images/docs/datalab-painting.jpg
 description: La liste des datalabs français et leurs caractéristiques
 type: Liste de ressources
 tags:
