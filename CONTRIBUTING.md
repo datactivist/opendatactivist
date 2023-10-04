@@ -166,7 +166,46 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien,autrelien,lien3%%
 ```
 
-#### 3. Des jeux de données data.gouv.fr
+#### 3. Une conversation sur TeamOpenData
+
+3.1. Ajoutez le lien de la conversation à la suite du [fichier des liens](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+
+> **Warning**  
+> Pour que le lien s'affiche comme une conversation, il est nécessaire de le catégoriser en "type = tod"
+
+Exemple : 
+
+```json
+    {
+      "id": "2469",
+      "title": "Médiation scientifique autour de la donnée",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/mediation-scientifique-autour-de-la-donnee/2469",
+      "tags": ["mediation", "exposition"]
+    },
+```
+3.2. Intégrez votre lien dans le corps de texte de votre doc
+
+```markdown
+## On en discute sur TeamOpenData
+
+%%Links:2469%%
+```
+
+#### 4. Une cartographie de données
+
+(Méthode complète à venir)
+
+4.1. Téléchargez les exports des tables depuis Airtable (base master - cartographies de données)
+
+4.2. Remplacer les fichiers public/datamap
+
+4.3. Insérez un iframe du datamap vers la vue épurée. Exemple : https://open.datactivist.coop/view/datamaplight?data&datamap-id=sud-transports
+
+4.4. Ajoutez un lien vers la cartographie complète. Exemple : https://open.datactivist.coop/datamap/datamap?data=&datamap-id=sud-transports&view=gallery 
+
+#### 5. Des jeux de données data.gouv.fr
 
 Si vous souhaitez afficher des jeux de données pertinents (et qu'ils sont disponibles sur data.gouv.fr) :
 
@@ -189,7 +228,7 @@ Exemple : ```5de8f397634f4164071119c5```
 %%Datagouv:5b7ffc618b4c4169d30727e0,5de8f397634f4164071119c5%%
 ```
 
-#### 4. Des données sous la forme d'une gallerie
+#### 6. Des données sous la forme d'une gallerie
 
 4.1 - Ajoutez un CSV dans le fichier ```/posts/data```
 >**Note**
@@ -203,8 +242,6 @@ Exemple : ```5de8f397634f4164071119c5```
 ```markdown
 %%JsonGallery:nom-de-votre-csv%%
 ```
-
-
 
 ## Contribuer au code
 
