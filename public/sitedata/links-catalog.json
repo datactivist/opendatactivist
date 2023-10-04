@@ -478,6 +478,38 @@
       "description": "Repenser la datascience et l'éthique des données en s'appuyant sur les théories féministes intersectionnelles – Catherine D'Ignazio, Lauren F. Klein",
       "url": "https://data-feminism.mitpress.mit.edu/",
       "tags": ["éthique", "datascience"]
+    },
+    {
+      "id": "3014",
+      "title": "Schéma registres d’entrée d’archives ",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/schema-registres-d-entree-d-archives/3014",
+      "tags": ["archives", "registre", "standards","schema"]
+    },
+    {
+      "id": "705",
+      "title": "Générer un GTFS à partir de tableaux CSV",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/generer-un-gtfs-a-partir-de-tableaux-csv-projet-ogp-toolbox/705",
+      "tags": ["GTFS", "transports", "csv","open source"]
+    },
+    {
+      "id": "r-studio",
+      "title": "R Studio",
+      "type": "outil",
+      "description": "Outil de data science & analyse en open source, avec le langage R",
+      "url": "https://posit.co/products/open-source/rstudio/",
+      "tags": ["R", "Data science", "Data analyse","open source"]
+    },
+    {
+      "id": "airtable",
+      "title": "Airtable",
+      "type": "outil",
+      "description": "Outil no code pour éditer et lier des tables de données",
+      "url": "https://airtable.com/",
+      "tags": ["no code", "tableau de bord", "outil"]
     }
   ]
 

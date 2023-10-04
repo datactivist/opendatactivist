@@ -3,7 +3,7 @@ import SearchBar from '../nav/SearchBar';
 import JsonCard from './JsonCard';
 import JsonDialog from './JsonDialog';
 import styles from '../../styles/JsonGallery.module.css';
-import Layout from '../Layout';
+import LayoutFocus from '../LayoutFocus';
 
 const JsonGallery = ({ filename }) => {
   const [data, setData] = useState([]);
@@ -49,7 +49,7 @@ const JsonGallery = ({ filename }) => {
     : [];
 
   return (
-    <Layout>
+    <LayoutFocus>
      <div className={`${styles.gallery} ${styles.container}`}>
       <div className={styles.header}>
           <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
@@ -69,7 +69,7 @@ const JsonGallery = ({ filename }) => {
         </div>
         {selectedCard && <JsonDialog selectedCard={selectedCard} handleClose={handleClose} />}
       </div>
-    </Layout>
+    </LayoutFocus>
   );
 };
 

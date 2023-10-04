@@ -148,3 +148,7 @@ Pour terminer, il faut retenir que construire un GTFS ne requiert pas de compét
 ## Guides complémentaires
 
 %%Docs:standards-territoires%%
+
+## On en discute sur TeamOpenData
+
+%%Links:705%%
