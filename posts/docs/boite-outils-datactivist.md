@@ -23,6 +23,8 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
 
 [Airtable](#airtable)
 
+[Grist](#grist)
+
 [Open Refine](#open-refine)
 
 ---
@@ -65,7 +67,7 @@ Il s'adresse aux personnes qui souhaitent manipuler des fichiers volumineux et q
 
 ## 💡 Pour quoi et pour qui ?
 
-Airtable permet d'éditer des tableurs et de **connecter des objets entre eux**, de manière intuitive et collaborativ (pour réaliser des tableaux de suivis, des inventaires, des bases de données clients, etc...) C'est un outil qui fait partie des incontournable des **solutions "no code"**, s'adressant à des profils variés.
+Airtable permet d'éditer des tableurs et de **connecter des objets entre eux**, de manière intuitive et collaborative (pour réaliser des tableaux de suivis, des inventaires, des bases de données clients, etc...) C'est un outil qui fait partie des incontournable des **solutions "no code"**, s'adressant à des profils variés.
 
 </br>
 
@@ -81,11 +83,35 @@ Airtable permet d'éditer des tableurs et de **connecter des objets entre eux**,
 | **🎳 Facilité d'utilisation**         | 🟢 Conçu pour des profils variés             |
 | **💰 Coût**                           | 🟠 Version gratuite limitée, puis abonnement rapidement onéreux pour plusieurs utilisateurs |
 | **💰 Flexibilité et fonctionnalités** | 🟡 Nombreuses fonctionnalités, mais souvent payantes  |
-| **🔀 Alternatives**                   | 🟢 SeaTable, ApiTable, NocoDB, Grist (dont une instance mise à disposition par l'ANCT)     |
+| **🔀 Alternatives**                   | 🟢 ApiTable, [Grist](#grist) (dont une instance mise à disposition par l'ANCT)     |
 
 ## 👉 Accéder à l'outil
 
 %%Links:airtable%%
+
+# Grist
+
+## 💡 Pour quoi et pour qui ?
+
+À l'instar d'[Airtable](#airtable), Grist permet d'éditer et partager des tables de données que l'on peut lier entre-elles.
+
+## 💬 Le conseil de Datactivist
+
+> Bien qu'un peu moins intuitif et agréable d'utilisation qu'Airtable, Grist permet par exemple de visualiser un jeu de données sur une carte. De plus, une instance a été [**mise en ligne par l'ANCT**](https://grist.incubateur.anct.gouv.fr/), spécialiement pour les acteurs publics et leurs partenaires, ce qui présente un avantage notable au regard de la protection des données.
+
+## 🗂 Caractéristiques
+
+| Critère                               |  Appréciation                                                                |
+|---------------------------------------|------------------------------------------------------------------------------|
+| **🔓 Open source**                    | ✅ Oui                                                                        |
+| **🎳 Facilité d'utilisation**         | 🟢 Conçu pour des profils variés                                              |
+| **💰 Coût**                           | 🟢 Gratuit via l'ANCT pour les acteurs publics                                |
+| **💰 Flexibilité et fonctionnalités** | 🟡 Fonctionnalités essentielles, mais possibilité de développer une instance  |
+| **🔀 Alternatives**                   | 🟢 [Airtable](#airtable), ApiTable                                            |
+
+### 👉 Accéder à l'outil
+
+%%Links:grist%%
 
 # OpenRefine
 
@@ -116,3 +142,6 @@ OpenRefine est un outil gratuit et open source pour travailler avec des données
 ## 📖 Ressources complémentaires
 
 %%Docs:demo-open-refine%%
+
+
+

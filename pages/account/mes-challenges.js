@@ -7,7 +7,7 @@ import DataPosition from '../../components/account/challenges/DataPosition';
 
 export default function MyAccount() {
   const [user, setUser] = useState(null);
-  const [hasData, setHasData] = useState(false); // Add this state
+  const [hasData, setHasData] = useState(false);
 
   const [isMenuVisible, setIsMenuVisible] = useState(true); 
   const toggleMenuVisibility = () => {

@@ -510,6 +510,14 @@
       "description": "Outil no code pour éditer et lier des tables de données",
       "url": "https://airtable.com/",
       "tags": ["no code", "tableau de bord", "outil"]
+    },
+    {
+      "id": "grist",
+      "title": "Grist",
+      "type": "outil",
+      "description": "Outil open source pour éditer et lier des tables de données",
+      "url": "https://www.getgrist.com/",
+      "tags": ["no code", "tableau de bord", "outil", "open source"]
     }
   ]
 
