@@ -60,20 +60,22 @@ const Cards = ({
         </div>
       </div>
     ) : (
-        <>
+      <>
+      <h3>{item.metadata ? item.metadata.title : item.title}</h3>  {/* Move this line here, sugar! */}
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+        {item.type === 'livre' && item.image && (
           <div>
-            {item.metadata?.image && (
-              <img
-                src={item.metadata.image}
-                alt={item.metadata.title}
-                className={styles['card-image']}
-              />
-            )}
+            <img
+              src={item.image}
+              alt={item.title}
+              className={styles['card-image-link']}
+            />
           </div>
-          <h3>
-            {item.metadata ? item.metadata.title : item.title}
-          </h3>
+        )}
+        <div style={{ flex: 1 }}>
           <p>{item.metadata ? item.metadata.description : item.description}</p>
+        </div>
+      </div>
           {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
           {showAuthors && item.metadata?.authors && (
             <Authors

@@ -107,7 +107,7 @@ Airtable permet d'éditer des tableurs et de **connecter des objets entre eux**,
 |---------------------------------------|------------------------------------------------------------------------------|
 | **🔓 Open source**                    | ✅ Oui                                                                        |
 | **🎳 Facilité d'utilisation**         | 🟢 Conçu pour des profils variés                                              |
-| **💰 Coût**                           | 🟢 Gratuit via l'ANCT pour les acteurs publics                                |
+| **💰 Coût**                           | 🟢 Gratuit via la DINUM pour les acteurs publics                                |
 | **💰 Flexibilité et fonctionnalités** | 🟡 Fonctionnalités essentielles, mais possibilité de développer une instance  |
 | **🔀 Alternatives**                   | 🟢 [Airtable](#airtable), ApiTable                                            |
 
