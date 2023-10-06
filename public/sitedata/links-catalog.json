@@ -479,7 +479,7 @@
     {
       "id": "datafeminism-livre",
       "title": "Data Feminism",
-      "image":"/images/links/data-feminism.jpeg",
+      "image":"/images/links/data-feminism.png",
       "type": "livre",
       "description": "Repenser la datascience et l'éthique des données en s'appuyant sur les théories féministes intersectionnelles – Catherine D'Ignazio, Lauren F. Klein",
       "url": "https://data-feminism.mitpress.mit.edu/",
@@ -539,7 +539,7 @@
       "type": "livre",
       "description": "Comment le manque de données sur les femmes dessine un monde fait pour les hommes – Caroline Criado Perez",
       "url": "https://www.babelio.com/livres/Criado-Perez-Femmes-invisibles/1203247",
-      "image":"/images/links/femmes-invisibles-livre.jpeg",
+      "image":"/images/links/femmes-invisibles-livre.png",
       "tags": ["data", "genre", "politiques publiques"]
     }
   ]
