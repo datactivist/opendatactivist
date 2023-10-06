@@ -433,31 +433,35 @@
     },
     {
       "id": "statactivisme-livre",
-      "title": "📕 Statactivisme",
+      "title": "Statactivisme",
       "type": "livre",
       "description": "Par Emmanuel Didier - Faire de la statistique, instrument du gouvernement des grands nombres, une arme critique. Militer avec des chiffres, ce serait faire du statactivisme.",
       "url": "https://www.placedeslibraires.fr/livre/9782355220548-stat-activisme-emmanuel-didier",
+      "image":"/images/links/statactivisme.jpeg",
       "tags": ["activisme", "statistiques","critique"]
     },
     {
       "id": "rework-livre",
-      "title": "📕 Rework",
+      "title": "Rework",
       "type": "livre",
-      "description": "Derrière ce best-seller classé notamment dans les meilleures ventes du New York Times, on retrouve Jason Fried et David Heinemeier-Hansson, fondateurs de la société Basecamp, précurseurs de la création d'applications qui facilitent le travail",
+      "description": "Derrière ce best-seller, on retrouve Jason Fried et David Heinemeier-Hansson, fondateurs de la société Basecamp, précurseurs de la création d'applications qui facilitent le travail",
       "url": "https://www.placedeslibraires.fr/livre/9782100846146-rework-reussir-autrement-entrepreneurs-auto-entrepreneurs-patrons-ou-salaries-2e-edition-jason-fried-david-hansson-heinemeier",
+      "image":"/images/links/rework.jpg",
       "tags": ["travail", "méthodes"]
     },
     {
       "id": "factfulness-livre",
-      "title": "📕 Factfulness",
+      "title": "Factfulness",
       "type": "livre",
       "description": "Par Hans Rosling - Alors que les fake news pullulent, cet essai confirme l'importance de la vérité des faits et des chiffres, et nous aide à traquer les biais de pensée qui déforment notre vision des choses.",
       "url": "https://www.placedeslibraires.fr/livre/9782080289674-factfulness-penser-clairement-ca-s-apprend-hans-rosling",
+      "image":"/images/links/factfulness.jpg",
       "tags": ["fact-checking", "méthodes"]
     },
     {
       "id": "travail-invisible-livre",
-      "title": "📕 Le travail invisible des données",
+      "title": "Le travail invisible des données",
+      "image":"/images/links/travail-invisible-livre.jpg",
       "type": "livre",
       "description": "Par Jérôme Denis - Éléments pour une sociologie des infrastructure scripturales",
       "url": "https://www.pressesdesmines.com/produit/le-travail-invisible-des-donnees",
@@ -465,7 +469,8 @@
     },
     {
       "id": "datanomics-livre",
-      "title": "📕 Datanomics",
+      "title": "Datanomics",
+      "image":"/images/links/datanomics.jpg",
       "type": "livre",
       "description": "Les nouveaux business models des données – Simon Chignard, Louis-David Benyayer",
       "url": "https://www.fypeditions.com/datanomics-les-nouveaux-business-models-donnees-simon-chignard-louis-david-benyayer",
@@ -473,7 +478,8 @@
     },
     {
       "id": "datafeminism-livre",
-      "title": "📕 Data Feminism",
+      "title": "Data Feminism",
+      "image":"/images/links/data-feminism.png",
       "type": "livre",
       "description": "Repenser la datascience et l'éthique des données en s'appuyant sur les théories féministes intersectionnelles – Catherine D'Ignazio, Lauren F. Klein",
       "url": "https://data-feminism.mitpress.mit.edu/",
@@ -516,7 +522,7 @@
       "title": "Grist",
       "type": "outil",
       "description": "Outil open source pour éditer et lier des tables de données",
-      "url": "https://www.getgrist.com/",
+      "url": "https://grist.incubateur.net/",
       "tags": ["no code", "tableau de bord", "outil", "open source"]
     },
     {
@@ -527,12 +533,13 @@
       "url": "https://blog.okfn.org/2023/10/04/introducing-open-data-editor-beta-towards-a-no-code-data-app-for-everyone/",
       "tags": ["outil", "open source", "metadonnées", "schema"]
     },
-     {
+    {
       "id": "femmes-invisibles-livre",
-      "title": "📕 Femmes invisibles",
+      "title": "Femmes invisibles",
       "type": "livre",
       "description": "Comment le manque de données sur les femmes dessine un monde fait pour les hommes – Caroline Criado Perez",
       "url": "https://www.babelio.com/livres/Criado-Perez-Femmes-invisibles/1203247",
+      "image":"/images/links/femmes-invisibles-livre.png",
       "tags": ["data", "genre", "politiques publiques"]
     }
   ]

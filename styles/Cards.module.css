@@ -37,6 +37,13 @@
   cursor: pointer;
 }
 
+.card-image-link{
+  padding: 10px;
+  max-width: auto;
+  max-height: 120px;
+  margin-top: 0rem;
+}
+
 .card-image-partners {
   width: 70%;
   height: 70%;

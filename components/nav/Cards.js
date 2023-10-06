@@ -6,34 +6,32 @@ import Authors from './Authors';
 
 const RenderTagButtons = (tags, tagRoute) => {
   const router = useRouter();
-  if (tags) {
-    return tags.map((tag) => {
-      const handleClick = (e) => {
+  return tags ? tags.map((tag) => (
+    <button
+      key={tag}
+      onClick={(e) => {
         e.stopPropagation();
         router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
-      };
-      return (
-        <button key={tag} onClick={handleClick} className={tagStyles.tag}>
-          {tag}
-        </button>
-      );
-    });
-  }
-  return null;
+      }}
+      className={tagStyles.tag}
+    >
+      {tag}
+    </button>
+  )) : null;
 };
 
 const formatDateToNow = (dateString) => {
-  const dateObj = new Date(dateString);
-  const diffTime = Math.abs(new Date() - dateObj);
+  const now = new Date();
+  const pastDate = new Date(dateString);
+  const diffTime = Math.abs(now - pastDate);
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
   if (diffDays < 365) {
     const diffMonths = Math.floor(diffDays / 30);
     return diffMonths <= 1 ? 'il y a 1 mois' : `il y a ${diffMonths} mois`;
-  } else {
-    const diffYears = Math.floor(diffDays / 365);
-    return diffYears <= 1 ? 'il y a 1 an' : `il y a ${diffYears} ans`;
   }
+  const diffYears = Math.floor(diffDays / 365);
+  return diffYears <= 1 ? 'il y a 1 an' : `il y a ${diffYears} ans`;
 };
 
 const Cards = ({
@@ -45,46 +43,53 @@ const Cards = ({
   showAuthors = true,
   renderItem = (item, onAuthorClick) => (
     <>
-    {item.type === 'tod' ? (
-      <div>
+      {item.type === 'tod' ? (
         <div className={styles['title-container']}>
-          <h3>
-            💬 {item.title}
-          </h3>
-          <button 
-            onClick={() => window.open(item.url, '_blank')} 
+          <h3>💬 {item.title}</h3>
+          <button
+            onClick={() => window.open(item.url, '_blank')}
             className={styles['forum-button']}
           >
             Rejoindre la discussion
           </button>
         </div>
-      </div>
-    ) : (
+      ) : (
         <>
-          <div>
-            {item.metadata?.image && (
-              <img
-                src={item.metadata.image}
-                alt={item.metadata.title}
-                className={styles['card-image']}
-              />
-            )}
-          </div>
-          <h3>
-            {item.metadata ? item.metadata.title : item.title}
-          </h3>
-          <p>{item.metadata ? item.metadata.description : item.description}</p>
+          {item.type !== 'livre' && item.metadata?.image && (
+            <img
+              src={item.metadata.image}
+              alt={item.metadata.title}
+              className={styles['card-image']}
+            />
+          )}
+          <h3>{item.metadata?.title || item.title}</h3>
+          {item.type === 'livre' ? (
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className={styles['card-image-link']}
+                />
+              )}
+              <div style={{ flex: 1 }}>
+                <p>{item.metadata?.description || item.description}</p>
+              </div>
+            </div>
+          ) : (
+            <p>{item.metadata?.description || item.description}</p>
+          )}
           {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
           {showAuthors && item.metadata?.authors && (
             <Authors
-            authorIds={item.metadata.authors}
-            onAuthorClick={onAuthorClick}
-            onlyDatactivist={true}
-          />
+              authorIds={item.metadata.authors}
+              onAuthorClick={onAuthorClick}
+              onlyDatactivist={true}
+            />
           )}
           {showDate && item.metadata?.date && (
             <div className={styles.date}>
-              <strong>⏱</strong>&nbsp;{formatDateToNow(item.metadata.date)}
+              <strong>⏱</strong> {formatDateToNow(item.metadata.date)}
             </div>
           )}
         </>
@@ -94,7 +99,7 @@ const Cards = ({
 }) => {
   const router = useRouter();
 
-  const handleClick = (item) => {
+  const handleCardClick = (item) => {
     if (item.url) {
       window.open(item.url, '_blank');
     } else {
@@ -102,7 +107,7 @@ const Cards = ({
     }
   };
 
-  const handleAuthorClickInCard = (authorId) => {
+  const handleAuthorClick = (authorId) => {
     router.push(`/docs?author=${encodeURIComponent(authorId)}`);
   };
 
@@ -112,9 +117,9 @@ const Cards = ({
         <div
           key={item.id}
           className={styles.card}
-          onClick={() => handleClick(item)}
+          onClick={() => handleCardClick(item)}
         >
-          {renderItem(item, handleAuthorClickInCard)}
+          {renderItem(item, handleAuthorClick)}
         </div>
       ))}
     </>
