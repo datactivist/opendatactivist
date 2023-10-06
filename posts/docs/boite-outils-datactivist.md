@@ -155,7 +155,7 @@ Open Data Editor a été déployé par l'Open Knowledge Foundation. L'outil perm
 
 ## 💬 Le conseil de Datactivist
 
-> Open Data Editor est très utile pour les étapes avant la publication d'un jeu de données, et il permet aussi d'éditer des métadonnées et des schémas de données.
+> Open Data Editor est très utile pour les étapes avant la publication d'un jeu de données. Il permet aussi d'éditer des métadonnées et des schémas de données.
 
 ## 🗂 Caractéristiques
 
