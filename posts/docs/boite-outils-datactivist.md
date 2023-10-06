@@ -27,6 +27,8 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
 
 [Open Refine](#open-refine)
 
+[Open Data Editor](#open-data-editor)
+
 ---
 
 # R Studio
@@ -109,7 +111,7 @@ Airtable permet d'éditer des tableurs et de **connecter des objets entre eux**,
 | **💰 Flexibilité et fonctionnalités** | 🟡 Fonctionnalités essentielles, mais possibilité de développer une instance  |
 | **🔀 Alternatives**                   | 🟢 [Airtable](#airtable), ApiTable                                            |
 
-### 👉 Accéder à l'outil
+## 👉 Accéder à l'outil
 
 %%Links:grist%%
 
@@ -133,7 +135,7 @@ OpenRefine est un outil gratuit et open source pour travailler avec des données
 | **🎳 Facilité d'utilisation**         | 🟠 Niveau intermédiaire, petit apprentissage à prévoir |
 | **💰 Coût**                           | 🆓 Entièrement gratuit                                 |
 | **💰 Flexibilité et fonctionnalités** | 🟡 L'essentiel y est, mais peu paramétrable            |
-| **🔀 Alternatives**                   | 🟢 Open data editor, en open source également          |
+| **🔀 Alternatives**                   | 🟢 [Open data editor](#open-data-editor), en open source également          |
 
 ## 👉 Accéder à l'outil
 
@@ -143,5 +145,28 @@ OpenRefine est un outil gratuit et open source pour travailler avec des données
 
 %%Docs:demo-open-refine%%
 
+# Open Data Editor
 
+## 💡 Pour quoi et pour qui ?
 
+Open Data Editor a été déployé par l'Open Knowledge Foundation. L'outil permet de préparer des jeux de données et réaliser des traitements, le tout en ligne et gratuitement.
+
+</br>
+
+## 💬 Le conseil de Datactivist
+
+> Open Data Editor est très utile pour les étapes avant la publication d'un jeu de données, et il permet aussi d'éditer des métadonnées et des schémas de données.
+
+## 🗂 Caractéristiques
+
+| Critère                               |  Appréciation                                                     |
+|---------------------------------------|-------------------------------------------------------------------|
+| **🔓 Open source**                    | ✅ Oui, 100 %                                                      |
+| **🎳 Facilité d'utilisation**         | 🟡 Prise en main assez rapide                                      |
+| **💰 Coût**                           | 🆓 Entièrement gratuit                                             |
+| **💰 Flexibilité et fonctionnalités** | 🟡 Nombreuses fonctionnalités, dont une intégration IA (en beta)   |
+| **🔀 Alternatives**                   | 🟢 [Open refine](#openrefine), en open source également                           |
+
+## 👉 Accéder à l'outil
+
+%%Links:opendataeditor%%

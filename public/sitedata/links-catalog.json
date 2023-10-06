@@ -518,6 +518,14 @@
       "description": "Outil open source pour éditer et lier des tables de données",
       "url": "https://www.getgrist.com/",
       "tags": ["no code", "tableau de bord", "outil", "open source"]
+    },
+    {
+      "id": "opendataeditor",
+      "title": "Open Data Editor",
+      "type": "outil",
+      "description": "Outil open source pour préparer des jeux de données open data",
+      "url": "https://blog.okfn.org/2023/10/04/introducing-open-data-editor-beta-towards-a-no-code-data-app-for-everyone/",
+      "tags": ["outil", "open source", "metadonnées", "schema"]
     }
   ]
 
