@@ -526,6 +526,14 @@
       "description": "Outil open source pour préparer des jeux de données open data",
       "url": "https://blog.okfn.org/2023/10/04/introducing-open-data-editor-beta-towards-a-no-code-data-app-for-everyone/",
       "tags": ["outil", "open source", "metadonnées", "schema"]
-    }
+    },
+     {
+      "id": "femmes-invisibles-livre",
+      "title": "📕 Femmes invisibles",
+      "type": "livre",
+      "description": "Comment le manque de données sur les femmes dessine un monde fait pour les hommes – Caroline Criado Perez",
+      "url": "https://www.babelio.com/livres/Criado-Perez-Femmes-invisibles/1203247",
+      "tags": ["data", "genre", "politiques publiques"]
+    },
   ]
 
