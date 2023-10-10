@@ -541,6 +541,15 @@
       "url": "https://www.babelio.com/livres/Criado-Perez-Femmes-invisibles/1203247",
       "image":"/images/links/femmes-invisibles-livre.png",
       "tags": ["data", "genre", "politiques publiques"]
+    },
+    {
+      "id": "data-cartels-livre",
+      "title": "Femmes invisibles",
+      "type": "livre",
+      "description": "Dans ce livre, Sarah Lamdan explore le monde non réglementé des cartels de données, montrant comment quelques entreprises dominent nos ressources informationnelles et perpétuent les inégalités sociales.",
+      "url": "https://www.sup.org/books/title/?id=33205",
+      "image":"/images/links/data-cartels-livre.png",
+      "tags": ["discriminations","ethique"]
     }
   ]
 
