@@ -21,7 +21,7 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
 
 # Nos autres coups de coeur
 
-%%Links:travail-invisible-livre,datanomics-livre,datafeminism-livre,femmes-invisibles-livre%%
+%%Links:travail-invisible-livre,datanomics-livre,datafeminism-livre,femmes-invisibles-livre,data-cartels-livre%%
 
 
 ---
