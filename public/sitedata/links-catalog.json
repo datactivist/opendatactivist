@@ -550,6 +550,14 @@
       "url": "https://www.sup.org/books/title/?id=33205",
       "image":"/images/links/data-cartels-livre.png",
       "tags": ["discriminations","ethique"]
+    },
+    {
+      "id": "ia-contre-atlas-livre",
+      "title": "  Contre-atlas de l’intelligence artificielle",
+      "type": "livre",
+      "description": "À travers six enquêtes approfondies, Kate Crawford déploie une cartographie exhaustive de l’IA : ses coûts et ses impacts environnementaux, sociaux et politiques.",
+      "url": "https://www.zulma.fr/livre/contre-atlas-de-lintelligence-artificielle/",
+      "image":"/images/links/ia-contre-atlas-livre.jpeg",
+      "tags": ["IA","ethique","politique","économie","environnement"]
     }
   ]
-
