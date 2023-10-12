@@ -1,13 +1,13 @@
 ---
-title: En images - La fresque des données ouvertes"
+title: En images - La fresque des données ouvertes
 image: /images/galleries/fresque-open-data/10.jpeg
-description: Acculturer tous les publics à l'ouverture des données
+description: Quelques photos des fresques réalisées
 type: Galerie d'images
 tags:
   - atelier
   - photos
 index: 1
-date: 2023-10-12
+date: 2023-09-01
 authors:
   - clement-mandron
   - maelle-fouquenet
