@@ -1,6 +1,6 @@
 ---
 title: En images - La fresque des données ouvertes
-image: /images/galleries/fresque-open-data/10.jpeg
+image: /images/galleries/fresque-open-data/1.jpeg
 description: Quelques photos des fresques réalisées
 type: Galerie d'images
 tags:
