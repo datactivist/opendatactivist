@@ -11,6 +11,7 @@ date: 2023-09-01
 authors:
   - clement-mandron
   - maelle-fouquenet
+  - magalie-dartus
   - samuel-goeta
 partners:
 --- 
