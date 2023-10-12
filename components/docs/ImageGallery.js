@@ -46,6 +46,10 @@ const ImageGallery = ({ galleryName }) => {
             style={{
               cursor: 'pointer',
               transition: 'transform 0.2s',
+              width: '400px',
+              height:'400px',
+              objectFit:'cover',
+              overflow:'hidden',
             }}
             onClick={() => handleClick(imageUrl)}
             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
