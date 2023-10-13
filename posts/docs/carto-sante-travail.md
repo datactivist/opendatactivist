@@ -15,7 +15,9 @@ authors:
 
 # Liste des données
 
-### [👉 Accéder à la cartographie de données](/datamap/datamap?data=&datamap-id=sante-travail&view=gallery)
+<a href="/datamap/datamap?data=&datamap-id=sante-travail&view=gallery" class="customButton">👉 Accéder à la cartographie de données</a>
+
+</br>
 
 <iframe
   width="100%"

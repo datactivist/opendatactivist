@@ -34,7 +34,7 @@ La présentation couvre les sujets suivants :
 
 <br></br>
 
-## [Accéder à la présentation](https://docs.google.com/presentation/d/1qgprHzP1UYw1Y3IJ3LHZ3soykHZz36ca/preview?slide=id.g1239248e414_0_5)
+<a href="https://docs.google.com/presentation/d/1qgprHzP1UYw1Y3IJ3LHZ3soykHZz36ca/preview?slide=id.g1239248e414_0_5" class="customButton">👉 Accéder à la présentation</a>
 
 <br></br>
 

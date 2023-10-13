@@ -17,7 +17,7 @@ authors:
 
 > Cette présentation introduit le format GTFS, une base de données relationnelle qui permet de décrire un réseau de transports, comprenant des arrêts, horaires, trajets, lignes, accessibilités, correspondances, etc. Le GTFS permet plusieurs applications telles que la recherche d'itinéraires, les systèmes d'information voyageurs, la gestion et l'exploitation d'un système de transports, ainsi que l'analyse des réseaux de mobilité.
 
-<br></br>
+<a href="https://docs.google.com/presentation/d/1MaprxlmdR-RVlbTSzS9G9PTN8tCB2DFs46FWFkE__3k/preview?slide=id.g448ffefe4d_0_0" class="customButton">👉 Accéder à la présentation</a>
 
 ## Cas pratique :
 
@@ -35,9 +35,7 @@ authors:
 - Solutions de validation
 - Cas pratique: trouver 10 données et les insérer dans un GTFS
 
-## [Accéder à la présentation](https://docs.google.com/presentation/d/1MaprxlmdR-RVlbTSzS9G9PTN8tCB2DFs46FWFkE__3k/preview?slide=id.g448ffefe4d_0_0)
-
-<br></br>
+</br>
 
 <div class="responsiveIframe">
   <iframe

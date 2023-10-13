@@ -81,3 +81,23 @@ footer {
 iframe {
   border: none;
 }
+
+a.customButton {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white  !important;
+  font-size: 20px;
+  border-radius: 8px;
+  border-bottom: none !important;
+  background: linear-gradient(45deg, #335a6a 30%, #197993 90%);
+  text-decoration: none !important; 
+  margin-bottom: 2rem;
+}
+
+a.customButton:hover {
+  background: linear-gradient(45deg, #e95459 30%, #d55a7b 90%);
+}
+
+a.customButton:active {
+  background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+}

@@ -28,11 +28,13 @@ Les sujets abordés dans cette présentation incluent :
 - La faible politisation des smart cities
 - Quelques enjeux de la smart city, tels que la data literacy, l'implication des citoyens et de la société civile, la place des entreprises dans la gestion urbaine et la gouvernance des données.
 
-<br></br>
+</br>
+
+<a href="https://datactivist.coop/upop/#1" class="customButton">👉 Accéder à la présentation</a>
 
 ## [Accéder à la présentation](https://datactivist.coop/upop/#1)
 
-<br></br>
+</br>
 
 <div class="responsiveIframe">
   <iframe

@@ -14,7 +14,7 @@ authors:
   - diane-thierry
 --- 
 
-### 👉 [Accéder au résultat](https://datactivist.coop/registre_entrees/Dashboard_viz/#section-%C3%A9volutions-temporelles)
+<a href="https://datactivist.coop/registre_entrees/Dashboard_viz/#section-%C3%A9volutions-temporelles" class="customButton">👉 Accéder au résultat</a>
 
 </br>
 
@@ -56,7 +56,7 @@ Ainsi, en quelques mois, une équipe composée de représentants du SIAF, de l�
 
 </br>
 
-## 👉 [Accéder au résultat](https://datactivist.coop/registre_entrees/Dashboard_viz/#section-%C3%A9volutions-temporelles)
+<a href="https://datactivist.coop/registre_entrees/Dashboard_viz/#section-%C3%A9volutions-temporelles" class="customButton">👉 Accéder au résultat</a>
 
 </br>
 

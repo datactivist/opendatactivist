@@ -20,7 +20,7 @@ partners:
 
 > Cette formation a été réalisée par Datactivist, dans le cadre du hackaviz de Poitiers
 
-<br></br>
+<a href="https://datactivist.coop/infolab_poitiers/formation_hackaviz/#1" class="customButton">👉 Accéder à la présentation</a>
 
 # C'est quoi un sprint data ?
 
@@ -84,7 +84,7 @@ C'est un format de co-création, associant sur un temps court des profils et des
 
 <br></br>
 
-## 👉 [Accéder à la présentation](https://datactivist.coop/infolab_poitiers/formation_hackaviz/#1)
+<a href="https://datactivist.coop/infolab_poitiers/formation_hackaviz/#1" class="customButton">👉 Accéder à la présentation</a>
 
 <br></br>
 

@@ -28,9 +28,8 @@ partners:
 
 # Comment utiliser les cartes ?
 
-## 🖨 [Télécharger le PDF à imprimer](https://github.com/datactivist/nextjs-doc/blob/main/public/files/cartes-fresque-opendata.pdf)
+<a href="https://github.com/datactivist/nextjs-doc/blob/main/public/files/cartes-fresque-opendata.pdf" class="customButton">🖨️ Télécharger le PDF à imprimer</a>
 
-<br/>
 
 # Conseils complémentaires
 

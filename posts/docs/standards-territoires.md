@@ -15,6 +15,8 @@ authors:
 
 > Ce document présente une formation sur la standardisation des données territoriales, donnée par Samuel Goëta (Datactivist).
 
+<a href="https://datactivist.coop/nec/#1" class="customButton">👉 Accéder à la présentation</a>
+
 ### Les données territoriales, un potentiel à renforcer
 
 Les producteurs de données territoriales publient des données selon leurs compétences et leur patrimoine de données accessibles. Il est difficile de savoir qui produit quoi, car les données ne sont pas nommées pareil selon les territoires. Les fichiers ne contiennent pas les mêmes champs et ne donnent pas le même niveau d'information. Il est donc compliqué de construire des usages qui dépassent un seul territoire.
@@ -52,7 +54,7 @@ Les exemples internationaux incluent :
 
 <br></br>
 
-## [Accéder à la présentation](https://datactivist.coop/nec/#1)
+<a href="https://datactivist.coop/nec/#1" class="customButton">👉 Accéder à la présentation</a>
 
 <br></br>
 

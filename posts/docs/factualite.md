@@ -18,7 +18,7 @@ partners:
 
 > Cette formation, réalisée par Sylvain Lapoix, porte sur la façon de corriger les mauvaises intuitions en utilisant les données.
 
-<br></br>
+<a href="https://datactivist.coop/infolab_poitiers/facto_sandwich/#1" class="customButton">👉 Accéder à la présentation</a>
 
 ## L'exemple du site Gapminder
 
@@ -48,10 +48,6 @@ Sylvain explique comment cet instinct se manifeste dans notre société, notamme
 - Les défis du hackaviz
 - Hans Rosling et la factualité
 - Les instincts dramatiques
-
-<br></br>
-
-## [Accéder à la présentation](https://datactivist.coop/infolab_poitiers/facto_sandwich/#1)
 
 <br></br>
 
