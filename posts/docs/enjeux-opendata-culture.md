@@ -18,11 +18,7 @@ partners:
 
 > Cette formation a été réalisée par Datactivist, pour le Ministère de la Culture
 
-<br></br>
-
----
-
-<br></br>
+<a href="https://datactivist.coop/ministere-culture/jour1.html#1" class="customButton">👉 Accéder à la présentation</a>
 
 ## Objectifs de la formation
 
@@ -46,10 +42,6 @@ partners:
 ## Quelques exemples de stratégies
 
 %%Links:pop-culture,musee-bretagne,doremus,getty-museum,palais-taiwan%%
-
-<br></br>
-
-## 👉 [Accéder à la présentation](https://datactivist.coop/ministere-culture/jour1.html#1)
 
 <br></br>
 

@@ -170,3 +170,11 @@ Open Data Editor a été déployé par l'Open Knowledge Foundation. L'outil perm
 ## 👉 Accéder à l'outil
 
 %%Links:opendataeditor%%
+
+</br>
+
+---
+
+</br>
+
+<a href="/links" class="customButton">🔎 Voir toutes nos ressources externes</a>

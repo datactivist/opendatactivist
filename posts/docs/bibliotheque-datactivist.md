@@ -23,6 +23,11 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
 
 %%Links:travail-invisible-livre,datanomics-livre,datafeminism-livre,femmes-invisibles-livre,data-cartels-livre,ia-contre-atlas-livre%%
 
+</br>
+
+<a href="/links" class="customButton">🔎 Voir toutes nos ressources externes</a>
 
 ---
+</br>
+
 *Image d'illustration : CarnegieCB, Licence Ouverte, via Wikimedia Commons*

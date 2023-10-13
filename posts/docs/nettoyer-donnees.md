@@ -17,7 +17,7 @@ authors:
 
 > Cette formation, réalisée par Sylvain Lapoix, est la 3ème partie du programme appelé "Fake news à l’épreuve des faits".
 
-</br>
+<a href="https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#1" class="customButton">👉 Accéder à la présentation</a>
 
 # Résumé du contenu
 
@@ -102,7 +102,7 @@ Pour paraphraser Hadley Whickam paraphrasant Léon Tolstoï :
 
 <br/>
 
-## [Accéder à la présentation](https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#1)
+<a href="https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#1" class="customButton">👉 Accéder à la présentation</a>
 
 <br></br>
 

@@ -30,11 +30,11 @@ authors:
 9. [Une canne blanche connectée](https://handisco.com/])
 10. [Et pour finir... des cocktails !](https://datactivist.coop/dataweek/#35)
 
-<br></br>
+</br>
 
-## [Accéder à la présentation](https://datactivist.coop/dataweek/#1)
+<a href="https://datactivist.coop/dataweek/#1" class="customButton">👉 Accéder à la présentation</a>
 
-<br></br>
+</br>
 
 <div class="responsiveIframe">
   <iframe

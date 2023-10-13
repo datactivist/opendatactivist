@@ -19,9 +19,11 @@ authors:
 
 Le projet Data Transport Mali a pour objectif principal de proposer un portail de données ouvertes dans le domaine du transport et de la mobilité au Mali et en Afrique de l’Ouest, et notamment de faciliter l’accès aux données de transports urbains et interurbains du pays.
 
-### 🔎 [En savoir plus sur le projet](https://forum.ogptoolbox.org/t/presentation-du-projet-data-transport-mali/590)
+</br>
 
-<br></br>
+<a href="https://forum.ogptoolbox.org/t/presentation-du-projet-data-transport-mali/590" class="customButton">🔎 En savoir plus sur le projet</a>
+
+</br>
 
 # Méthodes utilisées
 

@@ -18,7 +18,7 @@ authors:
 
 > Cette formation a été réalisée par Maëlle Fouquenet, pour l'INTEP
 
-<br></br>
+<a href="https://docs.google.com/presentation/d/1hJ6oPogGlbOBtRtbVB3Yd_6fX5_bm4lHkSnw9MKVs5g/preview?slide=id.g50a179ce52_0_0" class="customButton">👉 Accéder à la présentation</a>
 
 ## Programme de la formation
 
@@ -45,7 +45,7 @@ authors:
 
 %%Links:laboria%%
 
-<br></br>
+</br>
 
 ### Des enjeux à embrasser
 
@@ -53,10 +53,6 @@ authors:
 - Des enjeux de confiance
 - Des enjeux pour les administrations
 - La nécessaire acculturation collective
-
-<br></br>
-
-## 👉 [Accéder à la présentation](https://docs.google.com/presentation/d/1hJ6oPogGlbOBtRtbVB3Yd_6fX5_bm4lHkSnw9MKVs5g/preview?slide=id.g50a179ce52_0_0)
 
 <br></br>
 

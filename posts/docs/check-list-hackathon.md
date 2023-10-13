@@ -24,9 +24,11 @@ authors:
 
 ## Check-list des tâches et étapes
 
-### [Accéder à la check-list](https://docs.google.com/spreadsheets/u/1/d/1FR8nTa9c78_P_x_rUG4RW-bV2GaoRZxtzKhNcXlu0kc/preview#gid=0)
+</br>
 
-<br></br>
+<a href="https://docs.google.com/spreadsheets/u/1/d/1FR8nTa9c78_P_x_rUG4RW-bV2GaoRZxtzKhNcXlu0kc/preview#gid=0" class="customButton">Accéder à la check-list</a>
+
+</br>
 
 <div class="responsiveIframe">
   <iframe
@@ -36,13 +38,15 @@ authors:
   </iframe>
 </div>
 
-<br></br>
+</br>
 
 ## Check-list logistique
 
-### [Accéder à la check-list](https://docs.google.com/spreadsheets/u/1/d/1qv48mIpMxXZy6ykNvIqMsoLYgIqlXQWVTI1EQlMfT0s/preview#gid=0)
+</br>
 
-<br></br>
+<a href="https://docs.google.com/spreadsheets/u/1/d/1qv48mIpMxXZy6ykNvIqMsoLYgIqlXQWVTI1EQlMfT0s/preview#gid=0" class="customButton">Accéder à la check-list</a>
+
+</br>
 
 <div class="responsiveIframe">
   <iframe

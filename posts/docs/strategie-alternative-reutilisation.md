@@ -16,7 +16,7 @@ authors:
 
 > Cette formation, réalisée par Sylvain Lapoix, liste les défis qui se posent pour la réutilisation de données ouvertes, et propose des stratégies alternatives.
 
-<br></br>
+<a href="https://datactivist.coop/madics" class="customButton">👉 Accéder à la présentation</a>
 
 ---
 
@@ -71,7 +71,7 @@ authors:
 
 <br></br>
 
-## 👉 [Accéder à la présentation](https://datactivist.coop/madics)
+<a href="https://datactivist.coop/madics" class="customButton">👉 Accéder à la présentation</a>
 
 <br></br>
 
