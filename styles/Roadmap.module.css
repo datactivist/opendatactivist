@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,800;1,400&display=swap');
+
+.roadmapContainer {
+    width: 80%;
+    overflow-x: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .roadmapContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .roadmapContainer td {
+    text-align: left;
+    padding: 8px;
+    height: 70px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+  .roadmapContainer th {
+    display: none; 
+  }
+  
+  .authorImage {
+    height: 40px; 
+    width: 40px;
+    object-fit: cover; 
+    border-radius: 30px;
+  }
+
+  .authorName {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #6b6b6b;
+  }
+  
+  .monthTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    background-color: #173541;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-weight: 900;
+  }
+  
+  .roadmapContainer td:nth-child(1) {
+    width: 80%;
+  }
+  
+  .roadmapContainer td:nth-child(2){
+    width: 5%;
+  }
+  .roadmapContainer td:nth-child(3) {
+    width: 15%;
+  }
+  
+  @media (max-width: 767px) {
+    .authorImage {
+      display: none;
+    }
+  }

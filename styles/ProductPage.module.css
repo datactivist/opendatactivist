@@ -3,6 +3,10 @@
     background-color: white;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
   }
   
   .productBox:hover {
@@ -76,4 +80,9 @@
     margin-top: 10px;
   }
   
-  
+  @media screen and (max-width: 600px) {
+    .productBox {
+      width: 100%;
+      padding: 20px;  /* Optional: you might want to reduce padding on mobile */
+    }
+  }
