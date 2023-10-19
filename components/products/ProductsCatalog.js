@@ -12,7 +12,7 @@ const ProductsCatalog = () => {
 
   useEffect(() => {
     if (query.topic) {
-      router.push('/products'); 
+      router.push('/products');
     }
   }, [query.topic, router]);
 
@@ -30,23 +30,35 @@ const ProductsCatalog = () => {
   });
 
   const handleCardClick = (product) => {
-    const productUrl = `/products/${product.name}`; 
-    window.open(productUrl, '_blank'); 
+    const productUrl = `/products/${product.name}`;
+    window.open(productUrl, '_blank');
   };
 
   return (
     <div>
       <h1>Nos outils et produits</h1>
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      <Gallery>
-        {filteredProducts.map((item) => (
-          <div key={item.name} className={styles.card} onClick={() => handleCardClick(item)}>
-            {item.image && <img src={item.image} alt={item.title} className={styles['card-image']} />}
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </Gallery>
+      <div style={{ width: '90%', margin: '0 auto' }}>
+        <Gallery>
+          {filteredProducts.map((item) => (
+            <div
+              key={item.name}
+              className={styles.card}
+              onClick={() => handleCardClick(item)}
+            >
+              {item.image && (
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className={styles['card-image']}
+                />
+              )}
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </Gallery>
+      </div>
     </div>
   );
 };

@@ -49,9 +49,7 @@ const MarkdownDocs = ({ filename }) => {
               <DatagouvDisplay key={`datagouv-display-${index}`} ids={ids} />
             );
           } else {
-            const matchJsonGallery = part.match(
-              /%%JsonGallery:([^%]*)%%/,
-            );
+            const matchJsonGallery = part.match(/%%JsonGallery:([^%]*)%%/);
             if (matchJsonGallery) {
               const [filename, title] = matchJsonGallery[1]
                 .split(',')
@@ -119,25 +117,34 @@ const MarkdownDocs = ({ filename }) => {
         `;
       },
     },
-});
+  });
 
+  const TitleWithBackground = ({ title, imageUrl }) => {
+    const [smallScreen, setSmallScreen] = useState(window.innerWidth <= 768);
 
-const TitleWithBackground = ({ title, imageUrl }) => {
-  const [smallScreen, setSmallScreen] = useState(window.innerWidth <= 768);
+    useEffect(() => {
+      const handleResize = () => {
+        setSmallScreen(window.innerWidth <= 768);
+      };
 
-  useEffect(() => {
-    const handleResize = () => {
-      setSmallScreen(window.innerWidth <= 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
     return (
-      <div style={{ position: 'relative' }}>
+      <div
+        style={{
+          position: 'relative',
+          justifyContent: 'center',
+          display: 'flex',
+          maxWidth: '1300px',
+          padding: '0',
+          margin: '0',
+          width: '100%',
+        }}
+      >
         <img
           src={imageUrl}
           alt={title}
@@ -147,22 +154,23 @@ const TitleWithBackground = ({ title, imageUrl }) => {
             maxHeight: '400px',
             objectFit: 'cover',
             borderRadius: '10px',
+            marginTop: '1rem',
           }}
         />
         <h1
           style={{
             position: 'absolute',
-            top: '50%',
+            top: '45%',
             left: smallScreen ? '10%' : '5%',
             right: smallScreen ? '10%' : '5%',
             transform: 'translateY(-50%)',
             textAlign: 'center',
             fontSize: smallScreen ? '1.6rem' : '3rem',
-            color: 'white',
+            color: 'rgba(23, 53, 65, 0.8)',
             zIndex: 1,
             padding: '1rem',
             lineHeight: '1em',
-            background: 'rgba(23, 53, 65, 0.8)',
+            background: 'rgb(255,255,255, 0.9)',
             borderRadius: '10px',
             fontWeight: '1000',
           }}
@@ -187,7 +195,7 @@ const TitleWithBackground = ({ title, imageUrl }) => {
         );
       }
     };
-  
+
     fetchMarkdownContent();
   }, [filename]);
 
@@ -201,7 +209,6 @@ const TitleWithBackground = ({ title, imageUrl }) => {
       }
     }
   }, [content]);
-  
 
   return (
     <Layout>
@@ -211,6 +218,7 @@ const TitleWithBackground = ({ title, imageUrl }) => {
           margin: '0 auto',
           maxWidth: '900px',
           padding: '0 20px',
+          borderRadius: '20px',
         }}
       >
         <TitleWithBackground title={metadata.title} imageUrl={metadata.image} />
@@ -232,24 +240,29 @@ const TitleWithBackground = ({ title, imageUrl }) => {
         <br />
         <div className={styles.markdownContent}>
           {createContentElements(content)}
-          </div>
+        </div>
         {metadata.partners && (
           <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            border: '10px solid #ededed',
-            borderRadius: '26px',
-            padding: '20px',
-            marginTop: '20px',
-          }}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              border: '10px solid #ededed',
+              borderRadius: '26px',
+              padding: '20px',
+              marginTop: '20px',
+            }}
           >
             <p>
-             <strong> Ce contenu a été défini et testé avec{' '}
-              {metadata.partners.length > 1 ? 'plusieurs partenaires :' : 'un partenaire :'}
-              </strong>  </p>
+              <strong>
+                {' '}
+                Ce contenu a été défini et testé avec{' '}
+                {metadata.partners.length > 1
+                  ? 'plusieurs partenaires :'
+                  : 'un partenaire :'}
+              </strong>{' '}
+            </p>
             <br></br>
             <Partners partnersIds={metadata.partners} />
           </div>

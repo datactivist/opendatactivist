@@ -25,7 +25,7 @@ const DocsGallery = () => {
       try {
         const response = await fetch('/api/docs?action=list');
         const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0)); 
+        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0));
       } catch (error) {
         console.error(
           'Erreur lors de la récupération des métadonnées des documents',
@@ -48,7 +48,7 @@ const DocsGallery = () => {
     } else {
       setSelectedType('');
     }
-    
+
     if (query.author) {
       setSelectedAuthor(decodeURIComponent(query.author));
     } else {
@@ -68,7 +68,10 @@ const DocsGallery = () => {
     }
     router.push(newUrl, undefined, { shallow: true });
   };
-  
+
+  const navigateToRoadmap = () => {
+    router.push('/roadmap'); // Assuming you have a /roadmap route.
+  };
 
   const getUniqueTypes = () => {
     const allTypes = docsMetadata.map((doc) => doc.metadata.type);
@@ -80,7 +83,9 @@ const DocsGallery = () => {
     const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
     const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
     const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
-    const authorMatch = selectedAuthor ? doc.metadata.authors.includes(selectedAuthor) : true;
+    const authorMatch = selectedAuthor
+      ? doc.metadata.authors.includes(selectedAuthor)
+      : true;
 
     return (
       typeMatch &&
@@ -139,44 +144,58 @@ const DocsGallery = () => {
 
   const handleAuthorClick = (authorId) => {
     router.replace(`/authors/${authorId}`);
-  };  
-  
+  };
 
   return (
     <div>
       <h1>Tous nos contenus ouverts</h1>
       <div className="control-panel">
-        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-        <TypeFilter
-          selectedType={selectedType}
-          handleTypeFilter={handleTypeFilter}
-          uniqueTypes={getUniqueTypes()}
-        />
-        <button onClick={toggleViewMode} className={styles.toggleViewButton}>
-          {viewMode === 'list' ? (
-            <Image
-              src="/icons/gallery.svg"
-              alt="Gallery View"
-              width={34}
-              height={34}
-              className={styles.icon}
-            />
-          ) : (
-            <Image
-              src="/icons/list.svg"
-              alt="List View"
-              width={34}
-              height={34}
-              className={styles.icon}
-            />
-          )}
-        </button>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            marginLeft: '20px',
+          }}
+        >
+          <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+          <TypeFilter
+            selectedType={selectedType}
+            handleTypeFilter={handleTypeFilter}
+            uniqueTypes={getUniqueTypes()}
+          />
+          <button onClick={toggleViewMode} className={styles.toggleViewButton}>
+            {viewMode === 'list' ? (
+              <Image
+                src="/icons/gallery.svg"
+                alt="Gallery View"
+                width={34}
+                height={34}
+                className={styles.icon}
+              />
+            ) : (
+              <Image
+                src="/icons/list.svg"
+                alt="List View"
+                width={34}
+                height={34}
+                className={styles.icon}
+              />
+            )}
+          </button>
+          <button onClick={navigateToRoadmap} className={styles.customButton}>
+            Roadmap
+          </button>
+        </div>
       </div>
       {selectedTag && (
         <div>
           <div className={styles.tagContainer}>
             <span className={styles.tag}>{selectedTag}</span>
-            <button className={styles.closeButton} onClick={handleTagDeselection}>
+            <button
+              className={styles.closeButton}
+              onClick={handleTagDeselection}
+            >
               <Image
                 src="/images/icons/close.svg"
                 alt="Close"
@@ -191,25 +210,31 @@ const DocsGallery = () => {
         </div>
       )}
       {selectedAuthor && (
-  <div>
-    <div className={styles.tagContainer}>
-      <span className={styles.tag} onClick={() => handleAuthorClick(selectedAuthor)}>
-        {selectedAuthorName}
-      </span>
-              <button className={styles.closeButton} onClick={handleAuthorDeselection}>
-                <Image
-                  src="/images/icons/close.svg"
-                  alt="Close"
-                  width={30}
-                  height={30}
-                  className={styles.closeIcon}
-                />
-              </button>
-            </div>
-            <br />
-            <br />
+        <div>
+          <div className={styles.tagContainer}>
+            <span
+              className={styles.tag}
+              onClick={() => handleAuthorClick(selectedAuthor)}
+            >
+              {selectedAuthorName}
+            </span>
+            <button
+              className={styles.closeButton}
+              onClick={handleAuthorDeselection}
+            >
+              <Image
+                src="/images/icons/close.svg"
+                alt="Close"
+                width={30}
+                height={30}
+                className={styles.closeIcon}
+              />
+            </button>
           </div>
-        )}
+          <br />
+          <br />
+        </div>
+      )}
       {viewMode === 'list' ? (
         <ListView
           items={sortedDocs}
@@ -217,14 +242,16 @@ const DocsGallery = () => {
           tagRoute="docs"
         />
       ) : (
-        <Gallery>
-          <Cards
-            items={sortedDocs}
-            onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-            onAuthorClick={(authorId) => handleAuthorClick(authorId)}
-            tagRoute="docs"
-              />
-        </Gallery>
+        <div style={{ width: '90%', margin: '0 auto' }}>
+          <Gallery>
+            <Cards
+              items={sortedDocs}
+              onClick={(linkId, tag) => handleCardClick(linkId, tag)}
+              onAuthorClick={(authorId) => handleAuthorClick(authorId)}
+              tagRoute="docs"
+            />
+          </Gallery>
+        </div>
       )}
     </div>
   );
