@@ -87,6 +87,13 @@
         "bio": "Diplômée du Master Econométrie Appliquée de l'Université de Nantes, elle est passionnée par l'analyse de données. Elle travaille sur différents projets pour faire parler les données ouvertes au moyen de visualisations et d'études économétriques, allant de la récolte des données à leur analyse.",
         "organisation": "datactivist"
     },
+    },
+    "arthur-sarazin": {
+        "name": "Arthur Sarazin",
+        "image": "/images/authors/arthur-sarazin.jpeg",
+        "bio": "Arthur est chercheur en systèmes d'information, spécialisé en design science. Il conçoit et prototype des dispositifs pour faciliter la construction des usages des données ouvertes. Il se concentre tout particulièrement sur le développement d'un cadre de travail collaboratif dédié : l'Open Data Canvas.",
+        "organisation": "datactivist"
+    },
     "guillaume-coldre": {
         "name": "Guillaume Coldre",
         "image": "/images/authors/blank.png",
