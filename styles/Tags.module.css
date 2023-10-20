@@ -3,6 +3,7 @@
 .tagContainer {
   display: flex;
   align-items: center;
+  margin-left: 5%;
 }
 
 
@@ -37,7 +38,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .closeButton:hover {
