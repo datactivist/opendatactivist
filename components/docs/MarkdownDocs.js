@@ -10,6 +10,7 @@ import DocsMetadata from './DocsMetadata';
 import ProductDisplay from './ProductsDisplay';
 import Partners from '../nav/Partners';
 import ImageGallery from './ImageGallery';
+import Head from 'next/head';
 
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
@@ -212,6 +213,10 @@ const MarkdownDocs = ({ filename }) => {
 
   return (
     <Layout>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </Head>
       <div
         style={{
           backgroundColor: 'white',
