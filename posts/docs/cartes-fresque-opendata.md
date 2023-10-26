@@ -16,6 +16,7 @@ authors:
   - samuel-goeta
 partners:
   - bercy-hub
+license: ccbysa
 --- 
 
 # Présentation

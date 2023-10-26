@@ -9,6 +9,7 @@ tags:
 date: 2021-10-13
 authors:
   - samuel-goeta
+license: ccbysa
 --- 
 
 # Résumé de la formation

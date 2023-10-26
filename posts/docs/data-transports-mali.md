@@ -14,6 +14,7 @@ date: 2018-11-01
 authors:
   - cecile-le-guen
   - etienne-pichot-damon
+license: ccbysa
 --- 
 # Description
 

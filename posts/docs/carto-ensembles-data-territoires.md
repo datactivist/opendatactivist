@@ -13,6 +13,7 @@ authors:
   - equipe-datactivist
 partners:
   - banque-des-territoires
+license: ccbysa
 --- 
 
 > Datactivist a réalisé ce rencensement pour la Banque des Territoires en 2020.

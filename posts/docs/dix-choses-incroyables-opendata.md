@@ -11,6 +11,7 @@ index: 1
 date: 2019-06-24
 authors:
   - joel-gombin
+license: ccbysa
 --- 
 
 ## Présentation

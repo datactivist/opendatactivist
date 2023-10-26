@@ -15,6 +15,7 @@ authors:
 partners:
   - civiteo
   - gens-evenement
+license: ccbysa
 --- 
 
 %%Images:expo%%

@@ -11,6 +11,7 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2023-04-01
 authors:
   - magalie-dartus
+license: ccbysa
 --- 
 
 # Liste des portails

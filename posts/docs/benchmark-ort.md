@@ -12,6 +12,7 @@ authors:
   - etienne-pichot-damon
 partners:
   - region-sud
+license: ccbysa
 --- 
 
 # Liste des données
