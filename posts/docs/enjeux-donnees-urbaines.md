@@ -12,6 +12,7 @@ index: 1
 date: 2021-03-08
 authors:
   - joel-gombin
+license: ccbysa
 --- 
 
 # Présentation

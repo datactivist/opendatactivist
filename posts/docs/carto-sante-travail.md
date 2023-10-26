@@ -11,6 +11,7 @@ index: 1
 date: 2019-06-01
 authors:
   - equipe-datactivist
+license: ccbysa
 --- 
 
 # Liste des données

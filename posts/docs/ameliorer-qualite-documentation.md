@@ -13,6 +13,7 @@ authors:
   - sylvain-lapoix
 partners:
   - futurocite
+license: ccbysa
 --- 
 
 ## Présentation

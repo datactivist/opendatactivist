@@ -12,6 +12,7 @@ authors:
   - sylvain-lapoix
 partners: 
   - infolab-poitiers
+license: ccbysa
 --- 
 
 # Résumé de la formation

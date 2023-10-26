@@ -16,6 +16,7 @@ authors:
   - anthony-gigerich
 partners:
   - dreal-grand-est
+license: ccbysa
 --- 
 
 > La Data Science est devenue l’un des domaines les plus importants de l’informatique moderne. Deux langages majeurs ont émergé comme des incontournables : **R et Python.**

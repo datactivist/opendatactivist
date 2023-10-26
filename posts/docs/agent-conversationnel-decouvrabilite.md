@@ -12,6 +12,7 @@ date: 2021-11-11
 authors:
   - mathieu-morey
   - anthony-gigerich
+license: ccbysa
 --- 
 
 # La découvrabilité des jeux de données : condition de la réutilisation

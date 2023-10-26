@@ -14,6 +14,7 @@ authors:
   - guillaume-martin
 partners:
   - metropole-bordeaux
+license: ccbysa
 --- 
 
 > Ce travail de recensement a été réalisé par Datactivist

@@ -12,6 +12,7 @@ authors:
   - anne-laure-donzel
 partners:
   - ministere-culture
+license: ccbysa
 --- 
 
 ## Présentation

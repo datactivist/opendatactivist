@@ -11,6 +11,7 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2023-09-29
 authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / préférence, "equipe-datactivist"
   - equipe-datactivist
+license: ccbysa
 --- 
 
 # Les 3 ouvrages recommandés à nos nouvelles recrues

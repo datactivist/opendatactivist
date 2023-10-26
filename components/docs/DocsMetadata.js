@@ -6,7 +6,7 @@ import Authors from '../nav/Authors';
 import { useRouter } from 'next/router';
 
 const DocsMetadata = ({ metadata }) => {
-  const { type, tags, date, authors } = metadata;
+  const { type, tags, date, authors, license } = metadata;
   const router = useRouter();
 
   const handleAuthorClick = (authorId) => {
@@ -38,15 +38,15 @@ const DocsMetadata = ({ metadata }) => {
         )}
         {date && type && <>&nbsp; &nbsp;|&nbsp; &nbsp;</>}
         {type && (
-        <p>
-          <button
-            className={styles.typeButton}
-            onClick={() => handleTypeClick(type)}
-          >
-            📕 {type}
-          </button>
-        </p>
-      )}
+          <p>
+            <button
+              className={styles.typeButton}
+              onClick={() => handleTypeClick(type)}
+            >
+              📕 {type}
+            </button>
+          </p>
+        )}
       </div>
       {tags && (
         <div className={styles.metadataRow}>
@@ -63,12 +63,27 @@ const DocsMetadata = ({ metadata }) => {
       )}
       {authors && (
         <div className={styles.metadataRow}>
-        <Authors
-          authorIds={authors}
-          largeText={true}
-          onAuthorClick={handleAuthorClick}
-          onlyDatactivist={false}
-        />
+          <Authors
+            authorIds={authors}
+            largeText={true}
+            onAuthorClick={handleAuthorClick}
+            onlyDatactivist={false}
+          />
+        </div>
+      )}
+      {license === 'ccbysa' && (
+        <div className={styles.metadataRow}>
+          <div className={styles.ccBySaWrapper}>
+            <img
+              src="/images/icons/cc-by-sa.png"
+              alt="cc-by-sa"
+              className={styles.ccBySaImage}
+            />
+            <div className={styles.ccBySaLightbox}>
+              🔄 Vous pouvez partager et adapter ce contenu librement, à
+              condition de le créditer et de le partager sous la même licence.
+            </div>
+          </div>
         </div>
       )}
       <hr className={styles.separator} />

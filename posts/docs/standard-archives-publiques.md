@@ -12,6 +12,7 @@ index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'af
 date: 2021-05-20
 authors:
   - diane-thierry
+license: ccbysa
 --- 
 
 <a href="https://datactivist.coop/registre_entrees/Dashboard_viz/#section-%C3%A9volutions-temporelles" class="customButton">👉 Accéder au résultat</a>

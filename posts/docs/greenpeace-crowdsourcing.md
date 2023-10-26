@@ -14,6 +14,7 @@ date: 2017-07-01
 authors: 
   - samuel-goeta
   - sylvain-lapoix
+license: ccbysa
 --- 
 # Description
 

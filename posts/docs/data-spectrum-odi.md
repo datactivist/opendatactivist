@@ -13,6 +13,7 @@ index: 1
 date: 2018-07-20
 authors:
   - samuel-goeta
+license: ccbysa
 --- 
 
 # Qu'est-ce que le Data Spectrum ?

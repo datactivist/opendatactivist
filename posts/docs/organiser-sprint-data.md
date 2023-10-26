@@ -14,6 +14,7 @@ authors:
   - samuel-goeta
 partners:
   - infolab-poitiers
+license: ccbysa
 --- 
 
 # Présentation

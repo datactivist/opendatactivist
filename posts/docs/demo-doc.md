@@ -13,6 +13,7 @@ authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / p
   - prenom-nom
 partners: #le ou les partenaires ou clients, qui ont permis de créer ce contenu, ou avec qui il a été testé.
   - partner-name
+license: ccbysa
 --- 
 
 # Introduction

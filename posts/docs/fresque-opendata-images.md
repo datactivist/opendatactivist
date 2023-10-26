@@ -13,7 +13,7 @@ authors:
   - maelle-fouquenet
   - magalie-dartus
   - samuel-goeta
-partners:
+license: ccbysa
 --- 
 
 %%Images:fresque-open-data%%

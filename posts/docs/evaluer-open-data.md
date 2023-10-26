@@ -11,6 +11,7 @@ index: 1
 date: 2019-04-03
 authors:
   - etienne-pichot-damon
+license: ccbysa
 ---
 Quand on ouvre un portail open data, ce n’est pas juste pour que des gens téléchargent des données.
 
