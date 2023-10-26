@@ -559,5 +559,15 @@
       "url": "https://www.zulma.fr/livre/contre-atlas-de-lintelligence-artificielle/",
       "image":"/images/links/ia-contre-atlas-livre.jpeg",
       "tags": ["IA","ethique","politique","économie","environnement"]
+    },
+    {
+      "id": "gouvernance-par-les-nombres",
+      "title": "La Gouvernance par les nombres",
+      "type": "livre",
+      "description": "Alain Supiot retrace l'histoire des statisitques et leur place dans les institutions et idéologies politiques. Cet ouvrage démontre que les nombres sont des constructions révélatrices d'usages pré-déterminés",
+      "url": "https://www.zulma.fr/livre/contre-atlas-de-lintelligence-artificielle/",
+      "image":"/images/links/gouvernance-nombres.png",
+      "tags": ["gouvernance","human-data-interactions","droit","politique","histoire"]
     }
+    
   ]
