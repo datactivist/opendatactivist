@@ -50,4 +50,4 @@ La présentation inclut également des exemples de données propres et sales, ai
 
 # Guides complémentaires
 
-%%Docs:demo-open-refine,agent-conversationnel-decouvrabilite,livret-fondamentaux-opendata%%
+%%Docs:datasheets-datasets,demo-open-refine,agent-conversationnel-decouvrabilite,livret-fondamentaux-opendata%%
