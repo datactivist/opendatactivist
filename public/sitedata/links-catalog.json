@@ -568,6 +568,14 @@
       "url": "https://www.fayard.fr/livre/la-gouvernance-par-les-nombres-9782818506271/",
       "image":"/images/links/gouvernance-nombres.png",
       "tags": ["gouvernance","human-data-interactions","droit","politique","histoire"]
+    },
+    {
+      "id": "1400",
+      "title": "Traduction et adaptation du modèle de description des données “Datasheet for Datasets",
+      "type": "tod",
+      "description": "",
+      "url": "https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400",
+      "tags": ["évaluation", "portail","stratégie"]
     }
     
   ]
