@@ -68,7 +68,7 @@ const DatagouvDisplay = ({ ids }) => {
           font-family: 'Montserrat', sans-serif;
         }
         a {
-          color: black ;
+          color: black;
           text-decoration: none;
         }
         article a {
@@ -88,14 +88,15 @@ const DatagouvDisplay = ({ ids }) => {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          transition: background-color 0.2s ease;
           background-color: #fff;
-          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+          width: 95%;
+          margin-left: auto;
+          margin-right: auto;
         }
         .dataset-item:hover {
           background-color: #fff;
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-          transform: scale(1.02);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
         }
         h3 {
           margin-bottom: 10px;
@@ -103,15 +104,16 @@ const DatagouvDisplay = ({ ids }) => {
           font-weight: 700;
           font-family: 'Montserrat', sans-serif;
           cursor: pointer;
-  p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #696969;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-family: 'Montserrat', sans-serif;
-  }
-`}</style>
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #696969;
+          margin-top: 10px;
+          margin-bottom: 0px;
+          font-family: 'Montserrat', sans-serif;
+        }
+      `}</style>
     </div>
   );
 };
