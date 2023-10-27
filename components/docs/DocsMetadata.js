@@ -81,7 +81,8 @@ const DocsMetadata = ({ metadata }) => {
             />
             <div className={styles.ccBySaLightbox}>
               🔄 Vous pouvez partager et adapter ce contenu librement, à
-              condition de le créditer et de le partager sous la même licence.
+              condition de le créditer et de le partager sous une licence
+              compatible.
             </div>
           </div>
         </div>
