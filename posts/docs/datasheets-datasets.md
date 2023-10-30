@@ -26,6 +26,9 @@ Datasheets for Datasets est [un modèle de documentation](https://arxiv.org/pdf/
 ### Exemple d'utilisation de la méthodologie :
 
 %%Datagouv:60f960c36634406bff4aa249%%
+%%Datagouv:628f9c55cde04a0912e8d854%%
+%%Datagouv:651e8e3d4496991f93c8213b%%
+
 
 ## Motivations pour la création du jeu de données
 
