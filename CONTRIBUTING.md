@@ -125,7 +125,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 %%Docs:nom-du-doc%%
 ```
 >**Note**
->Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
+>Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une galerie :
 
 ```markdown
 ## Quelques articles complémentaires
@@ -158,7 +158,7 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien%%
 ```
 >**Note**
->Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
+>Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une galerie :
 
 ```markdown
 ## Liens utiles
@@ -220,7 +220,7 @@ Exemple : ```5de8f397634f4164071119c5```
 ```
 
 >**Note**
->Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une gallerie :
+>Vous pouvez en ajouter plusieurs, et ils s'afficheront comme une galerie :
 
 ```markdown
 ## Les données utilisées
@@ -238,7 +238,7 @@ Exemple : ```5de8f397634f4164071119c5```
 >**Warning**
 >Les performances ne sont pas optimales si le CSV comporte plusieurs millers d'enregistrements
 
-4.2 - Intégrez la gallerie dans votre doc
+4.2 - Intégrez la galerie dans votre doc
 ```markdown
 %%JsonGallery:nom-de-votre-csv%%
 ```
