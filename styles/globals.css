@@ -89,7 +89,7 @@ iframe {
 }
 
 a.customButton {
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   color: white  !important;
   font-size: 20px;
@@ -98,6 +98,10 @@ a.customButton {
   background: linear-gradient(45deg, #335a6a 30%, #197993 90%);
   text-decoration: none !important; 
   margin-bottom: 2rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
 a.customButton:hover {

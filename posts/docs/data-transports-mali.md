@@ -5,8 +5,8 @@ description: Faciliter l’accès aux données de transports interurbains en Afr
 type: Cas pratique
 tags:
   - transports
+  - international
   - afrique
-  - mali
   - usage
   - GTFS
 index: 1 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
