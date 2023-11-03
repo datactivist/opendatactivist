@@ -1,10 +1,12 @@
-import ProductPage from "../../components/products/ProductPage"
-import Layout from "../../components/Layout"
+import ProductPage from '../../components/products/ProductPage';
+import Layout from '../../components/Layout';
 
 export default function Produit() {
   const produit = {
+    docsList: ['experimentation-algo-lille'],
     nom: 'Patchwork Algorithmes',
-    baseline: 'Un parcours d‘accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics',
+    baseline:
+      'Un parcours d‘accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics',
     partnersIds: ['metropole-lille'],
     imageUrl: '/images/products/patchwork-algorithmes.png',
     description: `Le patchwork algorithmes est un ensemble de <b>ressources, d'outils et de documentations</b> regroupés pour vous aider à construire et publier votre registre des algorithmes publics.
@@ -18,18 +20,27 @@ export default function Produit() {
                   `,
     targets: ['🧑‍💼 Responsables open data', '👩🏻‍💼 Consultants'],
     testimonials: [
-      {text: "Des ressources claires et placées dans une suite logique", author: "Utilisatrice du patchwork"},
-      {text: "Le patchowork nous a permis de nous poser les bonnes questions au bon moment", author: "Utilisateur du patchwork"}
+      {
+        text: 'Des ressources claires et placées dans une suite logique',
+        author: 'Utilisatrice du patchwork',
+      },
+      {
+        text: 'Le patchowork nous a permis de nous poser les bonnes questions au bon moment',
+        author: 'Utilisateur du patchwork',
+      },
     ],
     liens: [
-        {url: 'https://opendatacanvas.org/transparence-algo', texte: '👾 Accéder au patchwork'},
-      ]
-  }
+      {
+        url: 'https://opendatacanvas.org/transparence-algo',
+        texte: '👾 Accéder au patchwork',
+      },
+    ],
+  };
 
   return (
     <Layout>
-    <br></br>
-    <ProductPage {...produit} />
+      <br></br>
+      <ProductPage {...produit} />
     </Layout>
-  )
+  );
 }
