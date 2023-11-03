@@ -1,13 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
+import React, { useEffect, useState } from 'react';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 
-const COLORS = ["#3d5a80", "#98c1d9", "#ee6c4d", "#ddbea9", "#293241", "#e0fbfc", "#f48c06", "#90be6d"];
+const COLORS = [
+  '#3d5a80',
+  '#98c1d9',
+  '#ee6c4d',
+  '#ddbea9',
+  '#293241',
+  '#e0fbfc',
+  '#f48c06',
+  '#90be6d',
+];
 
 const DonutChartTypes = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/api/docs?action=list")
+    fetch('/api/docs?action=list')
       .then((response) => response.json())
       .then((docs) => {
         const formattedData = formatData(docs);
@@ -36,7 +45,16 @@ const DonutChartTypes = () => {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', height: '500px', width: '550px' }}>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: '500px',
+        width: '550px',
+      }}
+    >
       <div style={{ flex: 2, height: '100%' }}>
         <ResponsiveContainer>
           <PieChart>
@@ -52,17 +70,43 @@ const DonutChartTypes = () => {
               labelLine={false}
             >
               {data.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                <Cell
+                  key={`cell-${index}`}
+                  fill={COLORS[index % COLORS.length]}
+                />
               ))}
             </Pie>
             <Tooltip />
           </PieChart>
         </ResponsiveContainer>
       </div>
-      <div style={{ flex: 0.4, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', padding: '10px' }}>
+      <div
+        style={{
+          flex: 0.4,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'flex-start',
+          padding: '10px',
+        }}
+      >
         {data.map((entry, index) => (
-          <div key={index} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-            <div style={{ width: 10, height: 10, backgroundColor: COLORS[index % COLORS.length], marginRight: 5 }} />
+          <div
+            key={index}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              marginBottom: '10px',
+            }}
+          >
+            <div
+              style={{
+                width: 10,
+                height: 10,
+                backgroundColor: COLORS[index % COLORS.length],
+                marginRight: 5,
+              }}
+            />
             <div>{entry.name}</div>
           </div>
         ))}

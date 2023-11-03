@@ -1,17 +1,30 @@
-import React, { useEffect, useState } from "react";
-import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
+import React, { useEffect, useState } from 'react';
+import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
 
-const months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
+const months = [
+  'Janvier',
+  'Février',
+  'Mars',
+  'Avril',
+  'Mai',
+  'Juin',
+  'Juillet',
+  'Août',
+  'Septembre',
+  'Octobre',
+  'Novembre',
+  'Décembre',
+];
 
 const formatMonth = (monthNumber) => {
   return months[monthNumber - 1];
-}
+};
 
 const DocsDate = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/api/docs?action=list")
+    fetch('/api/docs?action=list')
       .then((response) => response.json())
       .then((docs) => {
         const formattedData = formatData(docs);
@@ -22,7 +35,7 @@ const DocsDate = () => {
 
   const formatData = (docs) => {
     const sortedDocs = docs.sort(
-      (a, b) => new Date(a.metadata.date) - new Date(b.metadata.date)
+      (a, b) => new Date(a.metadata.date) - new Date(b.metadata.date),
     );
 
     const firstDate = new Date(sortedDocs[0].metadata.date);
@@ -37,7 +50,9 @@ const DocsDate = () => {
       const yearMonth = `${year}-${month.toString().padStart(2, '0')}`;
       const count = sortedDocs.filter((doc) => {
         const docDate = new Date(doc.metadata.date);
-        return docDate.getFullYear() === year && docDate.getMonth() === month - 1;
+        return (
+          docDate.getFullYear() === year && docDate.getMonth() === month - 1
+        );
       }).length;
       counts.push({
         month: yearMonth,
@@ -60,9 +75,16 @@ const DocsDate = () => {
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && label) {
-      const [year, month] = label.split("-");
+      const [year, month] = label.split('-');
       return (
-        <div className="custom-tooltip" style={{ backgroundColor: 'white', padding: '10px', border: '1px solid #ccc' }}>
+        <div
+          className="custom-tooltip"
+          style={{
+            backgroundColor: 'white',
+            padding: '10px',
+            border: '1px solid #ccc',
+          }}
+        >
           <p className="label">{`${formatMonth(parseInt(month))} ${year}`}</p>
           <p className="intro">{`Documents cumulés : ${payload[0].value}`}</p>
         </div>
@@ -70,19 +92,18 @@ const DocsDate = () => {
     }
     return null;
   };
-  
 
   const CustomizedAxisTick = ({ x, y, payload }) => {
-    const [year, month] = payload.value.split("-");
-    const xPos = x + (month === "01" ? 0 : -15);
-    const displayYear = month === "01" ? year : '';
+    const [year, month] = payload.value.split('-');
+    const xPos = x + (month === '01' ? 0 : -15);
+    const displayYear = month === '01' ? year : '';
     return (
       <g transform={`translate(${xPos},${y})`}>
         <text
           x={0}
           y={0}
           dy={16}
-          textAnchor={month === "01" ? 'start' : 'end'}
+          textAnchor={month === '01' ? 'start' : 'end'}
           fill="#666"
         >
           {displayYear}
