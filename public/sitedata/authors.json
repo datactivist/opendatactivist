@@ -102,6 +102,15 @@
         "name": "Natacha Roger",
         "image": "/images/authors/blank.png",
         "organisation": "bercy-hub"
+    },
+    "myriam-limpens": {
+        "name": "Myriam Limpens",
+        "image": "/images/authors/blank.png",
+        "organisation": "metropole-lille"
+    },
+    "hafid-ait-sidi-hammou": {
+        "name": "Hafid Ait Sidi Hammmou",
+        "image": "/images/authors/blank.png",
+        "organisation": "metropole-lille"
     }
   }
-  
