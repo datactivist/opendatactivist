@@ -53,23 +53,64 @@
   margin-right: auto;
 }
  .customButton {
-  display: block;
   padding: 10px 10px;
-  color: white  !important;
+  color: rgb(0, 0, 0)  !important;
   font-size: 18px;
   border-radius: 8px;
   border: none !important;
-  background-color: #173541	;
+  background-color: #ffffff	;
   text-decoration: none !important; 
   margin-bottom: 1rem;
+  margin-left: 20px;
+  border: solid 1px #b8b8b8 !important;
   cursor: pointer;
   justify-content: center;
 }
 
  .customButton:hover {
   background: linear-gradient(45deg, #e95459 30%, #d55a7b 90%);
+  color: #fff !important;
+  border: solid 1px !important;
 }
 
  .customButton:active {
   background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+}
+
+.tagButton {
+  margin: 10px; 
+  padding: 15px; 
+  background: linear-gradient(45deg, #aac4ce 30%, #b0d1dc 90%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease; 
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 18px;
+  box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.30); /* Shadow added */
+}
+
+.tagButton:hover,
+.tagButton:focus {
+  background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.tagListContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center; 
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tagCount {
+  font-size: 0.75em;
 }
