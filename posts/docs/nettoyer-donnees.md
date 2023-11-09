@@ -2,7 +2,7 @@
 title: Comment nettoyer des données
 image: /images/docs/nettoyer-donnees/nettoyer-donnees.jpeg
 description: C'est quoi une donnée propre ou une donnée sale ? Comment comprendre les données pour les nettoyer ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - qualité
   - nettoyer

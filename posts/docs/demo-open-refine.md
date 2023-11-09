@@ -2,7 +2,7 @@
 title: Demo Open Refine
 image: /images/docs/demo-open-refine/openrefine.jpeg
 description: Démonstration de l'outil open refine, pour préparer et mettre en qualité des données
-type: Guide
+type: 📘 Guide
 tags:
   - outil
   - qualité

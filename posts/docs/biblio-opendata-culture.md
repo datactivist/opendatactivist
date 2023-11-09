@@ -2,7 +2,7 @@
 title: Liste de ressources - culture et open data
 image: /images/docs/biblio-culture-opendata.webp
 description: Une liste des ensembles de données que l'on retrouve dans les collectivités territoriales, par thématique, avec leur niveau de standardisation
-type: Bibliographie
+type: 📚 Bibliographie
 tags:
   - ressources
   - culture

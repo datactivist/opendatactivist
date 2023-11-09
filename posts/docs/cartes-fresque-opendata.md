@@ -2,7 +2,7 @@
 title: Cartes à imprimer - Fresque des données ouvertes
 image: /images/docs/cartes-fresque.jpeg
 description: Les cartes à jouer, prêtes à imprimer pour animer une fresque des données ouvertes.
-type: Atelier
+type: 🎯 Atelier
 tags:
   - atelier
   - vocabulaire

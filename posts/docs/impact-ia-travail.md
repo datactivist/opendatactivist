@@ -2,7 +2,7 @@
 title: Les grands impacts de l’IA et de la donnée sur le lieu de travail
 image: /images/docs/ia-travail.jpeg
 description: Donnée, intelligence artificielle, amélioration des algorithmes - quel impact sur le travail ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - IA
   - travail

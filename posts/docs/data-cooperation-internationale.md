@@ -2,7 +2,7 @@
 title: Data et politiques de coopération internationale
 image: /images/docs/data-cooperation-internationale.webp
 description: Un cours complet sur les enjeux de la donnée pour les politiques de coopération internationale
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - international
   - politique

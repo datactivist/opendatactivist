@@ -2,7 +2,7 @@
 title: Check-list pour organiser un hackathon
 image: /images/docs/check-list-hackathon.webp
 description: Logistique, programme - la check-list ultime pour un hackathon réussi
-type: Guide
+type: 📘 Guide
 tags:
   - hackathon
   - évènement

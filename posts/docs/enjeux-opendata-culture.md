@@ -2,7 +2,7 @@
 title: Comprendre les enjeux de l’ouverture des données publiques culturelles
 image: /images/docs/od-culture.jpeg
 description: Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - culture
   - stratégie

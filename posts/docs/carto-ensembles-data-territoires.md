@@ -2,7 +2,7 @@
 title: Cartographie des ensembles de données dans les territoires
 image: /images/docs/carto-ensembles-territoires.png
 description: Une liste des ensembles de données que l'on retrouve dans les collectivités territoriales.
-type: Liste de ressources
+type: 📋 Liste de ressources
 tags:
   - cartographie de données
   - territoires

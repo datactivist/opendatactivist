@@ -2,7 +2,7 @@
 title:  Écrire les métadonnées - La méthode "Datasheets for datasets"
 image: /images/docs/datasheets-datasets.webp
 description: Une liste de questions pour compléter pas à pas des métadonnées.
-type: Guide
+type: 📘 Guide
 tags:
   - documentation
   - méthode

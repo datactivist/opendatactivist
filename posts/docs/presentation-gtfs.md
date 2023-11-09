@@ -2,7 +2,7 @@
 title: Introduction au format GTFS
 image: /images/docs/presentation-gtfs.webp
 description: Qu'est-ce qu'un GTFS et de quels fichiers est-il constitué ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - GTFS
   - transports

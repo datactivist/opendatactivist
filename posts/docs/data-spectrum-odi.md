@@ -2,7 +2,7 @@
 title: The Data Spectrum, par l'Open Data Institute
 image: /images/docs/dataspectrum-odi-small.jpeg
 description: Comprendre les différents degrés d'ouverture ou protection des données
-type: Infographie
+type: 📊 Infographie
 tags:
   - vocabulaire
   - rgpd

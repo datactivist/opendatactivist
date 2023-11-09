@@ -2,7 +2,7 @@
 title: Data Literacy
 image: /images/docs/data-literacy.jpeg
 description: Introduction à une approche critique de la donnée
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - visualisations
   - dataviz

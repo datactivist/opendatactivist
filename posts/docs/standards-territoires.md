@@ -2,7 +2,7 @@
 title: Données et territoires - les enjeux de la standardisation des données ouvertes
 image: /images/docs/standards-territoires.png
 description: Comment donner plus d'impact aux données ouvertes par les territoires grâce aux standards ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - standards
   - territoires

@@ -2,7 +2,7 @@
 title: Livret de la fresque des données ouvertes
 image: /images/docs/fondamentaux-od.jpeg
 description: Un livret à compléter par les participant•e•s, lors d'une fresque des données ouvertes
-type: Atelier
+type: 🎯 Atelier
 tags:
   - atelier
   - qualité

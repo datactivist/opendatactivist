@@ -2,7 +2,7 @@
 title: Organiser un sprint data
 image: /images/docs/sprint-data.jpeg
 description: Comment réussir un sprint data ou un hackathon ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - hackathon
   - évènement

@@ -2,7 +2,7 @@
 title: Pourquoi et comment ouvrir ses données de transport ?
 image: /images/docs/transport1.png
 description: Une méthode en trois étapes, qui peut être mise en oeuvre par des personnes ayant un niveau débutant.
-type: Guide
+type: 📘 Guide
 tags:
   - transports
   - GTFS

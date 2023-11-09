@@ -2,7 +2,7 @@
 title: Panorama des formats et des outils de data visualisation
 image: /images/docs/panorama-formats-dataviz.jpeg
 description: Exemples d'outils et de visualisations de données
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - dataviz
   - visualisations

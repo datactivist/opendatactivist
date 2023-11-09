@@ -2,7 +2,7 @@
 title: Un agent conversationnel pour améliorer la découvrabilité des données ouvertes
 image: /images/products/screen-conciergerie.png
 description: Comment permettre aux utilisateurs de portails open data de trouver plus facilement des jeux de données ?
-type: Bibliographie
+type: 📚 Bibliographie
 tags:
   - IA
   - découvrabilité

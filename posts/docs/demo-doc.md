@@ -2,7 +2,7 @@
 title: Démo d'un article
 image: /images/docs/ouverture-commande-publique.webp
 description: Une description courte, en une phrase pour présenter le contenu
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - visualisations
   - dataviz

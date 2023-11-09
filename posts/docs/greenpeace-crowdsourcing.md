@@ -2,7 +2,7 @@
 title: Greenpeace et crowdsourcing des menus des cantines
 image: /images/docs/greenpeace-cantines.jpeg
 description: Retour sur une campagne open data pour repérer la viande dans les cantines
-type: Cas pratique
+type: 🔎 Cas pratique
 tags:
   - alimentation
   - crowdsourcing

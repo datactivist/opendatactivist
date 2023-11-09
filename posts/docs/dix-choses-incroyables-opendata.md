@@ -2,7 +2,7 @@
 title: Ces dix choses incroyables qui n’existeraient pas sans l’open data
 image: /images/docs/10-choses-opendata.png
 description: Introduction à une approche critique de la donnée
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - exemples
   - réutilisation

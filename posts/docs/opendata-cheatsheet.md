@@ -2,7 +2,7 @@
 title: Open Data Cheat Sheet
 image: /images/docs/opendata-cheatsheet.jpeg
 description: L'essentiel de l'open data en un coup d'oeil
-type: Infographie
+type: 📊 Infographie
 tags:
   - lexique
   - législation

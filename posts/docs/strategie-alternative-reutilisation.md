@@ -2,7 +2,7 @@
 title: Défis de la réutilisation des données ouvertes et stratégies alternatives
 image: /images/docs/strategie-alternative-reutilisation.jpg
 description: Comment trouver et utiliser des données lorsqu'elles sont difficilement accessibles ou exploitables ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - réutilisation
   - astuces

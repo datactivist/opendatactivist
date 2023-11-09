@@ -20,6 +20,24 @@ const DocsGallery = () => {
   const [docsMetadata, setDocsMetadata] = useState([]);
   const [viewMode, setViewMode] = useState('gallery');
 
+  const sanitizeType = (type) => {
+    let sanitized = decodeURIComponent(type)
+      .replace(/[\u200D]/gu, '') 
+      .replace(/[\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+      .replace(/[^a-z0-9-]/gi, '-') 
+      .replace(/-+/g, '-') 
+      .toLowerCase()
+      .trim();
+  
+    if (sanitized.startsWith('-')) {
+      sanitized = sanitized.substring(1);
+    }
+  
+    return sanitized;
+  };
+  
+  
+
   useEffect(() => {
     const fetchDocsMetadata = async () => {
       try {
@@ -61,13 +79,15 @@ const DocsGallery = () => {
   };
 
   const handleTypeFilter = (event) => {
-    setSelectedType(event.target.value);
-    let newUrl = `/docs?type=${encodeURIComponent(event.target.value)}`;
+    const cleanType = sanitizeType(event.target.value);
+    setSelectedType(cleanType);
+    let newUrl = `/docs?type=${encodeURIComponent(cleanType)}`;
     if (query.tag) {
       newUrl += `&tag=${encodeURIComponent(query.tag)}`;
     }
     router.push(newUrl, undefined, { shallow: true });
   };
+  
 
   const navigateToRoadmap = () => {
     router.push('/roadmap'); // Assuming you have a /roadmap route.
@@ -84,9 +104,9 @@ const DocsGallery = () => {
 
   const filteredDocs = docsMetadata.filter((doc) => {
     const searchValue = searchTerm.toLowerCase();
-    const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
+    const typeMatch = selectedType ? sanitizeType(doc.metadata.type) === selectedType : true;
     const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
-    const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
+    const typeUrl = query.type ? sanitizeType(doc.metadata.type).includes(sanitizeType(query.type)) : true;
     const authorMatch = selectedAuthor
       ? doc.metadata.authors.includes(selectedAuthor)
       : true;

@@ -2,7 +2,7 @@
 title: Benchmark des portails open data culturels
 image: /images/docs/benchmark-data-culture.png
 description: Une liste de potails open data dédiés à la culture, en France et dans le monde
-type: Liste de ressources
+type: 📋 Liste de ressources
 tags:
   - benchmark
   - culture

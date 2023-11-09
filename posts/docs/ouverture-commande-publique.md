@@ -2,7 +2,7 @@
 title: Ouverture de la commande publique
 image: /images/docs/ouverture-commande-publique.webp
 description: Pourquoi et commment publier les données de la commande publique ?
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - commande publique
   - DECP

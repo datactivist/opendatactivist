@@ -2,7 +2,7 @@
 title: La boite à outils de Datactivist
 image: /images/docs/boite-outils-datactivist.jpg
 description: Les outils utilisés par les Datactivistes au quotidien, et leurs recommandations
-type: Liste de ressources
+type: 📋 Liste de ressources
 tags:
   - outils
   - logiciels

@@ -2,7 +2,7 @@
 title: Enjeux politiques des données urbaines
 image: /images/docs/enjeux-donnees-urbaines.jpeg
 description: Pour une approche critique de la smart city
-type: Formation
+type: 🧑🏽‍🏫 Formation
 tags:
   - smart city
   - politique

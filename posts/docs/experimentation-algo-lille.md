@@ -2,7 +2,7 @@
 title: Expérimentation d’ouverture des algorithmes publics à la Métropole Européenne de Lille
 image: /images/docs/algo-lille/algo-lille.webp
 description: Un retour d'expérience de la collectivité et de l'équipe Datactivist
-type: Cas pratique
+type: 🔎 Cas pratique
 tags:
   - algorithmes
   - méthode
