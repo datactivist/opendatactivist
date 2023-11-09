@@ -139,7 +139,17 @@ const DocsGallery = () => {
       setSelectedAuthor('');
       setSelectedAuthorName('');
     }
-  }, [query]);
+
+    if (query.type && query.type !== query.type.toLowerCase()) {
+      const lowerCaseType = query.type.toLowerCase();
+      const newQuery = { ...query, type: lowerCaseType };
+      const newUrl = {
+        pathname: router.pathname,
+        query: newQuery,
+      };
+      router.replace(newUrl, undefined, { shallow: true });
+    }
+  }, [query, router]);
 
   const toggleViewMode = () => {
     const newViewMode = viewMode === 'list' ? 'gallery' : 'list';
