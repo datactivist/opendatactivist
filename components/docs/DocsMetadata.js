@@ -9,6 +9,22 @@ const DocsMetadata = ({ metadata }) => {
   const { type, tags, date, authors, license } = metadata;
   const router = useRouter();
 
+  const sanitizeType = (type) => {
+    let sanitized = decodeURIComponent(type)
+      .replace(/[\u200D]/gu, '') 
+      .replace(/[\u{1F300}-\u{1F5FF}\u{1F900}-\u{1F9FF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+      .replace(/[^a-z0-9-]/gi, '-') 
+      .replace(/-+/g, '-') 
+      .toLowerCase()
+      .trim();
+  
+    if (sanitized.startsWith('-')) {
+      sanitized = sanitized.substring(1);
+    }
+  
+    return sanitized;
+  };
+  
   const handleAuthorClick = (authorId) => {
     router.push(`/authors/${authorId}`);
   };
@@ -19,9 +35,11 @@ const DocsMetadata = ({ metadata }) => {
   };
 
   const handleTypeClick = (type) => {
-    const url = `/docs?type=${encodeURIComponent(type)}`;
-    window.open(url, '_blank');
+    const cleanType = sanitizeType(type);
+    const url = `/docs?type=${encodeURIComponent(cleanType)}`;
+    router.push(url);
   };
+  
 
   const formatDate = (dateString) => {
     const dateObj = new Date(dateString);
@@ -43,7 +61,7 @@ const DocsMetadata = ({ metadata }) => {
               className={styles.typeButton}
               onClick={() => handleTypeClick(type)}
             >
-              📕 {type}
+              {type}
             </button>
           </p>
         )}
