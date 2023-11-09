@@ -73,6 +73,10 @@ const DocsGallery = () => {
     router.push('/roadmap'); // Assuming you have a /roadmap route.
   };
 
+  const navigateToTags = () => {
+    router.push('/tags'); // Assuming you have a /roadmap route.
+  };
+
   const getUniqueTypes = () => {
     const allTypes = docsMetadata.map((doc) => doc.metadata.type);
     return Array.from(new Set(allTypes));
@@ -164,6 +168,12 @@ const DocsGallery = () => {
             handleTypeFilter={handleTypeFilter}
             uniqueTypes={getUniqueTypes()}
           />
+          <button onClick={navigateToTags} className={styles.customButton}>
+            Tags
+          </button>
+          <button onClick={navigateToRoadmap} className={styles.customButton}>
+            Roadmap
+          </button>
           <button onClick={toggleViewMode} className={styles.toggleViewButton}>
             {viewMode === 'list' ? (
               <Image
@@ -182,9 +192,6 @@ const DocsGallery = () => {
                 className={styles.icon}
               />
             )}
-          </button>
-          <button onClick={navigateToRoadmap} className={styles.customButton}>
-            Roadmap
           </button>
         </div>
       </div>
