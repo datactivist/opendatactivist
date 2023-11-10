@@ -57,7 +57,7 @@ const AuthorPage = () => {
 
   return (
     <Layout>
-      <h1 className={styles.h1Gray}>
+      <h1 className={styles.authorpageTitle}>
         {authorData.organisation === 'datactivist' ? '...Notre équipe' : '...Nos contributeurs'}
       </h1>
       <div className={styles.productBox}>

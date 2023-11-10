@@ -2,7 +2,37 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .authorpageTitle {
+    font-size: 2.5rem;
+    color: #ffffff; 
+    font-weight: 900; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    margin-top: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    background: linear-gradient(45deg, #ef9093 30%, #ed85a1 90%);
+    width: 100% ;
+    margin-left: auto;
+    border-radius: 4px;
+  }
   
+  .partnerpageTitle {
+    font-size: 2.5rem;
+    color: #ffffff; 
+    font-weight: 900; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    margin-top: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    background: linear-gradient(45deg, #557786 30%, #3986a7 90%);
+    width: 100% ;
+    margin-left: auto;
+    border-radius: 4px;
+  }
+
   .author {
     display: flex;
     align-items: center;
