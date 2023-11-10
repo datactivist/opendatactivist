@@ -45,13 +45,6 @@
   color: #e95459; /* Nouvelle couleur au survol */
 }
 
-.control-panel {
-  display: block;
-  align-items: left;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-}
  .customButton {
   padding: 10px 10px;
   color: rgb(0, 0, 0)  !important;

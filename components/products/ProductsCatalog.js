@@ -36,7 +36,6 @@ const ProductsCatalog = () => {
 
   return (
     <div>
-      <h1>Nos outils et produits</h1>
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
       <div style={{ width: '90%', margin: '0 auto' }}>
         <Gallery>

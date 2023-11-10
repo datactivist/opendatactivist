@@ -75,7 +75,7 @@ const PartnerPage = () => {
 
   return (
     <Layout>
-      <h1 className={styles.h1Gray}>...Nos partenaires</h1>
+      <h1 className={styles.partnerpageTitle}>...Nos partenaires</h1>
       <div className={styles.productBox}>
         <div className={styles.authorContainer}>
           <div className={styles.authorHeader}>

@@ -152,14 +152,14 @@ const DocsGallery = () => {
 
   return (
     <div>
-      <h1>Tous nos contenus ouverts</h1>
       <div className="control-panel">
         <div
           style={{
             display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginLeft: '20px',
+            justifyContent: 'left',
+            alignItems: 'left',
+            marginLeft: '0px',
+            marginBottom:'10px'
           }}
         >
           <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
