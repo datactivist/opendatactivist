@@ -51,8 +51,6 @@ const LinksCatalog = () => {
 
   return (
     <div className={styles.container}>
-      <h1>Ressources externes</h1>
-      <br />
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
       {tagFilter && (
         <div>
