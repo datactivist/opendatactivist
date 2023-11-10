@@ -9,6 +9,38 @@ const DocsMetadata = ({ metadata }) => {
   const { type, tags, date, authors, license } = metadata;
   const router = useRouter();
 
+  const renderTypeWithEmoji = (type) => {
+    let emoji = '';
+    switch (type) {
+      case 'Formation':
+        emoji = '🧑🏽‍🏫 ';
+        break;
+      case 'Atelier':
+        emoji = '🎯 ';
+        break;
+      case 'Bibliographie':
+        emoji = '📚 ';
+        break;
+      case 'Liste de ressources':
+        emoji = '📋 ';
+        break;
+      case 'Guide':
+        emoji = '📘 ';
+        break;
+      case 'Infographie':
+        emoji = '📊 ';
+        break;
+      case 'Galerie d‘images':
+        emoji = '📷 ';
+        break;
+      case 'Cas pratique':
+        emoji = '🔎 ';
+        break;
+      // ajoute d'autres cas si nécessaire
+    }
+    return `${emoji}${type}`;
+  };
+
   const handleAuthorClick = (authorId) => {
     router.push(`/authors/${authorId}`);
   };
@@ -39,12 +71,12 @@ const DocsMetadata = ({ metadata }) => {
         {date && type && <>&nbsp; &nbsp;|&nbsp; &nbsp;</>}
         {type && (
           <p>
-            <button
-              className={styles.typeButton}
-              onClick={() => handleTypeClick(type)}
-            >
-              📕 {type}
-            </button>
+          <button
+            className={styles.typeButton}
+            onClick={() => handleTypeClick(type)}
+          >
+            {renderTypeWithEmoji(type)}
+          </button>
           </p>
         )}
       </div>
