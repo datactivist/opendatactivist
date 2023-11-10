@@ -36,7 +36,6 @@ const PartnerGallery = () => {
 
   return (
     <div>
-      <h1>Nos partenaires</h1>
       <Gallery>
         {partnersArray.map((partner) => (
         <div key={partner.id} className={`${styles.cardpartner} ${styles.centerContent}`} onClick={() => router.push(`/partners/${partner.id}`)}>
