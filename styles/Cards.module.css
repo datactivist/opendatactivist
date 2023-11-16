@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .card {
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -6,6 +8,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .card:hover {
@@ -61,8 +64,9 @@
   margin: 0;
 }
 .date {
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 13px;
+  color: #555555
 }
 
 .centerContent {

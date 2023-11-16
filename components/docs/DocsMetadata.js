@@ -119,7 +119,6 @@ const DocsMetadata = ({ metadata }) => {
           </div>
         </div>
       )}
-      <hr className={styles.separator} />
     </div>
   );
 };

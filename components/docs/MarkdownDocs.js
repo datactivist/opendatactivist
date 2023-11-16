@@ -155,7 +155,7 @@ const MarkdownDocs = ({ filename }) => {
             maxHeight: '400px',
             objectFit: 'cover',
             borderRadius: '10px',
-            marginTop: '1rem',
+            marginTop: '10px',
           }}
         />
         <h1
@@ -222,13 +222,11 @@ const MarkdownDocs = ({ filename }) => {
           backgroundColor: 'white',
           margin: '0 auto',
           maxWidth: '900px',
-          padding: '0 20px',
+          padding: '0 10px',
           borderRadius: '20px',
         }}
       >
         <TitleWithBackground title={metadata.title} imageUrl={metadata.image} />
-        <br />
-        <br />
         <DocsMetadata metadata={metadata} />
         <br />
         <p

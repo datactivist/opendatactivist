@@ -35,19 +35,20 @@
     display: flex;
     flex-direction: row;
     align-items: center; 
-    gap: 8px;
+    gap: 40px;
   }
   
   .authorImage {
-    height: 40px; 
-    width: 40px;
+    height: 30px; 
+    width: 30px;
     object-fit: cover; 
     border-radius: 30px;
     margin-top: 10px;
   }
   
   .authorName {
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 10px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
     color: #6b6b6b;
@@ -69,14 +70,14 @@
   }
   
   .roadmapContainer td:nth-child(1) {
-    width: 80%;
+    width: 78%;
   }
   
   .roadmapContainer td:nth-child(2){
     width: 5%;
   }
   .roadmapContainer td:nth-child(3) {
-    width: 15%;
+    width: 18%;
   }
   
   @media (max-width: 767px) {
@@ -103,7 +104,7 @@
   
   .lastcontentContainer td {
     text-align: left;
-    padding: 8px;
+    padding: 1px;
     height: 70px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
