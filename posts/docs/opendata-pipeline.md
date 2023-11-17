@@ -62,3 +62,9 @@ Pour schématiser le cycle d’ouverture d’un jeu de données, nous nous somme
 </br>
 
 Ce travail s’appuie sur des entretiens, des observations et des documents collectés auprès des chefs de projet open data, producteurs de données, géomaticiens, database managers, responsable SI dans une variété de collectivités françaises ayant entrepris une démarche d’ouverture de leurs données.
+
+</br>
+
+## Utilisation de la méthode
+
+%%Docs:formation-oraccle%%
