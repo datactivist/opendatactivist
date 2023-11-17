@@ -102,10 +102,20 @@ const DocsGallery = () => {
   });
 
   const sortedDocs = filteredDocs.sort((docA, docB) => {
+    // Trier d'abord par pin
+    if (docA.metadata.pin && !docB.metadata.pin) {
+      return -1; // docA vient avant docB
+    }
+    if (!docA.metadata.pin && docB.metadata.pin) {
+      return 1; // docB vient avant docA
+    }
+  
+    // Si les deux ont la même valeur de pin, alors trier par date
     const dateA = new Date(docA.metadata.date);
     const dateB = new Date(docB.metadata.date);
     return dateB - dateA;
   });
+  
 
   const [selectedAuthorName, setSelectedAuthorName] = useState('');
 
