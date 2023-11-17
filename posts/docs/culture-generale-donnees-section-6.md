@@ -8,7 +8,7 @@ tags:
   - open gov
   - politique
   - transparence
-index: 0
+index: 1
 date: 2022-06-15
 authors:
   - samuel-goeta
