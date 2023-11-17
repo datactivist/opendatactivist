@@ -118,12 +118,19 @@ const Cards = ({
           key={item.id}
           className={styles.card}
           onClick={() => handleCardClick(item)}
+          style={{ position: 'relative' }} // Ajoute la position relative ici
         >
+          {item.metadata?.pin && (
+            <img
+              src="/icons/pin.png"
+              alt="Pin"
+              style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, height: '30px', width: 'auto' }}
+            />
+          )}
           {renderItem(item, handleAuthorClick)}
         </div>
       ))}
     </>
   );
 };
-
 export default Cards;
