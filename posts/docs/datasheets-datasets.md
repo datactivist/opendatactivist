@@ -95,4 +95,4 @@ Datasheets for Datasets est [un modèle de documentation](https://arxiv.org/pdf/
 
 ## Contenus complémentaires
 
-%%Docs:ameliorer-qualite-documentation%%
+%%Docs:ameliorer-qualite-documentation,opendata-pipeline%%
