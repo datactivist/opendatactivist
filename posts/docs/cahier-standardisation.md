@@ -10,8 +10,8 @@ tags:
 index: 1
 date: 2023-12-05
 authors: 
-  - samuel-goëta
-  - elise-ho-Pun-Cheung
+  - samuel-goeta
+  - elise-ho-pun-cheung
 partners: 
   - observatoire-data-publica
 --- 
