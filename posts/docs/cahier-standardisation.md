@@ -28,13 +28,4 @@ Vous y trouverez :
 
 </br>
 
-<a href="https://observatoire.data-publica.eu/nos-publications" class="customButton">🔥 Accéder au cahier</a>
-
-## Liens utiles
-
-
-
-</br>
-
-  </iframe>
-</div>
+<a href="https://observatoire.data-publica.eu/nos-publications" class="customButton">📘 Accéder au cahier</a>
