@@ -19,10 +19,12 @@ partners:
 # Introduction
 
 **Ce cahier s’appuie sur plusieurs mois d’enquête auprès de concepteurs et de réutilisateurs de standards.**
+</br>
 Vous y trouverez :
-*Un détour historique pour retracer les origines de la standardisation des données
-*Des études de cas (sur les sujets de la transparence et de la mobilité notamment)
-*Des pistes de réflexion (et d’action !) sur les défis de la conception et de la mise en œuvre de standards. 
+</br>
+→ Un détour historique pour retracer les origines de la standardisation des données</br>
+→ Des études de cas (sur les sujets de la transparence et de la mobilité notamment)</br>
+→ Des pistes de réflexion (et d’action !) sur les défis de la conception et de la mise en œuvre de standards. 
 
 </br>
 
