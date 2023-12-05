@@ -68,5 +68,10 @@
       "name": "Métropole Européenne de Lille",
       "image": "/images/partners/metropole-lille.jpeg",
       "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
+    },
+    "observatoire-data-publica": {
+      "name": "Observatoire Data Publica",
+      "image": "/images/partners/observatoire-data-publica.png",
+      "description": "L’Observatoire Data Publica a été créé pour observer les pratiques nouvelles de gestion publique des données."
     }
 }
