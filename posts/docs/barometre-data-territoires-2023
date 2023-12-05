@@ -11,9 +11,9 @@ tags:
   - IA
   - RGPD
   - statistique
-index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
+index: 1
 date: 2023-05-10
-authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / préférence, "equipe-datactivist"
+authors:
   - elise-ho-pun-cheung
   - joel-gombin
   - diane-thierry
@@ -40,3 +40,7 @@ Vous y trouverez :
 </br>
 
 <a href="https://enquete.data-publica.eu/rapport/Rapport.html" class="customButton">Accéder à l'enquête</a>
+
+#L'Observatoire Data Publica
+L'Observatoire Data Publica est une association loi 1901 créée pour observer les pratiques nouvelles de gestion publique des données : émergence de « services publics locaux de la donnée », chartes éthiques, formes innovantes de gouvernance et de management de la donnée, prototypes de datascience et usages inédits d’algorithmes, recours à l’intelligence artificielle, etc.
+
