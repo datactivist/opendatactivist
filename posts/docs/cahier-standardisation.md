@@ -1,5 +1,5 @@
 ---
-title: Cahier de l'Observatoire Data Publica : la standardisation des données ouvertes
+title: Cahier de l'Observatoire Data Publica. La standardisation des données ouvertes
 image: /images/docs/cahier-standards.jpeg
 description: Ce cahier de l'Observatoire Data Publica présente les enjeux et bonnes pratiques de standardisation des données ouvertes 
 type: Guide
