@@ -112,5 +112,10 @@
         "name": "Hafid Ait Sidi Hammmou",
         "image": "/images/authors/blank.png",
         "organisation": "metropole-lille"
+    },
+    "elise-ho-pun-cheung": {
+        "name": "Elise Ho-Pun-Cheung",
+        "image": "/images/authors/blank.png",
+        "organisation": "Datactivist"
     }
   }
