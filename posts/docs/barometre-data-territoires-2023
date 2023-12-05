@@ -12,21 +12,21 @@ tags:
   - RGPD
   - statistique
 index: 1
-date: 2023-05-10
+date: 2023-12-05
 authors:
-  - elise-ho-pun-cheung
   - joel-gombin
   - diane-thierry
-partners: #le ou les partenaires ou clients, qui ont permis de créer ce contenu, ou avec qui il a été testé.
+  - elise-ho-pun-cheung
+partners:
   - observatoire-data-publica
 license: ccbysa
 --- 
 
 # Présentation
 
-L’Observatoire Data Publica réalise un baromètre annuel sur la data dans les territoires. Cette enquête, réalisée avec le soutien de la Banque des Territoires, de l’ANCT, de la Poste, d’Orange et en partenariat avec la Gazette des Communes, a pour objectif de suivre l’évolution de la maturité des collectivités (et EPCI bien sûr, mais aussi d’autres organismes locaux, tels les OPSN) en matière de données, mais aussi de thématiques proches, telles que la cybersécurité ou l’intelligence artificielle.
+L’Observatoire Data Publica réalise un **baromètre annuel sur la data dans les territoires**. Cette enquête, réalisée avec le soutien de la Banque des Territoires, de l’ANCT, de la Poste, d’Orange et en partenariat avec la Gazette des Communes, a pour objectif de suivre l’évolution de la maturité des collectivités (et EPCI bien sûr, mais aussi d’autres organismes locaux, tels les OPSN) en matière de données, mais aussi de thématiques proches, telles que la cybersécurité ou l’intelligence artificielle.
 </br>
-L'édition 2023 est la seconde édition de l'enquête, avec l'objectif de l’ancrer dans une logique barométrique que nous espérons poursuivre le plus longtemps possible, en complémentarité avec les autres acteurs de l’écosystème.
+L'édition 2023 est la seconde édition de l'enquête, avec l'objectif de l’ancrer dans une **logique barométrique** que nous espérons poursuivre le plus longtemps possible, en complémentarité avec les autres acteurs de l’écosystème.
 </br>
 Vous y trouverez : 
 </br>
@@ -42,5 +42,5 @@ Vous y trouverez :
 <a href="https://enquete.data-publica.eu/rapport/Rapport.html" class="customButton">Accéder à l'enquête</a>
 
 #L'Observatoire Data Publica
-L'Observatoire Data Publica est une association loi 1901 créée pour observer les pratiques nouvelles de gestion publique des données : émergence de « services publics locaux de la donnée », chartes éthiques, formes innovantes de gouvernance et de management de la donnée, prototypes de datascience et usages inédits d’algorithmes, recours à l’intelligence artificielle, etc.
+L'Observatoire Data Publica est une association loi 1901 créée pour **observer les pratiques nouvelles de gestion publique des données** : émergence de « services publics locaux de la donnée », chartes éthiques, formes innovantes de gouvernance et de management de la donnée, prototypes de datascience et usages inédits d’algorithmes, recours à l’intelligence artificielle, etc.
 
