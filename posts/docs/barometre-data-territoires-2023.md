@@ -22,7 +22,7 @@ partners:
 license: ccbysa
 --- 
 
-# Présentation
+## Présentation
 
 L’Observatoire Data Publica réalise un **baromètre annuel sur la data dans les territoires**. 
 
@@ -51,6 +51,8 @@ Vous y trouverez :
 
 <a href="https://enquete.data-publica.eu/rapport/Rapport.html" class="customButton">Accéder à l'enquête</a>
 
-# L'Observatoire Data Publica
+</br>
+
+### L'Observatoire Data Publica
 
 L'Observatoire Data Publica est une association loi 1901 créée pour **observer les pratiques nouvelles de gestion publique des données** : émergence de « services publics locaux de la donnée », chartes éthiques, formes innovantes de gouvernance et de management de la donnée, prototypes de datascience et usages inédits d’algorithmes, recours à l’intelligence artificielle, etc.
