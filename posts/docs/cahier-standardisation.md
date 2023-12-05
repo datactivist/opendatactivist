@@ -36,24 +36,5 @@ Vous y trouverez :
 
 </br>
 
-<iframe
-  width="100%"
-  height="800"
-  src="/view/datamaplight?data&datamap-id=sud-transports"
-  sandbox="allow-same-origin allow-scripts">
-</iframe>
-
-</br>
-</br>
-
-## Un iframe
-
-</br>
-
-<div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://datactivist.coop/upop/#1">
   </iframe>
 </div>
