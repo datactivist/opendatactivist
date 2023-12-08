@@ -10,8 +10,8 @@ tags:
 index: 1
 date: 2023-12-05
 authors: 
-  - samuel-goëta
-  - elise-ho-Pun-Cheung
+  - samuel-goeta
+  - elise-ho-pun-cheung
 partners: 
   - observatoire-data-publica
 --- 
@@ -28,13 +28,4 @@ Vous y trouverez :
 
 </br>
 
-<a href="https://observatoire.data-publica.eu/nos-publications" class="customButton">🔥 Accéder au cahier</a>
-
-## Liens utiles
-
-
-
-</br>
-
-  </iframe>
-</div>
+<a href="https://observatoire.data-publica.eu/nos-publications" class="customButton">📘 Accéder au cahier</a>

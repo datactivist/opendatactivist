@@ -11,93 +11,48 @@ tags:
   - IA
   - RGPD
   - statistique
-index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
-date: 2023-05-10
-authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / préférence, "equipe-datactivist"
-  - elise-ho-pun-cheung
+index: 1
+date: 2023-12-05
+authors:
   - joel-gombin
   - diane-thierry
-partners: #le ou les partenaires ou clients, qui ont permis de créer ce contenu, ou avec qui il a été testé.
+  - elise-ho-pun-cheung
+partners:
   - observatoire-data-publica
 license: ccbysa
 --- 
 
 # Présentation
-
-> Ceci est une citation
-
-[Voici un lien](https://datactivist.coop/infolab_poitiers/facto_sandwich/#1)
+</br>
+L’Observatoire Data Publica réalise un **baromètre annuel sur la data dans les territoires**. 
 
 </br>
 
-Vous pouvez aussi proposer un bouton, plus engageant :
+Cette enquête, réalisée avec le soutien de la Banque des Territoires, de l’ANCT, de la Poste, d’Orange et en partenariat avec la Gazette des Communes, a pour objectif de suivre l’évolution de la maturité des collectivités (et EPCI bien sûr, mais aussi d’autres organismes locaux, tels les OPSN) en matière de données, mais aussi de thématiques proches, telles que la cybersécurité ou l’intelligence artificielle.
 
 </br>
 
-<a href="https://votre-lien.org" class="customButton">🔥 Cliquez vite sur ce bouton</a>
-
-## Un titre secondaire
-
-Du texte
+L'édition 2023 est la seconde édition de l'enquête, avec l'objectif de l’ancrer dans une **logique barométrique** que nous espérons poursuivre le plus longtemps possible, en complémentarité avec les autres acteurs de l’écosystème.
 
 </br>
 
-**Du texte en gras**
-
-<img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>
-
-# Ressources utiles
+Vous y trouverez : 
 
 </br>
 
-## Cas pratiques
-
-%%Docs:factualite,standards-territoires%%
-
-## Liens utiles
-
-%%Links:dicosigles,nifnaf-dataviz-covid%%
-
-## Les données utilisées
-
-%%Datagouv:5c4ae55a634f4117716d5656,5b7ffc618b4c4169d30727e0%%
-
-## Une concersation TeamOpenData
-
-%%Links:1448%%
+→ Les motivations et les obstacles d'utilisation des données</br>
+→ Un questionnement sur l'organisation et les outils nécessaires pour manager ses données. Avoir des projets data ne suffit pas, encore faut-il être en capacité de les mener à bien, et pour cela de pouvoir gérer ses données.</br>
+→ Le sujet de la gouvernance des données : quelle formalisation ? quelle association de la société civile, de partenaires publics, privés ?</br>
+→ L'utilisation des données pour la transition énergétiques et environnementale</br>
+→ La place de l'intelligence artificielle dans les collectivités</br>
+→ L'importance de la cybersécurité : une collectivité sur cinq déclare avoir déjà subi une cyberattaque, comment protéger ses données ?</br>
 
 </br>
 
-## Un benchmark
-
-%%JsonGallery:benchmark-datalab, Exemple de données%%
+<a href="https://enquete.data-publica.eu/rapport/Rapport.html" class="customButton">Accéder à l'enquête</a>
 
 </br>
 
-## Une cartographie de données
+## L'Observatoire Data Publica
 
-#### [🔎 Accéder à la cartographie complète](https://open.datactivist.coop/datamap/datamap?data=&datamap-id=sud-transports&view=gallery)
-
-</br>
-
-<iframe
-  width="100%"
-  height="800"
-  src="/view/datamaplight?data&datamap-id=sud-transports"
-  sandbox="allow-same-origin allow-scripts">
-</iframe>
-
-</br>
-</br>
-
-## Un iframe
-
-</br>
-
-<div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://datactivist.coop/upop/#1">
-  </iframe>
-</div>
+L'Observatoire Data Publica est une association loi 1901 créée pour **observer les pratiques nouvelles de gestion publique des données** : émergence de « services publics locaux de la donnée », chartes éthiques, formes innovantes de gouvernance et de management de la donnée, prototypes de datascience et usages inédits d’algorithmes, recours à l’intelligence artificielle, etc.
