@@ -185,7 +185,7 @@ const MarkdownDocs = ({ filename }) => {
   useEffect(() => {
     const fetchMarkdownContent = async () => {
       try {
-        const res = await fetch(`/api/docs?filename=${filename}`);
+        const res = await fetch(`/api/doc?filename=${filename}`);
         const data = await res.json();
         setMetadata(data.metadata);
         setContent(marked(data.content));
