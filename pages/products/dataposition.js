@@ -17,7 +17,7 @@ export default function Produit() {
     liens: [
         {url: '/apps/quizz/dataposition', texte: '🎯 Testez le questionnaire en accès libre'},
         {url: 'https://github.com/datactivist/fast-dataposition', texte: '🔎 Accéder au dépôt Github'},
-        {url: 'mailto:hello@datactivist.coop', texte: '✉️ Nous contacter pour en savoir plus'},
+        {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - dataposition', texte: '✉️ Nous contacter pour en savoir plus'},
       ]
   }
 

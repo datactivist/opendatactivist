@@ -39,7 +39,7 @@ export default function Produit() {
     ],
     liens: [
         {url: 'https://github.com/datactivist/nextjs-doc/blob/main/public/files/plaquette-expo-smartcity.pdf', texte: '🔎 Voir la plaquette complète'},
-        {url: 'mailto:hello@datactivist.coop', texte: '✉️ Nous contacter pour en savoir plus'},
+        {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - exposition smart city', texte: '✉️ Nous contacter pour en savoir plus'},
       ]
   }
 

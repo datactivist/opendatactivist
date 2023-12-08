@@ -33,7 +33,7 @@ export default function Produit() {
     ],
     liens: [
         {url: 'https://www.datasud.fr/', texte: '🔎 Voir la conciergerie sur DataSud'},
-        {url: 'mailto:hello@datactivist.coop', texte: '💬 Déployez votre conciergerie'},
+        {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - conciergerie de données', texte: '💬 Déployez votre conciergerie'}
       ]
   }
 
