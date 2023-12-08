@@ -27,7 +27,7 @@ export default function Produit() {
     ],
     liens: [
         {url: 'https://medium.com/datactivist/open-data-la-fresque-des-donn%C3%A9es-ouvertes-pour-sensibiliser-tous-les-publics-71f1220e8450', texte: '🔎 Lire notre article complet'},
-        {url: 'mailto:hello@datactivist.coop', texte: '✉️ Nous contacter pour en savoir plus'},
+        {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - fresque des données ouvertes', texte: '✉️ Nous contacter pour en savoir plus'},
       ]
   }
 
