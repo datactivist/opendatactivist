@@ -7,7 +7,7 @@ const LastContent = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('/api/docs?action=list');
+      const res = await fetch('/api/docs?action=metadatalist');
       const data = await res.json();
       data.sort(
         (a, b) => new Date(b.metadata.date) - new Date(a.metadata.date),
