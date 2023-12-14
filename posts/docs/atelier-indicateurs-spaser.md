@@ -2,7 +2,7 @@
 title: Atelier indiacteurs SPASER
 image: /images/docs/ouverture-commande-publique.webp
 description: Co-construire les indicateurs de votre SPASER avec vos données (ouvertes)
-type: Formation
+type: Atelier
 tags:
   - commande publique
   - DECP
@@ -34,7 +34,7 @@ Les canevas permettent de réaliser les activités suivantes :
 
 <br></br>
 
-<a href="https://docs.google.com/presentation/d/1BOYPNEaRi1VZbjf70U1GWO5iD2sOyv7D2nhHUBO53qY/preview#slide=id.g134892c1260_0_18" class="customButton">👉 Accéder à la présentation</a>
+<a href="https://docs.google.com/presentation/d/1BOYPNEaRi1VZbjf70U1GWO5iD2sOyv7D2nhHUBO53qY/preview#slide=id.g134892c1260_0_18" class="customButton">👉 Accéder aux canevas</a>
 
 <br></br>
 
