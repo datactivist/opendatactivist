@@ -8,7 +8,7 @@ const FilteredDocsDisplay = ({ docsList }) => {
   useEffect(() => {
     const fetchFilteredDocs = async () => {
       try {
-        const response = await fetch(`/api/docs?action=list`);
+        const response = await fetch(`/api/docs?action=metadatalist`);
         const data = await response.json();
         const filteredDocs = data.filter((doc) => docsList.includes(doc.name));
         setDocs(filteredDocs);

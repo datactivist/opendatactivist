@@ -20,20 +20,34 @@ const DocsGallery = () => {
   const [docsMetadata, setDocsMetadata] = useState([]);
   const [viewMode, setViewMode] = useState('gallery');
 
+  const fetchDocsMetadata = async (range) => {
+    try {
+      const response = await fetch(`/api/docs?action=metadatalist&range=${range}`);
+      const data = await response.json();
+      return data.filter((doc) => doc.metadata.index !== 0);
+    } catch (error) {
+      console.error(
+        'Erreur lors de la récupération des métadonnées des documents',
+        error,
+      );
+      return [];
+    }
+  };
+
   useEffect(() => {
-    const fetchDocsMetadata = async () => {
-      try {
-        const response = await fetch('/api/docs?action=list');
-        const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0));
-      } catch (error) {
-        console.error(
-          'Erreur lors de la récupération des métadonnées des documents',
-          error,
-        );
-      }
-    };
-    fetchDocsMetadata();
+    // Fetch the first 8 documents
+    fetchDocsMetadata('1-10').then((initialDocs) => {
+      setDocsMetadata(initialDocs);
+    });
+
+    // Fetch the remaining documents after a delay
+    const timer = setTimeout(() => {
+      fetchDocsMetadata('11-1000').then((additionalDocs) => {
+        setDocsMetadata((prevDocs) => [...prevDocs, ...additionalDocs]);
+      });
+    }, 100); // 0.1 seconds delay
+
+    return () => clearTimeout(timer); // Cleanup the timer
   }, []);
 
   useEffect(() => {
