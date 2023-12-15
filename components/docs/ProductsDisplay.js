@@ -37,7 +37,7 @@ const ProductsDisplay = ({ ids = [] }) => {
     >
       <Gallery>
         <Cards
-          items={products}
+          items={products.map(product => ({ ...product, productId: product.name }))}
           onClick={handleCardClick}
           showTags={false}
           renderItem={(item) => (

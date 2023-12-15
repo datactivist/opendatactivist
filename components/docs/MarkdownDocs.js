@@ -15,7 +15,6 @@ import Head from 'next/head';
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
   const [content, setContent] = useState('');
-
   const [isGalleryExpanded, setIsGalleryExpanded] = useState(false);
 
   const createContentElements = (htmlContent) => {
@@ -185,20 +184,21 @@ const MarkdownDocs = ({ filename }) => {
   useEffect(() => {
     const fetchMarkdownContent = async () => {
       try {
-        const res = await fetch(`/api/doc?filename=${filename}`);
+        // Update the API endpoint to the new 'metadoc' endpoint
+        const res = await fetch(`/api/metadoc?filename=${filename}`);
         const data = await res.json();
+
+        // Set metadata and content from the new API response
         setMetadata(data.metadata);
         setContent(marked(data.content));
       } catch (error) {
-        console.error(
-          'Erreur lors de la récupération du contenu Markdown',
-          error,
-        );
+        console.error('Error fetching Markdown content', error);
       }
     };
 
     fetchMarkdownContent();
   }, [filename]);
+  
 
   useEffect(() => {
     if (content) {

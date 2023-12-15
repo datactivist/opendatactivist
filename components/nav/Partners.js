@@ -5,9 +5,14 @@ import styles from '../../styles/Authors.module.css';
 const Partners = ({ partnersIds, largeText = false }) => {
   const [partnersData, setPartnersData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-  
-  // Ajouter le hook useRouter
   const router = useRouter();
+
+  // Ensure partnersIds are in array format
+  const validPartnersIds = Array.isArray(partnersIds) 
+                            ? partnersIds 
+                            : typeof partnersIds === 'string' 
+                              ? partnersIds.split(',').map(id => id.trim()) 
+                              : [];
 
   useEffect(() => {
     fetch('/sitedata/partners.json')
@@ -28,7 +33,7 @@ const Partners = ({ partnersIds, largeText = false }) => {
 
   return (
     <div className={styles.authorsContainer}>
-      {partnersIds.map((id) => {
+      {validPartnersIds.map((id) => {
         const partner = partnersData[id];
         if (partner) {
           return (

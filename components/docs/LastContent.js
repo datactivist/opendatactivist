@@ -7,11 +7,10 @@ const LastContent = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('/api/docs?action=list');
+      const res = await fetch('/api/docscatalog?action=metadatalist');
       const data = await res.json();
-      data.sort(
-        (a, b) => new Date(b.metadata.date) - new Date(a.metadata.date),
-      );
+      // Sort by date
+      data.sort((a, b) => new Date(b.date) - new Date(a.date));
       setApiData(data);
     };
     fetchData();
@@ -32,7 +31,7 @@ const LastContent = () => {
 
   const groupByYear = (items) => {
     return items.reduce((acc, item) => {
-      const year = formatDate(item.metadata.date);
+      const year = formatDate(item.date);
       acc[year] = [...(acc[year] || []), item];
       return acc;
     }, {});
@@ -50,16 +49,16 @@ const LastContent = () => {
             <table>
               <tbody>
                 {groupedByYear[year]
-                  .filter((item) => item.metadata.index !== 0)
+                  .filter((item) => item.index !== '0') // Adjusted filter condition
                   .map((item, index) => (
                     <tr key={index}>
                       <td>
-                        <a href={`/docs/${item.name}`} className={styles.link}>
-                          {item.metadata.title}
+                        <a href={`/docs/${item['﻿name']}`} className={styles.link}>
+                          {item.title}
                         </a>
                       </td>
                       <td>
-                        {item.metadata.authors.map((authorId, idx) => (
+                        {item.authors.split(',').map((authorId, idx) => (
                           <div key={idx} className={styles.authorFlexContainer}>
                             {authors[authorId] ? (
                               <>

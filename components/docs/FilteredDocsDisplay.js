@@ -8,9 +8,9 @@ const FilteredDocsDisplay = ({ docsList }) => {
   useEffect(() => {
     const fetchFilteredDocs = async () => {
       try {
-        const response = await fetch(`/api/docs?action=list`);
+        const response = await fetch(`/api/docscatalog?action=metadatalist`);
         const data = await response.json();
-        const filteredDocs = data.filter((doc) => docsList.includes(doc.name));
+        const filteredDocs = data.filter((doc) => docsList.includes(doc['﻿name']));
         setDocs(filteredDocs);
       } catch (error) {
         console.error(
@@ -32,16 +32,23 @@ const FilteredDocsDisplay = ({ docsList }) => {
       style={{
         backgroundColor: '#f8f8f8',
         padding: '1rem',
-        borderRadius: '10px',
+        borderRadius: '6px',
         marginTop: '10px',
         marginBottom: '10px',
       }}
     >
       <Gallery>
-        <Cards items={docs} onClick={handleCardClick} showTags={false} showDate={false} showAuthors={false} />
+        <Cards 
+          items={docs} 
+          onClick={handleCardClick} 
+          showTags={false} 
+          showDate={false} 
+          showAuthors={false} 
+        />
       </Gallery>
     </div>
   );
 };
 
 export default FilteredDocsDisplay;
+

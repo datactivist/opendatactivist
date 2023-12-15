@@ -36,16 +36,21 @@ const AuthorPage = () => {
 
   useEffect(() => {
     if (authorData) {
-      fetch(`/api/docs?action=list`)
+      fetch('/api/docscatalog?action=metadatalist')
         .then(response => response.json())
         .then(data => {
-          const docsByAuthor = data.filter(
-            doc => doc.metadata.authors.includes(author)
+          // Split authors string into an array, and then check if it includes the current author
+          const docsByAuthor = data.filter(doc => 
+            doc.authors.split(',').map(author => author.trim()).includes(author)
           );
           setAuthorDocs(docsByAuthor);
+        })
+        .catch(error => {
+          console.error('Erreur lors de la récupération des documents de l‘auteur:', error);
         });
     }
   }, [author, authorData]);
+  
 
   if (authorData === null) {
     return <div>Auteur non trouvé</div>;

@@ -41,6 +41,9 @@ const DocsMetadata = ({ metadata }) => {
     return `${emoji}${type}`;
   };
 
+  const tagsArray = typeof tags === 'string' ? tags.split(',').map(tag => tag.trim()) : tags;
+  const authorsArray = typeof authors === 'string' ? authors.split(',').map(author => author.trim()) : authors;
+
   const handleAuthorClick = (authorId) => {
     router.push(`/authors/${authorId}`);
   };
@@ -80,9 +83,9 @@ const DocsMetadata = ({ metadata }) => {
           </p>
         )}
       </div>
-      {tags && (
+      {tagsArray && (
         <div className={styles.metadataRow}>
-          {tags.map((tag) => (
+          {tagsArray.map((tag) => (
             <button
               key={tag}
               className={styles.tagButton}
@@ -93,10 +96,10 @@ const DocsMetadata = ({ metadata }) => {
           ))}
         </div>
       )}
-      {authors && (
+      {authorsArray && (
         <div className={styles.metadataRow}>
           <Authors
-            authorIds={authors}
+            authorIds={authorsArray}
             largeText={true}
             onAuthorClick={handleAuthorClick}
             onlyDatactivist={false}

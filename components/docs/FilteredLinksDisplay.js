@@ -21,7 +21,12 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
   }, [ids]);
 
   const handleCardClick = (linkId) => {
-    window.open(links.find((link) => link.id === linkId).url, '_blank');
+    const link = links.find((l) => l.id === linkId);
+    if (link && link.url) {
+      window.open(link.url, '_blank');
+    } else {
+      console.error('URL not found for link:', linkId);
+    }
   };
 
   return (
@@ -29,7 +34,7 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
       style={{
         backgroundColor: '#f8f8f8',
         padding: '1rem',
-        borderRadius: '10px',
+        borderRadius: '6px',
         marginTop: '10px',
         marginBottom: '10px',
       }}

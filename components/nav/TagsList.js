@@ -9,13 +9,14 @@ const TagsList = () => {
 
   useEffect(() => {
     const fetchTags = async () => {
-      const response = await fetch('/api/docs?action=list');
+      const response = await fetch('/api/docscatalog?action=metadatalist');
       const data = await response.json();
 
       // Compter les occurrences de chaque tag
       const counts = {};
       data.forEach((doc) => {
-        doc.metadata.tags.forEach((tag) => {
+        const tags = doc.tags.split(',').map(tag => tag.trim()); // Split the tags string into an array
+        tags.forEach((tag) => {
           counts[tag] = (counts[tag] || 0) + 1;
         });
       });
