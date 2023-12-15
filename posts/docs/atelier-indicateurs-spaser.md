@@ -1,6 +1,6 @@
 ---
 title: Atelier indicateurs SPASER
-image: /images/docs/ouverture-commande-publique.webp
+image: /images/docs/spaser-atelier.png
 description: Co-construire les indicateurs de votre SPASER avec vos données (ouvertes)
 type: Formation
 tags:
