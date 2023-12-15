@@ -1,46 +1,44 @@
 // ListView.js
-import styles from '../../styles/ListView.module.css';  // Assume that you have a ListView.module.css file.
+import styles from '../../styles/ListView.module.css';
 import tagStyles from '../../styles/Tags.module.css';
 import { useRouter } from 'next/router';
 
-const RenderTagButtons = (tags, tagRoute) => {
+const ListView = ({ items, tagRoute, showTags = true }) => {
   const router = useRouter();
-  if (tags) {
-    return tags.map((tag) => {
-      const handleClick = (e) => {
-        e.stopPropagation(); // Ajouter ici
-        router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
-      };
-      return (
-        <button key={tag} onClick={handleClick} className={tagStyles.tag}>
-          {tag}
-        </button>
-      );
-    });
-  }
-  return null;
-};
 
-const ListView = ({ items, onClick, tagRoute, showTags = true }) => {
-  const handleClick = (item) => {
-    if (item.url) {
-      window.open(item.url, '_blank');
+  const handleItemClick = (item) => {
+    // This should be the same property used in Cards for routing
+    const docName = item['﻿name'];
+    if (docName) {
+      router.push(`/docs/${docName}`);
     } else {
-      onClick(item.name);
+      console.error('Document name is undefined');
     }
   };
 
-  const renderItem = (item) => (
-    <>
-      <a className={styles.title} onClick={() => handleClick(item)}>
-        {item.metadata ? item.metadata.title : item.title}
-      </a>
-      <p className={styles.description}>
-        {item.metadata ? item.metadata.description : item.description}
-      </p>
-      {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-    </>
-  );
+  const renderItem = (item) => {
+    // Handle tags as in Cards component
+    const tagsArray = typeof item.tags === 'string' ? item.tags.split(',').map(tag => tag.trim()) : item.tags;
+
+    return (
+      <>
+        <a className={styles.title} onClick={() => handleItemClick(item)}>
+          {item.title}
+        </a>
+        <p className={styles.description}>
+          {item.description}
+        </p>
+        {showTags && tagsArray && tagsArray.map((tag) => (
+          <button key={tag} className={tagStyles.tag} onClick={(e) => {
+            e.stopPropagation();
+            router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
+          }}>
+            {tag}
+          </button>
+        ))}
+      </>
+    );
+  };
 
   return (
     <ul className={styles.list}>
