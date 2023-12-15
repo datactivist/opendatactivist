@@ -6,7 +6,7 @@ import Authors from '../nav/Authors';
 import { useRouter } from 'next/router';
 
 const DocsMetadata = ({ metadata }) => {
-  const { type, tags, date, authors, license } = metadata;
+  const { type, tags, date, authors, license } = metadata || {};
   const router = useRouter();
 
   const renderTypeWithEmoji = (type) => {

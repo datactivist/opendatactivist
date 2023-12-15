@@ -214,8 +214,8 @@ const MarkdownDocs = ({ filename }) => {
   return (
     <Layout>
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+      <title>{metadata?.title}</title>
+      <meta name="description" content={metadata?.description} />
       </Head>
       <div
         style={{
@@ -226,7 +226,7 @@ const MarkdownDocs = ({ filename }) => {
           borderRadius: '20px',
         }}
       >
-        <TitleWithBackground title={metadata.title} imageUrl={metadata.image} />
+<TitleWithBackground title={metadata?.title} imageUrl={metadata?.image} />
         <DocsMetadata metadata={metadata} />
         <br />
         <p
@@ -238,13 +238,13 @@ const MarkdownDocs = ({ filename }) => {
             textAlign: 'center',
           }}
         >
-          {metadata.description}
+          {metadata?.description}
         </p>
         <br />
         <div className={styles.markdownContent}>
           {createContentElements(content)}
         </div>
-        {metadata.partners && (
+        {metadata?.partners && (
           <div
             style={{
               display: 'flex',
