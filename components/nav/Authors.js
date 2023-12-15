@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/Authors.module.css';
 
-const Authors = ({ authorIds, largeText = false,   onlyDatactivist = false,  onAuthorClick = () => {} }) => {
+const Authors = ({ authorIds, largeText = false, onlyDatactivist = false, onAuthorClick = () => {} }) => {
   const [authorsData, setAuthorsData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+
+  // Process authorIds into an array
+  const authorArray = typeof authorIds === 'string' ? authorIds.split(',').map(id => id.trim()) : authorIds;
 
   useEffect(() => {
     fetch('/sitedata/authors.json')
@@ -25,7 +28,7 @@ const Authors = ({ authorIds, largeText = false,   onlyDatactivist = false,  onA
 
   return (
     <div className={styles.authorsContainer}>
-      {authorIds.map((id) => {
+      {authorArray.map((id) => {
         const author = authorsData[id];
         if (author && (!onlyDatactivist || author.organisation === 'datactivist')) {
           return (

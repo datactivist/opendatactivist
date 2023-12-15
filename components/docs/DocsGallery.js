@@ -23,9 +23,12 @@ const DocsGallery = () => {
   useEffect(() => {
     const fetchDocsMetadata = async () => {
       try {
-        const response = await fetch('/api/docs?action=list');
+        // Update to the new API endpoint
+        const response = await fetch('/api/docscatalog?action=metadatalist');
         const data = await response.json();
-        setDocsMetadata(data.filter((doc) => doc.metadata.index !== 0));
+  
+        // No need to access a 'metadata' property, as the data is now at the top level
+        setDocsMetadata(data.filter((doc) => doc.index !== '0'));
       } catch (error) {
         console.error(
           'Erreur lors de la récupération des métadonnées des documents',
@@ -35,6 +38,7 @@ const DocsGallery = () => {
     };
     fetchDocsMetadata();
   }, []);
+  
 
   useEffect(() => {
     if (query.tag) {
@@ -78,17 +82,17 @@ const DocsGallery = () => {
   };
 
   const getUniqueTypes = () => {
-    const allTypes = docsMetadata.map((doc) => doc.metadata.type);
+    const allTypes = docsMetadata.map((doc) => doc.type);
     return Array.from(new Set(allTypes));
   };
 
   const filteredDocs = docsMetadata.filter((doc) => {
     const searchValue = searchTerm.toLowerCase();
-    const typeMatch = selectedType ? doc.metadata.type === selectedType : true;
-    const tagUrl = query.tag ? doc.metadata.tags.includes(query.tag) : true;
-    const typeUrl = query.type ? doc.metadata.type.includes(query.type) : true;
+    const typeMatch = selectedType ? doc.type === selectedType : true;
+    const tagUrl = query.tag ? doc.tags.includes(query.tag) : true;
+    const typeUrl = query.type ? doc.type.includes(query.type) : true;
     const authorMatch = selectedAuthor
-      ? doc.metadata.authors.includes(selectedAuthor)
+      ? doc.authors.includes(selectedAuthor)
       : true;
 
     return (
@@ -96,23 +100,23 @@ const DocsGallery = () => {
       typeUrl &&
       tagUrl &&
       authorMatch &&
-      (doc.metadata.title.toLowerCase().includes(searchValue) ||
-        doc.metadata.description.toLowerCase().includes(searchValue))
+      (doc.title.toLowerCase().includes(searchValue) ||
+        doc.description.toLowerCase().includes(searchValue))
     );
   });
 
   const sortedDocs = filteredDocs.sort((docA, docB) => {
     // Trier d'abord par pin
-    if (docA.metadata.pin && !docB.metadata.pin) {
+    if (docA.pin && !docB.pin) {
       return -1; // docA vient avant docB
     }
-    if (!docA.metadata.pin && docB.metadata.pin) {
+    if (!docA.pin && docB.pin) {
       return 1; // docB vient avant docA
     }
   
     // Si les deux ont la même valeur de pin, alors trier par date
-    const dateA = new Date(docA.metadata.date);
-    const dateB = new Date(docB.metadata.date);
+    const dateA = new Date(docA.date);
+    const dateB = new Date(docB.date);
     return dateB - dateA;
   });
   

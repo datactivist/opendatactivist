@@ -10,7 +10,7 @@ const PartnerPage = () => {
   const { partner } = router.query;
 
   const [partnerData, setPartnerData] = useState(null);
-  const [partnerDocs, setPartnerDocs] = useState([]);
+  const [partnerDocuments, setPartnerDocuments] = useState([]);
   const [partnerContributors, setPartnerContributors] = useState([]);
   const [partnerProducts, setPartnerProducts] = useState([]);
 
@@ -32,8 +32,7 @@ const PartnerPage = () => {
       .then(response => response.json())
       .then(data => {
         const contributorsOfPartner = Object.entries(data)
-          // eslint-disable-next-line no-unused-vars
-          .filter(([id, author]) => author.organisation === partner)
+          .filter(([author]) => author.organisation === partner)
           .map(([id, author]) => ({ ...author, id }));
         setPartnerContributors(contributorsOfPartner);
       });
@@ -53,17 +52,20 @@ const PartnerPage = () => {
   }, [partner]);
 
   useEffect(() => {
-    if (partnerData) {
-      fetch(`/api/docs?action=list`)
-        .then(response => response.json())
-        .then(data => {
-          const docsByPartner = data.filter(doc =>
-            doc.metadata && doc.metadata.partners && doc.metadata.partners.includes(partner)
-          );
-          setPartnerDocs(docsByPartner);
-        });
-    }
-  }, [partner, partnerData]);
+    // Fetch documents related to the partner from the new API
+    fetch('/api/docscatalog?action=metadatalist')
+      .then((response) => response.json())
+      .then((data) => {
+        const docsByPartner = data.filter(
+          (doc) => doc.partners && doc.partners.includes(partner)
+        );
+        setPartnerDocuments(docsByPartner);
+      });
+  }, [partner]);
+
+  const handleCardClick = (productId) => {
+    router.push(`/products/${productId}`);
+  };
 
   if (partnerData === null) {
     return <div>Cette organisation n‘est pas encore partenaire ou cliente 🥲 Mais n‘hésitez pas à lui parler de nous ! </div>;
@@ -105,8 +107,21 @@ const PartnerPage = () => {
           <br />
           <div className={styles.galleryContainer}>
             <Gallery>
-              <Cards items={partnerDocs} onClick={(linkId) => router.push(`/docs/${linkId}`)} tagRoute="docs" showDate={false} showPartners={false} />
-              <Cards items={partnerProducts} onClick={(productId) => router.push(`/products/${productId}`)} tagRoute="products" showDate={false} showPartners={false} />
+              <Cards
+                items={partnerDocuments}
+                onClick={(linkId) => router.push(`/docs/${linkId}`)}
+                tagRoute="docs"
+                showDate={false}
+                showPartners={false}
+              />
+              {/* Render partner products using the same logic */}
+              <Cards
+                items={partnerProducts.map(product => ({ ...product, productId: product.name }))}
+                onClick={handleCardClick}
+                tagRoute="products"
+                showDate={false}
+                showPartners={false}
+              />
             </Gallery>
           </div>
         </div>

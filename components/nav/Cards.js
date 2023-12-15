@@ -6,7 +6,11 @@ import Authors from './Authors';
 
 const RenderTagButtons = (tags, tagRoute) => {
   const router = useRouter();
-  return tags ? tags.map((tag) => (
+
+  // Split string into array if necessary
+  const tagsArray = typeof tags === 'string' ? tags.split(',').map(tag => tag.trim()) : tags;
+
+  return tagsArray && tagsArray.length > 0 ? tagsArray.map((tag) => (
     <button
       key={tag}
       onClick={(e) => {
@@ -40,72 +44,41 @@ const Cards = ({
   tagRoute,
   showTags = true,
   showDate = true,
-  showAuthors = true,
-  renderItem = (item, onAuthorClick) => (
-    <>
-      {item.type === 'tod' ? (
-        <div className={styles['title-container']}>
-          <h3>💬 {item.title}</h3>
-          <button
-            onClick={() => window.open(item.url, '_blank')}
-            className={styles['forum-button']}
-          >
-            Rejoindre la discussion
-          </button>
-        </div>
-      ) : (
-        <>
-          {item.type !== 'livre' && item.metadata?.image && (
-            <img
-              src={item.metadata.image}
-              alt={item.metadata.title}
-              className={styles['card-image']}
-            />
-          )}
-          <h3>{item.metadata?.title || item.title}</h3>
-          {item.type === 'livre' ? (
-            <div style={{ display: 'flex', flexDirection: 'row' }}>
-              {item.image && (
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className={styles['card-image-link']}
-                />
-              )}
-              <div style={{ flex: 1 }}>
-                <p>{item.metadata?.description || item.description}</p>
-              </div>
-            </div>
-          ) : (
-            <p>{item.metadata?.description || item.description}</p>
-          )}
-          {showTags && RenderTagButtons(item.metadata?.tags || item.tags, tagRoute)}
-          {showAuthors && item.metadata?.authors && (
-            <Authors
-              authorIds={item.metadata.authors}
-              onAuthorClick={onAuthorClick}
-              onlyDatactivist={true}
-            />
-          )}
-          {showDate && item.metadata?.date && (
-            <div className={styles.date}>
-              <strong>⏱</strong> {formatDateToNow(item.metadata.date)}
-            </div>
-          )}
-        </>
-      )}
-    </>
-  ),
+  showAuthors = true
 }) => {
+  console.log(onClick);
   const router = useRouter();
 
-  const handleCardClick = (item) => {
-    if (item.url) {
-      window.open(item.url, '_blank');
+  const getImagePath = (item) => {
+    if (item.image.startsWith('images/')) {
+      return `/${item.image}`;
+    } else if (item.productId) {
+      return `/products/${item.image}`;
+    } else if (item.url) {
+      // Assuming images for links are located in the '/links' directory
+      return `${item.image}`;
     } else {
-      onClick(item.name);
+      return item.image;
     }
   };
+
+  const handleCardClick = (item) => {
+    if (item.productId) {
+      console.log(item.productId); // Log the productId for debugging
+      router.push(`/products/${item.productId}`); // Navigate to the product page
+    } else if (item.url) {
+      // If it's a URL, open it in a new tab
+      window.open(item.url, '_blank');
+    } else {
+      const docName = item['﻿name'];
+      if (docName) {
+        router.push(`/docs/${docName}`);
+      } else {
+        console.error('Document name is undefined');
+      }
+    }
+  };
+  
 
   const handleAuthorClick = (authorId) => {
     router.push(`/docs?author=${encodeURIComponent(authorId)}`);
@@ -115,22 +88,52 @@ const Cards = ({
     <>
       {items.map((item) => (
         <div
-          key={item.id}
+          key={item['﻿name'] || item.productId || item.id}
           className={styles.card}
           onClick={() => handleCardClick(item)}
-          style={{ position: 'relative' }} // Ajoute la position relative ici
+          style={{ position: 'relative' }}
         >
-          {item.metadata?.pin && (
+          {item.pin && (
             <img
               src="/icons/pin.png"
               alt="Pin"
               style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, height: '30px', width: 'auto' }}
             />
           )}
-          {renderItem(item, handleAuthorClick)}
+
+          {/* Image */}
+          {item.image && (
+            <img
+              src={getImagePath(item)}
+              alt={item.title}
+              className={item.url ? styles['card-image-link'] : styles['card-image']}
+              style={{ marginRight: '16px' }} // Add margin for spacing between image and content
+            />
+          )}
+
+          {/* Content */}
+          <h3>{item.title}</h3>
+          <p>{item.description}</p>
+
+          {/* Tags, Authors, and Date */}
+          {showTags && RenderTagButtons(item.tags, tagRoute)}
+          {showAuthors && item.authors && (
+            <Authors
+              authorIds={item.authors}
+              onAuthorClick={handleAuthorClick}
+              onlyDatactivist={true}
+            />
+          )}
+          {showDate && item.date && (
+            <div className={styles.date}>
+              <strong>⏱</strong> {formatDateToNow(item.date)}
+            </div>
+          )}
         </div>
       ))}
     </>
   );
 };
+
 export default Cards;
+
