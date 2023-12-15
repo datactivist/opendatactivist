@@ -576,6 +576,22 @@
       "description": "",
       "url": "https://teamopendata.org/t/traduction-et-adaptation-du-modele-de-description-des-donnees-datasheet-for-datasets/1400",
       "tags": ["évaluation", "portail","stratégie"]
+    },
+    {
+      "id": "datalireladata",
+      "title": "DATAlirelaDATA",
+      "type": "outil",
+      "description": "La plateforme pour apprendre aux jeunes à être acteurs et actrices du monde des données",
+      "url": "https://datalireladata.com/",
+      "tags": ["compétences", "apprentissage","jeunesse"]
+    },
+    {
+      "id": "pix",
+      "title": "Pix",
+      "type": "outil",
+      "description": "Pix est le service public en ligne pour évaluer, développer, et certifier ses compétences numériques.",
+      "url": "https://pix.fr/competences/",
+      "tags": ["évaluation", "compétences","dispositif"]
     }
     
   ]
