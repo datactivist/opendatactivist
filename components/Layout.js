@@ -15,8 +15,6 @@ const Layout = ({ children }) => {
     setMenuOpen(!menuOpen);
   };
 
-
-
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
@@ -52,13 +50,9 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Open Datactivist</title>
-        <meta
-          name="description"
-          content="Un catalogue de méthodes dédiées à l'open data"
-        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div style={{ width: '90%', margin: '0 auto' }}>
         <header className={`${styles.appBar} ${styles[appBarPosition]}`}>
           <div className={styles.toolbar}>
@@ -91,7 +85,6 @@ const Layout = ({ children }) => {
               <Link href="/docs" passHref>
                 <span className={styles.link}>Contenus ouverts</span>
               </Link>
-              
             </nav>
           </div>
         </header>
