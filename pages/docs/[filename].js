@@ -19,7 +19,7 @@ export async function getServerSideProps(context) {
     const data = await response.json();
 
     // Set a default image URL if metadata.image is missing
-    const defaultImageUrl = '/default-image-url.jpg'; // Replace with your default image URL
+    const defaultImageUrl = 'https://open.datactivist.coop/images/default-image-url.png'; // Replace with your default image URL
 
     return {
       props: {
@@ -37,13 +37,12 @@ export async function getServerSideProps(context) {
         metadata: {
           title: 'Default Title',
           description: 'Default Description',
-          image: '/default-image-url.jpg', // Set a default image URL here if needed
+          image: 'https://open.datactivist.coop/images/default-image-url.png', // Set a default image URL here if needed
         },
       },
     };
   }
 }
-
 // ...
 const DocsPage = ({ metadata }) => {
   const router = useRouter();
