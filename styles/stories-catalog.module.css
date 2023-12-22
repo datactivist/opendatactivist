@@ -6,14 +6,14 @@
 
 .docspageTitle {
   font-size: 2.5rem;
-  color: #ffffff; 
+  color: #173541; 
   font-weight: 900; 
   text-align: center; 
-  margin-bottom: 30px; 
+  margin-bottom: 10px; 
   margin-top: 0rem;
   font-family: 'Montserrat', sans-serif;
   display: block;
-  background: linear-gradient(45deg, #ef9093 30%, #ed85a1 90%);
+  background: linear-gradient(45deg, #dee9f0 30%, #dee9f0 90%);
   width: 90% ;
   margin-left: auto;
   border-radius: 4px;
@@ -22,14 +22,14 @@
 
 .productspageTitle {
   font-size: 2.5rem;
-  color: #ffffff; 
+  color: #173541; 
   font-weight: 900; 
   text-align: center; 
-  margin-bottom: 30px; 
+  margin-bottom: 10px; 
   margin-top: 0rem;
   font-family: 'Montserrat', sans-serif;
   display: block;
-  background: linear-gradient(45deg, #6597ad 30%, #87a6b3 90%);
+  background: linear-gradient(45deg, #dee9f0 30%, #dee9f0 90%);
   width: 90% ;
   margin-left: auto;
   border-radius: 4px;

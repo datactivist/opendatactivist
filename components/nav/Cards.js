@@ -86,10 +86,10 @@ const Cards = ({
 
   return (
     <>
-      {items.map((item) => (
+       {items.map((item) => (
         <div
           key={item['﻿name'] || item.productId || item.id}
-          className={styles.card}
+          className={item.url ? `${styles.card} ${styles['card-link']}` : styles.card}
           onClick={() => handleCardClick(item)}
           style={{ position: 'relative' }}
         >
@@ -100,39 +100,82 @@ const Cards = ({
               style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, height: '30px', width: 'auto' }}
             />
           )}
+  
+  {item.url ? (
+            <div className={styles['card-link']}>
+              {/* Image */}
+              {item.image && (
+                <img
+                  src={getImagePath(item)}
+                  alt={item.title}
+                  className={styles['card-link-image']}
+                />
+              )}
 
-          {/* Image */}
-          {item.image && (
-            <img
-              src={getImagePath(item)}
-              alt={item.title}
-              className={item.url ? styles['card-image-link'] : styles['card-image']}
-              style={{ marginRight: '16px' }} // Add margin for spacing between image and content
-            />
-          )}
-
-          {/* Content */}
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-
-          {/* Tags, Authors, and Date */}
-          {showTags && RenderTagButtons(item.tags, tagRoute)}
-          {showAuthors && item.authors && (
-            <Authors
-              authorIds={item.authors}
-              onAuthorClick={handleAuthorClick}
-              onlyDatactivist={true}
-            />
-          )}
-          {showDate && item.date && (
-            <div className={styles.date}>
-              <strong>⏱</strong> {formatDateToNow(item.date)}
+              {/* Content */}
+              <div className={styles['card-link-content']} style={item.type === 'tod' ? { flexGrow: 1 } : null}>
+                <h3 style={item.type === 'tod' ? { flexGrow: 1 } : null}>{item.title}</h3>
+                {/* "Rejoindre la discussion" button for items with type="tod" */}
+                {item.type === 'tod' && (
+                  <button
+                    onClick={() => {/* Logic to handle button click */}}
+                    className={styles['discussion-button']}
+                  >
+                    Rejoindre la discussion
+                  </button>
+                )}
+                {item.type !== 'tod' && <p>{item.description}</p>}
+                {item.type !== 'tod' && showTags && RenderTagButtons(item.tags, tagRoute)}
+                {/* Tags, Authors, and Date */}
+                {showTags && RenderTagButtons(item.tags, tagRoute)}
+                {showAuthors && item.authors && (
+                  <Authors
+                    authorIds={item.authors}
+                    onAuthorClick={handleAuthorClick}
+                    onlyDatactivist={true}
+                  />
+                )}
+                {showDate && item.date && (
+                  <div className={styles.date}>
+                    <strong>⏱</strong> {formatDateToNow(item.date)}
+                  </div>
+                )}
+              </div>
             </div>
+          ) : (
+            // Layout for non-link cards
+            <>
+              {item.image && (
+                <img
+                  src={getImagePath(item)}
+                  alt={item.title}
+                  className={styles['card-image']}
+                />
+              )}
+  
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+              {/* Tags, Authors, and Date */}
+              {showTags && RenderTagButtons(item.tags, tagRoute)}
+              {showAuthors && item.authors && (
+                <Authors
+                  authorIds={item.authors}
+                  onAuthorClick={handleAuthorClick}
+                  onlyDatactivist={true}
+                />
+              )}
+              {showDate && item.date && (
+                <div className={styles.date}>
+                  <strong>⏱</strong> {formatDateToNow(item.date)}
+                </div>
+              )}
+            </>
           )}
         </div>
       ))}
     </>
   );
+  
 };
 
 export default Cards;
