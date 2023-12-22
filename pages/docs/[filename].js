@@ -1,35 +1,12 @@
-import { useRouter } from 'next/router';
+// DocsPage.js
 import Head from 'next/head';
 import MarkdownDocs from '../../components/docs/MarkdownDocs';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-const DocsPage = () => {
-  const router = useRouter();
-  const { filename } = router.query;
-  const [metadata, setMetadata] = useState({});
-
-  useEffect(() => {
-    // Fetch the metadata here and set it
-    const fetchMetadata = async () => {
-      try {
-        const response = await fetch(`https://open.datactivist.coop/api/metadoc?filename=${filename}`);
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        setMetadata(data.metadata);
-      } catch (error) {
-        console.error('Error fetching metadata:', error);
-      }
-    };
-
-    if (filename) {
-      fetchMetadata();
-    }
-  }, [filename]);
-
+const DocsPage = ({ metadata }) => {
   const absoluteUrl = (path = '') => {
-    return `${window.location.origin}${path}`;
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+    return `${baseUrl}${path}`;
   };
 
   return (
@@ -37,6 +14,7 @@ const DocsPage = () => {
       <Head>
         <title>{metadata?.title || 'Default Title'}</title>
         <meta name="description" content={metadata?.description || 'Default Description'} />
+        
         {/* Open Graph / Facebook / LinkedIn */}
         {metadata?.image && (
           <>
@@ -46,9 +24,10 @@ const DocsPage = () => {
             <meta property="og:title" content={metadata?.title || 'Default Title'} />
             <meta property="og:description" content={metadata?.description || 'Default Description'} />
             <meta property="og:type" content="website" />
-            <meta property="og:url" content={absoluteUrl(router.asPath)} />
+            <meta property="og:url" content={absoluteUrl()} />
           </>
         )}
+
         {/* Twitter */}
         {metadata?.image && (
           <>
@@ -59,10 +38,25 @@ const DocsPage = () => {
           </>
         )}
       </Head>
-      <br></br>
-      {filename && <MarkdownDocs filename={filename} metadata={metadata} />}
+      <MarkdownDocs filename={metadata?.name} metadata={metadata} />
     </div>
   );
 };
+
+export async function getServerSideProps(context) {
+  const { filename } = context.query;
+
+  try {
+    const response = await fetch(`https://open.datactivist.coop/api/metadoc?filename=${filename}`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return { props: { metadata: data.metadata } };
+  } catch (error) {
+    console.error('Error fetching metadata:', error);
+    return { props: { metadata: {} } }; // Fallback to default metadata
+  }
+}
 
 export default DocsPage;
