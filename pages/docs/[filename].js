@@ -11,12 +11,18 @@ const DocsPage = () => {
   useEffect(() => {
     // Fetch the metadata here and set it
     const fetchMetadata = async () => {
-      // Replace this with your actual API call
-      const response = await fetch(`/api/metadoc?filename=${filename}`);
-      const data = await response.json();
-      setMetadata(data.metadata);
+      try {
+        const response = await fetch(`https://open.datactivist.coop/api/metadoc?filename=${filename}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setMetadata(data.metadata);
+      } catch (error) {
+        console.error('Error fetching metadata:', error);
+      }
     };
-
+    
     if (filename) {
       fetchMetadata();
     }
