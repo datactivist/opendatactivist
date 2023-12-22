@@ -22,11 +22,15 @@ const DocsPage = () => {
         console.error('Error fetching metadata:', error);
       }
     };
-    
+
     if (filename) {
       fetchMetadata();
     }
   }, [filename]);
+
+  const absoluteUrl = (path = '') => {
+    return `${window.location.origin}${path}`;
+  };
 
   return (
     <div>
@@ -36,20 +40,20 @@ const DocsPage = () => {
         {/* Open Graph / Facebook / LinkedIn */}
         {metadata?.image && (
           <>
-            <meta property="og:image" content={metadata.image} />
+            <meta property="og:image" content={absoluteUrl(metadata.image)} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
             <meta property="og:title" content={metadata?.title || 'Default Title'} />
             <meta property="og:description" content={metadata?.description || 'Default Description'} />
             <meta property="og:type" content="website" />
-            <meta property="og:url" content={window.location.href} />
+            <meta property="og:url" content={absoluteUrl(router.asPath)} />
           </>
         )}
         {/* Twitter */}
         {metadata?.image && (
           <>
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image" content={metadata.image} />
+            <meta name="twitter:image" content={absoluteUrl(metadata.image)} />
             <meta name="twitter:title" content={metadata?.title || 'Default Title'} />
             <meta name="twitter:description" content={metadata?.description || 'Default Description'} />
           </>
