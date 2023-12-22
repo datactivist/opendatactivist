@@ -8,6 +8,7 @@ const MarkdownDocs = dynamic(() => import('../../components/docs/MarkdownDocs'),
   ssr: false, // Disable server-side rendering for this component
 });
 // Define a function to fetch the metadata on the server side
+// ...
 export async function getServerSideProps(context) {
   const { filename } = context.query;
 
@@ -21,12 +22,15 @@ export async function getServerSideProps(context) {
     // Set a default image URL if metadata.image is missing
     const defaultImageUrl = 'https://open.datactivist.coop/images/default-image-url.png'; // Replace with your default image URL
 
+    // Ensure that the image URL is an absolute URL
+    const imageUrl = data.metadata.image ? `https://open.datactivist.coop${data.metadata.image}` : defaultImageUrl;
+
     return {
       props: {
         metadata: {
           title: data.metadata.title || 'Default Title',
           description: data.metadata.description || 'Default Description',
-          image: data.metadata.image || defaultImageUrl, // Use metadata.image if available, or the default image URL
+          image: imageUrl, // Use the absolute image URL
         },
       },
     };
@@ -37,13 +41,14 @@ export async function getServerSideProps(context) {
         metadata: {
           title: 'Default Title',
           description: 'Default Description',
-          image: 'https://open.datactivist.coop/images/default-image-url.png', // Set a default image URL here if needed
+          image: 'https://open.datactivist.coop/images/default-image-url.png', // Set a default absolute image URL here if needed
         },
       },
     };
   }
 }
 // ...
+
 const DocsPage = ({ metadata }) => {
   const router = useRouter();
   const { filename } = router.query;
