@@ -1,48 +1,13 @@
-// DocsPage.js
+import { useRouter } from 'next/router';
 import Head from 'next/head';
-import MarkdownDocs from '../../components/docs/MarkdownDocs';
 import React from 'react';
+import dynamic from 'next/dynamic';
 
-const DocsPage = ({ metadata }) => {
-  const absoluteUrl = (path = '') => {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-    return `${baseUrl}${path}`;
-  };
 
-  return (
-    <div>
-      <Head>
-        <title>{metadata?.title || 'Default Title'}</title>
-        <meta name="description" content={metadata?.description || 'Default Description'} />
-        
-        {/* Open Graph / Facebook / LinkedIn */}
-        {metadata?.image && (
-          <>
-            <meta property="og:image" content={absoluteUrl(metadata.image)} />
-            <meta property="og:image:width" content="1200" />
-            <meta property="og:image:height" content="630" />
-            <meta property="og:title" content={metadata?.title || 'Default Title'} />
-            <meta property="og:description" content={metadata?.description || 'Default Description'} />
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content={absoluteUrl()} />
-          </>
-        )}
-
-        {/* Twitter */}
-        {metadata?.image && (
-          <>
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image" content={absoluteUrl(metadata.image)} />
-            <meta name="twitter:title" content={metadata?.title || 'Default Title'} />
-            <meta name="twitter:description" content={metadata?.description || 'Default Description'} />
-          </>
-        )}
-      </Head>
-      <MarkdownDocs filename={metadata?.name} metadata={metadata} />
-    </div>
-  );
-};
-
+const MarkdownDocs = dynamic(() => import('../../components/docs/MarkdownDocs'), {
+  ssr: false, // Disable server-side rendering for this component
+});
+// Define a function to fetch the metadata on the server side
 export async function getServerSideProps(context) {
   const { filename } = context.query;
 
@@ -52,11 +17,73 @@ export async function getServerSideProps(context) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    return { props: { metadata: data.metadata } };
+
+    // Set a default image URL if metadata.image is missing
+    const defaultImageUrl = '/default-image-url.jpg'; // Replace with your default image URL
+
+    return {
+      props: {
+        metadata: {
+          title: data.metadata.title || 'Default Title',
+          description: data.metadata.description || 'Default Description',
+          image: data.metadata.image || defaultImageUrl, // Use metadata.image if available, or the default image URL
+        },
+      },
+    };
   } catch (error) {
     console.error('Error fetching metadata:', error);
-    return { props: { metadata: {} } }; // Fallback to default metadata
+    return {
+      props: {
+        metadata: {
+          title: 'Default Title',
+          description: 'Default Description',
+          image: '/default-image-url.jpg', // Set a default image URL here if needed
+        },
+      },
+    };
   }
 }
+
+// ...
+const DocsPage = ({ metadata }) => {
+  const router = useRouter();
+  const { filename } = router.query;
+
+  // Check if we are running on the client side
+  const isClient = typeof window !== 'undefined';
+
+  return (
+    <div>
+      <Head>
+        <title>{metadata?.title || 'Default Title'}</title>
+        <meta name="description" content={metadata?.description || 'Default Description'} />
+        {/* Open Graph / Facebook / LinkedIn */}
+        {metadata?.image && isClient && (
+          <>
+            <meta property="og:image" content={metadata.image} />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta property="og:title" content={metadata?.title || 'Default Title'} />
+            <meta property="og:description" content={metadata?.description || 'Default Description'} />
+            <meta property="og:type" content="website" />
+            {/* Set the correct URL for the current page */}
+            <meta property="og:url" content={router.asPath} />
+          </>
+        )}
+        {/* Twitter */}
+        {metadata?.image && isClient && (
+          <>
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:image" content={metadata.image} />
+            <meta name="twitter:title" content={metadata?.title || 'Default Title'} />
+            <meta name="twitter:description" content={metadata?.description || 'Default Description'} />
+          </>
+        )}
+      </Head>
+      <br></br>
+      {filename && <MarkdownDocs filename={filename} metadata={metadata} />}
+    </div>
+  );
+};
 
 export default DocsPage;
