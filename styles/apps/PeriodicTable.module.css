@@ -17,46 +17,54 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+
 }
 
 .categoryContainer:nth-child(1) {
     flex: 0 0 14.2857%;
-    background-color: #000000; /* Background color for the first category */
+    background-color: #000000;
+    /* Background color for the first category */
 }
 
 /* 1 unit */
 .categoryContainer:nth-child(2) {
     flex: 2 1 28.56%;
-    background-color: #111111; /* Background color for the second category */
+    background-color: #111111;
+    /* Background color for the second category */
 }
 
 /* 2 units */
 .categoryContainer:nth-child(3) {
     flex: 2 1 28.56%;
-    background-color: #222222; /* Background color for the third category */
+    background-color: #222222;
+    /* Background color for the third category */
 }
 
 /* 2 units */
 .categoryContainer:nth-child(4) {
     flex: 0 0 14.2857%;
-    background-color: #333333; /* Background color for the fourth category */
+    background-color: #333333;
+    /* Background color for the fourth category */
 }
 
 /* 1 unit */
 .categoryContainer:nth-child(5) {
     flex: 0 0 14.2857%;
-    background-color: #444444; /* Background color for the fifth category */
+    background-color: #444444;
+    /* Background color for the fifth category */
 }
 
 .categoryTitle {
     text-align: center;
     font-weight: bold;
     font-size: 14px;
-    color: var(--contentColor); /* Text color as defined in JavaScript */
-    height: 40px; /* Set a fixed height */
+    color: var(--contentColor);
+    /* Text color as defined in JavaScript */
+    height: 40px;
+    /* Set a fixed height */
     overflow: hidden;
-    text-overflow: ellipsis; /* Add ellipsis for text overflow */
+    text-overflow: ellipsis;
+    /* Add ellipsis for text overflow */
 }
 
 .elementsGallery {
@@ -64,13 +72,22 @@
     grid-template-columns: 1fr;
     margin-top: 1rem;
     align-content: end;
+    /* Alignez les éléments en haut */
+    direction: rtl;
     flex-grow: 1;
-    flex-direction: column-reverse; /* Invert the order of the child elements */
-    align-items: end;
+    grid-auto-flow: row dense;
+    /* Remplit les espaces vides en poussant vers le haut */
 }
+
+.elementPlaceholder {
+    visibility: hidden;
+    /* Rend l'élément fictif invisible */
+}
+
 
 .doubleColumn {
     grid-template-columns: repeat(2, 1fr);
+    /* Deux colonnes pour doubleColumn */
 }
 
 .element {
@@ -79,16 +96,20 @@
     box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.691);
     text-align: center;
     border-radius: 0px;
-    background-color: rgba(255, 255, 255, 0.426); /* Set background to opaque white */
+    background-color: rgba(255, 255, 255, 0.426);
+    /* Set background to opaque white */
     display: flex;
-    flex-direction: column-reverse; /* Invert the order of the child elements */
+    flex-direction: column-reverse;
+    /* Invert the order of the child elements */
     justify-content: center;
     align-items: center;
-    height: 100%; /* Fill the parent container's height */
+    height: 100%;
+    /* Fill the parent container's height */
 }
 
 .element:hover {
-    background-color: rgba(255, 255, 255, 0.711); /* Set background to semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.711);
+    /* Set background to semi-transparent white */
     cursor: pointer;
 }
 
@@ -96,7 +117,8 @@
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 0rem;
-    color: var(--contentColor); /* Text color as defined in JavaScript */
+    color: var(--contentColor);
+    /* Text color as defined in JavaScript */
 }
 
 .elementContent {
@@ -109,8 +131,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem; /* Adjust spacing as needed */
-    color: var(--contentColor); /* Text color as defined in JavaScript */
+    margin-top: 6rem;
+    /* Adjust spacing as needed */
+    color: var(--contentColor);
+    /* Text color as defined in JavaScript */
 }
 
 .element::before {
@@ -141,29 +165,29 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-  }
-  
-  .popupContent {
+}
+
+.popupContent {
     background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 100%;
-  }
-  
-  .popupContent h2 {
+}
+
+.popupContent h2 {
     margin-top: 0;
     color: #ffffff;
     font-weight: bold;
-  }
-  
-  .popupContent p {
+}
+
+.popupContent p {
     color: #ffffff;
     line-height: 1.5;
-  }
-  
-  .popupContent button {
+}
+
+.popupContent button {
     background-color: #46607d;
     color: white;
     border: none;
@@ -172,12 +196,12 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .popupContent button:hover {
+}
+
+.popupContent button:hover {
     background-color: #c86666;
-  }
-  
+}
+
 
 @media (max-width: 768px) {
     .periodicTable {
