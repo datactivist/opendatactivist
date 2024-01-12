@@ -29,7 +29,7 @@ const Popup = ({ title, description, onClose }) => {
       <div ref={popupRef} className={styles.popupContent}>
         <h2>{title}</h2>
         <div dangerouslySetInnerHTML={{ __html: description }}></div>
-        <button onClick={onClose}>Close</button>
+        <button onClick={onClose}>Fermer</button>
       </div>
     </div>
   );
