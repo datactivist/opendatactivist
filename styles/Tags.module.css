@@ -52,11 +52,10 @@
   font-size: 18px;
   border-radius: 8px;
   border: none !important;
-  background-color: #ffffff	;
+  background-color: #ffffff00	;
   text-decoration: none !important; 
   margin-bottom: 1rem;
   margin-left: 20px;
-  border: solid 1px #b8b8b8 !important;
   cursor: pointer;
   justify-content: center;
 }
@@ -64,7 +63,6 @@
  .customButton:hover {
   background: linear-gradient(45deg, #8eb9c7 30%, #8eb9c7 90%);
   color: #fff !important;
-  border: solid 1px !important;
 }
 
  .customButton:active {
@@ -74,8 +72,8 @@
 .tagButton {
   margin: 10px; 
   padding: 10px; 
-  background: linear-gradient(45deg, #8eb9c7 30%, #8eb9c7 90%);
-  color: white;
+  background: linear-gradient(45deg, #ffffff00 30%, #ffffff00 90%);
+  color: rgb(44, 44, 44);
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -87,7 +85,7 @@
 
 .tagButton:hover,
 .tagButton:focus {
-  background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+  background: linear-gradient(45deg, #f8eaea 30%, #f6e9ec 90%);
   outline: none;
   transform: translateY(-2px);
 }
