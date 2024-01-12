@@ -19,9 +19,17 @@ const MarkdownDocs = ({ filename }) => {
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
-      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%|%%Images:[^%]*%%)/,
+      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%|%%Images:[^%]*%%|<iframe[^>]*>[^<]*<\/iframe>)/,
     );
     return contentParts.map((part, index) => {
+      const iframeMatch = part.match(/<iframe[^>]*src="([^"]*)"[^>]*>([^<]*)<\/iframe>/);
+      if (iframeMatch) {
+        const iframeSrc = iframeMatch[1];
+        return (
+          <iframe key={`iframe-${index}`} src={iframeSrc} width="100%" height="600"></iframe>
+        );
+      }
+
       const matchDocs = part.match(/%%Docs:([^%]*)%%/);
       if (matchDocs) {
         const docsList = matchDocs[1].split(',').map((doc) => doc.trim());
