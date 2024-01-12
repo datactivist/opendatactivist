@@ -44,7 +44,7 @@
   justify-self: left;
   font-size: 1.2rem;
   width: 40%;
-  border: 1px solid #ccc;
+  border: 1px solid #ededed;
   border-radius: 10px;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
@@ -52,8 +52,8 @@
 }
 
 .search:focus {
-  border-color: #0070f3;
-  box-shadow: 0 0 0 1px #0070f3;
+  border-color: #a1d5e7;
+  box-shadow: 0 0 0 1px #a1d5e7;
 }
 
 .gallery {
@@ -147,10 +147,9 @@
   margin-bottom: 1rem;
   margin-left: 2rem;
   height: 45px;
-  border: 1px solid #ccc;
+  border: 1px solid #eeeeee;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   appearance: none; /* Remove default appearance for certain browsers */
   transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
   font-size: 1.2rem;
@@ -158,6 +157,6 @@
 
 .type-filter:focus {
   outline: none;
-  border-color: #0070f3;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 1px #0070f3;
+  border-color: #a1d5e7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 1px #a1d5e7;
 }
