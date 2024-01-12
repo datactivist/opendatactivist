@@ -132,7 +132,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
-    /* Adjust spacing as needed */
     color: var(--contentColor);
     /* Text color as defined in JavaScript */
 }
@@ -202,6 +201,16 @@
     background-color: #c86666;
 }
 
+@media (max-width: 1400px) {
+    .elementContent {
+        font-size: 10px;
+    }
+
+    .initials {
+        font-size: 1.2em;
+    }
+    
+}
 
 @media (max-width: 768px) {
     .periodicTable {
