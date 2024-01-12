@@ -204,6 +204,7 @@
 @media (max-width: 1400px) {
     .elementContent {
         font-size: 10px;
+        margin-top: 5rem;
     }
 
     .initials {
