@@ -89,12 +89,12 @@ iframe {
 
 a.customButton {
   display: block;
-  padding: 10px 20px;
+  padding: 8px 10px;
   color: white  !important;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: 4px;
   border-bottom: none !important;
-  background: linear-gradient(45deg, #335a6a 30%, #197993 90%);
+  background: linear-gradient(45deg, #335a6a 30%, #335a6a 90%);
   text-decoration: none !important; 
   margin-bottom: 2rem;
   justify-content: center;
@@ -104,7 +104,7 @@ a.customButton {
 }
 
 a.customButton:hover {
-  background: linear-gradient(45deg, #e95459 30%, #d55a7b 90%);
+  background: linear-gradient(45deg, #e95459 30%, #e95459 90%);
 }
 
 a.customButton:active {
