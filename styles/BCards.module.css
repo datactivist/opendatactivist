@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.card {
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.cardContentWrapper {
+    display: flex;
+    align-items: start;
+  }
+  
+
+.cardpartner {
+  border: 0px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.cardpartner:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.cardImage {
+    width: 35%; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the spacing between the image and content */
+    object-fit: cover;
+  }
+
+.card-link {
+  display: flex;
+  align-items: start;
+  padding: 0.5rem;
+}
+
+.card-link-image {
+  margin-top: 1rem;
+  width: 20%;
+  align-items: center;
+  object-fit: cover;
+  margin-right: 16px; /* Adjust the margin as needed */
+}
+
+.cardContent {
+    width: 70%; /* Adjust the width as needed */
+  }
+
+.card-tod-title {
+  width: 50%; /* Full width */
+  /* Add other styles as needed */
+}
+
+.discussion-button {
+  background-color: #173541; 
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 10px 24px;
+  text-decoration: none;
+  order: 3;
+  width: 100%;
+  border-radius: 6px; 
+}
+
+.discussion-button:hover {
+  background-color: #417082; 
+  color: white; 
+}
+
+
+.card-image-partners {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0px;
+  margin-bottom: 0rem;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+.date {
+  font-size: 12px;
+  margin-top: 13px;
+  color: #555555
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.forum-button {
+  background-color: #173541; 
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 10px 24px;
+  text-decoration: none;
+  order: 3;
+  width: 100%;
+  border-radius: 6px; 
+}
+
+
+.forum-button:hover {
+  background-color: #e95459; 
+  color: white; 
+}
+
+@media (min-width: 600px) { 
+  .forum-button {
+    order: 2; 
+    width: auto; 
+  }
+}
+

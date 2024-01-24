@@ -77,6 +77,15 @@ export default function Home() {
               <b>Voir les outils</b>
             </a>
           </div>
+          <div className={styles.card}>
+            <h3>Blog &rarr;</h3>
+            <p>
+              Le blog de Datactivist : nos billets d‘humeur, nos retours d‘expérience, nos actualités
+            </p>
+            <a href="/blog" className={styles.viewButton}>
+              <b>Accéder au blog</b>
+            </a>
+          </div>
         </div>
       </main>
     </div>

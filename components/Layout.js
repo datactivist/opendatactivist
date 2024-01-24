@@ -83,7 +83,10 @@ const Layout = ({ children }) => {
                 <span className={styles.link}>Outils & produits</span>
               </Link>
               <Link href="/docs" passHref>
-                <span className={styles.link}>Contenus ouverts</span>
+                <span className={styles.link}>Publications</span>
+              </Link>
+              <Link href="/blog" passHref>
+                <span className={styles.link}>✏ Blog</span>
               </Link>
             </nav>
           </div>

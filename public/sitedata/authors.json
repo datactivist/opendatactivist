@@ -13,7 +13,9 @@
       "name": "Etienne Pichot Damon",
       "image": "/images/authors/etienne-pichot-damon.jpeg",
       "bio": "D'abord chargé de mission open data pour la Métropole de Lille, puis consultant open data, Etienne est désormais en charge de l'ouverture des contenus et du développement des produits chez Datactivist. Il a aussi travaillé deux années chez Etalab pour le déploiement du portail api.gouv.fr",
-      "organisation": "datactivist"
+      "organisation": "datactivist",
+      "linkedinUrl":"etiennepichotdamon",
+      "emailAddress":"etienne@datactivist.coop"
     },
     "sylvain-lapoix": {
         "name": "Sylvain Lapoix",
@@ -25,19 +27,25 @@
         "name": "Guillaume Martin",
         "image": "/images/authors/guillaume-martin.jpeg",
         "bio": "Guillaume est spécialisé en stratégie numérique publique. Il a porté plusieurs projets d’envergures à la Métropole Européenne de Lille dans le domaine de la ville intelligente et de l’inclusion numérique. Depuis 2019, il travaille particulièrement sur l’amélioration des politiques publiques par l’ouverture et l’exploitation de données. Il a rejoint Datactivist en 2021.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"guillaume-martin-78822a114",
+        "emailAddress":"guillaume@datactivist.coop"
     },
     "joel-gombin": {
         "name": "Joël Gombin",
         "image": "/images/authors/joel-gombin.jpeg",
         "bio": "Joël a longtemps fait de la recherche et de l'enseignement en sociologie électorale, ce qui lui a permis d'acquérir de solides compétences en data science. Gérant de Datactivist, il a une expérience significative de direction de projet, pour des clients tant publics que privés.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"jgombin",
+        "emailAddress":"joel@datactivist.coop"
     },
     "magalie-dartus": {
         "name": "Magalie Dartus",
         "image": "/images/authors/magalie-dartus.jpeg",
         "bio": "Archéologue pendant une quinzaine d'année, Magalie a dirigé des opérations de fouille en France et à l’étranger avant de se reconvertir dans la géomatique. Ses centres d’intérêts professionnels la poussent désormais vers l’open data et l’animation d’équipes. Elle a une prédilection toute particulière pour la cartographie libre et le crowdsourcing.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"magalie-dartus",
+        "emailAddress":"magalie@datactivist.coop"
     },
     "mathieu-morey": {
         "name": "Mathieu Morey",
@@ -49,49 +57,64 @@
         "name": "Anne-Laure Donzel",
         "image": "/images/authors/anne-laure-donzel.jpeg",
         "bio": "Anne-Laure est archiviste de formation. Elle a été chargée de projets d'archivage de données et déléguée à la protection des données dans des collectivités, dont, dernièrement à la Région Bretagne. Elle s'intéresse particulièrement aux questions juridiques et au cycle de vie des données, de leur production à leur réutilisation.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"anne-laure-donzel-59a4b9136",
+        "emailAddress":"anne-laure@datactivist.coop"
     },
     "samuel-goeta": {
         "name": "Samuel Goëta",
         "image": "/images/authors/samuel-goeta.jpeg",
         "bio":"Samuel est sociologue. Sa thèse entre dans les coulisses de l'open data et interroge les conditions de mise en œuvre de ces projets. Il est co-fondateur de l'association Open Knowledge France où il milite pour que l'ouverture du savoir bénéficie à tous.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"samgoeta",
+        "emailAddress":"samuel@datactivist.coop"
     },
     "maelle-fouquenet": {
         "name": "Maëlle Fouquenet",
         "image": "/images/authors/maelle-fouquenet.jpeg",
         "bio": "Spécialiste des enjeux numériques et passionnée de données, Maëlle s'est formée à l'analyse de données (en python) et accompagne les institutions publiques dans leur démarche d'ouverture de données et de transparence. Elle développe également une expertise sur les questions de genre et de données, et s'intéresse fortement aux enjeux liés aux algorithmes.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"maellefouquenet",
+        "emailAddress":"maelle@datactivist.coop"
     },
     "anthony-gigerich": {
         "name": "Anthony Gigerich",
         "image": "/images/authors/anthony-gigerich.jpeg",
         "bio": "Anthony est diplômé du Master Informatique Intelligence Artificielle de l'université d'Aix-Marseille. Il travaille en collaboration avec Mathieu dans ses projets de R&D. Il aide également l'équipe à développer différents outils permettant d'améliorer l'accessibilité aux données.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "emailAddress":"anthony@datactivist.coop"
     },
     "clement-mandron": {
         "name": "Clément Mandron",
         "image": "/images/authors/clement-mandron.jpeg",
         "bio": "Clément est diplômé du Master Stratégies territoriales et urbaines a SciencesPo Paris. D'une formation franco-allemande centrée sur les politique publiques liées au numérique et aux territoires, il a intégré Datactivist en 2021. Clément est bien résolu à mettre son expérience en analyse de données acquise à Berlin au service tous types d'organisations dans l'ouverture et la réutilisation de leurs données.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"clément-mandron-6346a785",
+        "emailAddress":"clement@datactivist.coop"
     },
     "emeline-vandeven": {
         "name": "Emeline Vandeven",
         "image": "/images/authors/emeline-vandeven.jpeg",
         "bio": "Emeline est juriste spécialisée en droit de la commande publique. Au cours des 10 dernières années, elle a été acheteur au sein de collectivités territoriales et services de l'Etat (CNIL, PFRA) ainsi que consultante juridique à la DAJ de Bercy. Elle est notamment en charge d'accompagner les acteurs publics dans l'ouverture des données de la commande publique.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"emelinevandeven",
+        "emailAddress":"emeline@datactivist.coop" 
     },
     "diane-thierry": {
         "name": "Diane Thierry",
         "image": "/images/authors/diane-thierry.jpeg",
         "bio": "Diplômée du Master Econométrie Appliquée de l'Université de Nantes, elle est passionnée par l'analyse de données. Elle travaille sur différents projets pour faire parler les données ouvertes au moyen de visualisations et d'études économétriques, allant de la récolte des données à leur analyse.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"diane-thierry-b22099193",
+        "emailAddress":"diane@datactivist.coop"
     },
     "arthur-sarazin": {
         "name": "Arthur Sarazin",
         "image": "/images/authors/arthur-sarazin.jpeg",
         "bio": "Arthur est chercheur en systèmes d'information, spécialisé en design science. Il conçoit et prototype des dispositifs pour faciliter la construction des usages des données ouvertes. Il se concentre tout particulièrement sur le développement d'un cadre de travail collaboratif dédié : l'Open Data Canvas.",
-        "organisation": "datactivist"
+        "organisation": "datactivist",
+        "linkedinUrl":"arthursarazin",
+        "emailAddress":"arthur@datactivist.coop"
     },
     "guillaume-coldre": {
         "name": "Guillaume Coldre",
@@ -116,6 +139,9 @@
     "elise-ho-pun-cheung": {
         "name": "Elise Ho-Pun-Cheung",
         "image": "/images/authors/elise-ho-pun-cheung.jpeg",
-        "organisation": "datactivist"
+        "bio":"Elise est chercheuse en science politique. Au cours de sa thèse elle s’est intéressée aux controverses contemporaines de la « ville intelligente », à travers l’étude de groupes d’acteurs non-institutionnels. Elle rejoint Datactivist en février 2022 en tant que chercheuse-consultante et travaille en particulier sur les standards de données territoriales.",
+        "organisation": "datactivist",
+        "linkedinUrl":"elise-ho-pun-cheung",
+        "emailAddress":"elise@datactivist.coop"
     }
   }
