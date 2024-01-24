@@ -36,7 +36,12 @@ const DocsMetadata = ({ metadata }) => {
       case 'Cas pratique':
         emoji = '🔎 ';
         break;
-      // ajoute d'autres cas si nécessaire
+      case 'Datagramme':
+        emoji = '👓';
+        break;
+      case 'Blog':
+        emoji = '✏️';
+        break;
     }
     return `${emoji}${type}`;
   };

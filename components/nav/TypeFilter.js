@@ -20,6 +20,8 @@ const TypeFilter = ({ selectedType, handleTypeFilter, uniqueTypes }) => {
           {type === 'Infographie' ? '📊 ' : ''}
           {type === 'Galerie d‘images' ? '📷 ' : ''}
           {type === 'Cas pratique' ? '🔎 ' : ''}
+          {type === 'Datagramme' ? '👓' : ''}
+          {type === 'Blog' ? '✏️' : ''}
           {type}
         </option>
       ))}
