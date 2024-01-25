@@ -67,11 +67,16 @@ const AuthorPage = () => {
 
   return (
     <Layout>
-      <h1 className={styles.authorpageTitle}>
-        {authorData.organisation === 'datactivist'
-          ? '...Notre équipe'
-          : '...Nos contributeurs'}
-      </h1>
+<h1 className={styles.authorpageTitle}>
+  {authorData.organisation === 'datactivist' ? (
+    <Link href="/equipe" legacyBehavior>
+      <a className={styles.authorPageLink}>...Notre équipe</a>
+    </Link>
+  ) : (
+    '...Nos contributeurs'
+  )}
+</h1>
+
       <div className={styles.authorBox}>
         <div className={styles.authorContainer}>
           <div className={styles.authorHeader}>
@@ -109,18 +114,20 @@ const AuthorPage = () => {
               )}
             </div>
           </div>
-          <div className={styles.authorSectionTitle}>
-            Liste des contributions
-          </div>
-          <Gallery>
-            <Cards
-              items={authorDocs}
-              onClick={(linkId) => router.push(`/docs/${linkId}`)}
-              tagRoute="docs"
-              showDate={false}
-              showAuthors={false}
-            />
-          </Gallery>
+          {authorDocs.length > 0 && (
+            <>
+              <div className={styles.authorSectionTitle}>Liste des contributions</div>
+              <Gallery>
+                <Cards
+                  items={authorDocs}
+                  onClick={(linkId) => router.push(`/docs/${linkId}`)}
+                  tagRoute="docs"
+                  showDate={false}
+                  showAuthors={false}
+                />
+              </Gallery>
+            </>
+          )}
         </div>
       </div>
     </Layout>

@@ -38,6 +38,7 @@
     width: 35%; /* Adjust the width as needed */
     margin-right: 20px; /* Adjust the spacing between the image and content */
     object-fit: cover;
+    border-radius: 8px;
   }
 
 .card-link {

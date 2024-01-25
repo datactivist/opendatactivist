@@ -1,0 +1,165 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.teamPageTitle {
+    font-size: 4rem;
+    color: #b5cdd6;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -1rem;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    border-radius: 4px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Changez à flex-start pour aligner les éléments en haut */
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 40px;
+    gap: 20px;
+    min-height: 180px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.avatar {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatarContainer {
+    flex-shrink: 0; /* Empêche le conteneur de l'avatar de rétrécir */
+    width: 110px; /* Fixe la largeur du conteneur de l'avatar */
+    height: 110px; /* Fixe la hauteur du conteneur de l'avatar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.info {
+    text-align: left;
+    /* Aligner le texte à gauche pour la partie info */
+    flex-grow: 1;
+    /* Permet à la section info d'occuper tout l'espace restant */
+}
+
+
+.info h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.teamPageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.teamPageContainer h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.circles,
+.tags {
+    margin-top: 10px;
+}
+
+.cercle,
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #1e2531;
+    font-size: 12px;
+}
+
+.cercleTitle {
+    font-size: 24px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.recherche-appliquée-et-produits {
+    background-color: #e1eaf4;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.communication-et-marketing {
+    background-color: #e8f0f2;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.opérations {
+    background-color: #eaeaea;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.ressources-humaines-et-finances {
+    background-color: #f2edea;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.développement-et-partenaires {
+    background-color: #f6f4f1;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.it {
+    background-color: #f3f4f6;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.tag {
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+  
+  /* Ajustements pour les petits écrans */
+  @media (max-width: 600px) {
+
+    .avatar {
+      height: 60px;
+      width: auto;
+    }
+  }
+  
