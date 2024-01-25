@@ -103,12 +103,12 @@
     "clement-mandron": {
         "name": "Clément Mandron",
         "image": "/images/authors/clement-mandron.png",
-        "bio": "Clément est diplômé du Master Stratégies territoriales et urbaines a SciencesPo Paris. D'une formation franco-allemande centrée sur les politique publiques liées au numérique et aux territoires, il a intégré Datactivist en 2021. Clément est bien résolu à mettre son expérience en analyse de données acquise à Berlin au service tous types d'organisations dans l'ouverture et la réutilisation de leurs données.",
+        "bio": "Clément vient d'une formation en urbanisme. Il a acquis des compétences techniques en analyse de données grâce à ses expériences professionnelles. Depuis, il aide les acteurs publics (collectivités comme Etat) à utiliser et ouvrir leurs données.",
         "organisation": "datactivist",
         "linkedinUrl":"clément-mandron-6346a785",
         "emailAddress":"clement@datactivist.coop",
         "cercle":"Développement et partenaires",
-        "tags":["Stratégie", "Gouvernance","Ville intelligente", "Collectivités"]
+        "tags":["Stratégie", "Gouvernance","Administration des données", "Collectivités"]
     },
     "emeline-vandeven": {
         "name": "Emeline Vandeven",
