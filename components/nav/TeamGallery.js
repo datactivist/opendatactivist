@@ -2,91 +2,81 @@ import React, { useState, useEffect } from 'react';
 import styles from '../../styles/TeamGallery.module.css';
 import Link from 'next/link';
 
-
 const TeamGallery = () => {
   const [teamMembers, setTeamMembers] = useState([]);
+  const [uniqueTags, setUniqueTags] = useState([]);
+  const [selectedTag, setSelectedTag] = useState(null);
 
   useEffect(() => {
-    fetch('/api/authors')
+    // Construisez l'URL de base
+    let apiUrl = '/api/authors';
+  
+    // Si un tag est sélectionné, ajoutez-le comme paramètre de requête
+    if (selectedTag) {
+      apiUrl += `?tag=${encodeURIComponent(selectedTag)}`;
+    }
+  
+    fetch(apiUrl)
       .then(response => response.json())
       .then(data => {
         const filteredAndSortedData = data
           .filter(member => member.cercle && (Array.isArray(member.cercle) ? member.cercle.length > 0 : true))
           .sort((a, b) => a.name.localeCompare(b.name));
+  
         setTeamMembers(filteredAndSortedData);
-      });
-  }, []);
-
-  const cercleOrder = [
-    "Développement et partenaires",
-    "Ressources humaines et finances",
-    "Communication et marketing",
-    "Recherche appliquée et produits",
-    "Opérations",
-    "IT"
-  ];
   
-
-  const groupMembersByCercle = () => {
-    const groups = {};
-    teamMembers.forEach(member => {
-      (Array.isArray(member.cercle) ? member.cercle : [member.cercle]).forEach(cercle => {
-        if (!groups[cercle]) {
-          groups[cercle] = [];
+        if (!selectedTag) {
+          // Si aucun tag n'est sélectionné, mettez à jour les tags uniques basés sur tous les membres
+          const tags = new Set();
+          filteredAndSortedData.forEach(member => member.tags?.forEach(tag => tags.add(tag)));
+          setUniqueTags([...tags]);
         }
-        groups[cercle].push(member);
       });
-    });
-    return groups;
+  }, [selectedTag]); // Ajoutez selectedTag comme dépendance
+  
+
+  const handleTagClick = (tag) => {
+    setSelectedTag(selectedTag === tag ? null : tag);
   };
 
-  const renderGroupedMembers = () => {
-    const groups = groupMembersByCercle();
-  
-    // Tri des cercles en fonction de l'ordre défini
-    const sortedGroups = Object.entries(groups).sort((a, b) => {
-      const orderA = cercleOrder.indexOf(a[0]);
-      const orderB = cercleOrder.indexOf(b[0]);
-      return orderA - orderB;
-    });
-  
-    // Rendu des groupes triés
-    return sortedGroups.map(([cercle, members]) => {
-      const cercleClassName = cercle.replace(/\s+/g, '-').toLowerCase();
-      return (
-        <div key={cercle} className={`${styles.cercleGroup} ${styles[cercleClassName]}`}>
-          <h2 className={styles.cercleTitle}>{cercle}</h2>
-          <div className={styles.membersFlex}>
-            {members.map(member => (
-              <Link key={`${member.id}-${cercle}`} href={`/authors/${member.id}`} legacyBehavior>
-                <a className={styles.card} aria-label={`Voir le profil de ${member.name}`}>
-                  <div className={styles.avatarContainer}>
-                    <img src={member.image} alt={member.name} className={styles.avatar} />
-                  </div>
-                  <div className={styles.info}>
-                    <h3>{member.name}</h3>
-                    <div className={styles.tags}>
-                      {member.tags && member.tags.map(tag => (
-                        <span key={`${member.id}-${tag}`} className={styles.tag}>{tag}</span>
-                      ))}
-                    </div>
-                  </div>
-                </a>
-              </Link>
-            ))}
+  const renderTagButtons = () => (
+    <div className={styles.tagButtons}>
+      {uniqueTags.map(tag => (
+        <button key={tag} className={selectedTag === tag ? styles.selectedTagButton : styles.tagButton} onClick={() => handleTagClick(tag)}>
+          {tag}
+        </button>
+      ))}
+    </div>
+  );
+
+  const renderMembers = () => {
+    const filteredMembers = selectedTag ? teamMembers.filter(member => member.tags?.includes(selectedTag)) : teamMembers;
+    return filteredMembers.map(member => (
+      <Link key={member.id} href={`/authors/${member.id}`} legacyBehavior>
+        <a className={styles.card} aria-label={`Voir le profil de ${member.name}`}>
+          <div className={styles.avatarContainer}>
+            <img src={member.image} alt={member.name} className={styles.avatar} />
           </div>
-        </div>
-      );
-    });
+          <div className={styles.info}>
+            <h3>{member.name}</h3>
+            <div className={styles.tags}>
+              {member.tags && member.tags.map(tag => (
+                <span key={`${member.id}-${tag}`} className={styles.tag}>{tag}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      </Link>
+    ));
   };
-    
 
   return (
     <div className={styles.teamPageContainer}>
-      <div className={styles.gallery}>
-        {renderGroupedMembers()}
+    {renderTagButtons()}
+        <div className={styles.gallery}>
+          {renderMembers()}
+        </div>
       </div>
-    </div>
   );
 };
 

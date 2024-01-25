@@ -1,9 +1,14 @@
 .gallery {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 30px;
+    grid-auto-rows: 150px; /* Hauteur fixe pour chaque ligne */
+    gap: 30px; /* Cet espacement entre les colonnes et les lignes reste constant */
     justify-content: center;
+    display: grid;
+    align-items: start; /* Ajoutez cette ligne */  
 }
+
 
 .teamPageTitle {
     font-size: 4rem;
@@ -51,13 +56,9 @@
     align-items: center;
 }
 
-
-
 .info {
     text-align: left;
-    /* Aligner le texte à gauche pour la partie info */
     flex-grow: 1;
-    /* Permet à la section info d'occuper tout l'espace restant */
 }
 
 
@@ -73,90 +74,77 @@
 }
 
 .teamPageContainer {
-    max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    width: 80%;
+  }
+
+.sidebar {
+    min-width: 200px; /* Ajustez selon vos besoins */
+    padding: 10px;
+  }
+
+  .tagButton {
+    background-color: #ebf1f4;
+    border-radius: 5px;
+    text-align: left;
+    width: fit-content;
+    font-weight: 500;
+    border: none;
+    margin-top: 7px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #1e2531;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .tagButtons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-}
+    gap: 10px;
+  }
+  
+  
+  .selectedTagButton {
+    background-color: #96b3c0;
+    border-radius: 5px;
+    text-align: left;
+    width: fit-content;
+    border: none;
+    margin-top: 7px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer; 
+ }
 
 .teamPageContainer h1 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.circles,
-.tags {
-    margin-top: 10px;
-}
-
-.cercle,
 .tag {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 7px;
     display: inline-block;
     padding: 5px 10px;
     margin-right: 5px;
-    color: #1e2531;
+    color: #636a77;
     font-size: 12px;
-}
-
-.cercleTitle {
-    font-size: 24px;
-    padding: 1rem;
-    text-align: center;
-    font-weight: 900;
-    margin-bottom: 5px;
-    color: #000;
-}
-
-.recherche-appliquée-et-produits {
-    background-color: #e1eaf4;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.communication-et-marketing {
-    background-color: #e8f0f2;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.opérations {
-    background-color: #eaeaea;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.ressources-humaines-et-finances {
-    background-color: #f2edea;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.développement-et-partenaires {
-    background-color: #f6f4f1;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.it {
-    background-color: #f3f4f6;
-    border-radius: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.tag {
-    background-color: #fafafa;
-    border-radius: 5px;
-    margin-top: 7px;
 }
   
   /* Ajustements pour les petits écrans */
   @media (max-width: 600px) {
-
+    .teamPageContainer {
+        width: 100%;
+      }
     .avatar {
       height: 60px;
       width: auto;
