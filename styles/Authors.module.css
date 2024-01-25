@@ -3,7 +3,7 @@
     flex-wrap: wrap;
   }
 
-  .authorpageTitle {
+  .authorpageTitle, .authorpageTitle a {
     font-size: 2.5rem;
     color: #abc5cf; 
     font-weight: 900; 
@@ -14,6 +14,12 @@
     max-width: 1200px;
     margin-left: auto;
     border-radius: 4px;
+    text-decoration: none; /* Supprime le soulignement des liens */
+  }
+
+  .authorpageTitle a:hover {
+    color: #819da8;
+    text-decoration: underline;
   }
   
   .partnerpageTitle {
