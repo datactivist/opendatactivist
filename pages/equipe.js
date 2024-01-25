@@ -6,10 +6,8 @@ import styles from '../styles/TeamGallery.module.css'; // Assurez-vous de créer
 const TeamPage = () => {
   return (
     <Layout> {/* Utilisez votre composant Layout si vous en avez un, sinon supprimez cette ligne */}
-      <div className={styles.teamPageContainer}>
         <h1 className={styles.teamPageTitle}>Notre équipe</h1>
         <TeamGallery />
-      </div>
     </Layout>
   );
 };
