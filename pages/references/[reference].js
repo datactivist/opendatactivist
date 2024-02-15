@@ -1,6 +1,6 @@
 // pages/references/[reference].js
 import { useRouter } from 'next/router';
-import Layout from '../../components/layout';
+import Layout from '../../components/Layout';
 
 export async function getServerSideProps(context) {
     const { params, req } = context;
