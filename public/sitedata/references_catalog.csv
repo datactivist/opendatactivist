@@ -1,0 +1,36 @@
+﻿id,title,team,partners,partner-description,partner-image,mission,actions
+tableaux-issy,Construction de tableaux de bord,"etienne-pichot-damon,samuel-goeta",issy-moulineaux,"Ville pionnière en France en matière d’open data, Issy-les-Moulineaux a ouvert un portail en 2012, et l’alimente régulièrement en nouvelles données",/images/partners/issy-moulineaux.png,"Datactivist a accompagné la collectivité dans la préparation de ses données pour réaliser des tableaux de bord partagés. 
+
+Dans la plupart des administrations, les différents services maintiennent des tableaux de suivis de leur activité. Problème : ces tableaux sont dans des formats différents selon les services. Chaque année, les indicateurs sont à recalculer, et donc le travail de mise à jour prend du temps. 
+
+La ville d’Issy-les-Moulineaux s’est donc lancée dans un premier projet de standardisation de données, avec comme objectif concret de construire des tableaux de bord partagés et actualisés automatiquement. 
+
+Le but : faciliter la remontée des données, éviter les doublons de saisies, et permettre aux élus, aux agents et aux citoyens d’accéder en toute simplicité à des indicateurs détaillés sur les services de la ville. 
+","Formation et ateliers avec les 7 services pilotes pour partager la stratégie et collecter des données
+
+
+Prototypage des tableaux de bord avec les services
+
+Cartographie des données à utiliser
+
+Structuration, formatage et publication de 50 jeux de données qui alimentent les tableaux de bord
+
+Rédaction d’un guide
+méthodologique, publié sous la forme d’un billet de blog"
+analyse-respire,Analyse et publication de données,"sylvain-lapoix,joel-gombin,mathieu-morey",association-respire,"Respire est une association de citoyens, fondée en février 2011, dédiée à l’amélioration de la qualité de l’air
+",/images/partners/association-respire.png,"Pour sensibiliser le grand public à l’exposition des plus jeunes à la pollution, Datactivist a accompagné Respire dans sa campagne: “De l’air pour nos enfants”.
+
+De l’audit de données à la publication des résultats en open data, l’équipe de Datactivist a assuré toutes les tâches liées à la donnée dans la production des supports de campagne :
+- une base de données historique et géolocalisée de la qualité de l’air;
+- une carte de la pollution aux abords des 12530 crèches, écoles, collèges et lycées d’Île-de-France sur 5 ans;
+- un rapport synthétique à destination du public et des élu·e·s.
+Résultat : une large reprise médiatique, des réactions politiques et des sollicitations d’associations de parents d’élèves pour faire progresser ce dossier auprès des pouvoirs publics.
+
+","Audit de données 
+
+Réalisation d’une cartographie de la pollution de l’air dans les écoles
+
+Publication des données en open data
+
+Production des supports de communication pour la campagne"
+,,,,,,,
