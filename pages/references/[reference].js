@@ -195,7 +195,7 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
         />
 {docsCatalog && docsCatalog.length > 0 && (
   <div>
-    <h3 className={styles.subtitle}>Publications liées</h3>
+    <h3 className={styles.subtitle}>Contenus liés</h3>
     <FilteredDocsDisplay docsList={docsCatalog} />
   </div>
 )}
