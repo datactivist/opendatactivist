@@ -13,7 +13,6 @@ import ImageGallery from './ImageGallery';
 import Head from 'next/head';
 
 
-
 const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
   const [content, setContent] = useState('');
@@ -252,59 +251,61 @@ const renderReferences = () => {
 };
 
 
-  return (
-    <Layout>
-      <Head>
-        <title>{metadata?.title}</title>
-        <meta name="description" content={metadata?.description} />
-      </Head>
-      <div
+return (
+  <Layout>
+    <Head>
+      <title>{metadata?.title}</title>
+      <meta name="description" content={metadata?.description} />
+    </Head>
+    <div
+      style={{
+        backgroundColor: 'white',
+        margin: '0 auto',
+        maxWidth: '900px',
+        padding: '0 10px',
+        borderRadius: '20px',
+      }}
+    >
+      <TitleWithBackground
+        title={metadata?.title}
+        imageUrl={metadata?.image}
+      />
+      <DocsMetadata metadata={metadata} />
+      <br />
+      <p
         style={{
-          backgroundColor: 'white',
-          margin: '0 auto',
-          maxWidth: '900px',
-          padding: '0 10px',
-          borderRadius: '20px',
+          width: '100%',
+          display: 'block',
+          fontSize: '1.5rem',
+          color: '#696969',
+          textAlign: 'center',
         }}
       >
-        <TitleWithBackground
-          title={metadata?.title}
-          imageUrl={metadata?.image}
-        />
-        <DocsMetadata metadata={metadata} />
-        <br />
-        <p
-          style={{
-            width: '100%',
-            display: 'block',
-            fontSize: '1.5rem',
-            color: '#696969',
-            textAlign: 'center',
-          }}
-        >
-          {metadata?.description}
-        </p>
-        <br />
+        {metadata?.description}
+      </p>
+      <br />
+      {(metadata.partners && metadata.partners.length > 0) || metadata.references_catalog ? (
         <div className={styles.partnersReferencesContainer}>
           {metadata.partners && metadata.partners.length > 0 && (
             <div className={styles.partnersContainer}>
               <Partners partnersIds={metadata.partners} />
             </div>
           )}
- {metadata.references_catalog && (
+          {metadata.references_catalog && (
             <div className={styles.referencesContainer}>
               <h2 className={styles.referenceTitle}>Référence(s)</h2>
-              <div>
-                {renderReferences()}
-              </div>
+              <div>{renderReferences()}</div>
             </div>
           )}
         </div>
-        <div className={styles.markdownContent}>
-          {createContentElements(content)}
-        </div>
+      ) : null}
+      <div className={styles.markdownContent}>
+        {createContentElements(content)}
       </div>
-    </Layout>  );
+    </div>
+  </Layout>
+);
+
 };
 
 export default MarkdownDocs;
