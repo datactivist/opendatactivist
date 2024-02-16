@@ -23,13 +23,12 @@
   }
   
   .partnerpageTitle {
-    font-size: 2.5rem;
-    color: #ffffff; 
+    font-size: 3rem;
+    color: #a3bdc7; 
     font-weight: 900; 
     text-align: center; 
     font-family: 'Montserrat', sans-serif;
     display: block;
-    background: linear-gradient(45deg, #557786 30%, #3986a7 90%);
     width: 100% ;
     margin-left: auto;
     border-radius: 4px;
@@ -50,9 +49,39 @@
     margin-right: 5px;
   }
 
+  .partnerDocContainer {
+    align-items: left;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: fit-content;
+    color: #3e3e3e;
+  }
+
+  .partnerDocContainer:hover {
+    background-color: #d7ebf7;
+    color: #1f4e64;
+  }
+
+  .docsGalleryContainer {
+    width: 100%;
+  }
+
+  .partnerTitle {
+    font-size: 1rem;
+    color: #173541;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-left: auto;
+    border-radius: 4px;
+  }
+
   .partnerImage {
-    width: 80px;
-    height: 80px;
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
     border-radius: 8%;
     object-fit: scale-down;
     margin-right: 5px;
@@ -78,20 +107,10 @@
   }
 
   .partnerName {
-    border: none;
-    background: none;
-    padding: 0;
-    margin: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 2rem;
-  }
-
-  .partnerName:hover{
-    background-color: #e95459;
-    color: white;
+    font-weight: 500;
+    margin-top: -5px;
   }
 
   .authorName:hover {
@@ -186,12 +205,7 @@
   }
   
   .partnerBox {
-    transition: transform 0.3s;
     cursor: pointer;
-  }
-  
-  .partnerBox:hover {
-    transform: scale(1.05);
   }
   
   .partnerLogo {

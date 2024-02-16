@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+.teamImageContainer {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+    margin-right: 20px;
+    /* Espace entre les images */
+    margin-bottom: 40px;
+    /* Espace entre les lignes */
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.teamImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.teamName {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 30%;
+    /* Positionnez à droite de l'image */
+    white-space: nowrap;
+    margin-left: 8px;
+    /* Espace entre l'image et le texte */
+    font-weight: 600;
+}
+
+.teamImageContainer:hover {
+    background-color: #f0f4f6;
+}
+
+.pageContainer {
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.partnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.partnerContainer:hover {
+    background-color: #f0f4f6;
+}
+
+.partnerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.partnerImage {
+    flex-basis: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.title {
+    color: #333;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+}
+
+.subtitle {
+    color: #173541;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.textBlock {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+    color: #444;
+}
+
+.mission,
+.actions {
+    margin-bottom: 0em;
+}
+
+.referenceImage {
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.contentContainer {
+    display: block;
+}
+
+.missionContainer,
+.actionsContainer {
+    margin-bottom: 2em;
+}
+
+.referenceLinkButton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #173541;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.referenceLinkButton:hover {
+    background-color: #e95459;
+}
+
+.actionItem {
+    display: flex;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.actionIcon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.actionText {
+    flex: 1;
+}
+
+.dateContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+}
+
+.date {
+    flex-basis: 48%;
+    font-weight: 700;
+    color: #446987;
+    background-color: #edf6f9;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+
+    /* Ajustez le breakpoint selon vos besoins */
+    .partnerContent {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .partnerImage {
+        flex-basis: auto;
+    }
+
+    .partnerDescription {
+        flex: 1;
+    }
+
+    .contentContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        /* Espacement entre les colonnes */
+    }
+
+    .missionContainer,
+    .actionsContainer {
+        flex: 1;
+        /* Permet à chaque conteneur de prendre un espace égal */
+        margin-bottom: 0;
+        /* Supprime la marge sur les écrans larges */
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+}

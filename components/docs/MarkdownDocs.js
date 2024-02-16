@@ -198,7 +198,6 @@ const MarkdownDocs = ({ filename }) => {
 
     fetchMarkdownContent();
   }, [filename]);
-  
 
   useEffect(() => {
     if (content) {
@@ -211,11 +210,61 @@ const MarkdownDocs = ({ filename }) => {
     }
   }, [content]);
 
+  useEffect(() => {
+    const fetchReferencesDetails = async () => {
+      if (metadata.references_catalog) {
+        // Split the references_catalog string into individual IDs
+        const referenceIds = metadata.references_catalog.split(',');
+        // Fetch details for each reference
+        const referencesPromises = referenceIds.map((id) =>
+          fetch(`/api/referenceDetails?id=${id.trim()}`).then((response) =>
+            response.json(),
+          ),
+        );
+        Promise.all(referencesPromises)
+          .then((referencesDetails) => {
+            // Process and display these details as needed
+            console.log(referencesDetails); // This will log the details for each reference
+            // Set state here if you're storing these details in state
+          })
+          .catch((error) =>
+            console.error('Error fetching references details:', error),
+          );
+      }
+    };
+
+    fetchReferencesDetails();
+  }, [metadata.references_catalog]);
+
+  const renderReferences = () => {
+    if (!metadata.references_catalog) return null;
+
+    const referenceIds = metadata.references_catalog.split(',');
+    const referenceTitles = metadata['reference-title']
+      ? metadata['reference-title'].split(',')
+      : [];
+
+    return referenceIds.map((id, index) => {
+      const title = referenceTitles[index]
+        ? referenceTitles[index].trim()
+        : 'Reference';
+      return (
+        <a
+          key={id.trim()}
+          href={`/references/${id.trim()}`}
+          className={styles.referenceLink}
+        >
+          <div className={styles.referenceDocContainer}>{title}</div>
+        </a>
+      );
+    });
+  };
+
   return (
     <Layout>
       <Head>
-      <title>{metadata?.title}</title>
-      <meta name="description" content={metadata?.description} />
+        <title>{metadata?.title}</title>
+        <meta name="description" content={metadata?.description} />
       </Head>
       <div
         style={{
@@ -226,7 +275,10 @@ const MarkdownDocs = ({ filename }) => {
           borderRadius: '20px',
         }}
       >
-<TitleWithBackground title={metadata?.title} imageUrl={metadata?.image} />
+        <TitleWithBackground
+          title={metadata?.title}
+          imageUrl={metadata?.image}
+        />
         <DocsMetadata metadata={metadata} />
         <br />
         <p
@@ -241,38 +293,28 @@ const MarkdownDocs = ({ filename }) => {
           {metadata?.description}
         </p>
         <br />
+        {(metadata.partners && metadata.partners.length > 0) || metadata.references_catalog ? (
+          <div className={styles.partnersReferencesContainer}>
+            {metadata.partners && metadata.partners.length > 0 && (
+              <div className={styles.partnersContainer}>
+                <Partners partnersIds={metadata.partners} />
+              </div>
+            )}
+            {metadata.references_catalog && (
+              <div className={styles.referencesContainer}>
+                <h2 className={styles.referenceTitle}>Référence(s)</h2>
+                <div>{renderReferences()}</div>
+              </div>
+            )}
+          </div>
+        ) : null}
         <div className={styles.markdownContent}>
           {createContentElements(content)}
         </div>
-        {metadata?.partners && (
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              border: '10px solid #ededed',
-              borderRadius: '26px',
-              padding: '20px',
-              marginTop: '20px',
-            }}
-          >
-            <p>
-              <strong>
-                {' '}
-                Ce contenu a été défini et testé avec{' '}
-                {metadata.partners.length > 1
-                  ? 'plusieurs partenaires :'
-                  : 'un partenaire :'}
-              </strong>{' '}
-            </p>
-            <br></br>
-            <Partners partnersIds={metadata.partners} />
-          </div>
-        )}
       </div>
     </Layout>
   );
+  
 };
 
 export default MarkdownDocs;

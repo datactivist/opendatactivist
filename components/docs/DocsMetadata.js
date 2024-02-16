@@ -87,6 +87,22 @@ const DocsMetadata = ({ metadata }) => {
           </button>
           </p>
         )}
+        {license === 'ccbysa' && (
+        <div className={styles.metadataRow}>
+          <div className={styles.ccBySaWrapper}>
+            <img
+              src="/images/icons/cc-by-sa.png"
+              alt="cc-by-sa"
+              className={styles.ccBySaImage}
+            />
+            <div className={styles.ccBySaLightbox}>
+              🔄 Vous pouvez partager et adapter ce contenu librement, à
+              condition de le créditer et de le partager sous une licence
+              compatible.
+            </div>
+          </div>
+        </div>
+      )}
       </div>
       {tagsArray && (
         <div className={styles.metadataRow}>
@@ -109,22 +125,6 @@ const DocsMetadata = ({ metadata }) => {
             onAuthorClick={handleAuthorClick}
             onlyDatactivist={false}
           />
-        </div>
-      )}
-      {license === 'ccbysa' && (
-        <div className={styles.metadataRow}>
-          <div className={styles.ccBySaWrapper}>
-            <img
-              src="/images/icons/cc-by-sa.png"
-              alt="cc-by-sa"
-              className={styles.ccBySaImage}
-            />
-            <div className={styles.ccBySaLightbox}>
-              🔄 Vous pouvez partager et adapter ce contenu librement, à
-              condition de le créditer et de le partager sous une licence
-              compatible.
-            </div>
-          </div>
         </div>
       )}
     </div>

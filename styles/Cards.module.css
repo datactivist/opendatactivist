@@ -139,6 +139,9 @@
   border-radius: 6px; 
 }
 
+.PartnerGallery {
+  padding: 2rem;
+}
 
 .forum-button:hover {
   background-color: #e95459; 

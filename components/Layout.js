@@ -67,8 +67,8 @@ const Layout = ({ children }) => {
                 <Image
                   src="/images/footer/logo-datactivist.png"
                   alt="Datactivist logo"
-                  width={220}
-                  height={220}
+                  width={180}
+                  height={180}
                   priority
                   className={styles.logo}
                 />

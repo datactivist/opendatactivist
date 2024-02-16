@@ -4,7 +4,7 @@ import path from 'path';
 import { parse } from 'csv-parse';
 
 export default async function handler(req, res) {
-    const { query: { action, id } } = req;
+    const { query: { action, id, partners: queryPartners } } = req; // Renommez `partners` en `queryPartners` lors de la déstructuration pour éviter les conflits
 
     const filePath = path.join(process.cwd(), 'public', 'sitedata', 'references_catalog.csv');
     const fileContents = fs.readFileSync(filePath, 'utf8');
@@ -33,7 +33,12 @@ export default async function handler(req, res) {
         } else {
             res.status(404).json({ message: 'Reference not found' });
         }
-    } else {
-        res.status(400).json({ message: 'Invalid action or missing id' });
+    } else if (action === 'get' && queryPartners) { // Utilisez `queryPartners` ici
+        const foundPartners = records.find(record => record.partners === queryPartners.trim().toLowerCase()); // `foundPartners` pour éviter le conflit
+        if (foundPartners) {
+            res.status(200).json(foundPartners);
+        } else {
+            res.status(404).json({ message: 'Partners not found' });
+        }
     }
 }
