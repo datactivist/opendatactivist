@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .appBar {
-  background-color: white; 
+  background-color: #ffff; 
   color: #333;
   margin-right: 2rem;
   border-bottom: 1px;
@@ -11,20 +11,15 @@
 }
 
 .container{
-  background: linear-gradient(180deg, #f6fafc, #f6fafc);
-  border-top: 1px solid #ffffff;
-}
-
-.appBar.sticky {
-  position: sticky;
-  top: 0;
+  background: linear-gradient(180deg, #f9fafb, #f6fafc);
+  border-top: 1px solid #f0f0f0;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  height: 40px;
   padding: 10px 0;
   z-index: 1000;
 }
@@ -32,18 +27,16 @@
 .link {
   text-decoration: none;
   color: #173541;
-  font-size: 1.2rem;
-  font-weight: 800;
+  font-size: 1rem;
+  font-weight: 500;
   margin: 5px;
-  background-color: #ffffff;
-  padding: 5px;
+  padding: 0px 10px;
   border-radius: 3px;
 }
 
 .link:hover {
-  font-weight: 800;
-  color: #ffffff;
-  background-color: #173541;
+  font-weight: 500;
+  color: #e95459;
 }
 
 .userContainer {
@@ -89,7 +82,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #173541;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .container {

@@ -138,3 +138,53 @@
   background-color: #ffffff;
 }
 
+.partnersReferencesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  margin : 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.partnersContainer,
+.referencesContainer {
+  flex: 1 1 45%; /* Prendre jusqu'à 45% de l'espace disponible pour chaque, permettant un peu d'espace au milieu */
+  min-width: 300px; /* Assurer que le contenu ne devienne pas trop étroit */
+}
+
+.referenceLink {
+  color: #386478;
+  text-decoration: none;
+  border-bottom: 1px solid #173541;
+  font-size: 16px;
+}
+
+.referenceDocContainer {
+  margin-bottom: 5px;
+  align-items: left;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #f4f9fb;
+  width: fit-content;
+  color: #7490ac;
+}
+
+.referenceDocContainer:hover {
+  background-color: #b4d5e9;
+  color: #ffffff;
+}
+
+.referenceTitle {
+  font-size: 1rem;
+  color: #173541;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-left: auto;
+  border-radius: 4px;
+}

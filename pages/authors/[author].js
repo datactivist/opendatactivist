@@ -5,6 +5,7 @@ import styles from '../../styles/Authors.module.css';
 import Cards from '../../components/nav/Cards';
 import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
+import ReferenceCard from '../../components/nav/ReferenceCard';
 
 const AuthorPage = () => {
   const router = useRouter();
@@ -13,6 +14,35 @@ const AuthorPage = () => {
   const [authorData, setAuthorData] = useState(null);
   const [partnerData, setPartnerData] = useState(null);
   const [authorDocs, setAuthorDocs] = useState([]);
+  const [referencesDetails, setReferencesDetails] = useState([]); // To store details of each reference
+
+  useEffect(() => {
+    if (author) {
+      fetch(`/api/authors-list?id=${author}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setAuthorData(data);
+          // Fetch details for each reference if they exist
+          if (data && data.references_catalog) {
+            const references = data.references_catalog.split(',');
+            references.forEach((ref) => {
+              fetch(`/api/references?action=get&id=${ref.trim()}`)
+                .then((response) => response.json())
+                .then((detail) => {
+                  setReferencesDetails((prevDetails) => [
+                    ...prevDetails,
+                    detail,
+                  ]);
+                });
+            });
+          }
+        })
+        .catch((error) => {
+          console.error('Error fetching author data:', error);
+          setAuthorData(null);
+        });
+    }
+  }, [author]);
 
   useEffect(() => {
     fetch(`/sitedata/authors.json`)
@@ -67,15 +97,15 @@ const AuthorPage = () => {
 
   return (
     <Layout>
-<h1 className={styles.authorpageTitle}>
-  {authorData.organisation === 'datactivist' ? (
-    <Link href="/equipe" legacyBehavior>
-      <a className={styles.authorPageLink}>...Notre équipe</a>
-    </Link>
-  ) : (
-    '...Nos contributeurs'
-  )}
-</h1>
+      <h1 className={styles.authorpageTitle}>
+        {authorData.organisation === 'datactivist' ? (
+          <Link href="/equipe" legacyBehavior>
+            <a className={styles.authorPageLink}>...Notre équipe</a>
+          </Link>
+        ) : (
+          '...Nos contributeurs'
+        )}
+      </h1>
 
       <div className={styles.authorBox}>
         <div className={styles.authorContainer}>
@@ -116,7 +146,9 @@ const AuthorPage = () => {
           </div>
           {authorDocs.length > 0 && (
             <>
-              <div className={styles.authorSectionTitle}>Liste des contributions</div>
+              <div className={styles.authorSectionTitle}>
+                Contributions
+              </div>
               <Gallery>
                 <Cards
                   items={authorDocs}
@@ -129,6 +161,24 @@ const AuthorPage = () => {
             </>
           )}
         </div>
+        {referencesDetails.length > 0 && (
+          <div className={styles.referencesSection}>
+            <div className={styles.authorSectionTitle}>
+              Références
+            </div>
+            <Gallery>
+              {referencesDetails.map((reference, index) => (
+                <ReferenceCard
+                  key={index}
+                  id={reference.id} // Ensure this is correctly provided from the data
+                  title={reference.title}
+                  partnerName={reference['partner-name']}
+                  partnerImage={reference['partner-image']}
+                />
+              ))}
+            </Gallery>
+          </div>
+        )}
       </div>
     </Layout>
   );

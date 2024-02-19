@@ -1,0 +1,56 @@
+/* styles/ReferenceCard.module.css */
+.card {
+    display: flex;
+    flex-direction: row;
+    /* Adjusted to row */
+    align-items: center;
+    /* Align items vertically */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 150px;
+    padding: 16px;
+    transition: transform 0.2s ease-in-out;
+    /* Add transition for smooth effect */
+}
+
+.card:hover {
+    transform: scale(1.02);
+    /* Increase scale on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.133);
+    /* Add shadow on hover */
+}
+
+.cardImageContainer {
+    flex: 0 0 auto;
+    width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.cardImage {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 16px;
+    flex: 1;
+    /* Let the content take up the remaining space */
+}
+
+.cardTitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardPartnerName {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}

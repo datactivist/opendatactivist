@@ -18,7 +18,7 @@ export default async function handler(req, res) {
   });
 
   // Find the document's metadata in the CSV
-  const documentMetadata = records.find(doc => doc['﻿name'] === filename);
+  const documentMetadata = records.find(doc => doc['name'] === filename);
   if (!documentMetadata) {
     return res.status(404).json({ error: 'Document not found' });
   }

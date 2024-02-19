@@ -69,7 +69,9 @@
 .ccBySaWrapper {
   position: relative;
   display: inline-block;
-  width: 120px;
+  width: 80px;
+  top:10px;
+  margin-left: 10px;
 }
 
 .ccBySaLightbox {

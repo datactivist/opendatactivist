@@ -7,7 +7,6 @@ const Partners = ({ partnersIds, largeText = false }) => {
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
 
-  // Ensure partnersIds are in array format
   const validPartnersIds = Array.isArray(partnersIds) 
                             ? partnersIds 
                             : typeof partnersIds === 'string' 
@@ -32,29 +31,39 @@ const Partners = ({ partnersIds, largeText = false }) => {
   }
 
   return (
-    <div className={styles.authorsContainer}>
-      {validPartnersIds.map((id) => {
-        const partner = partnersData[id];
-        if (partner) {
-          return (
-            <div key={id} className={`${styles.author} ${styles.partnerBox}`}>
-              <img
-                src={partner.image}
-                alt={partner.name}
-                className={styles.partnerImage}
-              />
-              <div
-                key={id}
-                className={`${styles.partnerName} ${largeText ? styles.authorNameLarge : ''}`}
-                onClick={() => handlePartnerClick(id)}
-              >
-                {partner.name}
-              </div>
-            </div>
-          );
-        }
-        return null;
-      })}
+    <div>
+      <h2 className={styles.partnerTitle}>Partenaire(s)</h2>
+      <div className={styles.partnerDocContainer}>
+        <div className={styles.authorsContainer}>
+          {validPartnersIds.map((id) => {
+            const partner = partnersData[id];
+            if (partner) {
+              return (
+                <div 
+                  key={id} 
+                  className={`${styles.author} ${styles.partnerBox}`} 
+                  onClick={() => handlePartnerClick(id)} // Déplacez onClick ici pour englober tout le conteneur
+                  style={{ cursor: 'pointer' }} // Optionnel, pour montrer visuellement que c'est cliquable
+                >
+                  <img
+                    src={partner.image}
+                    alt={partner.name}
+                    className={styles.partnerImage}
+                  />
+                  <div
+                    className={`${styles.partnerName} ${largeText ? styles.authorNameLarge : ''}`}
+                  >
+                    <div className={styles.partnerName}>
+                    {partner.name}
+                    </div>
+                  </div>
+                </div>
+              );
+            }
+            return null;
+          })}
+        </div>
+      </div>
     </div>
   );  
 };
