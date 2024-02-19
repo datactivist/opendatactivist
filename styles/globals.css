@@ -5,6 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  margin-bottom: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,12 +35,19 @@ h1 {
   margin-right: auto;
 }
 
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 h2,
 p,
 ul {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 ul {
