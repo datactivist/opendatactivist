@@ -73,5 +73,25 @@
       "name": "Observatoire Data Publica",
       "image": "/images/partners/observatoire-data-publica.png",
       "description": "L’Observatoire Data Publica a été créé pour observer les pratiques nouvelles de gestion publique des données."
+    },
+    "infrabel": {
+      "name": "Infrabel",
+      "image": "/images/partners/infrabel.png",
+      "description": "Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018"
+    },
+    "ademe": {
+      "name": "ADEME",
+      "image": "/images/partners/ademe.png",
+      "description": "L’ADEME est un acteur engagé et reconnu de la transition écologique. Elle participe à la mise en œuvre des politiques publiques dans les domaines de l’environnement, de l’énergie et du développement durable."
+    },
+    "issy-moulineaux": {
+      "name": "Ville d'Issy-les-Moulineaux",
+      "image": "/images/partners/issy-moulineaux.png",
+      "description": "La ville d'Issy-les-Moulineaux est engagée dans l'open data depuis 2012"
+    },
+    "association-respire": {
+      "name": "Association Respire",
+      "image": "/images/partners/association-respire.png",
+      "description": "Respire est une association qui lutte contre la pollution de l'air, et qui utilise les données ouvertes pour mener ses actions"
     }
 }

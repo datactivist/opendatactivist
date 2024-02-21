@@ -138,3 +138,55 @@
   background-color: #ffffff;
 }
 
+.partnersReferencesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0px;
+  width: 100%;
+  margin : 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.partnersContainer,
+.referencesContainer {
+  flex: 1 1 45%; 
+  min-width: 300px;
+}
+
+.referenceLink {
+  color: #386478;
+  text-decoration: none;
+  border-bottom: 1px solid #173541;
+  font-size: 16px;
+}
+
+.referenceDocContainer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: left;
+  padding: 2px 10px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  width: fit-content;
+  color: #124d88;
+}
+
+.referenceDocContainer:hover {
+  background-color: #b4d5e9;
+  color: #ffffff;
+}
+
+.referenceTitle {
+  font-size: 1rem;
+  margin-bottom: 0em;
+  color: #173541;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-left: auto;
+  border-radius: 4px;
+}

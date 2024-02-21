@@ -30,7 +30,7 @@
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
     margin-right: 0.5rem;
-    margin-top: 5px;
+    margin-top: -20px;
     cursor: pointer;
     font-family: 'Share Tech Mono', monospace;  
     transition: background-color 0.3s ease;
@@ -69,7 +69,8 @@
 .ccBySaWrapper {
   position: relative;
   display: inline-block;
-  width: 120px;
+  width: 90px;
+  margin-bottom: -1rem;
 }
 
 .ccBySaLightbox {
@@ -95,3 +96,26 @@
   bottom: -150%;
 }
 
+.partnersWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 98%;
+  background-color: #ffffff;
+}
+
+.partnersImage {
+  justify-content: space-between;
+  max-width: 80px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.partnersImage:hover {
+  transform: scale(1.05);
+}
