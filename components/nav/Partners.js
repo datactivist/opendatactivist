@@ -38,6 +38,7 @@ const Partners = ({ partnersIds, largeText = false }) => {
         if (partner) {
           return (
             <div key={id} className={`${styles.author} ${styles.partnerBox}`}>
+              <h3 className={styles.partnerTitle}>Partenaire(s)</h3>
               <img
                 src={partner.image}
                 alt={partner.name}

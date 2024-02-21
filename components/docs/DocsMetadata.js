@@ -6,9 +6,14 @@ import Authors from '../nav/Authors';
 import { useRouter } from 'next/router';
 
 const DocsMetadata = ({ metadata }) => {
-  const { type, tags, date, authors, license } = metadata || {};
+  const { type, tags, date, authors, license, partners, "partners-names": partnersNames, "partners-images": partnersImages } = metadata || {};
   const router = useRouter();
 
+  // Convertir les chaînes de partenaires en tableaux
+  const partnersArray = typeof partners === 'string' ? partners.split(',').map(partner => partner.trim()).filter(partner => partner) : [];
+  const partnersNamesArray = typeof partnersNames === 'string' ? partnersNames.split(',').map(name => name.trim()).filter(name => name) : [];
+  const partnersImagesArray = typeof partnersImages === 'string' ? partnersImages.split(',').map(image => image.trim()).filter(image => image) : [];
+  
   const renderTypeWithEmoji = (type) => {
     let emoji = '';
     switch (type) {
@@ -76,7 +81,7 @@ const DocsMetadata = ({ metadata }) => {
             <strong>🗓</strong>&nbsp;{formatDate(date)}
           </p>
         )}
-        {date && type && <>&nbsp; &nbsp;|&nbsp; &nbsp;</>}
+        {date && type && <>&nbsp; &nbsp;&nbsp; &nbsp;</>}
         {type && (
           <p>
           <button
@@ -125,6 +130,22 @@ const DocsMetadata = ({ metadata }) => {
               compatible.
             </div>
           </div>
+        </div>
+      )}
+      {partnersArray.length > 0 && (
+        <div className={styles.metadataRow}>
+          {partnersArray.map((partner, index) => (
+            <div key={partner} className={styles.partnersWrapper}>
+              <a href={`/partners/${partner}`} className={styles.partnerLink}>
+              <img
+                src={partnersImagesArray[index]}
+                alt={`Logo de ${partnersNamesArray[index]}`}
+                className={styles.partnersImage}
+              />
+              </a>
+            </div>
+            
+          ))}
         </div>
       )}
     </div>
