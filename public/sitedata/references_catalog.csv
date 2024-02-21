@@ -1,0 +1,91 @@
+﻿id,title,team,team-names,team-images,partners,partner-name,partner-description,partner-image,mission,actions,date-debut,duree,reference-link,docs_catalog
+tableaux-issy,Construction de tableaux de bord,"etienne-pichot-damon,samuel-goeta","Etienne Pichot Damon, Samuel Goëta","/images/authors/etienne-pichot-damon.jpeg, /images/authors/samuel-goeta.jpeg",issy-moulineaux,Ville d'Issy-les-Moulineaux,"Ville pionnière en France en matière d’open data, Issy-les-Moulineaux a ouvert un portail en 2012, et l’alimente régulièrement en nouvelles données",/images/partners/issy-moulineaux.png,"Datactivist a accompagné la collectivité dans la préparation de ses données pour réaliser des tableaux de bord partagés. 
+
+Dans la plupart des administrations, les différents services maintiennent des tableaux de suivis de leur activité. Problème : ces tableaux sont dans des formats différents selon les services. Chaque année, les indicateurs sont à recalculer, et donc le travail de mise à jour prend du temps. 
+
+La ville d’Issy-les-Moulineaux s’est donc lancée dans un premier projet de standardisation de données, avec comme objectif concret de construire des tableaux de bord partagés et actualisés automatiquement. 
+
+Le but : faciliter la remontée des données, éviter les doublons de saisies, et permettre aux élus, aux agents et aux citoyens d’accéder en toute simplicité à des indicateurs détaillés sur les services de la ville. 
+","Formation et ateliers avec les 7 services pilotes pour partager la stratégie et collecter des données
+
+
+Prototypage des tableaux de bord avec les services
+
+Cartographie des données à utiliser
+
+Structuration, formatage et publication de 50 jeux de données qui alimentent les tableaux de bord
+
+Rédaction d’un guide
+méthodologique, publié sous la forme d’un billet de blog",2019-04-01,3 mois,https://data.issy.com/pages/tableaux-de-bord-issy/,
+analyse-respire,Analyse et publication de données,"sylvain-lapoix,joel-gombin,mathieu-morey","Sylvain Lapoix, Joël Gombin, Mathieu Morey","/images/authors/sylvain-lapoix.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/mathieu-morey.jpeg",association-respire,Association Respire,"Respire est une association de citoyens, fondée en février 2011, dédiée à l’amélioration de la qualité de l’air
+",/images/partners/association-respire.png,"Pour sensibiliser le grand public à l’exposition des plus jeunes à la pollution, Datactivist a accompagné Respire dans sa campagne: De l’air pour nos enfants”.
+
+De l’audit de données à la publication des résultats en open data, l’équipe de Datactivist a assuré toutes les tâches liées à la donnée dans la production des supports de campagne :
+- une base de données historique et géolocalisée de la qualité de l’air;
+- une carte de la pollution aux abords des 12530 crèches, écoles, collèges et lycées d’Île-de-France sur 5 ans;
+- un rapport synthétique à destination du public et des élu·e·s.
+Résultat : une large reprise médiatique, des réactions politiques et des sollicitations d’associations de parents d’élèves pour faire progresser ce dossier auprès des pouvoirs publics.
+
+","Audit de données 
+
+Réalisation d’une cartographie de la pollution de l’air dans les écoles
+
+Publication des données en open data
+
+Production des supports de communication pour la campagne",2019-01-01,7 mois,https://www.data.gouv.fr/fr/datasets/base-de-donnees-de-la-pollution-aerienne-aux-abords-des-ecoles-et-creches-dile-de-france/,
+algo-mel,Accompagnement à l’ouverture d’algorithmes OpenAlgo,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"La MEL a souhaité mener une réflexion exploratoire sur l’ouverture de ses algorithmes publics : quels algorithmes ouvrir, avec quels moyens, comment les identifier au sein de la MEL… ?
+
+Datactivist a accompagné la direction R&D de la Métropole européenne de Lille pour la création d’une méthodologie d’ouverture des algorithmes publics, afin de se conformer aux obligations de la loi Lemaire.
+
+Le choix a été fait de se concentrer sur quelques algorithmes afin d’éprouver une méthodologie et de soulever toutes les questions et problématiques sur l’ouverture des algorithmes au sein d’une collectivité.","Identification, recensement et sélection des algorithmes de la MEL ;
+
+Publication en ligne de trois algorithmes ; 
+
+Association constante des services et cadre apprenant tout au long de la mission ;
+
+Documentation de la méthodologie et création d’un commun sur la publication des algorithmes publics
+",2022-04-01,9 mois,https://opendatacanvas.org/transparence-algo,experimentation-algo-lille
+hackathon-infrabel,Hackathon Infrabel,etienne-pichot-damon,Etienne Pichot Damon,/images/authors/etienne-pichot-damon.jpeg,infrabel,Infrabel,"Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018",/images/partners/infrabel.png,"Datactivist a accompagné le gestionnaire du réseau ferroviaire de la Belgique dans l’organisation de son premier hackathon, de A à Z, à l’occasion du lancement de leur portail open data. 
+
+Le programme de la journée a été entièrement co-construit avec le client. 70 participants se sont réunis le 28 avril à Bruxelles, et ont pu découvrir des données inédites (notamment sur le thème des retards des trains). À l’issue de la journée, 10 groupes de participants ont présenté des prototypes d’applications, et des idées d’analyse de nouvelles données. 
+
+Grâce à cette journée, Infrabel a aussi pu identifier de premiers utilisateurs de leurs données, provenant de différents secteurs et entreprises. Le hackathon aura été le premier événement de cette nouvelle communauté open data.
+
+L’événement et ses résultats ont été largement relayés dans la presse locale et spécialisée.","Définition avec le client de la stratégie de l’événement et de ses objectifs
+
+
+Définition d’un programme de la journée, avec les spécialistes métiers d’Infrabel
+
+
+Sélection de mentors chez Infrabel pour animer des ateliers lors du hackathon
+
+
+Accompagnement de la stratégie de communication externe
+
+
+Recherche de participants dans les communauté transports et open data en Belgique
+
+
+Animation de la journée, la coordination des différents groupes, aide à l’organisation logistique
+
+",2019-03-01,3 mois,https://infrabel.be/fr/article/lancement-du-portail-open-data-loccasion-du-tout-premier-hackathon,"check-list-hackathon,organiser-sprint-data"
+hackathon-ademe,Hackathon Databât,"magalie-dartus,samuel-goeta","Magalie Dartus, Samuel Goëta","/images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg",ademe,Ademe,"L’ADEME est un acteur engagé et reconnu de la transition écologique. Elle participe à la mise en œuvre des politiques publiques dans les domaines de l’environnement, de l’énergie et du développement durable. 
+",/images/partners/ademe.png,"DataBât est un concours en distanciel construit sur le modèle d’un hackathon mais sur le temps long pour permettre de construire des projets matures autour de la rénovation des bâtiments. 
+
+Pendant 5 mois, les participants devaient s’appuyer sur les données pour faire émerger de nouveaux services d’aide à la décision plus fine et de changement de comportement à l’égard de la rénovation énergétique, pour les particuliers mais aussi pour les entreprises ou les acteurs publics.
+
+L’animation en distanciel sur un temps aussi long était un vrai défi. Le concours a ainsi été rythmé par différentes phases, épreuves et rendez-vous afin d’aider les participants à développer tous les aspects de leurs projets.
+Neuf projets ont ainsi vu le jour, Six d’entre eux ont été récompensés par l’ADEME et ses partenaires pour aller vers la concrétisation.
+","Structuration de l’événement, rédaction des sujets, du règlement, du programme des épreuves et autres temps forts ;
+
+Conception d’un forum, d’un site web, d’un questionnaire de positionnement et d’un espace virtuel pour favoriser le travail d’équipe.
+
+Création d’outils d’animation : documents et consignes d’épreuves, évaluations et récompense.
+
+Constitution de la communauté et accompagnement : participants, coéquipiers, mentors et organisateurs.
+
+Recherche, demandes et recueil des données des partenaires. Préparation et mise à disposition des données via une plateforme dédiée aux participants.
+
+Animation et coordination des équipes en distanciel, de l’accueil à la restitution. Valorisation des projets et de l’événement.
+
+",2020-07-01,11 mois,https://databat.ademe.fr/,"check-list-hackathon,organiser-sprint-data"
