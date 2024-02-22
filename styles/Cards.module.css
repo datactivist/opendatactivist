@@ -24,11 +24,16 @@
   border: 1px solid #ebebeb;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   cursor: pointer;
+  height: 200px;
 }
 
 .cardpartner:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.063);
+  transform: scale(1.01);
+}
+
+.partnersGallery {
+  margin: 5rem;
 }
 
 .card-image {

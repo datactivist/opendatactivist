@@ -2,9 +2,7 @@
 .card {
     display: flex;
     flex-direction: row;
-    /* Adjusted to row */
     align-items: center;
-    /* Align items vertically */
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
@@ -13,7 +11,6 @@
     height: 150px;
     padding: 16px;
     transition: transform 0.2s ease-in-out;
-    /* Add transition for smooth effect */
 }
 
 .card:hover {
@@ -24,17 +21,17 @@
 }
 
 .cardImageContainer {
-    flex: 0 0 auto;
-    width: 20%;
-    height: auto;
-    position: relative;
-}
-
-.cardImage {
-    width: 60%;
-    height: 60%;
-    object-fit: cover;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Exemple de hauteur fixe */
+  }
+  
+  .cardImage {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
 
 .cardContent {
     padding: 16px;

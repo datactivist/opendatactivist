@@ -1,0 +1,82 @@
+.referencePageTitle {
+        font-size: 3rem;
+        color: #a3bdc7; 
+        font-weight: 900; 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        width: 100% ;
+        margin-left: auto;
+        border-radius: 4px;
+    }
+
+.referencesContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .referenceCard {
+        background-color: white;
+        border: 1px solid #f4f4f4;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+    }
+    
+    .referenceCard:hover {
+        transform: translateY(-5px);
+    }
+    
+    .referenceTitle {
+        color: #252525;
+        margin: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        min-height: 3em;
+    }
+    
+    .referenceImage {
+        height: 150px;
+        width: 95%;
+        object-fit: contain;
+        margin-bottom: 30px;
+    }
+        
+    .partnerLogos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .partnerLogo {
+        height: 40px;
+        width: auto;
+        margin: 0;
+    }
+    
+    
+    .partnerInfo {
+        margin-top: 10px;
+        display: flex;
+        font-weight: 500;
+        color: #4b4b4b;
+        align-items: center;
+        justify-content: start;
+        font-size: 14px;
+        gap: 10px;
+        margin: 10px;
+        margin-top: auto;
+    }
+    
+    .partnerName {
+        margin-top: 10px;
+        display: inline-block;
+    }
