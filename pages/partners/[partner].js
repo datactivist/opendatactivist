@@ -41,16 +41,19 @@ const PartnerPage = () => {
   }, [partner]);
 
   useEffect(() => {
-    fetch(`/sitedata/partners.json`)
-      .then((response) => response.json())
-      .then((data) => {
-        if (Object.prototype.hasOwnProperty.call(data, partner)) {
-          const partnerInfo = data[partner];
-          setPartnerData(partnerInfo);
-        } else {
+    if (partner) {
+      // Assurez-vous que l'URL est correcte et correspond à votre route d'API configurée pour le filtrage par id
+      fetch(`/api/partners?id=${partner}`)
+        .then((response) => response.json())
+        .then((data) => {
+          // Comme l'API renvoie maintenant un objet unique pour l'id spécifié, pas besoin de prendre le premier élément
+          setPartnerData(data);
+        })
+        .catch((error) => {
+          console.error('Error fetching partner data:', error);
           setPartnerData(null);
-        }
-      });
+        });
+    }
   }, [partner]);
 
   useEffect(() => {
@@ -68,7 +71,7 @@ const PartnerPage = () => {
   // Right after fetching and before setting the state
   useEffect(() => {
     if (partner) {
-      fetch(`/api/references?action=get&partners=${partner}`)
+      fetch(`/api/references?action=getByPartner&partners=${partner}`)
         .then((response) => response.json())
         .then((data) => {
           // Check if data is an object and not an array
@@ -150,48 +153,51 @@ const PartnerPage = () => {
           </div>
           <br />
           <div className={styles.authorSectionTitle}>Publications</div>
-        <div className={styles.docsGalleryContainer}>
-          <Gallery>
-            <Cards
-              items={partnerDocuments}
-              onClick={(linkId) => router.push(`/docs/${linkId}`)}
-              tagRoute="docs"
-              showDate={false}
-              showPartners={false}
-            />
-            <Cards
-              items={partnerProducts.map((product) => ({
-                ...product,
-                productId: product.name,
-              }))}
-              onClick={handleCardClick}
-              tagRoute="products"
-              showDate={false}
-              showPartners={false}
-            />
-          </Gallery>
-          {/* La vérification conditionnelle s'assure que ni le titre "Références" ni les références elles-mêmes ne sont rendus si le tableau est vide */}
-          {
-  partnerReferences.length > 0 && partnerReferences.every(ref => ref.id && ref.title && ref['partner-name']) ? (
-    <div>
-      <div className={styles.authorSectionTitle}>Références</div>
-      {partnerReferences.map((reference) => (
-        <ReferenceCard
-          key={reference.id}
-          id={reference.id}
-          title={reference.title}
-          partnerName={reference['partner-name']}
-          partnerImage={reference['partner-image']}
-        />
-      ))}
-    </div>
-  ) : null // Ne rien afficher si le tableau est vide ou si les données sont incomplètes
-}
+          <div className={styles.docsGalleryContainer}>
+            <Gallery>
+              <Cards
+                items={partnerDocuments}
+                onClick={(linkId) => router.push(`/docs/${linkId}`)}
+                tagRoute="docs"
+                showDate={false}
+                showPartners={false}
+              />
+              <Cards
+                items={partnerProducts.map((product) => ({
+                  ...product,
+                  productId: product.name,
+                }))}
+                onClick={handleCardClick}
+                tagRoute="products"
+                showDate={false}
+                showPartners={false}
+              />
+            </Gallery>
+            {/* La vérification conditionnelle s'assure que ni le titre "Références" ni les références elles-mêmes ne sont rendus si le tableau est vide */}
+            {
+              partnerReferences.length > 0 &&
+              partnerReferences.every(
+                (ref) => ref.id && ref.title && ref['partner-name'],
+              ) ? (
+                <div>
+                  <div className={styles.authorSectionTitle}>Références</div>
+                  {partnerReferences.map((reference) => (
+                    <ReferenceCard
+  key={reference.id}
+  id={reference.id}
+  title={reference.title}
+  partnerNames={reference['partner-name']} // Assurez-vous que c'est un tableau
+  partnerImages={reference['partner-image']} // Assurez-vous que c'est un tableau
+/>
+                  ))}
+                </div>
+              ) : null // Ne rien afficher si le tableau est vide ou si les données sont incomplètes
+            }
+          </div>
         </div>
       </div>
-    </div>
-  </Layout>
-);
+    </Layout>
+  );
 };
 
 export default PartnerPage;

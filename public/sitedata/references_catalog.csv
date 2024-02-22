@@ -32,7 +32,7 @@ Réalisation d’une cartographie de la pollution de l’air dans les écoles
 
 Publication des données en open data
 
-Production des supports de communication pour la campagne",2019-01-01,7 mois,https://www.data.gouv.fr/fr/datasets/base-de-donnees-de-la-pollution-aerienne-aux-abords-des-ecoles-et-creches-dile-de-france/,
+Production des supports de communication pour la campagne",2019-01-01,7 mois,,
 algo-mel,Accompagnement à l’ouverture d’algorithmes OpenAlgo,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"La MEL a souhaité mener une réflexion exploratoire sur l’ouverture de ses algorithmes publics : quels algorithmes ouvrir, avec quels moyens, comment les identifier au sein de la MEL… ?
 
 Datactivist a accompagné la direction R&D de la Métropole européenne de Lille pour la création d’une méthodologie d’ouverture des algorithmes publics, afin de se conformer aux obligations de la loi Lemaire.
@@ -89,3 +89,35 @@ Recherche, demandes et recueil des données des partenaires. Préparation et mis
 Animation et coordination des équipes en distanciel, de l’accueil à la restitution. Valorisation des projets et de l’événement.
 
 ",2020-07-01,11 mois,https://databat.ademe.fr/,"check-list-hackathon,organiser-sprint-data"
+challenge-sgl,Challenge data - Sciences-Po St-Germain-en-Laye,"clement-mandron,arthur-sarazin,maelle-fouquenet,sarah-bourgouin","Clément Mandron, Arthur Sarazin, Maëlle Fouquenet, Sarah Bourgouin","/images/authors/clement-mandron.png, /images/authors/arthur-sarazin.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/sarah-bourgouin.png","anct,sciencespo-sgl","Agence Nationale de la Cohésion des Territoires, Sciences Po Saint-Gremain-en-Laye","L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales., Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT","/images/partners/anct.svg, /images/partners/sciencespo-sgl.png","120 étudiants de Sciences Po Saint-Germain-en-Laye ont ouvert 76 jeux de données pour le compte de 19 collectivités. Ce résultat est le fruit d’une semaine de travail intense au cours de laquelle ils ont mis leurs connaissances et leur énergie au service de l’intérêt général dans le cadre du Challenge Data (qui en est maintenant à sa 4ème édition).
+
+Chaque collectivité participante a été accompagnée par un groupe de 6 à 7 étudiants de 4e année de Sciences Po Saint-Germain-en-Laye en continu sur la semaine du Challenge Data. 
+
+Les équipes d’étudiants regroupaient différentes compétences en mixant des étudiants venant de 4 spécialités différentes. Guidés par une méthodologie pas à pas, les étudiants ont pu effectuer 18 tâches nécessaires au travail d’ouverture et d’utilisation des données. La réalisation de chacune d’entre elles a été documentée, les expériences vécues inscrites dans des carnets de bord de manière à ce que toutes les collectivités puissent anticiper les freins à l’ouverture et trouver des solutions adéquates.
+
+","Structuration de l’événement, de ses objectifs pédagogiques pour les étudiants et des étapes d’ouverture des données pour les collectivités ;
+
+Conception, rédaction de la méthodologie pas à pas et choix des outils.
+
+Choix des critères, recherche et sélection des collectivités participantes.
+
+Mise en place d’un site web pour la documentation du challenge pour les étudiants, les collectivités participantes ou curieuses.
+
+Conception d’un espace virtuel pour favoriser le travail d’équipe et les interactions entre étudiants, collectivités et experts.
+
+Documentation de l’expérience et analyse des résultats. ",2023-12-01,2 mois,https://challengedata.org/about/,"organiser-sprint-data,check-list-hackathon"
+challenge-rouen,Challenge data - Rouen-Normandie,"arthur-sarazin,anne-laure-donzel","Arthur Sarazin, Anne-Laure Donzel","/images/authors/arthur-sarazin.png, /images/authors/anne-laure-donzel.jpeg",metropole-rouen,Métropole Rouen-Normandie,La métropole de Rouen s'est engagée dans l'open data depuis février 2021,/images/partners/metropole-rouen-normandie.png,"Le Challenge Data métropolitain reprend les ingrédients clés du challenge data (une immersion dans la publication de données ouvertes) tout en s’adaptant aux contraintes et spécificités d’une collectivité. 
+
+Il s’agit d’accompagner des équipes, dans le cas de la Métropole de Rouen Normandie elles venaient  des services et directions de la Métropole et des communes membres, dans l’ouverture de leurs données  et dans l’alimentation d’un portail open data.
+Organisé autour d’un webinaire et de 4 demies journées, le challenge doit permettre aux participant·e·s d’apprendre en faisant et de comprendre les enjeux de l’ouverture des données par la pratique.
+
+","
+Animation d’un webinaire de présentation de la démarche et suivi des participants en amont du challenge
+
+
+Animation de 4 ateliers d’ouverture de données : accompagnement des participants, temps collectifs…
+
+
+Une trentaine de jeux de données ouverts à l’issu du challenge et publiés sur le portail open 
+
+",2022-06-01,2 mois,,"organiser-sprint-data,check-list-hackathon"

@@ -5,7 +5,6 @@ import styles from '../../styles/Authors.module.css';
 import Cards from '../../components/nav/Cards';
 import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
-import ReferenceCard from '../../components/nav/ReferenceCard';
 
 const AuthorPage = () => {
   const router = useRouter();
@@ -17,31 +16,18 @@ const AuthorPage = () => {
   const [referencesDetails, setReferencesDetails] = useState([]); // To store details of each reference
 
   useEffect(() => {
-    if (author) {
-      fetch(`/api/authors-list?id=${author}`)
-        .then((response) => response.json())
-        .then((data) => {
-          setAuthorData(data);
-          // Fetch details for each reference if they exist
-          if (data && data.references_catalog) {
-            const references = data.references_catalog.split(',');
-            references.forEach((ref) => {
-              fetch(`/api/references?action=get&id=${ref.trim()}`)
-                .then((response) => response.json())
-                .then((detail) => {
-                  setReferencesDetails((prevDetails) => [
-                    ...prevDetails,
-                    detail,
-                  ]);
-                });
-            });
-          }
-        })
-        .catch((error) => {
-          console.error('Error fetching author data:', error);
-          setAuthorData(null);
-        });
-    }
+    fetch('/api/references?action=list')
+      .then((response) => response.json())
+      .then((allReferences) => {
+        // Filtrer les références pour ne conserver que celles impliquant l'auteur actuel
+        const filteredReferences = allReferences.filter(
+          (reference) => reference.team.includes(author), // Assurez-vous que 'author' correspond à un identifiant dans 'team'
+        );
+        setReferencesDetails(filteredReferences);
+      })
+      .catch((error) => {
+        console.error('Failed to fetch references:', error);
+      });
   }, [author]);
 
   useEffect(() => {
@@ -146,9 +132,7 @@ const AuthorPage = () => {
           </div>
           {authorDocs.length > 0 && (
             <>
-              <div className={styles.authorSectionTitle}>
-                Contributions
-              </div>
+              <div className={styles.authorSectionTitle}>Contributions</div>
               <Gallery>
                 <Cards
                   items={authorDocs}
@@ -163,20 +147,26 @@ const AuthorPage = () => {
         </div>
         {referencesDetails.length > 0 && (
           <div className={styles.referencesSection}>
-            <div className={styles.authorSectionTitle}>
-              Références
-            </div>
-            <Gallery>
+            <div className={styles.authorSectionTitle}>Références</div>
+            <div className={styles.referencesGallery}>
               {referencesDetails.map((reference, index) => (
-                <ReferenceCard
-                  key={index}
-                  id={reference.id} // Ensure this is correctly provided from the data
-                  title={reference.title}
-                  partnerName={reference['partner-name']}
-                  partnerImage={reference['partner-image']}
-                />
+                <Link key={index} href={`/references/${reference.id}`} passHref>
+                  <div className={styles.referenceCard}>
+                    <h3 className={styles.referenceTitle}>{reference.title}</h3>
+                    <div className={styles.partnerLogosContainer}>
+                      {reference['partner-image'].map((image, imgIndex) => (
+                        <img
+                          key={imgIndex}
+                          src={image}
+                          alt={`Logo partenaire ${imgIndex + 1}`}
+                          className={styles.partnerLogo}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </Link>
               ))}
-            </Gallery>
+            </div>
           </div>
         )}
       </div>

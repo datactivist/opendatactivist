@@ -66,6 +66,7 @@
     margin: 10px 0 5px;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 0px;
 }
 
 .info p {
@@ -139,8 +140,47 @@
     color: #636a77;
     font-size: 12px;
 }
+
+.datecity {
+    display: flex;
+    background-color: #eff4f7;
+    width: fit-content;
+    border-radius: 5px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    color: #636a77;
+    font-size: 12px;
+}
+
+.dateArrivee {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: #636a77;
+    font-size: 12px;
+}
+
+.city {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: #eff4f7;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: #636a77;
+    font-size: 12px;
+}
+
+.role {
+    margin-top: 0px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #636a77;
+    font-size: 12px;
+    font-style: italic;
+}
   
-  /* Ajustements pour les petits écrans */
   @media (max-width: 600px) {
     .teamPageContainer {
         width: 100%;

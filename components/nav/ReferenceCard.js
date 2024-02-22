@@ -2,17 +2,19 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../../styles/ReferenceCard.module.css';
 
-const ReferenceCard = ({ id, title, partnerName, partnerImage }) => {
+const ReferenceCard = ({ id, title, partnerNames, partnerImages }) => {
   return (
     <Link href={`/references/${id}`} passHref>
-      <div className={styles.cardLink}> {/* Apply styles directly to this div */}
+      <div className={styles.cardLink}>
         <div className={styles.card}>
-          <div className={styles.cardImageContainer}>
-            <img src={partnerImage} alt={partnerName} className={styles.cardImage} />
-          </div>
+          {partnerImages.map((image, index) => (
+            <div key={index} className={styles.cardImageContainer}>
+              <img src={image} alt={partnerNames[index]} className={styles.cardImage} />
+            </div>
+          ))}
           <div className={styles.cardContent}>
             <h3 className={styles.cardTitle}>{title}</h3>
-            <p className={styles.cardPartnerName}>{partnerName}</p>
+            <p className={styles.cardPartnerName}>{partnerNames.join(', ')}</p>
           </div>
         </div>
       </div>

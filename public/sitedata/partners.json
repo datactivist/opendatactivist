@@ -93,5 +93,10 @@
       "name": "Association Respire",
       "image": "/images/partners/association-respire.png",
       "description": "Respire est une association qui lutte contre la pollution de l'air, et qui utilise les données ouvertes pour mener ses actions"
+    },
+    "mednum": {
+      "name": "La MedNum",
+      "image": "/images/partners/mednum.png",
+      "description": "La MedNum est un collectif d'acteurs engagés pour la médiation numérique"
     }
 }

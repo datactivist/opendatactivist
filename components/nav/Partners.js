@@ -3,11 +3,11 @@ import { useRouter } from 'next/router';
 import styles from '../../styles/Authors.module.css';
 
 const Partners = ({ partnersIds, largeText = false }) => {
-  const [partnersData, setPartnersData] = useState({});
+  const [partnersData, setPartnersData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
 
-  // Ensure partnersIds are in array format
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const validPartnersIds = Array.isArray(partnersIds) 
                             ? partnersIds 
                             : typeof partnersIds === 'string' 
@@ -15,13 +15,20 @@ const Partners = ({ partnersIds, largeText = false }) => {
                               : [];
 
   useEffect(() => {
-    fetch('/sitedata/partners.json')
-      .then(response => response.json())
-      .then(data => {
-        setPartnersData(data);
+    if (validPartnersIds.length > 0) {
+      setIsLoading(true);
+      Promise.all(
+        validPartnersIds.map(id =>
+          fetch(`/api/partners?id=${id}`)
+            .then(response => response.json())
+            .catch(error => console.error(`Error fetching partner ${id}:`, error))
+        )
+      ).then(partners => {
+        setPartnersData(partners.filter(Boolean)); // Filtrez les réponses non valides ou les erreurs
         setIsLoading(false);
       });
-  }, []);
+    }
+  }, [validPartnersIds]);
 
   const handlePartnerClick = (id) => {
     router.push(`/partners/${id}`);
@@ -33,31 +40,20 @@ const Partners = ({ partnersIds, largeText = false }) => {
 
   return (
     <div className={styles.authorsContainer}>
-      {validPartnersIds.map((id) => {
-        const partner = partnersData[id];
-        if (partner) {
-          return (
-            <div key={id} className={`${styles.author} ${styles.partnerBox}`}>
-              <h3 className={styles.partnerTitle}>Partenaire(s)</h3>
-              <img
-                src={partner.image}
-                alt={partner.name}
-                className={styles.partnerImage}
-              />
-              <div
-                key={id}
-                className={`${styles.partnerName} ${largeText ? styles.authorNameLarge : ''}`}
-                onClick={() => handlePartnerClick(id)}
-              >
-                {partner.name}
-              </div>
-            </div>
-          );
-        }
-        return null;
-      })}
+      {partnersData.map((partner) => (
+        <div key={partner.id} className={`${styles.author} ${styles.partnerBox}`} onClick={() => handlePartnerClick(partner.id)}>
+          <img
+            src={partner.image}
+            alt={partner.name}
+            className={styles.partnerImage}
+          />
+          <div className={`${styles.partnerName} ${largeText ? styles.authorNameLarge : ''}`}>
+            {partner.name}
+          </div>
+        </div>
+      ))}
     </div>
-  );  
+  );
 };
 
 export default Partners;

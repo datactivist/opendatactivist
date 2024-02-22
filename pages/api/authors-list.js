@@ -1,4 +1,3 @@
-// pages/api/authors.js
 import fs from 'fs';
 import path from 'path';
 import csv from 'csv-parser';
@@ -13,17 +12,22 @@ export default function handler(req, res) {
   const filePath = path.join(process.cwd(), 'public', 'sitedata', 'authors.csv');
   const authors = [];
 
-fs.createReadStream(filePath)
+  fs.createReadStream(filePath)
     .pipe(csv())
     .on('data', (data) => {
-        // Omitting tags from the data object
-        const { ...rest } = data;
-        authors.push(rest);
+        // Clean the 'id' field from any UTF-8 BOM or other unexpected characters
+        const cleanData = Object.keys(data).reduce((acc, key) => {
+          const cleanKey = key.replace(/^\uFEFF/, '').trim(); // Remove UTF-8 BOM and trim whitespace
+          acc[cleanKey] = data[key];
+          return acc;
+        }, {});
+
+        authors.push(cleanData);
     })
     .on('end', () => {
       if (id) {
-        // Filter the authors array for the author with the matching id
-        const filteredAuthors = authors.filter(author => author['\ufeffid'] === id || author['id'] === id); // Handle UTF-8 BOM if present
+        // Filter the authors array for the author with the matching id, using the cleaned 'id' field
+        const filteredAuthors = authors.filter(author => author.id === id);
         if (filteredAuthors.length) {
           res.status(200).json(filteredAuthors[0]); // Send the first matching author
         } else {

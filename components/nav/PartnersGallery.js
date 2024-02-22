@@ -4,43 +4,38 @@ import styles from '../../styles/Cards.module.css';
 import { useRouter } from 'next/router'; 
 
 const PartnerGallery = () => {
-  const [partnersData, setPartnersData] = useState({});
+  const [partnersData, setPartnersData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/sitedata/partners.json')
-      .then(response => response.json())
-      .then(data => {
-        setPartnersData(data);
-        setIsLoading(false);
-      });
-  }, []);
 
   const router = useRouter();
 
   useEffect(() => {
-    fetch('/sitedata/partners.json')
+    // Mettez à jour l'URL pour pointer vers votre API /api/partners
+    fetch('/api/partners')
       .then(response => response.json())
       .then(data => {
+        // Comme l'API renvoie déjà un tableau, vous pouvez directement le stocker
         setPartnersData(data);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error("Failed to fetch partners data:", error);
         setIsLoading(false);
       });
   }, []);
-
 
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
-  const partnersArray = Object.entries(partnersData).map(([id, partner]) => ({id, ...partner}));
-
+  // Étant donné que l'API renvoie déjà un tableau, vous n'avez plus besoin de convertir les données
   return (
     <div>
       <Gallery>
-        {partnersArray.map((partner) => (
-        <div key={partner.id} className={`${styles.cardpartner} ${styles.centerContent}`} onClick={() => router.push(`/partners/${partner.id}`)}>
-        <img src={partner.image} alt={partner.name} className={styles['card-image-partners']} />
-        </div>
+        {partnersData.map((partner) => (
+          <div key={partner.id} className={`${styles.cardpartner} ${styles.centerContent}`} onClick={() => router.push(`/partners/${partner.id}`)}>
+            <img src={partner.image} alt={partner.name} className={styles['card-image-partners']} />
+          </div>
         ))}
       </Gallery>
     </div>

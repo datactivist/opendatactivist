@@ -7,7 +7,9 @@ const PartnersPage = () => {
   return (
     <Layout>
         <h1 className={styles.partnerpageTitle}>Nos partenaires</h1>
+        <div style={{margin: '2rem'}}>
       <PartnerGallery />
+      </div>
     </Layout>
   );
 };

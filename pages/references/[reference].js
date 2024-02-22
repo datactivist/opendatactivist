@@ -5,11 +5,10 @@ import styles from '../../styles/References.module.css';
 import FilteredDocsDisplay from '../../components/docs/FilteredDocsDisplay';
 
 function formatDate(dateISO) {
-    const options = { year: 'numeric', month: 'long' };
-    const date = new Date(dateISO);
-    return date.toLocaleDateString('fr-FR', options);
-  }
-  
+  const options = { year: 'numeric', month: 'long' };
+  const date = new Date(dateISO);
+  return date.toLocaleDateString('fr-FR', options);
+}
 
 const renderTextWithLineBreaks = (text) => {
   return text.split('\n').map((line, index) => {
@@ -94,15 +93,12 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
     duree,
     team,
   } = referenceData;
-  const dateDebutFormatted = formatDate(dateDebutISO); // Formatez ici après déstructuration
+  const dateDebutFormatted = formatDate(dateDebutISO);
 
   const partnerDescription = referenceData['partner-description'];
   const partnerImage = referenceData['partner-image'];
   const partnerName = referenceData['partner-name'];
   // Supposons que teamImages et teamNames soient des tableaux correspondants
-  const teamImagesArray = teamImages.split(',');
-  const teamArray = team.split(',');
-  const teamNamesArray = teamNames.split(',');
 
   const referenceImageSrc = `/images/references/${router.query.reference}.png`;
 
@@ -112,46 +108,48 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
         <h1 className={styles.title}>{title}</h1>
 
         <div className={styles.dateContainer}>
-        <div className={styles.date}>📆 {dateDebutFormatted}</div>
+          <div className={styles.date}>📆 {dateDebutFormatted}</div>
           <div className={styles.date}>⏱️ {duree}</div>
         </div>
         <br />
         <div className={styles.partnerContainer}>
-          <a href={`/partners/${partners}`} className={styles.partnerLink}>
-            <div className={styles.partnerContent}>
-              <img
-                src={partnerImage}
-                alt={`Image of ${partners}`}
-                className={styles.partnerImage}
-              />
-              <div className={styles.partnerDescription}>
-                <h2 className={styles.subtitle}>{partnerName}</h2>
-                <div className={styles.textBlock}>
-                  {renderTextWithLineBreaks(partnerDescription)}
+          {partners.map((partnerSlug, index) => (
+            <a
+              key={index}
+              href={`/partners/${partnerSlug}`}
+              className={styles.partnerLink}
+            >
+              <div className={styles.partnerContent}>
+                <img
+                  src={partnerImage[index]}
+                  alt={`Image of ${partnerName[index]}`}
+                  className={styles.partnerImage}
+                />
+                <div className={styles.partnerDescription}>
+                  <h2 className={styles.subtitle}>{partnerName[index]}</h2>
+                  <div className={styles.textBlock}>
+                    {renderTextWithLineBreaks(partnerDescription[index])}
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          ))}
         </div>
 
         <h3 className={styles.subtitle}>Équipe</h3>
         <div className={styles.teamImagesContainer}>
-          {teamImagesArray.map((imgSrc, index) => {
-            // Ici, index est bien défini
-            const teamMemberName = teamNamesArray[index].trim(); // Utilisation de index pour accéder au nom
-            const imagePath = imgSrc.trim();
-            const teamMemberSlug = teamArray[index].trim(); // Assurez-vous que teamArray[index] est correct
+          {teamImages.map((imgSrc, index) => {
+            const teamMemberName = teamNames[index].trim();
+            const teamMemberSlug = team[index].trim();
 
             return (
-              <div key={index} className={styles.teamImageContainer}>
+              <div key={index} className={styles.teamMemberContainer}>
                 <a
                   href={`/authors/${teamMemberSlug}`}
                   className={styles.teamLink}
                 >
-                  {' '}
-                  {/* Utilisation correcte de index */}
                   <img
-                    src={imagePath}
+                    src={imgSrc.trim()}
                     alt="Team member"
                     className={styles.teamImage}
                   />
@@ -161,6 +159,7 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
             );
           })}
         </div>
+
         <div className={styles.contentContainer}>
           <div className={styles.missionContainer}>
             <h3 className={styles.subtitle}>🎯 Mission</h3>
@@ -193,12 +192,12 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
             e.target.style.display = 'none';
           }}
         />
-{docsCatalog && docsCatalog.length > 0 && (
-  <div>
-    <h3 className={styles.subtitle}>Contenus liés</h3>
-    <FilteredDocsDisplay docsList={docsCatalog} />
-  </div>
-)}
+        {docsCatalog && docsCatalog.length > 0 && (
+          <div>
+            <h3 className={styles.subtitle}>Contenus liés</h3>
+            <FilteredDocsDisplay docsList={docsCatalog} />
+          </div>
+        )}
       </div>
     </Layout>
   );
