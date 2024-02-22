@@ -252,20 +252,20 @@
   
   .referencesGallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
   }
   
   .referenceCard {
     display: flex; /* Utilisez flexbox pour la disposition intérieure */
     align-items: center; /* Centre les éléments verticalement */
-    border: 1px solid #e8e8e8;
     padding: 20px;
     width: 100%; /* Utilisez 100% pour que la carte s'étende à la largeur de sa colonne */
-    height: 200px;
+    height: 150px;
+    border: 1px solid #eeeeee;
     border-radius: 10px;
     cursor: pointer;
     transition: box-shadow 0.3s ease;
+    box-shadow: 0 0px 10px rgba(87, 87, 87, 0.06);
   }
   
   .referenceCard:hover {
@@ -286,5 +286,7 @@
   .referenceTitle {
     margin-left: 15px; /* Ajoutez un peu d'espace entre les logos et le titre */
     flex-grow: 1; /* Permet au titre de prendre tout l'espace disponible */
+    font-size: 18px;
+    font-weight: 500;
   }
   
