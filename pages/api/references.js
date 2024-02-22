@@ -18,6 +18,7 @@ export default async function handler(req, res) {
     const transformedRecords = records.map(record => {
         return {
             ...record,
+            'type': record.type ? record.type.split(',') : [],
             'team': record.team ? record.team.split(',') : [],
             'team-names': record['team-names'] ? record['team-names'].split(',').map(name => name.trim()) : [],
             'team-images': record['team-images'] ? record['team-images'].split(',').map(image => image.trim()) : [],
