@@ -1,82 +1,113 @@
 .referencePageTitle {
-        font-size: 3rem;
-        color: #a3bdc7; 
-        font-weight: 900; 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        display: block;
-        width: 100% ;
-        margin-left: auto;
-        border-radius: 4px;
-    }
+    font-size: 3rem;
+    color: #a3bdc7;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    border-radius: 4px;
+}
 
 .referencesContainer {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        gap: 20px;
-        padding: 20px;
-    }
-    
-    .referenceCard {
-        background-color: white;
-        border: 1px solid #f4f4f4;
-        border-radius: 8px;
-        overflow: hidden;
-        cursor: pointer;
-        transition: transform 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        height: 320px;
-    }
-    
-    .referenceCard:hover {
-        transform: translateY(-5px);
-    }
-    
-    .referenceTitle {
-        color: #252525;
-        margin: 10px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1rem;
-        font-weight: 600;
-        min-height: 3em;
-    }
-    
-    .referenceImage {
-        height: 150px;
-        width: 95%;
-        object-fit: contain;
-        margin-bottom: 30px;
-    }
-        
-    .partnerLogos {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    
-    .partnerLogo {
-        height: 40px;
-        width: auto;
-        margin: 0;
-    }
-    
-    
-    .partnerInfo {
-        margin-top: 10px;
-        display: flex;
-        font-weight: 500;
-        color: #4b4b4b;
-        align-items: center;
-        justify-content: start;
-        font-size: 14px;
-        gap: 10px;
-        margin: 10px;
-        margin-top: auto;
-    }
-    
-    .partnerName {
-        margin-top: 10px;
-        display: inline-block;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.referenceCard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.referenceCard:hover {
+    transform: translateY(-5px);
+}
+
+.referenceTitle {
+    color: #252525;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 3em;
+}
+
+.referenceImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.partnerLogos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.partnerLogo {
+    height: 40px;
+    width: auto;
+    margin: 0;
+}
+
+
+.partnerInfo {
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    color: #4b4b4b;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+    gap: 10px;
+    margin: 10px;
+    margin-top: auto;
+}
+
+.partnerName {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filterButton {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e2ecf4;
+    color: #394d5f;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filterButton:hover {
+    background-color: #153652;
+    color: #e2ecf4;
+}
+
+.activeFilterButton {
+    color: #fff;
+    background-color: #e95459;
+}
