@@ -279,7 +279,7 @@
   }
   
   .partnerLogo {
-    width: 160px; /* Ajustez la taille selon vos besoins */
+    max-width: 120px; /* Ajustez la taille selon vos besoins */
     height: auto;
   }
   
