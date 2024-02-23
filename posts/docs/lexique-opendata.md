@@ -17,29 +17,77 @@ authors:
 partners:
   - bercy-hub
 license: ccbysa
---- 
+---
 
 # Présentation
 
-> Ce lexique est issu du livret sur les fondamentaux de l'open data, réalisé par Datactivsit. Il peut s'utiliser comme ressource ou support lors d'un atelier d'initiation aux enjeux de l'open data.
+> Ce lexique est issu du livret de la fresque de l'open data, réalisé par Datactivsit. Il peut s'utiliser comme ressource ou support lors d'un atelier d'initiation aux enjeux de l'open data.
 
-<br></br>
+<br /></br>
 
 ---
 
 ## Le livret
 
-%%Docs:livret-fondamentaux-opendata%%
-
-<br/>
+%%Docs:livret-fresque-opendata%%
 
 # Le lexique
+
+### Donnée :
+
+Un élément brut (ex : -18°C), auquel on ajoute du sens pour obtenir une information (il fait froid), qui apporte une connaissance (à -18°C je vais avoir des engelures), grâce à laquelle j’aurais une compétence pour prendre une décision (j’enfile des gants).
+
+### Donnée ouverte :
+
+Une donnée, souvent produite par des acteurs publics, librement accessible, modifiables, réutilisable dans un langage accessible aux ordinateurs
+
+### Code source :
+
+Ensemble d’instructions écrites dans un langage de programmation informatique. Il permet d’écrire des programmes destinés aux ordinateurs.
+
+### Algorithme :
+
+Description d’une suite d’étapes (par ex: un calcul) permettant d’obtenir un résultat à partir d’éléments fournis (données) en entrée et des différentes règles (critères d’attribution). 
+
+### AMDAC : Administrateur Ministériel des Données, des Algorithmes et des Codes sources :
+
+C’est la personne référente au sein du ministère sur ces sujets, en charge d’élaborer et appliquer la feuille de route dédiée.
+
+### Droit d’accès :
+
+Pour que le droit d’accès s’exerce, il faut que le document demandé soit de nature administrative et que l’administration l’a bien en sa possession. Il s’applique également aux documents reçus par les administrations de personnes privées. 
+
+
+### Les exclusions au droit d’accès :
+
+Sont exclus du droit d’accès les documents relevant du secret défense, secret médical, secret des affaires, de la protection de la vie privée, s’il porte préjudice à une personne physique par jugement de valeur ou appréciation. Il convient alors d’occulter les mentions protégées.
+
+### CRPA :
+
+Code des relations entre le public et l'administration. Il régit les relations entre le public et l’administration.
+
+### CADA : Commission d’Accès aux Documents Administratifs (1978) :
+
+Elle veille à la liberté d’accès aux documents administratifs et aux archives publiques. Elle peut être saisie par les personnes physiques ou morales qui ont eu un refus  d’accès à des documents auprès de l'administration sollicités initialement. 
+
+
+### LRN : Loi pour une République Numérique :
+
+Dite loi Lemaire (2016). Elle introduit l’ouverture par défaut des données publiques pour les administrations d’État, les collectivités locales de plus de 3 500 habitants, les établissements publics et les organismes privés chargés d’un service public, à l’exception des entités de moins de 50 agents ou salariés.
+
+### RGPD : Règlement Général sur la Protection des Données (2016)
+
+Règlement européen qui encadre la collecte, le traitement, l’utilisation et la circulation des données à caractère personnel (DCP). Il s’applique aux organismes privés et publics.
 
 ### DCP - Données à caractère personnel :
 
 “Toute information relative à une personne physique susceptible d'être identifiée, directement ou indirectement. Par exemple : un nom, une photo, une empreinte, une adresse postale, une adresse mail, un numéro de téléphone, un numéro de sécurité sociale, un matricule interne, une adresse IP, un identifiant de connexion informatique, un enregistrement vocal, etc.”
 
 %%Links:cnil-donnee-personnelle%%
+
+### DPO  :
+
+Délégué-e à la protection des données. Personne en charge d’appliquer les procédures pour être en accord avec le RGPD au sein de sa structure/son entreprise. Cette personne doit avoir les moyens matériels et organisationnels, les ressources et le positionnement adéquat pour mener à bien cette charge.
 
 ### Anonymisation :
 
@@ -63,7 +111,19 @@ La manière dont les données sont structurées et mises à disposition des pers
 
 Code alphanumérique édité par l’Insee. Sur la forme, il ressemble au code postal mais ne lui correspond pas. Par exemple, le code commune contient cinq chiffres ou lettres. Il est composé avec le code département et de la codification sur trois ou deux chiffres de la commune ou de l'arrondissement.
 
-### Déclaration des droits de l'homme et du citoyen
+# Les contenu des cartes de la fresque de l'open data
+
+> Le contenu des cartes de la fresque de l'open data peut également servir de lexique dans vos démarches d'acculturation.
+
+<br/>
+
+# La fresque des données ouvertes
+
+%%Products:fresque-opendata%%
+
+<br/>
+
+### Déclaration des droits de l'homme et du citoyen :
 
 L'article 15 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 prévoit que « la Société a le droit de demander compte à tout Agent public de son administration.» Il a constitué le fondement de la transparence administrative et a conduit à la création d'institutions comme les Archives Nationales ou la Cour des Comptes.
 
@@ -85,19 +145,15 @@ Le premier principe de la charte internationale de l'open data demande que l'ouv
 
 %%Links:loi-republique-numerique%%
 
-### Données à jour et complètes
+### Données à jour et complètes :
 
 Le deuxième principe de la charte internationale de l'open data réclame que les données soient publiées sous leur forme complète, dans le plus fort niveau de détail possible. Elles doivent être mises à disposition dès que possible et, lorsque c'est pertinent, en temps réel.
 
-### Données accessibles et utilisables
+### Données accessibles et utilisables :
 
 Le troisième principe de la charte internationale de l'open data demande que les données soient exploitables par les machines afin de faciliter leur  traitement. Les données doivent être dans un format ouvert, qui n'est pas la propriété d’une organisation et fait l’objet d’une gouvernance ouverte. Enfin, les données doivent être faciles à trouver sur des portails et mises à disposition avec une licence ouverte autorisant largement les usages les plus larges.
 
 ### Des données comparables et interopérables :
-
-Le troisième principe de la charte internationale de l'open data demande que les données soient exploitables par les machines afin de faciliter leur  traitement. Les données doivent être dans un format ouvert, qui n'est pas la propriété d’une organisation et fait l’objet d’une gouvernance ouverte. Enfin, les données doivent être faciles à trouver sur des portails et mises à disposition avec une licence ouverte autorisant largement les usages les plus larges.
-
-### Des données comparables et interopérables : 
 
 Le quatrième principe de la charte internationale de l'open data demande que les données soient facilement comparables entre les territoires et à travers le temps. Concrètement, la charte encourage la documentation des données et incite à l'usage de standards de données qui normalisent les champs et les valeurs de chaque fichier décrivant le même objet.
 
@@ -113,7 +169,7 @@ Dans son sixième principe, la charte internationale de l'open data suggère que
 
 Les politiques d’open data reposent aussi sur leur capacité à provoquer des changements dans le fonctionnement de l’administration : transversalité, désilotage, innovation ouverte… En France, le Ministère de la transformation et de la fonction publique assure la mise en œuvre de l'ouverture des données et l'envisage comme un moyen de faire émerger un service public "augmenté" par la collaboration avec la société civile.
 
-### Partenariat pour un gouvernement ouvert : 
+### Partenariat pour un gouvernement ouvert :
 
 Le Partenariat pour un Gouvernement Ouvert est une institution internationale créée en 2011 qui rassemble 77 pays dont la France. Il repose sur 3 grands piliers : transparence, participation citoyenne et collaboration avec la société civile. Chaque pays participant prend une série d'engagements tous les deux ans portant notamment sur l'ouverture ou la réutilisation de données.
 
@@ -123,17 +179,13 @@ Les médiateurs de données ont joué un rôle important dans le suivi de la pan
 
 %%Links:covidtracker%%
 
-### Signaux Faibles :
-
-Signaux Faibles est une "startup d'État" qui a pour objectif de mieux cibler les interventions en remédiation de l’État vers les entreprises en difficulté. Pour cela, elle utilise un modèle de machine learning (apprentissage machine) à base de données administratives issues de différents organismes (Banque de France, Ministère de l'Économie, Agence centrale des organismes de sécurité sociale, etc...) dont une partie sont ouvertes.
-
-%%Links:signaux-faibles%%
-
 ### Détection des entreprises en difficulté :
 
 Signaux Faibles est une start-up d'État qui utilise des données publiques et privées afin de détecter les signes avant-coureurs de difficultés des entreprises. Le but est d'intervenir au plus vite pour soutenir l'entreprise. Grâce à des algorithmes, les agents peuvent plus facilement et rapidement identifier les entreprises en difficulté.
 
-### Transparence des prix de l'immobilier : 
+%%Links:signaux-faibles%%
+
+### Transparence des prix de l'immobilier :
 
 L’ouverture de la base "Demandes de Valeurs Foncières" (DVF) par la DGFiP avec l'appui de la DINUM en 2019 a démontré la capacité d'innovation de l'open data. Cette ouverture a bénéficié à de nombreux services sur l’analyse des prix de l’immobilier par des acteurs installés de l'immobilier (SeLoger, Meilleurs Agents…), des startups (Homedata, Kelquartier…) ou l'optimisation du pilotage des politiques publiques autour du logement par les acteurs publics comme le MTE, le CEREMA ou l'ADEME.
 
@@ -143,7 +195,7 @@ L’ouverture de la base "Demandes de Valeurs Foncières" (DVF) par la DGFiP ave
 
 %%Datagouv:5c4ae55a634f4117716d5656%%
 
-### Transparence des produits alimentaires : 
+### Transparence des produits alimentaires :
 
 Open Food Facts est une base de données collaborative sur les produits alimentaires née en France en 2012. 9000 contributeurs dans 200 pays y ont renseigné des données sur plus de 2,5 millions de produits. En plus de l'application mobile Open Food Facts, ces données ont aussi servi à la création de Yuka, utilisé par 21 millions de personnes, et à concevoir le système d'étiquetage nutritionnel Nutriscore.
 
@@ -153,11 +205,11 @@ Open Food Facts est une base de données collaborative sur les produits alimenta
 
 %%Datagouv:53699e2aa3a729239d205dea,5985d205c751df6d505e7e86%%
 
-### Planification des itinéraires en transports : 
+### Planification des itinéraires en transports :
 
 L'impact de l'open data est particulièrement fort dans le domaine de la planification d'itinéraires en transports publics. Outre le géant Google Maps, plusieurs applications utilisent les données ouvertes et standardisées sur les horaires de transport. On peut citer les applications CityMapper, ou encore Moovit récemment rachetée par Intel pour 900 millions de dollars qui revendique 1.5 milliard d'usagers dans 3500 villes réparties dans 112 pays.
 
-### Carte de la pollution de l'air près des écoles : 
+### Carte de la pollution de l'air près des écoles :
 
 Les données ouvertes facilitent la mobilisation citoyenne. L'association Respire en Ile-de-France a créé en 2018 une carte de la pollution de l'air extérieur aux abords des écoles, crèches et halte garderie. Combinant la géolocalisation des établissements et des mesures de la qualité de l'air, l'association a dénoncé des niveaux très préoccupants de pollution à proximité des grands axes.
 
@@ -165,15 +217,15 @@ Les données ouvertes facilitent la mobilisation citoyenne. L'association Respir
 
 L'open data peut aussi servir dans de vos randonnées ou balades en forêt. Par ex., Pl@ntNet est une application mobile de sciences participatives permettant d'identifier des plantes à partir d'une photo. Son service est fondé sur plusieurs bases de données ouvertes et les photos prises par les utilisateurs sont reversées en open data pour faciliter l'identification automatisée d'espèces végétales.
 
-### Détection des piscines illégales : 
+### Détection des piscines illégales :
 
 L'open data peut servir à l'administration elle-même. Le projet foncier innovant de la DGFiP vise à détecter les aménagements non déclarés à partir d'images aériennes ouvertes croisées avec le cadastre et les données de l'IGN. Sur les 9 départements tests, la détection de 20000 piscines non déclarées a généré près de 10 millions d'euros de recettes fiscales en 2022. Les gains pourraient atteindre près de 40 millions d'euros en 2023.
 
-### Enquêtes journalistiques : 
+### Enquêtes journalistiques :
 
 Le data journalism est un mouvement qui renouvelle le journalisme par l'analyse et la visualisation de données. Par exemple, des journalistes de FranceInfo ont montré que, malgré la parité dans les investitures du RN aux législatives de 2022 (40% de femmes), seulement 35 femmes étaient investies dans les 100 circonscriptions "gagnables". Résultat : il y a 37% de femmes dans le groupe RN à l’Assemblée.
 
-### Prix des carburants : 
+### Prix des carburants :
 
 Les données des prix des carburants produites par la DGCCRF mises en open data sur data.economie.gouv.fr ont permis, lors de la hausse des prix et la rupture des carburants dans les stations-services, aux médias de générer des cartes interactives pour aider les citoyens à trouver du carburant et à sélectionner les prix. Cette base de données mise à jour toutes les 10 minutes est déclarative, ce qui explique certaines absences ou erreurs. Ces cartes ont généré plus de 40 M de recherches en 3 semaines.
 
@@ -187,20 +239,20 @@ Prévu par loi CADA de 1978, aujourd'hui codifié dans le code des relations ent
 
 ### Format ouvert :
 
-La loi pour une République Numérique consacre l’utilisation de formats ouverts afin de faciliter la réutilisation des données par les machines. L’administration est dorénavant tenue, lorsqu’elle communique un document administratif de le mettre à disposition du citoyen “dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé”.
+La loi pour une République Numérique consacre l’utilisation de formats ouverts afin de faciliter la réutilisation des données par les machines. L’administration est dorénavant tenue, lorsqu’elle communique un document administratif de le mettre à disposition du citoyen "dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé".
 
 ### Licences homologuées :
 
-"La loi pour une République numérique a limité par décret les licences (texte juridique qui définit les droits et devoirs des usagers) :
+La loi pour une République numérique a limité par décret les licences (texte juridique qui définit les droits et devoirs des usagers) :
 
 - la Licence Ouverte 2.0 d'Etalab qui impose la mention de la source et de la date de mise à jour
-- la licence ODbL (Open Database License) qui impose, en plus, le partage des modifications avec la même licence dans une logique de "pot commun"."
+- la licence ODbL (Open Database License) qui impose, en plus, le partage des modifications avec la même licence dans une logique de "pot commun".
 
 ### Service public de la donnée :
 
 Créé par la loi pour une République numérique, le service public de la donnée vise à faciliter la réutilisation des jeux de données de référence à plus fort impact économique et social (ex. : Base Sirene, Base Adresse Nationale, Code Officiel Géographique, Plan cadastral informatisé...) Les producteurs de ces données s'engagent sur la qualité, la disponibilité, la mise à jour et le traitement des signalements des usagers.
 
-### Secret statistique :
+### Secret statistique
 
 Le secret statistique interdit la communication de données issues de traitements à finalités statistique dès lors qu'elles sont individuelles ou susceptibles d'identifier des personnes. Le secret statistique est opposable à toute réquisition judiciaire et toute utilisation des données à des fins de décision à l’égard des personnes concernées comme le contrôle fiscal.
 
@@ -212,17 +264,17 @@ Certains documents administratifs (et donc des données) ne peuvent être commun
 
 Le droit d'accès ne s'applique pas pour les informations à caractère personnel relevant de la vie privée. Il faut anonymiser les données et s'assurer que les individus ne sont pas réidentitifiables par croisement ou caractéristiques trop spécifiques. Leur ouverture sans anonymisation n'est permise que si une disposition législative le prévoit, si les personnes y ont consenti ou si les documents relèvent des catégories prévues par la loi (article D312-3-1 du CRPA). Pour aller plus loin, voir le RGPD, Règlement général sur la protection des données.
 
-### Données d'intérêt général : 
+### Données d'intérêt général :
 
 La loi pour une République numérique a introduit la notion de données d'intérêt général. Elle désigne des données détenues par des entreprises qui sont particulièrement importantes pour l’action publique. Cette loi contraint les délégataires d’un service public qui doivent fournir les données aux pouvoirs publics. Sous certaines conditions, le MEFR peut aussi imposer aux entreprises la transmission de certaines données à des fins d'enquêtes statistiques.
 
-### Données géographiques : 
+### Données géographiques :
 
-"La directive Inspire de 2007 impose aux autorités publiques de recenser les données géographiques, de créer des métadonnées normées et de suivre des standards européens. Le rapport Faure-Muntian en 2018 a rappelé l'importance de données géographiques de qualité pour que l'Etat exerce ses missions et sa souveraineté en matière de défense, de sécurité, de fiscalité, de protection de l'environnement ou de transport."
+La directive Inspire de 2007 impose aux autorités publiques de recenser les données géographiques, de créer des métadonnées normées et de suivre des standards européens. Le rapport Faure-Muntian en 2018 a rappelé l'importance de données géographiques de qualité pour que l'Etat exerce ses missions et sa souveraineté en matière de défense, de sécurité, de fiscalité, de protection de l'environnement ou de transport.
 
 ### Administrateurs ministériels (AMDAC) :
 
-Depuis mai 2021, chaque ministère a nommé un Administrateur ministériel des données, algorithmes et codes sources (AMDAC) en charge de la définition et de la mise en œuvre d'une feuille de route sur ces sujets (open data, API, codes sources, algorithmes, acculturation, gouvernance, communauté...)  Au MEFSIN, l'AMDAC est le chef du Bercy Hub au SG-SNUM.
+Depuis mai 2021, chaque ministère a nommé un Administrateur ministériel des données, algorithmes et codes sources (AMDAC) en charge de la définition et de la mise en œuvre d'une feuille de route sur ces sujets (open data, API, codes sources, algorithmes, acculturation, gouvernance, communauté...).
 
 ### Portage politique à haut niveau :
 
@@ -234,17 +286,13 @@ L’insuffisance de la documentation est un défaut majeur des données ouvertes
 
 %%Docs:ameliorer-qualite-documentation%%
 
-### Amélioration continue :
-
-Il est indispensable de prendre en compte les pratiques des réutilisateurs en amont de la production des jeux de données. Pour ce faire, une réflexion sur leur structure, sur le format des fichiers ou sur la documentation doit être menée systématiquement et tout au long du cycle de vie des données pour faciliter l’appropriation des données par des acteurs tiers.
-
 ### Acculturation interne et externe :
 
 L’utilité des données est mal comprise, et reste identifiée comme un sujet purement "technique". L'acculturation des citoyens et des agents est un élément indispensable dans une stratégie data. Pour y répondre, le mouvement de la littératie de données considère que la compréhension et l'usage des données doivent devenir une compétence accessible à tous comme la lecture et l’écriture.
 
 ### Remontée du cycle de vie de la donnée :
 
-Il est indispensable de prendre en compte les pratiques des réutilisateurs en amont de la production des jeux de données. Pour ce faire, une réflexion sur leur structure, sur le format des fichiers ou sur la documentation doit être menée systématiquement pour faciliter l’appropriation des données par des acteurs tiers.
+Il est indispensable de prendre en compte les pratiques des réutilisateurs en amont de la production des jeux de données. Pour ce faire, une réflexion sur leur structure, sur le format des fichiers ou sur la documentation doit être menée systématiquement et tout au long du cycle de vie des données pour faciliter l’appropriation des données par des acteurs tiers.
 
 ### Périmètre de l'ouverture des données par défaut :
 
@@ -252,8 +300,18 @@ La Loi pour une République Numérique impose un principe d’ouverture des donn
 
 %%Links:loi-republique-numerique%%
 
-<br/>
+### Données brutes :
+
+Il est essentiel d'ouvrir les données brutes, c'est-à-dire qui n'ont pas été modifiées, agrégées ou manipulées. Cela peut demander un travail de "brutification des données" pour les rendre lisibles par des machines. Aux réutilisateurs après, d'effectuer les calculs et agrégations qu'ils souhaitent pour les rendre intelligibles par des humains. Par exemple, les fichiers Excel avec des lignes fusionnées ou des totaux devront être transformés en fichiers .csv structurés, avec un enregistrement par ligne.
+
+### Communauté(s) Open Data :
+
+Animer une commaunté de réutilisateurs (intégrer les commentaires des réutilisateurs dans les processus métiers, organiser des ateliers, ...) est important. Cela peut aussi prendre la forme d'une communauté interne qui permet aux personnels en charge de l'open data de rencontrer leurs pairs et de valoriser leur travail. Il existe une communauté française de l'Open Data. Le forum #TeamOpenData est un des lieux d'échange de celle-ci.
+
+### Portail open data :
+
+Un portail open data est une plateforme technique sur laquelle une administration publie ses données. Elle permet de présenter les données, les mettre en scène dans des visualisations, les partager dans des formats ouverts. En France, le portail data.gouv.fr centralise les données produites par l'administration, mais aussi par le secteur privé lorsqu'elles sont d'intérêt public. Parfois, un portail peut aussi servir à partager des données en interne, de manière fermée.
 
 # Lecture complémentaire
 
-%%Docs:livret-fondamentaux-opendata,fresque-opendata%%
+%%Docs:livret-fresque-opendata%%

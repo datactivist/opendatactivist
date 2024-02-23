@@ -1,20 +1,3 @@
----
-title: Les grands impacts de l’IA et de la donnée sur le lieu de travail
-image: /images/docs/ia-travail.jpeg
-description: Donnée, intelligence artificielle, amélioration des algorithmes - quel impact sur le travail ?
-type: Formation
-tags:
-  - IA
-  - travail
-  - transformation
-  - prospective
-index: 1
-date: 2022-05-01
-authors:
-  - maelle-fouquenet
-license: ccbysa
---- 
-
 ## Présentation
 
 > Cette formation a été réalisée par Maëlle Fouquenet, pour l'INTEP
@@ -44,7 +27,7 @@ license: ccbysa
 - Questionnements sur le RGPD, influences sur le management
 - Exemple du LaborIA
 
-%%Links:laboria%%
+%%Links:ia-contre-atlas-livre,laboria%%
 
 </br>
 
@@ -55,14 +38,19 @@ license: ccbysa
 - Des enjeux pour les administrations
 - La nécessaire acculturation collective
 
-<br></br>
+<br /></br>
 
 <div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://docs.google.com/presentation/d/1hJ6oPogGlbOBtRtbVB3Yd_6fX5_bm4lHkSnw9MKVs5g/preview?slide=id.g50a179ce52_0_0">
-  </iframe>
+<iframe
+width="100%"
+height="500"
+src="https://docs.google.com/presentation/d/1hJ6oPogGlbOBtRtbVB3Yd_6fX5_bm4lHkSnw9MKVs5g/preview?slide=id.g50a179ce52_0_0">
+</iframe>
 </div>
 
-<br></br>
+<br /></br>
+
+## Ressources complémentaires
+
+  
+%%Docs:donnees-ia-introduction,chatgpt-blade-runner%%

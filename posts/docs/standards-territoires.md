@@ -10,7 +10,7 @@ date: 2021-10-13
 authors:
   - samuel-goeta
 license: ccbysa
---- 
+---
 
 # Résumé de la formation
 
@@ -30,7 +30,7 @@ Pour démultiplier l'impact des données territoriales, nous avons besoin à ter
 
 Les schémas de données décrivent des modèles de données : quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles, etc. Les schémas permettent de valider qu'un jeu de données se conforme à un schéma, de générer de la documentation automatiquement, de générer des données ou de proposer des formulaires standardisés.
 
-<br></br>
+<br /></br>
 
 Ils permettent une montée en qualité des données proposées en open data, surtout lorsque plusieurs producteurs produisent un même jeu de données.
 
@@ -53,21 +53,21 @@ Les exemples internationaux incluent :
 - Quelques exemples internationaux
 - Conclusion
 
-<br></br>
+<br /></br>
 
 <a href="https://datactivist.coop/nec/#1" class="customButton">👉 Accéder à la présentation</a>
 
-<br></br>
+<br /></br>
 
 <div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://datactivist.coop/nec/#1">
-  </iframe>
+<iframe
+width="100%"
+height="500"
+src="https://datactivist.coop/nec/#1">
+</iframe>
 </div>
 
-<br></br>
+<br /></br>
 
 ## Nos ressources sur les standards de données
 

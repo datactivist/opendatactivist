@@ -12,7 +12,7 @@ date: 2020-09-26
 authors:
   - sylvain-lapoix
 license: ccbysa
---- 
+---
 
 # Présentation
 
@@ -78,13 +78,13 @@ Pour paraphraser Hadley Whickam paraphrasant Léon Tolstoï :
 
 > Toutes les bases de données propres se ressemblent, mais chaque base de données sale l'est à sa manière.
 
-### 1. Conserver la source
+### 1\. Conserver la source
 
-### 2. Comprendre les données et leur vocabulaire descriptif
+### 2\. Comprendre les données et leur vocabulaire descriptif
 
 <img src="/images/docs/nettoyer-donnees/tidydata.png" alt="variables, observations, valeurs" width="800"/>
 
-<br></br>
+<br /></br>
 
 - la**base de donnéees** est la structure qui accueille les données ;
 - les **variables** sont les caractéristiques renseignées (généralement disposées en colonne) ;
@@ -94,25 +94,23 @@ Pour paraphraser Hadley Whickam paraphrasant Léon Tolstoï :
 
 </br>
 
-### 3. Nettoyer les données
+### 3\. Nettoyer les données
 
 - trouver / remplacer
 - supprimer des colonnes
 - scinder une colonne suivant un délimitateur
 - tester une chaîne de caractère avec un modèle
 
-<br/>
-
 <a href="https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#1" class="customButton">👉 Accéder à la présentation</a>
 
-<br></br>
+<br /></br>
 
 <div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#">
-  </iframe>
+<iframe
+width="100%"
+height="500"
+src="https://datactivist.coop/dwa_ddj_maroc/3-nettoyage/#">
+</iframe>
 </div>
 
 # Guide complémentaire

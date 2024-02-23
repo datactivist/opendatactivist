@@ -14,7 +14,7 @@ date: 2018-07-20
 authors:
   - samuel-goeta
 license: ccbysa
---- 
+---
 
 # Qu'est-ce que le Data Spectrum ?
 
@@ -43,6 +43,8 @@ Les données existent sur un spectre ; **le spectre va de fermé à partagé à 
 *Vous pouvez librement copier et utiliser ces graphiques du spectre des données dans tous les médias (ils sont sous licence CC-BY).*
 
 # Télécharger et utiliser le schéma
+
+L'image du schéma a été traduite et adaptée par Etienne Pichot-Damon et Samuel Goëta. 
 
 **👉 Enregistrez l'image ci-dessous**
 

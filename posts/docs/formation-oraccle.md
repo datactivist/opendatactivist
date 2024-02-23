@@ -18,20 +18,20 @@ authors:
   - antoine-blanchard
   - arthur-sarazin
 license: ccbysa
---- 
+---
 
 > Le [projet ORACCLE](https://oraccle.fr) (Orientation Régionale pour l’Accompagnement du Continuum Lycéens – Étudiants)
-est un projet unique dédié à faciliter le continuum bac-3/bac+3 en Ile-de-France, regroupant 35 partenaires dont les 14 universités franciliennes pour développer de nombreuses actions à destination des lycéens, étudiants, équipes pédagogiques.
+> est un projet unique dédié à faciliter le continuum bac-3/bac+3 en Ile-de-France, regroupant 35 partenaires dont les 14 universités franciliennes pour développer de nombreuses actions à destination des lycéens, étudiants, équipes pédagogiques.
 
 # Le programme en bref
 
-| Titre | Intervenants | Supports|
-| :--- | :---: | :---|
-| *[Comprendre l'open data](#comprendre-l--39-open-data)* et  *[Les étapes de l'ouverture des données](#les--tapes-de-l--39-ouverture-des-donn-es)* | Clément Mandron |[diaporama #1](https://datactivist.coop/oraccle/comprendre_open_data/comprendreod.html) <br />[diaporama #2](http://datactivist.coop/oraccle/open_data_pipeline) <br/> [guide Open data pipeline](https://docs.google.com/presentation/d/1BR0tYG2uYfA3tSkbxtPXSiY2h_iMsHynzoQDbRJ7OLo/edit?usp=sharing) |
-| *[Les mains dans la donnée](#les-mains-dans-la-donn-e)* | Maëlle Fouquenet et Arthur Sarrazin |  [diaporama](https://docs.google.com/presentation/d/1g8z6lgZEtF5rauZJfGmL07f_WXJ5mv8wa0w1QMXG6iE/edit?usp=sharing) |
-| 🆕 *[Identification et évaluation des gisements de données](#identification-et--valuation-des-gisements-de-donn-es)* | Clément Mandron | [diaporama](https://datactivist.coop/oraccle/gisements_donnees/gisements_donnees.html) <br /> [lien Miro](https://miro.com/app/board/uXjVPDsdgdg=/?share_link_id=418949350693) <br /> [lien Airtable](https://airtable.com/shrB3hkV1T5luGEU5) | 
-| *[Culture générale des données et de la visualisation de données](#atelier-visualisation-de-donn-es)* | Antoine Blanchard | [diaporama #1](http://datactivist.coop/oraccle/culture_g/donnees.html) <br />[diaporama #2](http://datactivist.coop/oraccle/culture_g/dataviz.html) |
-| 🆕 *[Prototypage d’un projet data](#prototypage-d-un-projet-data)* | Maëlle Fouquenet et Arthur Sarrazin | *Support à venir* |
+| Titre | Intervenants | Supports |
+|:------|:------------:|:---------|
+| [*Comprendre l'open data*](#comprendre-l--39-open-data) et  [*Les étapes de l'ouverture des données*](#les--tapes-de-l--39-ouverture-des-donn-es) | Clément Mandron | [diaporama #1](https://datactivist.coop/oraccle/comprendre_open_data/comprendreod.html) <br />[diaporama #2](http://datactivist.coop/oraccle/open_data_pipeline) <br /> [guide Open data pipeline](https://docs.google.com/presentation/d/1BR0tYG2uYfA3tSkbxtPXSiY2h_iMsHynzoQDbRJ7OLo/edit?usp=sharing) |
+| [*Les mains dans la donnée*](#les-mains-dans-la-donn-e) | Maëlle Fouquenet et Arthur Sarrazin | [diaporama](https://docs.google.com/presentation/d/1g8z6lgZEtF5rauZJfGmL07f_WXJ5mv8wa0w1QMXG6iE/edit?usp=sharing) |
+| 🆕 [*Identification et évaluation des gisements de données*](#identification-et--valuation-des-gisements-de-donn-es) | Clément Mandron | [diaporama](https://datactivist.coop/oraccle/gisements_donnees/gisements_donnees.html) <br /> [lien Miro](https://miro.com/app/board/uXjVPDsdgdg=/?share_link_id=418949350693) <br /> [lien Airtable](https://airtable.com/shrB3hkV1T5luGEU5) |
+| [*Culture générale des données et de la visualisation de données*](#atelier-visualisation-de-donn-es) | Antoine Blanchard | [diaporama #1](http://datactivist.coop/oraccle/culture_g/donnees.html) <br />[diaporama #2](http://datactivist.coop/oraccle/culture_g/dataviz.html) |
+| 🆕 [*Prototypage d’un projet data*](#prototypage-d-un-projet-data) | Maëlle Fouquenet et Arthur Sarrazin | *Support à venir* |
 
 </br>
 
@@ -107,13 +107,13 @@ L’ouverture des données appelle une attention particulière sur la mise en qu
 * Savoir évaluer la qualité des données
 * Être capable de mettre en qualité ses données de travail
 * Savoir géocoder des données
-* Savoir consolider des jeux de données provenant de différentes sources 
+* Savoir consolider des jeux de données provenant de différentes sources
 
 </br>
 
 ## Identification et évaluation des gisements de données
 
-Cet atelier vise à évaluer le besoin en données du projet Oraccle, en caractérisant les données qui sont nécessaires à l’atteinte de ses objectifs — aussi bien celles qui sont disponibles au sein des établissements membres du projet que celles qui sont publiées par d’autres en open data ou qu’il faudra obtenir par différents moyens. 
+Cet atelier vise à évaluer le besoin en données du projet Oraccle, en caractérisant les données qui sont nécessaires à l’atteinte de ses objectifs — aussi bien celles qui sont disponibles au sein des établissements membres du projet que celles qui sont publiées par d’autres en open data ou qu’il faudra obtenir par différents moyens.
 
 </br>
 
@@ -133,7 +133,7 @@ Il s’appuie sur le Parcours d’évaluation du potentiel données élaboré pa
 
 ## Atelier visualisation de données
 
-La visualisation des données (de flux, géographiques…) du projet Oraccle appelle une démarche de recherche et d’expérimentation autour de la grammaire visuelle des dataviz afin d’inventer les représentations graphiques les plus adaptées et de sortir des “évidences”. 
+La visualisation des données (de flux, géographiques…) du projet Oraccle appelle une démarche de recherche et d’expérimentation autour de la grammaire visuelle des dataviz afin d’inventer les représentations graphiques les plus adaptées et de sortir des “évidences”.
 
 </br>
 
@@ -152,11 +152,11 @@ Cette expérimentation démarrera par des recherches papier-crayon, avant de pas
 
 ## Prototypage d’un projet data
 
-Cette journée pratique vise à acculturer aux données, leur cycle de vie, et leur utilisation dans un projet data. 
+Cette journée pratique vise à acculturer aux données, leur cycle de vie, et leur utilisation dans un projet data.
 
 </br>
 
-Le prototypage du projet data permettra aux participants d’acquérir les bons réflexes de questionnements et les bonnes pratiques liés à l’utilisation des données. 
+Le prototypage du projet data permettra aux participants d’acquérir les bons réflexes de questionnements et les bonnes pratiques liés à l’utilisation des données.
 
 </br>
 

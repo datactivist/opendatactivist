@@ -12,13 +12,13 @@ date: 2023-04-01
 authors:
   - magalie-dartus
 license: ccbysa
---- 
+---
 
 # Liste des portails
 
 %%JsonGallery:benchmark-data-culture%%
 
-<br></br>
+<br /></br>
 
 # Lecture complémentaire
 

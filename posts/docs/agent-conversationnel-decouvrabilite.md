@@ -1,20 +1,3 @@
----
-title: Un agent conversationnel pour améliorer la découvrabilité des données ouvertes
-image: /images/products/screen-conciergerie.png
-description: Comment permettre aux utilisateurs de portails open data de trouver plus facilement des jeux de données ?
-type: Bibliographie
-tags:
-  - IA
-  - découvrabilité
-  - portail
-index: 1
-date: 2021-11-11
-authors:
-  - mathieu-morey
-  - anthony-gigerich
-license: ccbysa
---- 
-
 # La découvrabilité des jeux de données : condition de la réutilisation
 
 Le mouvement de l’ouverture de leurs données par des acteurs publics et privés se traduit par la publication sur des portails web d’un grand nombre jeux de données de taille, de nature et de domaines très divers.
@@ -28,10 +11,10 @@ obstacles socio-techniques *(Beno et al., 2017)*. En premier lieu, la capacité 
 
 Les méthodes d’indexation et de recherche développées pour les contenus web (texte, image, vidéo) et mises en œuvre dans les moteurs de recherche **n’étant pas adaptées aux jeux de données ouvertes**, structurées (relationnelles, géospatiales) ou non structurées *(Neumaier et al., 2016)*, les fonctions de recherche proposées par les portails de données ouvertes se limitent essentiellement à un calcul de similarité textuelle entre la requête de l’utilisateur et les métadonnées renseignées par les producteurs lors du dépôt : titre, description, mots-clés, auteur...
 
-> Or, les producteurs décrivent leurs données dans leur contexte de collecte et d’exploitation, avec leur terminologie, alors que les utilisateurs de portails formulent leur besoin de données dans le contexte de leurs propres cas d’usages et avec leur propre terminologie. 
+> Or, les producteurs décrivent leurs données dans leur contexte de collecte et d’exploitation, avec leur terminologie, alors que les utilisateurs de portails formulent leur besoin de données dans le contexte de leurs propres cas d’usages et avec leur propre terminologie.
 
 La recherche sur les portails de données ouvertes **souffre donc d’un très fort phénomène de vocabulary mismatch**, d’autant plus difficile à compenser que les métadonnées (y compris la
-description) sont souvent très succinctes. 
+description) sont souvent très succinctes.
 
 # Un agent conversationnel dédié aux portails de données
 
@@ -48,9 +31,8 @@ L’intégration des ressources distributionnelles word2vec et fastText dans un 
 </br>
 
 <div style="text-align: center;">
-    <img src="/images/docs/schema-conciergerie.png" alt="schema de la conciergerie" width="500" />
+<img src="/images/docs/schema-conciergerie.png" alt="schema de la conciergerie" width="500" />
 </div>
-
 
 > Nous travaillons à améliorer le reclassement des résultats, l’exploitation des retours de pertinence et l’intégration de terminologies en complément des ressources lexicales génériques.
 
