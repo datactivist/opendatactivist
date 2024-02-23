@@ -14,7 +14,7 @@ authors:
 partners:
   - ministere-culture
 license: ccbysa
---- 
+---
 
 > Datactivist vous propose une curation de ressources, outils, guides dédiés à la culture, aux archives et à l'open data
 

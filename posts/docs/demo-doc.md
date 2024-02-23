@@ -1,21 +1,3 @@
----
-title: Démo d'un article
-image: /images/docs/ouverture-commande-publique.webp
-description: Une description courte, en une phrase pour présenter le contenu
-type: Formation
-tags:
-  - visualisations
-  - dataviz
-  - fact checking
-index: 0 #0 pour ne pas afficher le contenu dans le catalogue, 1 pour qu'il s'affiche dans le catalogue
-date: 2023-05-10
-authors: #ajouter l'identifiant d'un ou plusieurs auteurs, ou bien si besoin / préférence, "equipe-datactivist"
-  - prenom-nom
-partners: #le ou les partenaires ou clients, qui ont permis de créer ce contenu, ou avec qui il a été testé.
-  - partner-name
-license: ccbysa
---- 
-
 # Introduction
 
 > Ceci est une citation
@@ -75,10 +57,10 @@ Du texte
 </br>
 
 <iframe
-  width="100%"
-  height="800"
-  src="/view/datamaplight?data&datamap-id=sud-transports"
-  sandbox="allow-same-origin allow-scripts">
+width="100%"
+height="800"
+src="/view/datamaplight?data&datamap-id=sud-transports"
+sandbox="allow-same-origin allow-scripts">
 </iframe>
 
 </br>
@@ -89,9 +71,9 @@ Du texte
 </br>
 
 <div class="responsiveIframe">
-  <iframe
-    width="100%"
-    height="500"
-    src="https://datactivist.coop/upop/#1">
-  </iframe>
+<iframe
+width="100%"
+height="500"
+src="https://datactivist.coop/upop/#1">
+</iframe>
 </div>

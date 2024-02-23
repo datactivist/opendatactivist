@@ -15,10 +15,11 @@ authors:
   - samuel-goeta
   - sylvain-lapoix
 license: ccbysa
---- 
+---
+
 # Description
 
-Nos enfants mangent au moins [deux fois trop de viande dans les cantines scolaires](https://www.greenpeace.fr/deux-de-viande-a-cantine/) mais ce constat cache une situation très hétérogène selon les villes. 
+Nos enfants mangent au moins [deux fois trop de viande dans les cantines scolaires](https://www.greenpeace.fr/deux-de-viande-a-cantine/) mais ce constat cache une situation très hétérogène selon les villes.
 
 </br>
 

@@ -27,7 +27,7 @@ license: ccbysa
 
 > Ce livret, réalisé par Datactivist dans le cadre de la fresque des données ouvertes pour BercyHub. Il peut s'utiliser aussi comme un support de formation. Il comprend un lexique et des exercices pratiques pour assimiler les différentes notions.
 
-<a href="https://docs.google.com/presentation/d/1PPRt0fERgr-2W-vLW2r3Jao_2mSuEfvGGez1AQY9e98/preview?slide=id.g1949e2873d4_0_3" class="customButton">👉 Accéder au livret</a>
+<a href="https://docs.google.com/presentation/d/1cYkTGwsMbogyQlcZEiIUK4ZAPccHNeaWKqvoCaGud7o/preview#slide=id.g22ce4e760a6_0_0" class="customButton">👉 Accéder au livret</a>
 
 ---
 

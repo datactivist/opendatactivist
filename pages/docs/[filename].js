@@ -65,7 +65,6 @@ const DocsPage = ({ metadata }) => {
             <meta property="og:title" content={metadata?.title || 'Default Title'} />
             <meta property="og:description" content={metadata?.description || 'Default Description'} />
             <meta property="og:type" content="website" />
-            {/* Set the correct URL for the current page */}
             <meta property="og:url" content={router.asPath} />
           </>
         )}

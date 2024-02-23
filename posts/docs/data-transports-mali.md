@@ -15,7 +15,8 @@ authors:
   - cecile-le-guen
   - etienne-pichot-damon
 license: ccbysa
---- 
+---
+
 # Description
 
 Le projet Data Transport Mali a pour objectif principal de proposer un portail de données ouvertes dans le domaine du transport et de la mobilité au Mali et en Afrique de l’Ouest, et notamment de faciliter l’accès aux données de transports urbains et interurbains du pays.
