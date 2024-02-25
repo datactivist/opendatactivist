@@ -1,4 +1,4 @@
-﻿id,title,type,team,team-names,team-images,partners,partner-name,partner-description,partner-image,mission,actions,date-debut,duree,reference-link,docs_catalog
+id,title,type,team,team-names,team-images,partners,partner-name,partner-description,partner-image,mission,actions,date-debut,duree,reference-link,docs_catalog
 tableaux-issy,Construction de tableaux de bord,Standards,"etienne-pichot-damon,samuel-goeta","Etienne Pichot Damon, Samuel Goëta","/images/authors/etienne-pichot-damon.jpeg, /images/authors/samuel-goeta.jpeg",issy-moulineaux,Ville d'Issy-les-Moulineaux,"Ville pionnière en France en matière d’open data, Issy-les-Moulineaux a ouvert un portail en 2012, et l’alimente régulièrement en nouvelles données",/images/partners/issy-moulineaux.png,"Datactivist a accompagné la collectivité dans la préparation de ses données pour réaliser des tableaux de bord partagés. 
 
 Dans la plupart des administrations, les différents services maintiennent des tableaux de suivis de leur activité. Problème : ces tableaux sont dans des formats différents selon les services. Chaque année, les indicateurs sont à recalculer, et donc le travail de mise à jour prend du temps. 
@@ -106,7 +106,7 @@ Mise en place d’un site web pour la documentation du challenge pour les étudi
 Conception d’un espace virtuel pour favoriser le travail d’équipe et les interactions entre étudiants, collectivités et experts.
 
 Documentation de l’expérience et analyse des résultats. ",2023-12-01,2 mois,https://challengedata.org/about/,"organiser-sprint-data,check-list-hackathon"
-challenge-rouen,Challenge data - Rouen-Normandie,Hackathons,"arthur-sarazin,anne-laure-donzel","Arthur Sarazin, Anne-Laure Donzel","/images/authors/arthur-sarazin.png, /images/authors/anne-laure-donzel.jpeg",metropole-rouen,Métropole Rouen-Normandie,La métropole de Rouen s'est engagée dans l'open data depuis février 2021,/images/partners/metropole-rouen-normandie.png,"Le Challenge Data métropolitain reprend les ingrédients clés du challenge data (une immersion dans la publication de données ouvertes) tout en s’adaptant aux contraintes et spécificités d’une collectivité. 
+challenge-rouen,Challenge data - Rouen-Normandie,Hackathons,"arthur-sarazin,anne-laure-donzel","Arthur Sarazin, Anne-Laure Donzel","/images/authors/arthur-sarazin.png, /images/authors/anne-laure-donzel.jpeg",metropole-rouen,Métropole Rouen-Normandie,La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021.,/images/partners/metropole-rouen-normandie.png,"Le Challenge Data métropolitain reprend les ingrédients clés du challenge data (une immersion dans la publication de données ouvertes) tout en s’adaptant aux contraintes et spécificités d’une collectivité. 
 
 Il s’agit d’accompagner des équipes, dans le cas de la Métropole de Rouen Normandie elles venaient  des services et directions de la Métropole et des communes membres, dans l’ouverture de leurs données  et dans l’alimentation d’un portail open data.
 Organisé autour d’un webinaire et de 4 demies journées, le challenge doit permettre aux participant·e·s d’apprendre en faisant et de comprendre les enjeux de l’ouverture des données par la pratique.
@@ -224,7 +224,7 @@ Catalogage de bases de données : structure du catalogue, enrichissement de mét
 Mise en place d’une méthodologie de catalogage.
 Documentation et diffusion de cette méthodologie.
 ",2021-01-01,6 mois,,
-accult-metropole-rouen,Accompagnement à l’acculturation à la donnée,Acculturation,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-rouen,Métropole Rouen-Normandie,La métropole de Rouen s'est engagée dans l'open data depuis février 2021,/images/partners/metropole-rouen-normandie.png,"Cette mission a eu pour but d’accompagner la Métropole Rouen Normandie dans la diffusion d’une culture de la donnée à destination des différents acteurs de la démarche d’ouverture des données.
+accult-metropole-rouen,Accompagnement à l’acculturation à la donnée,Acculturation,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-rouen,Métropole Rouen-Normandie,La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021.,/images/partners/metropole-rouen-normandie.png,"Cette mission a eu pour but d’accompagner la Métropole Rouen Normandie dans la diffusion d’une culture de la donnée à destination des différents acteurs de la démarche d’ouverture des données.
 La Métropole Rouen Normandie porte plusieurs projets numériques ambitieux qui sont alimentés par les données et elle bénéficie d’un écosystème dynamique. Elle éprouvait le besoin de mettre en place une culture de la donnée partagée à l’échelle de son territoire. 
 Pour cela, elle a choisi de confier une mission à Datactivist pour :
 - Répondre aux projets numériques portés par les services
@@ -268,3 +268,121 @@ Notre méthode d’animation s’appuie sur la co-construction, le partage et l�
 Création du contenu et de l’animation dans ce format très interactif. Production de supports plastifiés et des livrets.
 Animation de plusieurs sessions devant différents publics.
 ",2022-09-01,24 mois,,cartes-fresque-opendata
+etude-metiers-mesr,Étude sur les métiers de la donnée dans l’ESR,Data analyse,"elise-ho-pun-cheung,diane-thierry,candice-fillaud,antoine-blanchard","Elise Ho-Pun-Cheung, Diane Thierry, Candice Fillaud","/images/authors/elise-ho-pun-cheung.jpeg, /images/authors/diane-thierry.jpeg, /images/authors/candice-fillaud.png",mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Le Ministère souhaitait disposer d’une étude des métiers de la donnée, surtout les métiers invisibles de la donnée, notamment au-delà du métier de data scientist.
+À partir de cette étude, le Ministère pourra formaliser un socle de compétences et offrir des trajectoires de reconversion, de formation.
+Cette étude a contribué à la documentation du travail des nouveaux·elles expert·e·s des données de la recherche. Les constats émis à partir de cette étude sont : 
+- les trajectoires, les positions occupées et les compétences liées aux données sont variées ;
+- la reconnaissance du travail des données est inégale ;
+- les réseaux professionnels sont largement organisés par thématiques et expertise précises ;
+- le travail des données n’est pas toujours effectué en continu ;
+- le travail des données produit de nouvelles formes de collaboration.
+","Étude bibliographique : établir la nomenclature des activités de la donnée dans la recherche et pour produire un état de l’art.
+Enquête par questionnaire, entretiens et focus group : Enquêter différents environnements de recherche pour comprendre les pratiques de la donnée des répondants, leur statut professionnel.
+Analyse et synthèse : rédaction du rapport final après analyse des données d’enquête quantitative et qualitative.
+",2022-12-01,12 mois,,
+etude-apc-mesr,Étude rétrospective et prospective de l’évolution du coût des APC pour les institutions françaises,Science ouverte,"antoine-blanchard,diane-thierry",Diane Thierry,/images/authors/diane-thierry.jpeg,mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Une étude a été menée pour comprendre et prédire les frais de publication des articles publiés par des auteurs affiliés en France entre 2013 et 2020. 
+Dans une logique itérative de validation avec Wikimédia, une première phase de proposition de visualisations a été mise en place, au vu de statistiques descriptives calculées sur les données brutes. 
+Les données ont ensuite été nettoyées (suppression des doublons et des réponses incohérentes), traitées (agrégation des réponses, lémmatisation, extraction…) et certaines variables créées.
+Une fois mises en qualité, les données ont été visualisées au travers de 34 datavisualisations. Celles-ci ont été exportées au format PNG et SVG, puis analysées dans un rapport reprenant la méthodologie, les visualisations et les résultats de cette analyse.
+","Proposition de datavisualisations envisagées :
+- type de graphique 
+- variables visualisées
+- traitements nécessaires
+Nettoyage et mise en qualité des données de l’enquête
+Visualisation  des données de l’enquête
+Analyse des visualisations dans un rapport transmis avec les fichiers PNG et SVG des datavisualisations",2022-02-01,8 mois,https://www.ouvrirlascience.fr/retrospective-and-prospective-study-of-the-evolution-of-apc-costs-and-electronic-subscriptions-for-french-institutions/,
+gouv-data-sde,Enjeux de gouvernance des données du SPDE,Stratégie,francois-lacombe,François Lacombe,/images/authors/francois-lacombe.png,sde-35,Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35),"Le Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35) est un acteur majeur des enjeux énergétiques du département d'Ille-et-Vilaine. Il oeuvre au quotidien aux côtés des élus locaux pour un aménagement énergétique du territoire, équilibré et durable. Il contribue activement à développer la synergie entre les territoires ruraux et urbains du département.",/images/partners/sde-35.png,"Le Syndicat organise la distribution d’énergie pour le compte des communes de l’Ile et Vilaine. Il accède et produit de nombreuses données utiles à la transition énergétique
+Datactivist a été sollicité pour une intervention auprès de la commission smart grids du syndicat à propos des enjeux de gouvernance des données utiles au déploiement des réseaux intelligents 
+ 
+ Les élus du Syndicat souhaitaient disposer d’une vision exhaustive des enjeux touchant à la gestion des données utiles aux équipes du SDE35.
+Il s’agissait de proposer un tour d’horizon des données métier, à mettre en perspective du contexte technique et aussi juridique.
+L’expérience de Datactivist, notamment consécutive au pilote France Data Réseau qui venait de s’achever a été particulièrement utile pour fournir des perspectives de renforcement de la gouvernance et des demandes précises à formuler aux producteurs de données concernées.
+","Structuration de notre connaissance des données de l’énergie et des AODE, axes de comparaison sommaire et contextualisation réglementaire.
+Intervention en commission d’élus pour présenter notre état des lieux et propositions.
+Références documentaires pour poursuivre les réflexions à l’issue de la présentation.
+",2022-03-01,1 mois,,
+france-data-reseau-fnccr,Expertise métier et AMO France Data Réseau,Stratégie,"francois-lacombe,joel-gombin","François Lacombe, Joël Gombin","/images/authors/francois-lacombe.png, /images/authors/joel-gombin.jpeg",fnccr,Fédération nationale des collectivités concédantes et régies (FNCCR),"La Fédération nationale des collectivités concédantes et régies (FNCCR) est une association de collectivités territoriales spécialisées dans les services publics locaux en réseau (Energie, cycle de l’eau, numérique, déchets).
+",/images/partners/fnccr.png,"L’association représente les intérêts de plus de 800 collectivités en matière de services publics de réseaux. Elle anime les grands enjeux réglementaires et portes différents projets d’envergure nationale.
+Datactivist était présent dans le groupement partenarial mené par la FNCCR. Il s’agissait d’assurer la construction de deux des quatre cas d’usage et aussi l’AMO commun de l’ensemble du projet 
+ 
+ La plateforme France Data Réseau vise à partager des données utiles à différents cas d’usage des membres de la FNCCR. Il s’agissait d’identifier, collecter, préparer puis valoriser des données mises à disposition par plusieurs territoires pilotes.
+Datactivist a assuré la construction de deux cas d’usage sur les appuis communs et les moyens de recharge des véhicules électriques pour 6 territoires pilotes, pour lesquels il était capital de déployer une connaissance métier du sujet.
+De manière complémentaire, l’AMO global a apporté l’appui nécessaire au chef de projet pour piloter l’ensemble des réalisations avec les partenaires techniques.
+","Ateliers et définition du besoin avec les 6 territoires pilotes en recherchant des gains opérationnels.
+Cartographie des données à utiliser et processus associés.
+Prototypage des tableaux de bord avec les territoires pilotes.
+Documentation complète du projet, interactions avec les partenaires techniques et autres cas d’usage.
+",2021-09-01,18 mois,https://jdb.francedatareseau.fr/,
+cadrage-data-grand-est,Etude de cadrage sur l’évolution de GéoGrandEst vers DataGrandEst,Stratégie,magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,data-grand-est,Data Grand Est,"Le partenariat DataGrandEst est mis en œuvre par l’État et la Région Grand Est pour développer la coopération régionale en matière de production, de partage et de valorisation de données dans le Grand Est.",/images/partners/data-grand-est.png,"En Grand Est, la question stratégique de la gestion des données au service des politiques publiques est un enjeu majeur par les services de l’État et de la Région. Les autorités porteuses du partenariat GéoGrandEst ont souhaité réaliser une étude de cadrage sur son évolution et sa transformation en DataGrandEst.
+Cette étude est définie selon 5 axes :
+- La gouvernance
+- Les fonctionnalités de la plateforme
+- L’animation
+- Les données
+- Les moyens humains et financiers
+L’étude s’est déroulée en plusieurs étapes :
+- Un temps de cadrage essentiel pour intégrer les éléments de contexte
+- Un benchmark des plateformes open data inspirantes
+- Un dispositif de consultation des partenaires et des utilisateurs
+- Une aide au design de la future plateforme
+- La remise d’un rapport final avec les recommandations","Benchmark inspirant des modèles de valeur de la donnée dans le secteur du financement.
+Entretiens et ateliers avec les parties prenantes de GéoGrandEst pour recenser les besoins, comprendre les problématiques et identifier les évolutions à réaliser.
+Rédaction d’une note de recommandations et de scenarii pour l’évolution de la plateforme
+",2021-01-01,6 mois,,
+ditp-opengov,Animation d'événements de mobilisation de la communauté gouvernement ouvert,Animation,samuel-goeta,Samuel Goëta,/images/authors/samuel-goeta.jpeg,ditp,Direction Interministérielle de la Transformation publique ,"La Direction Interministérielle de la Transformation publique assure le suivi des réformes du gouvernement et accompagne les acteurs publics dans leurs projets.
+",/images/partners/ditp.png,"Cette mission a eu pour but d'accompagner la Direction Interministérielle à la Transformation Publique dans le pilotage du Plan d’actions pour un Gouvernement Ouvert 2021-2023.
+Le Plan d’action pour un Gouvernement Ouvert, publié par le Gouvernement en décembre 2021 contient 58 actions portés à la fois par des Ministères mais également par d’autres administrations (Cour des comptes, CNIL, etc…).
+
+Ces actions portés par les administrations ont parfois été co-construites ou intègrent des organisation actrices de la société civile. Bien que piloté par le DITP, les actions sont mise en oeuvre par chaque ministère. Cet ensemble, avec l’organisation international du Partenariat pour un Gouvernement Ouvert qui rassemble 55 pays, forme la communauté gouvernement ouvert. Il s’agit alors pour la DITP d’animer cette communauté pour permettre au mieux la réalisation des actions et le co-construction de l’action publique par la société civile. 
+
+","Création d’outils de pilotage internes adaptés : acteurs divers (ministères, référents, société civile) et conseil à l’animation de la communauté
+Identification des actions prioritaires pour mettre en place un suivi plus important
+Organisation d’événements avec la communauté gouvernement ouvert 
+Animation plus large de la démarche : constitution de groupes thématiques, mises en réseaux d’acteurs de la société civile, mise en place d’une plateforme de consultation citoyenne",2022-01-01,18 mois,,
+mefr-non-conference,Formation des agents et animation non-conférence des données ouvertes,Animation,"julia-dumont,samuel-goeta,clement-mandron","Samuel Goëta, Clément Mandron","/images/authors/samuel-goeta.jpeg, /images/authors/clement-mandron.png",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Cette mission a un double but. D’une part donner une série de formations sur l’ouverture des données aux agents du MEFR. D’autre part l’organisation de la Non-Conférence des données ouvertes de Bercy.
+Construites sur un format très interactif, les deux séances de formation ont également permis aux agents de se projeter sur les usages finaux de la plateforme et remonter le fil jusqu’à la production des données. Sur un temps relativement court, plusieurs thèmes ont pu être travaillé : enjeux de l’ouverture des données, panorama de data.economie afin d’imaginer l’usage des données, évaluer et prioriser, check-list de mise en qualité, comprendre les formats et anonymiser.
+C’est également l’objet de la Non-conférence des données ouvertes de Bercy : permettre une rencontre entre les services et les (ré)-utilisateurs des données du Ministère.  ","Création du contenu des sessions de formations sur un format très interactif. Production de supports qui permettent de produire du contenu utilisable après la formation par les équipes.
+Organisation de la Non-Conférence, rédaction de supports de communications (avant et après), mise à disposition d’un espace gather.town.",2022-09-01,6 mois,,
+dreal-paca-conciergerie,Expérimentation conciergerie de données,Data analyse,"mathieu-morey,anthony-gigerich","Mathieu Morey, Anthony Gigerich","/images/authors/mathieu-morey.jpeg, /images/authors/anthony-gigerich.jpeg",dreal-paca,DREAL Provence-Alpes-Côte d'Azur,"La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) PACA est un service déconcentré de l'État français.",/images/partners/dreal-paca.png,"Dans le cadre de l’appel à projets CGDD-Axe 1 :« data au service des politiques publiques », Datactivist travaille avec la DREAL PACA pour réaliser une conciergerie de données, un service d’écoute intelligente des besoins en données des acteurs et citoyens du territoire.
+Cette expérimentation doit faciliter la découvrabilité des données et des documents par les parties prenantes de la DREAL.
+Le chatbot est une interface conversationnelle, en langue naturelle, qui permet de faciliter l’accès aux données et documents diffusés par la DREAL PACA.
+ 
+L’interface conversationnelle peut être différenciée selon les cas d’usages et les catégories d’usagers : agents de la DREAL et des services de l’État, collectivités territoriales, professionnels (bureaux d’études), agences d’urbanisme, grand public…
+L’expérimentation porte sur différentes situations d’interaction entre un usager et un service, qui peuvent être regroupées dans trois catégories : la Foire Aux Questions (FAQ), le formulaire, et la recherche libre.
+","Définition de trames de dialogue permettant de recueillir et de caractériser des demandes récurrentes.
+Formulation des requêtes d'interrogation pour les outils métier.
+Connexion aux sources identifiées.
+Développement d'un chatbot mettant en œuvre les trames de dialogue, le requêtage, l'affichage des résultats et le recueil du retour de l’usager.",2020-07-01,24 mois,,
+region-bretagne-observatoire,"AMO observatoire des données de l’achat public
+",Data analyse,"emeline-vandeven,clement-mandron","Emeline Vandeven, Clément Mandron","/images/authors/emeline-vandeven.jpeg, /images/authors/clement-mandron.png",region-bretagne,Région Bretagne,La Région Bretagne est une région administrative française.,/images/partners/region-bretagne.png,"Datactivist a accompagné la Région Bretagne dans la publication de son observatoire des données de l’achat public. Elle a aussi réalisé une cartographie des données qui alimentent l’observatoire.
+La mission a débuté par une analyse des indicateurs de l’observatoire, qui a permis de changer et de préciser certains indicateurs.
+Ensuite, une cartographie des données qui alimentent l’observatoire a été construite via l’outil Airtable. Ce travail, basé sur une série d’entretiens, a permis d’identifier les pratiques des différents services et de voir les problèmes pouvant exister en matière de gestion des données (partage, circulation, extraction…).
+Ce diagnostic a ensuite permis de faire les liens entre le calcul d’indicateurs et la source des données renseignées par les services en passant par le référencement des jeux de données et des données du portail open data. 
+","Entretiens avec les producteurs de données pour collecter des informations supplémentaires sur les données.
+Élaboration de recommandations sur les indicateurs et l’observatoire.
+Cartographie technique des données qui alimentent l’observatoire
+ Modélisation des flux de données
+Préconisations pour la version 2 du schéma des achats publics de la Région
+",2021-11-01,18 mois,,
+region-normandie-open-data,AMO relative à l’ouverture des données publiques  ,Stratégie,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,region-normandie,Région Normandie,La Région Normandie est une région administrative française.,/images/partners/region-normandie.png,"Sous la bannière DataPublica cette mission a eu pour but d’analyser la politique d’open data de la région et de la mettre en perspective avec sa stratégie plus globale autour de la donnée.
+La Région Normandie souhaitait réaliser un état des lieux et un plan d’action de sa situation en matière d’open data. 
+L’objectif final du plan d’action était de mettre en place une vision commune, une culture de la donnée de la Région Normandie, rassemblant les élus, les agents et les partenaires publics et privés. Cette culture, à la fois technique, juridique et opérationnelle de la donnée, avait pour but de permettre à chacun de mieux connaître les données produites, de mieux les maîtriser, de les partager, d’en envisager de nouveaux usages, de pouvoir les ouvrir en comprenant les enjeux.
+","Réalisation d’un diagnostic de maturité de la Région Normandie en matière d’open data :
+- Entretien
+- Enquête
+- Atelier
+Rédaction d’un plan d’action pour développer la stratégie open data de la Région
+Session de sensibilisation aux organes de décisions (CODIR, encadrement, élus) ",2021-10-01,11 mois,,
+region-normandie-datalas,Définition d’une organisation cible du Datalab Normandie ,Stratégie,"anne-laure-donzel,guillaume-martin,clement-mandron","Anne-Laure Donzel, Guillaume Martin, Clément Mandron","/images/authors/anne-laure-donzel.jpeg, /images/authors/guillaume-martin.jpeg, /images/authors/clement-mandron.png",region-normandie,Région Normandie,La Région Normandie est une région administrative française.,/images/partners/region-normandie.png,"Sous la bannière DataPublica cette mission a eu pour but d’accompagner la Région Normandie et le Datalab dans la définition d’une organisation cible.
+Piloté par la Région Normandie, l’ambition du Datalab Normandie est de fédérer et coordonner les initiatives qui contribuent au développement de services innovants par la donnée et l'intelligence artificielle en constituant un écosystème public/privé de la donnée en Normandie.
+
+L’objectif de la mission était de proposer une nouvelle organisation et une offre de service adaptées aux membres et aux enjeux du Datalab Normandie. Datactivist était chargé de la première phase de l’AMO relative à l’offre de service. Il s’agissait
+de répondre aux questions suivantes :
+- « Qui fait quoi au sein du consortium ? »
+- « À quelles conditions ? »
+- « Pour répondre à quels besoins ? »
+","La réalisation d’un état des lieux de l’offre de service data de chacun des membres du consortium (réalisation d’entretien)
+Une analyse des besoins data des principaux acteurs du territoire, potentiels usagers du
+DataLab (réalisation d'entretiens et d'ateliers)
+La formalisation d’une offre de service facilement appréhendable par l’ensemble du territoire sous la forme de cas d’usages (ateliers, benchmark)
+Une étude d’opportunité et des conditions juridiques de mise en oeuvre de cette offre de service (réalisée par Parmes Avocat)",2022-11-01,8 mois,https://public.flourish.studio/visualisation/12410512/,
