@@ -70,7 +70,7 @@ const Cards = ({
       // If it's a URL, open it in a new tab
       window.open(item.url, '_blank');
     } else {
-      const docName = item['﻿name'];
+      const docName = item['name'];
       if (docName) {
         router.push(`/docs/${docName}`);
       } else {
@@ -88,7 +88,7 @@ const Cards = ({
     <>
        {items.map((item) => (
         <div
-          key={item['﻿name'] || item.productId || item.id}
+          key={item['name'] || item.productId || item.id}
           className={item.url ? `${styles.card} ${styles['card-link']}` : styles.card}
           onClick={() => handleCardClick(item)}
           style={{ position: 'relative' }}

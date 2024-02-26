@@ -9,7 +9,9 @@ export default async function handler(req, res) {
   const jsonFilePath = path.join(process.cwd(), 'public', 'sitedata', 'docs_catalog.json');
 
   // Read and parse the JSON file
-  const jsonData = fs.readFileSync(jsonFilePath, 'utf8');
+  let jsonData = fs.readFileSync(jsonFilePath, 'utf8');
+  // Remove BOM if present
+  jsonData = jsonData.replace(/^\uFEFF/, '');
   const records = JSON.parse(jsonData);
 
   // Find the document's metadata in the JSON
@@ -23,7 +25,9 @@ export default async function handler(req, res) {
 
   try {
     // Read and parse the Markdown file
-    const markdownContent = fs.readFileSync(markdownFilePath, 'utf8');
+    let markdownContent = fs.readFileSync(markdownFilePath, 'utf8');
+    // Remove BOM if present
+    markdownContent = markdownContent.replace(/^\uFEFF/, '');
     const { content: markdownParsedContent } = matter(markdownContent);
 
     // Combine metadata from JSON and content from Markdown

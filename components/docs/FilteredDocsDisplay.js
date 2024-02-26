@@ -10,7 +10,7 @@ const FilteredDocsDisplay = ({ docsList }) => {
       try {
         const response = await fetch(`/api/docscatalog?action=metadatalist`);
         const data = await response.json();
-        const filteredDocs = data.filter((doc) => docsList.includes(doc['﻿name']));
+        const filteredDocs = data.filter((doc) => docsList.includes(doc['name']));
         setDocs(filteredDocs);
       } catch (error) {
         console.error(
