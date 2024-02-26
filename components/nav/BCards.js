@@ -38,7 +38,7 @@ const BCards = ({
   };
 
   const handleCardClick = (item) => {
-    const docName = item['﻿name'];
+    const docName = item['name'];
     if (docName) {
       router.push(`/docs/${docName}`);
     } else {
@@ -54,7 +54,7 @@ const BCards = ({
     <>
       {items.map((item) => (
         <div
-          key={item['﻿name'] || item.productId || item.id}
+          key={item['name'] || item.productId || item.id}
           className={styles.card}
           onClick={() => handleCardClick(item)}
         >

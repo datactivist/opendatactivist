@@ -212,8 +212,8 @@
     "partners": "bercy-hub",
     "partners-names": "Bercy Hub",
     "partners-images": "/images/partners/mefr.jpeg",
-    "references_catalog": "",
-    "reference-title": ""
+    "references_catalog": "fresque-mefr",
+    "reference-title": "Ingénierie, construction et animation d’une fresque des données ouvertes"
   },
   {
     "name": "carto-ensembles-data-territoires",
@@ -1181,24 +1181,6 @@
     "pin": "",
     "authors": "etienne-pichot-damon",
     "tags": "impact,gouvernance,open gov,valorisation",
-    "partners": "",
-    "partners-names": "",
-    "partners-images": "",
-    "references_catalog": "",
-    "reference-title": ""
-  },
-  {
-    "name": "voeux-2024",
-    "title": "Bilan 2023 et perspectives 2024 : en bande organisée, personne peut nous canaliser",
-    "image": "/images/docs/voeux-2024/flower-paper.png",
-    "description": "Après une année chargée, nous avons souhaité prendre le temps de regarder dans le rétro et voir — ou revoir — ce qui a été fait et vécu l’an passé chez Datactivist.",
-    "type": "Blog",
-    "index": 0,
-    "date": "2024-01-26",
-    "license": "ccbysa",
-    "pin": "",
-    "authors": "equipe-datactivist",
-    "tags": "",
     "partners": "",
     "partners-names": "",
     "partners-images": "",
