@@ -4,7 +4,8 @@ import styles from '../../styles/Authors.module.css';
 import Cards from '../../components/nav/Cards';
 import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
-import ReferenceCard from '../../components/nav/ReferenceCard'; // Import the ReferenceCard component
+import ReferenceCard from '../../components/nav/ReferenceCard';
+import ResearchCard from '../../components/nav/ResearchCard';
 
 const PartnerPage = () => {
   const router = useRouter();
@@ -14,7 +15,8 @@ const PartnerPage = () => {
   const [partnerDocuments, setPartnerDocuments] = useState([]);
   const [partnerContributors, setPartnerContributors] = useState([]);
   const [partnerProducts, setPartnerProducts] = useState([]);
-  const [partnerReferences, setPartnerReferences] = useState([]); // State to store references
+  const [partnerReferences, setPartnerReferences] = useState([]);
+  const [partnerResearchProjects, setPartnerResearchProjects] = useState([]);
 
   useEffect(() => {
     if (partner) {
@@ -42,11 +44,9 @@ const PartnerPage = () => {
 
   useEffect(() => {
     if (partner) {
-      // Assurez-vous que l'URL est correcte et correspond à votre route d'API configurée pour le filtrage par id
       fetch(`/api/partners?id=${partner}`)
         .then((response) => response.json())
         .then((data) => {
-          // Comme l'API renvoie maintenant un objet unique pour l'id spécifié, pas besoin de prendre le premier élément
           setPartnerData(data);
         })
         .catch((error) => {
@@ -57,7 +57,6 @@ const PartnerPage = () => {
   }, [partner]);
 
   useEffect(() => {
-    // Fetch documents related to the partner from the new API
     fetch('/api/docscatalog?action=metadatalist')
       .then((response) => response.json())
       .then((data) => {
@@ -68,18 +67,14 @@ const PartnerPage = () => {
       });
   }, [partner]);
 
-  // Right after fetching and before setting the state
   useEffect(() => {
     if (partner) {
       fetch(`/api/references?action=getByPartner&partners=${partner}`)
         .then((response) => response.json())
         .then((data) => {
-          // Check if data is an object and not an array
           if (!Array.isArray(data) && typeof data === 'object') {
-            // Wrap the object into an array
             setPartnerReferences([data]);
           } else if (Array.isArray(data)) {
-            // Directly set the data if it's already an array
             setPartnerReferences(data);
           } else {
             console.error('Unexpected data format received from API', data);
@@ -88,7 +83,26 @@ const PartnerPage = () => {
         })
         .catch((error) => {
           console.error('Error fetching partner references:', error);
-          setPartnerReferences([]); // Reset to empty array in case of error
+          setPartnerReferences([]);
+        });
+    }
+  }, [partner]);
+
+  useEffect(() => {
+    if (partner) {
+      fetch(`/api/research-projects?action=getByPartner&partners=${partner}`)
+        .then((response) => response.json())
+        .then((data) => {
+          if (Array.isArray(data)) {
+            setPartnerResearchProjects(data); // Correction ici pour utiliser la bonne variable d'état
+          } else {
+            console.error('Unexpected data format received from API', data);
+            setPartnerResearchProjects([]); // Assurez-vous que cette variable d'état est toujours un tableau
+          }
+        })
+        .catch((error) => {
+          console.error('Error fetching partner research projects:', error);
+          setPartnerResearchProjects([]);
         });
     }
   }, [partner]);
@@ -128,7 +142,7 @@ const PartnerPage = () => {
                 <p>{partnerData.description}</p>
               </div>
               <div className={styles.contributorsContainer}>
-                <br></br>
+                <br />
                 {partnerContributors.length > 0 && (
                   <div className={styles.authorContributors}>
                     <h2>Contributeurs</h2>
@@ -152,48 +166,69 @@ const PartnerPage = () => {
             </div>
           </div>
           <br />
-          <div className={styles.authorSectionTitle}>Publications</div>
-          <div className={styles.docsGalleryContainer}>
-            <Gallery>
-              <Cards
-                items={partnerDocuments}
-                onClick={(linkId) => router.push(`/docs/${linkId}`)}
-                tagRoute="docs"
-                showDate={false}
-                showPartners={false}
-              />
-              <Cards
-                items={partnerProducts.map((product) => ({
-                  ...product,
-                  productId: product.name,
-                }))}
-                onClick={handleCardClick}
-                tagRoute="products"
-                showDate={false}
-                showPartners={false}
-              />
-            </Gallery>
-            {/* La vérification conditionnelle s'assure que ni le titre "Références" ni les références elles-mêmes ne sont rendus si le tableau est vide */}
-            {
-              partnerReferences.length > 0 &&
-              partnerReferences.every(
-                (ref) => ref.id && ref.title && ref['partner-name'],
-              ) ? (
-                <div>
-                  <div className={styles.authorSectionTitle}>Références</div>
-                  {partnerReferences.map((reference) => (
-                    <ReferenceCard
-  key={reference.id}
-  id={reference.id}
-  title={reference.title}
-  partnerNames={reference['partner-name']} // Assurez-vous que c'est un tableau
-  partnerImages={reference['partner-image']} // Assurez-vous que c'est un tableau
-/>
-                  ))}
-                </div>
-              ) : null // Ne rien afficher si le tableau est vide ou si les données sont incomplètes
-            }
-          </div>
+          {(partnerDocuments.length > 0 || partnerProducts.length > 0) && (
+            <>
+              <div className={styles.authorSectionTitle}>Publications</div>
+              <div className={styles.docsGalleryContainer}>
+                <Gallery>
+                  {partnerDocuments.length > 0 && (
+                    <Cards
+                      items={partnerDocuments}
+                      onClick={(linkId) => router.push(`/docs/${linkId}`)}
+                      tagRoute="docs"
+                      showDate={false}
+                      showPartners={false}
+                    />
+                  )}
+                  {partnerProducts.length > 0 && (
+                    <Cards
+                      items={partnerProducts.map((product) => ({
+                        ...product,
+                        productId: product.name,
+                      }))}
+                      onClick={handleCardClick}
+                      tagRoute="products"
+                      showDate={false}
+                      showPartners={false}
+                    />
+                  )}
+                </Gallery>
+              </div>
+            </>
+          )}
+          {partnerResearchProjects.length > 0 && (
+            <div>
+              <div className={styles.authorSectionTitle}>
+                Projets de recherche
+              </div>
+              <Gallery>
+                {partnerResearchProjects.map((project) => (
+                  <ResearchCard
+                    key={project.id}
+                    id={project.id}
+                    title={project.title}
+                  />
+                ))}
+              </Gallery>
+            </div>
+          )}
+          {partnerReferences.length > 0 &&
+            partnerReferences.every(
+              (ref) => ref.id && ref.title && ref['partner-name'],
+            ) && (
+              <div>
+                <div className={styles.authorSectionTitle}>Références</div>
+                {partnerReferences.map((reference) => (
+                  <ReferenceCard
+                    key={reference.id}
+                    id={reference.id}
+                    title={reference.title}
+                    partnerNames={reference['partner-name']}
+                    partnerImages={reference['partner-image']}
+                  />
+                ))}
+              </div>
+            )}
         </div>
       </div>
     </Layout>

@@ -12,11 +12,9 @@ const BlogGallery = () => {
         const response = await fetch('/api/docscatalog?action=metadatalist&type=Blog');
         let data = await response.json();
         
-        // Sort data by date from most recent to oldest
         data = data.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-        // Filter out docs with index != 1
-        data = data.filter(doc => doc.index === "1");
+        data = data.filter(doc => doc.index === 1);
 
         setDocsMetadata(data);
       } catch (error) {

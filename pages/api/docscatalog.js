@@ -1,17 +1,13 @@
 import fs from 'fs';
 import path from 'path';
-import { parse } from 'csv-parse/sync';
 
 export default function handler(req, res) {
-  const { action, type } = req.query; // Add 'type' to the destructured query parameters
+  const { action, type } = req.query; // Extract 'type' from the query parameters
 
-  // Read and parse the CSV file
-  const filePath = path.join(process.cwd(), 'public', 'sitedata', 'docs_catalog.csv');
+  // Read and parse the JSON file
+  const filePath = path.join(process.cwd(), 'public', 'sitedata', 'docs_catalog.json');
   const fileContent = fs.readFileSync(filePath, 'utf8');
-  const records = parse(fileContent, {
-    columns: true,
-    skip_empty_lines: true
-  });
+  const records = JSON.parse(fileContent);
 
   if (action === 'metadatalist') {
     let filteredRecords = records;

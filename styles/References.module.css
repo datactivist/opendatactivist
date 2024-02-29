@@ -77,12 +77,17 @@
 
 .contentContainer {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 0em;
 }
 
 .missionContainer,
 .actionsContainer {
+    margin-bottom: 0em;
+}
+
+.methodeContainer {
     margin-bottom: 2em;
+    align-items: center;
 }
 
 .referenceLinkButton {
@@ -194,18 +199,38 @@
         justify-content: space-between;
         align-items: flex-start;
         gap: 20px;
-        /* Espacement entre les colonnes */
     }
 
     .missionContainer,
+    .methodeContainer,
     .actionsContainer {
         flex: 1;
-        /* Permet à chaque conteneur de prendre un espace égal */
         margin-bottom: 0;
-        /* Supprime la marge sur les écrans larges */
         background-color: #f9f9f9;
         border-radius: 10px;
         padding: 10px;
     }
 
+}
+
+@media (min-width: 768px) {
+    .contentContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes */
+        gap: 20px;
+    }
+    .missionContainer {
+        grid-column: 1 / span 1; /* Occupe la première colonne */
+        grid-row: 1; /* Commence à la première ligne */
+    }
+
+    .methodeContainer {
+        grid-column: 1 / span 1; /* Occupe également la première colonne */
+        grid-row: 2; /* Placé juste en dessous du missionContainer */
+    }
+
+    .actionsContainer {
+        grid-column: 2 / span 1; /* Occupe la deuxième colonne */
+        grid-row: 1 / span 2; /* S'étend sur deux lignes pour équilibrer la hauteur */
+    }
 }
