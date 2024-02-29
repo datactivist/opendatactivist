@@ -5,6 +5,7 @@ import styles from '../../styles/Authors.module.css';
 import Cards from '../../components/nav/Cards';
 import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
+import ResearchCard from '../../components/nav/ResearchCard';
 
 const AuthorPage = () => {
   const router = useRouter();
@@ -13,15 +14,15 @@ const AuthorPage = () => {
   const [authorData, setAuthorData] = useState(null);
   const [partnerData, setPartnerData] = useState(null);
   const [authorDocs, setAuthorDocs] = useState([]);
-  const [referencesDetails, setReferencesDetails] = useState([]); // To store details of each reference
+  const [referencesDetails, setReferencesDetails] = useState([]);
+  const [researchDetails, setResearchDetails] = useState([]); // Nom de variable corrigé
 
   useEffect(() => {
     fetch('/api/references?action=list')
       .then((response) => response.json())
       .then((allReferences) => {
-        // Filtrer les références pour ne conserver que celles impliquant l'auteur actuel
         const filteredReferences = allReferences.filter(
-          (reference) => reference.team.includes(author), // Assurez-vous que 'author' correspond à un identifiant dans 'team'
+          (reference) => reference.team.includes(author),
         );
         setReferencesDetails(filteredReferences);
       })
@@ -29,6 +30,17 @@ const AuthorPage = () => {
         console.error('Failed to fetch references:', error);
       });
   }, [author]);
+
+  useEffect(() => {
+    fetch(`/api/research-projects?action=list`)
+      .then(response => response.json())
+      .then(allResearch => {
+        const filteredResearch = allResearch.filter(research => research.team.includes(author));
+        setResearchDetails(filteredResearch);
+      })
+      .catch(error => console.error('Failed to fetch research:', error));
+  }, [author]);
+
 
   useEffect(() => {
     fetch(`/sitedata/authors.json`)
@@ -130,6 +142,22 @@ const AuthorPage = () => {
               )}
             </div>
           </div>
+          {researchDetails.length > 0 && (
+            <>
+              <div className={styles.authorSectionTitle}>Projets de recherche</div>
+              {researchDetails.map(research => (
+                <Gallery key={research.id}>
+                  <ResearchCard
+                    key={research.id}
+                    id={research.id}
+                    title={research.title}
+                    partnerNames={research.partners.map(partner => partner.name)}
+                  />
+                </Gallery>
+              ))}
+            </>
+          )}
+
           {authorDocs.length > 0 && (
             <>
               <div className={styles.authorSectionTitle}>Contributions</div>

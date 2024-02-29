@@ -286,7 +286,8 @@
   .referenceTitle {
     margin-left: 15px; /* Ajoutez un peu d'espace entre les logos et le titre */
     flex-grow: 1; /* Permet au titre de prendre tout l'espace disponible */
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    color: #424242;
   }
   

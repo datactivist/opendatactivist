@@ -8,20 +8,23 @@ const RenderTagButtons = (tags, tagRoute) => {
   const router = useRouter();
 
   // Split string into array if necessary
-  const tagsArray = typeof tags === 'string' ? tags.split(',').map(tag => tag.trim()) : tags;
+  const tagsArray =
+    typeof tags === 'string' ? tags.split(',').map((tag) => tag.trim()) : tags;
 
-  return tagsArray && tagsArray.length > 0 ? tagsArray.map((tag) => (
-    <button
-      key={tag}
-      onClick={(e) => {
-        e.stopPropagation();
-        router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
-      }}
-      className={tagStyles.tag}
-    >
-      {tag}
-    </button>
-  )) : null;
+  return tagsArray && tagsArray.length > 0
+    ? tagsArray.map((tag) => (
+        <button
+          key={tag}
+          onClick={(e) => {
+            e.stopPropagation();
+            router.push(`/${tagRoute}?tag=${encodeURIComponent(tag)}`);
+          }}
+          className={tagStyles.tag}
+        >
+          {tag}
+        </button>
+      ))
+    : null;
 };
 
 const formatDateToNow = (dateString) => {
@@ -44,7 +47,7 @@ const Cards = ({
   tagRoute,
   showTags = true,
   showDate = true,
-  showAuthors = true
+  showAuthors = true,
 }) => {
   console.log(onClick);
   const router = useRouter();
@@ -78,18 +81,37 @@ const Cards = ({
       }
     }
   };
-  
 
   const handleAuthorClick = (authorId) => {
     router.push(`/docs?author=${encodeURIComponent(authorId)}`);
   };
 
+  const renderAuthorImages = (authorImages) => {
+    const images = authorImages.split(',').map((image) => image.trim());
+
+    return images.map((image, index) => (
+      <img
+        key={index}
+        src={image.startsWith('images/') ? `/${image}` : image}
+        alt="Author"
+        style={{
+          width: '50px',
+          height: '50px',
+          borderRadius: '50%',
+          marginRight: '5px',
+        }}
+      />
+    ));
+  };
+
   return (
     <>
-       {items.map((item) => (
+      {items.map((item) => (
         <div
           key={item['name'] || item.productId || item.id}
-          className={item.url ? `${styles.card} ${styles['card-link']}` : styles.card}
+          className={
+            item.url ? `${styles.card} ${styles['card-link']}` : styles.card
+          }
           onClick={() => handleCardClick(item)}
           style={{ position: 'relative' }}
         >
@@ -97,11 +119,18 @@ const Cards = ({
             <img
               src="/icons/pin.png"
               alt="Pin"
-              style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000, height: '30px', width: 'auto' }}
+              style={{
+                position: 'absolute',
+                top: 10,
+                left: 10,
+                zIndex: 1000,
+                height: '30px',
+                width: 'auto',
+              }}
             />
           )}
-  
-  {item.url ? (
+
+          {item.url ? (
             <div className={styles['card-link']}>
               {/* Image */}
               {item.image && (
@@ -112,28 +141,40 @@ const Cards = ({
                 />
               )}
 
-              {/* Content */}
-              <div className={styles['card-link-content']} style={item.type === 'tod' ? { flexGrow: 1 } : null}>
-                <h3 style={item.type === 'tod' ? { flexGrow: 1 } : null}>{item.title}</h3>
+              <div
+                className={styles['card-link-content']}
+                style={item.type === 'tod' ? { flexGrow: 1 } : null}
+              >
+                <h3 style={item.type === 'tod' ? { flexGrow: 1 } : null}>
+                  {item.title}
+                </h3>
                 {/* "Rejoindre la discussion" button for items with type="tod" */}
                 {item.type === 'tod' && (
                   <button
-                    onClick={() => {/* Logic to handle button click */}}
+                    onClick={() => {
+                      /* Logic to handle button click */
+                    }}
                     className={styles['discussion-button']}
                   >
                     Rejoindre la discussion
                   </button>
                 )}
                 {item.type !== 'tod' && <p>{item.description}</p>}
-                {item.type !== 'tod' && showTags && RenderTagButtons(item.tags, tagRoute)}
+                {item.type !== 'tod' &&
+                  showTags &&
+                  RenderTagButtons(item.tags, tagRoute)}
                 {/* Tags, Authors, and Date */}
                 {showTags && RenderTagButtons(item.tags, tagRoute)}
-                {showAuthors && item.authors && (
-                  <Authors
-                    authorIds={item.authors}
-                    onAuthorClick={handleAuthorClick}
-                    onlyDatactivist={true}
-                  />
+                {showAuthors && item.author_image && (
+                  <div
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      marginTop: '10px',
+                    }}
+                  >
+                    {renderAuthorImages(item.author_image)}
+                  </div>
                 )}
                 {showDate && item.date && (
                   <div className={styles.date}>
@@ -143,7 +184,6 @@ const Cards = ({
               </div>
             </div>
           ) : (
-            // Layout for non-link cards
             <>
               {item.image && (
                 <img
@@ -152,10 +192,9 @@ const Cards = ({
                   className={styles['card-image']}
                 />
               )}
-  
+
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              {/* Tags, Authors, and Date */}
               {showTags && RenderTagButtons(item.tags, tagRoute)}
               {showAuthors && item.authors && (
                 <Authors
@@ -175,8 +214,6 @@ const Cards = ({
       ))}
     </>
   );
-  
 };
 
 export default Cards;
-

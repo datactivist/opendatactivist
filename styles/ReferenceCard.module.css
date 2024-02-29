@@ -11,20 +11,26 @@
     height: 150px;
     padding: 16px;
     transition: transform 0.2s ease-in-out;
+    margin-bottom: 16px;
+    width: 100%;
 }
+
+.cardLink {
+    width: 100%; /* Assurez-vous que le lien prend toute la largeur */
+    text-decoration: none; /* Optionnel : supprime le soulignement des liens */
+}
+
 
 .card:hover {
     transform: scale(1.02);
-    /* Increase scale on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.133);
-    /* Add shadow on hover */
 }
 
 .cardImageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Exemple de hauteur fixe */
+    height: 50px;
   }
   
   .cardImage {
@@ -35,15 +41,23 @@
 
 .cardContent {
     padding: 16px;
-    flex: 1;
-    /* Let the content take up the remaining space */
+    flex: 1.5;
 }
 
 .cardTitle {
     margin: 0;
     margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    color: #424242;
+}
+
+.researchcardTitle {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
 }
 
 .cardPartnerName {
