@@ -44,39 +44,28 @@ export async function getServerSideProps(context) {
 // ...
 const DocsPage = ({ metadata }) => {
   const router = useRouter();
-  const { filename } = router.query;
-
-  const isClient = typeof window !== 'undefined';
+  const imageUrl = `https://open.datactivist.coop${metadata.image.startsWith('/') ? '' : '/'}${metadata.image}`;
 
   return (
     <div>
       <Head>
-        <title>{metadata?.title || 'Default Title'}</title>
-        <meta name="description" content={metadata?.description || 'Default Description'} />
-        {metadata?.image && isClient && (
-          <>
-            <meta property="og:image" content={metadata.image} />
-            <meta property="og:image:width" content="1200" />
-            <meta property="og:image:height" content="630" />
-            <meta property="og:title" content={metadata?.title || 'Default Title'} />
-            <meta property="og:description" content={metadata?.description || 'Default Description'} />
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content={router.asPath} />
-          </>
-        )}
-        {metadata?.image && isClient && (
-          <>
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image" content={metadata.image} />
-            <meta name="twitter:title" content={metadata?.title || 'Default Title'} />
-            <meta name="twitter:description" content={metadata?.description || 'Default Description'} />
-          </>
-        )}
+      <title>{metadata.title || 'Default Title'}</title>
+        <meta name="description" content={metadata.description || 'Default Description'} />
+        <meta property="og:image" content={imageUrl} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:title" content={metadata.title || 'Default Title'} />
+        <meta property="og:description" content={metadata.description || 'Default Description'} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`https://open.datactivist.coop/docs/${router.query.filename}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={imageUrl} />
+        <meta name="twitter:title" content={metadata.title || 'Default Title'} />
+        <meta name="twitter:description" content={metadata.description || 'Default Description'} />
       </Head>
-      <br></br>
-      {filename && <MarkdownDocs filename={filename} metadata={metadata} />}
-    </div>
-  );
+      <br />
+      {router.query.filename && <MarkdownDocs filename={router.query.filename} metadata={metadata} />}
+    </div>  );
 };
 
 export default DocsPage;
