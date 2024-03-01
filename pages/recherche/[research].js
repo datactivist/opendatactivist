@@ -106,8 +106,8 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
         alt="Research"
         style={{
           position: 'absolute',
-          top: 100,
-          left: 250,
+          top: 30,
+          left: 10,
           height: '200px',
           zIndex: 1000,
           rotate: '-10deg',
