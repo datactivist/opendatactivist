@@ -212,9 +212,7 @@ const MarkdownDocs = ({ filename }) => {
   useEffect(() => {
     const fetchReferencesDetails = async () => {
       if (metadata.references_catalog) {
-        // Split the references_catalog string into individual IDs
         const referenceIds = metadata.references_catalog.split(',');
-        // Fetch details for each reference
         const referencesPromises = referenceIds.map((id) =>
           fetch(`/api/referenceDetails?id=${id.trim()}`).then((response) =>
             response.json(),
@@ -222,9 +220,7 @@ const MarkdownDocs = ({ filename }) => {
         );
         Promise.all(referencesPromises)
           .then((referencesDetails) => {
-            // Process and display these details as needed
-            console.log(referencesDetails); // This will log the details for each reference
-            // Set state here if you're storing these details in state
+            console.log(referencesDetails);
           })
           .catch((error) =>
             console.error('Error fetching references details:', error),
@@ -259,6 +255,48 @@ const MarkdownDocs = ({ filename }) => {
     });
   };
 
+  useEffect(() => {
+    const fetchResearchProjectsDetails = async () => {
+      if (metadata.research_projects) {
+        const projectIds = metadata.research_projects.split(',');
+        const projectsPromises = projectIds.map((id) =>
+          fetch(`/api/researchProjectDetails?id=${id.trim()}`).then(
+            (response) => response.json(),
+          ),
+        );
+        Promise.all(projectsPromises)
+          .then((projectsDetails) => {
+            fetchResearchProjectsDetails(projectsDetails);
+          })
+          .catch((error) =>
+            console.error('Error fetching research projects details:', error),
+          );
+      }
+    };
+
+    fetchResearchProjectsDetails();
+  }, [metadata.research_projects]);
+
+  const renderResearchProjects = () => {
+    if (!metadata.research_projects || !metadata.research_projects_titles) return null;
+  
+    const projectIds = metadata.research_projects.split(',');
+    const projectTitles = metadata.research_projects_titles.split(',');
+  
+    return projectIds.map((id, index) => {
+      const title = projectTitles[index] ? projectTitles[index].trim() : 'Voir le projet de recherche';
+      return (
+        <a
+          key={id.trim()}
+          href={`/recherche/${id.trim()}`}
+          className={styles.referenceLink}
+        >
+          <div className={styles.referenceDocContainer}>{title}</div>
+        </a>
+      );
+    });
+  };
+  
   return (
     <Layout>
       <Head>
@@ -293,14 +331,25 @@ const MarkdownDocs = ({ filename }) => {
         </p>
         <br />
         <div className={styles.partnersReferencesContainer}>
-          
           {metadata.references_catalog && (
             <div className={styles.referencesContainer}>
               <h2 className={styles.referenceTitle}>Référence(s)</h2>
               <div>{renderReferences()}</div>
             </div>
           )}
+          {metadata.research_projects && (
+            <div className={styles.referencesContainer}>
+              <img
+                src="/icons/research.png"
+                alt="Research Sticker"
+                className={styles.sticker}
+              />
+              <h2 className={styles.referenceTitle}>Projets de recherche</h2>
+              <div>{renderResearchProjects()}</div>
+            </div>
+          )}
         </div>
+
         <div className={styles.markdownContent}>
           {createContentElements(content)}
         </div>

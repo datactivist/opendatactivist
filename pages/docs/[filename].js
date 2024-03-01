@@ -5,9 +5,8 @@ import dynamic from 'next/dynamic';
 
 
 const MarkdownDocs = dynamic(() => import('../../components/docs/MarkdownDocs'), {
-  ssr: false, // Disable server-side rendering for this component
+  ssr: false,
 });
-// Define a function to fetch the metadata on the server side
 export async function getServerSideProps(context) {
   const { filename } = context.query;
 
@@ -18,15 +17,14 @@ export async function getServerSideProps(context) {
     }
     const data = await response.json();
 
-    // Set a default image URL if metadata.image is missing
-    const defaultImageUrl = 'https://open.datactivist.coop/images/default-image-url.png'; // Replace with your default image URL
+    const defaultImageUrl = 'https://open.datactivist.coop/images/default-image-url.png';
 
     return {
       props: {
         metadata: {
           title: data.metadata.title || 'Default Title',
           description: data.metadata.description || 'Default Description',
-          image: data.metadata.image || defaultImageUrl, // Use metadata.image if available, or the default image URL
+          image: data.metadata.image || defaultImageUrl,
         },
       },
     };
@@ -37,7 +35,7 @@ export async function getServerSideProps(context) {
         metadata: {
           title: 'Default Title',
           description: 'Default Description',
-          image: 'https://open.datactivist.coop/images/default-image-url.png', // Set a default image URL here if needed
+          image: 'https://open.datactivist.coop/images/default-image-url.png',
         },
       },
     };
@@ -48,7 +46,6 @@ const DocsPage = ({ metadata }) => {
   const router = useRouter();
   const { filename } = router.query;
 
-  // Check if we are running on the client side
   const isClient = typeof window !== 'undefined';
 
   return (
@@ -56,7 +53,6 @@ const DocsPage = ({ metadata }) => {
       <Head>
         <title>{metadata?.title || 'Default Title'}</title>
         <meta name="description" content={metadata?.description || 'Default Description'} />
-        {/* Open Graph / Facebook / LinkedIn */}
         {metadata?.image && isClient && (
           <>
             <meta property="og:image" content={metadata.image} />
@@ -68,7 +64,6 @@ const DocsPage = ({ metadata }) => {
             <meta property="og:url" content={router.asPath} />
           </>
         )}
-        {/* Twitter */}
         {metadata?.image && isClient && (
           <>
             <meta name="twitter:card" content="summary_large_image" />

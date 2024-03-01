@@ -16,7 +16,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "dequalin",
+    "research_projects_titles": "DEQUALIN - améliorer la DÉcouvrabilité, la QUALité et l’INtelligibilité des données ouvertes"
   },
   {
     "name": "ameliorer-qualite-documentation",
@@ -35,7 +37,9 @@
     "partners-names": "Futurocité",
     "partners-images": "/images/partners/futurocite.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "atelier-indicateurs-spaser",
@@ -54,7 +58,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "barometre-data-territoires-2023",
@@ -73,7 +79,9 @@
     "partners-names": "Observatoire Data Publica",
     "partners-images": "/images/partners/observatoire-data-publica.png",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "benchmark-data-culture",
@@ -92,7 +100,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "benchmark-datalab",
@@ -111,7 +121,9 @@
     "partners-names": "Bordeaux Métropole",
     "partners-images": "/images/partners/metropole-bordeaux.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "benchmark-ort",
@@ -130,7 +142,9 @@
     "partners-names": "Région Sud",
     "partners-images": "/images/partners/region-sud.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "biblio-opendata-culture",
@@ -149,7 +163,9 @@
     "partners-names": "Ministère de la Culture",
     "partners-images": "/images/partners/ministere-culture.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "bibliotheque-datactivist",
@@ -168,7 +184,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "boite-outils-datactivist",
@@ -187,7 +205,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "cahier-standardisation",
@@ -206,7 +226,9 @@
     "partners-names": "Observatoire Data Publica",
     "partners-images": "/images/partners/observatoire-data-publica.png",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "standardisation-donnees-ouvertes,standardisation-feminicides",
+    "research_projects_titles": "La standardisation des données ouvertes : facteurs de succès et bonnes pratiques, La standardisation des données des féminicides"
   },
   {
     "name": "cartes-fresque-opendata",
@@ -225,7 +247,9 @@
     "partners-names": "Bercy Hub",
     "partners-images": "/images/partners/mefr.jpeg",
     "references_catalog": "fresque-mefr",
-    "reference-title": "Ingénierie, construction et animation d’une fresque des données ouvertes"
+    "reference-title": "Ingénierie, construction et animation d’une fresque des données ouvertes",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "carto-ensembles-data-territoires",
@@ -244,7 +268,9 @@
     "partners-names": "Banque des Territoires",
     "partners-images": "/images/partners/banque-des-territoires.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "carto-sante-travail",
@@ -263,7 +289,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "check-list-hackathon",
@@ -282,7 +310,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "hackathon-infrabel,hackathon-ademe,challenge-sgl,challenge-rouen,hackathon-amif,hackathon-ditp",
-    "reference-title": "Hackathon Infrabel, Hackathon Databât, Challenge data - Sciences-Po St-Germain-en-Laye, Challenge data - Rouen-Normandie, Hackathon des territoires, Hackathon Covid"
+    "reference-title": "Hackathon Infrabel, Hackathon Databât, Challenge data - Sciences-Po St-Germain-en-Laye, Challenge data - Rouen-Normandie, Hackathon des territoires, Hackathon Covid",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-dataviz",
@@ -301,7 +331,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-1",
@@ -320,7 +352,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-2",
@@ -339,7 +373,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-3",
@@ -358,7 +394,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-4",
@@ -377,7 +415,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-5",
@@ -396,7 +436,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-6",
@@ -415,7 +457,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-7",
@@ -434,7 +478,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-8",
@@ -453,7 +499,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-9",
@@ -472,7 +520,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees-section-91",
@@ -491,7 +541,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "culture-generale-donnees",
@@ -510,7 +562,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "data-cooperation-internationale",
@@ -529,7 +583,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "data-literacy",
@@ -548,7 +604,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "data-spectrum-odi",
@@ -567,7 +625,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "data-transports-mali",
@@ -586,7 +646,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datagramme-1",
@@ -605,7 +667,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datasheets-datasets",
@@ -624,7 +688,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "demo-doc",
@@ -643,7 +709,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "demo-open-refine",
@@ -662,7 +730,9 @@
     "partners-names": "Ministère de la Culture",
     "partners-images": "/images/partners/ministere-culture.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "dix-choses-incroyables-opendata",
@@ -681,7 +751,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "enjeux-donnees-urbaines",
@@ -700,7 +772,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "enjeux-opendata-culture",
@@ -719,7 +793,9 @@
     "partners-names": "Ministère de la Culture",
     "partners-images": "/images/partners/ministere-culture.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "evaluer-open-data",
@@ -738,7 +814,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "experimentation-algo-lille",
@@ -757,7 +835,9 @@
     "partners-names": "Métropole Européenne de Lille",
     "partners-images": "/images/partners/metropole-lille.jpeg",
     "references_catalog": "algo-mel",
-    "reference-title": "Accompagnement à l’ouverture d’algorithmes OpenAlgo"
+    "reference-title": "Accompagnement à l’ouverture d’algorithmes OpenAlgo",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "expo-smartcity-images",
@@ -776,7 +856,9 @@
     "partners-names": "CIVITEO, Gens d'évènements",
     "partners-images": "/images/partners/civiteo.jpeg, /images/partners/gens-evenement.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "factualite",
@@ -795,7 +877,9 @@
     "partners-names": "Infolab du Grand Poitiers",
     "partners-images": "/images/partners/infolab.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "formation-oraccle",
@@ -814,7 +898,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "fresque-opendata-images",
@@ -833,7 +919,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "greenpeace-crowdsourcing",
@@ -852,7 +940,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "identification-gisements-donnees",
@@ -871,7 +961,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "impact-ia-travail",
@@ -890,7 +982,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "lexique-opendata",
@@ -909,7 +1003,9 @@
     "partners-names": "Bercy Hub",
     "partners-images": "/images/partners/mefr.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "livret-fresque-opendata",
@@ -928,7 +1024,9 @@
     "partners-names": "Bercy Hub",
     "partners-images": "/images/partners/mefr.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "nettoyer-donnees",
@@ -947,7 +1045,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "opendata-cheatsheet",
@@ -966,7 +1066,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "opendata-pipeline",
@@ -985,7 +1087,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "organiser-sprint-data",
@@ -1004,7 +1108,9 @@
     "partners-names": "Infolab du Grand Poitiers",
     "partners-images": "/images/partners/infolab.jpeg",
     "references_catalog": "challenge-sgl,challenge-rouen",
-    "reference-title": "Challenge data - Sciences-Po St-Germain-en-Laye, Challenge data - Rouen-Normandie"
+    "reference-title": "Challenge data - Sciences-Po St-Germain-en-Laye, Challenge data - Rouen-Normandie",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "ouverture-commande-publique",
@@ -1023,7 +1129,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "ouvrir-donnees-transports",
@@ -1042,7 +1150,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "panorama-formats-dataviz",
@@ -1061,7 +1171,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "presentation-gtfs",
@@ -1080,7 +1192,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "r-ou-python",
@@ -1099,7 +1213,9 @@
     "partners-names": "DREAL Grand Est",
     "partners-images": "/images/partners/prefet-grand-est.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "standard-archives-publiques",
@@ -1118,7 +1234,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "standards-territoires",
@@ -1137,7 +1255,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "strategie-alternative-reutilisation",
@@ -1156,7 +1276,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datagramme-valorisation-1",
@@ -1175,7 +1297,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datagramme-valorisation-2",
@@ -1194,7 +1318,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datagramme-valorisation-3",
@@ -1213,7 +1339,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "datagrammes-valorisation",
@@ -1232,7 +1360,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "tableau-periodique",
@@ -1251,7 +1381,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "kit-demarrage-inosc",
@@ -1270,7 +1402,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "chatgpt-blade-runner",
@@ -1289,7 +1423,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "donnees-ia-introduction",
@@ -1308,7 +1444,9 @@
     "partners-names": "",
     "partners-images": "",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "cycle-formation-opendata",
@@ -1327,7 +1465,9 @@
     "partners-names": "Bercy Hub",
     "partners-images": "/images/partners/mefr.jpeg",
     "references_catalog": "",
-    "reference-title": ""
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": ""
   },
   {
     "name": "mediation-algorithmes",
@@ -1346,6 +1486,8 @@
     "partners-names": "La MedNum",
     "partners-images": "/images/partners/mednum.png",
     "references_catalog": "diagnostic-artificialisation",
-    "reference-title": "Accompagnement à la publication et médiation des algorithmes"
+    "reference-title": "Accompagnement à la publication et médiation des algorithmes",
+    "research_projects": "mediation-algorithmes",
+    "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique."
   }
 ]
