@@ -23,21 +23,18 @@ const DocsGallery = () => {
   useEffect(() => {
     const fetchDocsMetadata = async () => {
       try {
-        // Update to the new API endpoint
         const response = await fetch('/api/docscatalog?action=metadatalist');
         const data = await response.json();
-  
-        // No need to access a 'metadata' property, as the data is now at the top level
-        setDocsMetadata(data.filter((doc) => doc.index !== '0'));
+    
+        // Modifier ici pour filtrer uniquement les documents avec index = 1
+        setDocsMetadata(data.filter((doc) => doc.index === 1 || doc.index === '1'));
       } catch (error) {
-        console.error(
-          'Erreur lors de la récupération des métadonnées des documents',
-          error,
-        );
+        console.error('Erreur lors de la récupération des métadonnées des documents', error);
       }
     };
     fetchDocsMetadata();
   }, []);
+  
   
 
   useEffect(() => {
