@@ -91,9 +91,9 @@ const ReferencesPage = () => {
                 sept chercheurs mènent des projets de recherche et développement
                 :
               </b>{' '}
-              en <b>sociologie des sciences et techniques</b> : Dr. Samuel
-              Goëta, Allyson Pallisser (doctorant), Dr. Loup Cellard) sciences
-              de gestion et <b>design</b> (Dr. Arthur Sarazin)
+              en <b>sociologie des sciences et techniques</b> (Dr. Samuel
+              Goëta, Allyson Pallisser (doctorant), Dr. Loup Cellard), sciences
+              de gestion et <b>design</b> (Dr. Arthur Sarazin),
               <b>science politique</b> (Joël Gombin, Dr. Elise Ho-Pun-Cheung,
               Dr. Martin Lestra)
             </p>
