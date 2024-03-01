@@ -1,13 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
 import TeamGallery from '../components/nav/TeamGallery';
-import Layout from '../components/Layout'; // Si vous avez un composant Layout pour la mise en page générale
-import styles from '../styles/TeamGallery.module.css'; // Assurez-vous de créer ce fichier CSS
+import Layout from '../components/Layout';
+import dynamic from 'next/dynamic';
+import styles from '../styles/TeamGallery.module.css';
+
+const TeamMapWithNoSSR = dynamic(
+  () => import('../components/dataviz/TeamMap'),
+  {
+    ssr: false,
+  },
+);
 
 const TeamPage = () => {
+  const [viewMode, setViewMode] = useState('list');
+
   return (
-    <Layout> {/* Utilisez votre composant Layout si vous en avez un, sinon supprimez cette ligne */}
-        <h1 className={styles.teamPageTitle}>Notre équipe</h1>
+    <Layout>
+      <h1 className={styles.teamPageTitle}>Notre équipe</h1>
+
+      <div className={styles.switcherContainer}>
+        <div className={styles.switcherContainer}>
+          <button
+            onClick={() => setViewMode('list')}
+            className={`${styles.switchButton} ${
+              viewMode === 'list' ? styles.active : ''
+            }`}
+          >
+            Liste
+          </button>
+          <button
+            onClick={() => setViewMode('map')}
+            className={`${styles.switchButton} ${
+              viewMode === 'map' ? styles.active : ''
+            }`}
+          >
+            Cartographie
+          </button>
+        </div>
+      </div>
+
+      {viewMode === 'list' ? (
         <TeamGallery />
+      ) : (
+        <div className={styles.iframeContainer}>
+          <TeamMapWithNoSSR />
+        </div>
+      )}
     </Layout>
   );
 };
