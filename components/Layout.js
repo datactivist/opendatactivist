@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
     <>
       <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
         <div className={styles.logoContainer}>
-          <Image className={styles.logoDatactivist} src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
+          <Image src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
         </div>
         {windowWidth > 768 ? (
           <nav className={styles.menunav}>
@@ -59,6 +59,17 @@ const Layout = ({ children }) => {
         )}
       </header>
       <main className={styles.mainContent}>{children}</main>
+      <footer className={styles.footer}>
+        <div className={styles.footerIcons}>
+          <Link href="https://www.linkedin.com/company/datactivist" passHref><Image src="/images/footer/linkedin.svg" alt="LinkedIn" width={24} height={24} /></Link>
+          <Link href="mailto:hello@datactivist.coop" passHref><Image src="/images/footer/mail.svg" alt="Mail" width={24} height={24} /></Link>
+          <Link href="https://x.com" passHref><Image src="/images/footer/x.svg" alt="X" width={24} height={24} /></Link>
+        </div>
+        <div className={styles.footerLinks}>
+          <Link href="/partners">Nos partenaires</Link>
+          <Link href="/links">Ressources externes</Link>
+        </div>
+      </footer>
     </>
   );
 };

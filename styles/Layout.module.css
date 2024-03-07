@@ -1,4 +1,3 @@
-/* styles/Layout.module.css */
 .header {
   position: fixed;
   top: 0;
@@ -17,7 +16,7 @@
 }
 
 .hidden {
-  top: -100px; /* Ajustez selon la hauteur de votre header */
+  top: -100px;
 }
 
 .visible {
@@ -49,10 +48,53 @@
   height: auto;
 }
 
-
 .mainContent {
   margin-top: 3rem;
   background-color: #f3f8f9cb;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f3f8f9cb;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footerIcons a {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+  color: #e95459;
 }
 
 @media (max-width: 768px) {
@@ -68,5 +110,9 @@
     padding: 5px;
     margin-top: 5px;
     border: 1px solid #e9e9e9;
+  }
+
+  .footerLinks {
+    flex-direction: column;
   }
 }
