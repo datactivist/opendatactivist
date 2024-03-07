@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
     <>
       <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
         <div className={styles.logoContainer}>
-          <Image src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
+          <Image className={styles.logoDatactivist} src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
         </div>
         {windowWidth > 768 ? (
           <nav className={styles.menunav}>
