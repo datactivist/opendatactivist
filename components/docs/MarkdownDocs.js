@@ -299,6 +299,7 @@ const MarkdownDocs = ({ filename }) => {
   
   return (
     <Layout>
+      <div className={styles.docContainer}>
       <Head>
         <title>{metadata?.title}</title>
         <meta name="description" content={metadata?.description} />
@@ -353,6 +354,7 @@ const MarkdownDocs = ({ filename }) => {
         <div className={styles.markdownContent}>
           {createContentElements(content)}
         </div>
+      </div>
       </div>
     </Layout>
   );

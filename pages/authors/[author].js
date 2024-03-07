@@ -160,7 +160,7 @@ const AuthorPage = () => {
 
           {authorDocs.length > 0 && (
             <>
-              <div className={styles.authorSectionTitle}>Contributions</div>
+              <div className={styles.authorSectionTitle}>Publications</div>
               <Gallery>
                 <Cards
                   items={authorDocs}

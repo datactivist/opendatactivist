@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 .markdownContent {
-  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
   line-height: 1.5;
   padding: 1em;
   background-color: #ffffff;
   font-size: 18px;
+}
+
+.docContainer {
+  margin-top: -25px;
 }
 
 .markdownContent h1,
@@ -46,7 +50,7 @@
 }
 
 .markdownContent a {
-  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
   color: #173541;
   text-decoration: none;
   border-bottom: 1px solid #173541;
@@ -56,7 +60,7 @@
   text-decoration: none;
   list-style: square;
   margin-top: 0.5rem;
-  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #585858;
 }
@@ -82,7 +86,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Bitter", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -120,7 +124,7 @@
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .markdownContent th,

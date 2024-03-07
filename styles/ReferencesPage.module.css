@@ -1,5 +1,6 @@
 .referencePageTitle {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-top: 3rem;
     color: #a3bdc7;
     font-weight: 900;
     text-align: center;
@@ -161,7 +162,7 @@
     background-color: #e4eff4;
     margin-bottom: 2rem;
     padding: 3rem;
-    margin-top: -15px;
+    margin-top: 15px;
   }
   
   .mainTitle {
