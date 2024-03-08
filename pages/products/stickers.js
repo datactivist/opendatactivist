@@ -30,6 +30,10 @@ export default function Produit() {
         url: 'https://odoo.datactivist.coop/nos-stickers/',
         texte: '💖 Commander des stickers',
       },
+      {
+        url: 'https://github.com/datactivist/stickers',
+        texte: '📁 Tous nos stickers sous licence libre',
+      },
     ],
   };
 
