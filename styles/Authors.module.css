@@ -5,7 +5,7 @@
 
   .authorpageTitle, .authorpageTitle a {
     font-size: 2.5rem;
-    color: #abc5cf; 
+    color: #173541; 
     font-weight: 900; 
     text-align: center; 
     margin-top: 0rem;
@@ -18,14 +18,14 @@
   }
 
   .authorpageTitle a:hover {
-    color: #819da8;
+    color: #E95459;
     text-decoration: underline;
   }
   
   .partnerpageTitle {
     font-size: 3.5rem;
     margin-top: 3rem;
-    color: #a3bdc7; 
+    color: #173541; 
     font-weight: 900; 
     text-align: center; 
     font-family: 'Montserrat', sans-serif;

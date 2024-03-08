@@ -38,6 +38,7 @@ const ReferencesPage = () => {
 
   return (
     <Layout>
+            <div className={styles.referenceGrid}>
       <h1 className={styles.referencePageTitle}>Nos références</h1>
       <div className={styles.buttonContainer}> {/* Use buttonContainer for the div containing the buttons */}
         {uniqueTypes.map((type, index) => (
@@ -65,6 +66,7 @@ const ReferencesPage = () => {
           </Link>
         ))}
       </div>
+    </div>
     </Layout>
   );
   };

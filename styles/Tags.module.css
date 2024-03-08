@@ -61,12 +61,12 @@
 }
 
  .customButton:hover {
-  background: linear-gradient(45deg, #8eb9c7 30%, #8eb9c7 90%);
+  background: linear-gradient(45deg, #4ED9CC 30%, #4ED9CC 90%);
   color: #fff !important;
 }
 
  .customButton:active {
-  background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+  background: linear-gradient(45deg, #4ED9CC 30%, #4ED9CC 90%);
 }
 
 .tagButton {
