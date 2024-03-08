@@ -16,6 +16,7 @@ const TeamPage = () => {
 
   return (
     <Layout>
+      <div className={styles.teamPage}>
       <h1 className={styles.teamPageTitle}>Notre équipe</h1>
 
       <div className={styles.switcherContainer}>
@@ -46,6 +47,7 @@ const TeamPage = () => {
           <TeamMapWithNoSSR />
         </div>
       )}
+          </div>
     </Layout>
   );
 };

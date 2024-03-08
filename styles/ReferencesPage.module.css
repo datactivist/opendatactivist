@@ -1,7 +1,7 @@
 .referencePageTitle {
     font-size: 3.5rem;
     margin-top: 3rem;
-    color: #a3bdc7;
+    color: #ffffff;
     font-weight: 900;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -19,6 +19,9 @@
     max-width: 1400px;
     margin: auto;
 }
+
+.referenceGrid {
+  background-color: #173541;}
 
 .referenceCard {
     border: 1px solid #ccc;
@@ -114,15 +117,15 @@
     padding: 10px 20px;
     border-radius: 6px;
     border: none;
-    background-color: #e2ecf4;
-    color: #394d5f;
+    background-color: #ffffff;
+    color: #000000;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .filterButton:hover {
-    background-color: #153652;
-    color: #e2ecf4;
+    background-color: #e95459;
+    color: #ffffff;
 }
 
 .activeFilterButton {
@@ -159,7 +162,7 @@
   }
   
   .introSection {
-    background-color: #e4eff4;
+    background-color: #FFF1EB;
     margin-bottom: 2rem;
     padding: 3rem;
     margin-top: 15px;
@@ -186,7 +189,7 @@
   }
   
   .textBlock {
-    background-color: #e4f0f5;
+    background-color: #FFF1EB;
     padding: 1rem;
     border-radius: 8px;
     color: #1f3c4d;
@@ -195,7 +198,7 @@
   }
 
 .rightTextBlock {
-    background-color: #1f3c4d;
+    background-color: #173541;
     color: #ffffff;
     border-radius: 8px;
     padding: 1rem;

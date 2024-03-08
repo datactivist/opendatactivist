@@ -9,7 +9,7 @@ const DocsIndex = () => {
 
     return (
         <Layout>
-            <div className={styles.docspage} style={{ backgroundColor: '#f9f9f9', marginTop: '-15px', marginBottom:'-15px' }}>
+            <div className={styles.docspage} style={{ backgroundColor: '#173541', marginTop: '-15px', marginBottom:'-15px' }}>
                 <h1 className={styles.blogpageTitle}>Le Blog.</h1>
                 <BlogGallery topicFilter={topic} />
             </div>

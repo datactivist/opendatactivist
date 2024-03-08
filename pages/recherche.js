@@ -112,6 +112,7 @@ const ReferencesPage = () => {
           </div>
         </div>
       </div>
+      <div className={styles.referenceGrid}>
       <h2 className={styles.referencePageTitle}>Nos projets de recherche</h2>
       <div className={styles.referencesContainer}>
         {researchProjects.map((project) => (
@@ -143,6 +144,7 @@ const ReferencesPage = () => {
             </div>
           </Link>
         ))}
+      </div>
       </div>
     </Layout>
   );
