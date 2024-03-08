@@ -41,7 +41,7 @@ Ponctué de cas d'usage et particulièrement accessible, cet ouvrage de Samuel G
       },
       {
         url: 'https://www.lemonde.fr/les-decodeurs/article/2024/03/05/open-data-publique-on-voit-les-limites-des-que-les-donnees-pourraient-remettre-en-cause-le-pouvoir-etabli_6220230_4355770.html',
-        texte: '🔎 Lire l‘artile du Monde',
+        texte: '🔎 Lire l‘article du Monde',
       },
     ],
   };
