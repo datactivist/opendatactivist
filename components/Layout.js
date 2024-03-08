@@ -35,26 +35,26 @@ const Layout = ({ children }) => {
     <>
       <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
         <div className={styles.logoContainer}>
-          <Image className={styles.logoDatactivist} src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
+        <Link href="/" passHref> <Image className={styles.logoDatactivist} src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} /> </Link>
         </div>
         {windowWidth > 768 ? (
           <nav className={styles.menunav}>
             <Link href="/docs">Publications</Link>
             <Link href="/products">Produits</Link>
-            <Link href="/equipe">Équipe</Link>
             <Link href="/references">Références</Link>
             <Link href="/recherche">Recherche</Link>
+            <Link href="/equipe">Équipe</Link>
             <Link href="/blog">Blog</Link>
           </nav>
         ) : (
           <select className={styles.menuselect} onChange={(e) => window.location.href = e.target.value}>
-            <option value="">Menu</option>
-            <option value="/docs">Publications</option>
-            <option value="/products">Produits</option>
-            <option value="/equipe">Equipe</option>
-            <option value="/references">Références</option>
-            <option value="/recherche">Recherche</option>
-            <option value="/blog">Blog</option>
+            <option className={styles.option} value="">Menu</option>
+            <option className={styles.option}value="/docs">Publications</option>
+            <option className={styles.option} value="/products">Produits</option>
+            <option className={styles.option} value="/references">Références</option>
+            <option className={styles.option} value="/recherche">Recherche</option>
+            <option className={styles.option} value="/equipe">Equipe</option>
+            <option className={styles.option} value="/blog">Blog</option>
           </select>
         )}
       </header>

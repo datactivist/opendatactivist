@@ -190,16 +190,16 @@ const DocsGallery = () => {
               <Image
                 src="/icons/gallery.svg"
                 alt="Gallery View"
-                width={34}
-                height={34}
+                width={24}
+                height={24}
                 className={styles.icon}
               />
             ) : (
               <Image
                 src="/icons/list.svg"
                 alt="List View"
-                width={34}
-                height={34}
+                width={24}
+                height={24}
                 className={styles.icon}
               />
             )}

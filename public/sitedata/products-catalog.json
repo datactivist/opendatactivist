@@ -67,6 +67,22 @@
       "public_date": "2020-01-01",
       "topics": ["PGD", "Méthode"],
       "partners": ["urfist-occitanie"]
+    },
+    {
+      "name": "donnees-democratie",
+      "title": "Livre : les données de la démocratie",
+      "description": "Open data, pouvoirs et contre-pouvoirs, un livre de Samuel Goëta",
+      "image": "images/products/donnees-democratie-cover.png",
+      "public_date": "2024-02-01",
+      "topics": ["Livre", "Démocratie", "Pouvoir"]
+    },
+    {
+      "name": "stickers",
+      "title": "Stickers Datactivist",
+      "description": "Le coeur de notre activité produits",
+      "image": "images/products/stickers.png",
+      "public_date": "2016-01-01",
+      "topics": ["Goodies", "Promotion", "Communication"]
     }
   ]
   
