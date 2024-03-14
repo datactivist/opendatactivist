@@ -6,7 +6,7 @@
 
 .docspageTitle {
   font-size: 3.5rem;
-  color: #173541; 
+  color: #ffffff; 
   font-weight: 900; 
   text-align: center; 
   margin-bottom: 10px; 
@@ -16,6 +16,10 @@
   width: 90% ;
   margin-left: auto;
   border-radius: 4px;
+}
+
+.docsPageContainer {
+  background-color: #173541;
 }
 
 .blogpageTitle {

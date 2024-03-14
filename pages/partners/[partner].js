@@ -197,7 +197,7 @@ const PartnerPage = () => {
             </>
           )}
           {partnerResearchProjects.length > 0 && (
-            <div>
+              <div className={styles.researchContainer}>
               <div className={styles.authorSectionTitle}>
                 Projets de recherche
               </div>
@@ -218,6 +218,7 @@ const PartnerPage = () => {
             ) && (
               <div>
                 <div className={styles.authorSectionTitle}>Références</div>
+                <div className={styles.referencesContainer}>
                 {partnerReferences.map((reference) => (
                   <ReferenceCard
                     key={reference.id}
@@ -227,6 +228,7 @@ const PartnerPage = () => {
                     partnerImages={reference['partner-image']}
                   />
                 ))}
+                </div>
               </div>
             )}
         </div>

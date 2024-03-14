@@ -9,8 +9,12 @@ const DocsIndex = () => {
 
   return (
     <Layout>
+      <div className={styles.docsPageContainer}>
       <h1 className={styles.docspageTitle}>Tous nos contenus ouverts</h1>
+      <div className={styles.docsGallery}>
       <DocsGallery topicFilter={topic} />
+      </div>
+      </div>
     </Layout>
   );
 };

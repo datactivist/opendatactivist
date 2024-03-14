@@ -148,13 +148,13 @@
   }
   
   .authorInfo {
-  flex: 1; /* Ajustez selon vos besoins */
+  flex: 1;
   }
   
   .authorBio {
     margin-top: 20px;
     font-style: italic;
-    font-size: 18px;
+    font-size: 16px;
     border-left: 8px solid #e95459;
     padding-left: 20px;  
   }
@@ -255,6 +255,18 @@
     display: grid;
     gap: 1rem;
   }
+
+  .referencesContainer {
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+  }
+
+  .researchContainer {
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+  }
   
   .referenceCard {
     display: flex; /* Utilisez flexbox pour la disposition intérieure */
@@ -334,3 +346,18 @@
     height: 500px;
     border: none;
   }
+
+@media screen and (min-width: 768px) {
+  .referencesContainer {
+    display: flex;
+    margin: auto;
+    min-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .authorInfo {
+    display: block;
+  }
+
+}

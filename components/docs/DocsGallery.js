@@ -254,13 +254,15 @@ const DocsGallery = () => {
         </div>
       )}
       {viewMode === 'list' ? (
+        <div style={{ width: '100%', margin: '0 auto', backgroundColor: '#fff', padding : '50px'}}>
         <ListView
           items={sortedDocs}
           onClick={(linkId, tag) => handleCardClick(linkId, tag)}
           tagRoute="docs"
         />
+        </div>
       ) : (
-        <div style={{ width: '90%', margin: '0 auto' }}>
+        <div style={{ width: '100%', margin: '0 auto', backgroundColor: '#fff', padding : '50px'}}>
           <Gallery>
             <Cards
               items={sortedDocs}
