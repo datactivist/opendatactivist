@@ -1,0 +1,88 @@
+/* presse.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.pressPageTitle {
+    font-size: 3.5rem;
+    color:#173541;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pressPage {
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+.searchInput {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    justify-self: center;
+    font-size: 1.2rem;
+    width: 40%;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    outline: none;
+    color: #b0b0b0;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1250px;
+    margin: auto;
+  }
+  
+.card {
+    display: block;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+    transform: translateY(0);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.029);
+}
+  
+  
+  .mediaImage {
+    max-height: 100px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .articleTitle {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .date {
+    font-size: 0.8rem;
+    color: #848484;
+    font-style: italic;
+  }
+  

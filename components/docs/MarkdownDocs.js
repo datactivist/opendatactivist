@@ -15,6 +15,7 @@ const MarkdownDocs = ({ filename }) => {
   const [metadata, setMetadata] = useState({});
   const [content, setContent] = useState('');
   const [isGalleryExpanded, setIsGalleryExpanded] = useState(false);
+  const [quotes, setQuotes] = useState([]); // Étape 1: État pour les citations
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
@@ -117,6 +118,60 @@ const MarkdownDocs = ({ filename }) => {
       },
     },
   });
+
+  useEffect(() => {
+    const fetchMarkdownContent = async () => {
+      try {
+        const res = await fetch(`/api/metadoc?filename=${filename}`);
+        const data = await res.json();
+  
+        setMetadata(data.metadata);
+        setContent(marked(data.content));
+  
+        if (data.metadata.quotes) {
+          const quoteIds = `${data.metadata.quotes}`.split(',').map(id => id.trim());
+          const quotesData = await Promise.all(quoteIds.map(async (id) => {
+            const quoteRes = await fetch(`/api/quotes?ID=${id}`);
+            return quoteRes.ok ? quoteRes.json() : null;
+          }));
+          setQuotes(quotesData.filter(q => q)); // Filtrer les éventuelles réponses null
+        }
+      } catch (error) {
+        console.error('Error fetching Markdown content and quotes', error);
+      }
+    };
+  
+    fetchMarkdownContent();
+  }, [filename]);
+  
+
+  const formatDate = (dateISO) => {
+    const date = new Date(dateISO);
+    return new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(date);
+  };
+  
+  const renderQuotes = () => {
+    if (quotes.length > 0) {
+      return (
+        <div className={styles.quotesSection}>
+          <h3 className={styles.quotesSectionTitle}>📸 Revue de presse</h3>
+          <div className={styles.quotesGrid}>
+            {quotes.map((quote, index) => (
+              <a key={index} href={quote.Link} className={styles.quoteCard}>
+                <img src={quote.journal_image} alt={quote.Journal} className={styles.quoteImage} />
+                <div className={styles.quoteContent}>
+                  <h2 className={styles.quoteTitle}>{quote.Title}</h2>
+                  <p className={styles.quoteDate}>⏱️ {formatDate(quote['Date published'])}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      );
+    }
+    return null;
+  };
+    
 
   const TitleWithBackground = ({ title, imageUrl }) => {
     const [smallScreen, setSmallScreen] = useState(window.innerWidth <= 768);
@@ -350,10 +405,13 @@ const MarkdownDocs = ({ filename }) => {
             </div>
           )}
         </div>
-
         <div className={styles.markdownContent}>
           {createContentElements(content)}
         </div>
+        <div className={styles.quotesContainer}>
+            {renderQuotes()}
+          </div>
+
       </div>
       </div>
     </Layout>
