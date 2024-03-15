@@ -1,4 +1,4 @@
-﻿id,title,type,team,team-names,team-images,partners,partner-name,partner-description,partner-image,mission,actions,date-debut,duree,reference-link,docs_catalog,research_projects
+﻿id,title,type,team,team-names,team-images,partners,partner-name,partner-description,partner-image,mission,actions,date-debut,duree,reference-link,docs_catalog,research_projects,quotes
 tableaux-issy,Construction de tableaux de bord,Standards,"etienne-pichot-damon,samuel-goeta","Etienne Pichot Damon, Samuel Goëta","/images/authors/etienne-pichot-damon.jpeg, /images/authors/samuel-goeta.jpeg",issy-moulineaux,Ville d'Issy-les-Moulineaux,"Ville pionnière en France en matière d’open data, Issy-les-Moulineaux a ouvert un portail en 2012, et l’alimente régulièrement en nouvelles données",/images/partners/issy-moulineaux.png,"Datactivist a accompagné la collectivité dans la préparation de ses données pour réaliser des tableaux de bord partagés. 
 
 Dans la plupart des administrations, les différents services maintiennent des tableaux de suivis de leur activité. Problème : ces tableaux sont dans des formats différents selon les services. Chaque année, les indicateurs sont à recalculer, et donc le travail de mise à jour prend du temps. 
@@ -16,7 +16,7 @@ Cartographie des données à utiliser
 Structuration, formatage et publication de 50 jeux de données qui alimentent les tableaux de bord
 
 Rédaction d’un guide
-méthodologique, publié sous la forme d’un billet de blog",2019-04-01,3 mois,https://data.issy.com/pages/tableaux-de-bord-issy/,,
+méthodologique, publié sous la forme d’un billet de blog",2019-04-01,3 mois,https://data.issy.com/pages/tableaux-de-bord-issy/,,,
 analyse-respire,Analyse et publication de données,Data analyse,"sylvain-lapoix,joel-gombin,mathieu-morey","Sylvain Lapoix, Joël Gombin, Mathieu Morey","/images/authors/sylvain-lapoix.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/mathieu-morey.jpeg",association-respire,Association Respire,"Respire est une association de citoyens, fondée en février 2011, dédiée à l’amélioration de la qualité de l’air
 ",/images/partners/association-respire.png,"Pour sensibiliser le grand public à l’exposition des plus jeunes à la pollution, Datactivist a accompagné Respire dans sa campagne: De l’air pour nos enfants”.
 
@@ -32,7 +32,7 @@ Réalisation d’une cartographie de la pollution de l’air dans les écoles
 
 Publication des données en open data
 
-Production des supports de communication pour la campagne",2019-01-01,7 mois,,,
+Production des supports de communication pour la campagne",2019-01-01,7 mois,,,,"67,68,70,73"
 algo-mel,Accompagnement à l’ouverture d’algorithmes OpenAlgo,Stratégie,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"La MEL a souhaité mener une réflexion exploratoire sur l’ouverture de ses algorithmes publics : quels algorithmes ouvrir, avec quels moyens, comment les identifier au sein de la MEL… ?
 
 Datactivist a accompagné la direction R&D de la Métropole européenne de Lille pour la création d’une méthodologie d’ouverture des algorithmes publics, afin de se conformer aux obligations de la loi Lemaire.
@@ -44,7 +44,7 @@ Publication en ligne de trois algorithmes ; 
 Association constante des services et cadre apprenant tout au long de la mission ;
 
 Documentation de la méthodologie et création d’un commun sur la publication des algorithmes publics
-",2022-04-01,9 mois,https://opendatacanvas.org/transparence-algo,experimentation-algo-lille,
+",2022-04-01,9 mois,https://opendatacanvas.org/transparence-algo,experimentation-algo-lille,,30
 hackathon-infrabel,Hackathon Infrabel,Hackathons,etienne-pichot-damon,Etienne Pichot Damon,/images/authors/etienne-pichot-damon.jpeg,infrabel,Infrabel,"Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018",/images/partners/infrabel.png,"Datactivist a accompagné le gestionnaire du réseau ferroviaire de la Belgique dans l’organisation de son premier hackathon, de A à Z, à l’occasion du lancement de leur portail open data. 
 
 Le programme de la journée a été entièrement co-construit avec le client. 70 participants se sont réunis le 28 avril à Bruxelles, et ont pu découvrir des données inédites (notamment sur le thème des retards des trains). À l’issue de la journée, 10 groupes de participants ont présenté des prototypes d’applications, et des idées d’analyse de nouvelles données. 
@@ -68,7 +68,7 @@ Recherche de participants dans les communauté transports et open data en Belgiq
 
 Animation de la journée, la coordination des différents groupes, aide à l’organisation logistique
 
-",2019-03-01,3 mois,https://infrabel.be/fr/article/lancement-du-portail-open-data-loccasion-du-tout-premier-hackathon,check-list-hackathon,
+",2019-03-01,3 mois,https://infrabel.be/fr/article/lancement-du-portail-open-data-loccasion-du-tout-premier-hackathon,check-list-hackathon,,
 hackathon-ademe,Hackathon Databât,Hackathons,"magalie-dartus,samuel-goeta","Magalie Dartus, Samuel Goëta","/images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg",ademe,Ademe,"L’ADEME est un acteur engagé et reconnu de la transition écologique. Elle participe à la mise en œuvre des politiques publiques dans les domaines de l’environnement, de l’énergie et du développement durable. 
 ",/images/partners/ademe.png,"DataBât est un concours en distanciel construit sur le modèle d’un hackathon mais sur le temps long pour permettre de construire des projets matures autour de la rénovation des bâtiments. 
 
@@ -88,8 +88,8 @@ Recherche, demandes et recueil des données des partenaires. Préparation et mis
 
 Animation et coordination des équipes en distanciel, de l’accueil à la restitution. Valorisation des projets et de l’événement.
 
-",2020-07-01,11 mois,https://databat.ademe.fr/,check-list-hackathon,
-challenge-sgl,Challenge data - Sciences-Po St-Germain-en-Laye,Hackathons,"clement-mandron,arthur-sarazin,maelle-fouquenet,sarah-bourgouin","Clément Mandron, Arthur Sarazin, Maëlle Fouquenet, Sarah Bourgouin","/images/authors/clement-mandron.png, /images/authors/arthur-sarazin.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/sarah-bourgouin.png","anct,sciencespo-sgl","Agence Nationale de la Cohésion des Territoires, Sciences Po Saint-Gremain-en-Laye","L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales., Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT","/images/partners/anct.svg, /images/partners/sciencespo-sgl.png","120 étudiants de Sciences Po Saint-Germain-en-Laye ont ouvert 76 jeux de données pour le compte de 19 collectivités. Ce résultat est le fruit d’une semaine de travail intense au cours de laquelle ils ont mis leurs connaissances et leur énergie au service de l’intérêt général dans le cadre du Challenge Data (qui en est maintenant à sa 4ème édition).
+",2020-07-01,11 mois,https://databat.ademe.fr/,check-list-hackathon,,
+challenge-sgl,Challenge data - Sciences-Po St-Germain-en-Laye,Hackathons,"clement-mandron,arthur-sarazin,maelle-fouquenet,diane-thierry,guillaume-martin,francois-lacombe,laurane-coudriet","Clément Mandron, Arthur Sarazin, Maëlle Fouquenet, Diane Thierry, Guillaume Martin, François Lacombe, Laurane Coudriet","/images/authors/clement-mandron.png, /images/authors/arthur-sarazin.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/diane-thierry.jpeg, /images/authors/guillaume-martin.jpeg, /images/authors/francois-lacombe.png, /images/authors/laurane-coudriet.png","anct,sciencespo-sgl","Agence Nationale de la Cohésion des Territoires, Sciences Po Saint-Gremain-en-Laye","L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales., Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT","/images/partners/anct.svg, /images/partners/sciencespo-sgl.png","120 étudiants de Sciences Po Saint-Germain-en-Laye ont ouvert 76 jeux de données pour le compte de 19 collectivités. Ce résultat est le fruit d’une semaine de travail intense au cours de laquelle ils ont mis leurs connaissances et leur énergie au service de l’intérêt général dans le cadre du Challenge Data (qui en est maintenant à sa 4ème édition).
 
 Chaque collectivité participante a été accompagnée par un groupe de 6 à 7 étudiants de 4e année de Sciences Po Saint-Germain-en-Laye en continu sur la semaine du Challenge Data. 
 
@@ -105,7 +105,7 @@ Mise en place d’un site web pour la documentation du challenge pour les étudi
 
 Conception d’un espace virtuel pour favoriser le travail d’équipe et les interactions entre étudiants, collectivités et experts.
 
-Documentation de l’expérience et analyse des résultats. ",2023-12-01,2 mois,https://challengedata.org/about/,"organiser-sprint-data,check-list-hackathon",
+Documentation de l’expérience et analyse des résultats. ",2023-12-01,2 mois,https://challengedata.org/about/,"organiser-sprint-data,check-list-hackathon",,"1,59"
 challenge-rouen,Challenge data - Rouen-Normandie,Hackathons,"arthur-sarazin,anne-laure-donzel","Arthur Sarazin, Anne-Laure Donzel","/images/authors/arthur-sarazin.png, /images/authors/anne-laure-donzel.jpeg",metropole-rouen,Métropole Rouen-Normandie,La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021.,/images/partners/metropole-rouen-normandie.png,"Le Challenge Data métropolitain reprend les ingrédients clés du challenge data (une immersion dans la publication de données ouvertes) tout en s’adaptant aux contraintes et spécificités d’une collectivité. 
 
 Il s’agit d’accompagner des équipes, dans le cas de la Métropole de Rouen Normandie elles venaient  des services et directions de la Métropole et des communes membres, dans l’ouverture de leurs données  et dans l’alimentation d’un portail open data.
@@ -120,7 +120,7 @@ Animation de 4 ateliers d’ouverture de données : accompagnement des participa
 
 Une trentaine de jeux de données ouverts à l’issu du challenge et publiés sur le portail open 
 
-",2022-06-01,2 mois,,"organiser-sprint-data,check-list-hackathon",
+",2022-06-01,2 mois,,"organiser-sprint-data,check-list-hackathon",,
 conference-afd-geo,Conférence Africaine pour les Données Géospatiales,Hackathons,magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,afd,Agence Française de Développement,L’Agence Française de Développement met en œuvre la politique nationale en matière de développement et de solidarité internationale,/images/partners/afd.jpg,"Datactivist a accompagné l’AFD dans l’organisation d’un premier hackathon à l’étranger, à l’occasion de la Conférence Africaine pour les Données Géospatiales. 
 
 Dans le cadre de son engagement à soutenir l’innovation numérique en tant que nouvelle possibilité d’accélérer les axes de développement, l’AFD a souhaité organiser un hackathon de deux jours à Accra, au Ghana. L’objectif est d’encourager l’utilisation des nouvelles technologies pouvant être utilisés dans d’autres enjeux cruciaux tels que l’évolution de l’agriculture (notamment dans un contexte de réchauffement climatique). 
@@ -144,7 +144,7 @@ Définition et préparation des données ;
 
 Animation et coordination des équipes, de l’accueil à la remise des prix.
 
-",2019-09-01,4 mois,,,
+",2019-09-01,4 mois,,,,
 hackathon-amif,Hackathon des territoires,Hackathons,"arthur-sarazin,etienne-pichot-damon","Arthur Sarazin, Etienne Pichot Damon","/images/authors/arthur-sarazin.png, /images/authors/etienne-pichot-damon.jpeg",amif,Association des Maires d'Île de France,L’Association des Maires d’Île de France assure un rôle de représentation des élus locaux et participe au dynamisme régional.,/images/partners/amif.png,"Datactivist a accompagné l’AMIF dans l’organisation de son premier hackathon des territoires. Un événement qui a répondu aux défis du moment en se déroulant entièrement en ligne et en associant les forces pour travailler sur la gestion de crise.
 
 Ce premier Hackathon Des Territoires avait pour objectifs de mettre à profit l’expérience de la crise sanitaire et de lancer une démarche pro-active de préparation à d’autres formes de crises. Un scénario évolutif a guidé les participants dans l’utilisation de données produites à la fois par les communes d’Ile-de-France pour l’occasion, de données mises à disposition par les partenaires du hackathon, et de données déjà publiées en open data.
@@ -166,7 +166,7 @@ Définition et préparation des données avec les collectivités participantes.
 
 Animation et coordination des équipes en distanciel, de l’accueil aux présentations devant le jury.
 
-",2020-09-01,4 mois,https://amif.asso.fr/communiques-de-presse/hackathon-des-territoires-de-l-amif-une-1ere-edition-100-numerique/,check-list-hackathon,
+",2020-09-01,4 mois,https://amif.asso.fr/communiques-de-presse/hackathon-des-territoires-de-l-amif-une-1ere-edition-100-numerique/,check-list-hackathon,,
 hackathon-ditp,Hackathon Covid,Hackathons,"samuel-goeta,arthur-sarazin","Samuel Goëta, Arthur Sarazin","/images/authors/samuel-goeta.jpeg, /images/authors/arthur-sarazin.png",ditp,Direction Interministérielle de la Transformation publique ,"La Direction Interministérielle de la Transformation publique assure le suivi des réformes du gouvernement et accompagne les acteurs publics dans leurs projets.
 ",/images/partners/ditp.png,"Initié par des acteurs de la société civile et organisé avec le soutien de la Direction Interministérielle de la Transformation Publique dans le cadre du dispositif “gouvernement ouvert”, le Hackathon Covid, avait pour objectif de renforcer les outils et solutions mises à disposition des Français face à la pandémie.
 
@@ -187,7 +187,7 @@ Recherche, demandes, recueil et mise à disposition des données pour les partic
 
 Animation et coordination des équipes en distanciel, de l’accueil à la restitution. Valorisation des projets et de l’événement.
 
-",2021-04-01,3 mois,https://hackathon-covid.fr/restitution,check-list-hackathon,
+",2021-04-01,3 mois,https://hackathon-covid.fr/restitution,check-list-hackathon,,"14,38,48,53"
 diagnostic-artificialisation,Accompagnement à la publication et médiation des algorithmes,Stratégie,"maelle-fouquenet,clement-mandron","Maëlle Fouquenet, Clément Mandron","/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png",beta-gouv,Beta.gouv.fr,Beta.gouv.fr incube des projets numériques à fort impact au sein de l'Etat.,/images/partners/beta-gouv.png,"Nous avons intégré l'équipe de MonDiagArtif' pendant plus de trois mois. 
 
 La mission a requis une compréhension précise des données, et de leur chaîne de traitement (Cerema, DGFIP, IGN, Portail de l'Artificialisation). Nous avons ensuite produit une FAQ, un tutoriel et un parcours utilisateurs (graphiques, textes) les plus clairs possibles. 
@@ -199,13 +199,13 @@ Itérations pour améliorer la documentation, avec des ateliers et entretiens ut
 
 Restitution de la méthode, production d’un guide (réplicabilité) pour qu’elle s’intègre dans le fonctionnement agile de la startup d’Etat.
 
-",2023-09-01,5 mois,,mediation-algorithmes,mediation-algorithmes
+",2023-09-01,5 mois,,mediation-algorithmes,mediation-algorithmes,
 perils-amp,Analyse et géolocalisation des arrêtés de péril,Data analyse,"mathieu-morey,anthony-gigerich","Mathieu Morey, Anthony Gigerich","/images/authors/mathieu-morey.jpeg, /images/authors/anthony-gigerich.jpeg",metropole-amp,Métropole Aix-Marseille-Provence,"La Métropole Aix-Marseille Provence regroupe 92 communes sur 3 173 km2 et compte près de 1,83 millions d’habitants. Il s’agit de la plus grande Métropole de France. ",/images/partners/amp.png,"Afin de mettre en œuvre plusieurs de ses compétences, dont la lutte contre l’habitat indigne, la Métropole Aix-Marseille Provence AMP avait besoin de disposer d’une information fiable sur l’existence ou non d’un arrêté de péril (ou de mise en sécurité) à une adresse.
 Les services de l’État partagent cette problématique, compte-tenu de leur compétence en matière d’insalubrité, de saturnisme et de la coordination de lutte contre l’habitat indigne.
 Le présent projet avait pour objectif de combler ce manque en réalisant une base de données recensant les arrêtés existants sur le territoire de la métropole Aix-Marseille Provence, alimentée par un outil logiciel.","Constitution d’une base d’arrêtés annotés pour guider et valider le développement des modules logiciels.
 Extraction, nettoyage et transformation des textes en données.
 Mise en place de scripts et maintenance.
-Publication du code source et du guide d’annotation.",2022-10-01,12 mois,https://ohmamp.github.io/geo_arrete_peril_amp/,,
+Publication du code source et du guide d’annotation.",2022-10-01,12 mois,https://ohmamp.github.io/geo_arrete_peril_amp/,,,
 data-gouv-amp,AMO gouvernance de la donnée,Stratégie,"anne-laure-donzel,joel-gombin","Anne-Laure Donzel, Joël Gombin","/images/authors/anne-laure-donzel.jpeg, /images/authors/joel-gombin.jpeg",metropole-amp,Métropole Aix-Marseille-Provence,"La Métropole Aix-Marseille Provence regroupe 92 communes sur 3 173 km2 et compte près de 1,83 millions d’habitants. Il s’agit de la plus grande Métropole de France. ",/images/partners/amp.png,"La Métropole Aix-Marseille-Provence était confrontée au besoin de structurer la circulation et la gouvernance de la donnée en son sein.
 Au sein de la Métropole, plusieurs services étaient chargés de la gestion des données et il n’existait pas de catalogue unifié des données, ni de process partagé et accepté de collecte et de validation (notamment par les métiers) des données.
 Le premier enjeu était donc de mettre en place une organisation, des process et des outils permettant une maîtrise par la DGA INSI du patrimoine de données de la Métropole.
@@ -213,7 +213,7 @@ Dans le même temps, il apparaissait nécessaire d’imaginer, à très court te
 ","État des lieux, permettant de comprendre la situation actuelle et d’identifier les difficultés mais aussi les opportunités.
 Elaboration d'une stratégie et de préparation d’une délibération-cadre.
 Co-construction au sein de la DGA INSI et, ponctuellement, avec des directions métiers du processus de la donnée à la Métropole.
-Opérationnalisation de la démarche (feuille de route, clausier, et charte data).",2021-06-01,12 mois,,,
+Opérationnalisation de la démarche (feuille de route, clausier, et charte data).",2021-06-01,12 mois,,,,
 cat-dgddi,Assistance pour une mission de catalogage,Catalogage de données,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,dgddi,Direction Générale des Douanes et des Droits Indirects,"La DGDDI est une direction du ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique. La fonction de douane est fondamentalement régalienne. Tous les États du monde connaissent ce même besoin de douane : dès lors que des marchandises franchissent les frontières et circulent, alors il y a un besoin pour l’Etat de les connaître, de les taxer, de les contrôler, de les intercepter, et de les prendre en statistique. 
 
 L’identité de la douane est ainsi construite autour de deux piliers, qui parfois se rejoignent, mais constituent chacun une identité forte : la frontière et la marchandise.",/images/partners/dgddi.png,"La DGDDI, de par ses missions, produit et gère de nombreuses données. Elle est également dans une phase une transformation numérique de ses activités, notamment en améliorant les usages des données.
@@ -223,7 +223,7 @@ Le périmètre d’action se limitait à quelques bases de données de la DGDDI.
 Catalogage de bases de données : structure du catalogue, enrichissement de métadonnées, qualification des données.
 Mise en place d’une méthodologie de catalogage.
 Documentation et diffusion de cette méthodologie.
-",2021-01-01,6 mois,,,
+",2021-01-01,6 mois,,,,
 accult-metropole-rouen,Accompagnement à l’acculturation à la donnée,Acculturation,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,metropole-rouen,Métropole Rouen-Normandie,La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021.,/images/partners/metropole-rouen-normandie.png,"Cette mission a eu pour but d’accompagner la Métropole Rouen Normandie dans la diffusion d’une culture de la donnée à destination des différents acteurs de la démarche d’ouverture des données.
 La Métropole Rouen Normandie porte plusieurs projets numériques ambitieux qui sont alimentés par les données et elle bénéficie d’un écosystème dynamique. Elle éprouvait le besoin de mettre en place une culture de la donnée partagée à l’échelle de son territoire. 
 Pour cela, elle a choisi de confier une mission à Datactivist pour :
@@ -232,7 +232,7 @@ Pour cela, elle a choisi de confier une mission à Datactivist pour :
 - Favoriser l’engagement des citoyens
 Un ensemble d’actions de sensibilisation et d’acculturation a donc été proposé aux différents acteurs : agents de la Métropole, représentants des communes membres et même à destination du grand public.","Animation pour les agents de la Métropole : ateliers participatifs, challenge data…
 Animation pour les communes membres : ateliers thématiques, challenge data…
-Animation pour le grand public : concertation sur le portail open data, conférence.",2022-01-01,24 mois,,,
+Animation pour le grand public : concertation sur le portail open data, conférence.",2022-01-01,24 mois,,,,
 anim-fonc-mefr,Journée de facilitation sur les données foncières et démarche de circulation des données entre administration,Acculturation,"maelle-fouquenet,clement-mandron,magalie-dartus,samuel-goeta,francois-lacombe","Maëlle Fouquenet, Clément Mandron, Magalie Dartus, Samuel Goëta, François Lacombe","/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg, /images/authors/francois-lacombe.png",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Cette mission a pour but de  préparer et d'animer une journée de facilitation entre administrations pour mutualiser et faciliter la circulation de données foncières détenues par la DGFIP.
 La journée de facilitation a réuni divers acteurs, notamment des startups d'État, des membres du MEFSIN (BercyHub et DGFIP), le Cerema, la DGALN du MTE, etc. 
 Il s'agissait de cartographier les demandes de données, les données et les acteurs du projet afin d'avoir un point de connaissance unique.
@@ -242,7 +242,7 @@ Ateliers de coaching pour préparer les besoins en données et les pitchs des pr
 Réunions avec les producteurs de données pour préparer les ateliers de la journée
 Préparation et animation de la journée, notamment des ateliers pour mettre en place des actions communes sur les long, moyen et court termes
 Production des outils au service de la démarche de circulation : fiches actions, frise chronologique des actions, cartographie mise à jour, identification des solutions, etc.
-",2023-03-01,3 mois,,,
+",2023-03-01,3 mois,,,,
 fdr-mefr,"Accompagnement à la mise à jour de la feuille de route données, algorithmes et codes sources",Stratégie,"clement-mandron,anne-laure-donzel,maelle-fouquenet,samuel-goeta","Clément Mandron, Anne-Laure Donzel, Maëlle Fouquenet, Samuel Goëta","/images/authors/clement-mandron.png, /images/authors/anne-laure-donzel.jpeg, /images/authors/maelle-fouquenet.jpeg, /images/authors/samuel-goeta.jpeg",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Cette mission a pour but de mettre à jour la feuille de route des données du ministère de l'économie. Elle a été menée en coopération avec Tasmane (mandataire), spécialisé sur la transformation numérique.
 Une première étape a été de dresser le bilan de la feuille de route 2021-2023 à travers des entretiens directionnels.
 Datactivist a produit une analyse comparée des feuilles de route des autres ministères, et à mener une veille sur l'open data au niveau européen. Cela a permis de proposer des actions pour enrichir la feuille de route.
@@ -250,7 +250,7 @@ Datactivist a produit une analyse comparée des feuilles de route des autres min
 Entretiens directionnels pour dresser le bilan de la feuille de route 2021-2023.
 Préparation et animation des ateliers de co-construction de la feuille de route avec les directions.
 Rédaction de la feuille de route.
-",2023-01-01,9 mois,,,
+",2023-01-01,9 mois,,,,
 accult-mefr,"Ingénierie, construction et animation d’un cycle d’acculturation à la donnée pour les agents",Acculturation,"clement-mandron,maelle-fouquenet,sarah-bourgouin,laurane-coudriet,magalie-dartus","Clément Mandron, Maëlle Fouquenet, Sarah Bourgouin, Laurane Coudriet, Magalie Dartus","/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/sarah-bourgouin.png, /images/authors/laurane-coudriet.png, /images/authors/magalie-dartus.jpeg",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Cette mission a pour but de créer le parcours complet d’acculturation à la donnée ouverte. L’intervention était complète : de l'ingénierie pédagogique jusqu’à l’animation du cycle.
 Le cycle d’acculturation a été construit dans une logique d’itération avec les clients. 
 
@@ -259,7 +259,7 @@ Construites sur des formats pédagogiques divers et très interactifs, les sessi
 Animation de plusieurs cycles de formation devant différents publics.
 
 Création du contenu des séances de formation sur un format très interactif. Production de supports qui permettent de produire du contenu utilisable après la formation par les équipes.
-",2022-09-01,24 mois,,,
+",2022-09-01,24 mois,,,,
 fresque-mefr,"Ingénierie, construction et animation d’une fresque des données ouvertes",Acculturation,"maelle-fouquenet,clement-mandron,samuel-goeta","Maëlle Fouquenet, Clément Mandron, Samuel Goëta","/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png, /images/authors/samuel-goeta.jpeg",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Dans le cadre de la construction d'un cycle complet d'acculturation à la donnée, Datactivist a construit la fresque des données ouvertes comme une première session introductive.
 Inspirée de la celle du climat, notre fresque des données ouvertes a été co-conçue avec le Bercyhub.
 
@@ -267,7 +267,7 @@ Cet atelier permet de découvrir les grands principes de l’ouverture des donn�
 Notre méthode d’animation s’appuie sur la co-construction, le partage et l’échange de connaissances entre participants. Ces derniers sont actifs durant l’atelier qui favorise l’apprentissage.","Conception d’un jeu de cartes spécifiques à la thématique de l’open data, répondant aux objectifs pédagogiques d’acculturation, pour tout public. Conception d’un livret récapitulatif à destination des participants.
 Création du contenu et de l’animation dans ce format très interactif. Production de supports plastifiés et des livrets.
 Animation de plusieurs sessions devant différents publics.
-",2022-09-01,24 mois,,cartes-fresque-opendata,
+",2022-09-01,24 mois,,cartes-fresque-opendata,,2
 etude-metiers-mesr,Étude sur les métiers de la donnée dans l’ESR,"Data analyse,Science ouverte","elise-ho-pun-cheung,diane-thierry,candice-fillaud,antoine-blanchard","Elise Ho-Pun-Cheung, Diane Thierry, Candice Fillaud, Antoine Blanchard","/images/authors/elise-ho-pun-cheung.jpeg, /images/authors/diane-thierry.jpeg, /images/authors/candice-fillaud.png, /images/authors/antoine-blanchard.png",mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Le Ministère souhaitait disposer d’une étude des métiers de la donnée, surtout les métiers invisibles de la donnée, notamment au-delà du métier de data scientist.
 À partir de cette étude, le Ministère pourra formaliser un socle de compétences et offrir des trajectoires de reconversion, de formation.
 Cette étude a contribué à la documentation du travail des nouveaux·elles expert·e·s des données de la recherche. Les constats émis à partir de cette étude sont : 
@@ -279,7 +279,7 @@ Cette étude a contribué à la documentation du travail des nouveaux·elles exp
 ","Étude bibliographique : établir la nomenclature des activités de la donnée dans la recherche et pour produire un état de l’art.
 Enquête par questionnaire, entretiens et focus group : Enquêter différents environnements de recherche pour comprendre les pratiques de la donnée des répondants, leur statut professionnel.
 Analyse et synthèse : rédaction du rapport final après analyse des données d’enquête quantitative et qualitative.
-",2022-12-01,12 mois,,,
+",2022-12-01,12 mois,,,,
 etude-apc-mesr,Étude rétrospective et prospective de l’évolution du coût des APC pour les institutions françaises,"Data analyse,Science ouverte","antoine-blanchard,diane-thierry","Antoine Blanchard, Diane Thierry","/images/authors/antoine-blanchard.png, /images/authors/diane-thierry.jpeg",mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Une étude a été menée pour comprendre et prédire les frais de publication des articles publiés par des auteurs affiliés en France entre 2013 et 2020. 
 Les APC (article processing charges) sont les frais de publication que les chercheurs doivent payer à certaines revues pour que leurs articles soient publiés en libre accès. Le but de cette étude co-exécutée avec Pleiade, a été d’estimer le plus précisément possible les coûts cachés supplémentaires que les établissements français encourent.
 Une base de données de plus d’un million d’articles a été construite, contenant les métadonnées des articles publiés par des auteurs affiliés en France sur la période 2013-2020. Des modélisations ont permis d’expliquer les coûts sur cette période, puis d’en prédire les évolutions selon 3 scénarios (tendance inchangée, emballement, apaisement).
@@ -287,7 +287,7 @@ Une base de données de plus d’un million d’articles a été construite, con
 ","Une base de données d’articles a été constituée à partir de 5 sources différentes.
 Une analyse exploratoire des données (2013-2020) a été menée, et des modèles multi-niveaux ont été construits pour modéliser les évolutions passées des APC.
 Le modèle le plus performant a été utilisé pour prédire l’évolution des APC sur 2021-2030, selon différents scénarios.
-Un rapport final a été rédigé et publié sur HAL, ainsi que les données ayant servies à l’étude.",2022-02-01,8 mois,https://www.ouvrirlascience.fr/retrospective-and-prospective-study-of-the-evolution-of-apc-costs-and-electronic-subscriptions-for-french-institutions/,,
+Un rapport final a été rédigé et publié sur HAL, ainsi que les données ayant servies à l’étude.",2022-02-01,8 mois,https://www.ouvrirlascience.fr/retrospective-and-prospective-study-of-the-evolution-of-apc-costs-and-electronic-subscriptions-for-french-institutions/,,,
 gouv-data-sde,Enjeux de gouvernance des données du SPDE,Stratégie,francois-lacombe,François Lacombe,/images/authors/francois-lacombe.png,sde-35,Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35),"Le Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35) est un acteur majeur des enjeux énergétiques du département d'Ille-et-Vilaine. Il oeuvre au quotidien aux côtés des élus locaux pour un aménagement énergétique du territoire, équilibré et durable. Il contribue activement à développer la synergie entre les territoires ruraux et urbains du département.",/images/partners/sde-35.png,"Le Syndicat organise la distribution d’énergie pour le compte des communes de l’Ile et Vilaine. Il accède et produit de nombreuses données utiles à la transition énergétique
 Datactivist a été sollicité pour une intervention auprès de la commission smart grids du syndicat à propos des enjeux de gouvernance des données utiles au déploiement des réseaux intelligents 
  
@@ -297,7 +297,7 @@ L’expérience de Datactivist, notamment consécutive au pilote France Data Ré
 ","Structuration de notre connaissance des données de l’énergie et des AODE, axes de comparaison sommaire et contextualisation réglementaire.
 Intervention en commission d’élus pour présenter notre état des lieux et propositions.
 Références documentaires pour poursuivre les réflexions à l’issue de la présentation.
-",2022-03-01,1 mois,,,
+",2022-03-01,1 mois,,,,
 france-data-reseau-fnccr,Expertise métier et AMO France Data Réseau,Stratégie,"francois-lacombe,joel-gombin","François Lacombe, Joël Gombin","/images/authors/francois-lacombe.png, /images/authors/joel-gombin.jpeg",fnccr,Fédération nationale des collectivités concédantes et régies (FNCCR),"La Fédération nationale des collectivités concédantes et régies (FNCCR) est une association de collectivités territoriales spécialisées dans les services publics locaux en réseau (Energie, cycle de l’eau, numérique, déchets).
 ",/images/partners/fnccr.png,"L’association représente les intérêts de plus de 800 collectivités en matière de services publics de réseaux. Elle anime les grands enjeux réglementaires et portes différents projets d’envergure nationale.
 Datactivist était présent dans le groupement partenarial mené par la FNCCR. Il s’agissait d’assurer la construction de deux des quatre cas d’usage et aussi l’AMO commun de l’ensemble du projet 
@@ -309,7 +309,7 @@ De manière complémentaire, l’AMO global a apporté l’appui nécessaire au 
 Cartographie des données à utiliser et processus associés.
 Prototypage des tableaux de bord avec les territoires pilotes.
 Documentation complète du projet, interactions avec les partenaires techniques et autres cas d’usage.
-",2021-09-01,18 mois,https://jdb.francedatareseau.fr/,,
+",2021-09-01,18 mois,https://jdb.francedatareseau.fr/,,,"16,18"
 cadrage-data-grand-est,Etude de cadrage sur l’évolution de GéoGrandEst vers DataGrandEst,Stratégie,magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,data-grand-est,Data Grand Est,"Le partenariat DataGrandEst est mis en œuvre par l’État et la Région Grand Est pour développer la coopération régionale en matière de production, de partage et de valorisation de données dans le Grand Est.",/images/partners/data-grand-est.png,"En Grand Est, la question stratégique de la gestion des données au service des politiques publiques est un enjeu majeur par les services de l’État et de la Région. Les autorités porteuses du partenariat GéoGrandEst ont souhaité réaliser une étude de cadrage sur son évolution et sa transformation en DataGrandEst.
 Cette étude est définie selon 5 axes :
 - La gouvernance
@@ -325,7 +325,7 @@ L’étude s’est déroulée en plusieurs étapes :
 - La remise d’un rapport final avec les recommandations","Benchmark inspirant des modèles de valeur de la donnée dans le secteur du financement.
 Entretiens et ateliers avec les parties prenantes de GéoGrandEst pour recenser les besoins, comprendre les problématiques et identifier les évolutions à réaliser.
 Rédaction d’une note de recommandations et de scenarii pour l’évolution de la plateforme
-",2021-01-01,6 mois,,,
+",2021-01-01,6 mois,,,,
 ditp-opengov,Animation d'événements de mobilisation de la communauté gouvernement ouvert,Animation,samuel-goeta,Samuel Goëta,/images/authors/samuel-goeta.jpeg,ditp,Direction Interministérielle de la Transformation publique ,"La Direction Interministérielle de la Transformation publique assure le suivi des réformes du gouvernement et accompagne les acteurs publics dans leurs projets.
 ",/images/partners/ditp.png,"Cette mission a eu pour but d'accompagner la Direction Interministérielle à la Transformation Publique dans le pilotage du Plan d’actions pour un Gouvernement Ouvert 2021-2023.
 Le Plan d’action pour un Gouvernement Ouvert, publié par le Gouvernement en décembre 2021 contient 58 actions portés à la fois par des Ministères mais également par d’autres administrations (Cour des comptes, CNIL, etc…).
@@ -335,11 +335,11 @@ Ces actions portés par les administrations ont parfois été co-construites ou 
 ","Création d’outils de pilotage internes adaptés : acteurs divers (ministères, référents, société civile) et conseil à l’animation de la communauté
 Identification des actions prioritaires pour mettre en place un suivi plus important
 Organisation d’événements avec la communauté gouvernement ouvert 
-Animation plus large de la démarche : constitution de groupes thématiques, mises en réseaux d’acteurs de la société civile, mise en place d’une plateforme de consultation citoyenne",2022-01-01,18 mois,,,
+Animation plus large de la démarche : constitution de groupes thématiques, mises en réseaux d’acteurs de la société civile, mise en place d’une plateforme de consultation citoyenne",2022-01-01,18 mois,,,,
 mefr-non-conference,Formation des agents et animation non-conférence des données ouvertes,Animation,"julia-dumont,samuel-goeta,clement-mandron","Julia Dumont, Samuel Goëta, Clément Mandron","/images/authors/julia-dumont.png, /images/authors/samuel-goeta.jpeg, /images/authors/clement-mandron.png",mefr,"Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique","Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",/images/partners/mefr.png,"Cette mission a un double but. D’une part donner une série de formations sur l’ouverture des données aux agents du MEFR. D’autre part l’organisation de la Non-Conférence des données ouvertes de Bercy.
 Construites sur un format très interactif, les deux séances de formation ont également permis aux agents de se projeter sur les usages finaux de la plateforme et remonter le fil jusqu’à la production des données. Sur un temps relativement court, plusieurs thèmes ont pu être travaillé : enjeux de l’ouverture des données, panorama de data.economie afin d’imaginer l’usage des données, évaluer et prioriser, check-list de mise en qualité, comprendre les formats et anonymiser.
 C’est également l’objet de la Non-conférence des données ouvertes de Bercy : permettre une rencontre entre les services et les (ré)-utilisateurs des données du Ministère.  ","Création du contenu des sessions de formations sur un format très interactif. Production de supports qui permettent de produire du contenu utilisable après la formation par les équipes.
-Organisation de la Non-Conférence, rédaction de supports de communications (avant et après), mise à disposition d’un espace gather.town.",2022-09-01,6 mois,,,
+Organisation de la Non-Conférence, rédaction de supports de communications (avant et après), mise à disposition d’un espace gather.town.",2022-09-01,6 mois,,,,
 dreal-paca-conciergerie,Expérimentation conciergerie de données,Data analyse,"mathieu-morey,anthony-gigerich","Mathieu Morey, Anthony Gigerich","/images/authors/mathieu-morey.jpeg, /images/authors/anthony-gigerich.jpeg",dreal-paca,DREAL Provence-Alpes-Côte d'Azur,"La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) PACA est un service déconcentré de l'État français.",/images/partners/dreal-paca.png,"Dans le cadre de l’appel à projets CGDD-Axe 1 :« data au service des politiques publiques », Datactivist travaille avec la DREAL PACA pour réaliser une conciergerie de données, un service d’écoute intelligente des besoins en données des acteurs et citoyens du territoire.
 Cette expérimentation doit faciliter la découvrabilité des données et des documents par les parties prenantes de la DREAL.
 Le chatbot est une interface conversationnelle, en langue naturelle, qui permet de faciliter l’accès aux données et documents diffusés par la DREAL PACA.
@@ -349,7 +349,7 @@ L’expérimentation porte sur différentes situations d’interaction entre un 
 ","Définition de trames de dialogue permettant de recueillir et de caractériser des demandes récurrentes.
 Formulation des requêtes d'interrogation pour les outils métier.
 Connexion aux sources identifiées.
-Développement d'un chatbot mettant en œuvre les trames de dialogue, le requêtage, l'affichage des résultats et le recueil du retour de l’usager.",2020-07-01,24 mois,,,dequalin
+Développement d'un chatbot mettant en œuvre les trames de dialogue, le requêtage, l'affichage des résultats et le recueil du retour de l’usager.",2020-07-01,24 mois,,,dequalin,
 region-bretagne-observatoire,"AMO observatoire des données de l’achat public
 ",Data analyse,"emeline-vandeven,clement-mandron","Emeline Vandeven, Clément Mandron","/images/authors/emeline-vandeven.jpeg, /images/authors/clement-mandron.png",region-bretagne,Région Bretagne,La Région Bretagne est une région administrative française.,/images/partners/region-bretagne.png,"Datactivist a accompagné la Région Bretagne dans la publication de son observatoire des données de l’achat public. Elle a aussi réalisé une cartographie des données qui alimentent l’observatoire.
 La mission a débuté par une analyse des indicateurs de l’observatoire, qui a permis de changer et de préciser certains indicateurs.
@@ -360,7 +360,7 @@ Ce diagnostic a ensuite permis de faire les liens entre le calcul d’indicateur
 Cartographie technique des données qui alimentent l’observatoire
  Modélisation des flux de données
 Préconisations pour la version 2 du schéma des achats publics de la Région
-",2021-11-01,18 mois,,,
+",2021-11-01,18 mois,,,,31
 region-normandie-open-data,AMO relative à l’ouverture des données publiques  ,Stratégie,anne-laure-donzel,Anne-Laure Donzel,/images/authors/anne-laure-donzel.jpeg,region-normandie,Région Normandie,La Région Normandie est une région administrative française.,/images/partners/region-normandie.png,"Sous la bannière DataPublica cette mission a eu pour but d’analyser la politique d’open data de la région et de la mettre en perspective avec sa stratégie plus globale autour de la donnée.
 La Région Normandie souhaitait réaliser un état des lieux et un plan d’action de sa situation en matière d’open data. 
 L’objectif final du plan d’action était de mettre en place une vision commune, une culture de la donnée de la Région Normandie, rassemblant les élus, les agents et les partenaires publics et privés. Cette culture, à la fois technique, juridique et opérationnelle de la donnée, avait pour but de permettre à chacun de mieux connaître les données produites, de mieux les maîtriser, de les partager, d’en envisager de nouveaux usages, de pouvoir les ouvrir en comprenant les enjeux.
@@ -369,7 +369,7 @@ L’objectif final du plan d’action était de mettre en place une vision commu
 - Enquête
 - Atelier
 Rédaction d’un plan d’action pour développer la stratégie open data de la Région
-Session de sensibilisation aux organes de décisions (CODIR, encadrement, élus) ",2021-10-01,11 mois,,,
+Session de sensibilisation aux organes de décisions (CODIR, encadrement, élus) ",2021-10-01,11 mois,,,,
 region-normandie-datalab,Définition d’une organisation cible du Datalab Normandie ,Stratégie,"anne-laure-donzel,guillaume-martin,clement-mandron","Anne-Laure Donzel, Guillaume Martin, Clément Mandron","/images/authors/anne-laure-donzel.jpeg, /images/authors/guillaume-martin.jpeg, /images/authors/clement-mandron.png",region-normandie,Région Normandie,La Région Normandie est une région administrative française.,/images/partners/region-normandie.png,"Sous la bannière DataPublica cette mission a eu pour but d’accompagner la Région Normandie et le Datalab dans la définition d’une organisation cible.
 Piloté par la Région Normandie, l’ambition du Datalab Normandie est de fédérer et coordonner les initiatives qui contribuent au développement de services innovants par la donnée et l'intelligence artificielle en constituant un écosystème public/privé de la donnée en Normandie.
 
@@ -382,14 +382,14 @@ de répondre aux questions suivantes :
 Une analyse des besoins data des principaux acteurs du territoire, potentiels usagers du
 DataLab (réalisation d'entretiens et d'ateliers)
 La formalisation d’une offre de service facilement appréhendable par l’ensemble du territoire sous la forme de cas d’usages (ateliers, benchmark)
-Une étude d’opportunité et des conditions juridiques de mise en oeuvre de cette offre de service (réalisée par Parmes Avocat)",2022-11-01,8 mois,https://public.flourish.studio/visualisation/12410512/,,
+Une étude d’opportunité et des conditions juridiques de mise en oeuvre de cette offre de service (réalisée par Parmes Avocat)",2022-11-01,8 mois,https://public.flourish.studio/visualisation/12410512/,,,
 inria-desambiguisation-conferences,Désambiguïsation des intitulés de conférences HAL,Science ouverte,diane-thierry,Diane Thierry,/images/authors/diane-thierry.jpeg,inria,Institut national de recherche en sciences et technologies du numérique,"L'Inria a pour mission le développement de la recherche et de la valorisation en sciences et techniques de l'information et de la communication, au niveau national comme au plan international.",/images/partners/inria.png,"Les intitulés de conférences renseignés dans les données de l’archive ouverte HAL lors du dépôt d’une communication ne sont pas toujours proprement renseignés. Une source de désambiguïsation et d’enrichissement des données est fournie par le référentiel CORE.
 Dans ce contexte, Datactivist a conduit une mission pour Inria en janvier 2023, composée de deux phases :
 - désambiguïsation des intitulés de conférence des communications Inria via l’intitulé ou l’acronyme issu de CORE ;
 - ajout du rang (qualifiant la notoriété de la conférence) millésimé, c’est-à-dire le rang valable l’année de la communication.
 La synthèse de ce travail est disponible sous forme de notebook.","Extraction des données à nettoyer depuis l’API HAL, requêtée sur les références de la collection HAL Inria de type COMM publiées entre 2018 et 2022. Extraction des données de référence depuis le CORE Conference Portal.
 Désambiguïsation des intitulés de conférence via 2 canaux : via l’intitulé lui-même lemmatisé, via l’acronyme extrait d’un champ disponible dans les données HAL.
-Enrichissement des données par l’ajout du rang millésimé, extrait des données millésimées du référentiel CORE, parsées depuis leur page internet.",2023-01-01,2 semaines,https://datactivist.coop/nettoyage_donnees_HAL/notebook/Synthese.html,,
+Enrichissement des données par l’ajout du rang millésimé, extrait des données millésimées du référentiel CORE, parsées depuis leur page internet.",2023-01-01,2 semaines,https://datactivist.coop/nettoyage_donnees_HAL/notebook/Synthese.html,,,
 wikimedia-analyse-enquete-vikidiens,Analyse des données d’une enquête sur la communauté vikidienne,Data analyse,"julia-dumont,diane-thierry","Julia Dumont, Diane Thierry","/images/authors/julia-dumont.png, /images/authors/diane-thierry.jpeg",wikimedia,Wikimedia France,Wikimédia France est une association agréée par le ministère de l'Éducation nationale dont le but est de promouvoir l'accès libre à la connaissance.,/images/partners/wikimedia-france.png,"De juin à octobre 2021, Wikimédia France a organisé une enquête auprès de la communauté vikidienne dans le but de mieux connaître la communauté. Datactivist a été chargée d’analyser et valoriser les données de cette enquête.
 Dans une logique itérative de validation avec Wikimédia, une première phase de proposition de visualisations a été mise en place, au vu de statistiques descriptives calculées sur les données brutes. 
 Les données ont ensuite été nettoyées (suppression des doublons et des réponses incohérentes), traitées (agrégation des réponses, lemmatisation, extraction…) et certaines variables créées.
@@ -397,10 +397,10 @@ Une fois mises en qualité, les données ont été visualisées au travers de 34
 ","Proposition et validation des datavisualisations envisagées.
 Nettoyage et mise en qualité des données de l’enquête.
 Visualisation  des données de l’enquête.
-Analyse des visualisations dans un rapport transmis avec les fichiers PNG et SVG des datavisualisations.",2022-03-01,3 mois,https://wikimedia-france.github.io/analyse-donnees_enquete-vikidia/reports/rapport_final.html,,
+Analyse des visualisations dans un rapport transmis avec les fichiers PNG et SVG des datavisualisations.",2022-03-01,3 mois,https://wikimedia-france.github.io/analyse-donnees_enquete-vikidia/reports/rapport_final.html,,,
 lyon-vote-qpv,Analyse du vote des quartiers politiques de la ville de la Métropole de Lyon,Data analyse,"joel-gombin,diane-thierry","Joël Gombin, Diane Thierry","/images/authors/joel-gombin.jpeg, /images/authors/diane-thierry.jpeg",metropole-lyon,Métropole de Lyon,La Métropole de Lyon est née le 1er janvier 2015 : c'est une collectivité territoriale unique en France créée par la fusion de la Communauté urbaine de Lyon et du Conseil général du Rhône sur les 58 communes qui composent le territoire du Grand Lyon.,/images/partners/metropole-lyon.png,"Datactivist a analysé les élections législatives et présidentielles de 2017 et 2022, en récupérant les résultats des scrutins et les données géospatiales des presque 900 bureaux de vote et des 37 quartiers politique de la ville (QPV) de la métropole de Lyon.
 Une comparaison de la participation et de la démographie a été faite entre l’ensemble de la métropole et les QPV. Aussi, une analyse en composantes principales (ACP) permettant de projeter les votes à l’élection présidentielle de 2017 sur un plan a 2 dimensions, a été construite. 
 Un article a par la suite été rédigé sur la base de ces analyses.
 ","Récupération de données des élections, des bureaux de vote et des quartiers politiques de la ville et mise en forme des données.
 Analyse des données de vote avec une triple comparaison : quartiers prioritaires, métropole hors QPV, ensemble métropole. Une ACP a aussi été menée.
-Rédaction d’un article analysant le vote des quartiers prioritaires avec pour exemple celui de la métropole de Lyon pour les deux scrutins étudiés.",2023-03-01,7 mois,https://www.millenaire3.com/dossiers/2023/quartiers-populaires-politique-de-la-ville-au-caeur-des-enjeux-le-quotidien-des-habitants/participation-electorale-des-qpv-que-nous-disent-les-resultats-des-scrutins-nationaux,,
+Rédaction d’un article analysant le vote des quartiers prioritaires avec pour exemple celui de la métropole de Lyon pour les deux scrutins étudiés.",2023-03-01,7 mois,https://www.millenaire3.com/dossiers/2023/quartiers-populaires-politique-de-la-ville-au-caeur-des-enjeux-le-quotidien-des-habitants/participation-electorale-des-qpv-que-nous-disent-les-resultats-des-scrutins-nationaux,,,

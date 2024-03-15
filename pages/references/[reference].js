@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Layout from '../../components/Layout';
 import styles from '../../styles/References.module.css';
 import FilteredDocsDisplay from '../../components/docs/FilteredDocsDisplay';
+import fetch from 'node-fetch';
 
 function formatDate(dateISO) {
   const options = { year: 'numeric', month: 'long' };
@@ -22,6 +23,18 @@ const renderTextWithLineBreaks = (text) => {
     );
   });
 };
+
+
+async function fetchQuotes(quoteIds, baseUrl) {
+  const quotesPromises = quoteIds.split(',').map(async (id) => {
+    const quoteResponse = await fetch(`${baseUrl}/api/quotes?ID=${id}`);
+    if (!quoteResponse.ok) return null;
+    return quoteResponse.json();
+  });
+  return Promise.all(quotesPromises);
+}
+
+
 
 const renderActionsWithIcons = (actionsText) => {
   return actionsText
@@ -47,35 +60,36 @@ export async function getServerSideProps(context) {
 
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers.host;
-  const apiUrl = `${protocol}://${host}/api/references?action=get&id=${reference}`;
+  const baseUrl = `${protocol}://${host}`;
 
   try {
+    const apiUrl = `${baseUrl}/api/references?action=get&id=${reference}`;
     const res = await fetch(apiUrl);
     if (!res.ok) {
-      // Vérifie si la réponse est une erreur
-      throw new Error(
-        `Erreur lors de la récupération des données : ${res.status}`,
-      );
+      throw new Error(`Failed to fetch reference: ${res.statusText}`);
     }
-    const data = await res.json();
+    const referenceData = await res.json();
 
-    // Retourne les données récupérées dans les props, y compris l'identifiant des documents liés si disponible
+    // Fetch quotes if they exist
+    let quotes = [];
+    if (referenceData.quotes) {
+      quotes = await fetchQuotes(referenceData.quotes, baseUrl);
+      quotes = quotes.filter(Boolean); // Remove any failed fetches (null values)
+    }
+
     return {
-      props: {
-        referenceData: data,
-        docsCatalog: data.docs_catalog || null, // Utilisez null ou une valeur par défaut si docs_catalog n'est pas présent
-      },
+      props: { referenceData, docsCatalog: referenceData.docs_catalog || null, quotes },
     };
   } catch (error) {
     console.error(error);
-    // Gère le cas où la récupération échoue ou retourne une erreur
-    return {
-      notFound: true,
-    };
+    return { notFound: true };
   }
 }
 
-export default function ReferencePage({ referenceData, docsCatalog }) {
+
+
+
+export default function ReferencePage({ referenceData, docsCatalog, quotes }) {
   const router = useRouter();
   if (router.isFallback) {
     return <div>Loading...</div>;
@@ -198,6 +212,23 @@ export default function ReferencePage({ referenceData, docsCatalog }) {
             <FilteredDocsDisplay docsList={docsCatalog} />
           </div>
         )}
+                {quotes.length > 0 && (
+          <div className={styles.quotesSection}>
+            <h3 className={styles.quotesSectionTitle}>📸 La presse en parle</h3>
+            <div className={styles.quotesGrid}>
+              {quotes.map((quote, index) => (
+                <a key={index} href={quote.Link} className={styles.quoteCard}>
+                  <img src={quote.journal_image} alt={quote.Journal} className={styles.quoteImage} />
+                  <div className={styles.quoteContent}>
+                    <h2 className={styles.quoteTitle}>{quote.Title}</h2>
+                    <p className={styles.quoteDate}>⏱️ {formatDate(quote['Date published'])}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
       </div>
     </Layout>
   );

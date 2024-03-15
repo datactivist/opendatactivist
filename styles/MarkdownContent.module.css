@@ -203,3 +203,66 @@
   width: 80px; /* Ajustez selon la taille de votre sticker */
 }
 
+.quotesSection {
+  background-color: #E95459;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.quotesSectionTitle {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.quotesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.quoteCard {
+  display: block;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+  padding: 20px;
+}
+
+.quoteCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.029);
+}
+
+.quoteImage {
+  max-height: 100px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.quoteTitle {
+  margin-top: 0;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.quoteDate {
+  font-size: 0.9rem;
+  color: #848484;
+}

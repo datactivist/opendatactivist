@@ -45,6 +45,7 @@ const Layout = ({ children }) => {
             <Link href="/recherche">Recherche</Link>
             <Link href="/equipe">Équipe</Link>
             <Link href="/blog">Blog</Link>
+            <Link href="/presse">Presse</Link>
           </nav>
         ) : (
           <select className={styles.menuselect} onChange={(e) => window.location.href = e.target.value}>
@@ -55,6 +56,7 @@ const Layout = ({ children }) => {
             <option className={styles.option} value="/recherche">Recherche</option>
             <option className={styles.option} value="/equipe">Equipe</option>
             <option className={styles.option} value="/blog">Blog</option>
+            <option className={styles.option} value="/presse">Presse</option>
           </select>
         )}
       </header>
