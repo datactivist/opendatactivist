@@ -39,13 +39,13 @@ const Layout = ({ children }) => {
         </div>
         {windowWidth > 768 ? (
           <nav className={styles.menunav}>
-            <Link href="/docs">Publications</Link>
-            <Link href="/products">Produits</Link>
-            <Link href="/references">Références</Link>
-            <Link href="/recherche">Recherche</Link>
-            <Link href="/equipe">Équipe</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/presse">Presse</Link>
+            <Link href="/docs">📖 Publications</Link>
+            <Link href="/products">👾 Produits</Link>
+            <Link href="/references">🧳 Références</Link>
+            <Link href="/recherche">🎓 Recherche</Link>
+            <Link href="/equipe">🏃🏻‍♀️Équipe</Link>
+            <Link href="/blog">✏️ Blog</Link>
+            <Link href="/presse">📸 Presse</Link>
           </nav>
         ) : (
           <select className={styles.menuselect} onChange={(e) => window.location.href = e.target.value}>
