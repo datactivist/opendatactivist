@@ -71,6 +71,7 @@ li {
   font-size: 16px;
   line-height: 1.8;
   color: rgb(82, 82, 82);
+  list-style-type: disc;
 }
 
 footer {
@@ -117,4 +118,24 @@ a.customButton:hover {
 
 a.customButton:active {
   background: linear-gradient(45deg, #e95459 30%, #e67f9a 90%);
+}
+
+.canvaLinkButton {
+  text-align: left;
+  background-color: #f4f4f4;
+  color: rgb(33, 33, 33);
+  border: 1px solid #ebebeb;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(82, 82, 82, 0.1);
+}
+
+.canvaLinkButton:hover {
+  background-color: #e95459;
+  color: white;
 }
