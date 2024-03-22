@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-grow: 1;
+    position: relative; /* Context for absolute positioning */
 }
 
 .titles {
@@ -14,16 +15,16 @@
 
 .title {
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 5px;
     transition: background-color 0.2s;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 6px;
+    border-radius: 14px;
 }
 
 .title:hover {
-    font-weight: 700;    
+    font-weight: 600;    
 }
 
 .subTitle {
@@ -34,9 +35,9 @@
 }
 
 .activeTitle {
-    background-color: #173541;
+    background-color: #4ED9CC;
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -49,13 +50,196 @@
 }
 
 .canvaTitleBox {
-    background-color: #ffffff;
-    color: #333;
-    border-bottom: #f1f1f1 1px solid;
+    background: linear-gradient(90deg, #fffcfe 0%, #fffef8 100%) ;
+    color: #000000;
+    border: 1px solid #f3f3f3;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
     text-align: left;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 400;
+}
+
+.canvaTitleBox:hover {
+    background: linear-gradient(90deg, #fff2f8 0%, #fffef8 100%);
+    color: #000000;
+    border: 1px solid #efebeb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
 }
   
+.navigationLinks {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px;
+    gap: 50px;
+  }
+  
+.navigationLinkLeft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    max-width: 450px;
+}
+
+.navigationLinkLeft:hover {
+    text-decoration: none;
+    transform: translateX(-5px); 
+}
+
+.navigationLinkRight {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    max-width: 450px;
+    font-size: 15px;
+}
+
+
+.navigationLinkRight:hover {
+    text-decoration: none;
+    transform: translateX(5px);
+}
+  
+  .navigationIcon {
+    width: 20px;
+    height: 20px; 
+  }
+
+  .menuToggle {
+    display: none;
+  }
+
+  .toggleIcon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .titleBox {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    height: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(200deg, #fff9f9 0%, #fffafb 100%);
+    transform: translateY(0);
+}
+
+.titleBox:hover {
+    background: linear-gradient(200deg, #ffffff 0%, #ffffff 100%);
+    transform: translateY(-5px);
+    color: #000;
+}
+  
+.titleText {
+    color: #3b3b3b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+  
+.gridContainer {
+    display: grid;
+    width: 100%; /* Ajustement pour une largeur flexible */
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto; /* Centrer le conteneur */
+  }
+  
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    min-height: 600px;
+  }
+  
+  
+
+@media screen and (max-width: 1000px) {
+    .container {
+        position: relative;
+    }
+
+    .canvaTitleBox {
+        margin-top: 50px;
+    }
+
+    .titles {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        min-width: 100%;
+        max-height: 0;
+        overflow-y: hidden;
+        transition: max-height 0.3s ease-out;
+        z-index: 2;
+        background-color: #ffffff;
+        border: #dcdcdc 1px solid;
+        border-radius: 10px;
+    }
+
+    .open {
+        max-height: 100vh;
+        border-right: none;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+
+    .menuToggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        width: 97%;
+        border-radius: 15px;
+        margin: 0 auto;
+        align-items: center;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        background-color: #ffffff;
+        border: #eeeeee 1px solid;
+    }
+
+    .menuToggle:hover {
+        cursor: pointer;
+        background-color: #FFF1EB;
+    }
+}
+
+.metaInfo {
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .gridContainer {
+      grid-template-columns: 1fr;
+    }
+  }
