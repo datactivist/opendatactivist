@@ -137,24 +137,11 @@ export default function CanvasPage() {
       })
       .catch((error) => console.error('Erreur lors du chargement du contenu:', error));
     };
-const handleCanvaTitleBoxClick = () => {
-  const mainTitlesHtml = titles
-    .filter(title => !title.level.includes('.'))
-    .map(title => `
-      <div class="${styles.titleBox}" onclick="window.location.href='/canvas/${canvaName}${title.filename}'">
-        <div class="${styles.titleText}">
-          ${title.title}
-        </div>
-      </div>
-    `)
-    .join('');
-
-  setContent(`
-    <div class="${styles.gridContainer}">
-      ${mainTitlesHtml}
-    </div>
-  `);
-};
+    const handleCanvaTitleBoxClick = () => {
+      // Utiliser router.push pour naviguer vers la page /canvas/{canvaName}/home
+      router.push(`/canvas/${canvaName}/home`);
+    };
+    
 
   return (
     <Layout>
