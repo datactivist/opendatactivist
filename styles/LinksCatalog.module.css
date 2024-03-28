@@ -1,0 +1,66 @@
+.container {
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centrer les cartes si elles n'occupent pas toute la largeur */
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 20px); /* Trois cartes par ligne par défaut */
+    cursor: pointer;
+    display: flex;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    flex-direction: column; /* Organiser le contenu de la carte verticalement */
+  }
+
+    .card:hover {
+        transform: translateY(-3px); /* Lift the element up by 5 pixels */
+    }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    flex-grow: 1; /* Faire en sorte que la description prenne l'espace disponible */
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tag {
+    background-color: #173541; /* Couleur de fond rose */
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-family: monospace;
+  }
+  
+  /* Media Queries pour la responsivité */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px); /* Deux cartes par ligne sur les tablettes */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px); /* Une carte par ligne sur les mobiles */
+    }
+  }
+  
