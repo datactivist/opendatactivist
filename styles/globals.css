@@ -68,7 +68,7 @@ li {
   margin-left: 2rem;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.15px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.8;
   color: rgb(82, 82, 82);
   list-style-type: disc;
@@ -139,3 +139,110 @@ a.customButton:active {
   background-color: #e95459;
   color: white;
 }
+
+.linkcanvas {
+  font-size: 15px;
+  color:#000000;
+  text-decoration: underline;
+}
+
+.linkcanvas:hover {
+  color: #e95459;
+  text-decoration: underline;
+}
+
+.canvasCode {
+  max-width: 900px;
+  background-color: #f4f4f4;
+  color: rgb(63, 63, 63);
+  border: 1px solid #ebebeb;
+  padding: 1px 4px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 13px;
+  box-shadow: 0 2px 6px rgba(82, 82, 82, 0.1);
+}
+
+.canvasOrderedList {
+  color: #151515;
+  list-style: square;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.canvasList {
+  list-style-type: disc;
+  font-size: 15px;
+  color: #b82f2f;
+}
+
+.canvasCodeBlock {
+  max-width: 900px;
+  background-color: #f8f8f8ad;
+  color: #545454;
+  border: 1px solid #e9e9e9;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.canvasCodeBlock:hover {
+  background-color: #ffffff;
+  cursor:pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: block;
+}
+
+.tooltip .tooltiptext {
+  font-size: 15px;
+  max-width: 900px;
+  visibility: hidden;
+  color: #a8a8a8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0px 0;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  right: 5px;
+  margin-left: -10px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext:hover {
+  color: #6a6a6a;
+  cursor: pointer;
+}
+
+@keyframes explosion {
+  from {
+    opacity: 1;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.9) translate(-50%, -50%);
+  }
+}
+
+.explosionParticle {
+  position: absolute;
+  border-radius: 50%;
+  animation: explosion 0.75s ease-out forwards;
+}
+
+/* Plus de variations de couleurs */
+.explosionParticle:nth-child(odd) { background-color: rgb(223, 124, 134); }
+.explosionParticle:nth-child(even) { background-color: rgb(253, 253, 205); }
+.explosionParticle:nth-child(3n) { background-color: rgb(25, 61, 83); }
+.explosionParticle:nth-child(4n) { background-color: rgb(96, 121, 147); }
+.explosionParticle:nth-child(5n) { background-color: rgb(196, 82, 108); }

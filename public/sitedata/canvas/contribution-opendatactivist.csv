@@ -1,0 +1,13 @@
+filename,title,level,description
+meta,Contribuer à Open Datactivist,0,Ajouter des contenus au site Open Datactivist
+intro,☞ Introduction,1,
+docs,📖 Ajouter une publication (doc),2,
+metadonnees,Ajouter des métadonnées,2.1,
+contenu,Ajouter le contenu,2.2,
+redaction-doc,Rediger le contenu,2.3,
+patchwork,📁 Ajouter un canvas,3,
+patchwork-metadonnees,Ajouter des métadonnées au canvas,3.1,
+patchwork-contenu,Rédiger le contenu du canvas,3.2,
+produits,👾 Ajouter un produit,4,
+references,🧳 Ajouter des références,5,
+code,💻 Contribuer au code,6,

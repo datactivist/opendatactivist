@@ -108,6 +108,8 @@ export default function CanvasPage() {
       loadContent(filename);
     });
   };
+
+  
   
 
   const loadContent = (filename) => {
@@ -125,22 +127,78 @@ export default function CanvasPage() {
           .process(data.content)
           .then((file) => {
             let htmlContent = String(file);
-            // Utiliser une expression régulière pour trouver tous les liens marqués pour transformation en bouton
+            // Remplacer les liens spécifiés pour être des boutons
             const buttonRegex = /<a href="([^"]+)"[^>]* title="canvaLinkButton">([^<]+)<\/a>/g;
             htmlContent = htmlContent.replace(buttonRegex, (match, p1, p2) => {
-              // p1 est l'URL, p2 est le texte du bouton
               return `<a href="${p1}" class="canvaLinkButton" target="_blank">${p2}</a>`;
             });
-            setContent(htmlContent);
+      
+            // Ajouter la classe `linkcanvas` à tous les autres liens
+            htmlContent = htmlContent.replace(/<a href="([^"]+)"(?!.*class="canvaLinkButton")(.*?)>(.*?)<\/a>/g, (match, p1, p3, p4) => {
+              return `<a href="${p1}" class="linkcanvas"${p3}>${p4}</a>`;
+            });
+      
+            htmlContent = htmlContent.replace(/<code>(.*?)<\/code>/g, `<code class="canvasCode">$1</code>`);
+            htmlContent = htmlContent.replace(/<ul>/g, '<ul class="canvasList">');
+            htmlContent = htmlContent.replace(/<ol>/g, '<ol class="canvasOrderedList">');
+            htmlContent = htmlContent.replace(/<code>(.*?)<\/code>/g, `<code class="canvasCode">$1</code>`);
+        
+        // Trouver les blocs de code (précédés et suivis par des balises `<pre>`) et appliquer la classe `canvasCodeBlock`
+        htmlContent = htmlContent.replace(/<pre><code>(.*?)<\/code><\/pre>/gs, `<pre><code class="canvasCodeBlock">$1</code></pre>`);
+
+          setContent(htmlContent);
           });
-          
       })
       .catch((error) => console.error('Erreur lors du chargement du contenu:', error));
+        
+      
     };
     const handleCanvaTitleBoxClick = () => {
       // Utiliser router.push pour naviguer vers la page /canvas/{canvaName}/home
       router.push(`/canvas/${canvaName}/home`);
     };
+
+    useEffect(() => {
+      // Fonction pour copier le contenu dans le presse-papiers
+      const copyToClipboard = (text, wrapper) => {
+        navigator.clipboard.writeText(text).then(() => {
+          console.log('Code copié');
+          
+          // Création des particules d'explosion
+          for (let i = 0; i < 3; i++) { // 3 pour l'exemple, ajuste selon le nombre souhaité
+            const particle = document.createElement('div');
+            particle.className = 'explosionParticle';
+            wrapper.appendChild(particle);
+      
+            // Taille et position aléatoires pour l'exemple
+            particle.style.width = particle.style.height = `${Math.random() * 5 + 10}px`; // Entre 5px et 10px
+            particle.style.left = `${Math.random() * 100}%`;
+            particle.style.top = `${Math.random() * 100}%`;
+      
+            // Suppression de la particule à la fin de l'animation
+            particle.addEventListener('animationend', () => particle.remove());
+          }
+        }, (err) => {
+          console.error('Erreur lors de la copie du texte :', err);
+        });
+      };
+    
+      // Ajoute des tooltips à tous les blocs de code
+      document.querySelectorAll('pre code').forEach((block) => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'tooltip';
+        block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(block);
+        
+        const tooltipText = document.createElement('span');
+        tooltipText.className = 'tooltiptext';
+        tooltipText.textContent = 'Copier';
+        wrapper.appendChild(tooltipText);
+        
+wrapper.addEventListener('click', () => copyToClipboard(block.textContent, wrapper));
+      });
+    }, [content]); // Ré-exécute ce code chaque fois que le contenu change
+    
     
 
   return (
