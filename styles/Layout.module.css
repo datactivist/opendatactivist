@@ -39,11 +39,8 @@
   display: none;
 }
 
-.logoContainer {
-  width: 350px;
-}
-
 .logoDatactivist {
+  margin-top: 5px;
   width: 250px;
   height: auto;
 }

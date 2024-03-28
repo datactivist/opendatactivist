@@ -38,9 +38,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
-        <div className={styles.logoContainer}>
+        <div className={styles.logoDatactivist}>
           <Link href="/" passHref>
-            <Image src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
+            <Image src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={200} height={50} />
           </Link>
         </div>
         {windowWidth > 768 ? (
