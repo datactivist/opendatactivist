@@ -18,7 +18,20 @@ Lorsque vous ouvrez une issue :
 
 ## Ajouter un doc 
 
-⚡️ [Ajout rapide](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
+### Métadonnées
+
+1. Complétez la table "docs_catalog" dans la base Airtable Open Datactivist (ajoutez les métadonnées de votre document)
+2. Exportez la table au format CSV
+3. Convertir le [CSV en JSON](https://csvjson.com/csv2json), et le nommer ```docs_catalog.json```
+4. Puis [ajoutez le ici](https://github.com/datactivist/nextjs-doc/upload/main/public/sitedata) (ça met à jour le catalogue automatiquement)
+5. Enfin, ajoutez les dépendances nécessaires : exportez la table "authors" sous ```authors.csv``` et même opération pour les autres tables si ajout de dépencances depuis votre document (références, partenaires...). Bien vérifier le [nommage des fichiers ici](https://github.com/datactivist/nextjs-doc/upload/main/public/sitedata)
+
+✏️ **En utilisant NextCloud** 
+1. Se rendre dans le dossier OpenDatactivist / docs
+2. Créer un fichier texte (md) et le nommer par exemple ```methode-ouverture-donnees```
+3. Commencer à rédiger le contenu, sans écrire le titre (qui sera ajouté par les métadonnées)
+
+⚡️ [Ajout rapide sans interpreteur Markdown](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
 
 👉 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
 
