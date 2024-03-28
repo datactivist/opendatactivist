@@ -1,80 +1,72 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../styles/Links.catalog.module.css';
-import Cards from './nav/Cards';
-import Gallery from './nav/Gallery';
-import tagStyles from '../styles/Tags.module.css';
+import styles from '../styles/LinksCatalog.module.css';
 import SearchBar from './nav/SearchBar';
 
 const LinksCatalog = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [tagFilter, setTagFilter] = useState('');
-  const [linksMetadata, setLinksMetadata] = useState([]); // Modifier ici pour stocker les données de l'API
+  const [linksMetadata, setLinksMetadata] = useState([]);
   const router = useRouter();
   const { query } = router;
 
   useEffect(() => {
-    // Récupérer les données depuis l'API au lieu du fichier JSON local
     fetch('/api/links?action=list')
-      .then((response) => response.json())
-      .then((data) => {
+      .then(response => response.json())
+      .then(data => {
         setLinksMetadata(data);
-        if (query.tag) {
-          setTagFilter(decodeURIComponent(query.tag));
-        } else {
-          setTagFilter('');
-        }
       });
+
+    if (query.tag) {
+      setSearchTerm(decodeURIComponent(query.tag));
+    }
   }, [query]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
+    if (!event.target.value) {
+      router.push('/links'); // Reset to default view when search is cleared
+    }
   };
 
   const filteredLinks = linksMetadata.filter((link) => {
     const searchValue = searchTerm.toLowerCase();
-    const tagsArray = link.tags.split(',').map(tag => tag.trim()); // Transformer les tags en tableau
-    const tagMatch = tagFilter
-      ? tagsArray.some((tag) => tag.toLowerCase() === tagFilter.toLowerCase())
-      : true;
-
+    const tagsArray = link.tags.split(',').map(tag => tag.trim());
     return (
-      tagMatch &&
-      (link.title.toLowerCase().includes(searchValue) ||
-        link.description.toLowerCase().includes(searchValue) ||
-        tagsArray.some((tag) => tag.toLowerCase().includes(searchValue)))
+      link.title.toLowerCase().includes(searchValue) ||
+      link.description.toLowerCase().includes(searchValue) ||
+      tagsArray.some((tag) => tag.toLowerCase().includes(searchValue))
     );
   });
 
-  const handleCardClick = (linkId, tag) => {
-    const link = filteredLinks.find((link) => link.id === linkId);
-    console.log('link:', link);
-    if (tag) {
-      router.push(`/links?tag=${encodeURIComponent(tag)}`);
-    } else if (link && link.url) {
-      window.location.href = link.url;
-    }
+  const handleCardClick = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer'); // Opens the link in a new tab or window
+  };
+  
+
+  const handleTagClick = (e, tag) => {
+    e.stopPropagation(); // Prevents the click from being propagated to the card
+    setSearchTerm(tag); // Update the search term to filter by the clicked tag
+    router.push(`/links?tag=${encodeURIComponent(tag)}`); // Update the URL to reflect the filter
   };
 
   return (
     <div className={styles.container}>
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
-      {tagFilter && (
-        <div>
-          <a className={tagStyles.tag} onClick={() => router.push('/links')}>
-            {tagFilter}
-          </a>
-          <br />
-          <br />
-        </div>
-      )}
-      <Gallery>
-        <Cards
-          items={filteredLinks}
-          onClick={(linkId, tag) => handleCardClick(linkId, tag)}
-          tagRoute="links"
-        />
-      </Gallery>
+      <div className={styles.gallery}>
+        {filteredLinks.map((link) => (
+          <div key={link.id} className={styles.card} onClick={() => handleCardClick(link.url)}>
+            <h3>{link.title}</h3>
+            <p>{link.description}</p>
+            <div className={styles.tags}>
+              {link.tags.split(',').map((tag, index) => (
+                <span key={index} className={styles.tag} onClick={(e) => handleTagClick(e, tag.trim())}>
+                  {tag.trim()}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
