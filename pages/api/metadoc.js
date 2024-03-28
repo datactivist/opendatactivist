@@ -14,10 +14,10 @@ export default async function handler(req, res) {
   jsonData = jsonData.replace(/^\uFEFF/, '');
   const records = JSON.parse(jsonData);
 
-  // Find the document's metadata in the JSON
-  const documentMetadata = records.find(doc => doc['name'] === filename);
+  // Find the document's metadata in the JSON, ensure it has an index of 1
+  const documentMetadata = records.find(doc => doc['name'] === filename && doc['index'] === 1);
   if (!documentMetadata) {
-    return res.status(404).json({ error: 'Document not found' });
+    return res.status(404).json({ error: 'Document not found or does not have the correct index' });
   }
 
   // Path to the Markdown file within the project
