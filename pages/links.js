@@ -10,7 +10,7 @@ const LinksIndex = () => {
 
   return (
     <Layout>
-            <h1 className={styles.docspageTitle}>Ressources externes</h1>
+            <h1 className={styles.linkspageTitle}>Ressources externes</h1>
       <LinksCatalog topicFilter={topic} />
     </Layout>
   );
