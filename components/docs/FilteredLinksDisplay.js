@@ -8,8 +8,10 @@ const FilteredLinksDisplay = ({ ids = [] }) => {
   useEffect(() => {
     const fetchLinksMetadata = async () => {
       try {
-        const response = await fetch('/sitedata/links-catalog.json');
+        // Modifier l'URL pour pointer vers l'API au lieu du fichier JSON local
+        const response = await fetch('/api/links?action=list');
         const data = await response.json();
+        // Filtrer les liens basés sur les ids reçus en props
         const filteredLinks = data.filter((link) => ids.includes(link.id));
         setLinks(filteredLinks);
       } catch (error) {
