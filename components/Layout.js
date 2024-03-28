@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
   const [visible, setVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [windowWidth, setWindowWidth] = useState(0);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // État pour gérer la visibilité du dropdown
 
   const updateDimensions = () => {
     setWindowWidth(window.innerWidth);
@@ -31,21 +32,34 @@ const Layout = ({ children }) => {
     };
   }, [lastScrollY]);
 
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
+
+
   return (
     <>
       <header className={`${styles.header} ${visible ? styles.visible : styles.hidden}`}>
         <div className={styles.logoContainer}>
-        <Link href="/" passHref> <Image className={styles.logoDatactivist} src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} /> </Link>
+          <Link href="/" passHref>
+            <Image src="/images/footer/logo-datactivist.png" alt="Datactivist Logo" width={100} height={50} />
+          </Link>
         </div>
         {windowWidth > 768 ? (
           <nav className={styles.menunav}>
             <Link href="/docs">📖 Publications</Link>
             <Link href="/products">👾 Produits</Link>
-            <Link href="/references">🧳 Références</Link>
-            <Link href="/recherche">🎓 Recherche</Link>
-            <Link href="/equipe">🏃🏻‍♀️Équipe</Link>
+            <Link href="/canvas">📎 Canvas</Link>
             <Link href="/blog">✏️ Blog</Link>
-            <Link href="/presse">📸 Presse</Link>
+            <div className={styles.dropdown}>
+              <button className={styles.dropdownMenuButton} onClick={toggleDropdown}>↓ À propos</button>
+              {isDropdownOpen && (
+                <div className={styles.dropdownContent}>
+                  <Link href="/equipe">🏃🏻‍♀️ Équipe</Link>
+                  <Link href="/references">🧳 Références</Link>
+                  <Link href="/recherche">🎓 Recherche</Link>
+                  <Link href="/presse">📸 Presse</Link>
+                </div>
+              )}
+            </div>
           </nav>
         ) : (
           <select className={styles.menuselect} onChange={(e) => window.location.href = e.target.value}>

@@ -51,6 +51,19 @@
   border-radius: 4px;
 }
 
+.linkspageTitle {
+  font-size: 3.5rem;
+  color: #173541; 
+  font-weight: 900; 
+  text-align: center; 
+  margin-bottom: 10px; 
+  margin-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: 90% ;
+  margin-left: auto;
+  border-radius: 4px;
+}
 
 .search {
   margin-bottom: 1rem;
