@@ -50,17 +50,186 @@
     display: inline-block;
     font-family: monospace;
   }
+
+  .verticales {
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    align-items: center; /* Centre les boutons verticalement (utile lorsque les boutons passent à la ligne) */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante */
+    gap: 5px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
   
-  /* Media Queries pour la responsivité */
+  .verticaleButton {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Ajout d'une transition pour un effet de survol plus doux */
+  }
+  
+
+  .verticaleButton:hover {
+    background-color: #4ED9CC;
+    color: white;
+  }
+
+.activeVerticaleButton {
+  background-color: #4ED9CC;
+  color: white;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchInput {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 17px;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .clearSearchButton {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+ /* Container for the dropdown */
+.tagsDropdown {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  user-select: none;
+}
+
+.tagsSearchInput {
+  padding: 6px 10px;
+  border-radius: 30px;
+  font-size: 13px;
+  border: 1px solid #e3e3e3;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.dropdownHeader {
+  padding: 7px 20px;
+  background-color: #173541;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.dropdownContent {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #fff;
+  min-width: 280px;
+  margin-left: -50px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+/* Show the dropdown content when the parent is hovered */
+.tagsDropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Style for each option (label) */
+.dropdownLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* Custom checkbox styling */
+.dropdownCheckbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.dropdownLabel span {
+  display: inline-block;
+  padding-left: 25px;
+  position: relative;
+  font-size: 14px;
+}
+
+/* Custom checkmark */
+.dropdownLabel span:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.dropdownCheckbox:checked + span:before {
+  background-color: #E95459;
+  border-color: #E95459;
+}
+
+.dropdownCheckbox:checked + span:after {
+  content: '\2713';
+  color: white;
+  position: absolute;
+  left: 4px;
+  top: -2px;
+  font-size: 18px;
+}
+
+.searchAndTags {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
   @media (max-width: 768px) {
     .card {
-      width: calc(50% - 20px); /* Deux cartes par ligne sur les tablettes */
+      width: calc(50% - 20px);
     }
   }
   
   @media (max-width: 480px) {
     .card {
-      width: calc(100% - 20px); /* Une carte par ligne sur les mobiles */
+      width: calc(100% - 20px);
     }
   }
   
