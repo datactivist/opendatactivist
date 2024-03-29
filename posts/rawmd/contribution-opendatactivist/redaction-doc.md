@@ -90,22 +90,17 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 
 ### 2. Des liens
 
-Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+#### 2.1. Ajoutez la ressourre externe
 
-2.1. Ajoutez votre lien comme ceci à la fin du fichier
+⚠️ Vérifiez si cette resssource n'existe pas déjà
 
-```json
- {
-      "id": "id-unique-lien",
-      "title": "Le nom du lien",
-      "type": "outil",
-      "description": "Description courte du lien",
-      "url": "https://votre-url.com",
-      "tags": ["Data Science", "IA", "Climat"]
- }
- ```
+[Voir toutes les ressources externes](https://open.datactivist.coop/links "canvaLinkButton")
+
+Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens.
+
+[Ajouter un lien](https://airtable.com/appyfWzMQVuv4ZoNR/shrQqei9MsiEfurnQ "canvaLinkButton")
  
-2.2. Intégrez votre lien dans le corps de texte de votre doc
+#### 2.2. Intégrez votre lien dans le corps de texte de votre doc
 
 ```markdown
 ## Liens utiles
@@ -121,25 +116,19 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien,autrelien,lien3%%
 ```
 
+**2.3. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata)
+
 ### 3. Une conversation sur TeamOpenData
 
-3.1. Ajoutez le lien de la conversation à la suite du [fichier des liens](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+#### 3.1. Ajoutez le lien de la conversation
 
 ⚠️ Pour que le lien s'affiche comme une conversation, il est nécessaire de le catégoriser en "type = tod"
 
-Exemple : 
+[Ajouter un lien](https://airtable.com/appyfWzMQVuv4ZoNR/shrQqei9MsiEfurnQ "canvaLinkButton")
 
-```json
-    {
-      "id": "2469",
-      "title": "Médiation scientifique autour de la donnée",
-      "type": "tod",
-      "description": "",
-      "url": "https://teamopendata.org/t/mediation-scientifique-autour-de-la-donnee/2469",
-      "tags": ["mediation", "exposition"]
-    },
-```
-3.2. Intégrez votre lien dans le corps de texte de votre doc
+**3.2. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata)
+
+#### 3.3. Intégrez votre lien dans le corps de texte de votre doc
 
 ```markdown
 ## On en discute sur TeamOpenData
@@ -163,10 +152,10 @@ Exemple :
 
 Si vous souhaitez afficher des jeux de données pertinents (et qu'ils sont disponibles sur data.gouv.fr) :
 
-3.1 - Récupérez l'identifiant d'un jeu de données sur data.gouv.fr (onglet informations > ID)
+5.1 - Récupérez l'identifiant d'un jeu de données sur data.gouv.fr (onglet informations > ID)
 Exemple : ```5de8f397634f4164071119c5```
 
-3.2. - Intégrez le dans votre doc
+5.2. - Intégrez le dans votre doc
 
 ```markdown
 ## Les données utilisées
@@ -183,7 +172,7 @@ Exemple : ```5de8f397634f4164071119c5```
 
 ### 6. Des données sous la forme d'une gallerie
 
-4.1 - Ajoutez un CSV dans le fichier ```/posts/data```
+#### 6.1 - Ajoutez un CSV dans le fichier ```/posts/data```
 
 **Note** : Nommez le fichier de manière simple, du type ```liste-epci-france```
 
@@ -191,7 +180,8 @@ Veillez à supprimer les champs qui comportent des textes trop longs ou qui ne s
 
 ⚠️ : Les performances ne sont pas optimales si le CSV comporte plusieurs millers d'enregistrements
 
-4.2 - Intégrez la galerie dans votre doc
+#### 6.2 - Intégrez la galerie dans votre doc
+
 ```markdown
 %%JsonGallery:nom-de-votre-csv%%
 ```
