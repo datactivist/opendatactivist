@@ -1,4 +1,4 @@
-﻿id,title,team,team-names,team-images,partners,partner-name,partner-description,partner-image,description,methode,realisations,date-debut,duree,reference-link,docs_catalog,references_catalog
+﻿id,title,team,team-names,team-images,partners,partner-name,partner-description,partner-image,description,methode,realisations,date-debut,duree,reference-link,docs_catalog,references_catalog,quotes
 standardisation-donnees-ouvertes,La standardisation des données ouvertes : facteurs de succès et bonnes pratiques,"elise-ho-pun-cheung,samuel-goeta","Elise Ho-Pun-Cheung, Samuel Goëta","/images/authors/elise-ho-pun-cheung.jpeg, /images/authors/samuel-goeta.jpeg",,,,," Ce projet de recherche s’inscrit dans ce contexte d’un foisonnement de démarches liées à la standardisation des données pour décupler l’impact de l’open data. Mais la charge de travail supplémentaire liée à la production et à l’usage de standards très peu documentée. En conséquence, les acteurs mesurent mal l’impact d’un standard sur les personnes qui prennent soin des données au quotidien.
 
 Le projet vise donc à : Comprendre les facteurs de succès et d’échec des standards de données ouvertes ; Étudier la diversité des méthodes de standardisation des données ouvertes ; Synthétiser et diffuser des bonnes pratiques de la standardisation ; Produire des guides méthodologiques afin d’accompagner les démarches de standardisation","Observation participante dans le cadre de l’accompagnement à la conception d’un standard
@@ -19,7 +19,7 @@ Création d’un parcours d’aide à la création de standards de données dans
  
 Organisation d’ateliers avec les acteurs français de la conception et mise en oeuvre de standards de données  
 
-",2022-02-01,10 mois,https://open.datactivist.coop/docs/cahier-standardisation ,cahier-standardisation,
+",2022-02-01,10 mois,https://open.datactivist.coop/docs/cahier-standardisation ,cahier-standardisation,,10
 mediation-algorithmes,La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.  ,"loup-cellard,samuel-goeta","Loup Cellard, Samuel Goëta","/images/authors/loup-cellard.jpeg, /images/authors/samuel-goeta.jpeg",mednum,La MedNum,"Depuis 2017, La Mednum rassemble les acteurs, les dynamise et les met en réseau pour leur permettre de trouver un cadre de coopération qui sera le plus adapté pour eux.",/images/partners/mednum.png,Ce projet de recherche-action vise à impulser une démarche d’expérimentation pour sortir d’un sentiment d’impuissance face aux effets des algorithmes — ces suites d’instructions informatiques qui participent à des prises de décisions dans de nombreux domaines de la vie sociale. L’originalité de notre démarche vise à aborder l’opacité de ces systèmes non pas simplement comme un problème informatique ou une volonté de cacher leurs fonctionnalités mais comme un problème de médiation entre ceux qui déploient et utilisent les algorithmes.,"Des entretiens semi-directifs avec des concepteurs, responsables et usagers d’algorithmes et des acteurs et actrices de la médiation numérique,
 
 Des observations (y compris participantes, dans le cadre par exemple d’ateliers de design animés par les organisations partenaires du projet),
@@ -30,7 +30,7 @@ Une étude documentaire (archives papier et en ligne produites par des concepteu
 Un rapport documentant une série de cas d’études.
 
 Une méthodologie d’explicabilité et de médiation.
-",2023-09-01,En cours,https://open.datactivist.coop/docs/mediation-algorithmes ,mediation-algorithmes,diagnostic-artificialisation
+",2023-09-01,En cours,https://open.datactivist.coop/docs/mediation-algorithmes ,mediation-algorithmes,diagnostic-artificialisation,"27,30"
 excom,EXCOM - Repenser la valeur du commerce grâce à ses externalités,"allyson-pallisser,samuel-goeta,elise-ho-pun-cheung,daniela-rochepeau","Allyson Pallisser, Samuel Goëta, Elise Ho-Pun-Cheung, Daniela Rochepeau","/images/authors/allyson-pallisser.png, /images/authors/samuel-goeta.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/daniela-rochepeau.png","metropole-rouen,paris-commerces,altavia,urbanis","Métropole Rouen-Normandie, Paris Commerces, Altavia, Fondation Urbanis","La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021., Le GIE Paris Commerces propose à la location des boutiques et des locaux d'activités situés en rez-de-chaussée des immeubles appartenant à Paris Habitat., Fondé en 1983 - groupe Altavia est le premier réseau mondial dédié aux services marketing pour le commerce., Depuis 1979, Urbanis conseille et accompagne les acteurs publics dans leurs politiques d'amélioration de l'habitat privé.","/images/partners/metropole-rouen-normandie.png, /images/partners/paris-commerces.png, /images/partners/altavia.png, /images/partners/urbanis.png","Chaque commerce apporte un supplément au cadre de vie, à la sûreté, à la propreté, à la cohésion des habitants, etc. On parle alors d’externalités. Nous pouvons traduire le concept d’externalité par tout ce qu’un acteur économique produit “en plus” de sa fonction principale, comme l’apport de biens essentiels dans le cadre d’une épicerie de quartier.
 Grâce à la collecte et à l’analyse de données auprès de commerçants, riverains et autres parties prenantes, notre objectif est de créer des indicateurs concrets pouvant mesurer l’impact du commerce de proximité dans un quartier pour ces mêmes acteurs : les riverains, les commerçants et la municipalité entre autres.
 
@@ -56,7 +56,7 @@ Questionnaire quantitatif
 
 Cartographie des jeux de données ouverts en lien avec les commerces
 
-Webinaire de restitution de la phase 1",2022-09-01,En cours,,,
+Webinaire de restitution de la phase 1",2022-09-01,En cours,,rapport-excom-1,,4
 dataflow,DataFlow,arthur-sarazin,Arthur Sarazin,/images/authors/arthur-sarazin.png,unseco-chair,UNESCO Chair AI & Data Science for society,"L’équipe de la Chaire développe une série de projets de recherche développant une IA susceptible d’améliorer la santé et l’éducation, de réduire les inégalités et de stimuler la croissance économique, tout en luttant contre le changement climatique et en œuvrant à la préservation de nos océans et de nos forêts.",/images/partners/unesco-chair.png,Le projet vise à rendre compte des différentes étapes d’un nouveau type d’interactions homme-données - permettant à l’utilisateur de concevoir de nouveaux produits avec des données brutes. Ces interactions sont caractérisées par un double mouvement de décomplexification/recomplexification des données brutes qui permet au concepteur de se les approprier pour ensuite concevoir des produits.,"La méthode utilisée reprend les canons de la Design Science Research Methodolody (Hevner et al., 2014). 
 
 Tous les détails se trouvent sur le carnet de recherche du projet","article en cours de peer-review, 
@@ -64,7 +64,7 @@ Tous les détails se trouvent sur le carnet de recherche du projet","article en 
 pseudo-code d’implémentation de l’interaction,  
 
 Des premiers prototypes de produits ont été conçus via ce type d’interactions ainsi qu’un simulateur d’interactions homme-données. 
-",2023-01-01,En cours,https://dataflow.hypotheses.org/about,,
+",2023-01-01,En cours,https://dataflow.hypotheses.org/about,,,
 mediation-covid,DoMeSCo – Données et médiation scientifique : leçons du Covid-19,samuel-goeta,Samuel Goëta,/images/authors/samuel-goeta.jpeg,"centre-sociologie,mines-paris","Centre de Sociologie de l'Innovation, Mines Paris Tech","Fondé en 1967, le CSI est devenu dans les années 80 un des laboratoires phares au plan international dans le domaine des Science and Technology Studies., L’École des mines de Paris est un établissement public à caractère scientifique, culturel et professionnel, dont la vocation est de former des ingénieurs de premier plan destinés au secteur industriel.","/images/partners/centre-sociologie.png, /images/partners/mines-paris.png","Le projet DoMeSCo a été financé dans le cadre de l’appel à projets ANR « Sciences avec et pour la société » 2021. Il interrogeait le rôle et la place des données dans la période la plus intense de la crise sanitaire du Covid-19, afin d’en identifier des enseignements pour l’administration dans le soutien à la médiation scientifique en temps de crise.
  Il partait de trois hypothèses principales : 
 - La pandémie a vu s’inventer une forme de médiation scientifique particulière
@@ -84,7 +84,7 @@ Présentation des résultats lors du Festival Double Science à Ground Control
 
 Production de deux vidéos sur des chaînes de médiation scientifique de premier niveau (Sociologeek et Sci+) 
 
-Rédaction de fiches synthétiques destinées à informer l’administration (via la Direction interministérielle de la transformation publique) et le grand public ",2022-01-01,Deux ans,,,
+Rédaction de fiches synthétiques destinées à informer l’administration (via la Direction interministérielle de la transformation publique) et le grand public ",2022-01-01,Deux ans,,,,9
 dequalin,"DEQUALIN - améliorer la DÉcouvrabilité, la QUALité et l’INtelligibilité des données ouvertes ",,,,,,,,"Ce projet visait à produire des connaissances nouvelles qui permettront de surmonter les obstacles à la réutilisation des données.
 Le premier obstacle concerne la capacité d’un utilisateur à trouver les jeux de données qu’il cherche, qui repose en retour sur la capacité d’un jeu de données à être trouvé ou découvert.
 Le second obstacle que rencontrent les réutilisateurs, s'ils ont trouvé un jeu de données pertinent, est celui du niveau de qualité des données et des métadonnées.  
@@ -94,11 +94,11 @@ Ce projet a notamment donné lieu à (1) des données annotées ouvertes, (2) du
 rédaction d’articles dans le cadre de conférences francophones et internationales 
 
 Conception et développement d’un outil facilitant la recherche de jeux de données (projet de conciergerie de données) 
-",2019-01-01,Trois ans,,agent-conversationnel-decouvrabilite,dreal-paca-conciergerie
+",2019-01-01,Trois ans,,agent-conversationnel-decouvrabilite,dreal-paca-conciergerie,
 standardisation-feminicides,La standardisation des données des féminicides ,maelle-fouquenet,Maëlle Fouquenet,/images/authors/maelle-fouquenet.jpeg,,,,,"Cette démarche d’élaboration d’un standard des données de féminicides s’inscrit dans un environnement médiatique rendant visible les désaccords méthodologiques sur le comptage de ces meurtres. 
 Un standard faciliterait la constitution de bases de données interopérables entre les services de l’État, avec des acteurs associatifs, universitaires, des journalistes… L’interopérabilité devrait aussi fonctionner au niveau international, et en premier lieu au niveau européen. Il favorisera aussi la pérennité de ces données afin de pouvoir mener des analyses de qualité dans le temps. 
 En plus de prolonger nos travaux “généralistes” sur la standardisation des données ouvertes, ce projet aura un impact social fort en participant à la visibilisation de données nécessaires à l’élaboration d’outils de prévention. ","Revue de littérature sur la quantification et le recensement des violences faites aux femmes
 
 Etude comparative entre un projet sud-américain (ILDA) et un projet belge en cours d’élaboration
 
-Entretiens semi-directifs avec des acteurs produisant et utilisant des chiffres liés aux féminicides",Réutilisation et reprise de notre méthodologie de production d’un standard de données pour l’adapter à un contexte européen ,2024-01-01,En cours,,cahier-standardisation,
+Entretiens semi-directifs avec des acteurs produisant et utilisant des chiffres liés aux féminicides",Réutilisation et reprise de notre méthodologie de production d’un standard de données pour l’adapter à un contexte européen ,2024-01-01,En cours,,cahier-standardisation,,
