@@ -1,102 +1,554 @@
-{   
-    "bercy-hub": {
-      "name": "Bercy Hub",
-      "image": "/images/partners/mefr.jpeg",
-      "description":"Au sein du Ministère de l'Economie, des Finances et de la Relance, le Bercy Hub a pour objectif de faire de la donnée un actif stratégique et mettre en place la politique de la donnée ministérielle."
-    },
-    "region-sud": {
-      "name": "Région Sud",
-      "image": "/images/partners/region-sud.jpeg",
-      "description": "La Région Sud Provence-Alpes-Côte d’Azur s'est engagée dans l'ouverture de ses données depuis 2017."
-    },
-    "ministere-culture": {
-      "name": "Ministère de la Culture",
-      "image": "/images/partners/ministere-culture.jpeg",
-      "description": "Le Ministère de la Culture s'est engagé dans l'ouverture de ses données depuis 2016"
-    },
-    "banque-des-territoires": {
-      "name": "Banque des Territoires",
-      "image": "/images/partners/banque-des-territoires.jpeg",
-      "description": "La Banque des Territoires accompagne les acteurs territoriaux dans l'élaboration et le déploiement de leurs projets d'avenir."
-    },
-    "infolab-poitiers": {
-      "name": "Infolab du Grand Poitiers",
-      "image": "/images/partners/infolab.jpeg",
-      "description": "Porté par la communauté urbaine du Grands Poitiers, l'infolab est un programme d'animation territoriale autour de la donnée ouverte. Il s'appuie sur le portail open data de la collectivité."
-    },
-    "futurocite": {
-      "name": "Futurocité",
-      "image": "/images/partners/futurocite.jpeg",
-      "description": "FuturoCité, en Belgique propose une approche intégrée sur le thème des données territoriales pour le secteur public, allant de la sensibilisation des acteurs clés à la valorisation des données grâce à la mise en œuvre de politiques de données publiques telles que l'Open Data."
-    },
-    "dreal-grand-est": {
-      "name": "DREAL Grand Est",
-      "image": "/images/partners/prefet-grand-est.jpeg",
-      "description": "La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français."
-    },
-    "metropole-bordeaux": {
-      "name": "Bordeaux Métropole",
-      "image": "/images/partners/metropole-bordeaux.jpeg",
-      "description": "La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010."
-    },
-    "civiteo": {
-      "name": "CIVITEO",
-      "image": "/images/partners/civiteo.jpeg",
-      "description": "CIVITEO est une société de conseil créée par Jacques Priol, qui développe une expertise autour du sujet stratégique de « la place de la donnée dans la décision publique ». CIVITEO est un partenaire de Datactivist, au sein de l'alliance Data Publica"
-    },
-    "gens-evenement": {
-      "name": "Gens d'évènements",
-      "image": "/images/partners/gens-evenement.jpeg",
-      "description": "Gens d’Événement est une agence conseil en communication événementielle basée à Paris et à Nantes."
-    },
-    "anct": {
-      "name": "Agence Nationale de la Cohésion des Territoires",
-      "image": "/images/partners/anct.svg",
-      "description": "L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales."
-    },
-    "sciencespo-sgl": {
-      "name": "Sciences Po Saint-Gremain-en-Laye",
-      "image": "/images/partners/sciencespo-sgl.png",
-      "description": "Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT"
-    },
-    "urfist-occitanie": {
-      "name": "URFIST Occitanie",
-      "image": "/images/partners/urfist-occitanie.png",
-      "description": "L'URFIST Occitanie est un organisme de formation et de recherche, membre du Réseau URFIST composé de 7 unités en France, créé en 1982."
-    },
-    "metropole-lille": {
-      "name": "Métropole Européenne de Lille",
-      "image": "/images/partners/metropole-lille.jpeg",
-      "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016"
-    },
-    "observatoire-data-publica": {
-      "name": "Observatoire Data Publica",
-      "image": "/images/partners/observatoire-data-publica.png",
-      "description": "L’Observatoire Data Publica a été créé pour observer les pratiques nouvelles de gestion publique des données."
-    },
-    "infrabel": {
-      "name": "Infrabel",
-      "image": "/images/partners/infrabel.png",
-      "description": "Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018"
-    },
-    "ademe": {
-      "name": "ADEME",
-      "image": "/images/partners/ademe.png",
-      "description": "L’ADEME est un acteur engagé et reconnu de la transition écologique. Elle participe à la mise en œuvre des politiques publiques dans les domaines de l’environnement, de l’énergie et du développement durable."
-    },
-    "issy-moulineaux": {
-      "name": "Ville d'Issy-les-Moulineaux",
-      "image": "/images/partners/issy-moulineaux.png",
-      "description": "La ville d'Issy-les-Moulineaux est engagée dans l'open data depuis 2012"
-    },
-    "association-respire": {
-      "name": "Association Respire",
-      "image": "/images/partners/association-respire.png",
-      "description": "Respire est une association qui lutte contre la pollution de l'air, et qui utilise les données ouvertes pour mener ses actions"
-    },
-    "mednum": {
-      "name": "La MedNum",
-      "image": "/images/partners/mednum.png",
-      "description": "La MedNum est un collectif d'acteurs engagés pour la médiation numérique"
-    }
-}
+[
+  {
+    "id": "bercy-hub",
+    "name": "Bercy Hub",
+    "image": "/images/partners/mefr.jpeg",
+    "description": "Au sein du Ministère de l'Economie, des Finances et de la Relance, le Bercy Hub a pour objectif de faire de la donnée un actif stratégique et mettre en place la politique de la donnée ministérielle.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "cartes-fresque-opendata,lexique-opendata,livret-fresque-opendata,cycle-formation-opendata",
+    "research_projects": ""
+  },
+  {
+    "id": "region-sud",
+    "name": "Région Sud",
+    "image": "/images/partners/region-sud.jpeg",
+    "description": "La Région Sud Provence-Alpes-Côte d’Azur s'est engagée dans l'ouverture de ses données depuis 2017.",
+    "partner_city": "Marseille",
+    "lat": 43.2965,
+    "lon": 5.3698,
+    "references_catalog": "",
+    "docs_catalog": "benchmark-ort",
+    "research_projects": ""
+  },
+  {
+    "id": "ministere-culture",
+    "name": "Ministère de la Culture",
+    "image": "/images/partners/ministere-culture.jpeg",
+    "description": "Le Ministère de la Culture s'est engagé dans l'ouverture de ses données depuis 2016",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "biblio-opendata-culture,demo-open-refine,enjeux-opendata-culture",
+    "research_projects": ""
+  },
+  {
+    "id": "banque-des-territoires",
+    "name": "Banque des Territoires",
+    "image": "/images/partners/banque-des-territoires.jpeg",
+    "description": "La Banque des Territoires accompagne les acteurs territoriaux dans l'élaboration et le déploiement de leurs projets d'avenir.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "carto-ensembles-data-territoires",
+    "research_projects": ""
+  },
+  {
+    "id": "infolab-poitiers",
+    "name": "Infolab du Grand Poitiers",
+    "image": "/images/partners/infolab.jpeg",
+    "description": "Porté par la communauté urbaine du Grands Poitiers, l'infolab est un programme d'animation territoriale autour de la donnée ouverte. Il s'appuie sur le portail open data de la collectivité.",
+    "partner_city": "Poitiers",
+    "lat": 46.5802,
+    "lon": 0.3404,
+    "references_catalog": "",
+    "docs_catalog": "factualite,organiser-sprint-data",
+    "research_projects": ""
+  },
+  {
+    "id": "futurocite",
+    "name": "Futurocité",
+    "image": "/images/partners/futurocite.jpeg",
+    "description": "FuturoCité, en Belgique propose une approche intégrée sur le thème des données territoriales pour le secteur public, allant de la sensibilisation des acteurs clés à la valorisation des données grâce à la mise en œuvre de politiques de données publiques telles que l'Open Data.",
+    "partner_city": "Charleroi",
+    "lat": 50.4108,
+    "lon": 4.4446,
+    "references_catalog": "",
+    "docs_catalog": "ameliorer-qualite-documentation",
+    "research_projects": ""
+  },
+  {
+    "id": "dreal-grand-est",
+    "name": "DREAL Grand Est",
+    "image": "/images/partners/prefet-grand-est.jpeg",
+    "description": "La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français.",
+    "partner_city": "Strasbourg",
+    "lat": 48.5734,
+    "lon": 7.7521,
+    "references_catalog": "",
+    "docs_catalog": "r-ou-python",
+    "research_projects": ""
+  },
+  {
+    "id": "metropole-bordeaux",
+    "name": "Bordeaux Métropole",
+    "image": "/images/partners/metropole-bordeaux.jpeg",
+    "description": "La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010.",
+    "partner_city": "Bordeaux",
+    "lat": 44.8378,
+    "lon": -0.5792,
+    "references_catalog": "",
+    "docs_catalog": "benchmark-datalab,note-challenge-bdm",
+    "research_projects": ""
+  },
+  {
+    "id": "civiteo",
+    "name": "CIVITEO",
+    "image": "/images/partners/civiteo.jpeg",
+    "description": "CIVITEO est une société de conseil créée par Jacques Priol, qui développe une expertise autour du sujet stratégique de « la place de la donnée dans la décision publique ». CIVITEO est un partenaire de Datactivist, au sein de l'alliance Data Publica",
+    "partner_city": "Nantes",
+    "lat": 47.2173,
+    "lon": -1.5534,
+    "references_catalog": "",
+    "docs_catalog": "expo-smartcity-images",
+    "research_projects": ""
+  },
+  {
+    "id": "gens-evenement",
+    "name": "Gens d'évènements",
+    "image": "/images/partners/gens-evenement.jpeg",
+    "description": "Gens d’Événement est une agence conseil en communication événementielle basée à Paris et à Nantes.",
+    "partner_city": "Nantes",
+    "lat": 47.2173,
+    "lon": -1.5534,
+    "references_catalog": "",
+    "docs_catalog": "expo-smartcity-images",
+    "research_projects": ""
+  },
+  {
+    "id": "anct",
+    "name": "Agence Nationale de la Cohésion des Territoires",
+    "image": "/images/partners/anct.svg",
+    "description": "L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "challenge-sgl",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "sciencespo-sgl",
+    "name": "Sciences Po Saint-Gremain-en-Laye",
+    "image": "/images/partners/sciencespo-sgl.png",
+    "description": "Les étudiants de Sciences Po Saint-Germain-en-Laye participent depuis plusieurs années au Challenge Data organisé par Datactvist et financé par l'ANCT",
+    "partner_city": "Saint-Germain-en-Laye",
+    "lat": 48.8967,
+    "lon": 2.0934,
+    "references_catalog": "challenge-sgl",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "urfist-occitanie",
+    "name": "URFIST Occitanie",
+    "image": "/images/partners/urfist-occitanie.png",
+    "description": "L'URFIST Occitanie est un organisme de formation et de recherche, membre du Réseau URFIST composé de 7 unités en France, créé en 1982.",
+    "partner_city": "Toulouse",
+    "lat": 43.6045,
+    "lon": 1.4437,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "metropole-lille",
+    "name": "Métropole Européenne de Lille",
+    "image": "/images/partners/metropole-lille.jpeg",
+    "description": "La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",
+    "partner_city": "Lille",
+    "lat": 50.62925,
+    "lon": 3.057256,
+    "references_catalog": "algo-mel",
+    "docs_catalog": "experimentation-algo-lille",
+    "research_projects": ""
+  },
+  {
+    "id": "observatoire-data-publica",
+    "name": "Observatoire Data Publica",
+    "image": "/images/partners/observatoire-data-publica.png",
+    "description": "L’Observatoire Data Publica a été créé pour observer les pratiques nouvelles de gestion publique des données.",
+    "partner_city": "Nantes",
+    "lat": 47.2173,
+    "lon": -1.5534,
+    "references_catalog": "",
+    "docs_catalog": "barometre-data-territoires-2023,cahier-standardisation",
+    "research_projects": ""
+  },
+  {
+    "id": "issy-moulineaux",
+    "name": "Ville d'Issy-les-Moulineaux",
+    "image": "/images/partners/issy-moulineaux.png",
+    "description": "Ville pionnière en France en matière d’open data, Issy-les-Moulineaux a ouvert un portail en 2012, et l’alimente régulièrement en nouvelles données",
+    "partner_city": "Issy-les-Moulineaux",
+    "lat": 48.822,
+    "lon": 2.2771,
+    "references_catalog": "tableaux-issy",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "association-respire",
+    "name": "Association Respire",
+    "image": "/images/partners/association-respire.png",
+    "description": "Respire est une association de citoyens, fondée en février 2011, dédiée à l’amélioration de la qualité de l’air",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "analyse-respire",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "partner-name",
+    "name": "",
+    "image": "",
+    "description": "",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "",
+    "docs_catalog": "demo-doc",
+    "research_projects": ""
+  },
+  {
+    "id": "infrabel",
+    "name": "Infrabel",
+    "image": "/images/partners/infrabel.png",
+    "description": "Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018",
+    "partner_city": "Brussels",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "references_catalog": "hackathon-infrabel",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "ademe",
+    "name": "Ademe",
+    "image": "/images/partners/ademe.png",
+    "description": "L’ADEME est un acteur engagé et reconnu de la transition écologique. Elle participe à la mise en œuvre des politiques publiques dans les domaines de l’environnement, de l’énergie et du développement durable.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "hackathon-ademe",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "mednum",
+    "name": "La MedNum",
+    "image": "/images/partners/mednum.png",
+    "description": "Depuis 2017, La Mednum rassemble les acteurs, les dynamise et les met en réseau pour leur permettre de trouver un cadre de coopération qui sera le plus adapté pour eux.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "mediation-algorithmes",
+    "research_projects": "mediation-algorithmes"
+  },
+  {
+    "id": "metropole-rouen",
+    "name": "Métropole Rouen-Normandie",
+    "image": "/images/partners/metropole-rouen-normandie.png",
+    "description": "La Métropole Rouen Normandie compte aujourd'hui 71 communes. la Métropole Rouen Normandie exerce 32 compétences et 7 compétences facultatives regroupées en 6 grandes thématiques. Elle s'est engagée dans l'open data depuis février 2021.",
+    "partner_city": "Rouen",
+    "lat": 49.4431,
+    "lon": 1.0993,
+    "references_catalog": "challenge-rouen,accult-metropole-rouen",
+    "docs_catalog": "",
+    "research_projects": "excom"
+  },
+  {
+    "id": "afd",
+    "name": "Agence Française de Développement",
+    "image": "/images/partners/afd.jpg",
+    "description": "L’Agence Française de Développement met en œuvre la politique nationale en matière de développement et de solidarité internationale",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "conference-afd-geo",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "amif",
+    "name": "Association des Maires d'Île de France",
+    "image": "/images/partners/amif.png",
+    "description": "L’Association des Maires d’Île de France assure un rôle de représentation des élus locaux et participe au dynamisme régional.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "hackathon-amif",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "ditp",
+    "name": "Direction Interministérielle de la Transformation publique",
+    "image": "/images/partners/ditp.png",
+    "description": "La Direction Interministérielle de la Transformation publique assure le suivi des réformes du gouvernement et accompagne les acteurs publics dans leurs projets.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "hackathon-ditp,ditp-opengov",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "beta-gouv",
+    "name": "Beta.gouv.fr",
+    "image": "/images/partners/beta-gouv.png",
+    "description": "Beta.gouv.fr incube des projets numériques à fort impact au sein de l'Etat.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "diagnostic-artificialisation",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "metropole-amp",
+    "name": "Métropole Aix-Marseille-Provence",
+    "image": "/images/partners/amp.png",
+    "description": "La Métropole Aix-Marseille Provence regroupe 92 communes sur 3 173 km2 et compte près de 1,83 millions d’habitants. Il s’agit de la plus grande Métropole de France.",
+    "partner_city": "Marseille",
+    "lat": 43.2965,
+    "lon": 5.3698,
+    "references_catalog": "perils-amp,data-gouv-amp",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "dgddi",
+    "name": "Direction Générale des Douanes et des Droits Indirects",
+    "image": "/images/partners/dgddi.png",
+    "description": "La DGDDI est une direction du ministère de l’Économie, des Finances et de la Souveraineté industrielle et numérique. La fonction de douane est fondamentalement régalienne. Tous les États du monde connaissent ce même besoin de douane : dès lors que des marchandises franchissent les frontières et circulent, alors il y a un besoin pour l’Etat de les connaître, de les taxer, de les contrôler, de les intercepter, et de les prendre en statistique. \n\nL’identité de la douane est ainsi construite autour de deux piliers, qui parfois se rejoignent, mais constituent chacun une identité forte : la frontière et la marchandise.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "cat-dgddi",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "mefr",
+    "name": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "image": "/images/partners/mefr.png",
+    "description": "Le ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique prépare et met en œuvre la politique du Gouvernement en matière économique, financière, budgétaire ou encore fiscale. Ministère régalien, son champ de compétence est très étendu et en fait un acteur essentiel du fonctionnement de l’État et de la vie économique du pays.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "anim-fonc-mefr,fdr-mefr,accult-mefr,fresque-mefr,mefr-non-conference",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "mesr",
+    "name": "Ministère de l'Enseignement supérieur et de la Recherche",
+    "image": "/images/partners/mesr.png",
+    "description": "Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "etude-metiers-mesr,etude-apc-mesr",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "fnccr",
+    "name": "Fédération nationale des collectivités concédantes et régies (FNCCR)",
+    "image": "/images/partners/fnccr.png",
+    "description": "La Fédération nationale des collectivités concédantes et régies (FNCCR) est une association de collectivités territoriales spécialisées dans les services publics locaux en réseau (Energie, cycle de l’eau, numérique, déchets).",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "france-data-reseau-fnccr",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "data-grand-est",
+    "name": "Data Grand Est",
+    "image": "/images/partners/data-grand-est.png",
+    "description": "Le partenariat DataGrandEst est mis en œuvre par l’État et la Région Grand Est pour développer la coopération régionale en matière de production, de partage et de valorisation de données dans le Grand Est.",
+    "partner_city": "Strasbourg",
+    "lat": 48.5734,
+    "lon": 7.7521,
+    "references_catalog": "cadrage-data-grand-est",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "sde-35",
+    "name": "Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35)",
+    "image": "/images/partners/sde-35.png",
+    "description": "Le Syndicat Départemental d’Energie d’Ille-et-Vilaine (SDE35) est un acteur majeur des enjeux énergétiques du département d'Ille-et-Vilaine. Il oeuvre au quotidien aux côtés des élus locaux pour un aménagement énergétique du territoire, équilibré et durable. Il contribue activement à développer la synergie entre les territoires ruraux et urbains du département.",
+    "partner_city": "Rennes",
+    "lat": 48.1173,
+    "lon": -1.6821,
+    "references_catalog": "gouv-data-sde",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "dreal-paca",
+    "name": "DREAL Provence-Alpes-Côte d'Azur",
+    "image": "/images/partners/dreal-paca.png",
+    "description": "La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) PACA est un service déconcentré de l'État français.",
+    "partner_city": "Marseille",
+    "lat": 43.2965,
+    "lon": 5.3698,
+    "references_catalog": "dreal-paca-conciergerie",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "region-normandie",
+    "name": "Région Normandie",
+    "image": "/images/partners/region-normandie.png",
+    "description": "La Région Normandie est une région administrative française.",
+    "partner_city": "Rouen",
+    "lat": 49.4431,
+    "lon": 1.0993,
+    "references_catalog": "region-normandie-open-data,region-normandie-datalab",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "region-bretagne",
+    "name": "Région Bretagne",
+    "image": "/images/partners/region-bretagne.png",
+    "description": "La Région Bretagne est une région administrative française.",
+    "partner_city": "Rennes",
+    "lat": 48.1173,
+    "lon": -1.6821,
+    "references_catalog": "region-bretagne-observatoire",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "paris-commerces",
+    "name": "Paris Commerces",
+    "image": "/images/partners/paris-commerces.png",
+    "description": "Le GIE Paris Commerces propose à la location des boutiques et des locaux d'activités situés en rez-de-chaussée des immeubles appartenant à Paris Habitat.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "excom"
+  },
+  {
+    "id": "altavia",
+    "name": "Altavia",
+    "image": "/images/partners/altavia.png",
+    "description": "Fondé en 1983 - groupe Altavia est le premier réseau mondial dédié aux services marketing pour le commerce.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "excom"
+  },
+  {
+    "id": "urbanis",
+    "name": "Fondation Urbanis",
+    "image": "/images/partners/urbanis.png",
+    "description": "Depuis 1979, Urbanis conseille et accompagne les acteurs publics dans leurs politiques d'amélioration de l'habitat privé.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "excom"
+  },
+  {
+    "id": "unseco-chair",
+    "name": "UNESCO Chair AI & Data Science for society",
+    "image": "/images/partners/unesco-chair.png",
+    "description": "L’équipe de la Chaire développe une série de projets de recherche développant une IA susceptible d’améliorer la santé et l’éducation, de réduire les inégalités et de stimuler la croissance économique, tout en luttant contre le changement climatique et en œuvrant à la préservation de nos océans et de nos forêts.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "dataflow"
+  },
+  {
+    "id": "centre-sociologie",
+    "name": "Centre de Sociologie de l'Innovation",
+    "image": "/images/partners/centre-sociologie.png",
+    "description": "Fondé en 1967, le CSI est devenu dans les années 80 un des laboratoires phares au plan international dans le domaine des Science and Technology Studies.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "mediation-covid"
+  },
+  {
+    "id": "mines-paris",
+    "name": "Mines Paris Tech",
+    "image": "/images/partners/mines-paris.png",
+    "description": "L’École des mines de Paris est un établissement public à caractère scientifique, culturel et professionnel, dont la vocation est de former des ingénieurs de premier plan destinés au secteur industriel.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": "mediation-covid"
+  },
+  {
+    "id": "inria",
+    "name": "Institut national de recherche en sciences et technologies du numérique",
+    "image": "/images/partners/inria.png",
+    "description": "L'Inria a pour mission le développement de la recherche et de la valorisation en sciences et techniques de l'information et de la communication, au niveau national comme au plan international.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "inria-desambiguisation-conferences",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "wikimedia",
+    "name": "Wikimedia France",
+    "image": "/images/partners/wikimedia-france.png",
+    "description": "Wikimédia France est une association agréée par le ministère de l'Éducation nationale dont le but est de promouvoir l'accès libre à la connaissance.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "wikimedia-analyse-enquete-vikidiens",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "metropole-lyon",
+    "name": "Métropole de Lyon",
+    "image": "/images/partners/metropole-lyon.png",
+    "description": "La Métropole de Lyon est née le 1er janvier 2015 : c'est une collectivité territoriale unique en France créée par la fusion de la Communauté urbaine de Lyon et du Conseil général du Rhône sur les 58 communes qui composent le territoire du Grand Lyon.",
+    "partner_city": "Lyon",
+    "lat": 45.764,
+    "lon": 4.8357,
+    "references_catalog": "lyon-vote-qpv",
+    "docs_catalog": "bibliographie-participation-lyon",
+    "research_projects": ""
+  },
+  {
+    "id": "paris-commerce",
+    "name": "",
+    "image": "",
+    "description": "",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "",
+    "docs_catalog": "",
+    "research_projects": ""
+  }
+]
