@@ -14,4 +14,4 @@ Les chiffres clés de cette première phase du projet : <br>
 → plus de 200 commerçants interrogés  <br>  
 → 18 effets sociaux et environnementaux, regroupés en 6 catégories<br>  
 <br>   
-[Voir le rapport](https://nextcloud.datactivist.coop/s/Q2W7tz7TyLTmw4p)  
+<a href="https://nextcloud.datactivist.coop/s/Q2W7tz7TyLTmw4p" class="customButton">👉 Accéder au rapport</a>
