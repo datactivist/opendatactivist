@@ -13,6 +13,5 @@ Les chiffres clés de cette première phase du projet :  <br>
 → 9 villes d'enquête : Paris, Marseille, Nîmes, Aix-en-Provence, Saint-Ouen, Duclair, Elbeuf-Sur-Seine, Le Trait et Rouen  <br>  
 → plus de 200 commerçants interrogés  <br>  
 → 18 effets sociaux et environnementaux, regroupés en 6 catégories<br>  
-<br>  
-
+<br>   
 [Accéder au rapport](nextcloud.datactivist.coop/s/Q2W7tz7TyLTmw4p)
