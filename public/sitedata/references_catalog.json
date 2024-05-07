@@ -17,6 +17,8 @@
     "reference-link": "https://data.issy.com/pages/tableaux-de-bord-issy/",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/tableaux-issy.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/issy-moulineaux.png",
     "quotes": ""
   },
   {
@@ -37,6 +39,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/analyse-respire.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/association-respire.png",
     "quotes": "67,68,70,73"
   },
   {
@@ -57,6 +61,8 @@
     "reference-link": "https://opendatacanvas.org/transparence-algo",
     "docs_catalog": "experimentation-algo-lille",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/algo-mel.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/metropole-lille.jpeg",
     "quotes": 30
   },
   {
@@ -77,6 +83,8 @@
     "reference-link": "https://infrabel.be/fr/article/lancement-du-portail-open-data-loccasion-du-tout-premier-hackathon",
     "docs_catalog": "check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/hackathon-infrabel.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/infrabel.png",
     "quotes": ""
   },
   {
@@ -97,6 +105,8 @@
     "reference-link": "https://databat.ademe.fr/",
     "docs_catalog": "check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/hackathon-ademe.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/ademe.png",
     "quotes": ""
   },
   {
@@ -117,6 +127,8 @@
     "reference-link": "https://challengedata.org/about/",
     "docs_catalog": "organiser-sprint-data,check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/challenge-sgl.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/anct.svg/images/partners/sciencespo-sgl.png",
     "quotes": "1,59"
   },
   {
@@ -137,6 +149,8 @@
     "reference-link": "",
     "docs_catalog": "organiser-sprint-data,check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/challenge-rouen.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/metropole-rouen-normandie.png",
     "quotes": ""
   },
   {
@@ -157,6 +171,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/conference-afd-geo.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/afd.jpg",
     "quotes": ""
   },
   {
@@ -177,6 +193,8 @@
     "reference-link": "https://amif.asso.fr/communiques-de-presse/hackathon-des-territoires-de-l-amif-une-1ere-edition-100-numerique/",
     "docs_catalog": "check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/hackathon-amif.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/amif.png",
     "quotes": ""
   },
   {
@@ -197,6 +215,8 @@
     "reference-link": "https://hackathon-covid.fr/restitution",
     "docs_catalog": "check-list-hackathon",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/hackathon-ditp.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/ditp.png",
     "quotes": "14,38,48,53"
   },
   {
@@ -217,6 +237,8 @@
     "reference-link": "",
     "docs_catalog": "mediation-algorithmes",
     "research_projects": "mediation-algorithmes",
+    "reference_image_url": "https://open.datactivist.coop/images/references/diagnostic-artificialisation.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/beta-gouv.png",
     "quotes": ""
   },
   {
@@ -237,6 +259,8 @@
     "reference-link": "https://ohmamp.github.io/geo_arrete_peril_amp/",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/perils-amp.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/amp.png",
     "quotes": ""
   },
   {
@@ -257,6 +281,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/data-gouv-amp.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/amp.png",
     "quotes": ""
   },
   {
@@ -277,6 +303,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/cat-dgddi.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/dgddi.png",
     "quotes": ""
   },
   {
@@ -297,6 +325,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/accult-metropole-rouen.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/metropole-rouen-normandie.png",
     "quotes": ""
   },
   {
@@ -317,6 +347,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/anim-fonc-mefr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mefr.png",
     "quotes": ""
   },
   {
@@ -337,6 +369,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/fdr-mefr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mefr.png",
     "quotes": ""
   },
   {
@@ -357,6 +391,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/accult-mefr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mefr.png",
     "quotes": ""
   },
   {
@@ -377,6 +413,8 @@
     "reference-link": "",
     "docs_catalog": "cartes-fresque-opendata",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/fresque-mefr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mefr.png",
     "quotes": 2
   },
   {
@@ -397,6 +435,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/etude-metiers-mesr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mesr.png",
     "quotes": ""
   },
   {
@@ -417,6 +457,8 @@
     "reference-link": "https://www.ouvrirlascience.fr/retrospective-and-prospective-study-of-the-evolution-of-apc-costs-and-electronic-subscriptions-for-french-institutions/",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/etude-apc-mesr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mesr.png",
     "quotes": ""
   },
   {
@@ -437,10 +479,12 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/gouv-data-sde.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/sde-35.png",
     "quotes": ""
   },
   {
-    "id": "france-data-reseau-fnccr",
+    "id": "fnccr-france-data-reseau",
     "title": "Expertise métier et AMO France Data Réseau",
     "type": "Stratégie",
     "team": "francois-lacombe,joel-gombin",
@@ -457,6 +501,8 @@
     "reference-link": "https://jdb.francedatareseau.fr/",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/fnccr-france-data-reseau.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/fnccr.png",
     "quotes": "16,18"
   },
   {
@@ -477,6 +523,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/cadrage-data-grand-est.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/data-grand-est.png",
     "quotes": ""
   },
   {
@@ -497,6 +545,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/ditp-opengov.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/ditp.png",
     "quotes": ""
   },
   {
@@ -517,6 +567,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/mefr-non-conference.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/mefr.png",
     "quotes": ""
   },
   {
@@ -537,6 +589,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "dequalin",
+    "reference_image_url": "https://open.datactivist.coop/images/references/dreal-paca-conciergerie.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/dreal-paca.png",
     "quotes": ""
   },
   {
@@ -557,6 +611,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/region-bretagne-observatoire.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/region-bretagne.png",
     "quotes": 31
   },
   {
@@ -577,6 +633,8 @@
     "reference-link": "",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/region-normandie-open-data.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/region-normandie.png",
     "quotes": ""
   },
   {
@@ -597,6 +655,8 @@
     "reference-link": "https://public.flourish.studio/visualisation/12410512/",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/region-normandie-datalab.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/region-normandie.png",
     "quotes": ""
   },
   {
@@ -617,6 +677,8 @@
     "reference-link": "https://datactivist.coop/nettoyage_donnees_HAL/notebook/Synthese.html",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/inria-desambiguisation-conferences.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/inria.png",
     "quotes": ""
   },
   {
@@ -637,6 +699,8 @@
     "reference-link": "https://wikimedia-france.github.io/analyse-donnees_enquete-vikidia/reports/rapport_final.html",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/wikimedia-analyse-enquete-vikidiens.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/wikimedia-france.png",
     "quotes": ""
   },
   {
@@ -657,6 +721,162 @@
     "reference-link": "https://www.millenaire3.com/dossiers/2023/quartiers-populaires-politique-de-la-ville-au-caeur-des-enjeux-le-quotidien-des-habitants/participation-electorale-des-qpv-que-nous-disent-les-resultats-des-scrutins-nationaux",
     "docs_catalog": "",
     "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/lyon-vote-qpv.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/metropole-lyon.png",
+    "quotes": ""
+  },
+  {
+    "id": "ird-formation-datajournalisme",
+    "title": "Accompagnement à l'éditorialisation de données",
+    "type": "Acculturation",
+    "team": "maelle-fouquenet",
+    "team-names": "Maëlle Fouquenet",
+    "team-images": "/images/authors/maelle-fouquenet.jpeg",
+    "partners": "IRD",
+    "partner-name": "Institut de recherche pour le développement",
+    "partner-description": "L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",
+    "partner-image": "/images/partners/Logo-IRD.png",
+    "mission": "Datactivist a accompagné les chercheurs de l'IRD pour éditorialiser leurs données et produire un article de datajournalisme à partir de leurs sujets de recherche. Cet accompagnement comprend un apport théorique des bases du datajournalisme ainsi que des ateliers d'écriture et de réalisation de datavisualisation à partir d'outils no code.",
+    "actions": "Acculturation aux bases du datajournalisme\nAtelier de rédaction de brief (définition d'un angle, squelette de l'article).\nAtelier d'écriture journalistique suivi de la rédaction du premier jet de l'article.\nAteliers de datavisualisation, focus sur la carto. \nTravail de correction et réécriture de l'article (3 AR).",
+    "date-debut": "2023-03-23",
+    "duree": "8 mois",
+    "reference-link": "",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/ird-formation-datajournalisme.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/Logo-IRD.png",
+    "quotes": ""
+  },
+  {
+    "id": "ecolab-gd4h-datathon-challenge-donnees",
+    "title": "Accompagnement du Green Data for Health dans l’organisation d’un datathon",
+    "type": "Hackathons",
+    "team": "sarah-bourgouin,clement-feyt",
+    "team-names": "Sarah Bourgouin, Clément Feyt",
+    "team-images": "/images/authors/sarah-bourgouin.png",
+    "partners": "ecolab,gd4h",
+    "partner-name": "Ecolab, Green Data for Health",
+    "partner-description": "ECOLAB est le laboratoire d'innovation du CGDD, qui accompagne les acteurs de la transition écologique. , Le Green Data for Health (GD4H) est une offre de service incubée au sein de l’ECOLAB, laboratoire d’innovation pour la transition écologique du Commissariat Général au Développement Durable (Ministère de la Transition écologique et de la Cohésion des territoires et Ministère de la Transition énergétique).\nAction phare du 4° Plan National Santé Environnement, le GD4H vise à permettre une meilleure mobilisation et valorisation, par les acteurs de la recherche et de l’expertise, des données environnementales au service de la santé-environnement.",
+    "partner-image": "images/partners/logo-ecolab.png, images/partners/gd4h.png",
+    "mission": "La mission part d’un constat : les données environnementales existantes restent peu mobilisées pour faire émerger des associations entre expositions environnementales et pathologies humaines.\nLa mission a consisté à accompagner le GD4H lors d’un challenge sur 2 mois pour développer des projets utiles, communs, transférables et pérennisables. \nAprès 3 mois de préparation pour faire remonter les besoins terrain et cadrer les défis, l’équipe projet a accompagné les équipes durant les deux mois de production mais aussi après l’événement de clôture afin de finaliser les codes et les rendre activables, transférables et pérennisables.",
+    "actions": "60 entretiens avec des porteurs de projet pour faire émerger les idées et cadrer les défis\n5 ateliers d’expertisation des défis \n1 événement de lancement avec l’ensemble des porteurs de projet et les bénévoles\n1 formation aux bonnes pratiques de code\n15 x 3 point de fin de sprint\n1 événement de clôture avec pitch des défis\n2 mois de production composé d’un pré-sprint et de 3 sprints\nAnimation des 15 équipes : moments d’échanges, animation du forum\n15 x 4 rendez-vous  de fin de sprint\nLivrables : 15 CCT, 15 pitchs vidéos, 1 site Internet accompagné d’un forum, 1 dataroom pour héberger les données, 1 forge Gitlab avec des documents types prêts à l’emploi pour accueillir les codes des projets et leur documentation, 1 synthèse technique des défis.",
+    "date-debut": "2023-01-05",
+    "duree": "10 mois",
+    "reference-link": "https://gd4h.ecologie.gouv.fr",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/ecolab-gd4h-datathon-challenge-donnees.png",
+    "parner_image_url": "https://open.datactivist.coopimages/partners/logo-ecolab.pngimages/partners/gd4h.png",
+    "quotes": ""
+  },
+  {
+    "id": "franceactive-gouvernance-partage-donnees",
+    "title": "Accompagnement à la gouvernance et au partage des données",
+    "type": "Stratégie",
+    "team": "etienne-pichot-damon,joel-gombin,data-publica",
+    "team-names": "Etienne Pichot Damon, Joël Gombin",
+    "team-images": "/images/authors/etienne-pichot-damon.jpeg, /images/authors/joel-gombin.jpeg",
+    "partners": "france-active",
+    "partner-name": "France Active",
+    "partner-description": "Pionnier de la finance solidaire, France Active accompagne et finance les entreprises depuis plus de 30 ans et a mobilisé 485 millions d’euros au service de 36 000 entreprises l’année dernière.\nBien plus qu’un réseau, France Active est un véritable mouvement d’entrepreneurs engagés dont l’ambition est de bâtir une société plus solidaire. France Active se fixe pour cela une mission : « Accélérer la réussite des entrepreneurs en leur donnant les moyens de s’engager. »",
+    "partner-image": "/images/partners/france-active.jpg",
+    "mission": "Notre intervention, avec nos partenaires de l’alliance Data Publica, a permis d’accompagner France Active, depuis son comité de direction national jusqu’à une entité régionale (Centre-Val de Loire), dans sa réflexion sur les opportunités et les risques que sa transformation numérique (mise en place d’outils numériques pour le suivi des entrepreneurs et des projets financés) fait émerger.",
+    "actions": "Benchmark inspirant des modèles de valeur de la donnée dans le secteur du financement.\nEntretiens et ateliers avec les salariés de France Active et leur écosystème pour recenser les besoins, comprendre les problématiques et identifier les opportunités.\nRédaction d’une note de cadrage juridique sur le partage et la gouvernance des données de France Active (prenant en compte la règlementation bancaire, le droit public des données, le droit de la propriété intellectuelle, le RGPD…)",
+    "date-debut": "2022-05-01",
+    "duree": "6 mois",
+    "reference-link": "",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/franceactive-gouvernance-partage-donnees.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/france-active.jpg",
+    "quotes": ""
+  },
+  {
+    "id": "has-concours-donnees-textuelles",
+    "title": "Organisation d’un concours d’innovation pour améliorer la diffusion de données textuelles",
+    "type": "Animation,Hackathons",
+    "team": "mathieu-morey,clement-feyt,arthur-sarazin,julia-dumont",
+    "team-names": "Mathieu Morey, Clément Feyt, Arthur Sarazin, Julia Dumont",
+    "team-images": "/images/authors/mathieu-morey.jpeg, /images/authors/arthur-sarazin.png, /images/authors/julia-dumont.png",
+    "partners": "haute-autorite-sante",
+    "partner-name": "Haute Autorité de Santé",
+    "partner-description": "Autorité publique indépendante à caractère scientifique, la Haute Autorité de santé (HAS) vise à développer la qualité dans le champ sanitaire, social et médico-social, au bénéfice des personnes. Elle travaille aux côtés des pouvoirs publics dont elle éclaire la décision, avec les professionnels pour optimiser leurs pratiques et organisations, et au bénéfice des usagers dont elle renforce la capacité à faire leurs choix. Elle a été créée par la loi du 13 août 2004 relative à l’Assurance maladie",
+    "partner-image": "/images/partners/Haute_Autorite_de_Sante_Logo.svg.png",
+    "mission": "Ce concours d’innovation s’insère dans  le cadre d’une mission plus large visant à accompagner la HAS dans la diffusion de ses données textuelles (recommandations, avis, etc.)\nLe concours d’innovation, nommé Défi iDoc, est un dispositif visant à fédérer une communauté d’utilisateurs ainsi qu’à prototyper des solutions pour améliorer la diffusion des données textuelles de la HAS.\nIl s’agit de constituer des équipes autour de défis formulés par la HAS et deux de ses partenaires (INCA et ANS) et de créer un cadre pour permettre aux équipes de créer des solutions qui répondent aux enjeux de diffusion des données de la HAS\nOrganisé sur une durée de 6 mois, et ponctué de 6 évènements communautaires accompagnés d’épreuves dédiées, le défi iDoc assure une dynamique de création de solutions communautaires que la HAS pourra reprendre pour améliorer la diffusion de ses données auprès des professionnels de santé.",
+    "actions": "Accompagnement à la rédaction de 8 défis avec la HAS et ses partenaires\nConception du format “Défi iDoc” permettant  d’aboutir à des solutions documentées et attractives ainsi qu’au maintien de la dynamique communautaire\nValorisation des 6 solutions  développées et recommandations pour améliorer la diffusion des données",
+    "date-debut": "2022-07-01",
+    "duree": "3 mois",
+    "reference-link": "https://www.has-sante.fr/jcms/p_3332693/fr/defi-idoc-sante-un-concours-pour-mieux-diffuser-organiser-et-connecter-les-connaissances-en-sante#:~:text=Voir%20aussi-,D%C3%A9fi%20iDoc%20Sant%C3%A9%20%3A%20un%20concours%20pour%20mieux%20diffuser%2C%20organiser%20et,connecter%20les%20connaissances%20en%20sant%C3%A9&text=Dans%20le%20cadre%20de%20sa,efficacement%20les%20donn%C3%A9es%20textuelles%20produites.",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/has-concours-donnees-textuelles.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/Haute_Autorite_de_Sante_Logo.svg.png",
+    "quotes": ""
+  },
+  {
+    "id": "anct-beta-pcrs",
+    "title": "Accompagnement/outillage national des projets PCRS",
+    "type": "Standards,Animation,Catalogage de données",
+    "team": "francois-lacombe,magalie-dartus",
+    "team-names": "François Lacombe, Magalie Dartus",
+    "team-images": "/images/authors/francois-lacombe.png, /images/authors/magalie-dartus.jpeg",
+    "partners": "anct",
+    "partner-name": "Agence Nationale de la Cohésion des Territoires",
+    "partner-description": "L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales.",
+    "partner-image": "/images/partners/anct.svg",
+    "mission": "Nous avons intégré l'équipe de la startup d'État PCRS dès sa fondation en octobre 2022. \n\nIl s’agissait de construire une démarche d’accompagnement national de près de 150 collectivités qui produisent le Plan de Corps de Rue Simplifié depuis 2015, grâce à l’engagement d’une intrapreneuse de l’ANCT, d’un chef de produit, de développeurs et d’animateurs \nLa startup y a répondu par la construction d’un outillage dédié, d’une présence auprès des porteurs de projets et d’une force de proposition auprès de l’ensemble de l’écosystème.",
+    "actions": "Rédaction de la documentation, sur l’ensemble du métier de production et d’utilisation du PCRS.\n\nDéfinition et exécution de la feuille de route technique encadrant la réalisation des outils.\n\nStratégie financière contribuant à la pérennisation nationale du financement des projets en cours et à venir.\n\nGuichet de support, pour l’aide au quotidien et répondre aux questionnements des porteurs de projets\n\nAnimation régulière de l’ensemble des porteurs de projets et de plusieurs autres acteurs de l’écosystème pour l’adoption des outils, le lancement des projets restants et la conformité des projets réalisés",
+    "date-debut": "2022-10-03",
+    "duree": "En cours",
+    "reference-link": "https://pcrs.beta.gouv.fr",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/anct-beta-pcrs.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/anct.svg",
+    "quotes": ""
+  },
+  {
+    "id": "lyon-analyse-jeparticipe",
+    "title": "Analyse des données de la plateforme jeparticipe.grandlyon.com",
+    "type": "Data analyse",
+    "team": "diane-thierry,anthony-gigerich,elise-ho-pun-cheung,samuel-goeta",
+    "team-names": "Diane Thierry, Anthony Gigerich, Elise Ho-Pun-Cheung, Samuel Goëta",
+    "team-images": "/images/authors/diane-thierry.jpeg, /images/authors/anthony-gigerich.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/samuel-goeta.jpeg",
+    "partners": "metropole-lyon",
+    "partner-name": "Métropole de Lyon",
+    "partner-description": "La Métropole de Lyon est née le 1er janvier 2015 : c'est une collectivité territoriale unique en France créée par la fusion de la Communauté urbaine de Lyon et du Conseil général du Rhône sur les 58 communes qui composent le territoire du Grand Lyon.",
+    "partner-image": "/images/partners/metropole-lyon.png",
+    "mission": "Depuis 2021, la plateforme de participation citoyenne de la métropole de Lyon a recueilli près de 20 000 contributions et est devenue un outil essentiel du débat. Dans le cadre du lot d’analyse quantitative de données du marché de veille prospective, Datactivist a récupéré, transformé et analysé les données de la plateforme pour mieux comprendre la sociologie des participants en ligne, leur perception de la participation et de l'institution, et la dynamique des débats en ligne. \nCe travail a donné lieu à plusieurs restitutions au sein de la DPDP, ainsi qu’un article sur Millenaire3 et fait l’objet d’une deuxième phase d’analyse centrée sur les profils-type des usagers de la plateforme.",
+    "actions": "Revue de littérature sur la participation en ligne\n\nRécupération de données\n\nTravail préparatoire avant l’analyse\n\nAnalyse du comportement des usagers\n\nAnnotation semi-automatisée des contributions\n\nVisualisation et analyse des données",
+    "date-debut": "2022-09-05",
+    "duree": "En cours",
+    "reference-link": "",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/lyon-analyse-jeparticipe.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/metropole-lyon.png",
+    "quotes": ""
+  },
+  {
+    "id": "dreal-grandest-datahub-enr",
+    "title": "Accompagnement à la mise en oeuvre technique d’un Datahub et d’un entrepôt de données",
+    "type": "Catalogage de données,Standards,Animation",
+    "team": "magalie-dartus",
+    "team-names": "Magalie Dartus",
+    "team-images": "/images/authors/magalie-dartus.jpeg",
+    "partners": "dreal-grand-est",
+    "partner-name": "DREAL Grand Est",
+    "partner-description": "La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français.",
+    "partner-image": "/images/partners/prefet-grand-est.jpeg",
+    "mission": "L’approche de la DREAL Grand Est est quadruple:\nVolet DataHub - Disposer d’un accès facile à toutes les données utiles pour la DREAL et les DDTs ;\nVolet Entrepôt - Professionnaliser la gestion des données internes à la DREAL et aux DDT de manière coordonnée avec les services métiers ;\nVolet Outils - Aller plus loin dans la réponse aux besoins de ses bénéficiaires, en améliorant les outils actuels et en développant d’autres outils au bénéfice des usagers de la donnée ;\nVolet accompagnement-méthodo-animation : Continuer à s’approprier les méthodes les plus efficaces pour atteindre rapidement nos objectifs, en particulier les approches agiles.",
+    "actions": "Rédaction d’une feuille de route : construire un datahub par les cas d’usage et créer des communautés d’utilisateurs.\n\nEntretiens avec les producteurs et les réutilisateurs de données (territoire national) pour identifier les besoins concernant le datahub.\n\nArchitecture informatique du Datahub s’incluant dans le SI ministériel (MTE).\n\nAteliers avec les métiers avec de modéliser les flux de données EnR.\n\nAteliers de design en intelligence collective pour co-construire le Datahub par le cas d’usage des EnR avec tous les acteurs concernés.\n\nMCD pour les données EnR\n\nDéveloppement en Python d’un outil de saisie et de collecte des données EnR",
+    "date-debut": "2022-06-06",
+    "duree": "18 mois",
+    "reference-link": "",
+    "docs_catalog": "",
+    "research_projects": "",
+    "reference_image_url": "https://open.datactivist.coop/images/references/dreal-grandest-datahub-enr.png",
+    "parner_image_url": "https://open.datactivist.coop/images/partners/prefet-grand-est.jpeg",
     "quotes": ""
   }
 ]
