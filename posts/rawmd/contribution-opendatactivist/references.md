@@ -14,7 +14,7 @@ Dans ce cas, les relations se font automatiquement, mais il faut exporter les ta
 - ```references.csv```
 - ```docs_catalog.csv``` --> ⚠️ à transformer en ```docs_catalog.json```
 - ```authors.csv```
-- ```partners.cs```
+- ```partners.csv``` ([importer le logo du partenaire ici](https://github.com/datactivist/nextjs-doc/upload/main/public/images/partners)
 
 ## Importer les fichiers dans Github
 
