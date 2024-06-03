@@ -70,9 +70,6 @@ const DocsGallery = () => {
     router.push(newUrl, undefined, { shallow: true });
   };
 
-  const navigateToRoadmap = () => {
-    router.push('/roadmap'); // Assuming you have a /roadmap route.
-  };
 
   const navigateToTags = () => {
     router.push('/tags'); // Assuming you have a /roadmap route.
@@ -181,9 +178,6 @@ const DocsGallery = () => {
           />
           <button onClick={navigateToTags} className={styles.customButton}>
             Tags
-          </button>
-          <button onClick={navigateToRoadmap} className={styles.customButton}>
-            Roadmap
           </button>
           <button onClick={toggleViewMode} className={styles.toggleViewButton}>
             {viewMode === 'list' ? (
