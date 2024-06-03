@@ -15,72 +15,84 @@ const AuthorPage = () => {
   const [partnerData, setPartnerData] = useState(null);
   const [authorDocs, setAuthorDocs] = useState([]);
   const [referencesDetails, setReferencesDetails] = useState([]);
-  const [researchDetails, setResearchDetails] = useState([]); // Nom de variable corrigé
+  const [researchDetails, setResearchDetails] = useState([]);
 
   useEffect(() => {
-    fetch('/api/references?action=list')
-      .then((response) => response.json())
-      .then((allReferences) => {
-        const filteredReferences = allReferences.filter(
-          (reference) => reference.team.includes(author),
-        );
-        setReferencesDetails(filteredReferences);
-      })
-      .catch((error) => {
-        console.error('Failed to fetch references:', error);
-      });
-  }, [author]);
+    if (!author) return;
 
-  useEffect(() => {
-    fetch(`/api/research-projects?action=list`)
-      .then(response => response.json())
-      .then(allResearch => {
-        const filteredResearch = allResearch.filter(research => research.team.includes(author));
-        setResearchDetails(filteredResearch);
-      })
-      .catch(error => console.error('Failed to fetch research:', error));
-  }, [author]);
+    console.log(`Fetching data for author: ${author}`);
 
-
-  useEffect(() => {
     fetch(`/sitedata/authors.json`)
       .then((response) => response.json())
       .then((data) => {
-        if (Object.prototype.hasOwnProperty.call(data, author)) {
-          const authorInfo = data[author];
+        console.log(`Fetched author data:`, data);
+        const authorInfo = data[author];
+
+        if (authorInfo) {
           setAuthorData(authorInfo);
+          console.log(`Author data found: `, authorInfo);
           if (authorInfo.organisation !== 'datactivist') {
             fetch(`/sitedata/partners.json`)
               .then((response) => response.json())
               .then((partnerData) => {
                 setPartnerData(partnerData[authorInfo.organisation]);
+                console.log(`Partner data found: `, partnerData[authorInfo.organisation]);
               });
           }
         } else {
+          console.log('Author not found in authors.json');
           setAuthorData(null);
         }
+      })
+      .catch((error) => {
+        console.error('Failed to fetch author data:', error);
       });
   }, [author]);
 
   useEffect(() => {
+    if (!author) return;
+
+    fetch('/api/references?action=list')
+      .then((response) => response.json())
+      .then((allReferences) => {
+        const filteredReferences = allReferences.filter(
+          (reference) => reference.team.includes(author)
+        );
+        setReferencesDetails(filteredReferences);
+        console.log(`References found: `, filteredReferences);
+      })
+      .catch((error) => {
+        console.error('Failed to fetch references:', error);
+      });
+
+    fetch('/api/research-projects?action=list')
+      .then((response) => response.json())
+      .then((allResearch) => {
+        const filteredResearch = allResearch.filter(
+          (research) => research.team.includes(author)
+        );
+        setResearchDetails(filteredResearch);
+        console.log(`Research projects found: `, filteredResearch);
+      })
+      .catch((error) => {
+        console.error('Failed to fetch research projects:', error);
+      });
+
     if (authorData) {
       fetch('/api/docscatalog?action=metadatalist')
         .then((response) => response.json())
         .then((data) => {
-          // Split authors string into an array, and then check if it includes the current author
           const docsByAuthor = data.filter((doc) =>
             doc.authors
               .split(',')
               .map((author) => author.trim())
-              .includes(author),
+              .includes(author)
           );
           setAuthorDocs(docsByAuthor);
+          console.log(`Documents found: `, docsByAuthor);
         })
         .catch((error) => {
-          console.error(
-            'Erreur lors de la récupération des documents de l‘auteur:',
-            error,
-          );
+          console.error('Failed to fetch author documents:', error);
         });
     }
   }, [author, authorData]);
@@ -145,13 +157,13 @@ const AuthorPage = () => {
           {researchDetails.length > 0 && (
             <>
               <div className={styles.authorSectionTitle}>Projets de recherche</div>
-              {researchDetails.map(research => (
+              {researchDetails.map((research) => (
                 <Gallery key={research.id}>
                   <ResearchCard
                     key={research.id}
                     id={research.id}
                     title={research.title}
-                    partnerNames={research.partners.map(partner => partner.name)}
+                    partnerNames={research.partners.map((partner) => partner.name)}
                   />
                 </Gallery>
               ))}
