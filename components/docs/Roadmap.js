@@ -6,9 +6,7 @@ import authors from '../../public/sitedata/authors.json';
 const Roadmap = () => {
   const formatDate = (dateString) => {
     const options = { year: 'numeric', month: 'long' };
-    const date = new Intl.DateTimeFormat('fr-FR', options).format(
-      new Date(dateString),
-    );
+    const date = new Intl.DateTimeFormat('fr-FR', options).format(new Date(dateString));
     return date.charAt(0).toUpperCase() + date.slice(1);
   };
 
@@ -31,17 +29,16 @@ const Roadmap = () => {
             <tbody>
               {groupedByMonth[month].map((item, index) => (
                 <tr key={index}>
-                  <td>{item.title}</td>
+                  <td>{item.title || 'No Title'}</td>
                   <td>
                     <img
-                      src={authors[item.authors[0]].image}
-                      alt={authors[item.authors[0]].name}
+                      src={authors[item.authors[0]]?.image || ''}
+                      alt={authors[item.authors[0]]?.name || 'Unknown author'}
                       className={styles.authorImage}
                     />
                   </td>
                   <td className={styles.authorName}>
-                    {' '}
-                    {authors[item.authors[0]].name}{' '}
+                    {authors[item.authors[0]]?.name || 'Unknown'}
                   </td>
                 </tr>
               ))}
