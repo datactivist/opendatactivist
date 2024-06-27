@@ -1736,5 +1736,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
+  },
+  {
+    "name": "open-data-in-france-eng",
+    "title": "Open Data in France - Talk at the Justus Liebig University Giessen",
+    "image": "/images/docs/open-data-in-france-eng.png",
+    "description": "This presentation is a brief overview of open data in France. It presents 3 major datasets in France, and 3 reuses. It concludes with the challenges ahead for the ecosystem (English).",
+    "type": "Formation",
+    "index": 1,
+    "date": "2024-06-12",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron",
+    "author_image": "/images/authors/clement-mandron.png",
+    "tags": "portail,territoires,législation,commande publique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
