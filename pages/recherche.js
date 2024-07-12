@@ -81,20 +81,20 @@ const ReferencesPage = () => {
           <div className={styles.rightTextBlock}>
             <h1 className={styles.blocTitleRight}>Notre équipe</h1>
             <p>
-              Datactivist est composé de 24 salarié·es aux parcours
+              Datactivist est composé de salarié·es aux parcours
               professionnels très variés mais partageant le souci de mettre la
               donnée au service du bien commun.
             </p>
             <p>
               Au sein de l’équipe,{' '}
               <b>
-                sept chercheurs mènent des projets de recherche et développement
+                six chercheurs mènent des projets de recherche et développement
                 :
               </b>{' '}
               en <b>sociologie des sciences et techniques</b> (Dr. Samuel
               Goëta, Allyson Pallisser (doctorant), Dr. Loup Cellard), sciences
-              de gestion et <b>design</b> (Dr. Arthur Sarazin),
-              <b>science politique</b> (Joël Gombin, Dr. Elise Ho-Pun-Cheung,
+              de gestion et <b>design</b> (Dr. Arthur Sarazin), 
+              <b>science politique</b> (Dr. Elise Ho-Pun-Cheung,
               Dr. Martin Lestra)
             </p>
             <p>
@@ -105,8 +105,7 @@ const ReferencesPage = () => {
                 doctorat
               </b>{' '}
               : en plus des profils cités précédemment, nous pouvons aussi
-              mentionner Dr. Pauline Breton-Chauvet, titulaire d’un doctorat en
-              histoire et Dr. Margaux Larre-Perez, titulaire d’un doctorat en
+              mentionner Dr. Margaux Larre-Perez, titulaire d’un doctorat en
               psychologie cognitive.
             </p>
           </div>
