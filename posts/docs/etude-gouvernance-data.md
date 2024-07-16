@@ -1,4 +1,4 @@
-\# Présentation
+# Présentation
 
 Courant 2021, CIVITEO et Datactivist, dans le cadre de l'alliance Data Publica réalisent un benchmark sur les gouvernances mises en place par huit grandes collectivités territoriales françaises et étrangères. L’ensemble de l’étude s’appuie sur une recherche documentaire poussée, des entretiens mais aussi sur les travaux conduits antérieurement sur les stratégies de la donnée et la structuration de la gouvernance interne et externe de la donnée.  
 </br>  
