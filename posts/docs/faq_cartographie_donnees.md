@@ -41,4 +41,4 @@
 - Outil de gouvernance : Révision régulière ou utilisation continue par les services.
 
 </br>  
-<a href="\[https://docs.google.com/document/d/1dpUXTPBpxHhvRsDGHnolEkOka3WIPTWkbKTcJe5l2sE/edit?usp=sharing](</span><a href=)" class="customButton">Accéder au document</a>
+(accéder au document)[https://docs.google.com/document/d/1dpUXTPBpxHhvRsDGHnolEkOka3WIPTWkbKTcJe5l2sE/edit?usp=sharing]
