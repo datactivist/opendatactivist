@@ -404,3 +404,114 @@ Un article a par la suite été rédigé sur la base de ces analyses.
 ","Récupération de données des élections, des bureaux de vote et des quartiers politiques de la ville et mise en forme des données.
 Analyse des données de vote avec une triple comparaison : quartiers prioritaires, métropole hors QPV, ensemble métropole. Une ACP a aussi été menée.
 Rédaction d’un article analysant le vote des quartiers prioritaires avec pour exemple celui de la métropole de Lyon pour les deux scrutins étudiés.",2023-03-01,7 mois,https://www.millenaire3.com/dossiers/2023/quartiers-populaires-politique-de-la-ville-au-caeur-des-enjeux-le-quotidien-des-habitants/participation-electorale-des-qpv-que-nous-disent-les-resultats-des-scrutins-nationaux,,,
+ird-formation-datajournalisme,Accompagnement à l'éditorialisation de données,Acculturation,maelle-fouquenet,Maëlle Fouquenet,/images/authors/maelle-fouquenet.jpeg,IRD,Institut de recherche pour le développement,"L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",/images/partners/Logo-IRD.png,Datactivist a accompagné les chercheurs de l'IRD pour éditorialiser leurs données et produire un article de datajournalisme à partir de leurs sujets de recherche. Cet accompagnement comprend un apport théorique des bases du datajournalisme ainsi que des ateliers d'écriture et de réalisation de datavisualisation à partir d'outils no code.,"Acculturation aux bases du datajournalisme
+Atelier de rédaction de brief (définition d'un angle, squelette de l'article).
+Atelier d'écriture journalistique suivi de la rédaction du premier jet de l'article.
+Ateliers de datavisualisation, focus sur la carto. 
+Travail de correction et réécriture de l'article (3 AR).",2023-03-23,8 mois,,,,
+ecolab-gd4h-datathon-challenge-donnees,Accompagnement du Green Data for Health dans l’organisation d’un datathon,Hackathons,"sarah-bourgouin,clement-feyt","Sarah Bourgouin, Clément Feyt",/images/authors/sarah-bourgouin.png,"ecolab,gd4h","Ecolab, Green Data for Health","ECOLAB est le laboratoire d'innovation du CGDD, qui accompagne les acteurs de la transition écologique. , Le Green Data for Health (GD4H) est une offre de service incubée au sein de l’ECOLAB, laboratoire d’innovation pour la transition écologique du Commissariat Général au Développement Durable (Ministère de la Transition écologique et de la Cohésion des territoires et Ministère de la Transition énergétique).
+Action phare du 4° Plan National Santé Environnement, le GD4H vise à permettre une meilleure mobilisation et valorisation, par les acteurs de la recherche et de l’expertise, des données environnementales au service de la santé-environnement.","images/partners/logo-ecolab.png, images/partners/gd4h.png","La mission part d’un constat : les données environnementales existantes restent peu mobilisées pour faire émerger des associations entre expositions environnementales et pathologies humaines.
+La mission a consisté à accompagner le GD4H lors d’un challenge sur 2 mois pour développer des projets utiles, communs, transférables et pérennisables. 
+Après 3 mois de préparation pour faire remonter les besoins terrain et cadrer les défis, l’équipe projet a accompagné les équipes durant les deux mois de production mais aussi après l’événement de clôture afin de finaliser les codes et les rendre activables, transférables et pérennisables.","60 entretiens avec des porteurs de projet pour faire émerger les idées et cadrer les défis
+5 ateliers d’expertisation des défis 
+1 événement de lancement avec l’ensemble des porteurs de projet et les bénévoles
+1 formation aux bonnes pratiques de code
+15 x 3 point de fin de sprint
+1 événement de clôture avec pitch des défis
+2 mois de production composé d’un pré-sprint et de 3 sprints
+Animation des 15 équipes : moments d’échanges, animation du forum
+15 x 4 rendez-vous  de fin de sprint
+Livrables : 15 CCT, 15 pitchs vidéos, 1 site Internet accompagné d’un forum, 1 dataroom pour héberger les données, 1 forge Gitlab avec des documents types prêts à l’emploi pour accueillir les codes des projets et leur documentation, 1 synthèse technique des défis.",2023-01-05,10 mois,https://gd4h.ecologie.gouv.fr,,,
+franceactive-gouvernance-partage-donnees,Accompagnement à la gouvernance et au partage des données,Stratégie,"etienne-pichot-damon,joel-gombin,data-publica","Etienne Pichot Damon, Joël Gombin","/images/authors/etienne-pichot-damon.jpeg, /images/authors/joel-gombin.jpeg",france-active,France Active,"Pionnier de la finance solidaire, France Active accompagne et finance les entreprises depuis plus de 30 ans et a mobilisé 485 millions d’euros au service de 36 000 entreprises l’année dernière.
+Bien plus qu’un réseau, France Active est un véritable mouvement d’entrepreneurs engagés dont l’ambition est de bâtir une société plus solidaire. France Active se fixe pour cela une mission : « Accélérer la réussite des entrepreneurs en leur donnant les moyens de s’engager. »",/images/partners/france-active.jpg,"Notre intervention, avec nos partenaires de l’alliance Data Publica, a permis d’accompagner France Active, depuis son comité de direction national jusqu’à une entité régionale (Centre-Val de Loire), dans sa réflexion sur les opportunités et les risques que sa transformation numérique (mise en place d’outils numériques pour le suivi des entrepreneurs et des projets financés) fait émerger. ","Benchmark inspirant des modèles de valeur de la donnée dans le secteur du financement.
+Entretiens et ateliers avec les salariés de France Active et leur écosystème pour recenser les besoins, comprendre les problématiques et identifier les opportunités.
+Rédaction d’une note de cadrage juridique sur le partage et la gouvernance des données de France Active (prenant en compte la règlementation bancaire, le droit public des données, le droit de la propriété intellectuelle, le RGPD…)",2022-05-01,6 mois,,,,
+has-concours-donnees-textuelles,Organisation d’un concours d’innovation pour améliorer la diffusion de données textuelles,"Animation,Hackathons","mathieu-morey,clement-feyt,arthur-sarazin,julia-dumont","Mathieu Morey, Clément Feyt, Arthur Sarazin, Julia Dumont","/images/authors/mathieu-morey.jpeg, /images/authors/arthur-sarazin.png, /images/authors/julia-dumont.png",haute-autorite-sante,Haute Autorité de Santé,"Autorité publique indépendante à caractère scientifique, la Haute Autorité de santé (HAS) vise à développer la qualité dans le champ sanitaire, social et médico-social, au bénéfice des personnes. Elle travaille aux côtés des pouvoirs publics dont elle éclaire la décision, avec les professionnels pour optimiser leurs pratiques et organisations, et au bénéfice des usagers dont elle renforce la capacité à faire leurs choix. Elle a été créée par la loi du 13 août 2004 relative à l’Assurance maladie",/images/partners/Haute_Autorite_de_Sante_Logo.svg.png,"Ce concours d’innovation s’insère dans  le cadre d’une mission plus large visant à accompagner la HAS dans la diffusion de ses données textuelles (recommandations, avis, etc.)
+Le concours d’innovation, nommé Défi iDoc, est un dispositif visant à fédérer une communauté d’utilisateurs ainsi qu’à prototyper des solutions pour améliorer la diffusion des données textuelles de la HAS.
+Il s’agit de constituer des équipes autour de défis formulés par la HAS et deux de ses partenaires (INCA et ANS) et de créer un cadre pour permettre aux équipes de créer des solutions qui répondent aux enjeux de diffusion des données de la HAS
+Organisé sur une durée de 6 mois, et ponctué de 6 évènements communautaires accompagnés d’épreuves dédiées, le défi iDoc assure une dynamique de création de solutions communautaires que la HAS pourra reprendre pour améliorer la diffusion de ses données auprès des professionnels de santé.","Accompagnement à la rédaction de 8 défis avec la HAS et ses partenaires
+Conception du format “Défi iDoc” permettant  d’aboutir à des solutions documentées et attractives ainsi qu’au maintien de la dynamique communautaire
+Valorisation des 6 solutions  développées et recommandations pour améliorer la diffusion des données
+",2022-07-01,3 mois,"https://www.has-sante.fr/jcms/p_3332693/fr/defi-idoc-sante-un-concours-pour-mieux-diffuser-organiser-et-connecter-les-connaissances-en-sante#:~:text=Voir%20aussi-,D%C3%A9fi%20iDoc%20Sant%C3%A9%20%3A%20un%20concours%20pour%20mieux%20diffuser%2C%20organiser%20et,connecter%20les%20connaissances%20en%20sant%C3%A9&text=Dans%20le%20cadre%20de%20sa,efficacement%20les%20donn%C3%A9es%20textuelles%20produites.",,,
+anct-beta-pcrs,Accompagnement/outillage national des projets PCRS,"Standards,Animation,Catalogage de données","francois-lacombe,magalie-dartus","François Lacombe, Magalie Dartus","/images/authors/francois-lacombe.png, /images/authors/magalie-dartus.jpeg",anct,Agence Nationale de la Cohésion des Territoires,"L'ANCT est un établissement public qui accompagne les collectivités territoriales françaises, notamment en matière de numérique et d'ouverture des données locales.",/images/partners/anct.svg,"Nous avons intégré l'équipe de la startup d'État PCRS dès sa fondation en octobre 2022. 
+
+Il s’agissait de construire une démarche d’accompagnement national de près de 150 collectivités qui produisent le Plan de Corps de Rue Simplifié depuis 2015, grâce à l’engagement d’une intrapreneuse de l’ANCT, d’un chef de produit, de développeurs et d’animateurs 
+La startup y a répondu par la construction d’un outillage dédié, d’une présence auprès des porteurs de projets et d’une force de proposition auprès de l’ensemble de l’écosystème.","Rédaction de la documentation, sur l’ensemble du métier de production et d’utilisation du PCRS.
+
+Définition et exécution de la feuille de route technique encadrant la réalisation des outils.
+
+Stratégie financière contribuant à la pérennisation nationale du financement des projets en cours et à venir.
+
+Guichet de support, pour l’aide au quotidien et répondre aux questionnements des porteurs de projets
+
+Animation régulière de l’ensemble des porteurs de projets et de plusieurs autres acteurs de l’écosystème pour l’adoption des outils, le lancement des projets restants et la conformité des projets réalisés",2022-10-03,En cours,https://pcrs.beta.gouv.fr,,,
+lyon-analyse-jeparticipe,Analyse des données de la plateforme jeparticipe.grandlyon.com,Data analyse,"diane-thierry,anthony-gigerich,elise-ho-pun-cheung,samuel-goeta","Diane Thierry, Anthony Gigerich, Elise Ho-Pun-Cheung, Samuel Goëta","/images/authors/diane-thierry.jpeg, /images/authors/anthony-gigerich.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/samuel-goeta.jpeg",metropole-lyon,Métropole de Lyon,La Métropole de Lyon est née le 1er janvier 2015 : c'est une collectivité territoriale unique en France créée par la fusion de la Communauté urbaine de Lyon et du Conseil général du Rhône sur les 58 communes qui composent le territoire du Grand Lyon.,/images/partners/metropole-lyon.png,"Depuis 2021, la plateforme de participation citoyenne de la métropole de Lyon a recueilli près de 20 000 contributions et est devenue un outil essentiel du débat. Dans le cadre du lot d’analyse quantitative de données du marché de veille prospective, Datactivist a récupéré, transformé et analysé les données de la plateforme pour mieux comprendre la sociologie des participants en ligne, leur perception de la participation et de l'institution, et la dynamique des débats en ligne. 
+Ce travail a donné lieu à plusieurs restitutions au sein de la DPDP, ainsi qu’un article sur Millenaire3 et fait l’objet d’une deuxième phase d’analyse centrée sur les profils-type des usagers de la plateforme.","Revue de littérature sur la participation en ligne
+
+Récupération de données
+
+Travail préparatoire avant l’analyse
+
+Analyse du comportement des usagers
+
+Annotation semi-automatisée des contributions
+
+Visualisation et analyse des données",2022-09-05,En cours,,,,
+dreal-grandest-datahub-enr,Accompagnement à la mise en oeuvre technique d’un Datahub et d’un entrepôt de données,"Catalogage de données,Standards,Animation",magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,dreal-grand-est,DREAL Grand Est,"La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français.",/images/partners/prefet-grand-est.jpeg,"L’approche de la DREAL Grand Est est quadruple:
+Volet DataHub - Disposer d’un accès facile à toutes les données utiles pour la DREAL et les DDTs ;
+Volet Entrepôt - Professionnaliser la gestion des données internes à la DREAL et aux DDT de manière coordonnée avec les services métiers ;
+Volet Outils - Aller plus loin dans la réponse aux besoins de ses bénéficiaires, en améliorant les outils actuels et en développant d’autres outils au bénéfice des usagers de la donnée ;
+Volet accompagnement-méthodo-animation : Continuer à s’approprier les méthodes les plus efficaces pour atteindre rapidement nos objectifs, en particulier les approches agiles.","Rédaction d’une feuille de route : construire un datahub par les cas d’usage et créer des communautés d’utilisateurs.
+
+Entretiens avec les producteurs et les réutilisateurs de données (territoire national) pour identifier les besoins concernant le datahub.
+
+Architecture informatique du Datahub s’incluant dans le SI ministériel (MTE).
+
+Ateliers avec les métiers avec de modéliser les flux de données EnR.
+
+Ateliers de design en intelligence collective pour co-construire le Datahub par le cas d’usage des EnR avec tous les acteurs concernés.
+
+MCD pour les données EnR
+
+Développement en Python d’un outil de saisie et de collecte des données EnR
+",2022-06-06,18 mois,,,,
+mednum-schema,Production du schéma de données des lieux de médiation numérique,"Standards,Animation","guillaume-martin,elise-ho-pun-cheung,samuel-goeta","Guillaume Martin, Elise Ho-Pun-Cheung, Samuel Goëta","/images/authors/guillaume-martin.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/samuel-goeta.jpeg",mednum,La MedNum,"Depuis 2017, La Mednum rassemble les acteurs, les dynamise et les met en réseau pour leur permettre de trouver un cadre de coopération qui sera le plus adapté pour eux.",/images/partners/mednum.png,"Suite à l'exploration “données et territoires” de NEC 2021 animée par Datactivist, la MedNum a souhaité être accompagnée par la coopérative dans la production d’un nouveau schéma de données des lieux de médiation numérique. 
+La mission se divise en deux volets. Le premier réside dans la conception du schéma et le second dans l’accompagnement à l’usage du schéma par les acteurs de la médiation numérique. 
+Les équipes de Datactivist et de la MedNum ont collaboré pour animer un COPIL représentatif des acteurs de la médiation numérique, des ateliers collaboratifs ainsi qu’un appel à commentaires. ","Animation de 4 comités de pilotage (+ 10 membres) pour arbitrer collectivement sur le projet de schéma
+
+Animation de 3 ateliers ouverts (+ 40 participants à chaque atelier) pour concevoir le schéma
+
+Production d’un appel à commentaires et traitement des commentaires (+20 contributeurs)",2022-01-01,12 mois,https://schema.data.gouv.fr/LaMednum/standard-mediation-num/1.0.1/,,standardisation-donnees-ouvertes,
+mel-form-code,Formation à la dataviz et introduction au code,"Acculturation,Data analyse",diane-thierry,Diane Thierry,/images/authors/diane-thierry.jpeg,metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"Datactivist a préparé et animé deux demi-journées d’initiation au code auprès de 14 personnes volontaires du service R&D de la métropole lilloise. 
+Le programme proposé était le suivant :
+- jour 1 : introduction théorique à la datavisualisation, présentation de la programmation, R et RStudio, présentation des fonctions utiles au nettoyage de données.
+- jour 2 : présentation de la librairie principale pour faire des visualisations de données sous R.
+
+Le tout agrémenté d’exercices pratiques réalisés par les participants au fil des 2 demi-journées.
+","Création du contenu des sessions de formations. Préparation des exercices de mise en pratique et leur correction.
+
+Animation des sessions de formation en présentiel auprès de 14 volontaires. 
+
+
+",2023-02-01,1 mois,,cours-introduction-R,,
+grand-enov-obs,Cadrage et faisabilité d'un observatoire de la commande publique Grand Est,"Stratégie,Commande publique","emeline-vandeven,laurane-coudriet","Emeline Vandeven, Laurane Coudriet","/images/authors/emeline-vandeven.jpeg, /images/authors/laurane-coudriet.png",grandenov,Grand E-Nov+,"Grand E-Nov+ est l’agence d’innovation et de prospection internationale du Grand Est, née sous l’impulsion et avec le soutien de la Région Grand Est et de la Chambre de Commerce et d’Industrie du Grand Est.
+
+L’agence contribue au développement et au rayonnement de la région Grand Est en France comme à l’international en guidant les entreprises et les territoires dans leurs projets de transformation et d’innovation comme d’implantation d’entreprises.",images/partners/grandenov.png,"L’agence d’innovation et de prospection Grand-Enov+ a souhaité mettre en place une étude de cadrage et de faisabilité d’un observatoire de la commande publique en Grand Est.
+La mission a permis de réunir autour de la table les différentes parties prenantes au projet : le client principal, les acheteurs publics, les partenaires institutionnels et les entreprises.
+À la suite d’ateliers collaboratifs et d’entretiens, nous avons produit une cartographie des données de la commande publique qui alimenteront le potentiel observatoire, réalisé un cas d’usage visant à valoriser les données essentielles produites par les acheteurs et émis des recommandations quant à la faisabilité du projet. L'aboutissement final de cette mission étant la production d’une maquette statique de l’observatoire présentant une arborescence de cet outil ainsi que trois parcours usagers.","12 entretiens avec des acheteurs publics et  avec des entreprises.
+
+5 ateliers collaboratifs : 
+  - stratégie acheteurs publics,
+  - stratégie partenaires institutionnels,
+  - définitions des usagers & cas d'usages, 
+  - définition d’une offre de services, 
+  - retour des utilisateurs sur le POC 
+
+Un cas d’usage pour valoriser les données essentielles de la commande publique.
+
+Cartographie des données qui alimenteront  l’observatoire.
+
+Un PoC de l’observatoire : maquette statique de l'arborescence du futur Observatoire et parcours usager.
+
+Un livrable reprenant les points clés de la mission, une matrice SWOT et les recommandations.
+",2023-10-01,5 mois,,,,
