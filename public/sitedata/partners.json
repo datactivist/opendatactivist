@@ -56,7 +56,7 @@
     "lat": 46.5802,
     "lon": 0.3404,
     "references_catalog": "",
-    "docs_catalog": "factualite,organiser-sprint-data",
+    "docs_catalog": "factualite,organiser-sprint-data,datasandwich-numerique-responsable",
     "research_projects": ""
   },
   {
@@ -68,7 +68,7 @@
     "lat": 50.4108,
     "lon": 4.4446,
     "references_catalog": "",
-    "docs_catalog": "ameliorer-qualite-documentation",
+    "docs_catalog": "ameliorer-qualite-documentation,formation-qualite-standardisation",
     "research_projects": ""
   },
   {
@@ -79,7 +79,7 @@
     "partner_city": "Strasbourg",
     "lat": 48.5734,
     "lon": 7.7521,
-    "references_catalog": "",
+    "references_catalog": "dreal-grandest-datahub-enr",
     "docs_catalog": "r-ou-python",
     "research_projects": ""
   },
@@ -104,7 +104,7 @@
     "lat": 47.2173,
     "lon": -1.5534,
     "references_catalog": "",
-    "docs_catalog": "expo-smartcity-images",
+    "docs_catalog": "expo-smartcity-images,etude-gouvernance-data",
     "research_projects": ""
   },
   {
@@ -127,7 +127,7 @@
     "partner_city": "Paris",
     "lat": 48.8566,
     "lon": 2.3522,
-    "references_catalog": "challenge-sgl",
+    "references_catalog": "challenge-sgl,anct-beta-pcrs",
     "docs_catalog": "",
     "research_projects": ""
   },
@@ -176,7 +176,7 @@
     "lat": 47.2173,
     "lon": -1.5534,
     "references_catalog": "",
-    "docs_catalog": "barometre-data-territoires-2023,cahier-standardisation",
+    "docs_catalog": "barometre-data-territoires-2023,cahier-standardisation,etude-gouvernance-data",
     "research_projects": ""
   },
   {
@@ -367,7 +367,7 @@
     "partner_city": "Paris",
     "lat": 48.8566,
     "lon": 2.3522,
-    "references_catalog": "france-data-reseau-fnccr",
+    "references_catalog": "fnccr-france-data-reseau",
     "docs_catalog": "",
     "research_projects": ""
   },
@@ -535,7 +535,7 @@
     "partner_city": "Lyon",
     "lat": 45.764,
     "lon": 4.8357,
-    "references_catalog": "lyon-vote-qpv",
+    "references_catalog": "lyon-vote-qpv,lyon-analyse-jeparticipe",
     "docs_catalog": "bibliographie-participation-lyon",
     "research_projects": ""
   },
@@ -549,6 +549,78 @@
     "lon": "",
     "references_catalog": "",
     "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "IRD",
+    "name": "Institut de recherche pour le développement",
+    "image": "/images/partners/Logo-IRD.png",
+    "description": "L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",
+    "partner_city": "Marseille",
+    "lat": 43.3,
+    "lon": 5.4,
+    "references_catalog": "ird-formation-datajournalisme",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "france-active",
+    "name": "France Active",
+    "image": "/images/partners/france-active.jpg",
+    "description": "Pionnier de la finance solidaire, France Active accompagne et finance les entreprises depuis plus de 30 ans et a mobilisé 485 millions d’euros au service de 36 000 entreprises l’année dernière.\nBien plus qu’un réseau, France Active est un véritable mouvement d’entrepreneurs engagés dont l’ambition est de bâtir une société plus solidaire. France Active se fixe pour cela une mission : « Accélérer la réussite des entrepreneurs en leur donnant les moyens de s’engager. »",
+    "partner_city": "Montreuil",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "franceactive-gouvernance-partage-donnees",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "ecolab",
+    "name": "Ecolab",
+    "image": "images/partners/logo-ecolab.png",
+    "description": "ECOLAB est le laboratoire d'innovation du CGDD, qui accompagne les acteurs de la transition écologique.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "ecolab-gd4h-datathon-challenge-donnees",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "haute-autorite-sante",
+    "name": "Haute Autorité de Santé",
+    "image": "/images/partners/Haute_Autorite_de_Sante_Logo.svg.png",
+    "description": "Autorité publique indépendante à caractère scientifique, la Haute Autorité de santé (HAS) vise à développer la qualité dans le champ sanitaire, social et médico-social, au bénéfice des personnes. Elle travaille aux côtés des pouvoirs publics dont elle éclaire la décision, avec les professionnels pour optimiser leurs pratiques et organisations, et au bénéfice des usagers dont elle renforce la capacité à faire leurs choix. Elle a été créée par la loi du 13 août 2004 relative à l’Assurance maladie",
+    "partner_city": "Saint-Denis",
+    "lat": 48.936181,
+    "lon": 2.357443,
+    "references_catalog": "has-concours-donnees-textuelles",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "gd4h",
+    "name": "Green Data for Health",
+    "image": "images/partners/gd4h.png",
+    "description": "Le Green Data for Health (GD4H) est une offre de service incubée au sein de l’ECOLAB, laboratoire d’innovation pour la transition écologique du Commissariat Général au Développement Durable (Ministère de la Transition écologique et de la Cohésion des territoires et Ministère de la Transition énergétique).\nAction phare du 4° Plan National Santé Environnement, le GD4H vise à permettre une meilleure mobilisation et valorisation, par les acteurs de la recherche et de l’expertise, des données environnementales au service de la santé-environnement.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "ecolab-gd4h-datathon-challenge-donnees",
+    "docs_catalog": "guide-bonnes-pratiques-developpements",
+    "research_projects": ""
+  },
+  {
+    "id": "stat4decision",
+    "name": "Stat4decision",
+    "image": "images/partners/stat4decision.png",
+    "description": "STAT4DECISION vous accompagne dans toutes vos activités data. Ils proposent des services de conseil en data science et en business intelligence ainsi que des formations professionnelles.",
+    "partner_city": "Paris",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "references_catalog": "",
+    "docs_catalog": "guide-bonnes-pratiques-developpements",
     "research_projects": ""
   }
 ]
