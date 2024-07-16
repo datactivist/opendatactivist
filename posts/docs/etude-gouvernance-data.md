@@ -8,4 +8,4 @@ Elle propose : 
 \- quelques réflexions sur les types de stratégies territoriales de la donnée et les modèles d’organisation de la fonction data
 
 </br>  
-<a href="\[https://nextcloud.datactivist.coop/s/JLM3Gy8ArHCpzbG\](</span><a href=)" class="customButton">Accéder au document</a>
+<a href="https://nextcloud.datactivist.coop/s/JLM3Gy8ArHCpzbG\" class="customButton">Accéder au document</a>
