@@ -497,20 +497,22 @@ grand-enov-obs,Cadrage et faisabilité d'un observatoire de la commande publique
 
 L’agence contribue au développement et au rayonnement de la région Grand Est en France comme à l’international en guidant les entreprises et les territoires dans leurs projets de transformation et d’innovation comme d’implantation d’entreprises.",images/partners/grandenov.png,"L’agence d’innovation et de prospection Grand-Enov+ a souhaité mettre en place une étude de cadrage et de faisabilité d’un observatoire de la commande publique en Grand Est.
 La mission a permis de réunir autour de la table les différentes parties prenantes au projet : le client principal, les acheteurs publics, les partenaires institutionnels et les entreprises.
-À la suite d’ateliers collaboratifs et d’entretiens, nous avons produit une cartographie des données de la commande publique qui alimenteront le potentiel observatoire, réalisé un cas d’usage visant à valoriser les données essentielles produites par les acheteurs et émis des recommandations quant à la faisabilité du projet. L'aboutissement final de cette mission étant la production d’une maquette statique de l’observatoire présentant une arborescence de cet outil ainsi que trois parcours usagers.","12 entretiens avec des acheteurs publics et  avec des entreprises.
+À la suite d’ateliers collaboratifs et d’entretiens, nous avons produit une cartographie des données de la commande publique qui alimenteront le potentiel observatoire, réalisé un cas d’usage visant à valoriser les données essentielles produites par les acheteurs et émis des recommandations quant à la faisabilité du projet. L'aboutissement final de cette mission étant la production d’une maquette statique de l’observatoire présentant une arborescence de cet outil ainsi que trois parcours usagers.","12 entretiens avec des acheteurs publics et avec des entreprises.
 
-5 ateliers collaboratifs : 
-  - stratégie acheteurs publics,
-  - stratégie partenaires institutionnels,
-  - définitions des usagers & cas d'usages, 
-  - définition d’une offre de services, 
-  - retour des utilisateurs sur le POC 
+5 ateliers collaboratifs. 
 
 Un cas d’usage pour valoriser les données essentielles de la commande publique.
 
-Cartographie des données qui alimenteront  l’observatoire.
+Cartographie des données qui alimenteront l’observatoire.
 
 Un PoC de l’observatoire : maquette statique de l'arborescence du futur Observatoire et parcours usager.
 
 Un livrable reprenant les points clés de la mission, une matrice SWOT et les recommandations.
 ",2023-10-01,5 mois,,,,
+CD93-AMO-OD,AMO Plateforme open data et actualisation automatique des données de rapports d’étude MS Office,"Stratégie,Catalogage de données,Gouvernance","joel-gombin,julia-dumont,clement-mandron","Joël Gombin, Julia Dumont, Clément Mandron","/images/authors/joel-gombin.jpeg, /images/authors/julia-dumont.png, /images/authors/clement-mandron.png",CD93,Conseil départemental de Seine-Sain-Denis,Le département de Seine-Saint-Denis s'est engagé dans l'ouverture de ses données depuis 2015.,images/partners/CD93.png,"Le Conseil Départemental de Seine-Saint-Denis souhaitait un accompagnement pour choisir deux éléments techniques centraux de sa politique open data. Dans cet objectif, Datactivist a été amené à conseiller le CD93 dans son choix :
+- d’une plateforme technique qui offre la possibilité d'exposer les données du CD93, decréer rapidement et simplement (y compris par des non experts) des mini sites thématiques, et d'automatiser certaines tâches
+- d’un logiciel ou d’un workflow pour produire des documents contenant des graphiques et visualisations de données.","Entretiens de compréhension du besoin
+
+Benchmark et analyse de différents outils
+
+Rapport de recommandations",2022-09-01,3 mois,,,,
