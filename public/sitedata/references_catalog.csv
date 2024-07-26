@@ -518,3 +518,96 @@ D’un logiciel ou d’un workflow pour produire des documents contenant des gra
 Benchmark et analyse de différents outils
 
 Rapport de recommandations",2022-09-01,3 mois,,,,
+wallonie-OD,Audit open data et partage de données,"Stratégie,Gouvernance","etienne-pichot-damon,joel-gombin","Etienne Pichot Damon, Joël Gombin","/images/authors/etienne-pichot-damon.jpeg, /images/authors/joel-gombin.jpeg",sp-wallonie,Service Public de Wallonie,"Le service public de Wallonie a pour mission de mettre en œuvre la politique décidée par le Gouvernement wallon, dans les compétences et matières qui lui sont dévolues. Il se compose de 8 entités.",/images/partners/sp-wallonie.png,"Le Service Public de Wallonie met en place les actions du gouvernement au sein de l’administration, et est en charge du partage de données et de l’open data.
+
+Datactivist, aux côtés de Roland Berger, a réalisé un audit du partage des données au sein du Service Public de Wallonie et de son open data.
+
+L’objectif de cette prestation était de délivrer un rapport diagnostiquant les problématiques liées au partage de données : quelles données sont diffusées et utilisées en interne ? Et de délivrer un état des lieux de l’open data : fréquentation des différents portails de données, téléchargements, usages…
+
+Le rapport propose une série de recommandations pour faciliter le partage et l’utilisation des données, avec un schéma de gouvernance optimisé et une stratégie de diffusion des données leur permettant d’être plus facilement valorisées.
+","Entretiens avec les services producteurs et utilisateurs de données
+
+Cartographie des “sources authentiques” de données
+
+Audit et synthèse
+
+Série de recommandations pour une meilleure gouvernance des données
+",2018-12-28,6 mois,,,,https://open.datactivist.coop/images/references/wallonie-OD.png,https://open.datactivist.coop/images/partners/sp-wallonie.png,
+open-edition-strat-od,Stratégie d’ouverture des données,"Stratégie,Science ouverte","samuel-goeta,cecile-le-guen","Samuel Goëta, Cécile Le Guen","/images/authors/samuel-goeta.jpeg, /images/authors/cecile-le-guen.jpeg",open-edition,Open Edition,"OpenEdition est une infrastructure complète d’édition numérique au service de la communication scientifique en sciences humaines et sociales. Elle rassemble quatre plateformes dédiées aux revues avec OpenEdition Journals, aux collections de livres avec OpenEdition Books, aux carnets de recherche avec Hypothèses et aux événements scientifiques avec Calenda.
+
+Infrastructure de recherche nationale, OpenEdition est portée par OpenEdition Center, Unité d'appui et de recherche (UAR 2504) du CNRS, d’Aix-Marseille Université, de l’EHESS et d’Avignon Université.",/images/partners/open-edition.png,"Datactivist a accompagné OpenEdition en vue de l’ouverture des données de ses différentes plateformes d’édition électronique (métadonnées des documents, données statistiques et logs de visite, corpus bibliographique, illustrations, données associées aux documents…).
+Cette démarche s’inscrit dans la politique R&D d’OpenEdition, qui vise à :
+- se positionner comme un acteur pionnier de l’ouverture des données dans la recherche
+- ouvrir la voie de l’ouverture des données de la recherche
+- mieux comprendre les usages des plateformes OpenEdition
+- permettre à d’autres d’innover avec les données d’OpenEdition.
+","État de l’art de l’open data dans l’édition scientifique à travers la conduite et l'analyse d’entretiens exploratoires auprès d’acteurs publics francophones similaires à OpenEdition et impliqués dans des projets d’open data ; benchmark des politiques d’open data de plateformes d’édition scientifique internationales.
+
+Etude des besoins des usagers : conduite d’entretiens et définition des personas afin de développer de l’empathie et de mieux identifier les besoins de la diversité des usagers potentiels des données.
+
+Stratégie de mise en œuvre du projet OpenEdition Data : 8 fiches décrivant les principales bases de données ouvrables d’OpenEdition ; définition de scénarios d’ouverture progressive des données.",2018-09-01,6 mois,,,,https://open.datactivist.coop/images/references/open-edition-strat-od.png,https://open.datactivist.coop/images/partners/open-edition.png,
+cr-na-donnees-mob,Accompagnement à la structuration de données de mobilité,"Catalogage de données,Stratégie","anne-laure-donzel,magalie-dartus","Anne-Laure Donzel, Magalie Dartus","/images/authors/anne-laure-donzel.jpeg, /images/authors/magalie-dartus.jpeg",cr-nouvelle-aquitaine,Région Nouvelle-Aquitaine,La Région Nouvelle-Aquitaine est une région administrative française.,/images/partners/cr-nouvelle-aquitaine.png,"Datactivist, en groupement avec KPMG, a accompagné le Pôle Transports, Infrastructure, Mobilités et Cadre de vie dans l’identification et la structuration de ses données et indicateurs.
+La mission a débuté par une cartographie des données produites et gérées par le Pôle. Ce travail, basé sur une série d’entretiens, a permis d’identifier les pratiques des différents services du Pôle et de voir les problèmes pouvant exister en matière de gestion des données (partage, circulation, extraction…).
+
+Ce diagnostic a ensuite donné lieu à un ensemble de recommandations et de préconisations. Elles portaient à la fois sur des aspects de Data management  (pour améliorer la gestion des données) et sur la gouvernance des données au sein du Pôle.
+","Entretiens avec les producteurs de données pour collecter des informations supplémentaires sur les données.
+Élaboration d’un diagnostic de gestion des données
+ Cartographie des données à utiliser
+Modélisation des flux de données.
+Préconisations sur la gestion et la gouvernance des données.
+
+",2020-11-01,6 mois,,,,https://open.datactivist.coop/images/references/cr-na-donnees-mob.png,https://open.datactivist.coop/images/partners/cr-nouvelle-aquitaine.png,
+aaf-schema,Création d'un schéma de données,Standards,"anne-laure-donzel,samuel-goeta,elise-ho-pun-cheung,diane-thierry","Anne-Laure Donzel, Samuel Goëta, Elise Ho-Pun-Cheung, Diane Thierry","/images/authors/anne-laure-donzel.jpeg, /images/authors/samuel-goeta.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/diane-thierry.jpeg",aaf,Association des Archiviste Français (AAF),"Fondée en 1904, l’Association des archivistes français (AAF) regroupe aujourd’hui plus de 3000 professionnels des archives du secteur public comme du secteur privé. Elle se définit comme un organe permanent de réflexion, de formation et d’initiative au service des sources de notre mémoire, celles d’hier comme celles de demain.",/images/partners/aaf.jpg,"La création du schéma est le fruit d’une démar­che col­la­bo­ra­tive asso­ciant un groupe de tra­vail cons­ti­tué d’archi­vis­tes et d’experts de la réu­ti­li­sa­tion de don­nées, du SIAF, de l’AAF et piloté par Datactivist.
+
+Les services d’archives consignent systématiquement, au sein d’un registre des entrées, tous les nouveaux documents qui entrent dans les fonds. Cela permet d’identifier et de retracer toutes les entrées de nouveaux documents d’archives.
+
+La création d’un schéma de données permet de standardiser la diffusion des données produites par les services d’archives.
+Cette standardisation permet de faciliter la découverte des jeux de données et de les utiliser, notamment en simplifiant l’alignement à différentes échelles (utilisation sur des échelles locales ou nationales).","Atelier de définition du besoin et de co-construction du schéma
+Réflexion sur la standardisation des données d’archives
+Animation d’un webinaire et suivi d’une consultation ouverte sur le schéma
+Publication du schéma sur le site de référence en France schema.data.gouv.fr
+",2020-07-01,10 mois,https://schema.data.gouv.fr/Archivistes75/registre_entrees/,,,https://open.datactivist.coop/images/references/aaf-schema.png,https://open.datactivist.coop/images/partners/aaf.jpg,
+coso-entrepot,Étude sur l’entrepôt générique de données de la recherche recherche.data.gouv.fr,"Stratégie,Science ouverte",mathieu-morey,Mathieu Morey,/images/authors/mathieu-morey.jpeg,mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"La mission était portée par le Comité Science Ouverte (COSO) du MESR. Le groupe « Service générique d’accueil et de diffusion de données simples » du CoSO a fait appel aux services de Datactivist pour évaluer la faisabilité d’un entrepôt générique national.
+Ce service est dédié aux données pour lesquelles aucun des entrepôts disciplinaires existants ou à venir ne constituerait une solution adaptée. Par ailleurs, il a pour vocation de proposer une solution contrôlée par les acteurs publics pour la diffusion de données liées aux articles scientifiques.
+","Expression des besoins par des user stories amenant les participants à distinguer leurs besoins et à les motiver pour ensuite en établir le niveau de priorité
+Bancs de tests des solutions existantes
+Proposition de scénarios de mise en œuvre",2020-01-01,15 mois,,,,https://open.datactivist.coop/images/references/coso-entrepot.png,https://open.datactivist.coop/images/partners/mesr.png,
+ird-fdr-so,Élaboration de la feuille de route et du plan d’action science ouverte,"Stratégie,Science ouverte","antoine-blanchard,candice-fillaud","Antoine Blanchard, Candice Fillaud","/images/authors/antoine-blanchard.png, /images/authors/candice-fillaud.png",IRD,Institut de recherche pour le développement,"L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",/images/partners/Logo-IRD.png,"L’IRD a inscrit la science ouverte parmi ses 6 objectifs stratégiques. En 2020, la Mission Science Ouverte (MSO) a été créée pour coordonner la mise en œuvre de cette politique transversale. Pour cela, il était nécessaire de doter l’IRD d’une feuille de route en matière de science ouverte.
+Pour les accompagner, Datactivist a opté pour une méthode basée sur la co-construction avec un maximum de parties prenantes (50 personnes réunies lors d’ateliers et sur un forum en ligne). C’est ainsi qu’on pu être prises en compte certaines spécificités de l’IRD, telle que la coopération avec les pays du Sud. La feuille de route comprend 21 objectifs spécifiques, répartis entre cinq thématiques
+Les 80 fiches actions du plan d’action déclinent ce cadre programmatique afin de permettre sa mise en œuvre jusqu’en 2024. Signe de la transversalité de la science ouverte à l’IRD, les fiches action relèvent de six directions, missions et services différents.","Consultation des parties prenantes (atelier et plateforme en ligne)
+Rédaction de la feuille de route
+Préparation du gabarit des fiches action
+Co-rédaction du plan d’action avec les services",2020-11-01,8 mois,https://www.ird.fr/une-feuille-de-route-pour-une-science-ouverte-et-partagee,,,https://open.datactivist.coop/images/references/ird-fdr-so.png,https://open.datactivist.coop/images/partners/Logo-IRD.png,
+dge-rapport-sc,Étude territoire intelligent et donnée publique,Stratégie,"joel-gombin,guillaume-martin","Joël Gombin, Guillaume Martin","/images/authors/joel-gombin.jpeg, /images/authors/guillaume-martin.jpeg",dge,Direction générale des entreprises (DGE),"Sous l’autorité du ministre de l’Economie et des Finances, la DGE élabore et met en œuvre les politiques publiques relatives à l’industrie, à l’économie numérique, au tourisme, au commerce, à l’artisanat et aux services.
+
+Ses 1 300 agents sont mobilisés aux niveaux national et régional à travers les Directions régionales de l’économie, de l’emploi, du travail et des solidarités (DREETS), pour favoriser la création, le développement, l’innovation et la compétitivité des entreprises de toutes tailles, en France et à l’international.
+
+La DGE entretient des relations étroites avec les entreprises elles-mêmes et leurs représentants : organisations et fédérations professionnelles, chambres consulaires, réseaux d’accompagnement, etc.",/images/partners/dge.png,"Produite par le consortium Data Publica - KPMG, cette étude nationale et publique contribue à la définition d’un modèle français du territoire intelligent et produit des recommandations pour en favoriser la mise en œuvre. 
+Fin 2020, l’Etat (DGE et Ministère de l’Economie, des Finances et de la Relance), la FFT, SYCABEL, l’AFNUM et la fédération INFRANUM ont souhaité que soit conduite une grande étude sur la réalité du déploiement des outils et des méthodes de territoire intelligent en France. 
+L’équipe du consortium Data Publica - KPMG a conduit plus de 70 auditions et entretiens et animé une dizaine d’ateliers. Au total plus de 150 personnes ont été auditionnées et/ou ont pris part à des temps de travail collectif. Elles représentent des collectivités territoriales et des associations d’élus, des institutions, des entreprises et des associations d’usagers. 
+Le rapport, présenté officiellement au Secrétaire d’Etat au Numérique le 26 octobre 2021 a fortement inspiré l’appel à projets national territoires intelligents et durables. 
+","Pilotage des travaux préparatoires des sujets interopérabilité, open source, standards et normes des territoires intelligents. 
+- Entretiens
+- Ateliers
+Rédaction des parties et des recommandations sur l'interopérabilité, l’open source et les standards et normes des territoires intelligents
+Synthèse de l'étude
+",2021-01-01,10 mois,https://www.entreprises.gouv.fr/files/files/en-pratique/etudes-et-statistiques/dossiers-de-la-DGE/rapport_de_la_smart_city_a_la_realite_des_territoires_connectes.pdf,,,https://open.datactivist.coop/images/references/dge-rapport-sc.png,https://open.datactivist.coop/images/partners/dge.png,
+mednum-nec-2021,Ateliers sur les données de médiation numérique,Standards,"samuel-goeta,elise-ho-pun-cheung","Samuel Goëta, Elise Ho-Pun-Cheung","/images/authors/samuel-goeta.jpeg, /images/authors/elise-ho-pun-cheung.jpeg",mednum,La MedNum,"Depuis 2017, La Mednum rassemble les acteurs, les dynamise et les met en réseau pour leur permettre de trouver un cadre de coopération qui sera le plus adapté pour eux.",/images/partners/mednum.png,"
+Pour ce NEC 2021 près d’Angoulême, Datactivist a construit et animé trois ateliers de 2 heures chacun sur le thème de la standardisation des données de médiation numérique. S’adressant autant à des “novices” qu’à des “experts” de la donnée, ces ateliers ont permis de poser les bases d’un nouveau schéma de donnée sur l’offre de médiation numérique en France. 
+
+Ce travail exploratoire va être poursuivi tout au long de l’année 2022 pour finaliser un standard et accompagner à son usage par l’écosystème de la médiation numérique. 
+","Construction et animation de 3 ateliers de deux heures sur les thèmes suivants : 
+- données et territoire, découverte des enjeux
+- retour d’expérience sur la standardisation
+- un standard de l’offre de médiation numérique
+Rédaction d’une synthèse des ateliers",2021-10-01,1 mois,https://numerique-en-communs.fr/wp-content/uploads/2022/05/LECARNETNEC21-1.pdf,,standardisation-donnees-ouvertes,https://open.datactivist.coop/images/references/mednum-nec-2021.png,https://open.datactivist.coop/images/partners/mednum.png,
+huma-num-jupyter-nb,Développement de notebooks Jupyter et de matériaux pour le deep learning en SHS,Science ouverte,"mathieu-morey,magalie-dartus","Mathieu Morey, Magalie Dartus","/images/authors/mathieu-morey.jpeg, /images/authors/magalie-dartus.jpeg",huma-num,Huma-Num IR*,"La principale mission de l’IR* Huma-Num est de construire, avec les communautés et à partir d’un pilotage scientifique, une infrastructure numérique de niveau international (nœud français des ERIC DARIAH et CLARIN) pour les SHS.
+
+Elle structure, par l’intermédiaire de consortiums regroupant des acteurs des communautés scientifiques et d’un réseau de points de présence dans les maisons des sciences de l’Homme (MSH), l’accompagnement des communautés scientifiques SHS en matière d’infrastructure numérique pour les données de la recherche.",/images/partners/huma-num.jpg,"Dans le but de développer Callisto, sa preuve de concept proposant la mise en œuvre du logiciel en ligne Jupyter / JupyterLab pour la recherche en SHS, Huma-Num a sollicité Datactivist pour :
+- être accompagnée pour définir et réaliser des notebooks adaptés aux besoins des SHS tels que révélés par une enquête utilisateurs ;
+- être accompagnée pour définir et réaliser des collections de jeux de données pouvant être utilisés dans des traitements de machine learning et deep learning ;
+- disposer de notebooks de prise en main de ces traitements et jeux de données.
+","Deux panels chercheurs réunissant plusieurs communautés (géographes, historiens, linguistes, sociologues…) afin d’identifier les besoins et les usages possibles des notebooks Jupyter en SHS
+Priorisation des besoins identifiés afin de délimiter le périmètre le plus pertinent pour de premiers notebooks “sur étagère”
+Identification des jeux de données, dont un jeu de données visant à entraîner un modèle de deep learning afin de proposer aux chercheurs français en SHS un modèle inédit adapté à leurs besoins
+Production de cinq notebooks pour la prise en main de traitements de données avec Jupyter, indexés et organisés selon un catalogue raisonné",2021-01-01,7 mois,,,,https://open.datactivist.coop/images/references/huma-num-jupyter-nb.png,https://open.datactivist.coop/images/partners/huma-num.jpg,
