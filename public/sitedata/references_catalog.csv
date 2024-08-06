@@ -601,16 +601,17 @@ Ce travail exploratoire va être poursuivi tout au long de l’année 2022 pour 
 - retour d’expérience sur la standardisation
 - un standard de l’offre de médiation numérique
 Rédaction d’une synthèse des ateliers",2021-10-01,1 mois,https://numerique-en-communs.fr/wp-content/uploads/2022/05/LECARNETNEC21-1.pdf,,standardisation-donnees-ouvertes,https://open.datactivist.coop/images/references/mednum-nec-2021.png,https://open.datactivist.coop/images/partners/mednum.png,
-huma-num-jupyter-nb,Développement de notebooks Jupyter et de matériaux pour le deep learning en SHS,Science ouverte,"mathieu-morey,magalie-dartus","Mathieu Morey, Magalie Dartus","/images/authors/mathieu-morey.jpeg, /images/authors/magalie-dartus.jpeg",huma-num,Huma-Num IR*,"La principale mission de l’IR* Huma-Num est de construire, avec les communautés et à partir d’un pilotage scientifique, une infrastructure numérique de niveau international (nœud français des ERIC DARIAH et CLARIN) pour les SHS.
-
-Elle structure, par l’intermédiaire de consortiums regroupant des acteurs des communautés scientifiques et d’un réseau de points de présence dans les maisons des sciences de l’Homme (MSH), l’accompagnement des communautés scientifiques SHS en matière d’infrastructure numérique pour les données de la recherche.",/images/partners/huma-num.jpg,"Dans le but de développer Callisto, sa preuve de concept proposant la mise en œuvre du logiciel en ligne Jupyter / JupyterLab pour la recherche en SHS, Huma-Num a sollicité Datactivist pour :
+huma-num-jupyter-nb,Développement de notebooks Jupyter et de matériaux pour le deep learning en SHS,Science ouverte,"mathieu-morey,magalie-dartus","Mathieu Morey, Magalie Dartus","/images/authors/mathieu-morey.jpeg, /images/authors/magalie-dartus.jpeg",huma-num,Huma-Num IR*,"La principale mission de l’IR* Huma-Num est de construire, avec les communautés et à partir d’un pilotage scientifique, une infrastructure numérique de niveau international (nœud français des ERIC DARIAH et CLARIN) pour les SHS.",/images/partners/huma-num.jpg,"Dans le but de développer Callisto, sa preuve de concept proposant la mise en œuvre du logiciel en ligne Jupyter / JupyterLab pour la recherche en SHS, Huma-Num a sollicité Datactivist pour :
 - être accompagnée pour définir et réaliser des notebooks adaptés aux besoins des SHS tels que révélés par une enquête utilisateurs ;
 - être accompagnée pour définir et réaliser des collections de jeux de données pouvant être utilisés dans des traitements de machine learning et deep learning ;
 - disposer de notebooks de prise en main de ces traitements et jeux de données.
 ","Deux panels chercheurs réunissant plusieurs communautés (géographes, historiens, linguistes, sociologues…) afin d’identifier les besoins et les usages possibles des notebooks Jupyter en SHS
+
 Priorisation des besoins identifiés afin de délimiter le périmètre le plus pertinent pour de premiers notebooks “sur étagère”
+
 Identification des jeux de données, dont un jeu de données visant à entraîner un modèle de deep learning afin de proposer aux chercheurs français en SHS un modèle inédit adapté à leurs besoins
-Production de cinq notebooks pour la prise en main de traitements de données avec Jupyter, indexés et organisés selon un catalogue raisonné",2021-01-01,7 mois,,,,https://open.datactivist.coop/images/references/huma-num-jupyter-nb.png,https://open.datactivist.coop/images/partners/huma-num.jpg,
+
+Production de cinq notebooks pour la prise en main de traitements de données avec Jupyter, indexés et organisés selon un catalogue raisonné",2021-01-01,7 mois,,,,https://open.datactivist.coop/images/references/huma-num-jupyter-nb.png,
 mel-data-storytelling,Accompagnement pour la création d’un objet numérique de data storytelling,"Data analyse,Datavisualisation","sylvain-lapoix,magalie-dartus,anne-laure-donzel","Sylvain Lapoix, Magalie Dartus, Anne-Laure Donzel","/images/authors/sylvain-lapoix.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/anne-laure-donzel.jpeg",metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"Il s’agit pour ce projet de mettre en scène des données provenant de la  direction des Ressources Humaines par un procédé de datastorytelling afin de raconter l’histoire de la MEL, pour répondre aux fameuses questions : « Mais ça sert à quoi la MEL ? Tu travailles à la MEL mais tu fais quoi ? ».
 L’objet du projet se focalise sur la création de datastories, nécessitant les compétences techniques de compréhension et traitement des bases de données et de graphismes, qui pourront être diffusés. Il s’agit également de sensibiliser les agents de la MEL au procédé de datastorytelling.","- Gestion de projet
 - Création d'une book d'inspiration
@@ -690,4 +691,3 @@ Les critères de définition de la géographie prioritaire sont différents entr
 Traitement de données de 27 producteurs différents
 Livrables : 1 rapport avec 9 indicateurs aboutis, 1 plateforme cartographique de visualisation de données 
 ",2024-01-01,7 mois,,,,https://open.datactivist.coop/images/references/mayotte-pol-ville.png,
-
