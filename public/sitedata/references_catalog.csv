@@ -611,3 +611,83 @@ Elle structure, par l’intermédiaire de consortiums regroupant des acteurs des
 Priorisation des besoins identifiés afin de délimiter le périmètre le plus pertinent pour de premiers notebooks “sur étagère”
 Identification des jeux de données, dont un jeu de données visant à entraîner un modèle de deep learning afin de proposer aux chercheurs français en SHS un modèle inédit adapté à leurs besoins
 Production de cinq notebooks pour la prise en main de traitements de données avec Jupyter, indexés et organisés selon un catalogue raisonné",2021-01-01,7 mois,,,,https://open.datactivist.coop/images/references/huma-num-jupyter-nb.png,https://open.datactivist.coop/images/partners/huma-num.jpg,
+mel-data-storytelling,Accompagnement pour la création d’un objet numérique de data storytelling,"Data analyse,Datavisualisation","sylvain-lapoix,magalie-dartus,anne-laure-donzel","Sylvain Lapoix, Magalie Dartus, Anne-Laure Donzel","/images/authors/sylvain-lapoix.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/anne-laure-donzel.jpeg",metropole-lille,Métropole Européenne de Lille,"La Métropole Européenne de Lille regroupe 95 communes, et s'est engagée sur de nombreux chantiers autour de la donnée depuis 2016",/images/partners/metropole-lille.jpeg,"Il s’agit pour ce projet de mettre en scène des données provenant de la  direction des Ressources Humaines par un procédé de datastorytelling afin de raconter l’histoire de la MEL, pour répondre aux fameuses questions : « Mais ça sert à quoi la MEL ? Tu travailles à la MEL mais tu fais quoi ? ».
+L’objet du projet se focalise sur la création de datastories, nécessitant les compétences techniques de compréhension et traitement des bases de données et de graphismes, qui pourront être diffusés. Il s’agit également de sensibiliser les agents de la MEL au procédé de datastorytelling.","- Gestion de projet
+- Création d'une book d'inspiration
+- Collecte et traitement des données
+- Prototypage de l'objet numérique
+- Accompagnement tout au long du projet",2022-03-01,15 mois,,,,https://open.datactivist.coop/images/references/mel-data-storytelling.png,
+arl-paca-diag-bib,Réalisation d’un diagnostic temporel sur les horaires d’ouverture des bibliothèques ,"Data analyse,Cas d'usage",magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,arl-paca,Agence Régionale du Livre Provence-Alpes-Côte d'Azur,L’Agence régionale du Livre articule ses missions autour de deux axes : l’accompagnement des professionnels et le développement de la lecture sur son territoire.,/images/partners/arl-paca.png,"Datactivist a réalisé un diagnostic temporel pour mieux comprendre les rythmes des habitants et du territoire de la Métropole Aix-Marseille-Provence afin de :
+- Connaître les rythmes du territoire
+- Réaliser un bilan des horaires actuels
+- Identifier les usages actuels des bibliothèques
+- Déterminer les attentes et besoins des habitants en termes d’accès aux bibliothèques publiques :
+- Identifier les services à disposition des usagers
+Dans ce contexte, il a été important de :
+- produire des éléments concrets et factuels 
+- fournir une aide à la compréhension des rythmes des habitants et du territoire
+
+","- Atelier de co-conception
+- Gestion de projet
+- Conception d'une méthode
+- Analyse de données
+- Réalisation de cartographies analytiques",2021-10-01,6 mois,,,,https://open.datactivist.coop/images/references/arl-paca-diag-bib.png,
+ird-edito-datavis,Formation à l’éditorialisation de données et création de datavisualisations,"Acculturation,Datavisualisation",maelle-fouquenet,Maëlle Fouquenet,/images/authors/maelle-fouquenet.jpeg,IRD,Institut de recherche pour le développement,"L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",/images/partners/Logo-IRD.png,"L’objectif de ce programme était de produire un article de datajournalisme comprenant un texte accompagné d’une ou plusieurs datavisualisations à publier sur un site internet à venir. Cette production finale est à destination du grand public.
+Datactivist a conçu un programme en deux phases pour accompagner les chercheurs de l’Institut : 
+- Un atelier collectif pour travailler le “brief” de l’article et de la dataviz : réflexion sur l’angle de l’article, sa structuration, anticiper les datavisualitions souhaitées (identification des données nécessaires, réflexion sur les formes graphiques appropriées en allant jusqu’au crayonné)
+- La seconde étape s’est décomposée en trois ateliers pratiques avec des outils no code :
+    - construire et mettre en scène un récit avec des données
+    - les différentes formes de datavisualisation
+    - comment visualiser des données qualitatives  ","- Création du contenu des sessions de formations. Préparation des exercices de mise en pratique et leur correction.
+
+- Animation des sessions de formation en distanciel auprès de chercheurs volontaires. Sessions animées par un·e datajournaliste et une consultante Datactivist. ",2023-04-01,6 mois,,,,https://open.datactivist.coop/images/references/ird-edito-datavis.png,
+intefp-webinaires,Construction et animation d’un cycle de webinaire,"Acculturation,Animation",maelle-fouquenet,Maëlle Fouquenet,/images/authors/maelle-fouquenet.jpeg,intefp,Institut National du Travail de l'Emploi et de la Formation Professionnelle,"Créé en 1975, l’INTEFP est depuis le 1er janvier 2006 un EPA (Établissement Public Administratif) sous tutelle du ministre chargé du travail. C'est un organisme de formation.",/images/partners/intefp.png,"“La révolution des données dans le monde du travail et dans nos métiers” : c’est le fil rouge du cycle de trois webinaires conçu pour les agents des Ministères sociaux, notamment du Ministère du Travail, du Plein emploi et de l'insertion (MTPEI). 
+Les besoins étaient clairs : rendre concret les enjeux et utiliser des formats interactifs d’animation malgré le nombre important de participants (environ 60 par webinaires).
+Le cycle a été construit dans une logique à la fois de montée en connaissance sur les notions à transmettre, mais aussi de les rapprocher le plus possible des enjeux des Ministères. Des intervenants experts ont été choisis à ce titre.
+Les 3 webinaires étaient complets : du décryptage des notions (données, IA, etc…) à l’utilisation des données dans les métiers. ","- Construction d’un cycle de webinaires intégré avec  des objectifs pédagogiques. Accent mis sur la continuité des modules.
+
+- Création du contenu des sessions de webinaires dans un format interactif. Production de supports et d’éléments pédagogiques partageables avec les participants.
+
+- Animation de 3 webinaires en direct, devant de nombreux participants.
+
+",2022-09-01,4 mois,,,,https://open.datactivist.coop/images/references/intefp-webinaires.png,
+bm-formation-directeurs,Formation des directeurs à la donnée,Acculturation,"guillaume-martin,sylvain-lapoix","Guillaume Martin, Sylvain Lapoix","/images/authors/guillaume-martin.jpeg, /images/authors/sylvain-lapoix.jpeg",metropole-bordeaux,Bordeaux Métropole,"La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010.",/images/partners/metropole-bordeaux.jpeg,"Composée de discussions et d'ateliers, la réunion des directeurs de Bordeaux Métropole visait à prendre conscience de l’importance de la culture des données pour la modernisation des services publics. 
+
+Cette formation a été conçue en trois temps : 
+
+- « La cité de la donnée idéale », après la présentation de cas d'usage exemplaires au sein d'administrations, les participants ont débattu de plusieurs scénarios fictifs où les données ont contribué à la prise de décision et au pilotage de l’activité 
+- « Où en sommes-nous ? » : un atelier interactif où les participants ont identifié et partagé les données utilisées dans leur environnement professionnel accompagné par des retours d'expérience de directeurs de Bordeaux Métropole
+- « Le début d’une longue marche collective pour collaborer sur les premières pistes du schéma directeur des données de Bordeaux Métropole.","- Création du contenu des ateliers. Les ateliers étaient pensés sous la forme de senario de design fiction.
+
+- Animation du CODIR. L’animation des différents temps d’échanges était ludique afin de favoriser l’engagement des participants et de faciliter les échanges.",2022-03-01,1 mois,,,,https://open.datactivist.coop/images/references/bm-formation-directeurs.png,
+cam-formations-sb,Journées “starting block data”,Acculturation,"julia-dumont,arthur-sarazin,emeline-vandeven,anne-laure-donzel,samuel-goeta","Julia Dumont, Arthur Sarazin, Emeline Vandeven, Anne-Laure Donzel, Samuel Goëta","/images/authors/julia-dumont.png, /images/authors/arthur-sarazin.png, /images/authors/emeline-vandeven.jpeg, /images/authors/anne-laure-donzel.jpeg, /images/authors/samuel-goeta.jpeg",cam,Clermont Auvergne Métropole,Clermont Auvergne Métropole est une métropole française constituée autour de la ville de Clermont-Ferrand. Elle regroupe 21 communes.,/images/partners/cam.png,"Datactivist anime depuis 2022 des journées “starting block data” ouvertes à l’ensemble des agents et encadrants de la métropole. Objectif : donner envie et montrer le potentiel des données.
+
+La métropole de Clermont-Ferrand souhaitait un temps d’acculturation le plus pratique possible qui installerait les participants dans des processus méthodologiques vertueux et les pousserait à être créatifs dans une recherche de solution collective. Ce temps en commun doit aussi leur permettre d’exprimer leurs réticences et leurs enthousiasmes.
+
+Cette action de formation a été déclinée en une journée adaptés aux besoins des différents publics.
+- la matinée pour comprendre l’ouverture des données et les problématiques techniques liées à la documentation et la qualité des données	
+- l’après-midi pour prototyper et concevoir des projets communs avec les données pour répondre aux besoins de la collectivité et ses politiques publiques
+","Création d’un scenario pédagogique. Le besoin était de créer une formation d’initiation au sujet tout en proposant des activités variées et ludiques.
+
+Animation des séances de formation. Cette formation est destinée à l’ensemble des agents.
+
+Mise à jour et adaptation régulière du contenu. Cette formation est proposée plusieurs fois par an, elle est chaque année mise à jour en tenant compte des retours des participants et des évolutions de l’état de l’art.
+
+",2022-01-01,,,,,https://open.datactivist.coop/images/references/cam-formations-sb.png,
+oraccle-datavis,Accompagnement de l’équipe Oraccle : formation et assistance à la datavisualisation,"Datavisualisation,Data analyse,Acculturation",diane-thierry,Diane Thierry,/images/authors/diane-thierry.jpeg,oraccle,Oraccle,Le projet ORACCLE (Orientation Régionale pour l’Accompagnement du Continuum Lycéens – Étudiants) est un projet unique dédié à faciliter le continuum bac-3/bac+3 en Ile-de-France.,/images/partners/oraccle.png,"Le volet open data du projet Oraccle est co-piloté par une équipe de 5 personnes issues de trois établissements : Université Gustave Eiffel, UVSQ, et USPN.
+Datactivist a accompagné le volet open data du projet Oraccle en offrant une montée en compétence sur l'ouverture des données et leurs réutilisations. En 2022 et 2023, le volet open data a mené à la création d'une base de donnée ouverte comportant des cohortes d'étudiants avec les différents établissements.
+Datactivist a pu réaliser des datavisualisations à partir de ces données, pour permettre aux usagers de mieux comprendre les parcours des étudiants entre bac-3/bac+3.","Formation : Création et animation de deux cycles de formation à la donnée, à l’Open Data et à la visualisation de données.
+Datavisualisation : production de datavisualisations à partir des données Open Data d’Oraccle (sur les trajectoires des étudiants en Ile-de-France).",2022-01-01,28 mois,https://github.com/datactivist/oraccle_dataviz,,,https://open.datactivist.coop/images/references/oraccle-datavis.png,
+odf-reinventons,Réinventons OpenDataFrance,Animation,"samuel-goeta,sarah-bourgouin,guillaume-martin,maelle-fouquenet,anne-laure-donzel,elise-ho-pun-cheung","Samuel Goëta, Sarah Bourgouin, Guillaume Martin, Maëlle Fouquenet, Anne-Laure Donzel, Elise Ho-Pun-Cheung","/images/authors/samuel-goeta.jpeg, /images/authors/sarah-bourgouin.png, /images/authors/guillaume-martin.jpeg, /images/authors/maelle-fouquenet.jpeg, /images/authors/anne-laure-donzel.jpeg, /images/authors/elise-ho-pun-cheung.jpeg",odf,OpenDataFrance,OpenDataFrance est  une association qui accompagne et fédère les acteurs publics territoriaux pour développer en commun(s) l’accès aux données et leur valorisation au service de l’intérêt général.,/images/partners/odf.png,"Le point de départ de cette mission est la fin de la  feuille de route fin 2023 et du constat de l’évolution de l’écosystème de la donnée. Dans ce contexte qui a beaucoup évolué, la période paraissait propice à un exercice de redéfinition, voire de réinvention, d’OpenDataFrance : sa raison d’être, ses missions, son périmètre d’intervention, sa gouvernance, son organisation, son financement…
+Dans ce cadre, le conseil d’administration de l’association a lancé une grande démarche de concertation. Celle-ci a visé à construire plusieurs scénarios de stratégies et une proposition de feuille de route pour l’association. La démarche a associé les membres de l’association, des experts et expertes de la donnée et toutes celles et ceux souhaitant y contribuer.
+","Animation d’une consultation fermée des adhérents, des partenaires et d’ambassadeurs de l’open data en janvier 2024.
+Organisation d’un webinaire sous la forme d’une table-ronde pour aborder des premiers sujets stratégiques.
+Animation d’une consultation publique ouverte aux agents publics, aux élus, mais aussi plus largement à toute personne intéressée par les enjeux de la donnée.
+Organisation des Assises d’OpenDataFrance, au ministère de la Transition Écologique et de la Cohésion des Territoires, point d’orgue de la démarche. ",2023-11-01,6 mois,https://opendatafrance.fr/assises-dopendatafrance-1-reflexion-collective/,,,https://open.datactivist.coop/images/references/odf-reinventons.png,
+mayotte-pol-ville,Exploitation et production de données au service de la politique de la ville,Data analyse,"sarah-bourgouin,diane-thierry","Sarah Bourgouin, Diane Thierry","/images/authors/sarah-bourgouin.png, /images/authors/diane-thierry.jpeg",pref-mayotte,Préfecture de Mayotte,La préfecture de Mayotte représente l'État sur le territoire.,/images/partners/pref-mayotte.png,"L’objectif de cette étude était l’obtention d’indicateurs pour la redéfinition de la géographie prioritaire de Mayotte sur des critères en adéquation avec la réalité du territoire.
+Les critères de définition de la géographie prioritaire sont différents entre la Métropole et Mayotte. En effet, il était hier (et cela est toujours le cas aujourd’hui) impossible de s’appuyer sur des données fiscales pour connaître le revenu par habitant. L’étude a permis de définir les indicateurs les plus représentatifs ainsi que les producteurs de données associés. Le travail de collecte et de traitement a permis de faire aboutir 9 indicateurs, dont 2 reposant sur l’analyse de données satellitaires avec un partenariat avec la société Diginove.
+","Entretiens bilatéraux avec des producteurs de données pour valider les données disponibles et le cadre de leur partage
+Traitement de données de 27 producteurs différents
+Livrables : 1 rapport avec 9 indicateurs aboutis, 1 plateforme cartographique de visualisation de données 
+",2024-01-01,7 mois,,,,https://open.datactivist.coop/images/references/mayotte-pol-ville.png,
+
