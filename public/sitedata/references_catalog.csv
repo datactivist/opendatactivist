@@ -171,19 +171,6 @@ Recherche, demandes, recueil et mise à disposition des données pour les partic
 Animation et coordination des équipes en distanciel, de l’accueil à la restitution. Valorisation des projets et de l’événement.
 
 ",2021-04-01,3 mois,https://hackathon-covid.fr/restitution,check-list-hackathon,,https://open.datactivist.coop/images/references/hackathon-ditp.png,"14,38,48,53"
-diagnostic-artificialisation,Accompagnement à la publication et médiation des algorithmes,Stratégie,"maelle-fouquenet,clement-mandron","Maëlle Fouquenet, Clément Mandron","/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png",beta-gouv,Beta.gouv.fr,Beta.gouv.fr incube des projets numériques à fort impact au sein de l'Etat.,/images/partners/beta-gouv.png,"Nous avons intégré l'équipe de MonDiagArtif' pendant plus de trois mois. 
-
-La mission a requis une compréhension précise des données, et de leur chaîne de traitement (Cerema, DGFIP, IGN, Portail de l'Artificialisation). Nous avons ensuite produit une FAQ, un tutoriel et un parcours utilisateurs (graphiques, textes) les plus clairs possibles. 
-
-L'objectif était de faire de la documentation une composante de la méthode produit en place par Mon Diagnostic Artificialisation (cycles courts itératifs entre utilisateurs et changement du produit).","Appropriation de la documentation, sur les données métiers (consommation et artificialisation). Entretiens avec les producteurs de données. 
-
-Production d’une V0 de la documentation sur la base des ressources documentaires. Productions de schémas et autres formats accessibles.
-
-Itérations pour améliorer la documentation, avec des ateliers et entretiens utilisateurs.
-
-Restitution de la méthode, production d’un guide (réplicabilité) pour qu’elle s’intègre dans le fonctionnement agile de la startup d’Etat.
-
-",2023-09-01,5 mois,,mediation-algorithmes,mediation-algorithmes,https://open.datactivist.coop/images/references/diagnostic-artificialisation.png,
 perils-amp,Analyse et géolocalisation des arrêtés de péril,Data analyse,"mathieu-morey,anthony-gigerich","Mathieu Morey, Anthony Gigerich","/images/authors/mathieu-morey.jpeg, /images/authors/anthony-gigerich.jpeg",metropole-amp,Métropole Aix-Marseille-Provence,"La Métropole Aix-Marseille Provence regroupe 92 communes sur 3 173 km2 et compte près de 1,83 millions d’habitants. Il s’agit de la plus grande Métropole de France. ",/images/partners/amp.png,"Afin de mettre en œuvre plusieurs de ses compétences, dont la lutte contre l’habitat indigne, la Métropole Aix-Marseille Provence AMP avait besoin de disposer d’une information fiable sur l’existence ou non d’un arrêté de péril (ou de mise en sécurité) à une adresse.
 
 Les services de l’État partagent cette problématique, compte-tenu de leur compétence en matière d’insalubrité, de saturnisme et de la coordination de lutte contre l’habitat indigne.
@@ -804,3 +791,110 @@ Les critères de définition de la géographie prioritaire sont différents entr
 Traitement de données de 27 producteurs différents
 Livrables : 1 rapport avec 9 indicateurs aboutis, 1 plateforme cartographique de visualisation de données 
 ",2024-01-01,7 mois,,,,https://open.datactivist.coop/images/references/mayotte-pol-ville.png,
+mte-cgdd-objet-num,AMO Objets numériques,Cas d'usage,magalie-dartus,Magalie Dartus,/images/authors/magalie-dartus.jpeg,mte,Ministère de la transition  écologique et de la cohésion des territoires,Le ministère de la Transition écologique et de la Cohésion des territoires prépare et met en œuvre la politique du Gouvernement dans de nombreux domaines. ,/images/partners/mte.png,"Datactivist a accompagné le Commissariat général au développement durable (CGDD) dans sa réflexion sur les outils de publication en proposant un état des lieux, une veille et un démonstrateur valorisant le partage de données et les outils open source.
+La mission a débuté par un état des lieux qui a mis au jour d’importantes ressources en termes de compétences dans les personnels du CGDD.
+L’équipe de Datactivist a proposé un rapport combinant retours d’expériences de structures variées sur les outils et veille sur des formats innovants (institutions, laboratoires et médias).
+Sur cette base, un pipeline de publication assemblant des outils open source a été proposé et mis en application grâce à un démonstrateur : l’équipe de Datactivist a reproduit en utilisant ces techniques un livrable périodique du CGDD (Datalab - L’essentiel).","Entretiens avec les agents du CGDD pour recueillir les attentes, les pratiques et les compétences disponibles.
+Synthèse et analyse des entretiens (qualitative, quantitative et technique).
+Rapport retour d’expérience : entretiens avec des professionnels (3 cas) et veille analytique de formats (21 cas).
+Proposition d’un pipeline de publication open source
+Programmation d’un démonstrateur sous la forme d’un framework R complet reproduisant un livrable CGDD",2021-05-01,6 mois,,,,https://open.datactivist.coop/images/references/mte-cgdd-objet-num.png,
+mesr-pi-publi,Étude sur l’utilisation d’œuvres relevant des arts visuels dans les publications scientifiques,"Data analyse,Science ouverte","antoine-blanchard,mathieu-morey","Antoine Blanchard, Mathieu Morey","/images/authors/antoine-blanchard.png, /images/authors/mathieu-morey.jpeg",mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Une étude a été menée pour assurer la sécurité juridique des collectifs de recherche dans le respect des droits patrimoniaux et moraux attachés à ces œuvres.
+Dans le contexte de l’article 28 de la loi de programmation de la recherche, qui autorise le Gouvernement à instituer, par voie d’ordonnance, des licences collectives autorisant “l’utilisation d’œuvres relevant des arts visuels, à des fins exclusives d’illustration de publications, ou de travaux, diffusés en ligne sans restriction d’accès, dans le cadre d’une activité de recherche et d’enseignement supérieur publics, à l’exclusion de toute activité à but lucratif”, le MESRI a souhaité lancer une étude permettant d’estimer le nombre d’images publiées entrant dans le champ de la mesure, et de fournir une méthodologie permettant de réitérer ce calcul sur les flux annuels de travaux et publications scientifiques.
+","Quantifier de manière exhaustive le nombre d’images utilisées dans des publications et des travaux scientifiques,  publiés en accès ouvert.
+Construire un échantillon stratifié, basé sur un découpage pertinent du corpus d’images.
+Extraire et analyser des données.
+Fournir une méthodologie pour itérer régulièrement les calculs, y compris une fois l’étude terminée. ",2021-02-01,8 mois,,,,https://open.datactivist.coop/images/references/mesr-pi-publi.png,
+urfist-occitanie-sprint-pgd,Sprint PGD : accompagnement à la rédaction de Plan de gestion des données,Science ouverte,candice-fillaud,Candice Fillaud,/images/authors/candice-fillaud.png,urfist-occitanie,URFIST Occitanie,"L'URFIST Occitanie est un organisme de formation et de recherche, membre du Réseau URFIST composé de 7 unités en France, créé en 1982.",/images/partners/urfist-occitanie.png,"Le Plan de Gestions de Données (PGD) vise à introduire des bonnes pratiques de gestion de données auprès des chercheurs, en les amenant à réfléchir au cycle de vie des données qu’ils produisent.
+Afin d’éviter d’émietter leur accompagnement face à des besoins croissants, et pour contribuer à construire un socle interdisciplinaire de la science ouverte, les services d’accompagnement cherchent à développer une formation pouvant rassembler des chercheurs de disciplines distinctes dans leur démarche de rédaction de PGD. Pour cela, ils doivent combiner des contenus généralistes, disciplinaires, et institutionnels.
+Avec le Sprint PGD, Datactivist développe un format innovant qui permet de lever ce verrou, y compris en assurant une coopération entre les établissements et la mutualisation des ressources.
+L'atelier s'organise autour des principes FAIR et suit un parcours pas à pas qui donne toutes les clés pour rédiger la première version d’un PGD.
+","Mise à disposition d’une ressource en accès libre conforme aux attendus des laboratoires de recherche toulousains
+Animation d’un atelier de 3h30 avec les équipes de recherche (PI, doctorant / post-doctorant, ingénieur)",2022-05-01,1 mois,https://opendatacanvas.org/sprint-pgd,,,https://open.datactivist.coop/images/references/urfist-occitanie-sprint-pgd.png,
+uppa-audit-data-shs,Audit sur les données de la recherche en SHS,"Data analyse,Science ouverte",antoine-blanchard,Antoine Blanchard,/images/authors/antoine-blanchard.png,uni-pau-adour,Université de Pau et des Pays de l’Adour,L’Université de Pau et des Pays de l’Adour (UPPA) est une université française.,/images/partners/uni-pau-adour.png,"Une première enquête sur les données de recherche à l’UPPA et une évaluation Hcéres ont pointé la nécessité de pallier les faiblesses dans la gestion des données en SHS.
+Faute de plans de gestion des données (PGD), il était difficile de connaître exactement les “non-conformités pointées par l’Hcéres
+La mission menée en groupement avec Infhotep a d’abord consisté à co-produire le PGD de chaque projet de recherche audité, avec les chercheurs eux-mêmes, pour fixer la cible à atteindre en matière de données FAIR. Les chercheurs ont ainsi retiré un bénéfice immédiat de leur participation.
+À partir des PGD, nous avons alors estimé les efforts à fournir en matière d’infrastructures, de ressources, de pratiques… pour chaque jeu de données. En fonction des priorités et des arbitrages, nous avons ainsi élaboré un plan d’actions pour l’UPPA.
+","Entretiens avec les producteurs des 12 jeux de données en SHS afin de déterminer une cible de FAIRisation
+
+Evaluation FAIR des jeux de données (état actuel et cible) en utilisant les critères RDA-SHARC
+
+Préconisation d’actions visant à accompagner la FAIRisation des données et arbitrage avec la gouvernance
+
+Plan d’action à 12 mois pour chaque échelon : équipe de recherche, Centre de Services Partagés (CSP) Numérique Recherche, gouvernance, infrastructures nationales comme Huma-Num…",2022-09-01,4 mois,,,,https://open.datactivist.coop/images/references/uppa-audit-data-shs.png,
+dreal-ge-datahub,Accompagnement à la mise en oeuvre technique d’un Datahub et d’un entrepôt de données,Cas d'usage,"magalie-dartus,clement-mandron,anthony-gigerich","Magalie Dartus, Clément Mandron, Anthony Gigerich","/images/authors/magalie-dartus.jpeg, /images/authors/clement-mandron.png, /images/authors/anthony-gigerich.jpeg",dreal-grand-est,DREAL Grand Est,"La Direction régionale de l'environnement, de l'aménagement et du logement (DREAL) Grand Est est un service déconcentré de l'État français.",/images/partners/prefet-grand-est.jpeg,"Depuis quelques années, la DREAL Grand Est est engagée dans une nouvelle démarche qui vise à rapprocher toutes les données territoriales. Elle a donc entamé une transformation des métiers par une initiative nommée CapD3+.
+L’approche de la DREAL Grand Est est quadruple:
+Volet DataHub - Disposer d’un accès facile à toutes les données utiles pour la DREAL et les DDTs ;
+Volet Entrepôt - Professionnaliser la gestion des données internes à la DREAL et aux DDT de manière coordonnée avec les services métiers ;
+Volet Outils - Aller plus loin dans la réponse aux besoins de ses bénéficiaires, en améliorant les outils actuels et en développant d’autres outils au bénéfice des usagers de la donnée ;
+Volet accompagnement-méthodo-animation : Continuer à s’approprier les méthodes les plus efficaces pour atteindre rapidement nos objectifs, en particulier les approches agiles.","Rédaction d’une feuille de route : construire un datahub par les cas d’usage et créer des communautés d’utilisateurs.
+Entretiens avec les producteurs et les réutilisateurs de données (territoire national) pour identifier les besoins concernant le datahub.
+Architecture informatique du Datahub s’incluant dans le SI ministériel (MTE).
+Ateliers avec les métiers avec de modéliser les flux de données EnR.
+Ateliers avec les métiers avec de modéliser les flux de données EnR.
+MCD pour les données EnR.
+Développement en Python d’un outil de saisie et de collecte des données EnR.
+
+
+",2022-06-01,18 mois,,,,https://open.datactivist.coop/images/references/dreal-ge-datahub.png,
+mesr-etude-metiers,Étude sur les métiers de la donnée dans l’ESR,"Data analyse,Science ouverte","elise-ho-pun-cheung,diane-thierry,antoine-blanchard","Elise Ho-Pun-Cheung, Diane Thierry, Antoine Blanchard","/images/authors/elise-ho-pun-cheung.jpeg, /images/authors/diane-thierry.jpeg, /images/authors/antoine-blanchard.png",mesr,Ministère de l'Enseignement supérieur et de la Recherche,Le ministère de l'Enseignement Supérieur et de la Recherche prépare et met en œuvre la politique du Gouvernement relative à l'accès  aux savoirs et au développement de l'enseignement supérieur.,/images/partners/mesr.png,"Le ministère souhaitait disposer d’une étude des métiers de la donnée, surtout les métiers invisibles de la donnée, notamment au-delà du métier de data scientist. À partir de cette étude il pourra formaliser un socle de compétences et offrir des trajectoires de reconversion, de formation.
+
+Cette étude a contribué à la documentation du travail des nouveaux.elles expert.e.s des données de la recherche. Les constats émis à partir de cette étude sont : 
+- les trajectoires, les positions occupées et les compétences liées aux données sont variées ;
+- la reconnaissance du travail des données est inégale ;
+- les réseaux professionnels sont largement organisés  par thématiques et expertise précises ;
+- le travail des données n’est pas toujours effectué en continu ;
+- le travail des données produit de nouvelles formes de collaboration.
+","Étude bibliographique : établir la nomenclature des activités de la donnée dans la recherche et pour produire un état de l’art.
+Enquête par questionnaire, entretiens et focus group : Enquêter différents environnements de recherche pour comprendre les pratiques de la donnée des répondants, leur statut professionnel.
+Analyse et synthèse : rédaction du rapport final après analyse des données d’enquête quantitative et qualitative.",2022-12-01,12 mois,,,,https://open.datactivist.coop/images/references/mesr-etude-metiers.png,
+bm-challenge-data,Challenge Data pour des communes,Acculturation,"guillaume-martin,sarah-bourgouin","Guillaume Martin, Sarah Bourgouin","/images/authors/guillaume-martin.jpeg, /images/authors/sarah-bourgouin.png",metropole-bordeaux,Bordeaux Métropole,"La Métropole de Bordeaux comprend 28 communes, et s'est engagée dans l'open data depuis le début des années 2010.",/images/partners/metropole-bordeaux.jpeg,"Bordeaux Métropole souhaite redynamiser sa démarche d’ouverture des données pour les communes de son territoire. 5 communes ont participé au challenge.
+D’une durée de 3 mois le challenge data poursuit 3 principaux objectifs : 
+- Acculturer et former les référents open data des communes par la pratique ; 
+- Relancer la dynamique d’ouverture au sein des communes pilotes ; 
+- Impulser un écosystème public de la donnée sur le territoire métropolitain. 
+Le challenge se compose de 5 ateliers introduits par un webinaire de présentation : 
+- Atelier 1 : Diagnostic et identification des données
+- Atelier 2 et 3 : Mise en qualité 
+- Atelier 4 : Publication des données
+- Atelier 5 : Valorisation des données 
+20 jeux de données ont été ouverts et 5 réutilisations produites lors de ce challenge. 
+","Recrutement des communes participantes et webinaire de présentation.
+Conception et animation de 5 ateliers visant à publier et valoriser les données des communes.
+Rédaction d’une note de synthèse et d’analyse pour poursuivre la dynamique collective après le challenge.  ",2023-04-01,3 mois,,,,https://open.datactivist.coop/images/references/bm-challenge-data.png,
+beta-gouv-mon-diag-artif,Publication et médiation des algorithmes de Mon Diagnostic Artificialisation,Cas d'usage,"maelle-fouquenet,clement-mandron","Maëlle Fouquenet, Clément Mandron","/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png",beta-gouv,Beta.gouv.fr,Beta.gouv.fr incube des projets numériques à fort impact au sein de l'Etat.,/images/partners/beta-gouv.png,"Le but de mission : rendre le plus accessible possible les données de consommations et d'artificialisation des sols, et de produire une documentation orientée utilisateurs.
+Nous avons intégré l'équipe de MonDiagArtif' pendant plus de trois mois. 
+
+La mission a requis une compréhension précise des données, et de leur chaîne de traitement (Cerema, DGFIP, IGN, Portail de l'Artificialisation). Nous avons ensuite produit une FAQ, un tutoriel et un parcours utilisateurs (graphiques, textes) les plus clairs possibles. 
+L'objectif était de faire de la documentation une composante de la méthode produit en place par Mon Diagnostic Artificialisation (cycles courts itératifs entre utilisateurs et changement du produit).
+","Appropriation de la documentation, sur les données métiers (consommation et artificialisation). Entretiens avec les producteurs de données. 
+Production d’une V0 de la documentation sur la base des ressources documentaires. Productions de schémas et autres formats accessibles.
+Itérations pour améliorer la documentation, avec des ateliers et entretiens utilisateurs.
+Restitution de la méthode, production d’un guide (réplicabilité) pour qu’elle s’intègre dans le fonctionnement agile de la startup d’Etat.",2023-09-01,5 mois,,,,https://open.datactivist.coop/images/references/beta-gouv-mon-diag-artif.png,
+adbu-indicateurs-so,Étude sur les indicateurs d'activité des BU dans le développement de la science ouverte,Science ouverte,"antoine-blanchard,margaux-larre-perez,candice-fillaud","Antoine Blanchard, Margaux Larre-Perez, Candice Fillaud","/images/authors/antoine-blanchard.png, /images/authors/margaux-larre-perez.png, /images/authors/candice-fillaud.png",adbu,association des directeurs et des personnels de direction des bibliothèques universitaires et de la documentation (ADBU),"Fondée en 1974, l'ADBU est l’Association française des directeurs et personnels de direction des bibliothèques universitaires et de la documentation.",/images/partners/adbu.png,"L'ADBU a souhaité mettre en œuvre une étude pour accompagner la qualification et la quantification de l’activité des bibliothèques de l’ESR dans le développement de la science ouverte.
+L’étude répond aux objectifs suivants : 
+- Proposer des solutions pour la quantification et la description des actions mises en place dans les établissements ; 
+- Proposer des solutions pour la quantification et la description des relations entre bibliothèques et acteurs locaux, nationaux et internationaux autour de la science ouverte : collaboration interservices et inter-établissements ;
+- En tenant compte des acteurs et des outils existants, émettre des propositions pour favoriser la constitution d’indicateurs permettant le suivi pérenne, fiable et comparatif de l’évolution des moyens financiers et humains affectés à la science ouverte dans les bibliothèques de l’ESR, en différenciant les thématiques concernées (diffusion des travaux de la recherche, données de la recherche, édition scientifique, etc.). 
+","Campagne d’entretiens
+Cartographie des indicateurs existants : recensement des indicateurs de mesure de l'activité des services en matière de science ouverte déjà en circulation dans le paysage français et européen.
+Atelier de création d’indicateur : sessions d’atelier avec le groupe de travail afin de co-créer des indicateurs science ouverte
+",2022-12-01,16 mois,,,,https://open.datactivist.coop/images/references/adbu-indicateurs-so.png,
+ird-horizon-publi,Étude de cadrage Horizon et gestion des publications,"Science ouverte,Stratégie","antoine-blanchard,candice-fillaud","Antoine Blanchard, Candice Fillaud","/images/authors/antoine-blanchard.png, /images/authors/candice-fillaud.png",IRD,Institut de recherche pour le développement,"L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",/images/partners/Logo-IRD.png,"Horizon Pleins textes est une archive institutionnelle créée pour constituer et valoriser le patrimoine scientifique de l’IRD depuis plus de 70 ans.
+Dans le cadre de sa feuille de route et de son plan d’action pour une science ouverte et partagée, l’IRD prévoit de consolider le système d’information documentaire et de suivi des publications Horizon Pleins textes.
+Pour cela, elle souhaitait établir un état de l’art des pratiques en matière de gestion des publications dans les autres organismes d’enseignement supérieur et de recherche afin de les comparer aux siennes.
+Cette étude s’avérait nécessaire pour bâtir une vision partagée entre les différentes parties prenantes à l’IRD, et elle constituait un préalable à une possible évolution des fonctionnalités et des composants d’Horizon.
+","Entretiens préliminaires avec les administrateurs fonctionnels et techniques de l’archive ouverte institutionnelle (ou du portail HAL dans le cas d’une archive externalisée) (7 entretiens de 3h).
+Entretiens utilisateurs  afin de collecter les usages des utilisateurs relatifs à la gestion de leurs publications, en adoptant systématiquement le point de vue des utilisateurs (25 entretiens)
+Livrables :  rapport de synthèse mettant en exergue les résultats clés de l’étude (ce qui fait consensus, les signaux faibles, les différences majeures entre l’IRD et ses partenaires…) 
+",2022-12-01,12 mois,,,,https://open.datactivist.coop/images/references/ird-horizon-publi.png,
+ird-fairisation,Étude de cas d'usages de FAIRisation de données ,"Science ouverte,Cas d'usage",antoine-blanchard,Antoine Blanchard,/images/authors/antoine-blanchard.png,IRD,Institut de recherche pour le développement,"L'Institut de recherche pour le développement est un organisme pluridisciplinaire reconnu internationalement, travaillant principalement en partenariat avec les pays du Sud et dans les Outre-mer français.",/images/partners/Logo-IRD.png,"Le projet ANR BRIDGE traite du partage et de l’ouverture des données de la recherche dans le contexte des UMR entre Inrae, l’IRD et le Cirad : il vise à améliorer les outils et pratiques de gestion des données des partenaires en s’appuyant sur les principes FAIR.
+Constatant le besoin de réaliser un état des lieux à partir de quelques cas pratiques de données FAIR, l’équipe du projet BRIDGE a confié à Datactivist une mission d’étude de 10 jeux de données issus de plusieurs unités communes entre Inrae, l’IRD et/ou le Cirad. La vision d’ensemble de ces jeux de données, produits chacun dans un contexte particulier et à des fins spécifiques, doit permettre de mieux appréhender la diversité des situations et de comprendre la pratique des communautés scientifiques et leurs difficultés face à la FAIRisation des données.
+Cette étude de cas pratiques de données FAIR vise à améliorer les outils et pratiques de gestion des données pour les partenaires du projet ANR BRIDGE (Inrae, Cirad, IRD) en s’appuyant sur les principes FAIR.
+","ÉvaluationFAIR de 10 jeux de données (génétique, botanique, phénologie, géochimie, lidar…) en utilisant les critères RDA-SHARC
+
+Entretiens avec les producteurs des 10 jeux de données afin de comprendre la motivation et les limites de la FAIRisation
+
+Animation de deux ateliers collaboratifs permettant d’identifier les étapes clés de FAIRisation dans le cycle de vie des données
+
+Synthèse et recommandations concernant la gouvernance des données, les pratiques des communautés scientifiques et le fonctionnement des outils et entrepôts.",2021-04-01,5 mois,,,,https://open.datactivist.coop/images/references/ird-fairisation.png,
