@@ -931,3 +931,35 @@ Un module focalisé sur la qualité des données et la standardisation. Et, un s
 Animation de plusieurs sessions d’atelier.
 Organisation d’un webinaire sous la forme d’une table-ronde pour aborder des premiers sujets stratégiques.
 ",2020-01-01,48 mois,https://github.com/datactivist/futurocite_ouvrir-ma-ville,,,https://open.datactivist.coop/images/references/futurocite-ouvrir-ville.png,
+afd-bresil,Conduite de projets Smart City au Brésil ,"Stratégie,Acculturation","allyson-pallisser,samuel-goeta,etienne-pichot-damon,joel-gombin","Allyson Pallisser, Samuel Goëta, Etienne Pichot Damon, Joël Gombin","/images/authors/allyson-pallisser.png, /images/authors/samuel-goeta.jpeg, /images/authors/etienne-pichot-damon.jpeg, /images/authors/joel-gombin.jpeg",afd,Agence Française de Développement,L’Agence Française de Développement met en œuvre la politique nationale en matière de développement et de solidarité internationale,/images/partners/afd.jpg,"Datactivist, aux côtés d’Egis, a accompagné les stratégies open data et smart city de quatre villes au Brésil.
+Le projet, d’une durée de deux ans, se structurait autour de plusieurs volets : Open Data, hyperviseurs urbains et big data, gouvernement ouvert et citoyenneté. 
+
+L’objectif consistait à accompagner le développement de projets numériques. Pour cela, une série d’études a permis de comprendre le besoin et de définir les premières stratégies. Ensuite, des voyages d’études dans les deux sens ont été organisés pour la mise en place des projets et l’apprentissage des différentes équipes. 
+
+
+Datactivist a organisé et a participé aux deux voyages d’étude en France, lors desquels les interlocuteurs des villes brésiliennes ont rencontré les équipes de plusieurs villes françaises (Paris, Nice, Lyon, La Rochelle…). En parallèle, Datactivist s’est rendu à plusieurs reprises au Brésil, pour approfondir les études, organiser des ateliers et réaliser des enquêtes de terrain.","Partage des bonnes expériences des villes françaises auprès des responsables de l'ouverture des données à Recife ;
+Sensibilisation et formation d’agents publics locaux à l’ouverture des 
+données ;
+Étude stratégique avec des recommandations afin d’approfondir l’open data local ;
+Création d'un réseau de référents open data au sein des services de la Mairie de Recife ;
+Étude de pré-faisabilité : 13 recommandations pour une gouvernance des données pour préfigurer l'hyperviseur de Curitiba.",2019-03-01,22 mois,,,,https://open.datactivist.coop/images/references/afd-bresil.png,
+ratp-dev-carto,Recherche et cartographie de données,Catalogage de données,etienne-pichot-damon,Etienne Pichot Damon,/images/authors/etienne-pichot-damon.jpeg,ratp-dev,RATP Dev,RATP Dev est une filiale du groupe RATP qui œuvre au développement des activités du groupe sur les marchés d'exploitation et de maintenance de réseaux de transport urbain et interurbain en dehors du réseau francilien. RATP Dev est présent à l'échelle mondiale.,/images/partners/ratp-dev.png,"Datactivist a réalisé une cartographie de données de la mobilité en Île de France.
+
+RATP Dev a pour mission de concevoir des offres de transports qui correspondent au mieux à la demande en mobilité. Dans un contexte où le transport de personnes est en forte mutation (nouveaux acteurs), et où les données produites sont de plus en plus volumineuses et variées, RATP Dev a souhaité disposer d’une cartographie précise de données à mobiliser en Île de France. 
+
+Datactivist a collecté un ensemble d’informations et de métadonnées à partir des portails open data locaux et nationaux, des nouveaux opérateurs tels que Uber et Waze, et des différentes acteurs de la mobilité. Plusieurs entretiens ont été menés pour qualifier le plus précisément les données, et pour identifier des freins éventuels à leur exploitation. A terme, c’est un modèle complet d’analyse des déplacements qui pourra exploiter ces données, et aider RATP Dev à concevoir des offres au plus près de la demande.","Réunion de cadrage pour comprendre les besoins du client et délimiter un périmètre de recherche ;
+Recherche de données sur les portails open data et les sites des acteurs de la mobilité ;
+Qualification détaillée de l’exploitabilité des données selon 10 critères principaux (qualité, documentation, lisibilité, formats, licences…) ;
+Entretiens avec les producteurs de données pour collecter des informations supplémentaires sur les données ;
+Synthèse et restitution de la cartographie des données et recommandations pour une exploitation.
+",2019-06-01,6 mois,,,,https://open.datactivist.coop/images/references/ratp-dev-carto.png,
+icade-strategie,AMO stratégie smart data,"Stratégie,Catalogage de données",etienne-pichot-damon,Etienne Pichot Damon,/images/authors/etienne-pichot-damon.jpeg,icade,Icade,ICADE est un groupe immobilier français dont l'actionnaire majoritaire est la Caisse des Dépôts et Consignations,/images/partners/icade.png,"Datactivist a conseillé Icade sur sa stratégie en matière de données issues des bâtiments et de partenaires externes. 
+L’objectif était de proposer aux clients et collaborateurs un panel de services numériques, et des données brutes (centralisées sur une plateforme data).
+Approche adoptée 
+- Collecter et qualifier les données issues des prestataires ; 
+- Participer à la rédaction des référentiels ;
+- Gérer la plateforme data.
+","Réalisation d’une cartographie de données chez Icade et ses partenaires ;
+Récupérations de données chez les prestataires d'Icade (énergie, bâtiment connecté, données publiques) ;
+Rédaction d’un audit sur la gouvernance des données et de recommandations.",2018-05-01,6 mois,,,,https://open.datactivist.coop/images/references/icade-strategie.png,
+
