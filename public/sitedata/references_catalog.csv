@@ -898,3 +898,36 @@ Entretiens avec les producteurs des 10 jeux de données afin de comprendre la mo
 Animation de deux ateliers collaboratifs permettant d’identifier les étapes clés de FAIRisation dans le cycle de vie des données
 
 Synthèse et recommandations concernant la gouvernance des données, les pratiques des communautés scientifiques et le fonctionnement des outils et entrepôts.",2021-04-01,5 mois,,,,https://open.datactivist.coop/images/references/ird-fairisation.png,
+datagora-immersiveia,Co-création et animation d’un kit pédagogique IMMERSIVE IA,"Acculturation,Intelligence artificielle","magalie-dartus,loup-cellard","Magalie Dartus, Loup Cellard","/images/authors/magalie-dartus.jpeg, /images/authors/loup-cellard.jpeg",part-lyon,"Projet partenarial DataGora, Métropole de Lyon et Université de Lyon",,/images/partners/part-lyon.png,"Cette mission a pour but d’accompagner le Datalab de la Métropole de Lyon dans la création d’un kit pédagogique de sensibilisation à l’intelligence artificielle.
+Datactivist a accompagné la Métropole de Lyon et l’Université de Lyon dans le développement d’IMMERSIVE IA dans le cadre de l’axe DatAcculturation développé par la DatAgora : produire un contenu, une représentation, une animation dans le but d’acculturer un public visé autour de la donnée ou par la donnée.
+Ce format de formation de 3 heures vise à doter les agents des collectivités des compétences nécessaires pour naviguer dans l'univers de l'intelligence artificielle, en mettant l'accent sur trois objectifs clés :
+- la sensibilisation et l'acculturation pratique et stratégique
+- la culture et un débat partagé
+- pré-identifier des cas d'usage
+
+","Co-création d’un module immersif de sensibilisation à l’intelligence artificielle
+Co-construction d’un kit pédagogique ouvert et consultable en ligne
+Animation de plusieurs sessions d’atelier
+Adaptation du contenu du module immersif IA pour différents métiers (RH, juriste, DSI….)",2024-05-01,4 mois,https://erasme.notion.site/Kit-p-dagogique-IMMERSION-IA-cfc1d38fed704c4caebd66272b8d4d78,,,https://open.datactivist.coop/images/references/datagora-immersiveia.png,
+cda-form-datavis,"Formation ""De la visualisation de données au code""",Acculturation,"maelle-fouquenet,diane-thierry","Maëlle Fouquenet, Diane Thierry","/images/authors/maelle-fouquenet.jpeg, /images/authors/diane-thierry.jpeg",cda-rochelle,Communauté d'agglomération de La Rochelle,Clermont Auvergne Métropole est une communauté d'agglomération française constituée autour de la ville de La Rochelle. Elle regroupe 28 communes.,/images/partners/cda-logo.png,"Datactivist a préparé et animé une formation composé de 2 modules d’une journée destinés aux différents services de la communauté d’agglomération de La Rochelle. 
+Le programme proposé était le suivant :
+- le premier module était généraliste et s’adressait à toutes et tous. Il avait pour objectif la découverte de la datavisualisétion de façon théorique et pratique, avec la découverte d’outils no-code.
+- le second module s'adressait un public plus expert et proposait une découverte de l'analyse de données avec R. Des exercices pas à pas et un accompagnement pédagogique tout au lond de la séance a permis aux participants de comprendre les bases du code.","Animation des sessions de formation en présentiel en présentiel pour le premier module et à distance pour le second.
+Animation des sessions de formation en présentiel en présentiel pour le premier module et à distance pour le second.
+Rédaction de scripts d'apprentissage pour R.",2024-06-01,4 mois,,,,https://open.datactivist.coop/images/references/cda-form-datavis.png,
+futurocite-od,Formation open data à un ensemble de communes wallonnes,Acculturation,"etienne-pichot-damon,joel-gombin","Etienne Pichot Damon, Joël Gombin","/images/authors/etienne-pichot-damon.jpeg, /images/authors/joel-gombin.jpeg",futurocite,Futurocité,"FuturoCité, en Belgique propose une approche intégrée sur le thème des données territoriales pour le secteur public, allant de la sensibilisation des acteurs clés à la valorisation des données grâce à la mise en œuvre de politiques de données publiques telles que l'Open Data.",/images/partners/futurocite.jpeg,"Datactivist a participé en partenariat avec Futurocité à 2 jours de sensibilisation et formation à l’open data, à destination de villes, communes, et intercommunales en région
+wallonne.
+Futurocité, référent Digital Wallonia, accompagne la transition digitale des territoires vers des Smart Territoires. Dans ce cadre, l’objectif très pragmatique de ce premier séminaire était de déterminer “pourquoi et comment de l’open data dans ma commune”.
+Une dizaine de représentants de différentes institutions territoriales wallonnes ont participé à ces 2 jours hébergés par le BEP Namur, au triple objectif :
+	- Comprendre le contexte et les opportunités liés à la mise en œuvre de l’Open Data ;
+	- Connaître les outils pour l’ouverture des données et leur réutilisation ;
+	- Etre capable d’identifier qui possède des données au sein de l’administration.","Création du contenu d’une formation sur l’ouverture des données.
+Animation de plusieurs sessions d’atelier
+
+",2019-01-01,1 mois,,,,https://open.datactivist.coop/images/references/futurocite-od.png,
+futurocite-ouvrir-ville,Prestations dans le cadre du programme “Ouvrir ma ville”,Acculturation,"etienne-pichot-damon,elise-ho-pun-cheung,sarah-bourgouin,sylvain-lapoix","Etienne Pichot Damon, Elise Ho-Pun-Cheung, Sarah Bourgouin, Sylvain Lapoix","/images/authors/etienne-pichot-damon.jpeg, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/sarah-bourgouin.png, /images/authors/sylvain-lapoix.jpeg",futurocite,Futurocité,"FuturoCité, en Belgique propose une approche intégrée sur le thème des données territoriales pour le secteur public, allant de la sensibilisation des acteurs clés à la valorisation des données grâce à la mise en œuvre de politiques de données publiques telles que l'Open Data.",/images/partners/futurocite.jpeg,"Le programme « Ouvrir ma Ville » s’inscrit dans un objectif plus large d’acculturation des acteurs du territoire (élus locaux et administrations communales et régionales) à l’ouverture des données.
+Le programme s’articule autour de différents modules de formation et de webinaires. En 2024, Datactivist a créé et animé :
+Un module focalisé sur la qualité des données et la standardisation. Et, un second sur une introduction théorique et pratique à l’automatisation de la publication des données. Ils proposeront une approche no-code et low-code de l’automatisation ainsi qu’une initiation au code. ","Création du contenu d’une formation sur l’ouverture des données.
+Animation de plusieurs sessions d’atelier.
+Organisation d’un webinaire sous la forme d’une table-ronde pour aborder des premiers sujets stratégiques.
+",2020-01-01,48 mois,https://github.com/datactivist/futurocite_ouvrir-ma-ville,,,https://open.datactivist.coop/images/references/futurocite-ouvrir-ville.png,
