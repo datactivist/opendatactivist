@@ -1890,5 +1890,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
-  }
+  },
+  {
+  "name": "formation-dataviz", 
+  "title": "Comment devenir une ceinture noire en data visualisation ?",
+  "image": "/images/docs/culture-generale-dataviz.png",
+  "description": "Comprendre les réflexes, les règles d'or et les outils pour produire de bonnes data visualisations (dataviz)",
+  "type": "Formation",
+  "index": 1,
+  "date": "2024-11-12",
+  "license": "ccbysa",
+  "pin": "",
+  "authors": "samuel-goeta",
+  "author_image": "/images/authors/samuel-goeta.jpeg",
+  "tags": "dataviz,visualisations,graphiques,culture générale,histoire",
+  "partners": "",
+  "partners-names": "",
+  "partners-images": "",
+  "references_catalog": "",
+  "reference-title": "",
+  "research_projects": "",
+  "research_projects_titles": "",
+  "quotes": ""
+}
 ]
