@@ -1912,5 +1912,27 @@
   "research_projects": "",
   "research_projects_titles": "",
   "quotes": ""
+},
+{
+  "name": "appel-commentaires-cartes-boitenoire",
+  "title": "Appel à commentaires - Les cartes de la boite noire de l'IA", 
+  "image": "/images/products/deroule-boitenoire.png",
+  "description": "Aidez-nous à améliorer cet atelier d'intelligence sur la fabrique de l'IA",
+  "type": "Formation",
+  "index": 1,
+  "date": "2024-11-22",
+  "license": "ccbysa",
+  "pin": "",
+  "authors": "loup-cellard, samuel-goeta",
+  "author_image": "/images/authors/samuel-goeta.jpeg,/images/authors/loup-cellard.jpeg",
+  "tags": "IA,atelier,médiation",
+  "partners": "nantes-metropole",
+  "partners-names": "Nantes Metropole",
+  "partners-images": "/images/partners/nantes-metropole.png",
+  "references_catalog": "",
+  "reference-title": "",
+  "research_projects": "mediation-algorithmes",
+  "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
+  "quotes": ""
 }
 ]
