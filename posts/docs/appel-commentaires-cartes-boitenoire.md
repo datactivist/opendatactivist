@@ -22,7 +22,7 @@ Au début du jeu, une boîte noire est au centre d'une table avec une nappe et d
 La première activité consiste à replacer toutes les étapes dans le bon ordre en collant les hexagones un à un de manière à construire une forme de ruche circulaire.
 
 Dans la suite de l'atelier, les participants doivent débattre de la position des cartes sur chacune des grandes étapes. Ils accrochent avec des scratchs les cartes sur les grandes étapes. Des cartes rondes "controverses" introduisent des enjeux.
-<img src="/images/products/deroule-boitenoire.png" alt="le déroulé d'un atelier Boite noire de l'IA" width="1000"/>
+<img src="/images/products/deroule-boite-noire.png" alt="le déroulé d'un atelier Boite noire de l'IA" width="1000"/>
 
 ## Éléments à prendre en compte dans l'appel à commentaires
 Les cartes ont été conçues avec et pour le réseau de la médiation numérique de Nantes Métropole pour développer une culture commune autour de l'IA et son fonctionnement.
