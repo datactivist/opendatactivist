@@ -11,7 +11,7 @@ Avant de commencer à explorer les détails saillants de ces enseignements, donn
 
 Un espace consommé est un espace urbanisé. La consommation d'espaces naturels, agricoles et forestiers (NAF) correspond à "la création ou l'extension effective d'espaces urbanisés sur le territoire concerné", c'est-à-dire à la conversion d'espaces naturels, agricoles ou forestiers en espaces urbanisés (article 194 de la loi Climat et Résilience). L'artificialisation est "l'altération durable de tout ou partie des fonctions écologiques d'un sol, en particulier de ses fonctions biologiques, hydriques et climatiques, ainsi que de son potentiel agronomique par son occupation ou son usage" (article 192 de la loi Climat et résilience). En résumé, il s'agit des bâtiments, des routes, des parkings et des espaces en pelouse comme un stade de foot par exemple. Elle entre dans le calcul de la consommation d'espaces.
 
-![Schéma qui explique ce qu'est un espace dit "urbanisé"](/images/docs/mediation-algo/image1.png)
+![Schéma qui explique ce qu'est un espace dit "urbanisé"](/images/docs/mon_diag/image1.png)
 *Illustration : Schéma qui explique ce qu'est un espace dit "urbanisé" (réalisé par Clément Mandron)*
 
 La plateforme permet de mesurer la consommation d'espace d'un territoire de 2011 à 2021, de simuler différentes trajectoires pour la décennie 2021-2031 sous forme de rapports, tableaux, graphiques ou cartes. Mon Diagnostic Artificialisation est un outil qui permet à deux ensemble d'acteurs de produire des rapports locaux : aux communes et intercommunalités dotées d'un document d'urbanisme, ainsi qu'aux services de l'Etat des communes couvertes par le règlement national d'urbanisme (RNU).
@@ -32,7 +32,9 @@ Dire qu'expliquer un algorithme consiste d'abord à expliquer ses données corre
 
 Comme analysé par le chercheur Valentin Goujon [3], la littérature en sciences sociales sur les données utilisées dans la recherche en IA peut être divisée en deux grands corpus qui se concentrent presque exclusivement sur les données d'apprentissage des modèles d'Intelligence Artificielle (IA). Le premier corpus se concentre principalement sur les étapes de collecte et d'annotation des données qui sont principalement réalisées, via des plateformes de crowdsourcing [4], par des travailleurs peu rémunérés et exposés à des contenus sensibles (sexisme, racisme, violence, désinformation, etc.). Dans ce corpus dédié au *digital labor*, l'accent est mis sur la partie amont du processus de développement des systèmes d'IA (c'est-à-dire les étapes de collecte et d'annotation) alors que la partie aval de ce même processus, leur évaluation comparative et leur déploiement « dans la nature », est plus rarement abordée [5].
 
-> Focus : Un modèle d'IA en cache un autre
+| Un modèle d'IA en cache un autre : LAION-5B est un très grand ensemble de données open-source d'images et de légendes extraites de l'internet, conçu pour les grands modèles d'intelligence artificielle. Il a été publié en 2022 par LAION, une organisation allemande à but non lucratif. LAION-5B est ce que nous appelons un « ensemble de données de base » pour l'intelligence artificielle générative. Midjourney et Stable Diffusion, deux grands modèles dont certaines sources de données sont connues, ont tous deux été formés en partie sur LAION-5B. LAION-5B a lui-même été construit à partir d'un ensemble de données encore plus vaste, provenant d'une autre organisation à but non lucratif : Common Crawl. Un élément clé de la construction de LAION-5B a été d'essayer de sélectionner des images et des légendes de Common Crawl dont le texte de l'attribut ALT correspondait le mieux au contenu de l'image. Pour ce faire, les développeurs de LAION ont utilisé un modèle appelé CLIP (Contrastive Language-Image Pre-training), un réseau neuronal développé par des chercheurs d'Open AI. Parce qu'ils doivent être si grands, leur construction implique nécessairement l'utilisation d'autres modèles, qui ont eux-mêmes été formés sur des ensembles d'entraînement algorithmiques. Source: "Models All The Way Down". Christo Buschek & Jer Thorp. A Knowing Machines Project. |
+
+> ### Focus : Un modèle d'IA en cache un autre
 >
 > LAION-5B est un très grand ensemble de données open-source d'images et de légendes extraites de l'internet, conçu pour les grands modèles d'intelligence artificielle. Il a été publié en 2022 par LAION, une organisation allemande à but non lucratif. LAION-5B est ce que nous appelons un « ensemble de données de base » pour l'intelligence artificielle générative. Midjourney et Stable Diffusion, deux grands modèles dont certaines sources de données sont connues, ont tous deux été formés en partie sur LAION-5B.
 >
@@ -46,14 +48,14 @@ Au départ de notre mission, le besoin de la start-up d'Etat MonDiag Artif' éta
 
 Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé la mobilisation des connaissances des différents chaînons. Notre rôle était d'améliorer la compréhension de ces informations par un travail de médiation afin d'expliquer d'où viennent les données qui sont utilisées par Mon Diagnostic Artificialisation, les traitements statistiques et algorithmiques qui leur sont appliqués ainsi que les calculs qui sont effectués par la startup.
 
-![Schéma de la chaîne de traitement des données](/images/docs/mediation-algo/image2.png)
+![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image2.png)
 *Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostique Artificialisation (réalisé par Clément Mandron)*
 
 * Pour la consommation d'espaces : la consommation d'espaces NAF (naturel, agricole, forestier) par année et par déterminant, est fournie par le [CEREMA](https://artificialisation.developpement-durable.gouv.fr/mesurer-la-consommation-despaces/methodologie-production-des-donnees) — Le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement, soit un expert technique public. Ces données proviennent de la DGFIP (Direction générale des Finances publiques) et sont le résultat d'un traitement des données issues du [système MAJIC](https://www.datasud.fr/portal/services/majic) (Mise À Jour des Informations Cadastrales, qui permet de calculer et gérer l'impôt foncier).
 
 * En les fusionnant avec d'autres types de données (comme les données de la base SIRENE de l'INSEE qui contient la liste des établissements), le CEREMA fait notamment le lien entre une parcelle et un/des occupants. Il transforme ensuite ces informations en données de consommation d'espaces par millésime.
 
-![Résumé de la méthode d'évaluation](/images/docs/mediation-algo/image3.png)
+![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image3.png)
 *Illustration : Résumé de la méthode d'évaluation de la consommation d'espaces à partir des Fichiers fonciers. La partie en haut à gauche concerne l'usage (1), en haut à droite le multi-millésime (2) et le centre le traitement (3). Source : CEREMA*
 
 * Mon Diagnostic Artificialisation utilise également les données démographiques de l'INSEE pour comparer la consommation d'espace et l'évolution de la population sur un territoire donnée.
@@ -91,7 +93,7 @@ Pour se conformer à la loi, ces diagnostics, rapports et éléments de suivi vo
 
 Comme l'ont montré les chercheuses Pauline Gourlet et Maud Barret Bertelloni à propos du projet [Fonciers Innovants](https://medialab.github.io/ShapingAI/#cas) de la DGFIP, le recours aux algorithmes d'analyse d'images pour la segmentation et l'analyse du territoire a été contesté en interne à la DGFIP par les géomètres qui craignent de voir leur métiers peu à peu disparaître. Dans notre cas, rappelons que les données des cartes OCSGE (porté par l'État via l'IGN et ses projets d'IA) sont la référence pour de nombreuses bases de calculs (y compris celle de Mon Diagnostic Artificialisation). Afin de garder une unité nationale et comparer les territoires entre eux, la volonté de l'État serait que ce type de cartes prime sur celles produites par les bureaux d'études locaux [12] : un désir de standardisation qui pose le statut des cartes produites avec de l'IA et des données comme source de l'autorité administrative.
 
-> Focus : Expliquer un algorithme à partir de ses règles de droit : est-ce compréhensible pour un citoyen ?
+> ### Focus : Expliquer un algorithme à partir de ses règles de droit : est-ce compréhensible pour un citoyen ?
 >
 > Un groupe interdisciplinaire de chercheurs et chercheuses ont tenté l'exercice d'expliquer un algorithme à partir de ses règles de droit sur le cas de l'allocation au logement. Bien que cette explication par l'analyse du droit s'avère individualisée à la situation de l'intéressé et détaillée, la question de son intelligibilité reste discutable. Le cas pratique est écrit dans le langage du droit pendant 8 pages, ce qui pose deux défis majeurs. D'abord, les textes juridiques eux-mêmes définissent des calculs et provisions complexes avec une rédaction souvent alambiquée. Ensuite, la lecture d'un cas pratique nécessite des capacités analytiques normalement apprises durant la formation juridique.
 >
