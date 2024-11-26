@@ -46,7 +46,7 @@ Au départ de notre mission, le besoin de la start-up d'Etat MonDiag Artif' éta
 
 Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé la mobilisation des connaissances des différents chaînons. Notre rôle était d'améliorer la compréhension de ces informations par un travail de médiation afin d'expliquer d'où viennent les données qui sont utilisées par Mon Diagnostic Artificialisation, les traitements statistiques et algorithmiques qui leur sont appliqués ainsi que les calculs qui sont effectués par la startup.
 
-![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image.png)
+![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image9.png)
 *Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostic Artificialisation (réalisé par Clément Mandron)*
 
 * Pour la consommation d'espaces : la consommation d'espaces NAF (naturel, agricole, forestier) par année et par déterminant, est fournie par le [CEREMA](https://artificialisation.developpement-durable.gouv.fr/mesurer-la-consommation-despaces/methodologie-production-des-donnees) — Le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement, soit un expert technique public. Ces données proviennent de la DGFIP (Direction générale des Finances publiques) et sont le résultat d'un traitement des données issues du [système MAJIC](https://www.datasud.fr/portal/services/majic) (Mise À Jour des Informations Cadastrales, qui permet de calculer et gérer l'impôt foncier).
