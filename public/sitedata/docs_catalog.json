@@ -1951,8 +1951,8 @@
   "partners": "mednum",
   "partners-names": "La MedNum",
   "partners-images": "/images/partners/mednum.png",
-  "references_catalog": "",
-  "reference-title": "",
+  "references_catalog": "beta-gouv-mon-diag-artif",
+  "reference-title": "Publication et médiation des algorithmes de Mon Diagnostic Artificialisation",
   "research_projects": "mediation-algorithmes", 
   "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
   "quotes": "27,63"
