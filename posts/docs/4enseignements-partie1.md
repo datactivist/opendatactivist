@@ -11,7 +11,7 @@ Avant de commencer à explorer les détails saillants de ces enseignements, donn
 
 Un espace consommé est un espace urbanisé. La consommation d'espaces naturels, agricoles et forestiers (NAF) correspond à "la création ou l'extension effective d'espaces urbanisés sur le territoire concerné", c'est-à-dire à la conversion d'espaces naturels, agricoles ou forestiers en espaces urbanisés (article 194 de la loi Climat et Résilience). L'artificialisation est "l'altération durable de tout ou partie des fonctions écologiques d'un sol, en particulier de ses fonctions biologiques, hydriques et climatiques, ainsi que de son potentiel agronomique par son occupation ou son usage" (article 192 de la loi Climat et résilience). En résumé, il s'agit des bâtiments, des routes, des parkings et des espaces en pelouse comme un stade de foot par exemple. Elle entre dans le calcul de la consommation d'espaces.
 
-![Schéma qui explique ce qu'est un espace dit "urbanisé"](/images/docs/mon_diag/image1.png)
+![Schéma qui explique ce qu'est un espace dit "urbanisé"](/images/docs/mon_diag/image2.png)
 *Illustration : Schéma qui explique ce qu'est un espace dit "urbanisé" (réalisé par Clément Mandron)*
 
 La plateforme permet de mesurer la consommation d'espace d'un territoire de 2011 à 2021, de simuler différentes trajectoires pour la décennie 2021-2031 sous forme de rapports, tableaux, graphiques ou cartes. Mon Diagnostic Artificialisation est un outil qui permet à deux ensemble d'acteurs de produire des rapports locaux : aux communes et intercommunalités dotées d'un document d'urbanisme, ainsi qu'aux services de l'Etat des communes couvertes par le règlement national d'urbanisme (RNU).
@@ -48,14 +48,14 @@ Au départ de notre mission, le besoin de la start-up d'Etat MonDiag Artif' éta
 
 Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé la mobilisation des connaissances des différents chaînons. Notre rôle était d'améliorer la compréhension de ces informations par un travail de médiation afin d'expliquer d'où viennent les données qui sont utilisées par Mon Diagnostic Artificialisation, les traitements statistiques et algorithmiques qui leur sont appliqués ainsi que les calculs qui sont effectués par la startup.
 
-![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image2.png)
-*Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostique Artificialisation (réalisé par Clément Mandron)*
+![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image.png)
+*Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostic Artificialisation (réalisé par Clément Mandron)*
 
 * Pour la consommation d'espaces : la consommation d'espaces NAF (naturel, agricole, forestier) par année et par déterminant, est fournie par le [CEREMA](https://artificialisation.developpement-durable.gouv.fr/mesurer-la-consommation-despaces/methodologie-production-des-donnees) — Le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement, soit un expert technique public. Ces données proviennent de la DGFIP (Direction générale des Finances publiques) et sont le résultat d'un traitement des données issues du [système MAJIC](https://www.datasud.fr/portal/services/majic) (Mise À Jour des Informations Cadastrales, qui permet de calculer et gérer l'impôt foncier).
 
 * En les fusionnant avec d'autres types de données (comme les données de la base SIRENE de l'INSEE qui contient la liste des établissements), le CEREMA fait notamment le lien entre une parcelle et un/des occupants. Il transforme ensuite ces informations en données de consommation d'espaces par millésime.
 
-![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image3.png)
+![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image4.png)
 *Illustration : Résumé de la méthode d'évaluation de la consommation d'espaces à partir des Fichiers fonciers. La partie en haut à gauche concerne l'usage (1), en haut à droite le multi-millésime (2) et le centre le traitement (3). Source : CEREMA*
 
 * Mon Diagnostic Artificialisation utilise également les données démographiques de l'INSEE pour comparer la consommation d'espace et l'évolution de la population sur un territoire donnée.
