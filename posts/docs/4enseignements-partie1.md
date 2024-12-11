@@ -46,7 +46,7 @@ Au départ de notre mission, le besoin de la start-up d'Etat Mon Diagnostic Arti
 
 Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé la mobilisation des connaissances des différents chaînons. Notre rôle était d'améliorer la compréhension de ces informations par un travail de médiation afin d'expliquer d'où viennent les données qui sont utilisées par Mon Diagnostic Artificialisation, les traitements statistiques et algorithmiques qui leur sont appliqués ainsi que les calculs qui sont effectués par la startup.
 
-![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image9.png)
+![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image4.png) 
 
 *Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostic Artificialisation (réalisé par Clément Mandron)*
 
@@ -54,7 +54,7 @@ Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé l
 
 * En les fusionnant avec d'autres types de données (comme les données de la base SIRENE de l'INSEE qui contient la liste des établissements), le CEREMA fait notamment le lien entre une parcelle et un/des occupants. Il transforme ensuite ces informations en données de consommation d'espaces par millésime.
 
-![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image4.png)
+![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image9.png)
 *Illustration : Résumé de la méthode d'évaluation de la consommation d'espaces à partir des Fichiers fonciers. La partie en haut à gauche concerne l'usage (1), en haut à droite le multi-millésime (2) et le centre le traitement (3). Source : CEREMA*
 
 * Mon Diagnostic Artificialisation utilise également les données démographiques de l'INSEE pour comparer la consommation d'espace et l'évolution de la population sur un territoire donnée.
