@@ -122,17 +122,6 @@ Dans la deuxième partie de l'article nous aborderons en détail les deux enseig
 | 5 |  Denis Merigoux, Marie Alauzen, Justine Banuls, Louis Gesbert, Émile Rolley. De la transparence à l’explicabilité automatisée des algorithmes : comprendre les obstacles informatiques, juridiques et organisationnels. RR-9535, INRIA Paris. 2024, pp.68. ⟨hal-04391612⟩|
 | 6 |  Jiménez González, A. (2022). Law, Code and Exploitation: How Corporations Regulate the Working Conditions of the Digital Proletariat. _Critical Sociology_, 48(2), 361-373. https://doi.org/10.1177/08969205211028964 |
 | 7 | Lauren Daston, Rules: A Short History of What We Live By. Lorraine Daston. _Princeton University Press_, 2022.  |
-| 8 | Daston L (1988) Classical Probability in the Enlightenment. Princeton, N.J: Princeton University
-Press.|
+| 8 | Daston L (1988) Classical Probability in the Enlightenment. Princeton, N.J: Princeton University Press |
 | 9 | Gross J (2020) Historicizing the self-evident: an interview with Lorraine Daston. Available at: https://lareviewofbooks.org/article/historicizing-the-self-evident-an-interview-with-lorrainedaston/ (accessed 23 October 2020).|
 | 10 |Loup Cellard, « Algorithms as Figures. Towards a post-digital ethnography of algorithmic contexts »._ New Media & Society_, 2022.|
-
-
-| 11 | Voir la présentation du projet : "RENDRE LA COMPLEXITÉ INTELLIGIBLE OU DE LA RÉGULATION DES ALGORITHMES", FING, URL: [https://fing.org/wp-content/uploads/2020/02/pistes-innovation-nossystemes-version-travail.pdf](https://fing.org/wp-content/uploads/2020/02/pistes-innovation-nossystemes-version-travail.pdf) (consulté le 04/11/2023) |
-| 12 | "RENDRE LA COMPLEXITÉ INTELLIGIBLE OU DE LA RÉGULATION DES ALGORITHMES", *Ibid.* |
-| 13 | Source : "Récupération de participations forfaitaires précédentes TER", MGEN, URL : [https://mgenetvous.mgen.fr/questions/1326119-recuperation-participations-forfaitaires-precedentes-ter](https://mgenetvous.mgen.fr/questions/1326119-recuperation-participations-forfaitaires-precedentes-ter) (consulté le 01/11/2023) |
-| 14 | Source : "[Témoignage] Peut-on (re)coder la loi ? L'exemple de la taxe d'habitation", Etalab, URL : [https://www.etalab.gouv.fr/temoignage-peut-on-recoder-la-loi-lexemple-de-la-taxe-dhabitation](https://www.etalab.gouv.fr/temoignage-peut-on-recoder-la-loi-lexemple-de-la-taxe-dhabitation) (consulté le 01/11/2023) |
-| 15 | "Guide du Score Rein", Pôle Qualité des Données, Agence de Biomédecine, URL : [https://www.agence-biomedecine.fr/IMG/pdf/guide_score_rein_v1.pdf](https://www.agence-biomedecine.fr/IMG/pdf/guide_score_rein_v1.pdf) (consulté le 01/11/2023) |
-| 16 | Voir le projet en ligne, URL : [https://algorithmliteracy.org](https://algorithmliteracy.org) (consulté le 03/11/2023) |
-| 17 | "DATA ISLAND. NAVIGUER DANS LE MONDE DES DONNÉES", Fréquences Ecoles, URL : [https://www.frequence-ecoles.org/data-island-adultes](https://www.frequence-ecoles.org/data-island-adultes) (consulté le 01/11/2023) |
-| 18 | Voir à ce propos : "Shaping AI Systems By Shifting Power", data & society, Medium, 18/10/2023. URL : [https://medium.com/datasociety-points/shaping-ai-systems-by-shifting-power-ee95f7c3edf9](https://medium.com/datasociety-points/shaping-ai-systems-by-shifting-power-ee95f7c3edf9) (consulté le 06/11/2023) |
