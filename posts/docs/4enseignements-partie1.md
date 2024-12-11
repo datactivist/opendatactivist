@@ -48,18 +48,18 @@ Il a fallu comprendre la chaîne de traitement des données, ce qui a demandé l
 
 ![Schéma de la chaîne de traitement des données](/images/docs/mon_diag/image4.png) 
 
-*Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostic Artificialisation (réalisé par Clément Mandron)*
+*Illustration : Schéma de la chaîne de traitement des données de l'outil Mon Diagnostique Artificialisation (réalisé par Clément Mandron)*
 
-* Pour la consommation d'espaces : la consommation d'espaces NAF (naturel, agricole, forestier) par année et par déterminant, est fournie par le [CEREMA](https://artificialisation.developpement-durable.gouv.fr/mesurer-la-consommation-despaces/methodologie-production-des-donnees) — Le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement, soit un expert technique public. Ces données proviennent de la DGFIP (Direction générale des Finances publiques) et sont le résultat d'un traitement des données issues du [système MAJIC](https://www.datasud.fr/portal/services/majic) (Mise À Jour des Informations Cadastrales, qui permet de calculer et gérer l'impôt foncier).
+La consommation d'espaces NAF (naturel, agricole, forestier) par année et par déterminant, est fournie par le [CEREMA](https://artificialisation.developpement-durable.gouv.fr/mesurer-la-consommation-despaces/methodologie-production-des-donnees) — Le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement, soit un expert technique public. Ces données proviennent de la DGFIP (Direction générale des Finances publiques) et sont le résultat d'un traitement des données issues du [système MAJIC](https://www.datasud.fr/portal/services/majic) (Mise À Jour des Informations Cadastrales, qui permet de calculer et gérer l'impôt foncier).
 
-* En les fusionnant avec d'autres types de données (comme les données de la base SIRENE de l'INSEE qui contient la liste des établissements), le CEREMA fait notamment le lien entre une parcelle et un/des occupants. Il transforme ensuite ces informations en données de consommation d'espaces par millésime.
+En les fusionnant avec d'autres types de données (comme les données de la base SIRENE de l'INSEE qui contient la liste des établissements), le CEREMA fait notamment le lien entre une parcelle et un/des occupants. Il transforme ensuite ces informations en données de consommation d'espaces par millésime.
 
 ![Résumé de la méthode d'évaluation](/images/docs/mon_diag/image9.png)
 *Illustration : Résumé de la méthode d'évaluation de la consommation d'espaces à partir des Fichiers fonciers. La partie en haut à gauche concerne l'usage (1), en haut à droite le multi-millésime (2) et le centre le traitement (3). Source : CEREMA*
 
-* Mon Diagnostic Artificialisation utilise également les données démographiques de l'INSEE pour comparer la consommation d'espace et l'évolution de la population sur un territoire donnée.
+ Mon Diagnostic Artificialisation utilise également les données démographiques de l'INSEE pour comparer la consommation d'espace et l'évolution de la population sur un territoire donnée.
 
-* Ensuite, en ce qui concerne l'artificialisation : les données de l'occupation des sols à grande échelle (OCS GE) "nouvelles générations" sont fournies par l'IGN. Ces données proviennent d'images aériennes ou spatiales qui sont traitées avec des IA de reconnaissance d'images (*machine vision*) pour reconnaître automatiquement des objets (bâti, arbre, surface de bitume…) et en délimiter les contours.
+Ensuite, en ce qui concerne l'artificialisation : les données de l'occupation des sols à grande échelle (OCS GE) "nouvelles générations" sont fournies par l'IGN. Ces données proviennent d'images aériennes ou spatiales qui sont traitées avec des IA de reconnaissance d'images (*machine vision*) pour reconnaître automatiquement des objets (bâti, arbre, surface de bitume…) et en délimiter les contours.
 
 Le fait qu'il y ait recours à un modèle d'IA dans la chaîne de production des données doit attirer notre attention : les données qui (dans une approche génétique/généalogique de l'étude des algorithmes) pourraient être prises comme la source d'un outil de projection et visualisation comme Mon Diagnostic Artificialisation proviennent en réalité d'une infrastructure de calcul qui la précède. Données et algorithmes se révèlent donc indissociables.
 
