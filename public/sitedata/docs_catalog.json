@@ -1894,7 +1894,7 @@
   {
     "name": "guide-hackathon-ia-mobilites",
     "title": "Guide des participant(e)s au Hackathon IA et Mobilités",
-    "image": "/images/docs/guide-hackathon-ia-mobilites.jpeg",
+    "image": "/images/docs/guide-hackathon-ia-mobilites.png",
     "description": "Guide des participant(e)s au Hackathon IA et Mobilités organisé par Île-de-France Mobilités",
     "type": "Guide",
     "index": 1,
@@ -1902,7 +1902,7 @@
     "license": "ccbysa",
     "pin": "",
     "authors": "clement-mandron,maelle-fouquenet,loup-cellard,ali-hmaou,olivier-vacheret",
-    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/loup-cellard.jpeg, /images/authors/ali-hmaou.jpeg, /images/authors/olivier-vacheret.jpeg",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/loup-cellard.jpeg, /images/authors/blank.png, /images/authors/blank.png",
     "tags": "IA,hackathon,transports",
     "partners": "idfm",
     "partners-names": "Île-de-France Mobilités",
