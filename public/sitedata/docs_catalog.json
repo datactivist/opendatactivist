@@ -1,371 +1,1916 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-    <meta http-equiv="Content-Security-Policy" content="default-src * filesystem: data: gap: http://www.google-analytics.com http://www.googletagmanager.com http://ssl.gstatic.com http://csvjson.s3.amazonaws.com http://csvjson.s3.us-east-2.amazonaws.com 'unsafe-eval' 'unsafe-inline'; media-src *; img-src * data:">
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<title>CSV to JSON - CSVJSON</title>
-		<meta name="description" content="Online tool for converting CSV to JSON. Convert Excel to JSON. Transpose data. Output array or hash.">
-
-		<script type="text/javascript">
-			window.APP = {
-				page: "csv2json",
-				run: true,
-				version: 0.316,
-				id: null,
-				data: null,
-				data_url: null			};
-		</script>
-
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-		<link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-			<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-
-		<link href="/js/3rd/jQuery-File-Upload/css/jquery.fileupload.css" rel="stylesheet" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="https://use.typekit.net/dkv2ioo.css">
-
-		
-								<link href="/css/csvjson.css?v=0.316" rel="stylesheet" type="text/css" charset="utf-8" />
-									<script src="/js/3rd.min.js?v=0.316" type="text/javascript"></script>
-									<script src="/js/csvjson.min.js?v=0.316" type="text/javascript"></script>
-									<script src="/js/app.min.js?v=0.316" type="text/javascript"></script>
-			
-		
-		
-		<script>
-			!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
-				analytics.load("mVmXAtABgYVqPdbXw1a4Y19vcesa1cec");
-				analytics.page();
-			}}();
-
-			analytics.ready(function(){
-				var flatfileLinks = $('a[href*="flatfile.com"]');
-
-				flatfileLinks.each(function(){
-					var bareURL = $(this).attr('href')
-					$(this).attr('href', bareURL + '&ajs_event=came_from_csvjson&ajs_prop_ccf_id=' + window.analytics.user().anonymousId())
-				})
-
-				analytics.trackLink(flatfileLinks, 'Clicked Flatfile Link');
-			})
-	</script>
-	<!-- Global site tag (gtag.js) - Google Ads: 831825021 -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-831825021"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'AW-831825021');
-	</script>
-</head>
-<body>
-		<header class="px-4 py-4 border-bottom bg-light">
-	    <div class="container d-flex flex-wrap justify-content-left pt-2 pb-2">
-					<div class="d-flex align-items-center me-lg-auto text-decoration-none">
-								<a href="/" class="d-flex align-items-center me-lg-auto text-decoration-none">
-									<img src="img/logo_bg-light.svg" width="140">
-								</a>
-							</div>
-
-							<a class="btn d-none d-sm-block" href="https://flatfile.com/get-started?utm_source=csvjson&utm_medium=owned_site&utm_campaign=q1-2022-csvjson-redesign">
-								<img src="img/flatfile-jewel.svg" width="20" style="margin:-2px 5px 0 0px"/>
-								<b>Turnkey CSV Importer</b> &bull; <small>Installs in minutes</small>
-							</a>
-			</div>
-  	</header>
-					<header class="px-4 border-bottom">
-				<div class="container d-flex flex-wrap justify-content-left pt-3 pb-1">
-					<div class="row">
-						<div class="col-md-12">
-							<nav aria-label="breadcrumb">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="/">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">
-
-										<div class="dropdown d-flex align-items-center me-lg-auto text-decoration-none">
-													<a href="#" class="d-flex align-items-center me-lg-auto text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
-														csv2json													</a>
-													<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink" style="">
-														<li><a class="dropdown-item active" href="/csv2json">CSV to JSON</a></li>
-														<li><a class="dropdown-item " href="/json2csv">JSON to CSV</a></li>
-														<li><a class="dropdown-item " href="/sql2json">SQL to JSON</a></li>
-														<li><a class="dropdown-item " href="/csvjson2json">CSVJSON to JSON</a></li>
-														<li><hr class="dropdown-divider"></li>
-														<li><a class="dropdown-item " href="/json_validator">JSON Validator</a></li>
-														<li><a class="dropdown-item " href="/json_beautifier">JSON Beautifier</a></li>
-														<!--<li><a class="dropdown-item" href="/datajanitor">Data Janitor</a></li>-->
-														<li><hr class="dropdown-divider"></li>
-														<li><a class="dropdown-item" href="https://flatfile.com/get-started?utm_source=csvjson&utm_medium=owned_site&utm_campaign=q1-2022-csvjson-redesign">Upgrade to Flatfile</a></li>
-													</ul>
-												</div>
-									</li>
-								</ol>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
-		
-		<div class="container px-4 py-5">
-	<div class="row">
-		<div class="description col-md-12">
-			<h1 class="text-primary fw-bold">CSV or TSV <small class="bi bi-chevron-right"></small>JSON</h1>
-			<p>To get started, upload or paste your data from Excel (saved as CSV or TSV).
-		</div>
-	</div>
-
-	<div class="row gx-5">
-		<div class="col-md-5 mb-5">
-			<div class="mb-5">
-				<label for="fileupload" class="form-label">Upload a CSV file</label>
-				<input id="fileupload" type="file" name="file" class="form-control"/>
-			</div>
-			<div class="mb-3">
-				<label for="csv" class="form-label">Or paste your CSV here</label>
-<textarea id="csv" class="form-control input save" rows="18" spellcheck="false">
-album, year, US_peak_chart_post
-The White Stripes, 1999, -
-De Stijl, 2000, -
-White Blood Cells, 2001, 61
-Elephant, 2003, 6
-Get Behind Me Satan, 2005, 3
-Icky Thump, 2007, 2
-Under Great White Northern Lights, 2010, 11
-Live in Mississippi, 2011, -
-Live at the Gold Dollar, 2012, -
-Nine Miles from the White City, 2013, -
-</textarea>
-			</div>
-			<button id="convert" type="submit" class="btn btn-primary mb-2 me-2">
-				<i class="bi bi-chevron-right"></i> Convert
-			</button>
-			<button id="clear" type="submit" class="btn btn-light mb-2 me-2">
-				<i class="bi bi-backspace"></i> Clear
-			</button>
-		</div>
-
-		<div class="col-md-7 more-bottom-margin">
-			<div class="mb-3">
-				<div class="form-check-inline">
-					<label class="form-label me-2 save" title="Choose your separator">
-						<div class="mb-2">Separator</div>
-						<select class="form-select" id="separator" name="separator">
-							<option value="auto" selected="selected">Auto-detect</option>
-							<option value="comma">Comma</option>
-							<option value="semiColon">Semi-colon</option>
-							<option value="tab">Tab</option>
-						</select>
-					</label>
-				</div>
-				<div class="form-check-inline">
-					<input type="checkbox" id="parseNumbers" name="parseNumbers" class="form-check-input save" checked="checked "/>
-					<label for="parseNumbers" class="form-check-label" title="Check to parse numbers (i.e. '7e2' would become 700). Uncheck to keep original formatted numbers as strings.">
-						 Parse numbers
-					</label>
-				</div>
-				<div class="form-check-inline">
-					<input type="checkbox" id="parseJSON" name="parseJSON" class="form-check-input save" checked="checked "/>
-					<label for="parseJSON" class="form-check-label" title="Check to parse potential values as JSON (numbers, null, false, true, [] and {}). Uncheck to keep original values as strings.">
-						 Parse JSON
-					</label>
-				</div>
-				<div class="form-check-inline">
-					<input type="checkbox" id="transpose" name="transpose" class="form-check-input save" />
-					<label for="transpose" class="form-check-label" title="Transpose the data beforehand.">
-						 Transpose
-					</label>
-				</div>
-				<br/>
-				<div class="form-check-inline">
-					<label class="form-check-label me-2">Output:</label>
-					<input type="radio" id="output-array" name="output" class="form-check-input save" value="array" checked="checked" />
-					<label for="output-array" class="form-check-label" title="Output an array of objects.">
-						Array
-					</label>
-				</div>
-				<div class="form-check-inline">
-					<input type="radio" id="output-hash" name="output" class="form-check-input save" value="hash" />
-					<label for="output-hash" class="form-check-label" title="Output an object instead of an array. First column is used as hash key.">
-						Hash
-					</label>
-				</div>
-				<div class="form-check-inline">
-					<input type="checkbox" id="minify" name="minify" class="form-check-input save" />
-					<label for="minify" class="form-check-label" title="Minify or compact result by removing spaces and new lines.">
-						 Minify
-					</label>
-				</div>
-			</div>
-			<div class="mb-3">
-  <label class="form-label">JSON</label> <span class="result-note"></span>
-  <textarea id="result" class="form-control result save" rows="18" spellcheck="false" disabled></textarea>
-</div>
-<a id="download" class="btn btn-primary mb-2 me-2" href="" download="csvjson.json" disabled="disabled" target="_self">
-  <i class="bi bi-cloud-download"></i> Download
-</a>
-<a id="copy" class="btn btn-light mb-2 me-2" href="#" title="or Ctrl + A then Ctrl + C to copy to clipboard."><i class="bi bi-share"></i> Copy to clipboard</a>
-		</div>
-	</div>
-</div>
-
-
-
-<div class="container px-4 py-5" id="about-flatfile">
-
-	<h2 class="pb-2 border-bottom">Need help cleaning data?</h2>
-
-	<div class="row row-cols-1 row-cols-sm-1 row-cols-md-12 row-cols-lg-12 g-4 py-3">
-	  <div class="col d-flex align-items-start">
-	    <div>
-				<p>
-					Embed all the functionality of csv<strong>json</strong> in any web application with <a href="https://flatfile.com/get-started?utm_source=csvjson&amp;utm_medium=owned_site&amp;utm_campaign=q1-2022-csvjson-redesign">Flatfile</a>. Auto-match columns, validate data fields, and provide an intuitive CSV import experience.
-				</p>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-<div class="container px-4 py-5" id="about-csvjson">
-
-  <h2 class="pb-2 border-bottom">More Details</h2>
-
-  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-12 row-cols-lg-12 g-4 py-3">
-    <div class="col d-flex align-items-start">
-      <div>
-					<ul>
-						<li>
-							This function is available as a <a href="https://www.npmjs.com/package/csvjson-csv2json" target="_blank">npm package</a>
-						</li>
-						<li>
-							CSV stands for <a href="http://en.wikipedia.org/wiki/Comma-separated_values" target="_blank">Comma Separated Values</a>.
-							Often used as an interchange data format to represent table records, one per line. CSV is plain text.
-						</li>
-						<li>
-							The CSV format is documented in an RFC memo <a href="https://tools.ietf.org/html/rfc4180" target="_blank">RFC-4180</a>.
-						</li>
-						<li>
-							The first line is often the header, or column names. Each subsequent row is a record and should have the same number of fields.
-						</li>
-						<li>
-							Fields containing the separator character, line breaks and double-quotes must be enclosed inside double quotes <code>"</code>.
-						</li>
-						<li>
-							Other separator are often used like tabs <code>\t</code>or semi-colons <code>;</code>.
-							TSV or Tab Separated Values is used to store table data in Clipboards.
-							When data is copied from Excel for example, it is stored as TSV in the Clipboard.
-						</li>
-						<li>
-							With CSVJSON you can parse values as numbers or JSON. Turn on respective <strong>Parse Numbers</strong> and <strong>Parse JSON</strong> switches to convert valid numbers and JSON (null, false, true, [] and {}).
-						</li>
-						<li>
-							With CSVJSON you can transpose the csv before conversion. Rows become columns, and columns become rows.
-						</li>
-						<li>
-							With CSVJSON you can output a hash (or object) instead of an array. In that case, the hash key will be the first column.
-						</li>
-					</ul>
-					<p>
-						<a class="btn btn-light" data-bs-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseExample">
-							View Change Log
-						</a>
-					</p>
-      </div>
-    </div>
-
-
-		<div id="collapseOne" class="accordion-collapse collapse showclass row row-cols-1 row-cols-sm-1 row-cols-md-12 row-cols-lg-12 g-4">
-			    <div class="col d-flex align-items-start">
-						<div>
-								<h5>Mar 20, 2019</h5><p> Bug fix: Detect duplicate column headers and make them unique. <a href="https://github.com/FlatFilers/csvjson-app/issues/71">GitHub issue #71</a>.</p>
-								<h5>Feb 2, 2019</h5><p> Refactored and published <a href="https://www.npmjs.com/package/csvjson-csv2json" target="_blank">npm package csv2json</a>. Fix for <a href="https://github.com/FlatFilers/csvjson-app/issues/70">GitHub issue #70</a>.</p>
-								<h5>Jan 26, 2019</h5><p> Improvement: Removed 64k limit on download button. Also fixed issue #68 'Cannot work functional with special letters'.</p>
-								<h5>Mar 31, 2018</h5><p> Improvement: Added option to parse JSON values.</p>
-								<h5>Dec 18, 2017</h5><p> Improvement: Added option to minify or compact JSON. <a href="https://github.com/FlatFilers/csvjson-app/issues/21">GitHub issue #21</a></p>
-								<h5>Oct 7, 2016</h5><p> Improvement: Added option to parse number values or not to retain original number formatting. <a href="https://github.com/FlatFilers/csvjson-app/issues/13">GitHub issue #13</a></p>
-								<h5>Jul 09, 2016</h5><p> Fixed bug : If no text is present in a csv field, it was assigned 0 (zero) by default.</p>
-								<h5>Jun 20, 2016</h5><p> Bug fix: strings containing quotes and commas were prematurely cut.</p>
-								<h5>Dec 30, 2015</h5><p> Bug fix: drop quotes on keys of nested objects.</p>
-								<h5>Nov 26, 2015</h5><p> Improvement: Added options to transpose and output object instead of array.</p>
-								<h5>Jan 30, 2014</h5><p> Bug fix: Pasting Excel data into Textarea would cause an upload.</p>
-								<h5>Jan 12, 2014</h5><p> Initial release.</p>
-						</div>
-
-			      </div>
-			    </div>
-
-  </div>
-
-</div>
-
-		<footer class="bd-footer px-3 py-5 mt-5 bg-light">
-  		<div class="container py-5">
-		    <div class="row">
-		      <div class="col-lg-3 mb-3">
-		        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
-							<img src="./img/logo_bg-light.svg" width="140">
-		        </a>
-		        <ul class="list-unstyled small text-muted">
-		          <li class="mb-2">Rage designed and built with love by the <a href="https://flatfile.com/get-started?utm_source=csvjson&utm_medium=owned_site&utm_campaign=q1-2022-csvjson-redesign">Flatfile team</a> with the help of <a href="https://github.com/FlatFilers/csvjson-app/graphs/contributors">our contributors</a>.</li>
-		        </ul>
-		      </div>
-		      <div class="col-sm-6 col-xs-12 col-lg-3 mb-3">
-		        <h5>Convert</h5>
-		        <ul class="list-unstyled">
-		          <li class="mb-2"><a href="/csv2json">CSV to JSON</a></li>
-		          <li class="mb-2"><a href="/json2csv">JSON to CSV</a></li>
-							<li class="mb-2"><a href="/sql2json">SQL to JSON</a></li>
-							<li class="mb-2"><a href="/csvjson2json">CSVJSON to JSON</a></li>
-		        </ul>
-		      </div>
-					<div class="col-sm-6 col-xs-12 col-lg-3 mb-3">
-		        <h5>Validate & Transform</h5>
-		        <ul class="list-unstyled">
-		          <li class="mb-2"><a href="/json_validator">JSON Validator</a></li>
-		          <li class="mb-2"><a href="/json_beautifier">JSON Beautifier</a></li>
-							<!--<li class="mb-2"><a href="/datajanitor">Data Janitor</a></li>-->
-						</ul>
-		      </div>
-		      <div class="col-xs-12 col-sm-6 col-lg-3 mb-3">
-		        <h5>Community</h5>
-		        <ul class="list-unstyled">
-							<li class="mb-2"><a href="https://github.com/FlatFilers/csvjson-app/">Github</a></li>
-							<li class="mb-2"><a href="https://github.com/FlatFilers/csvjson-app/issues?q=is%3Aissue+is%3Aclosed">Change Log</a></li>
-		          <li class="mb-2"><a href="https://github.com/FlatFilers/csvjson-app/issues/new">Issues</a></li>
-		          <li class="mb-2"><a href="https://github.com/FlatFilers/csvjson-app#readme">Docs</a></li>
-		          <li class="mb-2"><a href="https://flatfile.com/get-started?utm_source=csvjson&utm_medium=owned_site&utm_campaign=q1-2022-csvjson-redesign">Corporate sponsor</a></li>
-		        </ul>
-		      </div>
-		    </div>
-  		</div>
-		</footer>
-
-		<script type="text/javascript">
-			_linkedin_partner_id = "686353";
-			window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-			window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-			</script><script type="text/javascript">
-			(function(l) {
-			if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-			window.lintrk.q=[]}
-			var s = document.getElementsByTagName("script")[0];
-			var b = document.createElement("script");
-			b.type = "text/javascript";b.async = true;
-			b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-			s.parentNode.insertBefore(b, s);})(window.lintrk);
-		</script>
-		<noscript>
-			<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=686353&fmt=gif" />
-		</noscript>
-
-	</body>
-</html>
+[
+  {
+    "name": "agent-conversationnel-decouvrabilite",
+    "title": "Un agent conversationnel pour améliorer la découvrabilité des données ouvertes",
+    "image": "/images/products/screen-conciergerie.png",
+    "description": "Comment permettre aux utilisateurs de portails open data de trouver plus facilement des jeux de données ?",
+    "type": "Bibliographie",
+    "index": 1,
+    "date": "2021-11-11",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "mathieu-morey,anthony-gigerich",
+    "author_image": "/images/authors/mathieu-morey.jpeg, /images/authors/anthony-gigerich.jpeg",
+    "tags": "IA,découvrabilité,portail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "dequalin",
+    "research_projects_titles": "DEQUALIN - améliorer la DÉcouvrabilité, la QUALité et l’INtelligibilité des données ouvertes",
+    "quotes": ""
+  },
+  {
+    "name": "ameliorer-qualite-documentation",
+    "title": "Documenter et améliorer la qualité des données",
+    "image": "/images/docs/ameliorer-qualite-documentation.jpeg",
+    "description": "Quelles sont les meilleures pratiques pour documenter des jeux de données et améliorer leur qualité ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2021-01-12",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "qualité,documentation,format",
+    "partners": "futurocite",
+    "partners-names": "Futurocité",
+    "partners-images": "/images/partners/futurocite.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "atelier-indicateurs-spaser",
+    "title": "Atelier indicateurs SPASER",
+    "image": "/images/docs/spaser-atelier.png",
+    "description": "Co-construire les indicateurs de votre SPASER avec vos données (ouvertes)",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-05-21",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "emeline-vandeven,clement-mandron",
+    "author_image": "/images/authors/emeline-vandeven.jpeg, /images/authors/clement-mandron.png",
+    "tags": "commande publique,DECP,territoires,législation,collectivités",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "barometre-data-territoires-2023",
+    "title": "Baromètre de la data dans les territoires 2023",
+    "image": "/images/docs/rapport-data-publica-barometre-national-donnees-territoires.jpg",
+    "description": "Deuxième édition du baromètre national sur la data dans les territoires par l’observatoire Data Publica et ses partenaires",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2023-12-05",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin,sarah-bourgouin,diane-thierry,elise-ho-pun-cheung",
+    "author_image": "/images/authors/joel-gombin.jpeg, /images/authors/sarah-bourgouin.png, /images/authors/diane-thierry.jpeg, /images/authors/elise-ho-pun-cheung.jpeg",
+    "tags": "territoires,collectivités,gouvernance,transition énergétique,IA,RGPD,statistique",
+    "partners": "observatoire-data-publica",
+    "partners-names": "Observatoire Data Publica",
+    "partners-images": "/images/partners/observatoire-data-publica.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "28,41"
+  },
+  {
+    "name": "benchmark-data-culture",
+    "title": "Benchmark des portails open data culturels",
+    "image": "/images/docs/benchmark-data-culture.png",
+    "description": "Une liste de potails open data dédiés à la culture, en France et dans le monde",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2023-04-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "magalie-dartus",
+    "author_image": "/images/authors/magalie-dartus.jpeg",
+    "tags": "benchmark,culture,portail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "benchmark-datalab",
+    "title": "Benchmark des datalabs",
+    "image": "/images/docs/datalab-painting.jpg",
+    "description": "La liste des datalabs français et leurs caractéristiques",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2022-01-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "guillaume-martin",
+    "author_image": "/images/authors/guillaume-martin.jpeg",
+    "tags": "datalab,stratégie,lab,benchmark",
+    "partners": "metropole-bordeaux",
+    "partners-names": "Bordeaux Métropole",
+    "partners-images": "/images/partners/metropole-bordeaux.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "benchmark-ort",
+    "title": "Cartographie des données de transports (Région Sud)",
+    "image": "/images/docs/benchmark-ort.png",
+    "description": "Liste de jeux de données utiles pour analyser les mobilités",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2020-09-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "transports,cartographie de données",
+    "partners": "region-sud",
+    "partners-names": "Région Sud",
+    "partners-images": "/images/partners/region-sud.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "biblio-opendata-culture",
+    "title": "Liste de ressources - culture et open data",
+    "image": "/images/docs/biblio-culture-opendata.webp",
+    "description": "Une liste des ensembles de données que l'on retrouve dans les collectivités territoriales, par thématique, avec leur niveau de standardisation",
+    "type": "Bibliographie",
+    "index": 1,
+    "date": "2023-04-10",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anne-laure-donzel",
+    "author_image": "/images/authors/anne-laure-donzel.jpeg",
+    "tags": "ressources,culture,archives",
+    "partners": "ministere-culture",
+    "partners-names": "Ministère de la Culture",
+    "partners-images": "/images/partners/ministere-culture.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "bibliotheque-datactivist",
+    "title": "La bibliothèque de Datactivist",
+    "image": "/images/docs/bibliotheque-datactivist.jpeg",
+    "description": "Lectures recommandées pour s'initier à la donnée et se perfectionner.",
+    "type": "Bibliographie",
+    "index": 1,
+    "date": "2023-09-29",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "equipe-datactivist",
+    "author_image": "/images/authors/equipe-datactivist.jpeg",
+    "tags": "ouvrages,livres,apprendre",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "boite-outils-datactivist",
+    "title": "La boite à outils de Datactivist",
+    "image": "/images/docs/boite-outils-datactivist.jpg",
+    "description": "Les outils utilisés par les Datactivistes au quotidien, et leurs recommandations",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2023-10-10",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "equipe-datactivist",
+    "author_image": "/images/authors/equipe-datactivist.jpeg",
+    "tags": "outils,logiciels,méthode,test",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "cahier-standardisation",
+    "title": "Cahier de l'Observatoire Data Publica. La standardisation des données ouvertes",
+    "image": "/images/docs/cahier-standards.jpeg",
+    "description": "Ce cahier de l'Observatoire Data Publica présente les enjeux et bonnes pratiques de standardisation des données ouvertes",
+    "type": "Guide",
+    "index": 1,
+    "date": "2023-12-05",
+    "license": "",
+    "pin": "",
+    "authors": "samuel-goeta,elise-ho-pun-cheung",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/elise-ho-pun-cheung.jpeg",
+    "tags": "standardisation,qualité,schémas",
+    "partners": "observatoire-data-publica",
+    "partners-names": "Observatoire Data Publica",
+    "partners-images": "/images/partners/observatoire-data-publica.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "standardisation-donnees-ouvertes,standardisation-feminicides",
+    "research_projects_titles": "La standardisation des données ouvertes : facteurs de succès et bonnes pratiques, La standardisation des données des féminicides",
+    "quotes": ""
+  },
+  {
+    "name": "cartes-fresque-opendata",
+    "title": "Cartes à imprimer - Fresque des données ouvertes",
+    "image": "/images/docs/cartes-fresque.jpeg",
+    "description": "Les cartes à jouer, prêtes à imprimer pour animer une fresque des données ouvertes.",
+    "type": "Atelier",
+    "index": 1,
+    "date": "2023-06-14",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,magalie-dartus,samuel-goeta",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg",
+    "tags": "atelier,vocabulaire,jeu",
+    "partners": "bercy-hub",
+    "partners-names": "Bercy Hub",
+    "partners-images": "/images/partners/mefr.jpeg",
+    "references_catalog": "fresque-mefr",
+    "reference-title": "Ingénierie, construction et animation d’une fresque des données ouvertes",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 2
+  },
+  {
+    "name": "carto-ensembles-data-territoires",
+    "title": "Cartographie des ensembles de données dans les territoires",
+    "image": "/images/docs/carto-ensembles-territoires.png",
+    "description": "Une liste des ensembles de données que l'on retrouve dans les collectivités territoriales.",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2021-10-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "equipe-datactivist",
+    "author_image": "/images/authors/equipe-datactivist.jpeg",
+    "tags": "cartographie de données,territoires,standards",
+    "partners": "banque-des-territoires",
+    "partners-names": "Banque des Territoires",
+    "partners-images": "/images/partners/banque-des-territoires.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "20,24,43"
+  },
+  {
+    "name": "carto-sante-travail",
+    "title": "Cartographie des données sur la santé au travail",
+    "image": "/images/docs/carto-sante-travail.jpg",
+    "description": "Liste des données existantes et modalités d'accès",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2019-06-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "equipe-datactivist",
+    "author_image": "/images/authors/equipe-datactivist.jpeg",
+    "tags": "cartographie de données,santé,travail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "check-list-hackathon",
+    "title": "Check-list pour organiser un hackathon",
+    "image": "/images/docs/check-list-hackathon.webp",
+    "description": "Logistique, programme - la check-list ultime pour un hackathon réussi",
+    "type": "Guide",
+    "index": 1,
+    "date": "2018-07-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "cecile-le-guen",
+    "author_image": "/images/authors/cecile-le-guen.jpeg",
+    "tags": "hackathon,évènement,logistique,gestion de projets",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "hackathon-infrabel,hackathon-ademe,challenge-sgl,challenge-rouen,hackathon-amif,hackathon-ditp",
+    "reference-title": "Hackathon Infrabel, Hackathon Databât, Challenge data, Challenge data - Rouen-Normandie, Hackathon des territoires, Hackathon Covid",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "14,15,38"
+  },
+  {
+    "name": "culture-generale-dataviz",
+    "title": "Culture générale de la dataviz",
+    "image": "/images/docs/culture-generale-dataviz.png",
+    "description": "Comprendre l'histoire et les enjeux de la visualisation de données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-07-26",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,sylvain-lapoix",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/sylvain-lapoix.jpeg",
+    "tags": "culture générale,apprentissage,histoire,statistique,dataviz",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-1",
+    "title": "Qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation",
+    "image": "/images/docs/culture-generale/1.png",
+    "description": "Section 1 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,apprentissage,histoire,statistique,politique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-2",
+    "title": "La datafication ou les promesses de la mise en données du monde",
+    "image": "/images/docs/culture-generale/2.png",
+    "description": "Section 2 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,apprentissage,histoire,statistique,politique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-3",
+    "title": "Les différents types de données",
+    "image": "/images/docs/culture-generale/3.png",
+    "description": "Section 3 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,apprentissage,histoire,statistique,politique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-4",
+    "title": "L’écosystème des sources de données publiques",
+    "image": "/images/docs/culture-generale/4.png",
+    "description": "Section 4 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,ecosystème,portail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-5",
+    "title": "Manipulation et représentation de données - éviter des écueils classiques",
+    "image": "/images/docs/culture-generale/5.png",
+    "description": "Section 5 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,apprentissage,dataviz",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-6",
+    "title": "Open Data et gouvernement ouvert",
+    "image": "/images/docs/culture-generale/6.png",
+    "description": "Section 6 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,open gov,politique,transparence",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-7",
+    "title": "Créer de la valeur à partir des données",
+    "image": "/images/docs/culture-generale/7.png",
+    "description": "Section 7 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,apprentissage,valorisation,usages,économie",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-8",
+    "title": "Cadre juridique",
+    "image": "/images/docs/culture-generale/8.png",
+    "description": "Section 8 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "législation,histoire,culture générale",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-9",
+    "title": "Qu’est-ce que la data science ?",
+    "image": "/images/docs/culture-generale/9.png",
+    "description": "Section 9 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "culture générale,data science",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees-section-91",
+    "title": "Analyse, modélisation, machine learning et algorithmes",
+    "image": "/images/docs/culture-generale/10.png",
+    "description": "Section 10 - culture générale des données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "data analyse,algorithmes,machine learning,culture générale,apprentissage",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "culture-generale-donnees",
+    "title": "Culture générale des données",
+    "image": "/images/docs/culture-generale-donnees.jpeg",
+    "description": "Une histoire de la donnée et ses enjeux contemporains",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-06-15",
+    "license": "ccbysa",
+    "pin": "True",
+    "authors": "samuel-goeta,joel-gombin,clement-mandron,arthur-sarazin,julia-dumont",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png, /images/authors/arthur-sarazin.png, /images/authors/julia-dumont.png",
+    "tags": "culture générale,apprentissage,histoire,statistique,politique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 19
+  },
+  {
+    "name": "data-cooperation-internationale",
+    "title": "Data et politiques de coopération internationale",
+    "image": "/images/docs/data-cooperation-internationale.webp",
+    "description": "Un cours complet sur les enjeux de la donnée pour les politiques de coopération internationale",
+    "type": "Formation",
+    "index": 1,
+    "date": "2023-09-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,cecile-le-guen",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/cecile-le-guen.jpeg",
+    "tags": "international,politique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "data-literacy",
+    "title": "Data Literacy",
+    "image": "/images/docs/data-literacy.jpeg",
+    "description": "Introduction à une approche critique de la donnée",
+    "type": "Formation",
+    "index": 1,
+    "date": "2018-02-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "visualisations,dataviz,fact checking",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "data-spectrum-odi",
+    "title": "The Data Spectrum, par l'Open Data Institute",
+    "image": "/images/docs/dataspectrum-odi-small.jpeg",
+    "description": "Comprendre les différents degrés d'ouverture ou protection des données",
+    "type": "Infographie",
+    "index": 1,
+    "date": "2018-07-20",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta",
+    "author_image": "/images/authors/samuel-goeta.jpeg",
+    "tags": "vocabulaire,rgpd,gouvernance,licence,anonymisation",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "data-transports-mali",
+    "title": "Data Transport Mali",
+    "image": "/images/docs/dtmali.jpeg",
+    "description": "Faciliter l’accès aux données de transports interurbains en Afrique de l'Ouest",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2018-11-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "cecile-le-guen,etienne-pichot-damon",
+    "author_image": "/images/authors/cecile-le-guen.jpeg, /images/authors/etienne-pichot-damon.jpeg",
+    "tags": "transports,international,afrique,usage,GTFS",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datagramme-1",
+    "title": "Données, données moi",
+    "image": "/images/docs/donnees-moi.png",
+    "description": "L'histoire de la donnée en deux minutes",
+    "type": "Datagramme",
+    "index": 1,
+    "date": "2023-02-23",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin,clement-mandron",
+    "author_image": "/images/authors/joel-gombin.jpeg, /images/authors/clement-mandron.png",
+    "tags": "histoire,apprentissage,statistique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datasheets-datasets",
+    "title": "Écrire les métadonnées - La méthode \"Datasheets for datasets",
+    "image": "/images/docs/datasheets-datasets.webp",
+    "description": "Une liste de questions pour compléter pas à pas des métadonnées.",
+    "type": "Guide",
+    "index": 1,
+    "date": "2023-10-27",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta",
+    "author_image": "/images/authors/samuel-goeta.jpeg",
+    "tags": "documentation,méthode,métadonnées,qualité",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "demo-doc",
+    "title": "Démo d'un article",
+    "image": "/images/docs/ouverture-commande-publique.webp",
+    "description": "Une description courte, en une phrase pour présenter le contenu",
+    "type": "Formation",
+    "index": 0,
+    "date": "2023-05-10",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "prenom-nom",
+    "author_image": "",
+    "tags": "visualisations,dataviz,fact checking",
+    "partners": "partner-name",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "demo-open-refine",
+    "title": "Demo Open Refine",
+    "image": "/images/docs/demo-open-refine/openrefine.jpeg",
+    "description": "Démonstration de l'outil open refine, pour préparer et mettre en qualité des données",
+    "type": "Guide",
+    "index": 1,
+    "date": "2022-01-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anne-laure-donzel",
+    "author_image": "/images/authors/anne-laure-donzel.jpeg",
+    "tags": "outil,qualité,data science",
+    "partners": "ministere-culture",
+    "partners-names": "Ministère de la Culture",
+    "partners-images": "/images/partners/ministere-culture.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "dix-choses-incroyables-opendata",
+    "title": "Ces dix choses incroyables qui n’existeraient pas sans l’open data",
+    "image": "/images/docs/10-choses-opendata.png",
+    "description": "Introduction à une approche critique de la donnée",
+    "type": "Formation",
+    "index": 1,
+    "date": "2019-06-24",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "exemples,réutilisation,usages",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "enjeux-donnees-urbaines",
+    "title": "Enjeux politiques des données urbaines",
+    "image": "/images/docs/enjeux-donnees-urbaines.jpeg",
+    "description": "Pour une approche critique de la smart city",
+    "type": "Formation",
+    "index": 1,
+    "date": "2021-03-08",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "smart city,politique,ville intelligente,territoires",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "enjeux-opendata-culture",
+    "title": "Comprendre les enjeux de l’ouverture des données publiques culturelles",
+    "image": "/images/docs/od-culture.jpeg",
+    "description": "Appréhender le contexte et les opportunités d’une politique Open Data dans la culture.",
+    "type": "Formation",
+    "index": 1,
+    "date": "2023-04-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anne-laure-donzel",
+    "author_image": "/images/authors/anne-laure-donzel.jpeg",
+    "tags": "culture,stratégie",
+    "partners": "ministere-culture",
+    "partners-names": "Ministère de la Culture",
+    "partners-images": "/images/partners/ministere-culture.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "evaluer-open-data",
+    "title": "Comment évaluer une politique open data ?",
+    "image": "/images/eval-opendata/eval-2.png",
+    "description": "Si l’objectif d’un portail open data est d’être consulté, c’est encore mieux quand les données sont vraiment utilisées.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2019-04-03",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "strategie,audit,portail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "experimentation-algo-lille",
+    "title": "Expérimentation d’ouverture des algorithmes publics à la Métropole Européenne de Lille",
+    "image": "/images/docs/algo-lille/algo-lille.webp",
+    "description": "Un retour d'expérience de la collectivité et de l'équipe Datactivist",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2022-12-07",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anne-laure-donzel,myriam-limpens,hafid-ait-sidi-hammou",
+    "author_image": "/images/authors/anne-laure-donzel.jpeg, /images/authors/blank.png, /images/authors/blank.png",
+    "tags": "algorithmes,méthode,transformation,transparence",
+    "partners": "metropole-lille",
+    "partners-names": "Métropole Européenne de Lille",
+    "partners-images": "/images/partners/metropole-lille.jpeg",
+    "references_catalog": "algo-mel",
+    "reference-title": "Accompagnement à l’ouverture d’algorithmes OpenAlgo",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 30
+  },
+  {
+    "name": "expo-smartcity-images",
+    "title": "En images - L'exposition \"Souriez, vous êtes captés",
+    "image": "/images/docs/expo-smartcity.jpeg",
+    "description": "Une exposition qui décrypte la smart city",
+    "type": "Galerie d‘images",
+    "index": 1,
+    "date": "2022-06-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "guillaume-martin,maelle-fouquenet",
+    "author_image": "/images/authors/guillaume-martin.jpeg, /images/authors/maelle-fouquenet.jpeg",
+    "tags": "exposition,smart city,photos",
+    "partners": "civiteo,gens-evenement",
+    "partners-names": "CIVITEO, Gens d'évènements",
+    "partners-images": "/images/partners/civiteo.jpeg, /images/partners/gens-evenement.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "56,60,76"
+  },
+  {
+    "name": "factualite",
+    "title": "Factualité / Factfulness",
+    "image": "/images/docs/factualite.jpeg",
+    "description": "Comment corriger ses mauvaises intuitions en utilisant les données ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2019-11-28",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "visualisations,dataviz,fact checking",
+    "partners": "infolab-poitiers",
+    "partners-names": "Infolab du Grand Poitiers",
+    "partners-images": "/images/partners/infolab.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "formation-oraccle",
+    "title": "Projet ORACCLE - Programme complet de formation open data",
+    "image": "/images/docs/formation-oraccle.png",
+    "description": "Acculturer les universités à la donnée",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2022-11-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "maelle-fouquenet,clement-mandron,antoine-blanchard,arthur-sarazin",
+    "author_image": "/images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png, /images/authors/antoine-blanchard.png, /images/authors/arthur-sarazin.png",
+    "tags": "formation,culture générale,apprentissage,universités,dataviz,visualisations",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "fresque-opendata-images",
+    "title": "En images - La fresque des données ouvertes",
+    "image": "/images/galleries/fresque-open-data/1.jpeg",
+    "description": "Quelques photos des fresques réalisées",
+    "type": "Galerie d‘images",
+    "index": 1,
+    "date": "2023-09-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,magalie-dartus,samuel-goeta",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg",
+    "tags": "atelier,photos",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "greenpeace-crowdsourcing",
+    "title": "Greenpeace et crowdsourcing des menus des cantines",
+    "image": "/images/docs/greenpeace-cantines.jpeg",
+    "description": "Retour sur une campagne open data pour repérer la viande dans les cantines",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2017-07-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,sylvain-lapoix",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/sylvain-lapoix.jpeg",
+    "tags": "alimentation,crowdsourcing,cantines,médias,activisme",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "identification-gisements-donnees",
+    "title": "Identifier et évaluer les gisements de données",
+    "image": "/images/docs/identification-gisements-donnees.jpeg",
+    "description": "Une méthodologie éprouvée pour identifier des données et évaluer leur potentiel",
+    "type": "Atelier",
+    "index": 1,
+    "date": "2022-11-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta,clement-mandron",
+    "author_image": "/images/authors/samuel-goeta.jpeg, /images/authors/clement-mandron.png",
+    "tags": "recherche,méthode,découvrabilité,gestion de projet,portail",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "impact-ia-travail",
+    "title": "Les grands impacts de l’IA et de la donnée sur le lieu de travail",
+    "image": "/images/docs/ia-travail.jpeg",
+    "description": "Donnée, intelligence artificielle, amélioration des algorithmes - quel impact sur le travail ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-05-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "maelle-fouquenet",
+    "author_image": "/images/authors/maelle-fouquenet.jpeg",
+    "tags": "IA,travail,transformation,prospective",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "lexique-opendata",
+    "title": "Lexique  - L'open data, pour quoi faire ?",
+    "image": "/images/docs/lexique-fondamentaux-od.jpeg",
+    "description": "L'essentiel du vocabulaire de l'open data.",
+    "type": "Formation",
+    "index": 1,
+    "date": "2023-04-11",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,magalie-dartus,samuel-goeta",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg",
+    "tags": "vocabulaire,définition,rgpd",
+    "partners": "bercy-hub",
+    "partners-names": "Bercy Hub",
+    "partners-images": "/images/partners/mefr.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "livret-fresque-opendata",
+    "title": "Livret de la fresque des données ouvertes",
+    "image": "/images/docs/fondamentaux-od.jpeg",
+    "description": "Un livret à compléter par les participant•e•s, lors d'une fresque des données ouvertes",
+    "type": "Atelier",
+    "index": 1,
+    "date": "2023-04-11",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,magalie-dartus,samuel-goeta,guillaume-coldre,natacha-roger",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg, /images/authors/blank.png, /images/authors/blank.png",
+    "tags": "atelier,qualité,vocabulaire,exercice,format",
+    "partners": "bercy-hub",
+    "partners-names": "Bercy Hub",
+    "partners-images": "/images/partners/mefr.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 2
+  },
+  {
+    "name": "nettoyer-donnees",
+    "title": "Comment nettoyer des données",
+    "image": "/images/docs/nettoyer-donnees/nettoyer-donnees.jpeg",
+    "description": "C'est quoi une donnée propre ou une donnée sale ? Comment comprendre les données pour les nettoyer ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2020-09-26",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "qualité,nettoyer,technique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "opendata-cheatsheet",
+    "title": "Open Data Cheat Sheet",
+    "image": "/images/docs/opendata-cheatsheet.jpeg",
+    "description": "L'essentiel de l'open data en un coup d'oeil",
+    "type": "Infographie",
+    "index": 1,
+    "date": "2023-11-02",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "lexique,législation,apprentissage,outils",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "opendata-pipeline",
+    "title": "Open Data Pipeline - 7 étapes pour ouvrir des données",
+    "image": "/images/docs/opendata-pipeline.jpeg",
+    "description": "Un logigramme pour le cycle d'ouverture des données",
+    "type": "Infographie",
+    "index": 1,
+    "date": "2019-03-18",
+    "license": "ccbysa",
+    "pin": "True",
+    "authors": "samuel-goeta",
+    "author_image": "/images/authors/samuel-goeta.jpeg",
+    "tags": "méthode,gestion de projet",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "organiser-sprint-data",
+    "title": "Organiser un sprint data",
+    "image": "/images/docs/sprint-data.jpeg",
+    "description": "Comment réussir un sprint data ou un hackathon ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2019-09-18",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta",
+    "author_image": "/images/authors/samuel-goeta.jpeg",
+    "tags": "hackathon,évènement,gestion de projets,astuces",
+    "partners": "infolab-poitiers",
+    "partners-names": "Infolab du Grand Poitiers",
+    "partners-images": "/images/partners/infolab.jpeg",
+    "references_catalog": "challenge-sgl,challenge-rouen",
+    "reference-title": "Challenge data, Challenge data - Rouen-Normandie",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "15,14,38"
+  },
+  {
+    "name": "ouverture-commande-publique",
+    "title": "Ouverture de la commande publique",
+    "image": "/images/docs/ouverture-commande-publique.webp",
+    "description": "Pourquoi et comment publier les données de la commande publique ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-04-07",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "emeline-vandeven",
+    "author_image": "/images/authors/emeline-vandeven.jpeg",
+    "tags": "commande publique,DECP,territoires,législation,collectivités",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "5,8,11,22,29,31,45,49,54,55,58,62"
+  },
+  {
+    "name": "ouvrir-donnees-transports",
+    "title": "Pourquoi et comment ouvrir ses données de transport ?",
+    "image": "/images/docs/transport1.png",
+    "description": "Une méthode en trois étapes, qui peut être mise en oeuvre par des personnes ayant un niveau débutant.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2019-01-14",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "transports,GTFS",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "panorama-formats-dataviz",
+    "title": "Panorama des formats et des outils de data visualisation",
+    "image": "/images/docs/panorama-formats-dataviz.jpeg",
+    "description": "Exemples d'outils et de visualisations de données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2019-06-24",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "magalie-dartus",
+    "author_image": "/images/authors/magalie-dartus.jpeg",
+    "tags": "dataviz,visualisations,outils,design",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "presentation-gtfs",
+    "title": "Introduction au format GTFS",
+    "image": "/images/docs/presentation-gtfs.webp",
+    "description": "Qu'est-ce qu'un GTFS et de quels fichiers est-il constitué ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2018-11-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "GTFS,transports,territoires",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "r-ou-python",
+    "title": "R ou Python - quel outil pour la Data Science ?",
+    "image": "/images/docs/rpython-cover.jpeg",
+    "description": "Comment choisir entre R et Python, deux langages de data science incontournables.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2023-03-27",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anthony-gigerich",
+    "author_image": "/images/authors/anthony-gigerich.jpeg",
+    "tags": "data science,R,python,R Studio,langage,librairies",
+    "partners": "dreal-grand-est",
+    "partners-names": "DREAL Grand Est",
+    "partners-images": "/images/partners/prefet-grand-est.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "standard-archives-publiques",
+    "title": "Un standard de données pour les archives publiques",
+    "image": "/images/docs/standard-archives-avignon.jpeg",
+    "description": "En quelques mois, une équipe composée de représentants du SIAF, de l’AAF et de Datactivist a travaillé pour mettre au point un standard pour les données des registres d’entrées",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2021-05-20",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "diane-thierry",
+    "author_image": "/images/authors/diane-thierry.jpeg",
+    "tags": "archives,registre,standards,dataviz",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 3
+  },
+  {
+    "name": "standards-territoires",
+    "title": "Données et territoires - les enjeux de la standardisation des données ouvertes",
+    "image": "/images/docs/standards-territoires.png",
+    "description": "Comment donner plus d'impact aux données ouvertes par les territoires grâce aux standards ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2021-10-13",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "samuel-goeta",
+    "author_image": "/images/authors/samuel-goeta.jpeg",
+    "tags": "standards,territoires",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "10,20"
+  },
+  {
+    "name": "strategie-alternative-reutilisation",
+    "title": "Défis de la réutilisation des données ouvertes et stratégies alternatives",
+    "image": "/images/docs/strategie-alternative-reutilisation.jpg",
+    "description": "Comment trouver et utiliser des données lorsqu'elles sont difficilement accessibles ou exploitables ?",
+    "type": "Formation",
+    "index": 1,
+    "date": "2021-07-25",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "réutilisation,astuces",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datagramme-valorisation-1",
+    "title": "Vous avez le choix dans la data",
+    "image": "/images/docs/datagrammes-valorisation/cover-1.png",
+    "description": "Comment créer de la valeur, et gagner de l'argent, avec les données ?",
+    "type": "Datagramme",
+    "index": 1,
+    "date": "2023-03-14",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "valorisation,culture générale,exemples,strategie",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datagramme-valorisation-2",
+    "title": "Donnez moi un point fixe et un levier...",
+    "image": "/images/docs/datagrammes-valorisation/cover-2.png",
+    "description": "Comment créer de la valeur, et gagner de l'argent, avec les données ?",
+    "type": "Datagramme",
+    "index": 1,
+    "date": "2023-03-15",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "valorisation,culture générale,exemples,strategie",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datagramme-valorisation-3",
+    "title": "Data is eating the world (?)",
+    "image": "/images/docs/datagrammes-valorisation/cover-3.png",
+    "description": "Comment créer de la valeur, et gagner de l'argent, avec les données ?",
+    "type": "Datagramme",
+    "index": 1,
+    "date": "2023-03-20",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "valorisation,culture générale,exemples,strategie",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datagrammes-valorisation",
+    "title": "Micro learning : gagner de l'argent avec les données",
+    "image": "/images/docs/datagrammes-valorisation/cover-valorisation.png",
+    "description": "Trois histoires pour présenter des modèles économiques autour de la donnée",
+    "type": "Datagramme",
+    "index": 1,
+    "date": "2023-03-20",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "valorisation,culture générale,exemples,strategie",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "tableau-periodique",
+    "title": "Table périodique : les facteurs de succès d'un projet d'open data",
+    "image": "/images/docs/periodic-table.jpeg",
+    "description": "Une infographie sous la forme d'une table périodique qui représente tous les facteurs de succès d'un projet d'open data",
+    "type": "Infographie",
+    "index": 1,
+    "date": "2024-01-12",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "impact,gouvernance,open gov,valorisation",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "kit-demarrage-inosc",
+    "title": "Des communautés de pratiques locales pour s’approprier la science ouverte : le kit de démarrage INOSC",
+    "image": "/images/docs/kit-science-ouverte/inosc_0.png",
+    "description": "Description du kit de démarrage Communauté science ouverte INOSC.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2021-10-29",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "candice-fillaud",
+    "author_image": "/images/authors/candice-fillaud.png",
+    "tags": "science ouverte",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "chatgpt-blade-runner",
+    "title": "De ChatGPT à Blade Runner - faut-il avoir peur de l'IA ?",
+    "image": "/images/docs/chatgpt-blade-runner.jpeg",
+    "description": "Une introduction aux enjeux de l'IA",
+    "type": "Formation",
+    "index": 1,
+    "date": "2023-12-07",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin",
+    "author_image": "/images/authors/joel-gombin.jpeg",
+    "tags": "IA,usages",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "25,39"
+  },
+  {
+    "name": "donnees-ia-introduction",
+    "title": "Données ? IA ? J’en utilise déjà sans le savoir",
+    "image": "/images/docs/donnees-ia-utilisation.jpeg",
+    "description": "Une introduction à la donnée et à l'IA",
+    "type": "Formation",
+    "index": 1,
+    "date": "2022-11-01",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "joel-gombin,maelle-fouquenet,clement-mandron",
+    "author_image": "/images/authors/joel-gombin.jpeg, /images/authors/maelle-fouquenet.jpeg, /images/authors/clement-mandron.png",
+    "tags": "IA,qualité,vocabulaire",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": "25,39"
+  },
+  {
+    "name": "cycle-formation-opendata",
+    "title": "Cycle de formation à l'ouverture des données",
+    "image": "/images/docs/cycle-fromation-od.jpeg",
+    "description": "Un cycle complet de formation à l'ouverture des données pour autonomiser les agents",
+    "type": "Formation",
+    "index": 1,
+    "date": "2023-04-11",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,magalie-dartus,samuel-goeta,guillaume-coldre,natacha-roger",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/magalie-dartus.jpeg, /images/authors/samuel-goeta.jpeg, /images/authors/blank.png, /images/authors/blank.png",
+    "tags": "apprentissage,qualité,documentation,format,apprendre",
+    "partners": "bercy-hub",
+    "partners-names": "Bercy Hub",
+    "partners-images": "/images/partners/mefr.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "mediation-algorithmes",
+    "title": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
+    "image": "/images/docs/mediation-algo/cover.png",
+    "description": "Datactivist et la Mednum lancent un projet de recherche-action qui vise à expérimenter des démarches de médiation aux algorithmes.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2024-02-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "loup-cellard,samuel-goeta",
+    "author_image": "/images/authors/loup-cellard.jpeg, /images/authors/samuel-goeta.jpeg",
+    "tags": "algorithmes,médiation,documentation,apprentissage,transparence",
+    "partners": "mednum",
+    "partners-names": "La MedNum",
+    "partners-images": "/images/partners/mednum.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "mediation-algorithmes",
+    "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
+    "quotes": "27,63"
+  },
+  {
+    "name": "cas-usage-decp",
+    "title": "Cas d'usage sur les données de la commande publique",
+    "image": "/images/docs/cas-usage-decp.png",
+    "description": "Quelle est la part des TPME dans les titulaires de marchés publics conclus par mon entité ? Ces titulaires sont-ils des entreprises locales ?",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2024-02-12",
+    "license": "",
+    "pin": "",
+    "authors": "emeline-vandeven,diane-thierry",
+    "author_image": "/images/authors/emeline-vandeven.jpeg, /images/authors/diane-thierry.jpeg",
+    "tags": "qualité,commande publique,DECP,territoires,collectivités,dataviz,data analyse,R",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "article-accessibilite-decp",
+    "title": "Accéder aux données essentielles de la commande publique : un parcours du combattant",
+    "image": "/images/docs/article-accessibilite-decp.png",
+    "description": "L'exploitation des DECP peut se transformer en réel parcours du combattant de par la multiplicité des plateformes de diffusion, la qualité des données et leurs formats.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2022-10-25",
+    "license": "",
+    "pin": "",
+    "authors": "emeline-vandeven,diane-thierry",
+    "author_image": "/images/authors/emeline-vandeven.jpeg, /images/authors/diane-thierry.jpeg",
+    "tags": "qualité,commande publique,DECP,territoires,collectivités",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "bibliographie-participation-lyon",
+    "title": "La participation en ligne : une réponse perfectible à des demandes sociales et institutionnelles",
+    "image": "/images/docs/bibliographie-participation-lyon.png",
+    "description": "Cette revue de littérature en sciences sociales revient sur les enjeux des nouveaux dispositifs de consultation et de délibérations citoyennes en ligne.",
+    "type": "Blog",
+    "index": 1,
+    "date": "2023-01-23",
+    "license": "",
+    "pin": "",
+    "authors": "elise-ho-pun-cheung",
+    "author_image": "/images/authors/elise-ho-pun-cheung.jpeg",
+    "tags": "politique,usages",
+    "partners": "metropole-lyon",
+    "partners-names": "Métropole de Lyon",
+    "partners-images": "/images/partners/metropole-lyon.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "note-challenge-bdm",
+    "title": "Note d'analyse d'un Challenge data à Bordeaux Métropole",
+    "image": "/images/docs/note-challenge-bdm.png",
+    "description": "Retour sur 3 mois de Challenge Data au sein de Bordeaux Métropole, composé de 5 ateliers.",
+    "type": "Blog",
+    "index": 0,
+    "date": "2023-10-01",
+    "license": "",
+    "pin": "",
+    "authors": "sarah-bourgouin,diane-thierry,guillaume-martin",
+    "author_image": "/images/authors/sarah-bourgouin.png, /images/authors/diane-thierry.jpeg, /images/authors/guillaume-martin.jpeg",
+    "tags": "collectivités,hackathon",
+    "partners": "metropole-bordeaux",
+    "partners-names": "Bordeaux Métropole",
+    "partners-images": "/images/partners/metropole-bordeaux.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": 59
+  },
+  {
+    "name": "cours-introduction-R",
+    "title": "Cours d'introduction à R",
+    "image": "/images/docs/cours-introduction-R.png",
+    "description": "Programmer en R, ce n'est pas sorcier. Ce cours d'introduction au langage de programmation R pour apprendre les bases du traitement de données.",
+    "type": "Formation",
+    "index": 1,
+    "date": "2021-12-23",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "diane-thierry",
+    "author_image": "/images/authors/diane-thierry.jpeg",
+    "tags": "R,R Studio,data analyse,data science,dataviz,formation,statistique,apprendre,visualisations,langage",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "mel-form-code",
+    "reference-title": "Formation à la dataviz et introduction au code",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "rapport-excom-1",
+    "title": "Premier rapport du projet de recherche-action EXCOM",
+    "image": "/images/docs/rapport-excom-1.png",
+    "description": "Dans le cadre d'un projet de recherche-action sur les effets sociaux et environnementaux du commerce, ce premier rapport pointe le rôle des commerces dans six grand domaines : lien social, solidarités, vie de quartier, santé et sécurité, environnement, espace public",
+    "type": "Guide",
+    "index": 1,
+    "date": "2024-04-17",
+    "license": "",
+    "pin": "",
+    "authors": "allyson-pallisser,elise-ho-pun-cheung,daniela-rochepeau,samuel-goeta,diane-thierry",
+    "author_image": "/images/authors/allyson-pallisser.png, /images/authors/elise-ho-pun-cheung.jpeg, /images/authors/daniela-rochepeau.png, /images/authors/samuel-goeta.jpeg, /images/authors/diane-thierry.jpeg",
+    "tags": "recherche,territoires,commerces",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "excom",
+    "research_projects_titles": "EXCOM - Repenser la valeur du commerce grâce à ses externalités",
+    "quotes": ""
+  },
+  {
+    "name": "commandes-utiles-R",
+    "title": "Commandes utiles pour programmer en R",
+    "image": "/images/docs/cours-introduction-R.png",
+    "description": "Ce document rassemble des commandes diverses et variées en R, utiles aux data analysts ; allant de l'import de fichiers de données, aux astuces RMarkdown, Git, en passant par la manipulation de variables et dataframes sous toutes leurs formes.",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2024-05-30",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "diane-thierry",
+    "author_image": "/images/authors/diane-thierry.jpeg",
+    "tags": "R,R Studio,data analyse,data science,dataviz,formation,statistique,apprendre,visualisations,langage",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "predatory-publishing-introduction",
+    "title": "The contemporary Open Access landscape and predatory publishing: a short introduction",
+    "image": "",
+    "description": "",
+    "type": "Formation",
+    "index": 0,
+    "date": "2024-05-28",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "margaux-larre-perez",
+    "author_image": "/images/authors/margaux-larre-perez.png",
+    "tags": "science ouverte",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "open-data-in-france-eng",
+    "title": "Open Data in France - Talk at the Justus Liebig University Giessen",
+    "image": "/images/docs/open-data-in-france-eng.png",
+    "description": "This presentation is a brief overview of open data in France. It presents 3 major datasets in France, and 3 reuses. It concludes with the challenges ahead for the ecosystem (English).",
+    "type": "Formation",
+    "index": 1,
+    "date": "2024-06-12",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron",
+    "author_image": "/images/authors/clement-mandron.png",
+    "tags": "portail,territoires,législation,commande publique",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "faq-cartographie-donnees",
+    "title": "FAQ : Cartographie de données",
+    "image": "/images/docs/faq-cartographie-donnees.png",
+    "description": "8 questions pour réaliser une cartographie de données et aider à structurer et exploiter efficacement les données d’une organisation, répondant à des besoins précis et facilitant leur gestion et utilisation.",
+    "type": "Guide",
+    "index": 1,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "etienne-pichot-damon",
+    "author_image": "/images/authors/etienne-pichot-damon.jpeg",
+    "tags": "découvrabilité,qualité,gouvernance,cartographie de données",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "formation-qualite-standardisation",
+    "title": "La mise en qualité qualité et la standardisation des données 1.0",
+    "image": "/images/docs/formation-qualite-standardisation.png",
+    "description": "Quelques bonnes pratiques pour accroître la qualité et l'interopérabilité de vos jeux de données",
+    "type": "Formation",
+    "index": 1,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sarah-bourgouin,elise-ho-pun-cheung",
+    "author_image": "/images/authors/sarah-bourgouin.png, /images/authors/elise-ho-pun-cheung.jpeg",
+    "tags": "standardisation,qualité,formation,collectivités",
+    "partners": "futurocite",
+    "partners-names": "Futurocité",
+    "partners-images": "/images/partners/futurocite.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "guide-bonnes-pratiques-developpements",
+    "title": "Guide des bonnes pratiques de développements",
+    "image": "/images/docs/guide-bonnes-pratiques-developpements.png",
+    "description": "Comment s'assurer que son projet Open Source soit utilisable et utilisé ? Ce guide est structuré autour de plusieurs dimensions clés, allant de la conception de l'architecture du projet à la mise en œuvre de l'intégration continue.",
+    "type": "Guide",
+    "index": 0,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anthony-gigerich",
+    "author_image": "/images/authors/anthony-gigerich.jpeg",
+    "tags": "algorithmes,R,python,data science,langage,Open Source",
+    "partners": "gd4h,stat4decision",
+    "partners-names": "Green Data for Health, Stat4decision",
+    "partners-images": "/images/partners/gd4h.png, /images/partners/stat4decision.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "etude-gouvernance-data",
+    "title": "Etude sur la gouvernance des données au sein des collectivités territoriales",
+    "image": "/images/docs/etude-gouvernance-data.png",
+    "description": "Un benchmark sur les gouvernances mises en place par huit grandes collectivités territoriales françaises et étrangères.",
+    "type": "Guide",
+    "index": 1,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "guillaume-martin",
+    "author_image": "/images/authors/guillaume-martin.jpeg",
+    "tags": "collectivités,territoires,gouvernance,benchmark,stratégie,ecosystème",
+    "partners": "civiteo,observatoire-data-publica",
+    "partners-names": "CIVITEO, Observatoire Data Publica",
+    "partners-images": "/images/partners/civiteo.jpeg, /images/partners/observatoire-data-publica.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "datasandwich-numerique-responsable",
+    "title": "Le numérique responsable",
+    "image": "/images/docs/datasandwich-numerique-responsable.png",
+    "description": "Une présentation interactive du numérique responsable réalisée pour l'Infolab de Grand-Poitiers.",
+    "type": "Formation",
+    "index": 1,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "sylvain-lapoix",
+    "author_image": "/images/authors/sylvain-lapoix.jpeg",
+    "tags": "territoires,transition énergétique,usages",
+    "partners": "infolab-poitiers",
+    "partners-names": "Infolab du Grand Poitiers",
+    "partners-images": "/images/partners/infolab.jpeg",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "open-badges",
+    "title": "Les open badges de l'open data",
+    "image": "/images/docs/open-badges.png",
+    "description": "Une démarche pour valoriser les compétences informelles en lien avec l'open data",
+    "type": "Liste de ressources",
+    "index": 1,
+    "date": "2024-07-16",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "julia-dumont",
+    "author_image": "/images/authors/julia-dumont.png",
+    "tags": "outils,apprentissage",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
+    "name": "guide-hackathon-ia-mobilites",
+    "title": "Guide des participant(e)s au Hackathon IA et Mobilités",
+    "image": "/images/docs/guide-hackathon-ia-mobilites.jpeg",
+    "description": "Guide des participant(e)s au Hackathon IA et Mobilités organisé par Île-de-France Mobilités",
+    "type": "Guide",
+    "index": 1,
+    "date": "2024-11-22",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "clement-mandron,maelle-fouquenet,loup-cellard,ali-hmaou,olivier-vacheret",
+    "author_image": "/images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg, /images/authors/loup-cellard.jpeg, /images/authors/ali-hmaou.jpeg, /images/authors/olivier-vacheret.jpeg",
+    "tags": "IA,hackathon,transports",
+    "partners": "idfm",
+    "partners-names": "Île-de-France Mobilités",
+    "partners-images": "/images/partners/idfm.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  }
+]
