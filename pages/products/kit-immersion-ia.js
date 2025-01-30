@@ -23,7 +23,7 @@ export default function Produit() {
     'Supports détaillés, conseils d\'animation, ressources pédagogiques : tout est pensé pour une prise en main efficace et une adaptation à vos besoins spécifiques.
 
     `,
-    imageUrl: '/images/products/kit-immersion-ia.jpg',
+    imageUrl: '/images/products/kit-immersion-ia.png',
     targets: ['🧑🏻‍💻 Agents publics','👩‍🏫 Universitaires, étudiants'],
     partnersIds: ['Métropole de Lyon','Université de Lyon, ERASME - UrbanLab'],
     liens: [
