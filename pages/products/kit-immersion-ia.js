@@ -4,9 +4,10 @@ import Layout from "../../components/Layout"
 export default function Produit() {
   const produit = {
     docsList: ['kit-immersion-ia'],
+    
     nom: 'Kit pédagogique IMMERSION IA',
     baseline: 'Former vos équipes aux enjeux de l\'IA',
-    description:'
+    description: `
     <h3>Une expérience immersive</h3>
     En 3 heures, les équipes explorent l'IA à travers un parcours dynamique et interactif.
     De l'introduction ludique avec quiz jusqu'au débat final, en passant par 6 stands thématiques, chaque participant découvre concrètement les usages et enjeux de l\'IA.
@@ -23,10 +24,8 @@ export default function Produit() {
 
     `,
     imageUrl: '/images/products/kit-immersion-ia.jpg',
-    targets: ['🧑🏻‍💻 Agents publics','👩‍🏫 Universitaires, étudiants',],
-    partnersIds: ['Métropole de Lyon','Université de Lyon, ERASME - UrbanLab']
-
-    ],
+    targets: ['🧑🏻‍💻 Agents publics','👩‍🏫 Universitaires, étudiants'],
+    partnersIds: ['Métropole de Lyon','Université de Lyon, ERASME - UrbanLab'],
     liens: [
         {url: 'https://erasme.notion.site/Kit-p-dagogique-IMMERSION-IA-cfc1d38fed704c4caebd66272b8d4d78', texte: '🔎 Voir le site du kit IMMERSION IA'},
         {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - Kit IMMERSION IA', texte: '✉️ Nous contacter pour en savoir plus'},
