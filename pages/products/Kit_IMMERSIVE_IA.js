@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 
 export default function Produit() {
   const produit = {
-    docsList: ['kit_immersion_IA'],
+    docsList: ['kit-immersion-ia'],
 
     nom: 'Kit pédagogique IMMERSION IA',
     baseline: 'Former vos équipes aux enjeux de l'IA'
@@ -14,8 +14,8 @@ export default function Produit() {
     
     <h3>Les atouts du kit IMMERSION IA</h3>
     <li>Ce qui rend IMMERSION IA unique, c'est sa capacité à créer une culture partagée. </li>
-	<li>Le format s'adapte aussi bien à un groupe de 10 personnes qu'à une soixantaine de participants, <b>sans nécessiter de connaissances techniques préalables</b>.</li>
-	<li>L'hétérogénéité des profils est même un atout, enrichissant les échanges et <b>favorisant l'identification collective de cas d'usage pertinents pour votre organisation</b>.</li>
+    <li>Le format s'adapte aussi bien à un groupe de 10 personnes qu'à une soixantaine de participants, <b>sans nécessiter de connaissances techniques préalables</b>.</li>
+    <li>L'hétérogénéité des profils est même un atout, enrichissant les échanges et <b>favorisant l'identification collective de cas d'usage pertinents pour votre organisation</b>.</li>
 
     <h3>Qui a conçu ce kit ?</h3>
     Ce nouveau format a été co-conçu avec <a href= "https://www.erasme.org/-Accueil-331">ERASME - UrbanLab</a>, <a href="https://data.grandlyon.com/portail/fr/">le laboratoire d’innovation et Données Métropolitaines et <a href="https://liris.cnrs.fr/>Université de Lyon</a> dans le cadre de la <a href="https://datagora.erasme.org/">DatAgora</a>
@@ -25,7 +25,7 @@ export default function Produit() {
 
     `,
     imageUrl: '/images/products/kit-immersion-ia.jpg',
-    targets: ['🧑🏻‍💻 Agents publics','👩‍🏫 Universitaires, étudiants',],
+    targets: ['🧑🏻‍💻 Agents publics','👩‍🏫 Universitaires, étudiants'],
     partnersIds: ['Métropole de Lyon','Université de Lyon, ERASME - UrbanLab'],
 
     ],
