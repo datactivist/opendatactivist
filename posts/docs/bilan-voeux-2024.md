@@ -9,19 +9,19 @@ Retour sur un an de projets, d’évènements, de nouveaux contenus et bien sûr
 
 ## Avant tout, nous vous souhaitons… 
 
-**Des données de qualité pour relever les défis de demain **
+**Des données de qualité pour relever les défis de demain**
 
 Nous vous le souhaitions déjà l’an dernier, mais on ne peut pas passer à côté pour 2025. Des données de qualité restent le socle d’une réutilisation facilitée. Mais n’oubliez pas : une donnée ouverte vaut toujours mieux que pas de donnée du tout ! 
 
-**Des collaborations innovantes (y compris avec nous 😇) **
+**Des collaborations innovantes (y compris avec nous 😇)**
 
 C’est en mutualisant les compétences et connaissances qu’on va plus loin. On espère que vous conjuguerez les expertises de votre écosystème (dont on espère faire activement partie !) pour faire avancer des projets à impact positif. 
 
-**Toujours plus de transparence, y compris des algorithmes **
+**Toujours plus de transparence, y compris des algorithmes**
 
 À l'heure où les algorithmes participent à la prise de décisions qui nous concernent toutes et tous, leur ouverture et leur explicabilité  sont des enjeux aussi essentiels que l’ouverture des données. Nous savons que ce chemin n'est pas toujours simple, mais les exemples vertueux sont contagieux ! En 2025, on compte sur vous pour montrer le chemin. 
 
-**Des usages raisonnés et responsables de l’IA   **
+**Des usages raisonnés et responsables de l’IA**
 
 Peut-on entamer cette nouvelle année sans parler d’intelligence artificielle ? Elle offre bien sûr pléthore de nouveaux usages. Nous avons hâte de les explorer mais tâcherons de ne pas oublier que l’IA reste un outil au service d’objectifs qui doivent être clairs, et que son utilisation doit se faire en conscience des enjeux éthiques et environnementaux qu’elle pose. 
 
@@ -106,7 +106,7 @@ Nous poursuivons également la publication de contenus et d’outils ouverts sur
 
 Comme chaque année, nous étions présents lors de nombreux événements sur la data et l’IA au service du secteur public et avons même participé activement à l’organisation et l’animation de plusieurs d’entre eux : 
 
-* Les Assises d’Open Data France le 17 avril dernier où nous avons adoré nous glisser dans la peau de DG (fictifs et fictives) de l’association et animer un débat mouvant.
+* Les [Assises d’Open Data France](https://opendatafrance.fr/assises-open-data-france-ecosysteme-evolution-attentes/) le 17 avril dernier où nous avons adoré nous glisser dans la peau de DG (fictifs et fictives) de l’association et animer un débat mouvant.
 * La 9ème édition du Salon de la Data et de l’IA à Nantes où nous animions, avec Data Publica et pour la deuxième année consécutive, un programme spécifique pour le secteur public. Certains replays sont disponibles sur [la chaîne du Salon](https://www.youtube.com/@SalonData). Si vous deviez n’en regarder qu’un seul, nous vous conseillons la table-ronde “IA et transition écologique : stop ou encore ?” animée par notre consultante Maëlle Fouquenet. 
 * Numérique en commun[s] (of course) les 25 et 26 septembre à Chambéry. Nous avons animé plusieurs ateliers et Samuel Goëta a pu présenter son nouveau livre “les données de la démocratie : un bilan critique de l’open data” lors d’une [masterclass](https://www.youtube.com/watch?v=EZl8Zm0SfXo&t=32s). D’ailleurs, nous espérons que vous avez pu le lire ! Si ce n’est pas le cas, il est possible de le commander [ici](https://cfeditions.com/donnees-democratie/)
 
@@ -121,7 +121,6 @@ L’année 2025 démarre fort pour Datactivist avec énormément de projets et d
 * Participer encore davantage à des missions et des publications avec nos clients et partenaires ; 
 * Avoir plein d’avis CADA favorables ; 
 * Poursuivre notre développement en Europe en s’appuyant sur de nouveaux partenaires ; 
-* Se lancer dans des projets alliant data et enjeux de genre avec la création d’une nouvelle offre à destination des collectivités territoriales (nouvelle offre disponible pour les CT)
 * Vous faire découvrir nos nouvelles offres sur l’IA responsable ou les données et le genre 
 
 
