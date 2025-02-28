@@ -65,8 +65,8 @@ const ReferencesPage = () => {
               <b>
                 tester de nouvelles méthodes pour créer l‘open data de demain.
               </b>{' '}
-              Nos projets de R&D s‘appuient sur des collaborations avec notre
-              écosystème de partenaires, y compris académiques (Ecole de Mines
+              Nos projets de R&D s'appuient sur des collaborations avec notre
+              écosystème de partenaires, y compris académiques (Ecole des Mines
               de Paris (Centre de Sociologie de l’Innovation), Université
               d’Avignon, Sciences Po Aix…)
               <br></br>
@@ -88,25 +88,16 @@ const ReferencesPage = () => {
             <p>
               Au sein de l’équipe,{' '}
               <b>
-                six chercheurs mènent des projets de recherche et développement
+                quatre chercheurs mènent des projets de recherche et développement
                 :
               </b>{' '}
               en <b>sociologie des sciences et techniques</b> (Dr. Samuel
-              Goëta, Allyson Pallisser (doctorant), Dr. Loup Cellard), sciences
-              de gestion et <b>design</b> (Dr. Arthur Sarazin), 
-              <b>science politique</b> (Dr. Elise Ho-Pun-Cheung,
-              Dr. Martin Lestra)
+              Goëta, Dr. Loup Cellard), <b>psychologie cognitive</b> (Margaux Larre-Perez), 
+              <b>science politique</b> (Dr. Elise Ho-Pun-Cheung)
             </p>
             <p>
               Au-delà des projets de R&D, Datactivist se distingue par un lien
-              fort avec la recherche.{' '}
-              <b>
-                Un quart de l’effectif de l’entreprise est titulaire d’un
-                doctorat
-              </b>{' '}
-              : en plus des profils cités précédemment, nous pouvons aussi
-              mentionner Dr. Margaux Larre-Perez, titulaire d’un doctorat en
-              psychologie cognitive.
+              fort avec la recherche.
             </p>
           </div>
         </div>
