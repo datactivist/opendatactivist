@@ -65,7 +65,7 @@ const ReferencesPage = () => {
               <b>
                 tester de nouvelles méthodes pour créer l‘open data de demain.
               </b>{' '}
-              Nos projets de R&D s\'appuient' sur des collaborations avec notre
+              Nos projets de R&D sont le fruit de collaborations avec notre
               écosystème de partenaires, y compris académiques (Ecole des Mines
               de Paris (Centre de Sociologie de l’Innovation), Université
               d’Avignon, Sciences Po Aix…)
