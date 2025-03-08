@@ -29,7 +29,7 @@ Dans la suite de l'atelier, les participants doivent débattre de la position de
 
 Pour synthétiser le processus, les cartes sont réparties dans six grandes étapes décrivant la construction d'une IA générative : 
 
-0. 0-6 **Extraction et consommation de ressources naturelles** : De l'extraction des minéraux pour fabriquer les puces jusqu'à la consommation d'électricité et d'eau des data centers, cette étape est à la fois un préalable et une conséquence du déploiement de l'IA.
+0. **Extraction et consommation de ressources naturelles** : De l'extraction des minéraux pour fabriquer les puces jusqu'à la consommation d'électricité et d'eau des data centers, cette étape est à la fois un préalable et une conséquence du déploiement de l'IA.
 
 1. **Collecte de données d'entraînement** : L'IA a besoin d'un très grand volume de données textuelles, issues de sources ouvertes comme Common Crawl ou de contenus protégés par le droit d'auteur.
 
