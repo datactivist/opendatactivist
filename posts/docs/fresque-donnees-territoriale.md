@@ -1,4 +1,4 @@
-Avec la Région Île-de-France, en mers dernier, nous avons animé une "Fresque de la data dans nos territoires", inspiré par notre Fresque de l'Open Data (à retrouver sur Open Datactivist : https://open.datactivist.coop/products/fresque-opendata)
+Avec la Région Île-de-France, en mars dernier, nous avons animé une "Fresque de la data dans nos territoires", inspiré par notre Fresque de l'Open Data (à retrouver sur Open Datactivist : https://open.datactivist.coop/products/fresque-opendata)
 🎯 L'objectif ? sensibiliser aux enjeux et leviers qu’offre la donnée au sein des territoires.
 
 
