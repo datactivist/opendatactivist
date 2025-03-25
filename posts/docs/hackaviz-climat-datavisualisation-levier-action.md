@@ -1,13 +1,13 @@
 **Rendre digeste des données expertes, transformer des données techniques en outils d’aide à la décision mais aussi faire parler les données auprès du grand public : voici le défi ambitieux lancé par L’Institut Paris Region avec le Hackaviz Climat.**
 
 
-## Hackaviz Climat : Visualiser pour mieux comprendre et agir pour s’adapter au changement climatique
+## Visualiser pour mieux comprendre et agir pour s’adapter au changement climatique
 
 Le changement climatique et ses effets ont des **conséquences déjà visibles** dans la vie quotidienne des Franciliens et Franciliennes (effets d'îlots de chaleurs pendant les canicules, stress hydrique des arbres et plantes, …). La Région et ses élus ont inscrit dans le Schéma directeur environnemental voté en 2024, **la priorité de faire de la région un territoire résilient**, capable de s’adapter aux effets du changement climatique. La datavisualisation, sous toutes ses formes (infographie, dataviz, cartographie…) est un formidable outil pour (se) représenter les changements climatiques et leurs effets.
 
 > On ne peut pas concevoir l'aménagement du territoire aujourd'hui sans tenir compte du changement climatique. Pour aborder ce sujet, il est essentiel d’aller puiser dans les sources de données dont nous disposons ; à la fois pour faire notre connaissance sur le sujet, mais aussi poser les diagnostics et passer à l'action.
-
-> Laurie Gobled, Directrice Data et innovation numérique à L’Institut Paris Region
+>
+> **Laurie Gobled**, Directrice Data et innovation numérique à L’Institut Paris Region
 
 **Comment rendre digeste des données expertes ?**
 
@@ -15,7 +15,6 @@ Les données proposées sur les aléas,  les extrêmes climatiques, sur les vuln
 
 Pour cela, **tous les formats de datavisualisation** peuvent fonctionner : infographies, graphiques, cartographies ; statique comme interactif, le concours ne les a donc pas limités.
 
-**Le planning de l’événement**
 
 ![Planning](/images/docs/hackaviz-jalons.png)
 
@@ -29,7 +28,7 @@ Chaque défi est accompagné d’idées de réalisations possibles et d’exempl
 
 ### Défi 1 : Visualiser les aléas climatiques
 
-Comment visualiser au mieux les aléas liés aux changements climatiques pour identifier les zones les plus à risques ?
+**Comment visualiser au mieux les aléas liés aux changements climatiques pour identifier les zones les plus à risques ?**
 
 Réalisations possibles : 
 
@@ -46,11 +45,9 @@ Deux exemples de données mises à disposition :
 
 ### Défi 2 - Visualiser les vulnérabilités
 
-Comment mieux visualiser les zones dans lesquelles les habitants sont les plus vulnérables aux changements climatiques ? 
+**Comment mieux visualiser les zones dans lesquelles les habitants sont les plus vulnérables aux changements climatiques ?**
 
 Réalisations possibles : 
-
-
 
 * ♒ Vulnérabilité(s) face aux inondations
 * ♨️ Vulnérabilité(s) face aux fortes chaleurs
@@ -59,27 +56,21 @@ Réalisations possibles :
 
 Deux exemples de données mises à disposition : 
 
-
-
 * Cumul de nuisances environnementales - la grille régionale au pas de 500M d'Île-de-France par l’IPR
 * La base de données équipements Île-de-France consolidée par l’IPR et spécialement mise à disposition pour le Hackaviz Climat.
 
 
 ### Défi 3 - Visualiser le passage à l'action et l'adaptation des villes au changement climatique
 
-Comment mieux visualiser l’adaptation et le passage à l’action liée aux changements climatiques ? 
+**Comment mieux visualiser l’adaptation et le passage à l’action liée aux changements climatiques ?** 
 
 Réalisations possibles : 
-
-
 
 * 💧(Se) rafraîchir
 * 🌲Renaturer
 * 🍃Prévenir les risques en cascade
 
 Exemple de données mises à disposition : 
-
-
 
 * La couche espaces verts et boisés de l’IPR 
 * Un jeu de données sur les abris climatiques potentiels produit par l’IPR et spécialement mis à disposition pour le Hackaviz Climat.
@@ -99,8 +90,6 @@ Ces données disponibles depuis plusieurs canaux (portails open data, mise à di
 
 Tous les outils permettant de faire de la datavisualisation étaient autorisés : 
 
-
-
 * R
 * Python
 * Data Wrapper
@@ -108,18 +97,29 @@ Tous les outils permettant de faire de la datavisualisation étaient autorisés 
 * QGIS
 * ArcGIS (avec la mise à disposition d’une licence Education)
 
-Le guide du participant recensait les outils et leur documentation associée. 
+Le [guide du participant](https://gitlab.com/hackaviz-climat/guide-du-participant) recensait les outils et leur documentation associée. 
 
 La seule obligation : un lien ouvert pour la restitution.
 
 
 ### Deux webinaires pour monter en compétences et découvrir des réalisations
 
+**Webinaire 1 : Les ingrédients d’une bonne datavisualisation**
+Dans ce premier webinaire ([replay](https://visio.myceliandre.fr/playback/presentation/2.3/c7545348c2fbc56488bef75ee18e08cbf4314311-1740655530602)), deux Masterclass étaient au programme :
+
+* Les éléments essentiels de la dataviz : rigueur, lisibilité et éloquence, avec Clément Mandron, Datactivist
+* La présentation de la Cartoviz sur les zones d’inondations potentielles par Simon CARRAGE, de L'Institut Paris Region
+
+
+**Webinaire 2 : Présenter un projet de visualisation de données**
+Dans ce second webinaire ([replay](https://visio.myceliandre.fr/playback/presentation/2.3/c7545348c2fbc56488bef75ee18e08cbf4314311-1741260386438)), toute l'attention était portée sur la réussite de la restitution avec encore une fois deux Masterclass :
+
+* Comment réussir son pitch ? avec Sarah Bourgouin, Datactivist
+* La présentation des différentes fonctionnalités d’ArGIS avec Alexandre GOUX, Esri France
 
 ## Les résultats
 
-
-
+En chiffres : 
 * Moins de 3 semaines de production
 * 15 équipes au départ
 * 10 réalisations déposées
@@ -135,8 +135,6 @@ L’ensemble des projets sont accessibles ici : [https://gitlab.com/hackaviz-cli
 
 Le jury était composé de : 
 
-
-
 * **Yann Wehrling**, Vice-président, en charge de la Transition écologique, du Climat et de la Biodiversité à la Région Ile-de-France
 * **Laurie Gobled**, Directrice du département Data et Innovation numérique de L'Institut Paris Region
 * **Marthe Viallet**,  Commissaire d'exposition en data visualisation
@@ -148,7 +146,7 @@ Il a eu la mission complexe de sélectionner les lauréats du concours. Une gril
 
 > Quel bel après-midi. Du concret, du positif, de l’imagination et de la créativité au service de l’adaptation. 4 lauréats mais tous les projets mériteront d’être connus et développés !
 > 
-> Yann Wehrling, Vice-président, en charge de la Transition écologique, du Climat et de la Biodiversité à la Région Ile-de-France
+> **Yann Wehrling**, Vice-président, en charge de la Transition écologique, du Climat et de la Biodiversité à la Région Ile-de-France
 
 
 
@@ -187,9 +185,7 @@ Ce projet contient différentes cartes et applications permettant d'explorer les
 
 ![Extrait de la réalisation de l'équipe Colibri](/images/docs/hackaviz-colibri.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe8](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://arcg.is/0nfyOm0](https://arcg.is/0nfyOm0) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe8) - [Réalisation](https://arcg.is/0nfyOm0)
 
 
 ### Prix coup de coeur : Révéler la nuit par l’équipe des Artisans Cartographes
