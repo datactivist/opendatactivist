@@ -105,6 +105,7 @@ La seule obligation : un lien ouvert pour la restitution.
 ### Deux webinaires pour monter en compétences et découvrir des réalisations
 
 **Webinaire 1 : Les ingrédients d’une bonne datavisualisation**
+
 Dans ce premier webinaire ([replay](https://visio.myceliandre.fr/playback/presentation/2.3/c7545348c2fbc56488bef75ee18e08cbf4314311-1740655530602)), deux Masterclass étaient au programme :
 
 * Les éléments essentiels de la dataviz : rigueur, lisibilité et éloquence, avec Clément Mandron, Datactivist
@@ -112,6 +113,7 @@ Dans ce premier webinaire ([replay](https://visio.myceliandre.fr/playback/presen
 
 
 **Webinaire 2 : Présenter un projet de visualisation de données**
+
 Dans ce second webinaire ([replay](https://visio.myceliandre.fr/playback/presentation/2.3/c7545348c2fbc56488bef75ee18e08cbf4314311-1741260386438)), toute l'attention était portée sur la réussite de la restitution avec encore une fois deux Masterclass :
 
 * Comment réussir son pitch ? avec Sarah Bourgouin, Datactivist
@@ -159,9 +161,8 @@ Le projet canicule vise à sensibiliser un large public à l’inégale réparti
 
 ![Extrait de la réalisation Canicule](/images/docs/hackaviz-canicule.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe10](https://gitlab.com/hackaviz-climat/equipe10) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe10) - [Réalisation](https://gitlab.com/hackaviz-climat/equipe10/-/blob/main/PresentationV01.pdf?ref_type=heads)
 
-Lien de la réalisation : [https://gitlab.com/hackaviz-climat/equipe10/-/blob/main/PresentationV01.pdf?ref_type=heads](https://gitlab.com/hackaviz-climat/equipe10/-/blob/main/PresentationV01.pdf?ref_type=heads) 
 
 
 ### 2d prix : ClimateViz par l’équipe SYSTRA
@@ -172,9 +173,7 @@ ClimateViz permet de visualiser les zones du RFN IDF les plus vulnérables face 
 
 ![Extrait de la réalisation ClimateViz](/images/docs/hackaviz-systra.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe1](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://experience.arcgis.com/experience/81fc62ae4869462b9bf906503a62a895/page/Page-d'accueil-](https://experience.arcgis.com/experience/81fc62ae4869462b9bf906503a62a895/page/Page-d'accueil-) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe1) - [Réalisation](https://experience.arcgis.com/experience/81fc62ae4869462b9bf906503a62a895/page/Page-d'accueil-)
 
 
 ### 3e prix : Végétaliser les toitures d'îdF par l’équipe Colibri
@@ -196,9 +195,7 @@ Pour réduire leurs impacts au changement climatique et pouvoir s'y adapter, les
 
 ![Extrait de la réalisation des Artisans Cartographes](/images/docs/hackaviz-artisans-cartographes.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe2](https://gitlab.com/hackaviz-climat/equipe10)
-
-La réalisation est matérielle, il n’y a pas de lien disponible mais des photos 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe2) - La réalisation est matérielle, il n’y a pas de lien disponible mais des photos 
 
 
 ### Crues : pas de panique Serge par l’équipe Cat’s Eyes de l’IPR
@@ -211,9 +208,8 @@ Il pourra surtout visualiser les lignes et les stations qui resteront ouvertes. 
 
 ![Extrait de la réalisation Pas de panique Serge](/images/docs/hackaviz-cats-eyes.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe5](https://gitlab.com/hackaviz-climat/equipe10)
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe5) - [Réalisation](https://gitlab.com/hackaviz-climat/equipe5/-/blob/main/AKA_Poster_A1_V2.pdf)
 
-Lien de la réalisation : 
 
 
 ### La vulnérabilité du Mass Transit au changement climatique par l’équipe En train vers l’avenir
@@ -224,9 +220,7 @@ Ce projet propose de relier les vulnérabilités et les risques climatiques au n
 
 ![Extrait de la réalisation En train vers l'avenir](/images/docs/hackaviz-en-train-avenir.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe12](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://gitlab.com/hackaviz-climat/equipe12/-/blob/main/Vuln%C3%A9rabilit%C3%A9s-du-Mass-Transit_Hoche-L%C3%A9ger-Coulaud.pdf](https://gitlab.com/hackaviz-climat/equipe12/-/blob/main/Vuln%C3%A9rabilit%C3%A9s-du-Mass-Transit_Hoche-L%C3%A9ger-Coulaud.pdf) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe12) - [Réalisation](https://gitlab.com/hackaviz-climat/equipe12/-/blob/main/Vuln%C3%A9rabilit%C3%A9s-du-Mass-Transit_Hoche-L%C3%A9ger-Coulaud.pdf)
 
 
 ### La vulnérabilité aux fortes chaleurs au sein de la Métropole du Grand Paris par l’équipe de la Métropole du Grand Paris
@@ -239,9 +233,7 @@ Cartographier cette vulnérabilité est essentiel afin de définir et prioriser 
 
 ![Extrait de la réalisation de la Métropole du Grand Paris](/images/docs/hackaviz-mgp.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe9](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://gitlab.com/hackaviz-climat/equipe9/-/blob/main/poster_vulnerabilite_chaleur.pdf](https://gitlab.com/hackaviz-climat/equipe9/-/blob/main/poster_vulnerabilite_chaleur.pdf) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe9) - [Réalisation](https://gitlab.com/hackaviz-climat/equipe9/-/blob/main/poster_vulnerabilite_chaleur.pdf)
 
 
 ### Cart’Abri par l’équipe Climat 11
@@ -257,9 +249,7 @@ Cette visualisation cartographique interactive à destination des citoyen-nes et
 
 ![Extrait de la réalisation Cart'Abri](/images/docs/hackaviz-cartabri.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe11](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://education-fr.maps.arcgis.com/apps/instant/nearby/index.html?appid=f249a6c1aaa448379505c162bc6a93c0](https://education-fr.maps.arcgis.com/apps/instant/nearby/index.html?appid=f249a6c1aaa448379505c162bc6a93c0) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe11) - [Réalisation](https://education-fr.maps.arcgis.com/apps/instant/nearby/index.html?appid=f249a6c1aaa448379505c162bc6a93c0)
 
 
 ### ClimaCare par l’équipe Act4ClimData
@@ -272,13 +262,11 @@ L’outil ClimaCare est un outil d’aide à la décision qui propose d’intég
 
 ![Extrait de la réalisation ClimaCare](/images/docs/hackaviz-climacare.png)
 
-Lien du dépôt avec l’ensemble de la documentation : [https://gitlab.com/hackaviz-climat/equipe4](https://gitlab.com/hackaviz-climat/equipe10)
-
-Lien de la réalisation : [https://hackaviz.someware.fr/](https://hackaviz.someware.fr/) 
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe4) - [Réalisation](https://hackaviz.someware.fr/](https://hackaviz.someware.fr/)
 
 
 **Pour conclure, un événement réussi autant pour les participants que pour les organisateurs.**
 
 > C’est toujours très inspirant de voir comment, avec les mêmes données, on a des approches complètement différentes.
 > 
-> Estibaliz Legarreta, participante, équipe Data Stormrz
+> **Estibaliz Legarreta**, participante, équipe Data Stormrz
