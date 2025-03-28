@@ -32,13 +32,22 @@ export default function Produit() {
     imageUrl: '/images/products/boite_boite.png',
     targets: [
       '👥 Tout citoyen qui désire découvrir l\'IA',
-      '🎯 Des médiateurs numériques qui souhaitent sensibiliser aux enjeux sociaux et environnementaux de l'IA',
+      '🎯 Des médiateurs numériques qui souhaitent sensibiliser aux enjeux sociaux et environnementaux de l\'IA',
       '📊 Tout acteur politique, économique, associatif ou universitaire en prise avec les problématiques d\'IA'
+    ],
+    partis_pris: [
+      'Accessibilité à toutes et tous : l\'atelier ne nécessite pas de pré-requis sur l\'IA',
+      'Pédagogie active, écoute et dialogue loin des discours d\'experts',
+      'Frugalité, adaptabilité et reproductibilité du format',
+      'Focus sur l\'IA générative, la technologie au centre de toutes les attentions',
+      'Un contenu équilibré entre la découverte du cycle de vie d\'une IA et l\'explication du fonctionnement d\'un modèle',
+      'Un format d\'animation adapté à des groupes de 7 personnes',
+      'Développé par et pour les professionnels du réseau de la médiation numérique'
     ],
     partnersIds: ['nantes-metropole'],
     testimonials: [],
     liens: [
-      {url: 'mailto:contact@datactivist.coop?subject=Demande d\'informations - La Boîte Noire de l\'IA', texte: '✉️ Nous contacter pour en savoir plus'},
+      {url: 'mailto:contact@datactivist.coop?subject=Demande d\'informations - La Boîte Noire de l\'IA', texte: '✉️ Nous contacter pour en savoir plus'}
     ]
   }
   
