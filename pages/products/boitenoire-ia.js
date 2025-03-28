@@ -6,14 +6,15 @@ export default function Produit() {
     nom: 'La Boîte Noire de l\'IA',
     baseline: 'Ouvrez la boîte, révélez les dessous de l\'IA et formez-vous un avis éclairé sur l\'IA générative !',
     description: `À l'heure où les débats et ateliers sur l'Intelligence Artificielle se multiplient partout, une question s'impose : comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
-    <br/><strong>La Boîte Noire de l'IA</strong> est un jeu pédagogique qui accompagne le grand public pour :
+    <strong>La Boîte Noire de l'IA</strong> est un jeu pédagogique qui accompagne le grand public pour :
     <ul>
       <li>Comprendre le fonctionnement d'une IA générative de texte, en resituant son cycle de vie depuis l'extraction des minéraux jusqu'au coût énergétique des data centers</li>
       <li>Débattre des conséquences sociétales, environnementales et éthiques des IA</li>
       <li>Faire des choix en conscience de nos usages de cette technologie</li>
     </ul>
     Notre conviction : on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
-    <br/><strong>Nos partis pris :</strong>
+    <br></br><br></br>
+    <strong>Nos partis pris :</strong>
     <ul>
       <li>Aucun pré-requis nécessaire sur l'IA</li>
       <li>Idéal pour des groupes de 7 personnes</li>
