@@ -13,7 +13,6 @@ export default function Produit() {
       <li>Faire des choix en conscience de nos usages de cette technologie</li>
     </ul>
     Notre conviction : on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
-    <br></br><br></br>
     <strong>Nos partis pris :</strong>
     <ul>
       <li>Aucun pré-requis nécessaire sur l'IA</li>
@@ -22,7 +21,7 @@ export default function Produit() {
       <li>Développé par et pour les médiateurs du réseau de Nantes Métropole</li>
       <li>Un commun numérique librement réutilisable (CC-BY-SA), frugal et réplicable</li>
     </ul>`,
-    imageUrl: '/images/products/deroule-boite-noire.png',
+    imageUrl: '',
     targets: [
       '👥 Tout citoyen qui désire découvrir l\'IA',
       '🎯 Des médiateurs numériques qui souhaitent sensibiliser aux enjeux sociaux et environnementaux de l\'IA',
