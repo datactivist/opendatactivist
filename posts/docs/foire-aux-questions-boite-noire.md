@@ -11,6 +11,9 @@ Le jeu est idéalement adapté à un groupe de 7 personnes (ou 10 maximum).
 ## Est-ce que je peux jouer à La Boîte Noire de l'IA de mon côté ?
 
 Bien sûr. Afin d’animer une Boîte noire de l’IA, vous avez à disposition l’ensemble des contenus à imprimer sur la [page de la Boîte noire de l’IA](https://open.datactivist.coop/products/boitenoire-ia). Vous disposez aussi d’un guide d’animation avec le déroulé détaillé du jeu et ses solutions ainsi qu’une présentation pour l’introduction de l’atelier.
+#### Découvrez la boite noire de l'IA
+
+%%Products:boitenoire-ia%%
 
 ## Pouvez-vous animer un atelier Boîte Noire de l'IA dans mon organisation ? Et pour quel montant ? 
 
