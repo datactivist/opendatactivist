@@ -130,8 +130,7 @@ En chiffres :
 
 Tous ont travaillé dans un esprit de partage des idées et des données. Un grand bravo ! Les résultats sont impressionnants !
 
-L’ensemble des projets sont accessibles ici : [https://gitlab.com/hackaviz-climat](https://gitlab.com/hackaviz-climat) 
-
+Les productions des équipes sont accessibles ici : [https://gitlab.com/hackaviz-climat](https://gitlab.com/hackaviz-climat) 
 
 ### Le jury
 
@@ -262,7 +261,23 @@ L’outil ClimaCare est un outil d’aide à la décision qui propose d’intég
 
 ![Extrait de la réalisation ClimaCare](/images/docs/hackaviz-climacare.png)
 
-[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe4) - [Réalisation](https://hackaviz.someware.fr/](https://hackaviz.someware.fr/)
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe4) - [Réalisation](https://hackaviz.someware.fr/)
+
+### Les vulnérabilités climatiques en Île de France par l'équipe la géomatique c'est fantastique
+
+Les données sur les vulnérabilités climatiques sont souvent complexes et dispersées, rendant difficile l'identification des zones prioritaires pour l'action. De plus, la vulnérabilité d'un territoire ne dépend pas uniquement des risques climatiques mais aussi de sa population.
+
+La solution propose une visualisation interactive combinant :
+
+* Une carte hexagonale pour représenter les risques climatiques
+* Des cercles proportionnels à la population
+* Des scores composites de vulnérabilité
+
+Cela permet aux décideurs et aux citoyens de visualiser facilement les zones les plus vulnérables de leur territoire, en prenant en compte à la fois les risques climatiques et la densité de population.
+
+![Extrait de la réalisation vulnérabilités climatiques en Île de France](/images/docs/hackaviz-geomatique-fantastique.png)
+
+[Dépôt et documentation](https://gitlab.com/hackaviz-climat/equipe15) - [Réalisation](https://nahelou.github.io/hackaviz/)
 
 
 **Pour conclure, un événement réussi autant pour les participants que pour les organisateurs.**
@@ -270,3 +285,5 @@ L’outil ClimaCare est un outil d’aide à la décision qui propose d’intég
 > C’est toujours très inspirant de voir comment, avec les mêmes données, on a des approches complètement différentes.
 > 
 > **Estibaliz Legarreta**, participante, équipe Data Stormrz
+
+Retrouvez la [page dédiée](https://www.institutparisregion.fr/amenagement-et-territoires/information-geographique-et-3d/hackaviz-climat/) sur le site de L'Institut Paris Region pour découvrir aussi tous les échanges LinkedIn sur l'événement.
