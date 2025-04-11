@@ -5,7 +5,10 @@ export default function Produit() {
     docsList: ['foire-aux-questions-boite-noire','cartes-boite-noire','consignes-animation-boite-noire','appel-commentaires-cartes-boitenoire'],
     nom: 'La Boîte Noire de l\'IA',
     baseline: 'Ouvrez la boîte, révélez les dessous de l\'IA et formez-vous un avis éclairé sur l\'IA générative !',
-    description: `À l'heure où les débats et ateliers sur l'Intelligence Artificielle se multiplient partout, une question s'impose : comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
+    description: `
+    <strong> Notre conviction </strong>: on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
+    <br></br>
+    À l'heure où les débats et ateliers sur l'Intelligence Artificielle se multiplient partout, une question s'impose : comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
     <strong>La Boîte Noire de l'IA</strong> est un jeu pédagogique qui accompagne le grand public pour :
     <ul>
       <li>Comprendre le fonctionnement d'une IA générative de texte, en resituant son cycle de vie depuis l'extraction des minéraux jusqu'au coût énergétique des data centers</li>
@@ -21,15 +24,15 @@ export default function Produit() {
   <li>Une expérience coopérative et engageante, en petits groupes</li>
   </ul>
   <strong> Notre conviction </strong>: on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
-    <br></br><br></br>
+    <br></br>
     <strong>Nos partis pris :</strong>
     <ul>
-      <li>✅ Aucun pré-requis : l’atelier est accessible à tous et toutes</li>,
+      <li>✅ Aucun pré-requis : l’atelier est accessible à tous et toutes</li>
  <li>🌍 Conçu par des professionnels de la médiation numérique, pour le terrain'<li>Aucun pré-requis nécessaire sur l'IA</li>
-  <li>🎓 Une pédagogie active fondée sur l’échange et le jeu</li>,
-  <li>♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>,
-  <li>⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>,
-  <li>👥 Animation en petits groupes (7 personnes), pour favoriser les échanges</li>,
+  <li>🎓 Une pédagogie active fondée sur l’échange et le jeu</li>
+  <li>♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
+  <li>⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
+  <li>👥 Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
     </ul>`,
     imageUrl: '/images/products/deroule-boite-noire.png',
     targets: [
