@@ -5,7 +5,7 @@ export default function Produit() {
     docsList: ['foire-aux-questions-boite-noire','cartes-boite-noire','consignes-animation-boite-noire','appel-commentaires-cartes-boitenoire'],
     nom: 'La Boîte Noire de l\'IA',
     baseline: 'Ouvrez la boîte, révélez les dessous de l\'IA et formez-vous un avis éclairé sur l\'IA générative !',
-    description: `À l'heure où les débats et ateliers sur l'Intelligence Artificielle se multiplient partout, une question s'impose : comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
+    description: `Comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
     <strong>La Boîte Noire de l'IA</strong> est un jeu pédagogique qui accompagne le grand public pour :
     <ul>
       <li>Comprendre le fonctionnement d'une IA générative de texte, en resituant son cycle de vie depuis l'extraction des minéraux jusqu'au coût énergétique des data centers</li>
@@ -14,8 +14,6 @@ export default function Produit() {
     </ul>
     Pensé pour le grand public, ce jeu pédagogique favorise la discussion, l’apprentissage par le jeu et la prise de recul. 
 <br></br>
-<strong> Notre conviction </strong>: on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
-    <br></br>
 <strong>Ce que vous y gagnerez :</strong>
 <ul>
   <li>Une compréhension claire et concrète des IA génératives</li>
