@@ -22,16 +22,16 @@ export default function Produit() {
   </ul>
     <strong>Nos partis pris :</strong>
     <ul>
-      <li>✅ Aucun pré-requis : l’atelier est accessible à tous et toutes</li>
- <li>🌍 Conçu par des professionnels de la médiation numérique, pour le terrain</li>
-  <li>🎓 Une pédagogie active fondée sur l’échange et le jeu</li>
-  <li>♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
-  <li>⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
-  <li>👥 Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
+      <li>Aucun pré-requis : l’atelier est accessible à tous et toutes</li>
+ <li>Conçu par des professionnels de la médiation numérique, pour le terrain</li>
+  <li>Une pédagogie active fondée sur l’échange et le jeu</li>
+  <li>♻Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
+  <li>Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
+  <li>Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
     </ul>`,
     imageUrl: '/images/products/deroule-boite-noire.png',
     targets: [
-      '👥 Tout citoyen qui désire découvrir l\'IA',
+      '👥 Les citoyens désireux de découvrir l\'IA',
       '🎯 Des médiateurs numériques qui souhaitent sensibiliser aux enjeux sociaux et environnementaux de l\'IA',
       '📊 Tout acteur politique, économique, associatif ou universitaire en prise avec les problématiques d\'IA'
     ],
