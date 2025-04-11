@@ -24,25 +24,18 @@ export default function Produit() {
     <br></br><br></br>
     <strong>Nos partis pris :</strong>
     <ul>
-      <li>Aucun pré-requis nécessaire sur l'IA</li>
-      <li>Idéal pour des groupes de 7 personnes</li>
-      <li>Pédagogie active : tout le contenu est intégré dans les cartes</li>
-      <li>Développé par et pour les médiateurs du réseau de Nantes Métropole</li>
-      <li>Un commun numérique librement réutilisable (CC-BY-SA), frugal et réplicable</li>
+      <li>✅ Aucun pré-requis : l’atelier est accessible à tous et toutes</li>,
+ <li>🌍 Conçu par des professionnels de la médiation numérique, pour le terrain'<li>Aucun pré-requis nécessaire sur l'IA</li>
+  <li>🎓 Une pédagogie active fondée sur l’échange et le jeu</li>,
+  <li>♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>,
+  <li>⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>,
+  <li>👥 Animation en petits groupes (7 personnes), pour favoriser les échanges</li>,
     </ul>`,
     imageUrl: '/images/products/deroule-boite-noire.png',
     targets: [
       '👥 Tout citoyen qui désire découvrir l\'IA',
       '🎯 Des médiateurs numériques qui souhaitent sensibiliser aux enjeux sociaux et environnementaux de l\'IA',
       '📊 Tout acteur politique, économique, associatif ou universitaire en prise avec les problématiques d\'IA'
-    ],
-    partis_pris: [
-  '✅ Aucun pré-requis : l’atelier est accessible à tous',
-  '🎓 Une pédagogie active fondée sur l’échange et le jeu',
-  '♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable',
-  '⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative',
-  '👥 Animation en petits groupes (7 personnes), pour favoriser les échanges',
-  '🌍 Conçu par des professionnels de la médiation numérique, pour le terrain'
     ],
     partnersIds: ['nantes-metropole'],
     testimonials: [],
