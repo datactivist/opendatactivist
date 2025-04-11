@@ -22,7 +22,6 @@ export default function Produit() {
   <li>Des débats animés et accessibles, même sans connaissance préalable</li>
   <li>Une expérience coopérative et engageante, en petits groupes</li>
   </ul>
-    <br></br>
     <strong>Nos partis pris :</strong>
     <ul>
       <li>✅ Aucun pré-requis : l’atelier est accessible à tous et toutes</li>
