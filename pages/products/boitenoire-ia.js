@@ -12,7 +12,7 @@ export default function Produit() {
       <li>Débattre des conséquences sociétales, environnementales et éthiques des IA</li>
       <li>Faire des choix en conscience de nos usages de cette technologie</li>
     </ul>
-    Pensé pour le grand public, ce jeu pédagogique favorise la discussion, l’apprentissage par le jeu et la prise de recul. 
+    Pensé pour le grand public, ce jeu pédagogique favorise la discussion, l’apprentissage et la prise de recul. 
 <br></br>
 <strong>Ce que vous y gagnerez :</strong>
 <ul>
@@ -25,7 +25,7 @@ export default function Produit() {
       <li>Aucun pré-requis : l’atelier est accessible à tous et toutes</li>
  <li>Conçu par des professionnels de la médiation numérique, pour le terrain</li>
   <li>Une pédagogie active fondée sur l’échange et le jeu</li>
-  <li>♻Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
+  <li>Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
   <li>Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
   <li>Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
     </ul>`,
