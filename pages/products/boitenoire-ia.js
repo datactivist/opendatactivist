@@ -12,7 +12,15 @@ export default function Produit() {
       <li>Débattre des conséquences sociétales, environnementales et éthiques des IA</li>
       <li>Faire des choix en conscience de nos usages de cette technologie</li>
     </ul>
-    Notre conviction : on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
+    Pensé pour le grand public, ce jeu pédagogique favorise la discussion, l’apprentissage par le jeu et la prise de recul. 
+<br></br><br></br>
+<strong>Ce que vous y gagnerez :</strong>
+<ul>
+  <li>Une compréhension claire et concrète des IA génératives</li>
+  <li>Des débats animés et accessibles, même sans connaissance préalable</li>
+  <li>Une expérience coopérative et engageante, en petits groupes</li>
+  </ul>
+  <strong> Notre conviction </strong>: on ne peut pas se positionner face aux enjeux de l'IA sans comprendre sa fabrique et son fonctionnement.
     <br></br><br></br>
     <strong>Nos partis pris :</strong>
     <ul>
@@ -29,13 +37,12 @@ export default function Produit() {
       '📊 Tout acteur politique, économique, associatif ou universitaire en prise avec les problématiques d\'IA'
     ],
     partis_pris: [
-      'Accessibilité à toutes et tous : l\'atelier ne nécessite pas de pré-requis sur l\'IA',
-      'Pédagogie active, écoute et dialogue loin des discours d\'experts',
-      'Frugalité, adaptabilité et reproductibilité du format',
-      'Focus sur l\'IA générative, la technologie au centre de toutes les attentions',
-      'Un contenu équilibré entre la découverte du cycle de vie d\'une IA et l\'explication du fonctionnement d\'un modèle',
-      'Un format d\'animation adapté à des groupes de 7 personnes',
-      'Développé par et pour les professionnels du réseau de la médiation numérique'
+  '✅ Aucun pré-requis : l’atelier est accessible à tous',
+  '🎓 Une pédagogie active fondée sur l’échange et le jeu',
+  '♻️ Un format frugal, libre (CC-BY-SA), et facilement réutilisable',
+  '⚙️ Une exploration complète du cycle de vie et du fonctionnement de l’IA générative',
+  '👥 Animation en petits groupes (7 personnes), pour favoriser les échanges',
+  '🌍 Conçu par des professionnels de la médiation numérique, pour le terrain'
     ],
     partnersIds: ['nantes-metropole'],
     testimonials: [],
