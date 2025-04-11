@@ -8,7 +8,6 @@ export default function Produit() {
    liens: [
       {url: 'https://open.datactivist.coop/docs/cartes-boite-noire', texte: '🖨️ Imprimez le jeu'}
     ]
-  }
     description: `À l'heure où les débats et ateliers sur l'Intelligence Artificielle se multiplient partout, une question s'impose : comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
     <strong>La Boîte Noire de l'IA</strong> est un jeu pédagogique qui accompagne le grand public pour :
     <ul>
