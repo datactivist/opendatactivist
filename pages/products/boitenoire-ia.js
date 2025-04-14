@@ -38,7 +38,7 @@ export default function Produit() {
     partnersIds: ['nantes-metropole'],
     testimonials: [],
     liens: [
-      {url: 'mailto:contact@datactivist.coop?subject=Demande d\'informations - La Boîte Noire de l\'IA', texte: '✉️ Nous contacter pour en savoir plus'},
+      {url: 'mailto:boitenoireia@datactivi.st?subject=Demande d\'informations - La Boîte Noire de l\'IA', texte: '✉️ Nous contacter pour en savoir plus'},
       {url: 'https://open.datactivist.coop/docs/cartes-boite-noire', texte: '🖨️ Imprimez le jeu'}
     ]
   }
