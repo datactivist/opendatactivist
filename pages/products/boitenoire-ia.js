@@ -28,6 +28,7 @@ export default function Produit() {
   <li>Un format frugal, libre (CC-BY-SA), et facilement réutilisable</li>
   <li>Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
   <li>Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
+  <br></br>© photo : Mstream – Axel varyot Gomez
     </ul>`,
     imageUrl: '/images/products/deroule-boite-noire.png',
     targets: [
