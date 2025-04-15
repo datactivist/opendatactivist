@@ -29,7 +29,7 @@ export default function Produit() {
   <li>Une exploration complète du cycle de vie et du fonctionnement de l’IA générative</li>
   <li>Animation en petits groupes (7 personnes), pour favoriser les échanges</li>
     </ul>
-    <br></br>© photo : Mstream – Axel varyot Gomez`,
+   © photo : Mstream – Axel varyot Gomez`,
     imageUrl: '/images/products/deroule-boite-noire.png',
     targets: [
       '👥 Les citoyens désireux de découvrir l\'IA',
