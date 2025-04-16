@@ -4,8 +4,19 @@
 %%Products:boitenoire-ia%%
 </br>
 
+# Conseils pour l'impression
+- Les hexagones devraient être imprimés sur du papier épais ou du carton léger
+- Les cartes actions et controverses sont imprimables en format A4
+- Les guides de découpe sont visibles sur les fichiers PDF
+- Une fois imprimées et découpées, les cartes peuvent être plastifiées pour une meilleure durabilité
+- Il est recommandé d'utiliser une boîte noire pour ranger les cartes (symbolisant la "boîte noire" opaque de l'IA)
+
+<a href="https://nextcloud.datactivist.coop/s/gZxNNK8jSMywF39" class="customButton">🖨 Consignes pour la découpe</a>
+
 # Les hexagones (grandes étapes)
-<a href="https://nextcloud.datactivist.coop/s/ocrcycYxiiXNDpm" class="customButton">🖨️ Télécharger les hexagones</a>
+<a href="https://nextcloud.datactivist.coop/s/CppG2Y2fFidjSNM" class="customButton">🖨️ Télécharger les hexagones en clair</a>
+<a href="https://nextcloud.datactivist.coop/s/AnRzqQNXNWwRn9w" class="customButton">🖨️ Télécharger les hexagones en sombre</a>
+
 
 ![Hexagones de la Boîte Noire de l'IA](/images/docs/boitenoire-hexagones.jpeg)
 
@@ -21,7 +32,7 @@ Les 6 hexagones représentent les grandes étapes du cycle de vie d'une IA gén�
 Ces hexagones doivent être placés en cercle pour montrer le caractère cyclique du processus.
 
 # Les cartes actions
-<a href="https://nextcloud.datactivist.coop/s/Ponc2EqQP35MmLo" class="customButton">🖨️ Télécharger les cartes actions</a>
+<a href="https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22P" class="customButton">🖨️ Télécharger les cartes actions & controverses</a>
 
 ![Cartes actions de la Boîte Noire de l'IA](/images/docs/boitenoire-actions.jpeg)
 
@@ -64,7 +75,7 @@ Les 24 cartes actions (4 par étape) expliquent les processus spécifiques qui s
 - Omniprésence de l'IA dans les usages numériques
 
 # Les cartes controverses
-<a href="https://nextcloud.datactivist.coop/s/7Jgc9bE3PmMLSQb" class="customButton">🖨️ Télécharger les cartes controverses</a>
+<a href="https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22P" class="customButton">🖨️ Télécharger les cartes actions & controverses</a>
 
 ![Cartes controverses de la Boîte Noire de l'IA](/images/docs/boitenoire-controverses.jpeg)
 
@@ -92,9 +103,3 @@ Les 6 cartes controverses introduisent des débats importants sur l'IA générat
 
 %%Docs:consignes-animation-boite-noire%%
 
-# Conseils pour l'impression
-- Les hexagones devraient être imprimés sur du papier épais ou du carton léger
-- Les cartes actions et controverses sont imprimables en format A4
-- Les guides de découpe sont visibles sur les fichiers PDF
-- Une fois imprimées et découpées, les cartes peuvent être plastifiées pour une meilleure durabilité
-- Il est recommandé d'utiliser une boîte noire pour ranger les cartes (symbolisant la "boîte noire" opaque de l'IA)
