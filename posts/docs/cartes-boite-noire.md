@@ -11,8 +11,6 @@
 - Une fois imprimées et découpées, les cartes peuvent être plastifiées pour une meilleure durabilité
 - Il est recommandé d'utiliser une boîte noire pour ranger les cartes (symbolisant la "boîte noire" opaque de l'IA)
 
-<a href="https://nextcloud.datactivist.coop/s/gZxNNK8jSMywF39" class="customButton">🖨 Consignes pour la découpe</a>
-
 # Les hexagones (grandes étapes)
 <a href="https://nextcloud.datactivist.coop/s/CppG2Y2fFidjSNM" class="customButton">🖨️ Télécharger les hexagones en clair</a>
 <a href="https://nextcloud.datactivist.coop/s/AnRzqQNXNWwRn9w" class="customButton">🖨️ Télécharger les hexagones en sombre</a>
