@@ -7,14 +7,14 @@ Des cartes ont été modifiées et ajoutées, et un livret d'animation a été p
 
 # Accéder aux cartes et au livret
 
-<a href="https://github.com/datactivist/nextjs-doc/blob/main/public/files/fresque-cd93.pdf" class="customButton">🃏 Télécharger les cartes</a>
+<a href="https://nextcloud.datactivist.coop/s/FbcDc2yyqRE4RDX" class="customButton">🃏 Télécharger les cartes</a>
 
 </br>
 
-<a href="https://github.com/datactivist/nextjs-doc/blob/main/public/files/livret-cd93.pdf" class="customButton">📖 Télécharger le livret</a>
+<a href="https://nextcloud.datactivist.coop/s/FZPikTxiMoQWbF4" class="customButton">📖 Télécharger le livret</a>
 
 </br>
 
-# La fresque des données ouvertes de Datactivist
+## La fresque des données ouvertes de Datactivist
 
 %%Products:fresque-opendata%%
