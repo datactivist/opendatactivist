@@ -2132,5 +2132,27 @@
     "research_projects": "mediation-algorithmes",
     "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
     "quotes": ""
+  },
+  {
+    "name": "fresque-cd-93",
+    "title": "Version adaptée de la Fresque de la donnée ouverte par le Département de la Seine-Saint-Denis",
+    "image": "/images/docs/fresque-cd-93.png",
+    "description": "Le Département de la Seine-Saint-Denis a adapté la fresque open data de Datactivist pour en faire un format d'acculturation interne à l'Open Data.",
+    "type": "Atelier",
+    "index": 1,
+    "date": "2025-04-17",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "camelia-croyal",
+    "author_image": "",
+    "tags": "collectivités,atelier",
+    "partners": "CD93",
+    "partners-names": "Conseil départemental de Seine-Saint-Denis",
+    "partners-images": "/images/partners/CD93.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
