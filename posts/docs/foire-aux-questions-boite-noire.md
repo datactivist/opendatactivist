@@ -32,7 +32,7 @@ Ce n’est pas encore prévu (mais nous cherchons un gentil financeur pour dému
 ## Sous quelle licence l’atelier est-il disponible ?
 
 Le jeu et les ressources associées sont diffusées sous licence Creative Commons CC-BY-SA. [https://creativecommons.org/licenses/by-sa/4.0/deed.fr](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)  
-Cette licence implique que vous repartagiez les contenus sous la même licence si vous apportez des modifications.
+Cette licence implique que vous citiez les auteurs (Datactivist et Nantes Métropole) et que vous repartagiez les contenus sous la même licence si vous apportez des modifications.
 
 Les photos issues du projet Better Images of AI ([https://betterimagesofai.org/](https://betterimagesofai.org/)) sont sous licence CC-BY.
 
