@@ -38,8 +38,8 @@ export default function Produit() {
     ],
     partnersIds: ['nantes-metropole'],
     testimonials: [
-      {text: "Au moins, je pourrai démystifier l'IA avec un jeu. Pour moi, c'est quand même d'avoir une bénédiction d'avoir un jeu pour débattre.", author: "Participant·e - La Boîte Noire de l'IA"},
-      {text: "J'étais déjà initié à l'IA avec ma formation. Malgré ça, j'ai appris en détail comment ça fonctionne et le débat, c'est bien parce que chacun a son idée de ce qui faut faire ou pas faire avec l'IA.", author: "Participant·e - La Boîte Noire de l'IA"},
+      {text: "Au moins, je pourrai démystifier l'IA avec un jeu. Pour moi, c'est quand même une bénédiction d'avoir un jeu pour débattre.", author: "Participant·e - La Boîte Noire de l'IA"},
+      {text: "J'étais déjà initié à l'IA avec ma formation. Malgré ça, j'ai appris en détail comment ça fonctionne et le débat, c'est bien parce que chacun a son idée de ce qu'il faut faire ou pas avec l'IA.", author: "Participant·e - La Boîte Noire de l'IA"},
       {text: "J'ai aimé avoir cette vision de l'ensemble des étapes de la construction d'une IA, ça m'a permis de comprendre les usages et des enjeux écologiques de l'IA.", author: "Participant·e - La Boîte Noire de l'IA"},
       {text: "J'ai aimé réorganiser les étapes. J'ai encore plus aimé le jeu social, l'IA redevient un objet social et pas juste un objet technique.", author: "Participant·e - La Boîte Noire de l'IA"},
       {text: "J'ai découvert avec vous le monde de l'IA, c'était bien, j'ai aimé.", author: "Participant·e - La Boîte Noire de l'IA"}
