@@ -35,6 +35,6 @@ Cette présentation est conçue pour être utilisée en amont de l'atelier Boît
 L'animateur peut l'adapter selon le niveau de connaissance préalable du groupe et le temps disponible, en conservant particulièrement la partie expérientielle (test de Compar:IA) qui crée une référence commune pour la suite de l'atelier.
 
 ## La présentation
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTFvEqlRjIoZYyn11JxgXOKv0GAN3eOFV98CwC_LXa4jLcEoQYzyDNHGd_n3bqVaw/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTFvEqlRjIoZYyn11JxgXOKv0GAN3eOFV98CwC_LXa4jLcEoQYzyDNHGd_n3bqVaw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <a href="[https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22](https://nextcloud.datactivist.coop/s/LALYH6CMffeCoCy)P" class="customButton">🖨️ Télécharger la présentation (.pptx)</a>
