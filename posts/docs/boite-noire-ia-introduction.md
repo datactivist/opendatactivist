@@ -2,7 +2,7 @@
 
 Cette présentation sert de support d'introduction pour les animateurs de l'atelier "La Boîte Noire de l'IA". Elle permet de contextualiser l'activité et d'initier les participants aux concepts fondamentaux avant de démarrer l'atelier proprement dit.
 
-## Structure et utilité pour l'animation
+## Structure de la présentation
 
 La présentation comprend plusieurs sections qui préparent le terrain pour l'animation de l'atelier :
 
@@ -10,7 +10,7 @@ La présentation comprend plusieurs sections qui préparent le terrain pour l'an
    
 2. **Entrée en matière pratique** - Guide les participants dans une première expérience avec une IA générative via l'outil [Compar:IA](https://www.comparia.beta.gouv.fr/), créant ainsi une référence commune avant l'atelier
 
-3. **Lexique des concepts essentiels** - Présente les définitions claires des notions qui seront utilisées pendant l'atelier :
+3. **Lexique des concepts essentiels** - Présente les définitions claires des notions qui seront utilisées pendant l'atelier à partir de sources officielles :
    - Intelligence Artificielle
    - Apprentissage automatique
    - Modèle d'IA
@@ -37,4 +37,4 @@ L'animateur peut l'adapter selon le niveau de connaissance préalable du groupe 
 ## La présentation
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTFvEqlRjIoZYyn11JxgXOKv0GAN3eOFV98CwC_LXa4jLcEoQYzyDNHGd_n3bqVaw/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<a href="[https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22](https://nextcloud.datactivist.coop/s/LALYH6CMffeCoCy)P" class="customButton">🖨️ Télécharger la présentation (.pptx)</a>
+<a href="https://nextcloud.datactivist.coop/s/LALYH6CMffeCoCy" class="customButton">🖨️ Télécharger la présentation (.pptx)</a>
