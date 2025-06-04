@@ -38,6 +38,6 @@ Les photos issues du projet Better Images of AI ([https://betterimagesofai.org/]
 
 ## Quelle est la différence entre la Boîte noire de l’IA et la Bataille de l’IA ?
 
-La Boîte noire de l’IA a été conçue pour être complémentaire de la Bataille de l’IA, en coordination avec l’équipe de Latitudes. Les deux formats partagent la même préoccupation pour les enjeux sociaux et environnementaux de l’IA et le développement de l’esprit critique sur ces questions. Il est possible d’enchainer les deux ateliers mais au-delà de dix personnes, il est préférable de faire plusieurs groupes avec la Boîte noire de l’IA.
+La Boîte noire de l’IA a été conçue pour être complémentaire de [la Bataille de l’IA](https://www.batailledelia.org), en coordination avec l’équipe de Latitudes. Les deux formats partagent la même préoccupation pour les enjeux sociaux et environnementaux de l’IA et le développement de l’esprit critique sur ces questions. Il est possible d’enchainer les deux ateliers mais au-delà de dix personnes, il est préférable de faire plusieurs groupes avec la Boîte noire de l’IA.
 
 Concrètement, la Bataille de l’IA aborde la construction de l’IA générative sous un angle historique à travers la timeline là où la Boîte noire entre dans le détail des technologies. Les cartes enjeux de la Bataille peuvent se recouper avec les cartes controverses de la Boîte noire. La mécanique d’animation est assez similaire. Les scénarios prospectifs de la Bataille avec des mises en situation n’ont pas d’équivalent dans la Boîte noire de l’IA.
