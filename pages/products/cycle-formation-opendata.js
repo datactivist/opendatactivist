@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 
 export default function Produit() {
   const produit = {
-    docsList: ['cycle-formation-opendata'],
+    docsList: ['cycle-module2-fondamentaux,cycle-module3-qualite,cycle-module4-visualisation'],
     nom: 'Cycle de formation à l‘ouverture des données',
     baseline: 'Formez vos agents au travail d‘ouverture des données',
     description: `Datactivist a construit un cycle d’acculturation et de formation à la donnée complet, qui permet aux participants d’acquérir une autonomie dans l’ouverture des données. 
