@@ -1523,7 +1523,7 @@
     "image": "/images/docs/cycle-fromation-od.jpeg",
     "description": "Un cycle complet de formation à l'ouverture des données pour autonomiser les agents",
     "type": "Formation",
-    "index": 1,
+    "index": 0,
     "date": "2023-04-11",
     "license": "ccbysa",
     "pin": "",
