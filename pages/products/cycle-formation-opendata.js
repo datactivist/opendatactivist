@@ -13,8 +13,7 @@ export default function Produit() {
     <br></br>
     
     <h3>Module 1 - La fresque des données ouvertes</h3>
-    Pour en savoir plus :
-    %%Products:fresque-opendata%%
+    [Pour en savoir plus sur la fresque des données ouvertes](https://open.datactivist.coop/products/fresque-opendata).
     
     <h3>Module 2 - Les fondamentaux de l'open data</h3>
     Compétences visées : 
