@@ -1,5 +1,14 @@
 [
      {
+      "name": "cycle-formation-opendata",
+      "title": "Cycle de formation à l'open data",
+      "description": "Formez vos agents au travail d‘ouverture des données",
+      "image": "images/docs/cycle-fromation-od.jpeg",
+      "public_date": "2025-07-22",
+      "topics": ["Atelier", "Animation", "Formation"],
+      "partners": "bercy-hub"
+    },
+     {
       "name": "boitenoire-ia",
       "title": "La Boîte noire de l'IA ",
       "description": "Ouvrez la boîte, révélez les dessous de l'intelligence artificielle générative et formez vous un avis éclairé !",
