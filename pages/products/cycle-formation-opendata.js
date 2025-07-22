@@ -5,7 +5,7 @@ export default function Produit() {
   const produit = {
     docsList: ['cycle-formation-opendata'],
     nom: 'Cycle de formation à l‘ouverture des données',
-    baseline: 'Formez vos agents à au travail d‘ouverture des données',
+    baseline: 'Formez vos agents au travail d‘ouverture des données',
     description: `Datactivist a construit un cycle d’acculturation et de formation à la donnée complet, qui permet aux participants d’acquérir une autonomie dans l’ouverture des données. 
     Ce cycle a été construit, testé avec le BercyHub et est actuellement dispensé au Ministère de l’Economie (100  agents formés). 
     <br></br>
