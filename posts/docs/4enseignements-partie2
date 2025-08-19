@@ -1,0 +1,85 @@
+Dans le cadre de Algo->lit, notre  projet européen de recherche-action dédié à la médiation aux algorithmes, nous souhaitons documenter des cas d'études concrets et tirer des leçons de nos rencontres, expérimentations et missions en cours. Nous saisissons l'occasion d'une mission de conseil réalisée par Maëlle Fouquenet et Clément Mandron pour la start-up d'Etat Mon Diagnostic Artificialisation — un outil de d'analyse et de visualisation de la consommation et artificialisation des sols — pour formuler des enseignements de la manière dont on peut améliorer les dispositifs de médiation aux données et algorithmes.
+
+Pendant quatre mois, Maëlle et Clément ont travaillé à décrire les données et calculs au cœur de cet outil. Loup, coordinateur du projet sur la médiation aux algorithmes, a suivi le projet, assisté à un atelier avec des usagers et participé à l'édition du livrable. Dans cet article fleuve que nous publions en deux parties, nous tirons quatre enseignements de cette mission que nous mettons en relation avec les problématiques plus vastes autour de l'utilisation des algorithmes par les pouvoirs publics, et la manière dont on peut mieux les comprendre grâce à un travail de médiation. Dans la [première partie de l’article](https://open.datactivist.coop/docs/4enseignements-partie1), nous avions tiré deux grands enseignements :
+* Expliquer un algorithme c'est d'abord expliquer ses données (Partie 1/2)
+* Expliquer un algorithme public c'est expliquer la loi (Partie 1/2)
+
+Dans l’article qui suit, nous poursuivons l’analyse pour évoquer deux autres enseignements : 
+* Expliquer un algorithme grâce à un format déjà connu des usagers facilite sa compréhension (Partie 2/2)
+* Expliquer un algorithme est important même s'il ne prend pas des décisions qui impactent directement les personnes (Partie 2/2)
+
+Avant toute chose, donnons quelques éléments de contexte sur Mon Diagnostic Artificialisation et la mission réalisée par Datactivist. La plateforme Mon Diagnostic Artificialisation permet à une commune de connaître et maîtriser sa consommation d'espace et d'artificialisation de ses sols. L'outil aide les collectivités à s'inscrire dans la trajectoire du Zéro Artificialisation Nette (ZAN) à horizon 2050 et la réduction de consommation d'espaces Naturels Agricoles Forestiers (NAF) à horizon 2031.
+
+Un espace consommé est un espace urbanisé. La consommation d'espaces naturels, agricoles et forestiers (NAF) correspond à "la création ou l'extension effective d'espaces urbanisés sur le territoire concerné", c'est-à-dire à la conversion d'espaces naturels, agricoles ou forestiers en espaces urbanisés (article 194 de la loi Climat et Résilience). L'artificialisation est "l'altération durable de tout ou partie des fonctions écologiques d'un sol, en particulier de ses fonctions biologiques, hydriques et climatiques, ainsi que de son potentiel agronomique par son occupation ou son usage" (article 192 de la loi Climat et résilience). En résumé, il s'agit des bâtiments, des routes, des parkings et des espaces en pelouse comme un stade de foot par exemple. Elle entre dans le calcul de la consommation d'espaces.
+
+![Schéma qui explique ce qu'est un espace dit "urbanisé"](/images/docs/mon_diag/image2.png)
+*Illustration : Schéma qui explique ce qu'est un espace dit "urbanisé" (réalisé par Clément Mandron)*
+
+La plateforme permet de mesurer la consommation d'espace d'un territoire de 2011 à 2021, de simuler différentes trajectoires pour la décennie 2021-2031 sous forme de rapports, tableaux, graphiques ou cartes. Mon Diagnostic Artificialisation est un outil qui permet à deux ensembles d'acteurs de produire des rapports locaux : aux communes et intercommunalités dotées d'un document d'urbanisme, ainsi qu'aux services de l'Etat des communes couvertes par le règlement national d'urbanisme (RNU).
+
+
+## 1. Expliquer un algorithme grâce à un format déjà connu des usagers facilite sa compréhension. 
+
+De manière concrète, les supports de médiation produits par l’équipe de Mon Diagnostic Artificialisation sont de deux types. D’abord l’explication des données et des calculs dans la plateforme elle-même (explication de graphiques, sections d’informations, lisibilité des visualisations ….). Ensuite, la rédaction d’une FAQ réalisée par Datactivist. Un format qui a été choisi pour sa capacité à centraliser une documentation et réduire le volume de questions arrivant directement à l’équipe de la start-up.  Analysons maintenant les possibilités et limites de la Foire Aux Questions (FAQ) en tant que format de médiation aux données et algorithmes. 
+
+De manière très simple, une FAQ n’est ni plus ni moins qu’une liste de questions et de réponses ordonnées. Historiquement, l'acculturation des nouveaux arrivants sur une application d’internet ou une communauté en ligne s'appuie sur l'une des premières normes qu'ils sont susceptibles de rencontrer : l'obligation de connaître des informations rudimentaires pour pouvoir naviguer et échanger [1]. Par exemple, les nouveaux venus devaient souvent se familiariser avec le site en consultant la FAQ.
+
+Au début de l’internet, sur les forums de discussion de Unenet (ancêtre d’internet), la FAQ a été une forme éditoriale qui a permis d'accumuler le savoir local d’un groupe de discussion. Elle servait aussi de table d’orientation pour les nouveaux venus souvent confrontés à une pléthore de groupes et sous-groupes de discussions. 
+
+Pour nous, la FAQ s’avère un bon format de médiation puisqu'il est à la fois l’archive stabilisée et épurée des discussions et retours des usagers (de quoi il est question ici ? quels sont les problèmes usuels et comment les résoudre ?), mais il se couple également avec l’usage conventionnel du mode d’emploi (comment réaliser une action ?). 
+
+![FAQ de l’outil Mon Diagnostique Artificialisation](/images/docs/mon_diag/FAQMonDiag.png)
+*Illustration : FAQ de l’outil Mon Diagnostique Artificialisation*
+
+Pour nous, l’expérience enrichissante a consisté à mettre en forme et en questions, sous la forme d’une FAQ, les retours des usagers rencontrées et les questions fréquentes connues de l’équipe de la start-up. Ce format se révèle pertinent de par sa simplicité, lisibilité et sa capacité à  fixer un état des choses de manière textuelle. C’est un format connu de la plupart des internautes, ce qui n’est pas le cas des autres formats utilisés dans les démarches de transparence algorithmique : les codes sources ou les audits peuplés de complexes visualisations d'informations. Voilà un autre enseignement de notre projet : **expliquer un algorithme grâce à un format déjà connu des usagers facilite leurs compréhensions des algorithmes.**
+
+En termes de hiérarchisation d’informations, la FAQ est séparée en trois rubriques, deux portent sur les principaux processus à l'œuvre (consommation et artificialisation) et le troisième est davantage méthodologique (il s’agit de documenter les données et calcul). Dans la section “Consommation”, il s’agit par exemple d’accompagner et de pallier les erreurs de calculs dans les données du CEREMA, d’informer sur les vocabulaires techniques (“Qu’est ce qu’une donnée d’évolution ?”). La section “Artificialisation” informe sur la temporalité couverte par l’outil (“Pourquoi je n’ai pas accès aux données de l’année qui vient de s’écouler ?”). Quant à la section “Données et calcul”, elle renseigne des éléments sur les données traitées (y compris la manière dont on peut y accéder), la génération des résultats et les sources de données concurrentes ou complémentaires issues de bureau d’études travaillant pour le compte des collectivités. 
+
+Durant nos entretiens avec les usagers, nous avons noté un écart fort entre des questions générales et très techniques (bien représentées dans le FAQ) et des questions plus granulaires et communes, du type : “Est-ce que le jardin d’une maison est compté comme artificialisé ?”. Pour répondre à ce type de question qui sont plus difficiles à anticiper, l’équipe à mis en place une permanence sous la forme d’un chat.
+
+![FAQ de l’outil Mon Diagnostique Artificialisation](/images/docs/mon_diag/ChatBot.png)
+*Illustration : FAQ de l’outil Mon Diagnostique Artificialisation*
+
+> ### Focus : Est-ce que la réponse à une question suffit pour expliquer les algorithmes de publicité ciblée ?
+> 
+> Depuis plus d'une décennie, la publicité numérique est le principal moyen de financer le contenu et les services en ligne. L'évolution de la publicité numérique vers une publicité ciblée par algorithme, censée être hautement personnalisée et adaptée à l'individu, a posé de nouveaux défis en matière de surveillance publique.  En réponse aux préoccupations du public et aux pressions réglementaires, des entreprises telles que Meta (la société mère de Facebook) ont mis en place des outils de transparence [2] pour les chercheurs et les consommateurs afin d'« expliquer » la fonction de la publicité sur la plateforme, notamment l'Ad Library et la fonction « Why Am I Seeing This Ad » (Pourquoi est-ce que je vois cette publicité ?). Abrégée en WAIST, l'explication « Pourquoi est-ce que je vois cette publicité » apparaît sous forme de bouton dans chaque publicité vue par un utilisateur de la plateforme. Lorsque l'utilisateur clique sur ce bouton, il accède à des informations supplémentaires sur la manière dont la publicité a été ciblée, telles que les catégories démographiques ou basées sur les centres d'intérêt. Bien qu'il s'agisse d'un élément central de la réponse de Meta à la surveillance externe croissante, on sait peu de choses sur le fonctionnement de la fonction WAIST, ou sur la manière dont elle fonctionne au niveau de la population. La fonction WAIST est fondamentalement individualiste : elle explique comment une publicité unique a été diffusée à un utilisateur unique à un moment donné.
+>
+> En réponse, nous proposons une description des données WAIST collectées à l'échelle, à partir d'un projet national de don de données par les citoyens sur la publicité Facebook. L'adéquation de la bibliothèque publicitaire et de WAIST en tant que mécanismes explicatifs est discutable. Si la bibliothèque donne un aperçu des publicités qui circulent, elle ne fournit que très peu d'informations significatives sur la question de savoir si, comment et à qui elles sont ciblées. Notre analyse en cours suggère que les balises WAIST sont déployées de manière inégale, les balises AgeGender (qui comprend les tranches d'âge et la classification binaire des sexes) et Location étant les balises WAIST dominantes appliquées à la plupart des publicités. Les balises WAIST Intérêt sont également très présentes, tandis que les balises Éducation, Relation et Situation professionnelle sont rarement utilisées.
+>
+> Pour aller plus loin: Angus, D., Burgess, J., Carah, C., Hayden, L., & Obeid, A. (2023, October). Exploring Facebook’s “Why Am I Seeing This” Ad System: Meaningful Transparency or Further Obfuscation? Paper presented at AoIR2023: The 24th Annual Conference of the Association of Internet Researchers. Philadelphia, PA, USA: AoIR. Retrieved from http://spir.aoir.org
+> Burgess, J., Carah, N., Angus, D., Obeid, A., & Andrejevic, M. (2024). Why Am I Seeing This Ad? The affordances and limits of automated user-level explanation in Meta’s advertising system. New Media & Society, 26(9), 5130-5149. https://doi.org/10.1177/14614448241251796.
+
+
+## 2. Expliquer un algorithme est important même s'il ne prend pas des décisions qui impactent directement les personnes. 
+
+En France, la régulation sur la transparence algorithmique a pris une tournure très centrée sur la défense des droits humains — en témoigne la disposition du Code des Relations avec le Public et les Administrations qui garantie un droit à l’information sur le rôle de l’algorithme dans une prise de décision administrative qui la concerne : 
+
+>“L'administration communique à la personne faisant l'objet d'une décision individuelle prise sur le fondement d'un traitement algorithmique, à la demande de celle-ci, sous une forme intelligible et sous réserve de ne pas porter atteinte à des secrets protégés par la loi, les informations suivantes :
+>1° Le degré et le mode de contribution du traitement algorithmique à la prise de décision ;
+>2° Les données traitées et leurs sources ;
+>3° Les paramètres de traitement et, le cas échéant, leur pondération, appliqués à la situation de l'intéressé ;
+>4° Les opérations effectuées par le traitement.”[3]
+
+Bien que cette disposition issue de la Loi Lemaire de 2016 soit une avancée, y compris par rapport aux législations existantes dans d’autres pays, de notre point de vue, expliquer un algorithme qui accompagne l’aménagement du territoire devrait être tout autant une priorité même si il ne touche pas directement la vie administrative d’un citoyen. 
+
+Un outil comme Mon Diagnostic Artificialisation participe à une politique qui vise à organiser nos écologies urbaines et à préserver le vivant de l’étalement urbain. Les cartes produites avec l’outil vont orienter des choix sur ce qui est construit et dans quelle zone géographique. Ces cartes vont pouvoir être opposées aux demandes de permis faites par des particuliers : un refus de permis constituant une décision administrative individuelle prise sur le fondement, non pas directement d’un algorithme, mais d’un intermédiaire graphique produit à l’aide de données et d’algorithmes. 
+
+Si la baisse de l’artificialisation est [faible entre 2009 et 2022](https://www.lemonde.fr/planete/article/2024/05/08/l-artificialisation-des-sols-se-poursuit-a-un-niveau-eleve-en-france_6232132_3244.html), elle devrait se poursuivre et permettre de réduire l’implantation par exemple d’habitation ou de bâti industriel sur des terres agricoles — ce qui devrait améliorer notre souveraineté alimentaire, si bien sûr on trouve suffisamment d’agriculteurs pour reprendre des terres[4]. Le concept de “sobriété foncière” viserait à pousser les acteurs de l’aménagement à continuer de densifier des zones existantes, revitaliser des friches, plutôt que de construire sur des terrains nus. L’artificialisation et son pilotage à l’aide de données et algorithmes nous concerne quand on sait que certaines collectivités doivent à la fois construire plus de logements tout en continuant à moins artificialiser. Des choix sont à opérer grâce à des mesures précises. 
+
+Penser une politique et éthique des algorithmes au-delà du moment décisif de leurs résultats impactant un individu est une manière d’interroger leurs rôles durable à travers les différentes relations qu’ils tissent entre des acteurs de l’aménagement, des territoires et des individus en prises avec ces territoires, qu’il soit simple habitant, promoteur immobilier, élu, militant écologiste, urbaniste ou entrepreneur. 
+
+Ce sont les jeux de données et autres traitements algorithmiques associés qui encapsulent des formes de relations (entre par exemple une activité économique, un lieu donné et un type de consommation du sol). Ces données et algorithmes vont circuler entre différents acteurs et institutions. 
+
+Face à ce type d’enjeu, la géographe et spécialiste des algorithmes Louise Amoore nous invite à analyser la formation politique des relations à soi et aux autres (y compris aux non-humains constituant la biodiversité du territoire) qui prennent place à travers des algorithmes et traitements de données et dans des temporalités qui dépassent parfois notre entendement et la simple “prise de décision algorithmique”[5]. 
+
+Grâce à cet article nous appelons à sortir d’une analyse purement centrée sur un algorithme en particulier pour montrer qu’un projet de politique publique — ici la lutte contre l’artificialisation des sols — est parsemée de nombreux objets et enjeux qui le travaillent : des données et algorithmes bien sûr, mais aussi divers registres légaux, des complexités institutionnelles comme des exigences d’usage et de design. En creux, nous souhaitons montrer que notre attention doit parfois se détourner de la focalisation sur l’algorithme pour glisser vers des interrogations sur la construction des données et le rôle social et politique des chiffres et calculs, y compris lorsqu’ils sont traduits graphiquement. A travers ce cas d’études, nous voyons que la médiation aux algorithmes repose sur : un souci de pédagogie et non pas forcément d'exhaustivité ; une capacité à traduire la complexité dans un format adapté comme la FAQ, et non pas simplement communiquer sans contexte ni guidage.
+
+## Notes et références
+
+| N° | Référence |
+|----|-----------|
+| 1 | Reagle, J. (2016). The obligation to know: From FAQ to Feminism 101. New Media & Society, 18(5), 691-707. https://doi.org/10.1177/1461444814545840 |
+| 2 | Voir le projet The MarkUp, fondé par Julia Angwin : https://juliaangwin.com/ |
+| 3 | https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034195881 |
+| 4 | Premières secousses. Les Soulèvements de la Terre, Editions La Fabrique, 2024. |
+| 5 | Louise Amoore, Cloud Ethics. Algorithms and the Attributes of Ourselves and Others. Duke University Press, 2020. |
