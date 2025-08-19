@@ -46,7 +46,7 @@ Durant nos entretiens avec les usagers, nous avons noté un écart fort entre de
 >
 > En réponse, nous proposons une description des données WAIST collectées à l'échelle, à partir d'un projet national de don de données par les citoyens sur la publicité Facebook. L'adéquation de la bibliothèque publicitaire et de WAIST en tant que mécanismes explicatifs est discutable. Si la bibliothèque donne un aperçu des publicités qui circulent, elle ne fournit que très peu d'informations significatives sur la question de savoir si, comment et à qui elles sont ciblées. Notre analyse en cours suggère que les balises WAIST sont déployées de manière inégale, les balises AgeGender (qui comprend les tranches d'âge et la classification binaire des sexes) et Location étant les balises WAIST dominantes appliquées à la plupart des publicités. Les balises WAIST Intérêt sont également très présentes, tandis que les balises Éducation, Relation et Situation professionnelle sont rarement utilisées.
 >
-> Pour aller plus loin :
+> **Pour aller plus loin :**
 > 
 > Angus, D., Burgess, J., Carah, C., Hayden, L., & Obeid, A. (2023, October). Exploring Facebook’s “Why Am I Seeing This” Ad System: Meaningful Transparency or Further Obfuscation? Paper presented at AoIR2023: The 24th Annual Conference of the Association of Internet Researchers. Philadelphia, PA, USA: AoIR. Retrieved from http://spir.aoir.org
 > 
@@ -57,15 +57,15 @@ Durant nos entretiens avec les usagers, nous avons noté un écart fort entre de
 
 En France, la régulation sur la transparence algorithmique a pris une tournure très centrée sur la défense des droits humains — en témoigne la disposition du Code des Relations avec le Public et les Administrations qui garantie un droit à l’information sur le rôle de l’algorithme dans une prise de décision administrative qui la concerne : 
 
->“L'administration communique à la personne faisant l'objet d'une décision individuelle prise sur le fondement d'un traitement algorithmique, à la demande de celle-ci, sous une forme intelligible et sous réserve de ne pas porter atteinte à des secrets protégés par la loi, les informations suivantes :
+>*“L'administration communique à la personne faisant l'objet d'une décision individuelle prise sur le fondement d'un traitement algorithmique, à la demande de celle-ci, sous une forme intelligible et sous réserve de ne pas porter atteinte à des secrets protégés par la loi, les informations suivantes :*
 >
->1° Le degré et le mode de contribution du traitement algorithmique à la prise de décision ;
+>*1° Le degré et le mode de contribution du traitement algorithmique à la prise de décision ;*
 >
->2° Les données traitées et leurs sources ;
+>*2° Les données traitées et leurs sources ;*
 >
->3° Les paramètres de traitement et, le cas échéant, leur pondération, appliqués à la situation de l'intéressé ;
+>*3° Les paramètres de traitement et, le cas échéant, leur pondération, appliqués à la situation de l'intéressé ;*
 >
->4° Les opérations effectuées par le traitement.”[3]
+>*4° Les opérations effectuées par le traitement.”*[3]
 
 Bien que cette disposition issue de la Loi Lemaire de 2016 soit une avancée, y compris par rapport aux législations existantes dans d’autres pays, de notre point de vue, expliquer un algorithme qui accompagne l’aménagement du territoire devrait être tout autant une priorité même si il ne touche pas directement la vie administrative d’un citoyen. 
 
