@@ -1,4 +1,4 @@
-Dans le cadre de Algo->lit, notre  projet européen de recherche-action dédié à la médiation aux algorithmes, nous souhaitons documenter des cas d'études concrets et tirer des leçons de nos rencontres, expérimentations et missions en cours. Nous saisissons l'occasion d'une mission de conseil réalisée par Maëlle Fouquenet et Clément Mandron pour la start-up d'Etat Mon Diagnostic Artificialisation — un outil de d'analyse et de visualisation de la consommation et artificialisation des sols — pour formuler des enseignements de la manière dont on peut améliorer les dispositifs de médiation aux données et algorithmes.
+Dans le cadre de [Algo->lit](https://algolit.eu/en), notre  projet européen de recherche-action dédié à la médiation aux algorithmes, nous souhaitons documenter des cas d'études concrets et tirer des leçons de nos rencontres, expérimentations et missions en cours. Nous saisissons l'occasion d'une mission de conseil réalisée par Maëlle Fouquenet et Clément Mandron pour la start-up d'Etat Mon Diagnostic Artificialisation — un outil de d'analyse et de visualisation de la consommation et artificialisation des sols — pour formuler des enseignements de la manière dont on peut améliorer les dispositifs de médiation aux données et algorithmes.
 
 Pendant quatre mois, Maëlle et Clément ont travaillé à décrire les données et calculs au cœur de cet outil. Loup, coordinateur du projet sur la médiation aux algorithmes, a suivi le projet, assisté à un atelier avec des usagers et participé à l'édition du livrable. Dans cet article fleuve que nous publions en deux parties, nous tirons quatre enseignements de cette mission que nous mettons en relation avec les problématiques plus vastes autour de l'utilisation des algorithmes par les pouvoirs publics, et la manière dont on peut mieux les comprendre grâce à un travail de médiation. Dans la [première partie de l’article](https://open.datactivist.coop/docs/4enseignements-partie1), nous avions tiré deux grands enseignements :
 * Expliquer un algorithme c'est d'abord expliquer ses données (Partie 1/2)
@@ -46,7 +46,10 @@ Durant nos entretiens avec les usagers, nous avons noté un écart fort entre de
 >
 > En réponse, nous proposons une description des données WAIST collectées à l'échelle, à partir d'un projet national de don de données par les citoyens sur la publicité Facebook. L'adéquation de la bibliothèque publicitaire et de WAIST en tant que mécanismes explicatifs est discutable. Si la bibliothèque donne un aperçu des publicités qui circulent, elle ne fournit que très peu d'informations significatives sur la question de savoir si, comment et à qui elles sont ciblées. Notre analyse en cours suggère que les balises WAIST sont déployées de manière inégale, les balises AgeGender (qui comprend les tranches d'âge et la classification binaire des sexes) et Location étant les balises WAIST dominantes appliquées à la plupart des publicités. Les balises WAIST Intérêt sont également très présentes, tandis que les balises Éducation, Relation et Situation professionnelle sont rarement utilisées.
 >
-> Pour aller plus loin: Angus, D., Burgess, J., Carah, C., Hayden, L., & Obeid, A. (2023, October). Exploring Facebook’s “Why Am I Seeing This” Ad System: Meaningful Transparency or Further Obfuscation? Paper presented at AoIR2023: The 24th Annual Conference of the Association of Internet Researchers. Philadelphia, PA, USA: AoIR. Retrieved from http://spir.aoir.org
+> Pour aller plus loin :
+> 
+> Angus, D., Burgess, J., Carah, C., Hayden, L., & Obeid, A. (2023, October). Exploring Facebook’s “Why Am I Seeing This” Ad System: Meaningful Transparency or Further Obfuscation? Paper presented at AoIR2023: The 24th Annual Conference of the Association of Internet Researchers. Philadelphia, PA, USA: AoIR. Retrieved from http://spir.aoir.org
+> 
 > Burgess, J., Carah, N., Angus, D., Obeid, A., & Andrejevic, M. (2024). Why Am I Seeing This Ad? The affordances and limits of automated user-level explanation in Meta’s advertising system. New Media & Society, 26(9), 5130-5149. https://doi.org/10.1177/14614448241251796.
 
 
@@ -55,9 +58,13 @@ Durant nos entretiens avec les usagers, nous avons noté un écart fort entre de
 En France, la régulation sur la transparence algorithmique a pris une tournure très centrée sur la défense des droits humains — en témoigne la disposition du Code des Relations avec le Public et les Administrations qui garantie un droit à l’information sur le rôle de l’algorithme dans une prise de décision administrative qui la concerne : 
 
 >“L'administration communique à la personne faisant l'objet d'une décision individuelle prise sur le fondement d'un traitement algorithmique, à la demande de celle-ci, sous une forme intelligible et sous réserve de ne pas porter atteinte à des secrets protégés par la loi, les informations suivantes :
+>
 >1° Le degré et le mode de contribution du traitement algorithmique à la prise de décision ;
+>
 >2° Les données traitées et leurs sources ;
+>
 >3° Les paramètres de traitement et, le cas échéant, leur pondération, appliqués à la situation de l'intéressé ;
+>
 >4° Les opérations effectuées par le traitement.”[3]
 
 Bien que cette disposition issue de la Loi Lemaire de 2016 soit une avancée, y compris par rapport aux législations existantes dans d’autres pays, de notre point de vue, expliquer un algorithme qui accompagne l’aménagement du territoire devrait être tout autant une priorité même si il ne touche pas directement la vie administrative d’un citoyen. 
