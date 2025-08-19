@@ -1980,6 +1980,28 @@
     "quotes": ""
   },
   {
+    "name": "4enseignements-partie2",
+    "title": "4 enseignements d’un projet de médiation aux données et algorithmes : le cas d’un outil de suivi de l’artificialisation des sols. (2/2)",
+    "image": "/images/docs/4enseignements2.png",
+    "description": "Une note de recherche avec quatre enseignements pour une meilleure information, documentation et médiation à propos des algorithmes en général",
+    "type": "Blog",
+    "index": 1,
+    "date": "2025-08-14",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "loup-cellard,clement-mandron,maelle-fouquenet",
+    "author_image": "/images/authors/loup-cellard.jpeg, /images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg",
+    "tags": "algorithmes,mediation,documentation,apprentissage,transparence",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "beta-gouv-mon-diag-artif",
+    "reference-title": "Publication et médiation des algorithmes de Mon Diagnostic Artificialisation",
+    "research_projects": "mediation-algorithmes",
+    "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
+    "quotes": ""
+  },
+  {
     "name": "bilan-voeux-2024",
     "title": "Retrospective 2024 : IAPlusQu’à",
     "image": "/images/docs/retro2024.png",
@@ -2243,26 +2265,4 @@
     "research_projects_titles": "",
     "quotes": ""
   }
-  {
-    "name": "4enseignements-partie2",
-    "title": "4 enseignements d’un projet de médiation aux données et algorithmes : le cas d’un outil de suivi de l’artificialisation des sols. (2/2)",
-    "image": "/images/docs/mon_diag/4enseignements2.png",
-    "description": "Une note de recherche avec quatre enseignements pour une meilleure information, documentation et médiation à propos des algorithmes en général",
-    "type": "Blog",
-    "index": 1,
-    "date": "2025-08-14",
-    "license": "ccbysa",
-    "pin": "",
-    "authors": "loup-cellard,clement-mandron,maelle-fouquenet",
-    "author_image": "/images/authors/loup-cellard.jpeg, /images/authors/clement-mandron.png, /images/authors/maelle-fouquenet.jpeg",
-    "tags": "algorithmes,mediation,documentation,apprentissage,transparence",
-    "partners": "",
-    "partners-names": "",
-    "partners-images": "",
-    "references_catalog": "beta-gouv-mon-diag-artif",
-    "reference-title": "Publication et médiation des algorithmes de Mon Diagnostic Artificialisation",
-    "research_projects": "mediation-algorithmes",
-    "research_projects_titles": "La médiation aux algorithmes : une approche pour pallier le manque de transparence algorithmique.",
-    "quotes": ""
-  },
 ]
