@@ -3,8 +3,8 @@
 1. Complétez la table "docs_catalog" dans la base Airtable Open Datactivist (ajoutez les métadonnées de votre document)
 2. Exportez la table au format CSV
 3. Convertir le [CSV en JSON](https://csvjson.com/csv2json), et le nommer ```docs_catalog.json```
-4. Puis [ajoutez le ici](https://github.com/datactivist/nextjs-doc/upload/main/public/sitedata) (ça met à jour le catalogue automatiquement)
-5. Enfin, ajoutez les dépendances nécessaires : exportez la table "authors" sous ```authors.csv``` et même opération pour les autres tables si ajout de dépencances depuis votre document (références, partenaires...). Bien vérifier le [nommage des fichiers ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata)
+4. Puis [ajoutez le ici](https://github.com/datactivist/opendatactivist/upload/main/public/sitedata) (ça met à jour le catalogue automatiquement)
+5. Enfin, ajoutez les dépendances nécessaires : exportez la table "authors" sous ```authors.csv``` et même opération pour les autres tables si ajout de dépencances depuis votre document (références, partenaires...). Bien vérifier le [nommage des fichiers ici](https://github.com/datactivist/opendatactivist/tree/main/public/sitedata)
 
 
 ## Effectuer la *pull request*

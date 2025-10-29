@@ -5,8 +5,8 @@ Aujoud'hui, il faut utiliser le modèle en JavaScript, c'est en cours de simplif
 ### Etapes en bref
 
 1. Créez un fichier ```nom-du-produit.js```
-2. Ajoutez-le [dans Github ici](https://github.com/datactivist/nextjs-doc/tree/main/pages/products)
-3. Compléter le catalogue au format json avec le nouveau produit : [fichier json](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/products-catalog.json)
+2. Ajoutez-le [dans Github ici](https://github.com/datactivist/opendatactivist/tree/main/pages/products)
+3. Compléter le catalogue au format json avec le nouveau produit : [fichier json](https://github.com/datactivist/opendatactivist/blob/main/public/sitedata/products-catalog.json)
 
 ### Modèle à copier 
 
@@ -51,7 +51,7 @@ export default function Produit() {
 
     ],
     liens: [
-        {url: 'https://github.com/datactivist/nextjs-doc/blob/main/public/files/plaquette-expo-smartcity.pdf', texte: '🔎 Voir la plaquette complète'},
+        {url: 'https://github.com/datactivist/opendatactivist/blob/main/public/files/plaquette-expo-smartcity.pdf', texte: '🔎 Voir la plaquette complète'},
         {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - exposition smart city', texte: '✉️ Nous contacter pour en savoir plus'},
       ]
   }

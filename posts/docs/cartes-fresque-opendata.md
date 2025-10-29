@@ -29,7 +29,7 @@ license: ccbysa
 
 # Comment utiliser les cartes ?
 
-<a href="https://github.com/datactivist/nextjs-doc/blob/main/public/files/cartes-fresque-opendata.pdf" class="customButton">🖨️ Télécharger le PDF à imprimer</a>
+<a href="https://github.com/datactivist/opendatactivist/blob/main/public/files/cartes-fresque-opendata.pdf" class="customButton">🖨️ Télécharger le PDF à imprimer</a>
 
 
 # Conseils complémentaires

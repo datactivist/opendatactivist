@@ -8,8 +8,8 @@
 Clone this repository :
 
 ```bash
-git clone https://github.com/datactivist/nextjs-doc.git
-cd nextjs-doc
+git clone https://github.com/datactivist/opendatactivist.git
+cd opendatactivist
 ```
 
 Install dependencies :

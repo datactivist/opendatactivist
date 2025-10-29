@@ -1,6 +1,6 @@
 ## Créer un fichier csv avec toutes les étapes
 
-- ↓ [Téléchargez ce modèle](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/canvas/standards.csv)
+- ↓ [Téléchargez ce modèle](https://github.com/datactivist/opendatactivist/blob/main/public/sitedata/canvas/standards.csv)
 - Adaptez-le avec le contenu souhaité
 
 ## Complétez les étapes / sections du patchwork
@@ -33,4 +33,4 @@ Chaque ligne représente une section
 Une fois votre tableau terminé :
 
 - Enregistrez-le sous le nom ```[url-du-patchwork].csv```
-- [Ajoutez-le ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata/canvas)
+- [Ajoutez-le ici](https://github.com/datactivist/opendatactivist/tree/main/public/sitedata/canvas)

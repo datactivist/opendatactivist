@@ -7,11 +7,11 @@ Merci de l'intérêt que vous portez à ce projet ! Toutes les contributions son
 
 ## Signaler un problème ou proposer une nouvelle fonctionnalité
 
-Si vous trouvez un problème ou si vous avez une suggestion de fonctionnalité, vous pouvez ouvrir une nouvelle [issue](https://github.com/datactivist/nextjs-doc/issues/new).
+Si vous trouvez un problème ou si vous avez une suggestion de fonctionnalité, vous pouvez ouvrir une nouvelle [issue](https://github.com/datactivist/opendatactivist/issues/new).
 
 Lorsque vous ouvrez une issue :
 
-> 1. Vérifiez les [issues](https://github.com/datactivist/nextjs-doc/issues) et [pull requests](https://github.com/datactivist/nextjs-doc/pulls) pour vous assurez que le problème ou la fonctionalité n'ont pas déja été adréssé ou sont en cours de traitement.
+> 1. Vérifiez les [issues](https://github.com/datactivist/opendatactivist/issues) et [pull requests](https://github.com/datactivist/opendatactivist/pulls) pour vous assurez que le problème ou la fonctionalité n'ont pas déja été adréssé ou sont en cours de traitement.
 > 2. Soyez le plus descriptif possible quant à la nature du problème ou de la fonctionnalité. Si vous avez trouvé un problème, fournissez des étapes pour le reproduire lorsque cela est possible.
 
 # Contribuer au contenu
@@ -23,17 +23,17 @@ Lorsque vous ouvrez une issue :
 1. Complétez la table "docs_catalog" dans la base Airtable Open Datactivist (ajoutez les métadonnées de votre document)
 2. Exportez la table au format CSV
 3. Convertir le [CSV en JSON](https://csvjson.com/csv2json), et le nommer ```docs_catalog.json```
-4. Puis [ajoutez le ici](https://github.com/datactivist/nextjs-doc/upload/main/public/sitedata) (ça met à jour le catalogue automatiquement)
-5. Enfin, ajoutez les dépendances nécessaires : exportez la table "authors" sous ```authors.csv``` et même opération pour les autres tables si ajout de dépencances depuis votre document (références, partenaires...). Bien vérifier le [nommage des fichiers ici](https://github.com/datactivist/nextjs-doc/upload/main/public/sitedata)
+4. Puis [ajoutez le ici](https://github.com/datactivist/opendatactivist/upload/main/public/sitedata) (ça met à jour le catalogue automatiquement)
+5. Enfin, ajoutez les dépendances nécessaires : exportez la table "authors" sous ```authors.csv``` et même opération pour les autres tables si ajout de dépencances depuis votre document (références, partenaires...). Bien vérifier le [nommage des fichiers ici](https://github.com/datactivist/opendatactivist/upload/main/public/sitedata)
 
 ✏️ **En utilisant NextCloud** 
 1. Se rendre dans le dossier OpenDatactivist / docs
 2. Créer un fichier texte (md) et le nommer par exemple ```methode-ouverture-donnees```
 3. Commencer à rédiger le contenu, sans écrire le titre (qui sera ajouté par les métadonnées)
 
-⚡️ [Ajout rapide sans interpreteur Markdown](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md))
+⚡️ [Ajout rapide sans interpreteur Markdown](https://github.com/datactivist/opendatactivist/new/main/posts/docs/filename=nom-du-doc.md))
 
-👉 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
+👉 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/opendatactivist/main/posts/docs/demo-doc.md)
 
 Quels types de contenus publier dans le dossier docs ?
 - article (type billet de blog) 
@@ -148,7 +148,7 @@ Par exemple, vous souhaitez ajouter un cas pratique ou un article pertinent, il 
 
 #### 2. Des liens
 
-Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'ajouter dans le fichier des liens ```links.catalog.json``` [qui se trouve ici](https://github.com/datactivist/opendatactivist/blob/main/public/sitedata/links-catalog.json)
 
 2.1. Ajoutez votre lien comme ceci à la fin du fichier
 
@@ -181,7 +181,7 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 
 #### 3. Une conversation sur TeamOpenData
 
-3.1. Ajoutez le lien de la conversation à la suite du [fichier des liens](https://github.com/datactivist/nextjs-doc/blob/main/public/sitedata/links-catalog.json)
+3.1. Ajoutez le lien de la conversation à la suite du [fichier des liens](https://github.com/datactivist/opendatactivist/blob/main/public/sitedata/links-catalog.json)
 
 > **Warning**  
 > Pour que le lien s'affiche comme une conversation, il est nécessaire de le catégoriser en "type = tod"
@@ -262,7 +262,7 @@ Les contributions sur ce dépôt sont les bienvenues !
 
 Si vous souhaitez contribuez à l'ajout d'une fonctionnalité ou à la correction d'un bug, suivez ces étapes :
 
-> 1. Vérifiez les [issues](https://github.com/datactivist/nextjs-doc/issues) et [pull requests](https://github.com/datactivist/nextjs-doc/pulls) pour vous assurez que le problème ou la fonctionalité n'ont pas déja été adréssé ou sont en cours de traitement.
+> 1. Vérifiez les [issues](https://github.com/datactivist/opendatactivist/issues) et [pull requests](https://github.com/datactivist/opendatactivist/pulls) pour vous assurez que le problème ou la fonctionalité n'ont pas déja été adréssé ou sont en cours de traitement.
 > 2. Faites un **Fork** du dépôt.
 > 3. Suivez le [guide d'installation](/INSTALL.md) pour lancer le projet dans un environnement de **développement local**.
 > 4. Créez une nouvelle branche dans votre fork, et faites les changements souhaités dans celle-ci.

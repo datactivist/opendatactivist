@@ -9,11 +9,11 @@ To ensure that your contributions can be accepted quickly and easily, please fol
 
 ## Reporting Issues
 
-If you find a bug or have a suggestion for a feature, you can open a new [issue](https://github.com/datactivist/nextjs-doc/issues/new).
+If you find a bug or have a suggestion for a feature, you can open a new [issue](https://github.com/datactivist/opendatactivist/issues/new).
 
 When opening an issue:
 
-> 1. Check the [issues](https://github.com/datactivist/nextjs-doc/issues) and [pull requests](https://github.com/datactivist/nextjs-doc/pulls) to make sure that the feature/bug has not already been addressed, or is being worked upon.
+> 1. Check the [issues](https://github.com/datactivist/opendatactivist/issues) and [pull requests](https://github.com/datactivist/opendatactivist/pulls) to make sure that the feature/bug has not already been addressed, or is being worked upon.
 > 2. Provide as much detail as possible about the issue, including steps to reproduce the issue if applicable.
 
 ## Submitting Pull Requests
@@ -22,7 +22,7 @@ We welcome contributions to this repository.
 
 If you want to contribute a feature or fix a bug, please follow these steps:
 
-> 1. Check the [issues](https://github.com/datactivist/nextjs-doc/issues) and [pull requests](https://github.com/datactivist/nextjs-doc/pulls) to make sure that the feature/bug has not already been addressed, or is being worked upon.
+> 1. Check the [issues](https://github.com/datactivist/opendatactivist/issues) and [pull requests](https://github.com/datactivist/opendatactivist/pulls) to make sure that the feature/bug has not already been addressed, or is being worked upon.
 > 2. Fork the repository.
 > 3. Follow the [installation instructions](/INSTALL.md) to run the project locally
 > 4. Create a new branch and make the changes in your fork.

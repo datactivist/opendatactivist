@@ -38,4 +38,4 @@ Un bloc de code
 ![image](/images/algo/1-1.png)
 ```
 
-Pour ajouter l'image, il faut la téléverser dans Github. Créez un dossier ```nom-du-canvas``` contenant vos images, et [téléverser le dossier ici](https://github.com/datactivist/nextjs-doc/tree/)main/public/images/canvas
+Pour ajouter l'image, il faut la téléverser dans Github. Créez un dossier ```nom-du-canvas``` contenant vos images, et [téléverser le dossier ici](https://github.com/datactivist/opendatactivist/tree/)main/public/images/canvas

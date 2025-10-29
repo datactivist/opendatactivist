@@ -24,7 +24,6 @@ const renderTextWithLineBreaks = (text) => {
   });
 };
 
-
 async function fetchQuotes(quoteIds, baseUrl) {
   const quotesPromises = quoteIds.split(',').map(async (id) => {
     const quoteResponse = await fetch(`${baseUrl}/api/quotes?ID=${id}`);
@@ -33,8 +32,6 @@ async function fetchQuotes(quoteIds, baseUrl) {
   });
   return Promise.all(quotesPromises);
 }
-
-
 
 const renderActionsWithIcons = (actionsText) => {
   return actionsText
@@ -78,16 +75,17 @@ export async function getServerSideProps(context) {
     }
 
     return {
-      props: { referenceData, docsCatalog: referenceData.docs_catalog || null, quotes },
+      props: {
+        referenceData,
+        docsCatalog: referenceData.docs_catalog || null,
+        quotes,
+      },
     };
   } catch (error) {
     console.error(error);
     return { notFound: true };
   }
 }
-
-
-
 
 export default function ReferencePage({ referenceData, docsCatalog, quotes }) {
   const router = useRouter();
@@ -114,6 +112,7 @@ export default function ReferencePage({ referenceData, docsCatalog, quotes }) {
   const partnerName = referenceData['partner-name'];
   // Supposons que teamImages et teamNames soient des tableaux correspondants
 
+  console.log(router.query.reference);
   const referenceImageSrc = `/images/references/${router.query.reference}.png`;
 
   return (
@@ -212,23 +211,28 @@ export default function ReferencePage({ referenceData, docsCatalog, quotes }) {
             <FilteredDocsDisplay docsList={docsCatalog} />
           </div>
         )}
-                {quotes.length > 0 && (
+        {quotes.length > 0 && (
           <div className={styles.quotesSection}>
             <h3 className={styles.quotesSectionTitle}>📸 La presse en parle</h3>
             <div className={styles.quotesGrid}>
               {quotes.map((quote, index) => (
                 <a key={index} href={quote.Link} className={styles.quoteCard}>
-                  <img src={quote.journal_image} alt={quote.Journal} className={styles.quoteImage} />
+                  <img
+                    src={quote.journal_image}
+                    alt={quote.Journal}
+                    className={styles.quoteImage}
+                  />
                   <div className={styles.quoteContent}>
                     <h2 className={styles.quoteTitle}>{quote.Title}</h2>
-                    <p className={styles.quoteDate}>⏱️ {formatDate(quote['Date published'])}</p>
+                    <p className={styles.quoteDate}>
+                      ⏱️ {formatDate(quote['Date published'])}
+                    </p>
                   </div>
                 </a>
               ))}
             </div>
           </div>
         )}
-
       </div>
     </Layout>
   );

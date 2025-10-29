@@ -4,13 +4,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/LayoutFocus.module.css';
-import { supabase } from "../utils/supabaseClient";
-import userIcon from '/public/icons/user.svg';  // Import your user icon
+import { supabase } from '../utils/supabaseClient';
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [appBarPosition, setAppBarPosition] = useState('sticky');
-  const [lastScrollPos, setLastScrollPos] = useState(0); 
+  const [lastScrollPos, setLastScrollPos] = useState(0);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -20,24 +19,24 @@ const Layout = ({ children }) => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-  }
+  };
 
   useEffect(() => {
     async function checkUserSession() {
       const { data, error } = await supabase.auth.getUser();
-      
+
       if (error) {
-        console.error("Error fetching user:", error.message);
+        console.error('Error fetching user:', error.message);
       } else if (data) {
         setLoggedIn(true);
       } else {
         setLoggedIn(false);
       }
     }
-    
+
     checkUserSession();
   }, []);
-  
+
   const handleLogout = async () => {
     await supabase.auth.signOut();
     setLoggedIn(false);
@@ -63,15 +62,15 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     const closeDropdown = (event) => {
-      if (dropdownOpen && !event.target.closest(".dropdown-container")) {
+      if (dropdownOpen && !event.target.closest('.dropdown-container')) {
         setDropdownOpen(false);
       }
     };
 
-    window.addEventListener("click", closeDropdown);
+    window.addEventListener('click', closeDropdown);
 
     return () => {
-      window.removeEventListener("click", closeDropdown);
+      window.removeEventListener('click', closeDropdown);
     };
   }, [dropdownOpen]);
 
@@ -87,9 +86,13 @@ const Layout = ({ children }) => {
       </Head>
       <header className={`${styles.appBar} ${styles[appBarPosition]}`}>
         <div className={styles.toolbar}>
-          <button onClick={toggleMenu} className={styles.hamburgerButton}>☰</button>
+          <button onClick={toggleMenu} className={styles.hamburgerButton}>
+            ☰
+          </button>
           <div className={styles.titleContainer}>
-            <a href="/" className={styles.title}>open </a>
+            <a href="/" className={styles.title}>
+              open{' '}
+            </a>
             <Link href="/" passHref>
               <Image
                 src="/images/footer/logo-datactivist.png"
@@ -101,45 +104,59 @@ const Layout = ({ children }) => {
               />
             </Link>
           </div>
-          <nav className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
+          <nav
+            className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}
+          >
             <Link href="/products" passHref>
               <span className={styles.link}>Outils & produits</span>
             </Link>
             <Link href="/docs" passHref>
               <span className={styles.link}>Contenus ouverts</span>
             </Link>
-            <div className={`${styles.userContainer} dropdown-container`} onClick={toggleDropdown}>
-        <Image src={userIcon} alt="User" width={30} height={30} />
-        <div className={`${styles.dropdownMenu} ${dropdownOpen ? styles.dropdownOpen : ''}`}>
-              {loggedIn ? (
+            <div
+              className={`${styles.userContainer} dropdown-container`}
+              onClick={toggleDropdown}
+            >
+              <Image src="/icons/user.svg" alt="User" width={30} height={30} />
+              <div
+                className={`${styles.dropdownMenu} ${
+                  dropdownOpen ? styles.dropdownOpen : ''
+                }`}
+              >
+                {loggedIn ? (
                   <>
-                      <Link href="/account/mes-informations" passHref>
-                          <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
-                      </Link>
-                      <div onClick={handleLogout} className={`${styles.link} ${styles.dropdownItem}`}>
-                          Me déconnecter
-                      </div>
+                    <Link href="/account/mes-informations" passHref>
+                      <span className={`${styles.link} ${styles.dropdownItem}`}>
+                        Mon compte
+                      </span>
+                    </Link>
+                    <div
+                      onClick={handleLogout}
+                      className={`${styles.link} ${styles.dropdownItem}`}
+                    >
+                      Me déconnecter
+                    </div>
                   </>
-              ) : (
+                ) : (
                   <Link href="/auth/login" passHref>
-                      <span className={`${styles.link} ${styles.dropdownItem}`}>Mon compte</span>
+                    <span className={`${styles.link} ${styles.dropdownItem}`}>
+                      Mon compte
+                    </span>
                   </Link>
-              )}
-          </div>
-      </div>
+                )}
+              </div>
+            </div>
           </nav>
         </div>
       </header>
 
       <main className={styles.layout}>
         <div className={`container ${styles.container}`}>
-          <div className={styles.box}>
-            {children}
-          </div>
+          <div className={styles.box}>{children}</div>
         </div>
       </main>
     </div>
-  );  
-}
+  );
+};
 
 export default Layout;

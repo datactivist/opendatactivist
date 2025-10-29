@@ -44,7 +44,7 @@ Une autre ligne
 
 ### Images
 
-Pour ajouter une image, la placer dans ce dossier [public/images/docs/dossier-du-doc/votre-image.png](https://github.com/datactivist/nextjs-doc/tree/main/public/images/docs)
+Pour ajouter une image, la placer dans ce dossier [public/images/docs/dossier-du-doc/votre-image.png](https://github.com/datactivist/opendatactivist/tree/main/public/images/docs)
 
 Puis l'insérer comme ceci dans le document
 
@@ -116,7 +116,7 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 %%Links:id-unique-lien,autrelien,lien3%%
 ```
 
-**2.3. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata)
+**2.3. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/opendatactivist/tree/main/public/sitedata)
 
 ### 3. Une conversation sur TeamOpenData
 
@@ -126,7 +126,7 @@ Pour ajouter un lien sous la forme d'une carte, il est d'abord nécessaire de l'
 
 [Ajouter un lien](https://airtable.com/appyfWzMQVuv4ZoNR/shrQqei9MsiEfurnQ "canvaLinkButton")
 
-**3.2. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/nextjs-doc/tree/main/public/sitedata)
+**3.2. Pensez à exporter la table Airtable des liens** en la nomant ```links.csv``` puis [la téléverser ici](https://github.com/datactivist/opendatactivist/tree/main/public/sitedata)
 
 #### 3.3. Intégrez votre lien dans le corps de texte de votre doc
 

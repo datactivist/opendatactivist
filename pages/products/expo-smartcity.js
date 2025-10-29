@@ -1,5 +1,5 @@
-import ProductPage from "../../components/products/ProductPage"
-import Layout from "../../components/Layout"
+import ProductPage from '../../components/products/ProductPage';
+import Layout from '../../components/Layout';
 
 export default function Produit() {
   const produit = {
@@ -29,24 +29,42 @@ export default function Produit() {
 
     `,
     imageUrl: '/images/products/expo-smartcity-product.jpeg',
-    targets: ['🦊 Curieuses et curieux','👩‍🏫 Elèves, étudiants','🧑🏻‍💻 Agents publics'],
-    partnersIds: ['civiteo','gens-evenement'],
+    targets: [
+      '🦊 Curieuses et curieux',
+      '👩‍🏫 Elèves, étudiants',
+      '🧑🏻‍💻 Agents publics',
+    ],
+    partnersIds: ['civiteo', 'gens-evenement'],
     testimonials: [
-      {text: "Un des temps forts de la Digital Week : une exposition qui reconstitue virtuellement une rue pour faire comprendre au citoyen les multiples façons qui permettent aujourd’hui de capter ses données. Une leçon de choses très instructive !", author: "Ouest France"},
-      {text: "« Souriez, vous êtes captés ! », l'expo qui explique bénéfices et risques de là ville connectée. La ville de demain sera connectée. Qu‘est-ce que cela signifie ? Quel intérêt pour les citoyens ? Quels risques ?", author: "Le Figaro"},
-      {text: "Alors que le numérique au sens très large soulève des peurs qui échappent parfois au domaine du rationnel, les organisateurs de l'exposition « Souriez, vous êtes captés ! » offrent une approche simple et ludique du sujet.", author: "Le Figaro"},
-
+      {
+        text: 'Un des temps forts de la Digital Week : une exposition qui reconstitue virtuellement une rue pour faire comprendre au citoyen les multiples façons qui permettent aujourd’hui de capter ses données. Une leçon de choses très instructive !',
+        author: 'Ouest France',
+      },
+      {
+        text: "« Souriez, vous êtes captés ! », l'expo qui explique bénéfices et risques de là ville connectée. La ville de demain sera connectée. Qu‘est-ce que cela signifie ? Quel intérêt pour les citoyens ? Quels risques ?",
+        author: 'Le Figaro',
+      },
+      {
+        text: "Alors que le numérique au sens très large soulève des peurs qui échappent parfois au domaine du rationnel, les organisateurs de l'exposition « Souriez, vous êtes captés ! » offrent une approche simple et ludique du sujet.",
+        author: 'Le Figaro',
+      },
     ],
     liens: [
-        {url: 'https://github.com/datactivist/nextjs-doc/blob/main/public/files/plaquette-expo-smartcity.pdf', texte: '🔎 Voir la plaquette complète'},
-        {url: 'mailto:ventes@datactivist.coop?subject=Demande d\'informations - exposition smart city', texte: '✉️ Nous contacter pour en savoir plus'},
-      ]
-  }
+      {
+        url: 'https://github.com/datactivist/opendatactivist/blob/main/public/files/plaquette-expo-smartcity.pdf',
+        texte: '🔎 Voir la plaquette complète',
+      },
+      {
+        url: "mailto:ventes@datactivist.coop?subject=Demande d'informations - exposition smart city",
+        texte: '✉️ Nous contacter pour en savoir plus',
+      },
+    ],
+  };
 
   return (
     <Layout>
-    <br></br>
-    <ProductPage {...produit} />
+      <br></br>
+      <ProductPage {...produit} />
     </Layout>
-  )
+  );
 }

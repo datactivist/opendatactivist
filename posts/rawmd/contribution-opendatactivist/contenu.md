@@ -6,5 +6,5 @@
 
 ## ⚡️ Ajout rapide sans interpreteur Markdown
 
-1. [Commencer à rédiger ici](https://github.com/datactivist/nextjs-doc/new/main/posts/docs/filename=nom-du-doc.md)
-2. 🔖 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/nextjs-doc/main/posts/docs/demo-doc.md)
+1. [Commencer à rédiger ici](https://github.com/datactivist/opendatactivist/new/main/posts/docs/filename=nom-du-doc.md)
+2. 🔖 [Un exemple fichier que vous pouvez copier et adapter](https://raw.githubusercontent.com/datactivist/opendatactivist/main/posts/docs/demo-doc.md)
