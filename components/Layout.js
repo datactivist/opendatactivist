@@ -78,8 +78,7 @@ const Layout = ({ children }) => {
       <footer className={styles.footer}>
         <div className={styles.footerIcons}>
           <Link href="https://www.linkedin.com/company/datactivist" passHref><Image src="/images/footer/linkedin.svg" alt="LinkedIn" width={24} height={24} /></Link>
-          <Link href="mailto:hello@datactivist.coop" passHref><Image src="/images/footer/mail.svg" alt="Mail" width={24} height={24} /></Link>
-          <Link href="https://x.com/datactivi_st" passHref><Image src="/images/footer/x.svg" alt="X" width={24} height={24} /></Link>
+          <Link href="mailto:hello@datactivist.coop" passHref><Image src="/images/footer/mail.svg" alt="Mail" width={24} height={24} /></Link>          
         </div>
         <div className={styles.footerLinks}>
           <Link href="/partners">Nos partenaires</Link>
