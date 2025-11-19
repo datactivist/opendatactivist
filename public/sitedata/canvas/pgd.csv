@@ -1,5 +1,5 @@
 filename,title,level,description
-meta,Patchwork Plan de Gestion de données (PGD),0,Construire un PGD
+meta,Patchwork Rédiger un Plan de Gestion de données (PGD),0,Un parcours d'accompagnement de bout-en-bout pour construire son Plan de Gestion des Données
 1.intro,Préparer l’acquisition des données,1,
 1.1.identifier-prod,Identifier les produits de recherche du projet,1.1,
 1.2.expliquer,Expliquer si les données sont réutilisées ou collectées,1.2,
@@ -24,3 +24,4 @@ meta,Patchwork Plan de Gestion de données (PGD),0,Construire un PGD
 5.1.licence,Déterminer la licence appliquée aux données,5.1,
 5.2.outil-reut,Indiquer les outils nécessaires pour réutiliser les données,5.2,
 5.3.responsabilite,Déterminer les responsabilités pour la gestion des données et du PGD,5.3,
+
