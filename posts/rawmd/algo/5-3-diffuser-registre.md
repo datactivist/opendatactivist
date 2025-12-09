@@ -8,7 +8,7 @@ En complément du registre, il faut identifier les algorithmes pour lesquels une
 
 La ressource clé peut vous aider à les identifier et vous propose un modèle de mention d'information.
 
-#### [Ressource clé](https://guides.etalab.gouv.fr/algorithmes/mention/)
+#### [Ressource clé](https://guides.data.gouv.fr/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-lobligation-de-mention-explicite)
 
 ### Communiquer sur la démarche
 
