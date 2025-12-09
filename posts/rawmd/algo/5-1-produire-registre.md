@@ -4,7 +4,7 @@
 
 Le guide Etalab propose une fiche pratique qui concerne la publication du registre. A noter : dans son guide, Etalab utilise le nom “Inventaire” pour désigner le registre.
 
-#### [Ressource clé]([https://guides.etalab.gouv.fr/algorithmes/inventaire/#comment-realiser-mon-inventaire](https://guides.data.gouv.fr/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-linventaire-des-principaux-traitements-algorithmiques))
+#### [Ressource clé](https://guides.data.gouv.fr/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-linventaire-des-principaux-traitements-algorithmiques)
 
 ### Choisir l'outil de publication
 
