@@ -4,7 +4,7 @@
 
 De ce fait, pour convaincre en interne sur la légitimité du projet, il sera nécessaire de prendre appui sur le cadre légal des algorithmes publics, et plus précisément sur la jurisprudence de plusieurs juridictions et autorités administratives indépendantes (Conseil constitutionnel, Conseil d’Etat, Commission d’accès aux documents administratifs) relatives aux algorithmes publics.
 
-#### [Ressource clé](https://guides.etalab.gouv.fr/algorithmes/guide/#_2-les-enjeux-des-algorithmes-publics)
+#### [Ressource clé]([https://guides.etalab.gouv.fr/algorithmes/guide/#_2-les-enjeux-des-algorithmes-publics](https://etalab.github.io/algorithmes-publics/guide.html))
 
 ### Obtenir la validation du projet et le soutien hiérarchique nécessaire
 
