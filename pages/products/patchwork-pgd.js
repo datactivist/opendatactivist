@@ -20,7 +20,7 @@ export default function Produit() {
       {text: "Ça permet d'avancer à notre rythme et d'accéder aux ressources pertinentes", author: "Utilisatrice du patchwork"}
     ],
     liens: [
-        {url: 'https://opendatacanvas.org/sprint-pgd', texte: '👾 Accéder au patchwork'},
+        {url: 'https://opendatactivist.vercel.app/canvas/pgd/home', texte: '👾 Accéder au patchwork'},
       ]
   }
 
