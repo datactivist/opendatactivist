@@ -31,7 +31,7 @@ export default function Produit() {
     ],
     liens: [
       {
-        url: 'https://opendatacanvas.org/transparence-algo',
+        url: 'https://opendatactivist.vercel.app/canvas/algo/home',
         texte: '👾 Accéder au patchwork',
       },
     ],
