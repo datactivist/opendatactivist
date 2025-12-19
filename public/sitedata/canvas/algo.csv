@@ -1,22 +1,20 @@
 filename,title,level,description
 meta,Patchwork ouverture des algorithmes,0,Un modèle en plusieurs étapes pour compléter son registre des algorithmes publics
-1.intro,Cadrer le projet,1,
-1-1-definir-projet ,"Définir son projet d'algorithmes
-",1.1,
-1-2-choisir-projet,"Choisir son projet de registre
-",1.2,
+1-intro,Cadrer le projet,1,
+1-1-definir-projet ,Définir son projet d'algorithmes,1.1,
+1-2-choisir-projet,Choisir son projet de registre,1.2,
 1-3-valider-projet ,Valider le projet,1.3,
-2.intro,Rassembler une équipe,2,
+2-intro,Rassembler une équipe,2,
 2-1-constituer-equipe ,Constituer une équipe accompagnatrice du projet,2.1,
-2-2-choisir-services ,"Choisir les services métiers à impliquer
-",2.2,
-3.intro,Acculturer,3,
+2-2-choisir-services ,Choisir les services métiers à impliquer,2.2,
+3-intro,Acculturer,3,
 3-1-connaitre-equipe ,Connaître votre équipe,3.1,
 3-2-exemple-parcours ,Un exemple de parcours d'acculturation,3.2,
-4.intro,Identifier les algorithmes,4,
+4-intro,Identifier les algorithmes,4,
 4-1-creer-inventaire ,Créer l'inventaire,4.1,
 4-2-chercher-algorithmes ,Chercher les algorithmes,4.2,
-5.intro,Publier le registre,5,
+5-intro,Publier le registre,5,
 5-1-produire-registre ,Produire le registre,5.1,
 5-2-remplir-registre ,Remplir le registre,5.2,
 5-3-diffuser-registre ,Diffuser le registre,5.3,
+
