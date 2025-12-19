@@ -22,5 +22,6 @@ Pour être compris, un jeu de données a parfois besoin d'une documentation asso
 
 Après vous être connecté au portail de la commune, rendez-vous sur le "Back Office". 
 
-#### [Ressource clé](https://guides.data.gouv.fr/guide-data.gouv.fr)
+#### [Ressource clé](https://guides.data.gouv.fr/guide-data.gouv.fr "canvaLinkButton")
+
  
