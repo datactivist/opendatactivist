@@ -23,4 +23,5 @@ Comment prendre une décision sur la liste des données que vous vous engagez à
 - cochez dans la colonne "Décision d'ouverture" les jeux que vous vous engagez à ouvrir
 - demandez aux expert de vérifier la faisabilité de votre liste 
 
-#### [Ressource clé](https://nextcloud.datactivist.coop/s/cyTsoAQRLH3MNXo)
+
+#### [Ressource clé](https://nextcloud.datactivist.coop/s/cyTsoAQRLH3MNXo "canvaLinkButton")
