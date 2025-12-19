@@ -1,3 +1,10 @@
+## Comment avoir une image de fond sur la page de présentation des canvas ?
+
+Pour qu'une image apparaisse en fond du bloc de titre, vous devez télécharger une image dans le dossier images/canvas portant le même nom que votre canvas.
+Pour le canvas pgd, vous devez avoir une image nommée pgd.png.
+
+![](/images/contribution-opendatactivist/fondcanva.png)
+
 ## Comment ajouter les sections ?
 
 Reprenez votre tableau des étapes, et pour chaque ligne créez un fichier markdown (sauf pour la première ligne "meta")
