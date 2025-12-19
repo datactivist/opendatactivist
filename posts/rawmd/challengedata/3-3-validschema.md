@@ -1,10 +1,10 @@
-## 
+## 3.1 Valider le schéma des données
 
 ### Premier pas : vérifier les schémas des jeux de données à l'aide des validateurs
 
 Pour certains jeux de données, un validateur existe : il permet de vérifier si le schéma (l'agencement du fichier) est respecté et si les valeurs (cellules) sont complètes.
 
-[Ressource clé](https://nextcloud.datactivist.coop/f/1686810)
+[Ressource clé](https://nextcloud.datactivist.coop/f/1686810 "canvaLinkButton")
 
 ### Deuxième pas : vérifier les schémas "manuellement" lorsqu'ils ne disposent pas de validateurs
 
