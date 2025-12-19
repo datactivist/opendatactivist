@@ -23,13 +23,13 @@ Poser vos questions à la collectivité à l'aide du formulaire en ligne. Vous p
 
 Répondez avec la collectivité au questionnaire qui se trouve dans la deuxième partie du formulaire. Les réponses aux questions vous permettront de donner un score de maturité de la collectivité pouvant aller de 1 pour les moins avancées jusqu'à 4 pour les plus avancées 
 
-#### [Ressource clé](https://airtable.com/app2kMIisrHXR6jI4/shrr389QJ2KHOVfHj)
+#### [Ressource clé](https://airtable.com/app2kMIisrHXR6jI4/shrr389QJ2KHOVfHj  "canvaLinkButton")
 
 ### Troisième pas : Informer la collectivité de son niveau de maturité et son positionnement par rapport aux autres collectivités
 
 Comment récupérer le niveau de maturité de la collectivité ? 
  
-#### [Ressource clé](https://airtable.com/shr4hkTi6y6mwMqQ9)
+#### [Ressource clé](https://airtable.com/shr4hkTi6y6mwMqQ9  "canvaLinkButton")
 
 
 Conseil pour réussir cette première étape
@@ -37,3 +37,4 @@ Conseil pour réussir cette première étape
 *Comment recueillir au mieux les besoins des collectivités et évaluer leur niveau de maturité ?*
 
 Il n'existe aucune question naive dans cette première étape. Posez un maximum de questions et gardez bien en tête que c'est en comprenant avec précision les besoins des collectivités que vous pourrez ouvrir des données qui lui seront utiles 
+
