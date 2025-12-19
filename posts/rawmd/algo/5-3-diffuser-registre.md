@@ -4,11 +4,9 @@
 
 En complément du registre, il faut identifier les algorithmes pour lesquels une mention d'information est obligatoire.
 
-<br></br>
-
 La ressource clé peut vous aider à les identifier et vous propose un modèle de mention d'information.
 
-#### [Ressource clé](https://guides.data.gouv.fr/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-lobligation-de-mention-explicite)
+#### [Ressource clé](https://guides.data.gouv.fr/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-lobligation-de-mention-explicite "canvaLinkButton")
 
 ### Communiquer sur la démarche
 
@@ -18,4 +16,4 @@ La démarche doit être visible pour le grand public. Il faut donc communiquer e
 
 Une démarche de transparence algorithmique est un projet vivant qui doit être mis à jour et révisé régulièrement. En complément, une réflexion sur l'éthique peut également être menée.
 
-#### [Ressource clé](http://ethicstoolkit.ai/)
+#### [Ressource clé](http://ethicstoolkit.ai/ "canvaLinkButton")
