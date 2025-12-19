@@ -18,4 +18,4 @@ Afin d'impliquer les services dans la démarche, une réunion de présentation d
 
 Elle doit faire prendre conscience aux services de ce qu'ils ont a apporter et gagner dans la démarche.
 
-#### [Ressource clé](https://nx12829.your-storageshare.de/s/HZkQjpfcM8xpkyy)
+#### [Ressource clé](https://nx12829.your-storageshare.de/s/HZkQjpfcM8xpkyy "canvaLinkButton")
