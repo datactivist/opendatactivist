@@ -5,4 +5,5 @@ Objectif : des fichiers excel contenant les données choisies & des fichiers exc
 Munis de la wish list de la commune, les étudiants partent en exploration dans les différents services de la collectivité concernés par la production de ces données. Vous tentez d'en récupérer un maximum.
 
 
-#### [Ressource clé](https://nextcloud.datactivist.coop/s/TEGwyrkiyp5xFgK)
+
+#### [Ressource clé](https://nextcloud.datactivist.coop/s/TEGwyrkiyp5xFgK "canvaLinkButton")
