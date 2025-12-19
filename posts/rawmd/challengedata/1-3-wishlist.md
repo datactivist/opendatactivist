@@ -12,7 +12,7 @@ Sur le catalogue, vous verrez que les jeux de données sont classés par catégo
 - option : vous pouvez également filtrer les données en fonction du niveau de maturité. Cela vous donnera un ordre d'idée de la difficulté à ouvrir le jeu de donnée. (le niveau 1 indiquant un jeu facile à ouvrir ; le niveau 4 un jeu très difficile à ouvrir)
 - la liste filtrée constituera une bonne base pour le deuxième pas 
 
-[Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8)
+[Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8 "canvaLinkButton")
 
 ### Deuxième pas : remplir le template de Wish List
 
@@ -24,4 +24,5 @@ Ouvrez la ressource clé "Wish list" qui se trouve dans le dossier "Jour 1".
 - Contactez le référent de la collectivité pour qu'il puisse identifier le service qui produit les données
 - Notez scrupuleusement les informations de contact dans l'onglet "wish list" du template 
 
-[Ressource clé](https://nextcloud.datactivist.coop/s/cyTsoAQRLH3MNXo)
+
+[Ressource clé](https://nextcloud.datactivist.coop/s/cyTsoAQRLH3MNXo "canvaLinkButton")
