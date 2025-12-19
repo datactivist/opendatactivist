@@ -10,7 +10,7 @@ Il s'agit d'interroger la collectivité sur les jeux de donnée qu'elle voudrait
 
 [Cas d'usage des données du catalogue](https://docs.google.com/presentation/d/1YmCBDzfzmvPQQPQi8Nz6ApLQ8qiVYfXnKAdwRSRCR3o/preview?usp=sharing) 
 
-#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8)
+#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8 "canvaLinkButton")
 
 ### Deuxième pas : filtrer le catalogue de données
 
@@ -18,7 +18,7 @@ Il s'agit d'interroger la collectivité sur les jeux de donnée qu'elle voudrait
 
 En fonction des besoins de la collectivité, vous pourrez filtrer le catalogue de données (voir la ressource clé). 
 
-#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8)
+#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8 "canvaLinkButton")
 
 ### Résultat attendu
 
@@ -26,4 +26,5 @@ Ce que vous devez obtenir à la fin de cette étape
 
 Un catalogue de données filtré en fonction des thématiques retenues. 
 
-#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8)
+
+#### [Ressource clé](https://airtable.com/shrL54CSEAr2ArHb8 "canvaLinkButton")
