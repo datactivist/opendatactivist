@@ -21,7 +21,7 @@ Troisièmement, quel message souhaitez-vous adresser ?
 
 Aidez-vous de cette ressource, en filtrant les styles de dataviz avec les options situées en haut du site. 
 
-#### [Ressource clé](https://datavizproject.com/)
+#### [Ressource clé](https://datavizproject.com/ "canvaLinkButton")
 
 ### Deuxième pas : réalisez une datavisualisation
 
@@ -29,4 +29,5 @@ Voici quelques outils pour créer une datavisualisation (graphique ou cartograph
 
 NB : cette étape, à l'image de la programmation informatique, vous amènera à tester vos visualisations, à les réaliser en plusieurs fois en testant différents paramètres jusqu'à l'obtention d'une visualisation satisfaisante. 
 
-#### [Ressource clé](https://nextcloud.datactivist.coop/s/ASMf8MXojABgQaA)
+
+#### [Ressource clé](https://nextcloud.datactivist.coop/s/ASMf8MXojABgQaA "canvaLinkButton")
