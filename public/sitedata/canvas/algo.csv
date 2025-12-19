@@ -1,6 +1,6 @@
 filename,title,level,description
 meta,Patchwork ouverture des algorithmes,0,Un modèle en plusieurs étapes pour compléter son registre des algorithmes publics
-1-intro,·🔎Cadrer le projet,1,
+1-intro,🔎Cadrer le projet,1,
 1-1-definir-projet ,Définir son projet d'algorithmes,1.1,
 1-2-choisir-projet,Choisir son projet de registre,1.2,
 1-3-valider-projet ,Valider le projet,1.3,
@@ -17,5 +17,6 @@ meta,Patchwork ouverture des algorithmes,0,Un modèle en plusieurs étapes pour 
 5-1-produire-registre ,Produire le registre,5.1,
 5-2-remplir-registre ,Remplir le registre,5.2,
 5-3-diffuser-registre ,Diffuser le registre,5.3,
+
 
 
