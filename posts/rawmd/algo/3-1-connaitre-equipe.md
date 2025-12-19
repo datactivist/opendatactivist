@@ -8,6 +8,4 @@ Au sein d'un projet, des personnes avec des profils de connaissance différents 
 
 L'évaluation des profil doit vous permettre de proposer des parcours d'acculturation aux profils débutants et intermédiaires.
 
-<br></br>
-
 L'évaluation peut se faire au moyen d'un entretien ou d'un questionnaire adapté à vos objectifs.
