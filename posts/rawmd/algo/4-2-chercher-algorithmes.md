@@ -4,7 +4,7 @@
 
 Les membres de l’équipe constituée à l'étape 2 peuvent vous aider à identifier des algorithmes qu’ils utilisent ou dont ils ont connaissance de par leurs missions. Le ressource-clé peut vous aider à accompagner les services et directions dans leur rôle d'identificateur d'algorithmes.
 
-#### [Ressource clé](https://nx12829.your-storageshare.de/s/jYQWikc2ETs2BA2)
+#### [Ressource clé](https://nx12829.your-storageshare.de/s/jYQWikc2ETs2BA2 "canvaLinkButton")
 
 ### Lister les algorithmes
 
@@ -18,4 +18,4 @@ La sélection des algorithmes sert à prioriser les algorithmes à publier ou à
 
 Globalement, à ce stade, vous concrétiser votre stratégie de publication définie à l'étape 1.
 
-#### [Ressource clé](https://nx12829.your-storageshare.de/s/MFFm3MrGmdXjiyM)
+#### [Ressource clé](https://nx12829.your-storageshare.de/s/MFFm3MrGmdXjiyM "canvaLinkButton")
