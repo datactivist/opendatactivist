@@ -23,7 +23,7 @@ Exemple : est-il normal de n'avoir qu'une seule école dans une commune ?
 
 Si ce n'est pas le cas, il sera nécessaire de compléter les données de la commune avec d'autres données (ouvertes). 
 
-#### [Ressource clé](https://opendatactivist.vercel.app/docs/cycle-module3-qualite)
+#### [Ressource clé](https://opendatactivist.vercel.app/docs/cycle-module3-qualite "canvaLinkButton")
 
 
 ### Quatrième pas : évaluez le travail de standardisation
@@ -32,4 +32,5 @@ Comment évaluer le travail de standardisation pour mettre en qualité les donn�
 
 Comparez les données par rapport aux schémas qui se trouvent dans la ressource clé.
 
-#### [Ressource clé](https://schema.data.gouv.fr/)
+
+#### [Ressource clé](https://schema.data.gouv.fr/ "canvaLinkButton")
