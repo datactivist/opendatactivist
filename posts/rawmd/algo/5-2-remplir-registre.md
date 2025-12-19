@@ -4,7 +4,7 @@
 
 Les informations à demander pourront varier selon le profil de la personne rencontrée (commanditaire, concepteur, utilisateur).
 
-#### [Ressource clé](https://nx12829.your-storageshare.de/s/KBWnECMyCYZF7CQ)
+#### [Ressource clé](https://nx12829.your-storageshare.de/s/KBWnECMyCYZF7CQ "canvaLinkButton")
 
 ### Recueillir la documentation
 
