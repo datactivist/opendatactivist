@@ -17,4 +17,5 @@ Vous pouvez faire le travail à la main en vérifiant les points suivants :
 
 Vous pouvez également utiliser l'outil proposé par Etalab qui vous permettra de saisir ou charger un fichier et vérifier sa conformité à un standard
 
-[Ressource clé](https://publier.etalab.studio/fr)
+
+[Ressource clé](https://publier.etalab.studio/fr "canvaLinkButton")
