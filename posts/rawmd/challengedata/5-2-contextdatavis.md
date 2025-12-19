@@ -6,4 +6,5 @@ Dans la ressource clé, vous trouverez des encadrés à compléter "Contexte de 
 
 Pour chaque visualisation, et donc dans chaque jeu de données, complétez ces encadrés en le modifiant directement. 
 
-#### [Ressource clé](https://nextcloud.datactivist.coop/s/jymsnzbYnGpKLgH)
+
+#### [Ressource clé](https://nextcloud.datactivist.coop/s/jymsnzbYnGpKLgH "canvaLinkButton")
