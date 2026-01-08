@@ -11,4 +11,4 @@ Défenseurs de la data literacy, nous pensons que les compétences de compréhen
 
 **Ces convictions, nous les défendons sans naïveté ni pessimisme, avec pragmatisme face à l’état de la société et la réalité des organisations.**
 
-Datactivist est une coopérative où chaque salarié·e a vocation à devenir associé·e et dispose d’un pouvoir égal. Nous sommes une alliance de profils variés mais toutes et toutes avons noué une relation forte avec la donnée, qui est souvent au cœur de nos engagements personnels. Nous travaillons avec des acteurs publics, associatifs et privés pour mettre la donnée et l’IA au service de l’intérêt général. 
+Datactivist est une coopérative où chaque salarié·e a vocation à devenir associé·e et dispose d’un pouvoir égal. Nous sommes une alliance de profils variés mais toutes et tous avons noué une relation forte avec la donnée, qui est souvent au cœur de nos engagements personnels. Nous travaillons avec des acteurs publics, associatifs et privés pour mettre la donnée et l’IA au service de l’intérêt général. 
