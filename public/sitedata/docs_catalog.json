@@ -2308,5 +2308,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
+  },
+  {
+    "name": "cartes-fresque-so",
+    "title": "Cartes à imprimer pour la fresque de la science ouverte",
+    "image": "/images/docs/cartes-fresque-so.png",
+    "description": "Les cartes à imprimer pour la fresque de la science ouverte",
+    "type": "Atelier",
+    "index": 1,
+    "date": "2026-01-09",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "anne-laure-donzel,candice-fillaud,margaux-larre-perez",
+    "author_image": "/images/authors/anne-laure-donzel.jpeg, /images/authors/candice-fillaud.png, /images/authors/margaux-larre-perez.png",
+    "tags": "atelier,science ouverte,formation",
+    "partners": "IRD",
+    "partners-names": "Institut de recherche pour le développement",
+    "partners-images": "/images/partners/Logo-IRD.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
