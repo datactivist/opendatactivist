@@ -1,10 +1,8 @@
 import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
-
 export default function Produit() {
   const produit = {
     docsList: ['fresque-so'],
-
     nom: 'Fresque de la Science Ouverte',
     baseline: 'Une fresque pour comprendre les enjeux et les concepts de la science ouverte',
     description: `
