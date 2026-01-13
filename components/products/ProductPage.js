@@ -1,9 +1,19 @@
 import React from 'react';
 import styles from '../../styles/ProductPage.module.css';
-import FilteredDocsDisplay from "../docs/FilteredDocsDisplay";
+import FilteredDocsDisplay from '../docs/FilteredDocsDisplay';
 import Partners from '../nav/Partners';
 
-const ProductPage = ({ nom, baseline, description, targets, liens, testimonials, docsList, imageUrl, partnersIds }) => { 
+const ProductPage = ({
+  nom,
+  baseline,
+  description,
+  targets,
+  liens,
+  testimonials,
+  docsList,
+  imageUrl,
+  partnersIds,
+}) => {
   return (
     <div className={styles.productBox}>
       <h1>{nom}</h1>
@@ -17,11 +27,19 @@ const ProductPage = ({ nom, baseline, description, targets, liens, testimonials,
           <br></br>
         </>
       )}
-      <div className={styles.description} dangerouslySetInnerHTML={{ __html: description }} />
+      <div
+        className={styles.description}
+        dangerouslySetInnerHTML={{ __html: description }}
+      />
       <br />
       <div>
         {liens.map((lien, index) => (
-          <a key={index} href={lien.url} target="_blank" rel="noopener noreferrer">
+          <a
+            key={index}
+            href={lien.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className={styles.button}>{lien.texte}</button>
           </a>
         ))}
@@ -32,15 +50,19 @@ const ProductPage = ({ nom, baseline, description, targets, liens, testimonials,
           <li key={index}>{target}</li>
         ))}
       </ul>
-      <h3>Quelques témoignages :</h3>
-      <div className={styles.testimonials}>
-        {testimonials.map((testimonial, index) => (
-          <div key={index} className={styles.testimonial}>
-            <p>{testimonial.text}</p>
-            <cite>- {testimonial.author}</cite>
+      {testimonials && testimonials.length > 0 && (
+        <>
+          <h3>Quelques témoignages :</h3>
+          <div className={styles.testimonials}>
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className={styles.testimonial}>
+                <p>{testimonial.text}</p>
+                <cite>- {testimonial.author}</cite>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      )}
       {docsList && docsList.length > 0 && (
         <>
           <h3>Contenus liés :</h3>

@@ -23,7 +23,7 @@ export default function Produit() {
       '👩‍🏫 Elèves, étudiants',
       '🧑🏻‍💻 Agents publics',
     ],
-    partnersIds: ['ird'],
+    partnersIds: ['IRD'],
 
     liens: [
       {
@@ -35,6 +35,7 @@ export default function Produit() {
         texte: '🖨️ Imprimez le jeu',
       },
     ],
+    testimonials: [],
   };
 
   return (
