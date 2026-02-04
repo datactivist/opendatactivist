@@ -11,6 +11,7 @@ export default function Produit() {
     <li>En apprendre plus sur les effets non-marchands des commerces de proximité</li>
       <li>Découvrir des pistes d'actions pour aider les commerçants à continuer de contribuer à un cadre de vie de qualité</li>
       <li>Vous saisir de notre méthodologie pour mener votre propre enquête logalement</li>
+       </ul>
     `,
     imageUrl: '/images/products/flyer-excom.png',
     targets: [
