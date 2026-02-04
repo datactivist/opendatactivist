@@ -21,7 +21,7 @@ export default function Produit() {
     ],
     partnersIds: ['part-excom'],
     liens: [
-      {url: 'mailto:elise@datactivi.st?subject=Demande d\'informations - EXCOM', texte: '✉️ Nous contacter pour en savoir plus'},
+      {url: 'mailto:elise@datactivi.st?subject=Demande d\'informations - EXCOM', texte: '✉️ Nous contacter pour en savoir plus'}
     ]
   }
   
