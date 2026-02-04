@@ -13,7 +13,7 @@ export default function Produit() {
       <li>Vous saisir de notre méthodologie pour mener votre propre enquête logalement</li>
        </ul>
     `,
-    imageUrl: '/images/products/flyer-excom.png',
+    imageUrl: '/images/docs/flyer-excom.png',
     targets: [
       '👥 Les acteurs politiques et administratifs (élus, agents)',
       '🎯 Les commerçants',
