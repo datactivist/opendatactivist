@@ -5,7 +5,7 @@ export default function Produit() {
     docsList: ['rapport-final-excom','flyer-excom','methodo-excom','super-commerces-excom','commerce-etages-excom','rapport-excom-1'],
     nom: 'La boîte à outils EXCOM',
     baseline: 'Découvrez toutes les ressources produites dans le cadre du projet de recherche-action EXCOM',
-    description: `<strong>Comment mesurer la valeur non-marchande du commerce de proximité ? </strong>. C'est à cette question que cherche à répondre le projet de recherche-action EXCOM, lancé fin 2022 avec nos partenaires Paris Commerces, Altavia Foundation, Urbanis Fondation, Urbanis Aménagement, Métropole Rouen Normandie.
+    description: `<strong>Comment mesurer la valeur non-marchande du commerce de proximité ? </strong>C'est à cette question que cherche à répondre le projet de recherche-action EXCOM, lancé fin 2022 avec nos partenaires Paris Commerces, Altavia Foundation, Urbanis Fondation, Urbanis Aménagement, Métropole Rouen Normandie.
     Grâce aux ressources produites dans le cadre de ce projet, vous allez pouvoir : 
     <ul>
     <li>En apprendre plus sur les effets non-marchands des commerces de proximité</li>
