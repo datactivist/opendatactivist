@@ -19,7 +19,7 @@ export default function Produit() {
       '🎯 Les commerçants',
       '📊 Le grand public'
     ],
-    partnersIds: ['part-excom'],
+    partnersIds: ['part-excom','institut-recherche'],
     liens: [
       {url: 'mailto:elise@datactivi.st?subject=Demande d\'informations - EXCOM', texte: '✉️ Nous contacter pour en savoir plus'},
       {url: 'https://datactivist.coop/excom/rapport/Rapport.html', texte: '🔎 Lire le rapport final'}
