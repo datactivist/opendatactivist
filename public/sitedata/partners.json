@@ -1116,15 +1116,15 @@
     "research_projects": ""
   },
   {
-    "id": "",
-    "name": "",
-    "image": "",
-    "description": "",
+    "id": "institut-recherche",
+    "name": "Institut pour la Recherche (Caisse des dépôts)",
+    "image": "/images/partners/institut-recherche.png",
+    "description": "L’Institut pour la Recherche est un programme, qui a pour objet le soutien à des travaux de recherche dans les champs d’intervention stratégiques du groupe Caisse des Dépôts.",
     "partner_city": "",
     "lat": "",
     "lon": "",
-    "references_catalog": "",
-    "docs_catalog": "",
-    "research_projects": ""
+    "references_catalog": "excom",
+    "docs_catalog": "flyer-excom,super-commerces-excom,methodo-excom,commerce-etages-excom",
+    "research_projects": "excom"
   }
 ]
