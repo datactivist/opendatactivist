@@ -420,42 +420,6 @@
     "research_projects": ""
   },
   {
-    "id": "paris-commerces",
-    "name": "Paris Commerces",
-    "image": "/images/partners/paris-commerces.png",
-    "description": "Le GIE Paris Commerces propose à la location des boutiques et des locaux d'activités situés en rez-de-chaussée des immeubles appartenant à Paris Habitat.",
-    "partner_city": "Paris",
-    "lat": 48.8566,
-    "lon": 2.3522,
-    "references_catalog": "",
-    "docs_catalog": "",
-    "research_projects": "excom"
-  },
-  {
-    "id": "altavia",
-    "name": "Altavia",
-    "image": "/images/partners/altavia.png",
-    "description": "Fondé en 1983 - groupe Altavia est le premier réseau mondial dédié aux services marketing pour le commerce.",
-    "partner_city": "Paris",
-    "lat": 48.8566,
-    "lon": 2.3522,
-    "references_catalog": "",
-    "docs_catalog": "",
-    "research_projects": "excom"
-  },
-  {
-    "id": "urbanis",
-    "name": "Fondation Urbanis",
-    "image": "/images/partners/urbanis.png",
-    "description": "Depuis 1979, Urbanis conseille et accompagne les acteurs publics dans leurs politiques d'amélioration de l'habitat privé.",
-    "partner_city": "Paris",
-    "lat": 48.8566,
-    "lon": 2.3522,
-    "references_catalog": "",
-    "docs_catalog": "",
-    "research_projects": "excom"
-  },
-  {
     "id": "unseco-chair",
     "name": "UNESCO Chair AI & Data Science for society",
     "image": "/images/partners/unesco-chair.png",
