@@ -8,7 +8,7 @@ positifs du commerce de proximité !
 
 Dans cette notice méthodologique vous trouverez un récapitulatif des résultats obtenus dans les 3 phases du projet EXCOM, ainsi que le pas-à-pas pour reproduire la phase d’enquête par questionnaire sur votre territoire. 
 
-Tout est expliqué [dans cette note](https://nextcloud.datactivist.coop/s/5Rinkte46CcPjoR)
+<a href="https://nextcloud.datactivist.coop/s/5Rinkte46CcPjoR" class="customButton">🖊️ La méthodologie EXCOM</a>
 
 # Ressources complémentaires
 
