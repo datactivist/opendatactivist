@@ -204,18 +204,6 @@
     "research_projects": ""
   },
   {
-    "id": "partner-name",
-    "name": "",
-    "image": "",
-    "description": "",
-    "partner_city": "",
-    "lat": "",
-    "lon": "",
-    "references_catalog": "",
-    "docs_catalog": "demo-doc",
-    "research_projects": ""
-  },
-  {
     "id": "infrabel",
     "name": "Infrabel",
     "image": "/images/partners/infrabel.png",
@@ -259,8 +247,8 @@
     "partner_city": "Rouen",
     "lat": 49.4431,
     "lon": 1.0993,
-    "references_catalog": "challenge-rouen,accult-metropole-rouen",
-    "docs_catalog": "",
+    "references_catalog": "challenge-rouen,accult-metropole-rouen,excom",
+    "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
     "research_projects": "excom"
   },
   {
@@ -948,18 +936,6 @@
     "research_projects": ""
   },
   {
-    "id": "part-excom",
-    "name": "Partenaires EXCOM",
-    "image": "/images/partners/logo_part_excom.png",
-    "description": "Les partenaires du projet EXCOM sont Paris Commerces, Altavia Foundation, Urbanis Aménagement, la Fondation Urbanis et la Métropole de Rouen Normandie.",
-    "partner_city": "",
-    "lat": "",
-    "lon": "",
-    "references_catalog": "excom",
-    "docs_catalog": "rapport-excom-1,flyer-excom,methodo-excom,super-commerces-excom,commerce-etages-excom,rapport-final-excom",
-    "research_projects": "excom"
-  },
-  {
     "id": "ipr",
     "name": "L'Institut Paris Région",
     "image": "/images/partners/logo-ipr.png",
@@ -1125,6 +1101,54 @@
     "lon": "",
     "references_catalog": "excom",
     "docs_catalog": "flyer-excom,super-commerces-excom,methodo-excom,commerce-etages-excom",
+    "research_projects": "excom"
+  },
+  {
+    "id": "paris-commerces",
+    "name": "Paris Commerces",
+    "image": "/images/partners/paris-commerces.png",
+    "description": "Né du rapprochement entre le GIE Paris Commerces, la SEM Paris Commerces et sa filiale Foncière, Paris Commerces est le guichet unique du commerce à Paris.",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "excom",
+    "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
+    "research_projects": "excom"
+  },
+  {
+    "id": "altavia-foundation",
+    "name": "Altavia Foundation",
+    "image": "/images/partners/altavia-foundation.png",
+    "description": "Altavia foundation vise à soutenir les acteurs entrepreneurs du micro-commerce au service du bien commun",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "excom",
+    "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
+    "research_projects": "excom"
+  },
+  {
+    "id": "urbanis-amenagement",
+    "name": "Urbanis Aménagement",
+    "image": "/images/partners/urbanis-amenagement.png",
+    "description": "Urbanis Aménagement accompagne les acteurs publics dans l'aménagement de leurs quartiers anciens en complémentarité des équipes d'Urbanis.",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "excom",
+    "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
+    "research_projects": "excom"
+  },
+  {
+    "id": "urbanis-fondation",
+    "name": "Fondation Urbanis",
+    "image": "/images/partners/urbanis-fondation.png",
+    "description": "2022. Cette fondation d’entreprise a pour but de soutenir dans un esprit philanthropique des actions d’intérêt sociétal, social et culturel autour de l’habitat.",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "excom",
+    "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
     "research_projects": "excom"
   }
 ]
