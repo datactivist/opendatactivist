@@ -4,7 +4,7 @@ La Fresque des données de recherche est née dans le cadre de l’atelier de la
 
 # Accéder aux cartes
 
-<a href="https://nextcloud.datactivist.coop/s/3nyDTxdBgZJ6EL6" class="customButton">🃏 Télécharger les cartes</a>
+<a href="https://nextcloud.datactivist.coop/s/C4m6xgdgQCHQdyT" class="customButton">🃏 Télécharger les cartes</a>
 
 **🖨️Conseils pour les impressions**
 Le document est téléchargeable en .pptx, il comporte une dernière carte vierge, afin de créer vos propres cartes si vous le souhaitez.
