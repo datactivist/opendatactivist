@@ -2462,5 +2462,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
+  },
+  {
+    "name": "blog-fresque-lille",
+    "title": "La Fresque des données de recherche : une collaboration fructueuse entre Datactivist et l’Université de Lille !",
+    "image": "/images/docs/blog-fresque-lille.jpg",
+    "description": "Retour d'expérience d'une collaboration entre Datactivist et l'Université de Lille sur les données de la recherche",
+    "type": "Blog",
+    "index": 1,
+    "date": "2026-02-25",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "",
+    "author_image": "",
+    "tags": "science ouverte,ressources,formation",
+    "partners": "universite-lille",
+    "partners-names": "Université de Lille",
+    "partners-images": "/images/partners/universite-lille.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
