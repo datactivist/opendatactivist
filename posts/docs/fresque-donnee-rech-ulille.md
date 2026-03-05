@@ -2,11 +2,18 @@
 
 La Fresque des données de recherche est née dans le cadre de l’atelier de la donnée LORD (Lille Open Research Data), grâce à une collaboration entre Datactivist et l'Université de Lille. La demande initiale était d’adapter la [Fresque de l’Open Data](https://opendatactivist.vercel.app/products/fresque-opendata) au contexte particulier des données de recherche pour pouvoir l’utiliser dans le cadre de l’atelier LORD, qui accompagne les chercheurs du site lillois dans la gestion et le partage de leurs données de recherche, ce qui passe notamment par des actions de sensibilisation. 
 
-# Accéder aux cartes
+# Accéder aux cartes et à la documentation
 
-<a href="https://nextcloud.datactivist.coop/s/C4m6xgdgQCHQdyT" class="customButton">🃏 Télécharger les cartes</a>
+<a href="https://zenodo.org/records/18834925" class="customButton">🃏 Télécharger les cartes</a>
 
-**🖨️Conseils pour les impressions**
+Le dépôt Zenodo comprend :
+
+- les cartes, en format imprimable et en format modifiable, pour pouvoir adapter la fresque,
+- une présentation de la fresque pour l'animation
+- une présentation plus longue, à destination des futurs animateurs
+- un mode d'emploi
+
+**🖨️Conseils pour l'impression des cartes**
 
 Le document est téléchargeable en .pptx, il comporte une dernière carte vierge, afin de créer vos propres cartes si vous le souhaitez.
 
