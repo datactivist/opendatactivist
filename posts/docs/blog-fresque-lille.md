@@ -31,7 +31,7 @@ Nous espérons que sa mise en ligne permettra l’appropriation du dispositif pa
 
 
 ➕ **Pour en savoir plus** :
-- Retrouvez les cartes de la fresque sur [Open Datactivist](https://open.datactivist.coop/docs/fresque-donnee-rech-ulille) et sur Zenodo
+- Retrouvez les cartes de la fresque sur [Zenodo](https://zenodo.org/records/18834925) et sur [Open Datactivist](https://open.datactivist.coop/docs/fresque-donnee-rech-ulille)
 - [Interview d'Alicia León y Barella et de Mónica Michel Rodríguez dans le cadre de la Semaine des transitions de l'Université de Lille](https://pod.univ-lille.fr/video/42858-interview-alicia-leon-y-barella-monica-rodriguez-fresque-des-donnees-de-recherche-ouvertes-mp4/)
 - [Retour sur cette expérience lors de la quatrième édition du Printemps de la Donnée](https://hal.science/hal-04998618v1)
 
