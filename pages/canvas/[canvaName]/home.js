@@ -1,9 +1,22 @@
 // pages/canvas/[canvaName]/home.js
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import ReactMarkdown from 'react-markdown';
 import Layout from '../../../components/Layout';
 import styles from '../../../styles/Canvas.module.css';
+
+function renderMarkdown(text) {
+  return text.split('\n\n').filter(p => p.trim()).map((para, i) => {
+    if (para.startsWith('## ')) {
+      return <h2 key={i}>{para.slice(3)}</h2>;
+    }
+    const parts = para.split(/\*([^*]+)\*/);
+    return (
+      <p key={i}>
+        {parts.map((part, j) => j % 2 === 1 ? <em key={j}>{part}</em> : part)}
+      </p>
+    );
+  });
+}
 
 export default function CanvasHome() {
   const router = useRouter();
@@ -56,7 +69,7 @@ export default function CanvasHome() {
 
         {introContent && (
           <div className={styles.introContent}>
-            <ReactMarkdown>{introContent}</ReactMarkdown>
+            {renderMarkdown(introContent)}
           </div>
         )}
 
