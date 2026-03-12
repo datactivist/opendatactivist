@@ -1,9 +1,7 @@
 // pages/canvas/[canvaName]/home.js
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import remarkHtml from 'remark-html';
+import ReactMarkdown from 'react-markdown';
 import Layout from '../../../components/Layout';
 import styles from '../../../styles/Canvas.module.css';
 
@@ -31,13 +29,7 @@ export default function CanvasHome() {
       fetch(`/api/canvas?canva=${canvaName}&filename=meta`)
         .then(response => response.json())
         .then(data => {
-          if (data.content) {
-            unified()
-              .use(remarkParse)
-              .use(remarkHtml)
-              .process(data.content)
-              .then(file => setIntroContent(String(file)));
-          }
+          if (data.content) setIntroContent(data.content);
         })
         .catch(() => {});
     }
@@ -63,7 +55,9 @@ export default function CanvasHome() {
         )}
 
         {introContent && (
-          <div className={styles.introContent} dangerouslySetInnerHTML={{ __html: introContent }} />
+          <div className={styles.introContent}>
+            <ReactMarkdown>{introContent}</ReactMarkdown>
+          </div>
         )}
 
         <div className={styles.gridContainer}>
