@@ -1,6 +1,9 @@
 // pages/canvas/[canvaName]/home.js
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkHtml from 'remark-html';
 import Layout from '../../../components/Layout';
 import styles from '../../../styles/Canvas.module.css';
 
@@ -9,6 +12,7 @@ export default function CanvasHome() {
   const { canvaName } = router.query;
   const [titles, setTitles] = useState([]);
   const [metaInfo, setMetaInfo] = useState({ title: '', description: '' });
+  const [introContent, setIntroContent] = useState('');
 
   useEffect(() => {
     if (canvaName) {
@@ -23,6 +27,19 @@ export default function CanvasHome() {
           setTitles(mainTitles);
         })
         .catch(error => console.error('Erreur lors du chargement des titres:', error));
+
+      fetch(`/api/canvas?canva=${canvaName}&filename=meta`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.content) {
+            unified()
+              .use(remarkParse)
+              .use(remarkHtml)
+              .process(data.content)
+              .then(file => setIntroContent(String(file)));
+          }
+        })
+        .catch(() => {});
     }
   }, [canvaName]);
 
@@ -33,7 +50,20 @@ export default function CanvasHome() {
           <div className={styles.metaInfo}>
             <h1>{metaInfo.title}</h1>
             <h2>{metaInfo.description}</h2>
+            {canvaName === 'standards' && (
+              <div className={styles.partnersBanner}>
+                <span>Construit avec l'Ademe et l'association Open Data France dans le cadre du partenariat stratégique autour de la donnée</span>
+                <div className={styles.partnersLogos}>
+                  <img src="/images/partners/ademe.png" alt="Ademe" className={styles.partnerLogo} />
+                  <img src="/images/partners/odf.png" alt="Open Data France" className={styles.partnerLogo} />
+                </div>
+              </div>
+            )}
           </div>
+        )}
+
+        {introContent && (
+          <div className={styles.introContent} dangerouslySetInnerHTML={{ __html: introContent }} />
         )}
 
         <div className={styles.gridContainer}>
