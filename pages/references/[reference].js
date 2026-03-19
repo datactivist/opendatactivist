@@ -12,6 +12,7 @@ function formatDate(dateISO) {
 }
 
 const renderTextWithLineBreaks = (text) => {
+  if (!text) return null; // Gestion des cas où text est undefined ou null
   return text.split('\n').map((line, index) => {
     // Remplace les tirets en début de ligne par un point de puce
     const updatedLine = line.replace(/^\s*-\s*/, '✔︎ ');

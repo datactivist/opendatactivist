@@ -1,133 +1,200 @@
 [
-     {
-      "name": "fresque-so",
-      "title": "La Fresque de la Science Ouverte ",
-      "description": "Une fresque pour comprendre les enjeux et les concepts de la science ouverte",
-      "image": "images/products/fresque-so.png",
-      "public_date": "2025-01-09",
-      "topics": ["Outil", "Animation", "Formation"],
-      "partners": "ird"
-    },
-     {
-      "name": "cycle-formation-opendata",
-      "title": "Cycle de formation à l'open data",
-      "description": "Formez vos agents au travail d‘ouverture des données",
-      "image": "images/docs/cycle-fromation-od.jpeg",
-      "public_date": "2025-07-22",
-      "topics": ["Atelier", "Animation", "Formation"],
-      "partners": "bercy-hub"
-    },
-     {
-      "name": "boitenoire-ia",
-      "title": "La Boîte noire de l'IA",
-      "description": "Ouvrez la boîte, révélez les dessous de l'intelligence artificielle générative et formez vous un avis éclairé !",
-      "image": "images/products/logo-boite-noire.png",
-      "public_date": "2025-04-05",
-      "topics": ["Atelier", "Animation", "Formation"],
-      "partners": "nantes-metropole"
-    },
-     {
-      "name": "excom",
-      "title": "EXCOM : évaluer les externalités des commerces de proximité",
-      "description": "Toutes les ressources pour mieux comprendre les effets non-marchands du commerce",
-      "image": "images/docs/flyer-excom.png",
-      "public_date": "2026-02-04",
-      "topics": ["Outil","Collectivités", "Méthode"],
-      "partners": "paris-commerces, altavia-foundation, urbanis-amenagement, urbanis-fondation, metropole-rouen, institut-recherche"
-    },
-     {
-      "name": "kit-immersion-ia",
-      "title": "Kit pédagogique IMMERSION IA ",
-      "description": "Former vos équipes aux enjeux de l'IA",
-      "image": "images/products/kit-immersion-ia.png",
-      "public_date": "2024-11-20",
-      "topics": ["Atelier", "Animation", "Formation"],
-      "partners": "Métropole de Lyon, ERASME - UrbanLab, Université de Lyon"
-     }, 
-    {
-      "name": "fresque-opendata",
-      "title": "Fresque des données ouvertes",
-      "description": "Sensibilisez tous les publics à l‘ouverture des données",
-      "image": "images/products/fresque-opendata.webp",
-      "public_date": "2023-06-01",
-      "topics": ["Atelier", "Animation", "Formation"],
-      "partners": "bercy-hub"
-    },
-    {
-      "name": "dataposition",
-      "title": "DataPosition",
-      "description": "Évaluez vos connaissances et compétences sur le cycle de la donnée",
-      "image": "images/products/dataposition.png",
-      "public_date": "2020-01-01",
-      "topics": ["Compétences", "Test", "Formation"]
-    },
-    {
-      "name": "expo-smartcity",
-      "title": "Exposition - Souriez, vous êtes captés",
-      "description": "Une exposition qui décrypte la smart city",
-      "image": "images/products/expo-smartcity-product.jpeg",
-      "public_date": "2023-06-01",
-      "topics": ["Exposition", "Animation", "Evenement"]
-    },
-    {
-      "name": "teamopendata",
-      "title": "#TeamOpenData",
-      "description": "Rejoignez la communauté francophone de l‘open data",
-      "image": "images/products/tod.png",
-      "public_date": "2016-02-01",
-      "topics": ["Forum", "Communauté", "Outil"]
-    },
-    {
-      "name": "conciergerie",
-      "title": "Conciergerie de données",
-      "description": "Améliorez la découvrabilité de vos données ouvertes",
-      "image": "images/products/conciergerie.png",
-      "public_date": "2020-01-01",
-      "topics": ["Découvrabilité", "Outil", "Chatbot"],
-      "partners": "region-sud"
-    },
-    {
-      "name": "patchwork-algorithmes",
-      "title": "Patchwork Algorithmes",
-      "description": "Un parcours d'accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics",
-      "image": "images/products/patchwork-algorithmes.png",
-      "public_date": "2022-01-01",
-      "topics": ["Algorithmes", "Méthode"],
-      "partners": ["metropole-lille"]
-    },
-    {
-      "name": "patchwork-opendata",
-      "title": "Patchwork Open Data",
-      "description": "Un parcours d'accompagnement de bout-en-bout pour se lancer dans l'open data",
-      "image": "images/products/patchwork-opendata.jpeg",
-      "public_date": "2020-01-01",
-      "topics": ["Collectivités", "Méthode"],
-      "partners": ["anct", "sciencespo-sgl"]
-    },
-    {
-      "name": "patchwork-pgd",
-      "title": "Patchwork PGD",
-      "description": "Un parcours d'accompagnement de bout-en-bout pour construire son plan de gestion des données",
-      "image": "images/products/patchwork-pgd.png",
-      "public_date": "2020-01-01",
-      "topics": ["PGD", "Méthode"],
-      "partners": ["urfist-occitanie"]
-    },
-    {
-      "name": "donnees-democratie",
-      "title": "Livre : les données de la démocratie",
-      "description": "Open data, pouvoirs et contre-pouvoirs, un livre de Samuel Goëta",
-      "image": "images/products/donnees-democratie-cover.png",
-      "public_date": "2024-02-01",
-      "topics": ["Livre", "Démocratie", "Pouvoir"]
-    },
-    {
-      "name": "stickers",
-      "title": "Stickers Datactivist",
-      "description": "Le coeur de notre activité produits",
-      "image": "images/products/stickers.png",
-      "public_date": "2016-01-01",
-      "topics": ["Goodies", "Promotion", "Communication"]
-    }
-  ]
-  
+  {
+    "name": "fresque-so",
+    "title": "La Fresque de la Science Ouverte ",
+    "description": "Une fresque pour comprendre les enjeux et les concepts de la science ouverte",
+    "image": "images/products/fresque-so.png",
+    "public_date": "2025-01-09",
+    "topics": [
+      "Outil",
+      "Animation",
+      "Formation"
+    ],
+    "partners": "ird"
+  },
+  {
+    "name": "cycle-formation-opendata",
+    "title": "Cycle de formation à l'open data",
+    "description": "Formez vos agents au travail d‘ouverture des données",
+    "image": "images/docs/cycle-fromation-od.jpeg",
+    "public_date": "2025-07-22",
+    "topics": [
+      "Atelier",
+      "Animation",
+      "Formation"
+    ],
+    "partners": "bercy-hub"
+  },
+  {
+    "name": "boitenoire-ia",
+    "title": "La Boîte noire de l'IA",
+    "description": "Ouvrez la boîte, révélez les dessous de l'intelligence artificielle générative et formez vous un avis éclairé !",
+    "image": "images/products/logo-boite-noire.png",
+    "public_date": "2025-04-05",
+    "topics": [
+      "Atelier",
+      "Animation",
+      "Formation"
+    ],
+    "partners": "nantes-metropole"
+  },
+  {
+    "name": "excom",
+    "title": "EXCOM : évaluer les externalités des commerces de proximité",
+    "description": "Toutes les ressources pour mieux comprendre les effets non-marchands du commerce",
+    "image": "images/docs/flyer-excom.png",
+    "public_date": "2026-02-04",
+    "topics": [
+      "Outil",
+      "Collectivités",
+      "Méthode"
+    ],
+    "partners": "paris-commerces, altavia-foundation, urbanis-amenagement, urbanis-fondation, metropole-rouen, institut-recherche"
+  },
+  {
+    "name": "kit-immersion-ia",
+    "title": "Kit pédagogique IMMERSION IA ",
+    "description": "Former vos équipes aux enjeux de l'IA",
+    "image": "images/products/kit-immersion-ia.png",
+    "public_date": "2024-11-20",
+    "topics": [
+      "Atelier",
+      "Animation",
+      "Formation"
+    ],
+    "partners": [
+      "metropole-lyon",
+      "erasme-urbanlab",
+      "universite-lyon"
+    ]
+  },
+  {
+    "name": "fresque-opendata",
+    "title": "Fresque des données ouvertes",
+    "description": "Sensibilisez tous les publics à l‘ouverture des données",
+    "image": "images/products/fresque-opendata.webp",
+    "public_date": "2023-06-01",
+    "topics": [
+      "Atelier",
+      "Animation",
+      "Formation"
+    ],
+    "partners": "bercy-hub"
+  },
+  {
+    "name": "dataposition",
+    "title": "DataPosition",
+    "description": "Évaluez vos connaissances et compétences sur le cycle de la donnée",
+    "image": "images/products/dataposition.png",
+    "public_date": "2020-01-01",
+    "topics": [
+      "Compétences",
+      "Test",
+      "Formation"
+    ]
+  },
+  {
+    "name": "expo-smartcity",
+    "title": "Exposition - Souriez, vous êtes captés",
+    "description": "Une exposition qui décrypte la smart city",
+    "image": "images/products/expo-smartcity-product.jpeg",
+    "public_date": "2023-06-01",
+    "topics": [
+      "Exposition",
+      "Animation",
+      "Evenement"
+    ]
+  },
+  {
+    "name": "teamopendata",
+    "title": "#TeamOpenData",
+    "description": "Rejoignez la communauté francophone de l‘open data",
+    "image": "images/products/tod.png",
+    "public_date": "2016-02-01",
+    "topics": [
+      "Forum",
+      "Communauté",
+      "Outil"
+    ]
+  },
+  {
+    "name": "conciergerie",
+    "title": "Conciergerie de données",
+    "description": "Améliorez la découvrabilité de vos données ouvertes",
+    "image": "images/products/conciergerie.png",
+    "public_date": "2020-01-01",
+    "topics": [
+      "Découvrabilité",
+      "Outil",
+      "Chatbot"
+    ],
+    "partners": "region-sud"
+  },
+  {
+    "name": "patchwork-algorithmes",
+    "title": "Patchwork Algorithmes",
+    "description": "Un parcours d'accompagnement de bout-en-bout pour construire et publier votre registre des algorithmes publics",
+    "image": "images/products/patchwork-algorithmes.png",
+    "public_date": "2022-01-01",
+    "topics": [
+      "Algorithmes",
+      "Méthode"
+    ],
+    "partners": [
+      "metropole-lille"
+    ]
+  },
+  {
+    "name": "patchwork-opendata",
+    "title": "Patchwork Open Data",
+    "description": "Un parcours d'accompagnement de bout-en-bout pour se lancer dans l'open data",
+    "image": "images/products/patchwork-opendata.jpeg",
+    "public_date": "2020-01-01",
+    "topics": [
+      "Collectivités",
+      "Méthode"
+    ],
+    "partners": [
+      "anct",
+      "sciencespo-sgl"
+    ]
+  },
+  {
+    "name": "patchwork-pgd",
+    "title": "Patchwork PGD",
+    "description": "Un parcours d'accompagnement de bout-en-bout pour construire son plan de gestion des données",
+    "image": "images/products/patchwork-pgd.png",
+    "public_date": "2020-01-01",
+    "topics": [
+      "PGD",
+      "Méthode"
+    ],
+    "partners": [
+      "urfist-occitanie"
+    ]
+  },
+  {
+    "name": "donnees-democratie",
+    "title": "Livre : les données de la démocratie",
+    "description": "Open data, pouvoirs et contre-pouvoirs, un livre de Samuel Goëta",
+    "image": "images/products/donnees-democratie-cover.png",
+    "public_date": "2024-02-01",
+    "topics": [
+      "Livre",
+      "Démocratie",
+      "Pouvoir"
+    ]
+  },
+  {
+    "name": "stickers",
+    "title": "Stickers Datactivist",
+    "description": "Le coeur de notre activité produits",
+    "image": "images/products/stickers.png",
+    "public_date": "2016-01-01",
+    "topics": [
+      "Goodies",
+      "Promotion",
+      "Communication"
+    ]
+  }
+]

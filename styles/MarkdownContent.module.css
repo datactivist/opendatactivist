@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
-
 .markdownContent {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   line-height: 1.5;
   padding: 1em;
@@ -50,7 +46,7 @@
 }
 
 .markdownContent a {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #173541;
   text-decoration: none;
   border-bottom: 1px solid #173541;
@@ -60,7 +56,7 @@
   text-decoration: none;
   list-style: square;
   margin-top: 0.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #585858;
 }
@@ -86,7 +82,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -119,12 +115,11 @@
   }
 }
 
-
 .markdownContent table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .markdownContent th,
@@ -135,8 +130,8 @@
 }
 
 .markdownContent th {
-  background-color: #173541	;
-  color: white ;
+  background-color: #173541;
+  color: white;
   font-size: 18px;
 }
 
@@ -144,14 +139,12 @@
   background-color: #ffffff;
 }
 
-
 .referencesContainer {
   position: relative; /* Le conteneur doit être positionné relativement */
   min-width: 300px;
   width: 100%;
   margin-left: 40px;
 }
-
 
 .referenceLink {
   color: #1a80af;
@@ -191,7 +184,7 @@
 .stickerContainer {
   position: relative;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .sticker {
@@ -204,7 +197,7 @@
 }
 
 .quotesSection {
-  background-color: #E95459;
+  background-color: #e95459;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 2em;

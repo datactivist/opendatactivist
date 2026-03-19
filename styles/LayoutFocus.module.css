@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
 .appBar {
-  background-color: white; 
+  background-color: white;
   color: #333;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -65,7 +63,7 @@
   width: 100%;
 }
 .hamburgerButton {
-  display: none; 
+  display: none;
   font-size: 30px;
 }
 
@@ -74,12 +72,14 @@
   gap: 1rem;
 }
 
-.titleContainer, .logo {
-  display: inline-block;  
+.titleContainer,
+.logo {
+  display: inline-block;
 }
 
 @media screen and (max-width: 600px) {
-  .titleContainer, .logo {
+  .titleContainer,
+  .logo {
     display: none;
   }
 }
@@ -97,12 +97,11 @@
   }
 
   .navLinks.showMenu {
-    display:inline-block;
+    display: inline-block;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
   }
-
 }
 
 .footerLink {
@@ -139,17 +138,17 @@
 }
 
 .dropdownItem {
-  font-size: 0.8rem; 
+  font-size: 0.8rem;
   padding: 5px 10px;
   margin: 5px 0;
   border-radius: 5px;
   cursor: pointer;
-  color: #ffffff; 
-  background-color: #173541; 
+  color: #ffffff;
+  background-color: #173541;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .dropdownItem:hover {
-  background-color: #4ED9CC	; 
+  background-color: #4ed9cc;
   color: #ffffff;
 }

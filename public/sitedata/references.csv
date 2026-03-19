@@ -43,7 +43,7 @@ Publication en ligne de trois algorithmes ; 
 Association constante des services et cadre apprenant tout au long de la mission ;
 
 Documentation de la méthodologie et création d’un commun sur la publication des algorithmes publics
-",2022-04-01,9 mois,https://opendatacanvas.org/transparence-algo,experimentation-algo-lille,,https://open.datactivist.coop/images/references/algo-mel.png,30
+",2022-04-01,9 mois,https://table2site.com/site/opendatacanvas/transparence-algo,experimentation-algo-lille,,https://open.datactivist.coop/images/references/algo-mel.png,30
 hackathon-infrabel,Hackathon Infrabel,Hackathons,etienne-pichot-damon,Etienne Pichot Damon,/images/authors/etienne-pichot-damon.jpeg,infrabel,Infrabel,"Infrabel gère le réseau ferroviaire belge, et s'est lancé dans une démarche ambitieuse d'ouverture de données en 2018",/images/partners/infrabel.png,"Datactivist a accompagné le gestionnaire du réseau ferroviaire de la Belgique dans l’organisation de son premier hackathon, de A à Z, à l’occasion du lancement de leur portail open data. 
 
 Le programme de la journée a été entièrement co-construit avec le client. 70 participants se sont réunis le 28 avril à Bruxelles, et ont pu découvrir des données inédites (notamment sur le thème des retards des trains). À l’issue de la journée, 10 groupes de participants ont présenté des prototypes d’applications, et des idées d’analyse de nouvelles données. 
@@ -593,7 +593,7 @@ Cartographie des “sources authentiques” de données
 
 Audit et synthèse
 
-Série de recommandations pour une meilleure gouvernance des données ",2018-12-28,6 mois,,,,https://open.datactivist.coop/images/references/wallonie-od.png,
+Série de recommandations pour une meilleure gouvernance des données",2018-12-28,6 mois,,,,https://open.datactivist.coop/images/references/wallonie-od.png,
 open-edition-strat-od,Stratégie d’ouverture des données,"Stratégie,Science ouverte","samuel-goeta,cecile-le-guen","Samuel Goëta, Cécile Le Guen","/images/authors/samuel-goeta.jpeg, /images/authors/cecile-le-guen.jpeg",open-edition,Open Edition,"OpenEdition est une infrastructure complète d’édition numérique de la communication scientifique en SHS. Elle rassemble : OpenEdition Journals (revues), OpenEdition Books (livres), Hypothèses (carnets de recherche) et Calenda (événements). Infrastructure de recherche nationale, OpenEdition est portée par une Unité d'appui et de recherche (UAR 2504) du CNRS, d’Aix-Marseille Université, de l’EHESS et d’Avignon Université.",/images/partners/open-edition.png,"Datactivist a accompagné OpenEdition en vue de l’ouverture des données de ses différentes plateformes d’édition électronique (métadonnées des documents, données statistiques et logs de visite, corpus bibliographique, illustrations, données associées aux documents…).
 
 Cette démarche s’inscrit dans la politique R&D d’OpenEdition, qui vise à :
@@ -787,7 +787,7 @@ Afin d’éviter d’émietter leur accompagnement face à des besoins croissant
 Avec le Sprint PGD, Datactivist développe un format innovant qui permet de lever ce verrou, y compris en assurant une coopération entre les établissements et la mutualisation des ressources.
 L'atelier s'organise autour des principes FAIR et suit un parcours pas à pas qui donne toutes les clés pour rédiger la première version d’un PGD.
 ","Mise à disposition d’une ressource en accès libre conforme aux attendus des laboratoires de recherche toulousains
-Animation d’un atelier de 3h30 avec les équipes de recherche (PI, doctorant / post-doctorant, ingénieur)",2022-05-01,1 mois,https://opendatacanvas.org/sprint-pgd,,,https://open.datactivist.coop/images/references/urfist-occitanie-sprint-pgd.png,
+Animation d’un atelier de 3h30 avec les équipes de recherche (PI, doctorant / post-doctorant, ingénieur)",2022-05-01,1 mois,https://table2site.com/site/opendatacanvas/sprint-pgd,,,https://open.datactivist.coop/images/references/urfist-occitanie-sprint-pgd.png,
 uppa-audit-data-shs,Audit sur les données de la recherche en SHS,"Data analyse,Science ouverte",antoine-blanchard,Antoine Blanchard,/images/authors/antoine-blanchard.png,uni-pau-adour,Université de Pau et des Pays de l’Adour,L’Université de Pau et des Pays de l’Adour (UPPA) est une université française.,/images/partners/uni-pau-adour.png,"Une première enquête sur les données de recherche à l’UPPA et une évaluation Hcéres ont pointé la nécessité de pallier les faiblesses dans la gestion des données en SHS.
 Faute de plans de gestion des données (PGD), il était difficile de connaître exactement les “non-conformités pointées par l’Hcéres
 La mission menée en groupement avec Infhotep a d’abord consisté à co-produire le PGD de chaque projet de recherche audité, avec les chercheurs eux-mêmes, pour fixer la cible à atteindre en matière de données FAIR. Les chercheurs ont ainsi retiré un bénéfice immédiat de leur participation.

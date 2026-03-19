@@ -32,7 +32,7 @@ Datactivist a accompagné la MEL dans le cadre d’une mission d’**exploration
 
 </br>
 
-La MEL a souhaité, par cette mission, contribuer à la réflexion sur le sujet des algorithmes publics. L’ensemble de la documentation et de la méthodologie sont disponibles sous licence CC-BY-SA : https://opendatacanvas.org/transparence-algo
+La MEL a souhaité, par cette mission, contribuer à la réflexion sur le sujet des algorithmes publics. L’ensemble de la documentation et de la méthodologie sont disponibles sous licence CC-BY-SA : https://table2site.com/site/opendatacanvas/transparence-algo
 
 > Selon la loi pour une République numérique, les administrations doivent **notifier aux personnes que leur décision a été prise sur la base d’un algorithme** et qu’elles disposent d’un droit d’information individuel.
 > De plus, les administrations de plus de 3 500 habitants ou de 30 ETP doivent donner une information en ligne sur les principaux traitements algorithmiques, le registre des algorithmes publics.

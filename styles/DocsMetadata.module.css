@@ -1,69 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Share+Tech+Mono&display=swap');
-
 .docsMetadata {
-    margin-top: -40px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    color: #1c4b65;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-  }
-  
-  .metadataRow {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  .metadataItem {
-    margin: 0;
-    margin-right: 10px;
-  }
-  
-  .tagButton {
-    background-color: #173541;
-    color: #fff;
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-    margin-right: 0.5rem;
-    margin-top: -20px;
-    cursor: pointer;
-    font-family: 'Share Tech Mono', monospace;  
-    transition: background-color 0.3s ease;
-    border-style: none;
-    font-size: 18px;
-    margin-bottom: 25px;
-    justify-content: space-between;
-  }
-  
-  .tagButton:hover {
-    background-color: #e95459;
-    border-style: none;
-  }
+  margin-top: -40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #1c4b65;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
 
-  .typeButton {
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Montserrat, sans serif;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    color: #1c4b65;
-  }
+.metadataRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 
-  .typeButton:hover {
-    color:#e95459 ;
-    cursor: pointer;
-  }
+.metadataItem {
+  margin: 0;
+  margin-right: 10px;
+}
 
-  .authorsContainer {
+.tagButton {
+  background-color: #173541;
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+  margin-top: -20px;
+  cursor: pointer;
+  font-family: 'Share Tech Mono', monospace;
+  transition: background-color 0.3s ease;
+  border-style: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.tagButton:hover {
+  background-color: #e95459;
+  border-style: none;
+}
+
+.typeButton {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat, sans serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #1c4b65;
+}
+
+.typeButton:hover {
+  color: #e95459;
+  cursor: pointer;
+}
+
+.authorsContainer {
   display: flex;
   justify-content: center;
 }
@@ -82,7 +80,7 @@
   text-align: center;
   padding: 9px;
   position: absolute;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   bottom: -100%;
   z-index: 1;

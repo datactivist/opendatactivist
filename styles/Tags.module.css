@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
 .tagContainer {
   display: flex;
   align-items: center;
   margin-left: 5%;
 }
-
 
 .tag {
   margin-top: 0.5rem;
@@ -17,7 +14,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-style: none;
-  font-family: 'Share Tech Mono', monospace;  
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .tag:hover {
@@ -31,7 +28,6 @@
   position: relative;
   bottom: 6px;
 }
-
 
 .closeButton {
   align-items: bottom;
@@ -47,39 +43,40 @@
   color: #e95459; /* Nouvelle couleur au survol */
 }
 
- .customButton {
+.customButton {
   padding: 10px 10px;
-  color: rgb(255, 255, 255)  !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 18px;
   border-radius: 8px;
   border: none !important;
-  background-color: #ffffff00	;
-  text-decoration: none !important; 
+  background-color: #ffffff00;
+  text-decoration: none !important;
   margin-bottom: 1rem;
   margin-left: 20px;
   cursor: pointer;
   justify-content: center;
 }
 
- .customButton:hover {
-  background: linear-gradient(45deg, #4ED9CC 30%, #4ED9CC 90%);
+.customButton:hover {
+  background: linear-gradient(45deg, #4ed9cc 30%, #4ed9cc 90%);
   color: #fff !important;
 }
 
- .customButton:active {
-  background: linear-gradient(45deg, #4ED9CC 30%, #4ED9CC 90%);
+.customButton:active {
+  background: linear-gradient(45deg, #4ed9cc 30%, #4ed9cc 90%);
 }
 
 .tagButton {
-  margin: 10px; 
-  padding: 10px; 
+  margin: 10px;
+  padding: 10px;
   background: linear-gradient(45deg, #ffffff00 30%, #ffffff00 90%);
   color: rgb(44, 44, 44);
   border: none;
   cursor: pointer;
   border-radius: 4px;
   text-decoration: none;
-  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease; 
+  transition: background-color 0.15s ease, box-shadow 0.15s ease,
+    transform 0.15s ease;
   font-family: 'Share Tech Mono', monospace;
   font-size: 18px;
 }
@@ -93,9 +90,9 @@
 
 .tagListContainer {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   width: 70%;
   margin-left: auto;
   margin-right: auto;

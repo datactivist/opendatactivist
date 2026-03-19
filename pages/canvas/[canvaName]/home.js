@@ -1,6 +1,8 @@
 // pages/canvas/[canvaName]/home.js
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+import { marked } from 'marked';
+import DOMPurify from 'dompurify';
 import Layout from '../../../components/Layout';
 import styles from '../../../styles/Canvas.module.css';
 
@@ -9,20 +11,53 @@ export default function CanvasHome() {
   const { canvaName } = router.query;
   const [titles, setTitles] = useState([]);
   const [metaInfo, setMetaInfo] = useState({ title: '', description: '' });
+  const [introContent, setIntroContent] = useState('');
+  const [renderedIntroContent, setRenderedIntroContent] = useState('');
+
+  // Configure marked options for better rendering
+  useEffect(() => {
+    marked.setOptions({
+      breaks: true,
+      gfm: true,
+    });
+  }, []);
+
+  // Handle markdown rendering on client side
+  useEffect(() => {
+    if (introContent && typeof window !== 'undefined') {
+      const htmlContent = marked.parse(introContent);
+      const sanitizedContent = DOMPurify.sanitize(htmlContent);
+      setRenderedIntroContent(sanitizedContent);
+    }
+  }, [introContent]);
 
   useEffect(() => {
     if (canvaName) {
       fetch(`/api/canvas?canva=${canvaName}`)
-        .then(response => response.json())
-        .then(data => {
-          const mainTitles = data.filter(item => !item.level.includes('.') && item.level !== '0');
-          const metaItem = data.find(item => item.level === '0');
+        .then((response) => response.json())
+        .then((data) => {
+          const mainTitles = data.filter(
+            (item) => !item.level.includes('.') && item.level !== '0',
+          );
+          const metaItem = data.find((item) => item.level === '0');
           if (metaItem) {
-            setMetaInfo({ title: metaItem.title, description: metaItem.description });
+            setMetaInfo({
+              title: metaItem.title,
+              description: metaItem.description,
+            });
           }
           setTitles(mainTitles);
         })
-        .catch(error => console.error('Erreur lors du chargement des titres:', error));
+        .catch((error) =>
+          console.error('Erreur lors du chargement des titres:', error),
+        );
+
+      fetch(`/api/canvas?canva=${canvaName}&filename=meta`)
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.content) setIntroContent(data.content);
+        })
+        .catch(() => {});
     }
   }, [canvaName]);
 
@@ -33,12 +68,46 @@ export default function CanvasHome() {
           <div className={styles.metaInfo}>
             <h1>{metaInfo.title}</h1>
             <h2>{metaInfo.description}</h2>
+            {canvaName === 'standards' && (
+              <div className={styles.partnersBanner}>
+                <span>
+                  Construit avec l&apos;Ademe et l&apos;association Open Data
+                  France dans le cadre du partenariat stratégique autour de la
+                  donnée
+                </span>
+                <div className={styles.partnersLogos}>
+                  <img
+                    src="/images/partners/ademe.png"
+                    alt="Ademe"
+                    className={styles.partnerLogo}
+                  />
+                  <img
+                    src="/images/partners/odf.png"
+                    alt="Open Data France"
+                    className={styles.partnerLogo}
+                  />
+                </div>
+              </div>
+            )}
           </div>
+        )}
+
+        {renderedIntroContent && (
+          <div
+            className={styles.introContent}
+            dangerouslySetInnerHTML={{ __html: renderedIntroContent }}
+          />
         )}
 
         <div className={styles.gridContainer}>
           {titles.map((title, index) => (
-            <div key={index} className={styles.titleBox} onClick={() => router.push(`/canvas/${canvaName}#${title.filename}`)}>
+            <div
+              key={index}
+              className={styles.titleBox}
+              onClick={() =>
+                router.push(`/canvas/${canvaName}#${title.filename}`)
+              }
+            >
               <div className={styles.titleText}>{title.title}</div>
             </div>
           ))}

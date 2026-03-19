@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
 .card {
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -69,7 +67,7 @@
 }
 
 .discussion-button {
-  background-color: #173541; 
+  background-color: #173541;
   border: none;
   color: white;
   text-align: center;
@@ -82,14 +80,13 @@
   text-decoration: none;
   order: 3;
   width: 100%;
-  border-radius: 6px; 
+  border-radius: 6px;
 }
 
 .discussion-button:hover {
-  background-color: #417082; 
-  color: white; 
+  background-color: #417082;
+  color: white;
 }
-
 
 .card-image-partners {
   width: 70%;
@@ -110,7 +107,7 @@
 .date {
   font-size: 12px;
   margin-top: 13px;
-  color: #555555
+  color: #555555;
 }
 
 .centerContent {
@@ -128,7 +125,7 @@
 }
 
 .forum-button {
-  background-color: #173541; 
+  background-color: #173541;
   border: none;
   color: white;
   text-align: center;
@@ -141,19 +138,17 @@
   text-decoration: none;
   order: 3;
   width: 100%;
-  border-radius: 6px; 
+  border-radius: 6px;
 }
-
 
 .forum-button:hover {
-  background-color: #e95459; 
-  color: white; 
+  background-color: #e95459;
+  color: white;
 }
 
-@media (min-width: 600px) { 
+@media (min-width: 600px) {
   .forum-button {
-    order: 2; 
-    width: auto; 
+    order: 2;
+    width: auto;
   }
 }
-

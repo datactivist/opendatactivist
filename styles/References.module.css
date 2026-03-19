@@ -1,302 +1,295 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
-
-
 .pageContainer {
-    max-width: 1200px;
-    background-color: white;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .partnerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2em;
-    padding: 10px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .partnerContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .partnerContent:hover {
-    background-color: #f0f4f6;
+  background-color: #f0f4f6;
 }
 
 .partnerImage {
-    flex-basis: 100%;
-    max-width: 150px;
-    height: auto;
-    margin-right: 20px;
+  flex-basis: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .title {
-    color: #333;
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 0.5em;
+  color: #333;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0.5em;
 }
 
 .subtitle {
-    color: #173541;
-    font-size: 1.5rem;
-    margin-bottom: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+  color: #173541;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .textBlock {
-    margin-bottom: 1.5em;
-    line-height: 1.6;
-    color: #444;
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+  color: #444;
 }
 
 .mission,
 .actions {
-    margin-bottom: 0em;
+  margin-bottom: 0em;
 }
 
 .referenceImage {
-    width: 600px;
-    align-items: center;
-    border-radius: 10px;
-    margin: 0 auto;
-    height: auto;
-    display: block;
-    margin-bottom: 2em;
+  width: 600px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  margin-bottom: 2em;
 }
 
 .contentContainer {
-    display: block;
-    margin-bottom: 0em;
+  display: block;
+  margin-bottom: 0em;
 }
 
 .missionContainer,
 .actionsContainer {
-    margin-bottom: 0em;
+  margin-bottom: 0em;
 }
 
 .methodeContainer {
-    margin-bottom: 2em;
-    align-items: center;
+  margin-bottom: 2em;
+  align-items: center;
 }
 
 .referenceLinkButton {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #173541;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #173541;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .referenceLinkButton:hover {
-    background-color: #e95459;
+  background-color: #e95459;
 }
 
 .actionItem {
-    display: flex;
-    align-items: start;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: start;
+  margin-bottom: 30px;
 }
 
 .actionIcon {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
 }
 
 .actionText {
-    flex: 1;
+  flex: 1;
 }
 
 .dateContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 400px;
-    padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 400px;
+  padding: 5px;
 }
 
 .date {
-    flex-basis: 48%;
-    font-weight: 600;
-    color: #6988a1;
-    background-color: #edf6f9;
-    text-align: center;
-    padding: 10px;
-    border-radius: 6px;
+  flex-basis: 48%;
+  font-weight: 600;
+  color: #6988a1;
+  background-color: #edf6f9;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .teamMemberContainer {
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    width: 300px;
-    cursor: pointer;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    color: #000;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  color: #000;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
 .teamImage {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .teamName {
-    position: absolute;
-    margin-left: 0.5rem;
-    text-align: left;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-weight: 500;
+  position: absolute;
+  margin-left: 0.5rem;
+  text-align: left;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-weight: 500;
 }
 
 .teamMemberContainer:hover {
-    background-color: #f0f4f6;
+  background-color: #f0f4f6;
 }
-  
+
 @media (min-width: 768px) {
+  .partnerContent {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .partnerContent {
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .partnerImage {
+    flex-basis: auto;
+  }
 
-    .partnerImage {
-        flex-basis: auto;
-    }
+  .partnerDescription {
+    flex: 1;
+  }
 
-    .partnerDescription {
-        flex: 1;
-    }
+  .contentContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
 
-    .contentContainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 20px;
-    }
-
-    .missionContainer,
-    .methodeContainer,
-    .actionsContainer {
-        flex: 1;
-        margin-bottom: 0;
-        background-color: #f9f9f9;
-        border-radius: 10px;
-        padding: 10px;
-    }
-
+  .missionContainer,
+  .methodeContainer,
+  .actionsContainer {
+    flex: 1;
+    margin-bottom: 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+  }
 }
 
 .quotesSection {
-    background-color: #E95459;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 2em;
+  background-color: #e95459;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2em;
 }
 
 .quotesSectionTitle {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 .quotesGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1250px;
-    margin: auto;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1250px;
+  margin: auto;
+}
+
 .quoteCard {
-    display: block;
-    background-color: white;
-    border: 1px solid #e8e8e8;
-    border-radius: 8px;
-    overflow: hidden;
-    text-decoration: none;
-    color: black;
-    transition: transform 0.3s ease;
-    transform: translateY(0);
-    padding: 20px;
+  display: block;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+  padding: 20px;
 }
 
 .quoteCard:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.029);
+  transform: translateY(-4px);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.029);
 }
-  
-  
-  .quoteImage {
-    max-height: 100px;
-    text-align: center;
-    display: block;
-    padding: 20px;
-    margin: auto;
-    object-fit: cover;
-  }
 
-  .quoteTitle {
-    margin-top: 0;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-  }
-  
-  .quoteDate {
-    font-size: 0.9rem;
-    color: #848484;
-  }
-  
+.quoteImage {
+  max-height: 100px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.quoteTitle {
+  margin-top: 0;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.quoteDate {
+  font-size: 0.9rem;
+  color: #848484;
+}
 
 @media (min-width: 768px) {
-    .contentContainer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes */
-        gap: 20px;
-    }
-    .missionContainer {
-        grid-column: 1 / span 1; /* Occupe la première colonne */
-        grid-row: 1; /* Commence à la première ligne */
-    }
+  .contentContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes */
+    gap: 20px;
+  }
+  .missionContainer {
+    grid-column: 1 / span 1; /* Occupe la première colonne */
+    grid-row: 1; /* Commence à la première ligne */
+  }
 
-    .methodeContainer {
-        grid-column: 1 / span 1; /* Occupe également la première colonne */
-        grid-row: 2; /* Placé juste en dessous du missionContainer */
-    }
+  .methodeContainer {
+    grid-column: 1 / span 1; /* Occupe également la première colonne */
+    grid-row: 2; /* Placé juste en dessous du missionContainer */
+  }
 
-    .actionsContainer {
-        grid-column: 2 / span 1; /* Occupe la deuxième colonne */
-        grid-row: 1 / span 2; /* S'étend sur deux lignes pour équilibrer la hauteur */
-    }
+  .actionsContainer {
+    grid-column: 2 / span 1; /* Occupe la deuxième colonne */
+    grid-row: 1 / span 2; /* S'étend sur deux lignes pour équilibrer la hauteur */
+  }
 }
