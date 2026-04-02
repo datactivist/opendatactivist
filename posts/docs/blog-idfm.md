@@ -1,5 +1,3 @@
-
-
 ![alt_text](images/docs/IDFm/image1.png)
 
 
@@ -8,10 +6,9 @@
 *Les 13 et 14 novembre dernier, Île-de-France Mobilités organisait son troisième Hackathon Mobilités. Cet événement récurrent explore comment les données et le numérique peuvent impacter positivement les usagers et tous les acteurs en lien avec les mobilités, que ce soit dans la déclinaison des politiques de mobilités, ou au travers de l’aménagement des territoires. C’était aussi la deuxième fois que Datactivist accompagnait IDFM dans l’organisation de cet événement.*
 
 *Pour ce projet, l’équipe de Datactivist a mis à profit sa méthodologie en matière d’organisation de sprint data et de Hackathon.  Cette méthodologie s’adapte à tout événement pendant lequel des personnes se rassemblent pour résoudre des problèmes, développer des outils, valoriser des données. Elle tire les enseignements de notre expérience dans le domaine ainsi que des bonnes pratiques du secteur.  \
-Vous pouvez la consulter à l’adresse suivante : [https://datactivist.coop/datavizchallenge/guide/docs/principes.html](https://datactivist.coop/datavizchallenge/guide/docs/principes.html) *
+Vous pouvez la consulter à l’adresse suivante : [https://datactivist.coop/datavizchallenge/guide/docs/principes.html](https://datactivist.coop/datavizchallenge/guide/docs/principes.html)*
 
-* \
-Cette méthodologie est éprouvée, et peut s’adapter à des événements courts tels que des hackathons, mais aussi à des processus plus asynchrones, en présentiel et à distance, tels que des concours (type #hackaviz, challenge data…).  Vous pouvez retrouver toutes nos ressources et nos articles concernant [la méthodologie des Hackathons sur Open Datactivist](https://open.datactivist.coop/docs?tag=hackathon).*
+*Cette méthodologie est éprouvée, et peut s’adapter à des événements courts tels que des hackathons, mais aussi à des processus plus asynchrones, en présentiel et à distance, tels que des concours (type #hackaviz, challenge data…).  Vous pouvez retrouver toutes nos ressources et nos articles concernant [la méthodologie des Hackathons sur Open Datactivist](https://open.datactivist.coop/docs?tag=hackathon).*
 
 L’édition 2024 était centrée sur l’usage de l’IA et l’amélioration des services de mobilité. Vous pouvez retrouver un article détaillé sur le site d’IDFM *[“Hackathon IA et Mobilités 2024 : Retour sur deux jours riches en IA et en émulation”](https://prim.iledefrance-mobilites.fr/fr/actualites/article/hackathon-ia-et-mobilites-2024-retour)*. \
 Le hackathon de novembre dernier était quant à lui axé sur les questions de mobilité responsable (responsabilité environnementale, accessibilité…). 
@@ -78,8 +75,6 @@ Pour remédier à cela, l’équipe propose **Relais2Go**, une application innov
 
 
 ![alt_text](images/docs/IDFm/image2.png)
-
-
 *Légende : présentation de l’application Relais2Go *
 
 Relais2Go permet aux PSH de générer des itinéraires optimisés selon des niveaux d’accessibilités. Chaque utilisateur·ice définit son profil d'accessibilité et l’application crée ensuite des itinéraires sur mesure. De plus, un système de communauté permet à chacun de signaler, en temps réel, les obstacles ou difficultés rencontrés. 
@@ -95,8 +90,6 @@ L’application propose aussi la vérification continue de l’accessibilité av
 
 
 ![alt_text](images/docs/IDFm/image3.png)
-
-
 *Légende : L’équipe Groove On : Alex Saint’Andre, Loïc Mauritius, Estibaliz Legarreta, Malory Pommier et Arthur Boivert, accompagnée de Delphine Bürkli, maire du 9e arrondissement de Paris. *
 
 * *
@@ -113,13 +106,7 @@ et les données de validation afin de les croiser avec les générateurs de flux
 On obtient alors un niveau de criticité des gares et des scores d'accessibilité qui permettent d'aiguiller les réponses à différentes questions pour la maintenance du service : où faut-il orienter les investissements ? Quelles actions doivent être priorisées ? Où faut-il créer ou ajouter des équipements ?
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image4.png)
-
-
 *Légende : une des slides de présentation de l’équipe Reg’inna lors de la restitution*
 
 Selon les porteurs du projet, le démonstrateur pourrait être enrichi avec d'autres sources de données génératrices de flux PMR et un état en temps réel des ascenseurs (provenant de la GMAO RATP par exemple).
@@ -127,13 +114,7 @@ Selon les porteurs du projet, le démonstrateur pourrait être enrichi avec d'au
 Un moteur de recommandations d'actions automatiques pourrait aussi être ajouté et proposer une priorisation des actions par station ou gare : réparation, ajout d'ascenseur, d'escalier mécanique.
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image5.jpg)
-
-
 *Légende : L’équipe Reg’Inna en pleine réflexion : Caroline Hitier, Julien Delmotte, Alix Delannoy, Caspar  Longin-Dimanche, Erwann Yvin, Andres Ladino et Maud Cailly*
 
 → Accès au répertoire GitHub du projet : 
@@ -148,25 +129,12 @@ Un moteur de recommandations d'actions automatiques pourrait aussi être ajouté
 La présence des vélos se développe à bord des trains, y compris en heures de pointe. L’application Méli-Vélo cherche à faciliter cette multimodalité, en indiquant si la fréquentation rend possible l’accès d’un train avec un vélo.
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image6.jpg)
-
-
 *Légende : présentation de l’application Méli-vélo*
 
 Il s’agit d’un indicateur simple, calculé à partir de l'affluence à bord, la capacité d'emport vélo et l'accessibilité des gares. Si le “Méli-Vélo score” de l’utilisateur·ice est rouge, il est possible de vérifier les places de parkings vélos à la gare de départ et la disponibilité des vélos en libre-service à l’arrivée du parcours. 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image7.jpg)
-
-
 *Légende : L’équipe Méli-vélo : Judicael Leger, Tatjana Markova, Pierre Rolland, Baptiste Rérolle et Rémi Coulaud*
 
 → Accès au répertoire GitHub du projet : 
@@ -182,28 +150,14 @@ MobiPuzzle est une application qui encourage, par la gamification, les déplacem
 
 La région Ile-de-France comptant six millions d'emplois salariés, le potentiel de décarbonation est considérable. Mais comment engager un report modal vers des déplacements plus durables ? C’est pour répondre à cette question que l’équipe propose une application intégrée à celle d’Ile-de-France Mobilités pour “gamifier” les déplacements des salariés.
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image8.png)
-
-
 *Légende : Capture d’écran du projet MobiPuzzle*
 
 L’objectif est de motiver les employés à suivre des trajets décarbonés grâce à des récompenses collectées sur leur parcours. Chaque semaine, ils résolvent des casse-têtes et peuvent gagner des récompenses, telles que des bons d'achat pour du matériel cycliste ou des tickets pour des événements culturels.
 
 La distribution des indices s'appuie sur un calculateur d'itinéraires intermodal. Il combine les forces d'outils de planification tels que Navitia, Géovélo et GraphHopper (pour la voiture), tout en intégrant précisément les données de parking vélos et relais fournies par Île-de-France Mobilités (IDFM). Ce calculateur offre une vision holistique de l'offre de transport, en tenant compte de l'environnement de l'utilisateur et de son accès aux différentes solutions de transport à proximité.
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image9.jpg)
-
-
 *Légende : Geoffrey Scozzaro, Yacine Khacef, Florian Maziere, Arthur Finkelstein, Amine Ait-Ouahmed et Aurélie Auzas, accompagnés de Delphine Bürkli, maire du 9e arrondissement de Paris. *
 
 * *
@@ -226,13 +180,7 @@ L’équipe part du constat que la part modale de la voiture est encore trop imp
 L’application MyCoachMobilités propose de récompenser les trajets alternatifs grâce à un système de “scoring” basé sur l’intermodalité et l’impact CO₂.
 
 
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image10.png)
-
-
 *Légende : Capture d’écran du projet MyCoachMobilités*
 
 La “gamification” incite les utilisateurs à adopter des modes de déplacement plus durables : des classements entre collègues, entreprises ou amis renforcent cette motivation.
@@ -264,14 +212,7 @@ Comment garer son vélo en sécurité à Paris ? C’est la question que s’est
 
 Cycloflow propose un itinéraire personnalisé permettant de choisir un point de départ, une destination et le parking vélo le plus adapté. L’application propose plusieurs options de trajet : le plus court, le plus sécurisé, celui privilégiant les pistes cyclables ou encore combinant vélo et transports en commun acceptant les vélos. Elle intègre également des informations contextuelles utiles, comme la météo ou les zones d’ombre sur le parcours, afin d’accompagner l’usager dans son choix.
 
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image11.jpg)
-
-
 *Légende : L’équipe Cycloflow très concentrée avant le pitch final : Theophile, Michel, Lissa et Felipe*
 
 → Accès au répertoire GitHub du projet : [https://github.com/hackathons-mobilites/hackathon_mobilites_2025/tree/equipe-8/resultats/repository](https://github.com/hackathons-mobilites/hackathon_mobilites_2025/tree/equipe-8/resultats/repository)  \
@@ -288,27 +229,14 @@ L’équipe Mobisens a souhaité explorer la question de l’accessibilité. Ils
 L’enjeu de la solution est de faire de l’accessibilité un pilier de l’information voyageur, en proposant pour chaque personne un trajet adapté, fiable et sans rupture. \
 
 
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image12.png)
-
-
 *Légende : Capture d’écran de la maquette de l’application Mobisens (Figma) *
 
  \
 La solution identifie en amont le profil de l’usager pour prendre en considération ses préférences et ses contraintes. Le produit est doté de services et de fonctionnalités évolutifs qui s’adaptent au fil du temps. Elle s’intègre également de manière fluide dans l’écosystème applicatif existant, garantissant une bonne expérience de navigation. 
 
 
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image13.png)
-
-
 *Légende : architecture applicative de l’application Mobisens *
 
 → Accès au répertoire GitHub du projet : [https://github.com/hackathons-mobilites/hackathon_mobilites_2025/tree/equipe-7/resultats/repository](https://github.com/hackathons-mobilites/hackathon_mobilites_2025/tree/equipe-7/resultats/repository)  \
@@ -331,24 +259,14 @@ L’équipe de Rayon d’Action part du constat que le premier et le dernier kil
 
 ### 
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/docs/IDFm/image14.jpg)
-
-
 *Légende : l’équipe de Rayon d’Action : Nicolas, Alexandre, Ugo, Benoît, Lancelot, Pierre-Yves, et Emmanuel*
 
 Le calculateur d'itinéraire proposé dans la solution permet d’informer les Franciliens sur les opportunités d’emport du vélo à bord des trains. Il permet également de guider l’usager sur les itinéraires les plus pertinents, en fonction de l’heure de la journée. 
 
 
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image15.png)
-
-
 *Légende : Principe de fonctionnement de l’application Rayon d’Action*
 
 → Accès au répertoire GitHub du projet : \
@@ -365,13 +283,7 @@ Le hackathon s’est achevé le vendredi 14 novembre 2025 à 15h avec la présen
 Merci encore à Delphine Bürkli, maire du 9e arrondissement de Paris, présidente de la Commission qualité de service, de l’air, de l’accessibilité et des relations avec les usagers (CQSAAU) ; Agnès Grisoglio, directrice de la Transformation & Mass Transit Academy de la SNCF ; Patrick Gendre, expert mobilités, données pour les études de mobilité au CEREMA ; Emmanuel Veiga, directeur général adjoint du développement économique et des mobilités à Saint-Quentin-en-Yvelines ; Régis Bac, directeur juridique, économique et financier chez Voies Navigables de France ; Mounia Latrech, chief data officer, en charge du programme d'accélération Data & IA à la RATP ; et Hélène Brisset, directrice du numérique chez Ile-de-France Mobilités. 
 
 
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/docs/IDFm/image16.png)
-
-
 *Légende : Slide de présentation des membres du jury*
 
 Merci aux participant·es qui ont mis du cœur à l’ouvrage pendant ces 48h de hackathon, les partenaires qui ont mis la main à la pâte, les équipes IDFM et leurs opérateurs représentés par Transilien SNCF et la RATP et tous les autres participants qui ont répondu à l’appel ! Merci aussi aux expert.es pour l’accompagnement à l’exploitation des données spécifiquement mises à disposition, pour l’appui à l’utilisation du Datalab Onyxia et du portail PRIM, pour la préparation des défis et l’accompagnement des participants et pour leur présence et leur expertise sur les questions de mobilités.
