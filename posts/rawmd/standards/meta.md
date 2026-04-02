@@ -6,11 +6,11 @@ Depuis la loi pour une République numérique d'octobre 2016, l'ouverture des do
 
 L'application Handimap illustre bien l'enjeu. Développée pour aider les personnes en situation de handicap à se repérer dans l'espace public, elle ne pouvait fonctionner qu'à l'échelle de territoires dont les données d'accessibilité étaient structurées de façon compatible. Sans standard commun, chaque nouveau territoire représentait un nouveau chantier de mise en conformité — rendant l'extension nationale quasiment impossible. La standardisation est donc une condition de passage à l'échelle des services qui s'appuient sur des données locales.
 
-**Ce canva est un outil pour guider, étape par étape, celles et ceux qui souhaitent créer ou contribuer à la création d'un standard de données ouvertes.** 
+**Ce document est un outil pour guider, étape par étape, celles et ceux qui souhaitent créer ou contribuer à la création d'un standard de données ouvertes.** 
 * Il ne prétend pas couvrir tous les cas de figure : chaque démarche de standardisation est différente selon le secteur, les acteurs impliqués et les données concernées.
 * Il propose en revanche une méthode éprouvée, des questions clés à se poser à chaque étape, et des ressources pour ne pas repartir de zéro.
 
-La création d'un standard est un processus long et collectif. La publication du schéma technique ne représente qu'une fraction du travail — le reste tient à la gouvernance, à la consultation des producteurs et réutilisateurs, à l'accompagnement à l'adoption, et à l'animation de la communauté dans la durée. Ce canva couvre l'ensemble de ce parcours, de la qualification du besoin jusqu'au maintien du standard dans le temps.
+La création d'un standard est un processus long et collectif. La publication du schéma technique ne représente qu'une fraction du travail — le reste tient à la gouvernance, à la consultation des producteurs et réutilisateurs, à l'accompagnement à l'adoption, et à l'animation de la communauté dans la durée. Ce document couvre l'ensemble de ce parcours, de la qualification du besoin jusqu'au maintien du standard dans le temps.
 
 Ressources générales utiles : 
 * Le [guide de La fabrique des standard](https://guides.data.gouv.fr/fabrique-des-standards), focalisé sur les standards CNIG. La démarche offre des ressources utiles à toutes et tous, et est incontournable si vous travaillez sur de l'information géolocalisée et souhaitez lancer un groupe de travail CNIG !
