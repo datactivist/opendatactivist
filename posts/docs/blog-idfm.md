@@ -1,10 +1,6 @@
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](images/docs/IDFm/image1.png)
 
 
 **Hackathon Mobilités d’Île-de-France Mobilités : retour sur l’édition 2025**
@@ -81,12 +77,7 @@ Actuellement, il y a peu d’informations fiables en temps réel sur l’accessi
 Pour remédier à cela, l’équipe propose **Relais2Go**, une application innovante pour les personnes en situation de handicap (PSH) qui met l’intelligence collective au service d’une mobilité plus accessible.    \
 
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](images/docs/IDFm/image2.png)
 
 
 *Légende : présentation de l’application Relais2Go *
@@ -102,10 +93,8 @@ L’application propose aussi la vérification continue de l’accessibilité av
 
 ### 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](images/docs/IDFm/image3.png)
 
 
 *Légende : L’équipe Groove On : Alex Saint’Andre, Loïc Mauritius, Estibaliz Legarreta, Malory Pommier et Arthur Boivert, accompagnée de Delphine Bürkli, maire du 9e arrondissement de Paris. *
@@ -128,7 +117,7 @@ On obtient alors un niveau de criticité des gares et des scores d'accessibilit�
 <p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](images/docs/IDFm/image4.png)
 
 
 *Légende : une des slides de présentation de l’équipe Reg’inna lors de la restitution*
@@ -142,7 +131,7 @@ Un moteur de recommandations d'actions automatiques pourrait aussi être ajouté
 <p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image5.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image5.jpg)
 
 
 *Légende : L’équipe Reg’Inna en pleine réflexion : Caroline Hitier, Julien Delmotte, Alix Delannoy, Caspar  Longin-Dimanche, Erwann Yvin, Andres Ladino et Maud Cailly*
@@ -163,7 +152,7 @@ La présence des vélos se développe à bord des trains, y compris en heures de
 <p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image6.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image6.jpg)
 
 
 *Légende : présentation de l’application Méli-vélo*
@@ -175,7 +164,7 @@ Il s’agit d’un indicateur simple, calculé à partir de l'affluence à bord,
 <p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image7.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image7.jpg)
 
 
 *Légende : L’équipe Méli-vélo : Judicael Leger, Tatjana Markova, Pierre Rolland, Baptiste Rérolle et Rémi Coulaud*
@@ -198,7 +187,7 @@ La région Ile-de-France comptant six millions d'emplois salariés, le potentiel
 <p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](images/docs/IDFm/image8.png)
 
 
 *Légende : Capture d’écran du projet MobiPuzzle*
@@ -212,7 +201,7 @@ La distribution des indices s'appuie sur un calculateur d'itinéraires intermoda
 <p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image9.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image9.jpg)
 
 
 *Légende : Geoffrey Scozzaro, Yacine Khacef, Florian Maziere, Arthur Finkelstein, Amine Ait-Ouahmed et Aurélie Auzas, accompagnés de Delphine Bürkli, maire du 9e arrondissement de Paris. *
@@ -241,7 +230,7 @@ L’application MyCoachMobilités propose de récompenser les trajets alternatif
 <p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](images/docs/IDFm/image10.png)
 
 
 *Légende : Capture d’écran du projet MyCoachMobilités*
@@ -280,7 +269,7 @@ Cycloflow propose un itinéraire personnalisé permettant de choisir un point de
 <p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image11.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image11.jpg)
 
 
 *Légende : L’équipe Cycloflow très concentrée avant le pitch final : Theophile, Michel, Lissa et Felipe*
@@ -304,7 +293,7 @@ L’enjeu de la solution est de faire de l’accessibilité un pilier de l’inf
 <p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](images/docs/IDFm/image12.png)
 
 
 *Légende : Capture d’écran de la maquette de l’application Mobisens (Figma) *
@@ -317,7 +306,7 @@ La solution identifie en amont le profil de l’usager pour prendre en considér
 <p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](images/docs/IDFm/image13.png)
 
 
 *Légende : architecture applicative de l’application Mobisens *
@@ -345,7 +334,7 @@ L’équipe de Rayon d’Action part du constat que le premier et le dernier kil
 <p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image14.jpg "image_tooltip")
+![alt_text](images/docs/IDFm/image14.jpg)
 
 
 *Légende : l’équipe de Rayon d’Action : Nicolas, Alexandre, Ugo, Benoît, Lancelot, Pierre-Yves, et Emmanuel*
@@ -357,7 +346,7 @@ Le calculateur d'itinéraire proposé dans la solution permet d’informer les F
 <p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image15.png "image_tooltip")
+![alt_text](images/docs/IDFm/image15.png)
 
 
 *Légende : Principe de fonctionnement de l’application Rayon d’Action*
@@ -380,7 +369,7 @@ Merci encore à Delphine Bürkli, maire du 9e arrondissement de Paris, présiden
 <p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image16.png "image_tooltip")
+![alt_text](images/docs/IDFm/image16.png)
 
 
 *Légende : Slide de présentation des membres du jury*
