@@ -824,7 +824,7 @@
     "lat": 48.8566,
     "lon": 2.3522,
     "references_catalog": "hackathon-idfm24",
-    "docs_catalog": "guide-hackathon-ia-mobilites,blog-idfm",
+    "docs_catalog": "guide-hackathon-ia-mobilites",
     "research_projects": ""
   },
   {
@@ -928,10 +928,10 @@
     "name": "Open Energy Transition",
     "image": "/images/partners/oet.png",
     "description": "Open Energy Transition (OET) est une société à but non lucratif spécialisée dans le conseil en environnement. C'est aussi un think tank et une entreprise de développement de logiciels qui s'engage à relever les défis liés à la planification énergétique.",
-    "partner_city": "Bayreuth",
+    "partner_city": "",
     "lat": "",
     "lon": "",
-    "references_catalog": "mapyourgrid",
+    "references_catalog": "oet-grid",
     "docs_catalog": "",
     "research_projects": ""
   },
@@ -1114,29 +1114,5 @@
     "references_catalog": "excom",
     "docs_catalog": "flyer-excom,rapport-excom-1,methodo-excom,rapport-final-excom,super-commerces-excom,commerce-etages-excom",
     "research_projects": "excom"
-  },
-  {
-    "id": "universite-lille",
-    "name": "Université de Lille",
-    "image": "/images/partners/universite-lille.png",
-    "description": "L’université de Lille est une université française publique située à Lille (Métropole européenne de Lille, Hauts-de-France).",
-    "partner_city": "Lille",
-    "lat": "",
-    "lon": "",
-    "references_catalog": "",
-    "docs_catalog": "fresque-donnee-rech-ulille,blog-fresque-lille",
-    "research_projects": ""
-  },
-  {
-    "id": "fede-pros-openstreetmap",
-    "name": "Fédération des pros d'OpenStreetMap",
-    "image": "/images/partners/fposm.png",
-    "description": "La Fédération des Professionnels d'OpenStreetMap rassemble des acteurs de l'écosystème de la géomatique libre. Elle a pour but d'unir les efforts d'entreprises partageant les mêmes valeurs pour favoriser l'essor du projet libre et mondial de cartographie. Datactivist en est membre depuis 2023 et participe régulièrement aux événements de la communauté.",
-    "partner_city": "",
-    "lat": "",
-    "lon": "",
-    "references_catalog": "",
-    "docs_catalog": "tout-savoir-licence-odbl,openstreetmap-acceder-donnees,openstreetmap-chez-datactivist,openstreetmap-presentation-generale,openstreetmap-confiance-qualite,openstreetmap-nature-en-ville,openstreetmap-ontologie",
-    "research_projects": ""
   }
 ]
