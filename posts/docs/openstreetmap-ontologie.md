@@ -1,6 +1,6 @@
 ## Une vision pour l'essor d'OpenStreetMap
 
-L'ontologie OpenStreetMap se développe continuellement. Elle l'est pas la communauté qui s'organise afin de documenter des concepts de plus en plus riches.
+L'ontologie OpenStreetMap se développe continuellement. Elle l'est par la communauté qui s'organise afin de documenter des concepts de plus en plus riches.
 
 Cette présentation explique le processus et pourquoi "les tags" constituent un commun à part entière aux côtés de la base de données cartographique.
 
@@ -12,7 +12,7 @@ Cette présentation explique le processus et pourquoi "les tags" constituent un 
   </iframe>
 </div>
 
-D'autres ressources de plaidoyer en ce sens sont disponibles sur le wiki ou le journal des contributeurs. Ils peuvent êtes utiles dans vos propres projets.
+D'autres ressources de plaidoyer sont disponibles sur le wiki ou le journal des contributeurs. Elles peuvent êtes utiles dans vos propres projets.
 
 <a href="https://www.openstreetmap.org/user/InfosReseaux/diary/401791" class="customButton">English: Generlize OpenStreetMap tagging usage</a>
 
