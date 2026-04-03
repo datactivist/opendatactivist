@@ -16,8 +16,6 @@ Lorsque vous ouvrez une issue :
 
 # Contribuer au contenu
 
-Consultez également en ligne [une documentation plus conviviale](https://open.datactivist.coop/canvas/contribution-opendatactivist).
-
 ## Ajouter un doc 
 
 ### Métadonnées

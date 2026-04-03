@@ -196,17 +196,5 @@
       "Promotion",
       "Communication"
     ]
-  },
-  {
-    "name": "openstreetmap",
-    "title": "OpenStreetMap",
-    "description": "Notre savoir faire à propos du projet mondial de cartographie collaborative",
-    "image": "images/products/openstreetmap.png",
-    "public_date": "2022-01-01",
-    "topics": [
-      "Crowdsourcing",
-      "Formation",
-      "Outillage"
-    ]
   }
 ]
