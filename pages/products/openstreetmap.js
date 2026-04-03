@@ -2,7 +2,7 @@ import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
 export default function Produit() {
   const produit = {
-    docsList: ['presentation-generale-openstreetmap', 'tout-savoir-licence-odbl', 'acceder-donnees-openstreetmap', 'openstreetmap-chez-datactivist', 'confiance-qualite-openstreetmap'],
+    docsList: ['openstreetmap-presentation-generale', 'tout-savoir-licence-odbl', 'openstreetmap-acceder-donnees', 'openstreetmap-chez-datactivist', 'openstreetmap-confiance-qualite', 'openstreetmap-nature-ville', 'openstreetmap-ontologie'],
     nom: 'OpenStreetMap : utiliser et contribuer à la base de données collaborative',
     baseline: 'Découvrez nos ressources à propos du projet mondial de cartographie, pour vous aussi vous lancer dans la contribution à ce commun numérique',
     description: `<strong>Découvrez nos expertises et ressources à propos du projet OpenStreetMap</strong>
