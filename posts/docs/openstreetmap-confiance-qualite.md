@@ -1,8 +1,8 @@
 # Avoir confiance dans les données collaboratives
 
-Les données collaboratives sont parfois réputées pour ne pas être exactes ou complètes et sources d'erreurs dans des processus qui les utiliseraients parce qu'elles seraient produites par des tiers sans responsabilité.  
+Les données collaboratives sont parfois réputées pour ne pas être exactes ou complètes et sources d'erreurs dans des processus qui les utiliseraient parce qu'elles seraient produites par des tiers sans responsabilité.  
 Certains référentiels non plus peuvent être frappés par ces problèmes qui touchent en réalité la plupart des bases de données.  
-Pourtant, des méthodes et des outils existent pour en évluer la qualité.
+Pourtant, des méthodes et des outils existent pour en évaluer la qualité.
 
 Datactivist a développé une expertise à propos de cette évaluation et participe à la maintence des outils du contrôle qualité ou de la mesure de la contribution d'OpenStreetMap.
 
@@ -32,7 +32,7 @@ D'autres ressources produites par notre équipe sont également disponibles en l
 
 ### Contrôle qualité
 
-[Osmose-QA](https://wiki.openstreetmap.org/wiki/Osmose) est une plateforme d'évaluation de la qualité au moyens d'analyses personnalisées des données OpenStreetMap. Il permet ausi de comparer les données collaboratives avec des données référentielles en open data et donc de rendre compte sur les différences entre les deux sources.
+[Osmose-QA](https://wiki.openstreetmap.org/wiki/Osmose) est une plateforme d'évaluation de la qualité au moyens d'analyses personnalisées des données OpenStreetMap. Il permet aussi de comparer les données collaboratives avec des données référentielles en open data et donc de rendre compte sur les différences entre les deux sources.
 
 <a href="https://peertube.openstreetmap.fr/w/3twSLW9u6VNRMYwKATZ4fL" class="customButton">Intégration de données ouvertes</a>
 
