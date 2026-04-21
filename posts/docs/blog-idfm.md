@@ -1,7 +1,3 @@
-![image_premier_prix](/images/docs/IDFm/image5.png)
-
-**Hackathon Mobilités d’Île-de-France Mobilités : retour sur l’édition 2025**
-
 *Les 13 et 14 novembre dernier, Île-de-France Mobilités organisait son troisième Hackathon Mobilités. Cet événement récurrent explore comment les données et le numérique peuvent impacter positivement les usagers et tous les acteurs en lien avec les mobilités, que ce soit dans la déclinaison des politiques de mobilités, ou au travers de l’aménagement des territoires.*
 
 Après une édition 2024 centrée sur l’usage de l’IA et l’amélioration des services de mobilité, le hackathon de novembre dernier était axé sur les questions de mobilité responsable (responsabilité environnementale, accessibilité…). 
@@ -33,7 +29,7 @@ Les données mises à disposition pour le hackathon portaient sur la décarbonat
 
 Afin d’en maximiser l’exploitabilité, chaque jeu de données était par ailleurs accompagné d’une description détaillée décrivant sa structure, son mode de production ou de collecte, ainsi que plusieurs exemples d’usages possibles. 
 
-Les données proposées ont été sources d’inspiration pour les participants, avec notamment des réutilisations des informations fournies par la SNCF pour les transports de vélos, tandis que celles de [Métro-Connexion](https://www.metro-connexion.org) ([https://www.metro-connexion.org/](https://www.metro-connexion.org/)) ont permis d’imaginer des solutions de scoring d’accessibilité des stations et gares.
+Les données proposées ont été sources d’inspiration pour les participants, avec notamment des réutilisations des informations fournies par la SNCF pour les transports de vélos, tandis que celles de [Métro-Connexion](https://www.metro-connexion.org) ont permis d’imaginer des solutions de scoring d’accessibilité des stations et gares.
 
 La communauté d'agglomération de Saint-Quentin-en-Yvelines a quant à elle proposé des données issues du projet de marchabilité à l'ombre, et des données relatives aux éco-compteurs déployés sur leur territoire. Leur travail sur la marchabilité à l'ombre est remarquable, notamment sur la reconstitution du filaire piéton et la projection de l'ombre au sol depuis la canopée détectée par LIDAR et la photographie aérienne.
 
