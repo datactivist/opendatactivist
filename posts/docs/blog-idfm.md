@@ -66,12 +66,7 @@ Actuellement, il y a peu d’informations fiables en temps réel sur l’accessi
 Pour remédier à cela, l’équipe propose **Relais2Go**, une application innovante pour les personnes en situation de handicap (PSH) qui met l’intelligence collective au service d’une mobilité plus accessible.    \
 
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![présentation de l’application Relais2Go](images/docs/IDFm/image2.png)
+![présentation de l’application Relais2Go](/images/docs/IDFm/image2.png)
 
 
 *Légende : présentation de l’application Relais2Go *
