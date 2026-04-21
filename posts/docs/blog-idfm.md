@@ -210,7 +210,7 @@ Comment garer son vélo en sécurité à Paris ? C’est la question que s’est
 
 Cycloflow propose un itinéraire personnalisé permettant de choisir un point de départ, une destination et le parking vélo le plus adapté. L’application propose plusieurs options de trajet : le plus court, le plus sécurisé, celui privilégiant les pistes cyclables ou encore combinant vélo et transports en commun acceptant les vélos. Elle intègre également des informations contextuelles utiles, comme la météo ou les zones d’ombre sur le parcours, afin d’accompagner l’usager dans son choix.
 
-![alt_text](/images/docs/IDFm/image11.jpg)
+![alt_text](/images/docs/IDFm/image15.jpg)
 
 
 *Légende : L’équipe Cycloflow très concentrée avant le pitch final : Theophile, Michel, Lissa et Felipe*
@@ -229,7 +229,7 @@ L’équipe Mobisens a souhaité explorer la question de l’accessibilité. Ils
 L’enjeu de la solution est de faire de l’accessibilité un pilier de l’information voyageur, en proposant pour chaque personne un trajet adapté, fiable et sans rupture. \
 
 
-![alt_text](/images/docs/IDFm/image12.png)
+![alt_text](/images/docs/IDFm/image14.png)
 
 
 *Légende : Capture d’écran de la maquette de l’application Mobisens (Figma)*
@@ -237,7 +237,7 @@ L’enjeu de la solution est de faire de l’accessibilité un pilier de l’inf
 
 La solution identifie en amont le profil de l’usager pour prendre en considération ses préférences et ses contraintes. Le produit est doté de services et de fonctionnalités évolutifs qui s’adaptent au fil du temps. Elle s’intègre également de manière fluide dans l’écosystème applicatif existant, garantissant une bonne expérience de navigation. 
 
-![alt_text](/images/docs/IDFm/image13.png)
+![alt_text](/images/docs/IDFm/image6.png)
 
 
 *Légende : architecture applicative de l’application Mobisens*
@@ -258,7 +258,7 @@ L’équipe de Rayon d’Action part du constat que le premier et le dernier kil
 
 
 
-![alt_text](/images/docs/IDFm/image14.jpg)
+![alt_text](/images/docs/IDFm/image9.jpg)
 
 
 *Légende : l’équipe de Rayon d’Action : Nicolas, Alexandre, Ugo, Benoît, Lancelot, Pierre-Yves, et Emmanuel*
@@ -267,7 +267,7 @@ Le calculateur d'itinéraire proposé dans la solution permet d’informer les F
 
 
 
-![alt_text](/images/docs/IDFm/image15.png)
+![alt_text](/images/docs/IDFm/image7.png)
 
 
 *Légende : Principe de fonctionnement de l’application Rayon d’Action*
@@ -282,7 +282,7 @@ Le hackathon s’est achevé le vendredi 14 novembre 2025 à 15h avec la présen
 
 Merci encore à Delphine Bürkli, maire du 9e arrondissement de Paris, présidente de la Commission qualité de service, de l’air, de l’accessibilité et des relations avec les usagers (CQSAAU) ; Agnès Grisoglio, directrice de la Transformation & Mass Transit Academy de la SNCF ; Patrick Gendre, expert mobilités, données pour les études de mobilité au CEREMA ; Emmanuel Veiga, directeur général adjoint du développement économique et des mobilités à Saint-Quentin-en-Yvelines ; Régis Bac, directeur juridique, économique et financier chez Voies Navigables de France ; Mounia Latrech, chief data officer, en charge du programme d'accélération Data & IA à la RATP ; et Hélène Brisset, directrice du numérique chez Ile-de-France Mobilités. 
 
-![alt_text](/images/docs/IDFm/image16.png)
+![alt_text](/images/docs/IDFm/image11.png)
 
 
 *Légende : Slide de présentation des membres du jury*
