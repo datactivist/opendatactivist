@@ -1,11 +1,14 @@
-*Les 13 et 14 novembre dernier, Île-de-France Mobilités organisait son troisième Hackathon Mobilités. Cet événement récurrent explore comment les données et le numérique peuvent impacter positivement les usagers et tous les acteurs en lien avec les mobilités, que ce soit dans la déclinaison des politiques de mobilités, ou au travers de l’aménagement des territoires.*
+*Les 13 et 14 novembre dernier, Île-de-France Mobilités organisait son troisième Hackathon Mobilités. Cet événement récurrent explore comment les données et le numérique peuvent impacter positivement les usagers et tous les acteurs en lien avec les mobilités, que ce soit dans la déclinaison des politiques de mobilités, ou au travers de l’aménagement des territoires. C’était aussi la deuxième fois que Datactivist accompagnait IDFM dans l’organisation de cet événement.*
 
-Après une édition 2024 centrée sur l’usage de l’IA et l’amélioration des services de mobilité, le hackathon de novembre dernier était axé sur les questions de mobilité responsable (responsabilité environnementale, accessibilité…). 
+Pour ce projet, l’équipe de Datactivist a mis à profit sa méthodologie en matière d’organisation de sprint data et de Hackathon.  Cette méthodologie s’adapte à tout événement pendant lequel des personnes se rassemblent pour résoudre des problèmes, développer des outils, valoriser des données. Elle tire les enseignements de notre expérience dans le domaine ainsi que des bonnes pratiques du secteur. 
+Vous pouvez la consulter à l’adresse suivante : https://datactivist.coop/datavizchallenge/guide/docs/principes.html 
 
-Quatre défis ont ainsi été formulés sur cette thématique, avec des données et des ressources adaptées mises à disposition des participantes et participants :
+Cette méthodologie est éprouvée, et peut s’adapter à des événements courts tels que des hackathons, mais aussi à des processus plus asynchrones, en présentiel et à distance, tels que des concours (type #hackaviz, challenge data…).  Vous pouvez retrouver toutes nos ressources et nos articles concernant la méthodologie des Hackathons sur Open Datactivist.
 
+L’édition 2024 était centrée sur l’usage de l’IA et l’amélioration des services de mobilité. Vous pouvez retrouver un article détaillé sur le site d’IDFM “Hackathon IA et Mobilités 2024 : Retour sur deux jours riches en IA et en émulation”.
+Le hackathon de novembre dernier était quant à lui axé sur les questions de mobilité responsable (responsabilité environnementale, accessibilité…). 
 
-
+Grâce un travail de co-construction avec les équipes d’IDFM, nous avons identifié et proposé quatre défis sur cette thématique, avec des données et des ressources adaptées mises à disposition des participantes et participants :
 * Défi 1 - Évaluer et outiller l’impact des mobilités actives et de l’intermodalité
 * Défi 2 - Aider les entreprises à décarboner leurs mobilités
 * Défi 3 - Créer des outils en faveur des mobilités durables pour les collectivités franciliennes 
