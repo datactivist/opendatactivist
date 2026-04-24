@@ -16,6 +16,8 @@ const MarkdownDocs = ({ filename }) => {
   const [content, setContent] = useState('');
   const [isGalleryExpanded, setIsGalleryExpanded] = useState(false);
   const [quotes, setQuotes] = useState([]); // Étape 1: État pour les citations
+  const [loadError, setLoadError] = useState('');
+  const [loadWarning, setLoadWarning] = useState('');
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
@@ -122,11 +124,18 @@ const MarkdownDocs = ({ filename }) => {
   useEffect(() => {
     const fetchMarkdownContent = async () => {
       try {
-        const res = await fetch(`/api/metadoc?filename=${filename}`);
+        const responseFilename = encodeURIComponent(filename);
+        const res = await fetch(`/api/metadoc?filename=${responseFilename}`);
         const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data?.error || data?.message || `Failed to fetch document metadata: ${res.status}`);
+        }
   
         setMetadata(data.metadata);
         setContent(marked(data.content));
+        setLoadError('');
+        setLoadWarning(data.warning || '');
   
         if (data.metadata.quotes) {
           const quoteIds = `${data.metadata.quotes}`.split(',').map(id => id.trim());
@@ -138,6 +147,8 @@ const MarkdownDocs = ({ filename }) => {
         }
       } catch (error) {
         console.error('Error fetching Markdown content and quotes', error);
+        setLoadError(error.message || 'Erreur lors du chargement du document');
+        setLoadWarning('');
       }
     };
   
@@ -236,24 +247,6 @@ const MarkdownDocs = ({ filename }) => {
   };
 
   useEffect(() => {
-    const fetchMarkdownContent = async () => {
-      try {
-        // Update the API endpoint to the new 'metadoc' endpoint
-        const res = await fetch(`/api/metadoc?filename=${filename}`);
-        const data = await res.json();
-
-        // Set metadata and content from the new API response
-        setMetadata(data.metadata);
-        setContent(marked(data.content));
-      } catch (error) {
-        console.error('Error fetching Markdown content', error);
-      }
-    };
-
-    fetchMarkdownContent();
-  }, [filename]);
-
-  useEffect(() => {
     if (content) {
       const hash = window.location.hash;
       if (hash) {
@@ -263,28 +256,6 @@ const MarkdownDocs = ({ filename }) => {
       }
     }
   }, [content]);
-
-  useEffect(() => {
-    const fetchReferencesDetails = async () => {
-      if (metadata.references_catalog) {
-        const referenceIds = metadata.references_catalog.split(',');
-        const referencesPromises = referenceIds.map((id) =>
-          fetch(`/api/referenceDetails?id=${id.trim()}`).then((response) =>
-            response.json(),
-          ),
-        );
-        Promise.all(referencesPromises)
-          .then((referencesDetails) => {
-            console.log(referencesDetails);
-          })
-          .catch((error) =>
-            console.error('Error fetching references details:', error),
-          );
-      }
-    };
-
-    fetchReferencesDetails();
-  }, [metadata.references_catalog]);
 
   const renderReferences = () => {
     if (!metadata.references_catalog) return null;
@@ -309,28 +280,6 @@ const MarkdownDocs = ({ filename }) => {
       );
     });
   };
-
-  useEffect(() => {
-    const fetchResearchProjectsDetails = async () => {
-      if (metadata.research_projects) {
-        const projectIds = metadata.research_projects.split(',');
-        const projectsPromises = projectIds.map((id) =>
-          fetch(`/api/researchProjectDetails?id=${id.trim()}`).then(
-            (response) => response.json(),
-          ),
-        );
-        Promise.all(projectsPromises)
-          .then((projectsDetails) => {
-            fetchResearchProjectsDetails(projectsDetails);
-          })
-          .catch((error) =>
-            console.error('Error fetching research projects details:', error),
-          );
-      }
-    };
-
-    fetchResearchProjectsDetails();
-  }, [metadata.research_projects]);
 
   const renderResearchProjects = () => {
     if (!metadata.research_projects || !metadata.research_projects_titles) return null;
@@ -385,6 +334,38 @@ const MarkdownDocs = ({ filename }) => {
         >
           {metadata?.description}
         </p>
+        {loadError && (
+          <div
+            style={{
+              margin: '1rem auto',
+              padding: '0.85rem 1rem',
+              maxWidth: '820px',
+              borderRadius: '10px',
+              background: '#fff3cd',
+              color: '#664d03',
+              border: '1px solid #ffe69c',
+              fontSize: '0.95rem',
+            }}
+          >
+            {loadError}
+          </div>
+        )}
+        {!loadError && loadWarning && (
+          <div
+            style={{
+              margin: '1rem auto',
+              padding: '0.85rem 1rem',
+              maxWidth: '820px',
+              borderRadius: '10px',
+              background: '#e7f1ff',
+              color: '#0b3d91',
+              border: '1px solid #b6d4fe',
+              fontSize: '0.95rem',
+            }}
+          >
+            {loadWarning}
+          </div>
+        )}
         <br />
         <div className={styles.partnersReferencesContainer}>
           {metadata.references_catalog && (

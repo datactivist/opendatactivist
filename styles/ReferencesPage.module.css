@@ -93,7 +93,7 @@
     font-weight: 500;
     color: #4b4b4b;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     font-size: 14px;
     gap: 10px;
     margin: 10px;

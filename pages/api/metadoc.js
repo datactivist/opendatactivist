@@ -3,7 +3,12 @@ import path from 'path';
 import matter from 'gray-matter';
 
 export default async function handler(req, res) {
-  const { filename } = req.query;
+  const { filename: rawFilename } = req.query;
+  const filename = Array.isArray(rawFilename) ? rawFilename[0] : rawFilename?.trim();
+
+  if (!filename) {
+    return res.status(400).json({ error: 'Missing filename parameter' });
+  }
 
   // Path to the JSON file
   const jsonFilePath = path.join(process.cwd(), 'public', 'sitedata', 'docs_catalog.json');
@@ -36,6 +41,14 @@ export default async function handler(req, res) {
       content: markdownParsedContent
     });
   } catch (error) {
+    if (error.code === 'ENOENT') {
+      return res.status(200).json({
+        metadata: documentMetadata,
+        content: '',
+        warning: 'Markdown file not found for this document',
+      });
+    }
+
     res.status(500).json({ message: error.message });
   }
 }

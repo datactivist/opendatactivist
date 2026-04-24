@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import fetch from 'node-fetch';
-import { supabase } from "../../utils/supabaseClient";
+import { hasSupabaseConfig, supabase } from "../../utils/supabaseClient";
 
 export default async function handler(req, res) {
   const { filename, action } = req.query;
@@ -64,6 +64,11 @@ export default async function handler(req, res) {
 
         // Special handling for "pv" files
         if (filename.endsWith('pv') && data.access === 'datactivist-team') {
+          if (!hasSupabaseConfig || !supabase) {
+            res.status(503).json({ message: 'Supabase is not configured.' });
+            return;
+          }
+
           const user = req.user;  // Assuming you have user in req
 
           if (user && user.email) {

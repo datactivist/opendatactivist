@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '../styles/LayoutFocus.module.css';
-import { supabase } from '../utils/supabaseClient';
+import { hasSupabaseConfig, supabase } from '../utils/supabaseClient';
 
 const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,6 +23,11 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     async function checkUserSession() {
+      if (!hasSupabaseConfig || !supabase) {
+        setLoggedIn(false);
+        return;
+      }
+
       const { data, error } = await supabase.auth.getUser();
 
       if (error) {
@@ -38,6 +43,11 @@ const Layout = ({ children }) => {
   }, []);
 
   const handleLogout = async () => {
+    if (!supabase) {
+      setLoggedIn(false);
+      return;
+    }
+
     await supabase.auth.signOut();
     setLoggedIn(false);
   };
@@ -93,24 +103,25 @@ const Layout = ({ children }) => {
             <a href="/" className={styles.title}>
               open{' '}
             </a>
-            <Link href="/" passHref>
+            <Link href="/">
               <Image
                 src="/images/footer/logo-datactivist.png"
                 alt="Datactivist logo"
-                width={220}
-                height={220}
+                width={999}
+                height={120}
                 priority
                 className={styles.logo}
+                style={{ width: '220px', height: 'auto' }}
               />
             </Link>
           </div>
           <nav
             className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}
           >
-            <Link href="/products" passHref>
+            <Link href="/products">
               <span className={styles.link}>Outils & produits</span>
             </Link>
-            <Link href="/docs" passHref>
+            <Link href="/docs">
               <span className={styles.link}>Contenus ouverts</span>
             </Link>
             <div
@@ -125,7 +136,7 @@ const Layout = ({ children }) => {
               >
                 {loggedIn ? (
                   <>
-                    <Link href="/account/mes-informations" passHref>
+                    <Link href="/account/mes-informations">
                       <span className={`${styles.link} ${styles.dropdownItem}`}>
                         Mon compte
                       </span>
@@ -138,7 +149,7 @@ const Layout = ({ children }) => {
                     </div>
                   </>
                 ) : (
-                  <Link href="/auth/login" passHref>
+                  <Link href="/auth/login">
                     <span className={`${styles.link} ${styles.dropdownItem}`}>
                       Mon compte
                     </span>
