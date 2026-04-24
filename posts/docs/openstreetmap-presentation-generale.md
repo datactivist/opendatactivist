@@ -2,6 +2,6 @@
 
 > Accédez au support en ligne
 
-<a href="https://nextcloud.datactivist.coop/s/78dwS6FbwCAgmTy" class="customButton">Télécharger la présentation</a>
+<a href="https://nextcloud.datactivist.coop/s/WxazyKm39HCMWtD" class="customButton">Télécharger la présentation</a>
 
 %%Products:openstreetmap%%
