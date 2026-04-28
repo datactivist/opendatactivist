@@ -46,7 +46,7 @@ Nous appelons régulièrement à une publication raisonable de ces informations 
   <iframe
     width="100%"
     height="500"
-    src="https://peertube.openstreetmap.fr/videos/embed/7gy5Hx5r2QB9nYuPGJWWcyC">
+    src="https://peertube.openstreetmap.fr/videos/embed/gy5Hx5r2QB9nYuPGJWWcyC">
   </iframe>
 </div>
 
