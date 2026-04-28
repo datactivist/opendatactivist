@@ -6,46 +6,68 @@ import Cards from '../../components/nav/Cards';
 import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
 import ResearchCard from '../../components/nav/ResearchCard';
+import { getItemById } from '../../utils/siteData';
+
+const readJson = async (response) => {
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  return response.json();
+};
 
 const AuthorPage = () => {
   const router = useRouter();
   const { author } = router.query;
 
-  const [authorData, setAuthorData] = useState(null);
+  const [authorData, setAuthorData] = useState(undefined);
   const [partnerData, setPartnerData] = useState(null);
   const [authorDocs, setAuthorDocs] = useState([]);
   const [referencesDetails, setReferencesDetails] = useState([]);
   const [researchDetails, setResearchDetails] = useState([]);
+  const [isAuthorLoading, setIsAuthorLoading] = useState(true);
+  const [isAuthorMissing, setIsAuthorMissing] = useState(false);
 
   useEffect(() => {
     if (!author) return;
 
-    console.log(`Fetching data for author: ${author}`);
+    setIsAuthorLoading(true);
+    setIsAuthorMissing(false);
+    setAuthorData(undefined);
+    setPartnerData(null);
 
     fetch(`/sitedata/authors.json`)
-      .then((response) => response.json())
+      .then(readJson)
       .then((data) => {
-        console.log(`Fetched author data:`, data);
-        const authorInfo = data[author];
+        const authorInfo = getItemById(data, author);
 
-        if (authorInfo) {
-          setAuthorData(authorInfo);
-          console.log(`Author data found: `, authorInfo);
-          if (authorInfo.organisation !== 'datactivist') {
-            fetch(`/sitedata/partners.json`)
-              .then((response) => response.json())
-              .then((partnerData) => {
-                setPartnerData(partnerData[authorInfo.organisation]);
-                console.log(`Partner data found: `, partnerData[authorInfo.organisation]);
-              });
-          }
-        } else {
-          console.log('Author not found in authors.json');
+        if (!authorInfo) {
           setAuthorData(null);
+          setIsAuthorMissing(true);
+          return;
+        }
+
+        setAuthorData(authorInfo);
+
+        if (authorInfo.organisation && authorInfo.organisation !== 'datactivist') {
+          fetch(`/sitedata/partners.json`)
+            .then(readJson)
+            .then((partners) => {
+              setPartnerData(getItemById(partners, authorInfo.organisation));
+            })
+            .catch((error) => {
+              console.error('Failed to fetch partner data:', error);
+              setPartnerData(null);
+            });
         }
       })
       .catch((error) => {
         console.error('Failed to fetch author data:', error);
+        setAuthorData(null);
+        setIsAuthorMissing(true);
+      })
+      .finally(() => {
+        setIsAuthorLoading(false);
       });
   }, [author]);
 
@@ -53,26 +75,24 @@ const AuthorPage = () => {
     if (!author) return;
 
     fetch('/api/references?action=list')
-      .then((response) => response.json())
+      .then(readJson)
       .then((allReferences) => {
         const filteredReferences = allReferences.filter(
           (reference) => reference.team.includes(author)
         );
         setReferencesDetails(filteredReferences);
-        console.log(`References found: `, filteredReferences);
       })
       .catch((error) => {
         console.error('Failed to fetch references:', error);
       });
 
     fetch('/api/research-projects?action=list')
-      .then((response) => response.json())
+      .then(readJson)
       .then((allResearch) => {
         const filteredResearch = allResearch.filter(
           (research) => research.team.includes(author)
         );
         setResearchDetails(filteredResearch);
-        console.log(`Research projects found: `, filteredResearch);
       })
       .catch((error) => {
         console.error('Failed to fetch research projects:', error);
@@ -80,16 +100,15 @@ const AuthorPage = () => {
 
     if (authorData) {
       fetch('/api/docscatalog?action=metadatalist')
-        .then((response) => response.json())
+        .then(readJson)
         .then((data) => {
           const docsByAuthor = data.filter((doc) =>
             doc.authors
               .split(',')
-              .map((author) => author.trim())
+              .map((authorId) => authorId.trim())
               .includes(author)
           );
           setAuthorDocs(docsByAuthor);
-          console.log(`Documents found: `, docsByAuthor);
         })
         .catch((error) => {
           console.error('Failed to fetch author documents:', error);
@@ -97,20 +116,20 @@ const AuthorPage = () => {
     }
   }, [author, authorData]);
 
-  if (authorData === null) {
-    return <div>Auteur non trouvé</div>;
+  if (!author || isAuthorLoading) {
+    return <div>Loading...</div>;
   }
 
-  if (!authorData) {
-    return <div>Loading...</div>;
+  if (isAuthorMissing || !authorData) {
+    return <div>Auteur non trouvé</div>;
   }
 
   return (
     <Layout>
       <h1 className={styles.authorpageTitle}>
         {authorData.organisation === 'datactivist' ? (
-          <Link href="/equipe" legacyBehavior>
-            <a className={styles.authorPageLink}>...Notre équipe</a>
+          <Link href="/equipe" className={styles.authorPageLink}>
+            ...Notre équipe
           </Link>
         ) : (
           '...Nos contributeurs'
@@ -190,7 +209,7 @@ const AuthorPage = () => {
             <div className={styles.authorSectionTitle}>Références</div>
             <div className={styles.referencesGallery}>
               {referencesDetails.map((reference, index) => (
-                <Link key={index} href={`/references/${reference.id}`} passHref>
+                <Link key={index} href={`/references/${reference.id}`}>
                   <div className={styles.referenceCard}>
                     <h3 className={styles.referenceTitle}>{reference.title}</h3>
                     <div className={styles.partnerLogosContainer}>

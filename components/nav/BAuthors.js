@@ -1,18 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/BAuthors.module.css';
+import { toIdMap } from '../../utils/siteData';
 
 const Authors = ({ authorIds, largeText = false, onlyDatactivist = false, onAuthorClick = () => {} }) => {
   const [authorsData, setAuthorsData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
   // Process authorIds into an array
-  const authorArray = typeof authorIds === 'string' ? authorIds.split(',').map(id => id.trim()) : authorIds;
+  const authorArray = Array.isArray(authorIds)
+    ? authorIds
+    : typeof authorIds === 'string'
+      ? authorIds.split(',').map(id => id.trim())
+      : [];
 
   useEffect(() => {
     fetch('/sitedata/authors.json')
       .then(response => response.json())
       .then(data => {
-        setAuthorsData(data);
+        setAuthorsData(toIdMap(data));
+        setIsLoading(false);
+      })
+      .catch(() => {
         setIsLoading(false);
       });
   }, []);

@@ -8,6 +8,7 @@ import styles from '../../styles/Tags.module.css';
 import ListView from '../nav/ListView';
 import Image from 'next/image';
 import authorsData from '../../public/sitedata/authors.json';
+import { getItemById } from '../../utils/siteData';
 
 const DocsGallery = () => {
   const router = useRouter();
@@ -121,7 +122,7 @@ const DocsGallery = () => {
     if (query.author) {
       setSelectedAuthor(decodeURIComponent(query.author));
       const authorId = decodeURIComponent(query.author);
-      const authorName = authorsData[authorId].name; // Récupérer le nom de l'auteur à partir de l'ID
+      const authorName = getItemById(authorsData, authorId)?.name || '';
       setSelectedAuthorName(authorName);
     } else {
       setSelectedAuthor('');

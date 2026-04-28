@@ -6,17 +6,20 @@ import Gallery from '../../components/nav/Gallery';
 import Layout from '../../components/Layout';
 import ReferenceCard from '../../components/nav/ReferenceCard';
 import ResearchCard from '../../components/nav/ResearchCard';
+import { toCollection } from '../../utils/siteData';
 
 const PartnerPage = () => {
   const router = useRouter();
   const { partner } = router.query;
 
-  const [partnerData, setPartnerData] = useState(null);
+  const [partnerData, setPartnerData] = useState(undefined);
   const [partnerDocuments, setPartnerDocuments] = useState([]);
   const [partnerContributors, setPartnerContributors] = useState([]);
   const [partnerProducts, setPartnerProducts] = useState([]);
   const [partnerReferences, setPartnerReferences] = useState([]);
   const [partnerResearchProjects, setPartnerResearchProjects] = useState([]);
+  const [isPartnerLoading, setIsPartnerLoading] = useState(true);
+  const [isPartnerMissing, setIsPartnerMissing] = useState(false);
 
   useEffect(() => {
     if (partner) {
@@ -32,26 +35,41 @@ const PartnerPage = () => {
   }, [partner]);
 
   useEffect(() => {
+    if (!partner) return;
+
     fetch('/sitedata/authors.json')
       .then((response) => response.json())
       .then((data) => {
-        const contributorsOfPartner = Object.entries(data)
-          .filter(([author]) => author.organisation === partner)
-          .map(([id, author]) => ({ ...author, id }));
+        const contributorsOfPartner = toCollection(data).filter(
+          (author) => author.organisation === partner
+        );
         setPartnerContributors(contributorsOfPartner);
       });
   }, [partner]);
 
   useEffect(() => {
     if (partner) {
+      setIsPartnerLoading(true);
+      setIsPartnerMissing(false);
+
       fetch(`/api/partners?id=${partner}`)
-        .then((response) => response.json())
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Partner not found');
+          }
+
+          return response.json();
+        })
         .then((data) => {
           setPartnerData(data);
         })
         .catch((error) => {
           console.error('Error fetching partner data:', error);
           setPartnerData(null);
+          setIsPartnerMissing(true);
+        })
+        .finally(() => {
+          setIsPartnerLoading(false);
         });
     }
   }, [partner]);
@@ -111,17 +129,17 @@ const PartnerPage = () => {
     router.push(`/products/${productId}`);
   };
 
-  if (partnerData === null) {
+  if (!partner || isPartnerLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (isPartnerMissing || partnerData === null) {
     return (
       <div>
         Cette organisation n‘est pas encore partenaire ou cliente 🥲 Mais
         n‘hésitez pas à lui parler de nous !{' '}
       </div>
     );
-  }
-
-  if (!partnerData) {
-    return <div>Loading...</div>;
   }
 
   return (

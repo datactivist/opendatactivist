@@ -42,12 +42,13 @@ const Layout = ({ children }) => {
         }`}
       >
         <div className={styles.logoDatactivist}>
-          <Link href="/" passHref>
+          <Link href="/">
             <Image
               src="/images/footer/logo-datactivist.png"
               alt="Datactivist Logo"
-              width={200}
-              height={50}
+              width={999}
+              height={120}
+              style={{ width: '100%', height: 'auto' }}
             />
           </Link>
         </div>
@@ -109,7 +110,7 @@ const Layout = ({ children }) => {
       <main className={styles.mainContent}>{children}</main>
       <footer className={styles.footer}>
         <div className={styles.footerIcons}>
-          <Link href="https://www.linkedin.com/company/datactivist" passHref>
+          <Link href="https://www.linkedin.com/company/datactivist">
             <Image
               src="/images/footer/linkedin.svg"
               alt="LinkedIn"
@@ -117,7 +118,7 @@ const Layout = ({ children }) => {
               height={24}
             />
           </Link>
-          <Link href="mailto:hello@datactivist.coop" passHref>
+          <Link href="mailto:hello@datactivist.coop">
             <Image
               src="/images/footer/mail.svg"
               alt="Mail"

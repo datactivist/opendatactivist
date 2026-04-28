@@ -45,7 +45,7 @@
 
 .card-link {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   padding: 0.5rem;
 }
 
