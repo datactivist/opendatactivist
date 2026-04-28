@@ -1,6 +1,6 @@
 <font size="2">*Illustration : François Lacombe - CC BY-SA 4.0*</font>
 
-Le mouvement actuel de diminution des sources d'énergies fossiles dans notre mix énergétique est en cours depuis le début des années 2000. Il conduit à électrifier les usages pérennes tout en diminuant la quantité totale d'énergie consommée au moyen de mesures d'efficacité. Comme la plupart des transformations sectorielles de ce début du 21ème siècle, de grandes quantités de données sont nécessaires pour les conduire efficacement.
+Le mouvement de diminution des sources d'énergies fossiles dans notre mix énergétique est en cours depuis le début des années 2000. Il conduit à électrifier les usages pérennes tout en diminuant la quantité totale d'énergie consommée au moyen de mesures d'efficacité. Comme la plupart des transformations sectorielles de ce début du 21ème siècle, de grandes quantités de données sont nécessaires pour les conduire efficacement.
 
 ## Connaître les moyens de production
 
@@ -11,7 +11,7 @@ La diversification des filières de production, de nouveaux producteurs différe
 
 Datactivist propose de rassembler les acteurs industriels, administratifs et de recherche pour inventorier efficacement et durablement ces installations de plus en plus nombreuses. Face à cette diversité d'acteurs et de pratiques, nous avons besoins de formats d'échanges, de règles de contrôles partagées et d'une gouvernance ouverte pour y parvenir.
 
-Il ne s'agit pas de construire ponctuellement un nouvel inventaire mais bien d'assurer sa maintenabilité sur le long terme. Pour cela, nous avons choisi OpenStreetMap comme une plateforme pertinente pour rassembler cette connaissance.
+Il ne s'agit pas de construire ponctuellement un nouvel inventaire mais bien d'assurer sa maintenabilité sur le long terme. Nous avons choisi OpenStreetMap comme plateforme pour rassembler cette connaissance.
 
 %%Docs:utilities-asset-management%%
 
