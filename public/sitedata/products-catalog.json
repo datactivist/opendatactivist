@@ -208,5 +208,16 @@
       "Formation",
       "Outillage"
     ]
+  },
+  {
+    "name": "utilities",
+    "title": "Données des réseaux et utilities",
+    "description": "Notre experience au service des gestionnaires de réseaux, autorités organisatrices et services publics en réseau",
+    "image": "/images/products/utilities.png",
+    "public_date": "2026-04-28",
+    "topics": [
+      "Utilities",
+      "Outillage"
+    ]
   }
 ]
