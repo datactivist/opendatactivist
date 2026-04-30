@@ -8,7 +8,7 @@ Datactivist a développé une expertise à propos de cette évaluation et partic
 
 Vous pouvez le découvrir dans le document ci-dessous qui mobilise plusieurs cas d'usages pour l'illustrer. 
 
-<a href="https://nextcloud.datactivist.coop/s/K8xZAFprGRRKSFw" class="customButton">Télécharger la présentation</a>
+<a href="https://nextcloud.datactivist.coop/s/K8xZAFprGRRKSFw" target="_blank" class="customButton">Télécharger la présentation</a>
 
 ## Le sujet en vidéo
 
@@ -24,16 +24,12 @@ Ce support a été utilisé lors de la seconde édition de la journée OpenStree
 
 D'autres ressources produites par notre équipe sont également disponibles en ligne
 
-### Mesure de la contribution
-
-[Podoma](https://wiki.openstreetmap.org/wiki/Podoma) permet de mesurer la contribution et de mieux connaître la population impliquée dans la cartographie d'un sujet en particulier.
-
-<a href="https://peertube.openstreetmap.fr/w/rbfWmXjTHFZ22PgeavWd8Z" class="customButton">FOSDEM26: Podoma to monitor OpenStreetMap contribution</a>
+%%Docs:openstreetmap-monitoring-contribution%%
 
 ### Contrôle qualité
 
 [Osmose-QA](https://wiki.openstreetmap.org/wiki/Osmose) est une plateforme d'évaluation de la qualité au moyens d'analyses personnalisées des données OpenStreetMap. Il permet aussi de comparer les données collaboratives avec des données référentielles en open data et donc de rendre compte sur les différences entre les deux sources.
 
-<a href="https://peertube.openstreetmap.fr/w/3twSLW9u6VNRMYwKATZ4fL" class="customButton">Intégration de données ouvertes</a>
+<a href="https://peertube.openstreetmap.fr/w/3twSLW9u6VNRMYwKATZ4fL" target="_blank" class="customButton">Intégration de données ouvertes</a>
 
 %%Products:openstreetmap%%

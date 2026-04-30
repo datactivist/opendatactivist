@@ -4,7 +4,7 @@
 
 > Notre support explique les enjeux de l'usage des données OpenStreetMap et présente quelques outils pour pouvoir être autonome.
 
-<a href="https://nextcloud.datactivist.coop/s/tddABPkxQE9Q5NF" class="customButton">Télécharger la présentation</a>
+<a href="https://nextcloud.datactivist.coop/s/tddABPkxQE9Q5NF" target="_blank" class="customButton">Télécharger la présentation</a>
 
 ## Le sujet en vidéo
 

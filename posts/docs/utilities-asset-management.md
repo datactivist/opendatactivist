@@ -12,14 +12,11 @@ Sans parler directement d'un jumeau numérique complet, bien que tout cela puiss
 
 ## Aménagement et résilience
 
-Les infrastructures existantes sont vulnérables aux événements climatiques et posent des contraintes aux projets d'aménagement. Il faut pouvoir les intégrer dans la description géographique d'un territoire et pouvoir interpréter correctement leur présence en fonction du contexte.
+Les infrastructures existantes sont exposées aux événements climatiques et posent des contraintes aux projets d'aménagement. Il faut pouvoir les intégrer dans la description géographique d'un territoire et pouvoir interpréter correctement leur présence en fonction du contexte.
 
 Citons par exemple l'examen de la végétalisation urbaine [incluant les ouvrages souterrains](https://iarbre.fr/) ou bien [l'étude du risque innondation](https://agirisk.cerema.fr/) pour la résilience des réseaux électriques ou télécoms.
 
-Ces cas d'usages et bien d'autres ne peuvent se concrétiser pleinement qu'en partageant les données qui doivent l'être.  
-Nous encourageons les collaborations entre acteurs pour que ce partage devienne possible. Cela d'autant que plusieurs réglementations sectorielles favorisent l'échange de données en faveur de la durabilité des programmes d'aménagements ([Article 4](https://eur-lex.europa.eu/eli/reg/2024/1309/oj/fra#art_4) du règlement EU 2024/1309 en remplacement de l'[article 4](https://eur-lex.europa.eu/eli/dir/2014/61/oj/fra#art_4) de la directive 2014/61/EU). Ces mesures ont souvent du mal à se concrétiser dans les faits.
-
-%%Docs:utilities-plan-corps-rue-simplifie%%
+%%Docs:utilities-mutualisation-resilience%%
 
 ## Fiscalité
 
@@ -30,7 +27,7 @@ Cette présence donne lieu à une taxation ou redevance d'occupation selon les c
 
 Datactivist ne participe pas directement à ces activités de contrôle à dominante juridique. Nous vous conseillons pour mettre en place la gouvernance ou les outils pour obtenir les données nécessaires requises pour ces missions.
 
-<a href="https://forum.geocommuns.fr/t/batiments-de-distribution-delectricite-dans-le-rnb/2389" class="customButton">Investigation : absence des bâtiments de la distribution publique d'électricité dans le cadastre</a>
+<a href="https://forum.geocommuns.fr/t/batiments-de-distribution-delectricite-dans-le-rnb/2389" target="_blank" class="customButton">Investigation : absence des bâtiments de la distribution publique d'électricité dans le cadastre</a>
 
 # Des données trop rarement ouvertes
 
@@ -52,5 +49,17 @@ Nous appelons régulièrement à une publication raisonable de ces informations 
 
 Découvrez également nos focus thématiques sur le forum TeamOpenData :
 %%Links:donnees-eclairage-public,donnees-reseaux-distribution-electrique%%
+
+## Un cadre légal favorable
+
+L'inventaire patrimonial des infrastructures est encadré réglementairement dans différents domaines.  
+D'une part des textes sectoriels précisent quelles données et quelles modalités doivent être mises en oeuvre pour leur gestion par les gestionnaires et leurs délégants.  
+D'autre part, la réglementation anti-endommagement prescrit un géoréférencement de plus en plus précis en vue de limiter les atteintes aux ouvrages en cas de travaux, ce qui contribue indirectement à améliorer la qualité des référentiels patrimoniaux.
+
+On citera par exemple :
+- Arrêtés du [26 août 2011](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024507365/) et du [22 juin 2020](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042056014) instituant une obligation d'inventaire des aérogénérateurs
+- Arrêté du [11 mars 2016](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032291054) dit d'inventaire à propos des données détenues par les gestionnaires de réseaux électriques.
+- Décrêts [2016-973](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032914473), [2020-196](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041690917) et les arrêtés du [16 juillet 2016](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032914630) et du [6 mars 2020](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041697107) définissant les modalités de transmission de ces données.
+- Arrêté du [15 février 2012](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000025391351/) et textes modificatifs relatifs à l'inventaire des ouvrages de transport ou de distribution lors de travaux à proximité.
 
 %%Products:utilities%%
