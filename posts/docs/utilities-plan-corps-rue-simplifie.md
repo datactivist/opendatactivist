@@ -29,7 +29,7 @@ Ces usages ne se déveloperont qu'à la condition que les données produites par
 
 ## Ouvrir les données
 
-Le caractère ouvert du PCRS a été affirmé en 2023 par l'Administratice Générale des Données de l'Etat et nous attendons son classement en [jeu de données à forte valeur](https://www.data.gouv.fr/pages/donnees-de-forte-valeur). Retrouvez les détails dans cet article complet :
+Le caractère ouvert du PCRS a été affirmé en 2023 par l'Administratice Générale des Données de l'Etat et nous attendons son classement en [jeux de données à forte valeur](https://www.data.gouv.fr/pages/donnees-de-forte-valeur). Retrouvez les détails dans cet article complet :
 
 %%Links:avis-agd-ouverture-pcrs%%
 
