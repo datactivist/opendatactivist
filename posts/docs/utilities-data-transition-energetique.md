@@ -59,6 +59,7 @@ Dès 2015, c'est la [Loi de Transition Ecologique et de Croissance Verte](https:
 La [Loi d'Accélération de la Production d'Energies Renouvelables](https://fr.wikipedia.org/wiki/Loi_relative_%C3%A0_l%27acc%C3%A9l%C3%A9ration_de_la_production_d%27%C3%A9nergies_renouvelables) instaure quant à elle l'inventaire des zones potentielles d'implentation de nouvelles installations de production d'électricité ou de biogaz.
 
 D'autres textes réglementaires concernent plus particulièrement les modalités de transmission de différentes données descriptives :
+- Arrêtés du [26 août 2011](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024507365/) et du [22 juin 2020](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042056014) instituant une obligation d'inventaire des aérogénérateurs
 - Décrêts [2016-973](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032914473), [2020-196](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041690917) et les arrêtés du [16 juillet 2016](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032914630) et du [6 mars 2020](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041697107) définissant les modalités de transmission de ces données.
 
 Le reste des données communicables produites ou détenues par les administrations concernées doivent être publiées dans le cadre général de la Loi Lemaire (livre III du CRPA)
