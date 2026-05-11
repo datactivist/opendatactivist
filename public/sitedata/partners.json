@@ -128,7 +128,7 @@
     "lat": 48.8566,
     "lon": 2.3522,
     "references_catalog": "anct-beta-pcrs,challenge-sgl",
-    "docs_catalog": "",
+    "docs_catalog": "utilities-plan-corps-rue-simplifie",
     "research_projects": ""
   },
   {
@@ -223,7 +223,7 @@
     "partner_city": "Paris",
     "lat": 48.8566,
     "lon": 2.3522,
-    "references_catalog": "hackathon-ademe,dis-ademe",
+    "references_catalog": "hackathon-ademe,dis-ademe,urba-sante-openstreetmap-tutorial-nature-ville",
     "docs_catalog": "",
     "research_projects": ""
   },
@@ -1136,7 +1136,31 @@
     "lat": "",
     "lon": "",
     "references_catalog": "",
-    "docs_catalog": "tout-savoir-licence-odbl,openstreetmap-acceder-donnees,openstreetmap-chez-datactivist,openstreetmap-presentation-generale,openstreetmap-confiance-qualite,openstreetmap-nature-en-ville,openstreetmap-ontologie",
+    "docs_catalog": "tout-savoir-licence-odbl,openstreetmap-acceder-donnees,openstreetmap-chez-datactivist,openstreetmap-presentation-generale,openstreetmap-confiance-qualite,openstreetmap-nature-en-ville,openstreetmap-ontologie,openstreetmap-monitoring-contribution",
+    "research_projects": ""
+  },
+  {
+    "id": "enedis",
+    "name": "Enedis",
+    "image": "/images/partners/enedis.png",
+    "description": "Enedis assure la distribution d’électricité pour 95% de la France hexagonale. Il opère différents services de données ouvertes ou protégées pour le compte de ses clients et collectivités délégantes",
+    "partner_city": "",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "observatoire-transition-ecologique-enedis",
+    "docs_catalog": "",
+    "research_projects": ""
+  },
+  {
+    "id": "havas-paris",
+    "name": "Havas Paris",
+    "image": "/images/partners/havasparis.png",
+    "description": "Havas Paris conseille et construit des produits numériques et stratégies de communication pour le compte de ses clients",
+    "partner_city": "Paris",
+    "lat": "",
+    "lon": "",
+    "references_catalog": "observatoire-transition-ecologique-enedis",
+    "docs_catalog": "",
     "research_projects": ""
   }
 ]

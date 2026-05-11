@@ -11,6 +11,8 @@ Datactivist a proposé depuis 2022 plusieurs solutions et actions utiles à l'in
   <iframe width="100%" height="541" src="https://www.youtube.com/embed/l_3O2BEk_O0" title="FRnOG 35 - Fermeture du réseau téléphonique et services sur cuivre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+%%Docs:utilities-mutualisation-resilience%%
+
 ## Contributions au débat public
 
 Ces changements technologiques sont régulièrement débattus au niveau national et européen. Nous présentons régulièrement nos propositions lors des débats.
@@ -24,20 +26,20 @@ Plusieurs consultations publiques ont été ouvertes depuis février 2022, auxqu
 * Identification supplémentaire des immeubles raccordés en fibre, alors que le niveau d'information le plus avancé est le caractère raccordable
 
 Retrouvez nos réponses publiques aux liens suivants :
-<a href="https://nextcloud.datactivist.coop/s/PK9WxAMSPNDLeiA" class="customButton">Février 2022 - réponse au plan de fermeture du cuivre</a>
-<a href="https://nextcloud.datactivist.coop/s/KHq4SQ68eWkjFXW" class="customButton">Décembre 2024 - propositions au sujet de la complétude du déploiement FttH</a>
+<a href="https://nextcloud.datactivist.coop/s/PK9WxAMSPNDLeiA" target="_blank" class="customButton">Février 2022 - réponse au plan de fermeture du cuivre</a>
+<a href="https://nextcloud.datactivist.coop/s/KHq4SQ68eWkjFXW" target="_blank" class="customButton">Décembre 2024 - propositions au sujet de la complétude du déploiement FttH</a>
 
 ### Code de réseau européen
 Plus récemment, en 2025, la problématique du renouvellement des réseaux cuivre par de la fibre optique est apparue dans la construction de la réglementation européenne.
 
 Datactivist a également contribué à [la consultation de juin 2025](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14709-Digital-Networks-Act_en) pour l'élaboration du Digital Network Act avec cette réponse :
-<a href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14709-Digital-Networks-Act/F3575215_en" class="customButton">Datactivist call for evidence answer</a>
+<a href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14709-Digital-Networks-Act/F3575215_en" target="_blank" class="customButton">Datactivist call for evidence answer</a>
 
 ## Outillage
 
 Afin de mettre en oeuvre ces proposition et tirer profit des évolutions réglementaires favorables découlant des contributions aux consultations ci-dessus, il est possible de visualiser sur la cartographie suivante les points les plus sensibles du programme.
 
-<a href="https://cuivre.infos-reseaux.com" class="customButton">🗺️ Cartographie comparative cuivre/fibre</a>
+<a href="https://cuivre.infos-reseaux.com" target="_blank" class="customButton">🗺️ Cartographie comparative cuivre/fibre</a>
 
 Vous pouvez nous contacter pour étudier l'utlité de certaines de ces données pour votre organisation.
 

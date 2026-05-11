@@ -1317,7 +1317,7 @@
     "reference-title": "",
     "research_projects": "",
     "research_projects_titles": "",
-    "quotes": "10,2"
+    "quotes": "10,20"
   },
   {
     "name": "strategie-alternative-reutilisation",
@@ -1691,7 +1691,7 @@
     "reference-title": "Projet de recherche-action EXCOM sur la mesure des effets non marchands du commerce",
     "research_projects": "excom",
     "research_projects_titles": "EXCOM - Repenser la valeur du commerce grâce à ses externalités",
-    "quotes": "126,13"
+    "quotes": "126,130"
   },
   {
     "name": "commandes-utiles-R",
@@ -2640,11 +2640,33 @@
     "quotes": ""
   },
   {
+    "name": "openstreetmap-monitoring-contribution",
+    "title": "Mesurer la contribution",
+    "image": "/images/docs/openstreetmap/monitoring.png",
+    "description": "Mesurer la contribution est un enjeu existentiel pour un commun. Nous avons cherché à mettre en évidence et valoriser l'engagement particulier sur certaines thématiques sur OpenStreetMap",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2026-04-30",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "francois-lacombe",
+    "author_image": "/images/authors/francois-lacombe.png",
+    "tags": "openstreetmap,statistique,outils",
+    "partners": "fede-pros-openstreetmap",
+    "partners-names": "Fédération des pros d'OpenStreetMap",
+    "partners-images": "/images/partners/fposm.png",
+    "references_catalog": "mapyourgrid",
+    "reference-title": "MapYourGrid initiative",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
+  },
+  {
     "name": "utilities-asset-management",
     "title": "La gestion patrimoniale des réseaux",
     "image": "/images/docs/utilities/asset-management.png",
     "description": "La gestion patrimoniale est une discipline essentielle pour la durabilité des infrastructures et des programmes d'aménagement. Nous apportons notre regard d'experts en données pour faciliter la tâche des acteurs responsables de la tenue à jour des référentiels et des outils.",
-    "type": "Cas pratique",
+    "type": "Blog",
     "index": 1,
     "date": "2026-04-10",
     "license": "ccbysa",
@@ -2655,8 +2677,8 @@
     "partners": "",
     "partners-names": "",
     "partners-images": "",
-    "references_catalog": "fnccr-france-data-reseau",
-    "reference-title": "Expertise métier et AMO France Data Réseau",
+    "references_catalog": "fnccr-france-data-reseau,gouv-data-sde",
+    "reference-title": "Expertise métier et AMO France Data Réseau, Enjeux de gouvernance des données du SPDE",
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
@@ -2666,7 +2688,7 @@
     "title": "La fin du réseau télécom cuivre",
     "image": "/images/docs/utilities/copper-switchoff.png",
     "description": "Le remplacement du cuivre par la fibre est un programme industriel devant s'étaler sur plus de 10 ans. Il vise à remplacer l'infrastructure historique de télécommunications fixe sur paire de cuivre par les technologies plus récentes sur fibre optique. La réussite de ces opérations mobilise de nombreuses données qu'il faut savoir traiter et valoriser.",
-    "type": "Cas pratique",
+    "type": "Blog",
     "index": 1,
     "date": "2026-04-10",
     "license": "ccbysa",
@@ -2706,7 +2728,7 @@
     "quotes": ""
   },
   {
-    "name": "utilities-transition-energetique",
+    "name": "utilities-data-transition-energetique",
     "title": "Les données de la transition énergétique",
     "image": "/images/docs/utilities/transition-energetique.png",
     "description": "La transition énergétique modifie en profondeur nos habitudes et sources d'énergie. L'augmentation des besoins en électricité pour remplacer les sources fossiles motiverait une mutation du parc de production et des réseaux chargés d'acheminer ces nouvelles productions. Nous pouvons vous aider à mieux connaître et travailler avec les données qui concernent ces activités",
@@ -2721,10 +2743,32 @@
     "partners": "",
     "partners-names": "",
     "partners-images": "",
-    "references_catalog": "mapyourgrid,fnccr-france-data-reseau",
-    "reference-title": "MapYourGrid initiative, Expertise métier et AMO France Data Réseau",
+    "references_catalog": "mapyourgrid,fnccr-france-data-reseau,observatoire-transition-ecologique-enedis",
+    "reference-title": "MapYourGrid initiative, Expertise métier et AMO France Data Réseau, Observatoire de la transition écologique Enedis",
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": "156,157"
+  },
+  {
+    "name": "utilities-mutualisation-resilience",
+    "title": "Mutualisation et résilience",
+    "image": "/images/docs/utilities/mutualisation-resilience.png",
+    "description": "L'adaptation au changement climatique requiert de disposer de toutes les données nécessaires pour faire mieux avec moins. Nous contribuons à renforcer l'ouverture de ces données et proposons différentes solutions pour accompagner la réalisation de vos plans de résilience.",
+    "type": "Cas pratique",
+    "index": 1,
+    "date": "2026-05-11",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "francois-lacombe",
+    "author_image": "/images/authors/francois-lacombe.png",
+    "tags": "territoires,ville intelligente,smart city,valorisation",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
