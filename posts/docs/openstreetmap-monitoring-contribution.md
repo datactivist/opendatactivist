@@ -24,14 +24,14 @@ Chaque édition dans OpenStreetMap alimente un historique en expension constante
 - Le volume de données est conséquent, plus de 200 Go en 2026 et nécessite en réalité un espace beaucoup plus important pour être traité décompressé
 - Les temps de traitement sont également importants en fonction des objets recherchés et des périmètres géographiques considérés
 
-Disposer d'une solution efficace pour industrialiser ces extraction, constituer des journaux de modification pour enfin parvenir à mesurer permet donc un gain de temps au quotidien.  
-C'est très utile en complément du point précédent pour pouvoir identifier des efforts de contributions particuliers y compris dans le passé.
+Disposer d'une solution efficace pour industrialiser ces extractions, constituer des journaux de modification pour enfin parvenir à mesurer permet donc un gain de temps au quotidien.  
+C'est très utile en complément du point précédent pour pouvoir identifier des efforts de contributions particuliers, y compris dans le passé.
 
 ### Une dimension sociale
 
-Observer la contribution, en particulier sur des thèmes de prédilection, renforce aussi la dimension sociale au sein de la communauté OpenStreetMap. Cela permet de découvrir d'autres contributeurs investits sur le même sujet dans ses environs proches.
+Observer la contribution, en particulier sur des thèmes de prédilection, renforce aussi la dimension sociale au sein de la communauté OpenStreetMap. Cela permet de découvrir d'autres contributeurs investis sur le même sujet dans ses environs proches.
 
-Cette connexions entre les humains du projet doit être renforcée, en particulier au niveau local ou même entre de potentiels organisateurs pour mieux connaître les personnes déjà impliquées.
+Cette connexion entre les humains du projet doit être renforcée, en particulier au niveau local ou même entre de potentiels organisateurs pour mieux connaître les personnes déjà impliquées.
 
 Cette dimension sociale a été très bien décrite par [Jean-Christophe Becquet](https://www.apitux.com/) lors des conférences éclair du State-of-the-Map 2024 à Lyon, [revisionnable en ligne sur la chaîne vidéo de l'événement](https://peertube.openstreetmap.fr/w/6dnSYspzFMS2xgK2UEi7MG?start=1h14m).
 
