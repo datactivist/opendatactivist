@@ -2,7 +2,7 @@ import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
 export default function Produit() {
   const produit = {
-    docsList: ['utilities-asset-management', 'utilities-copper-switchoff', 'utilities-plan-corps-rue-simplifie', 'utilities-data-transition-energetique'],
+    docsList: ['utilities-asset-management', 'utilities-copper-switchoff', 'utilities-mutualisation-resilience.md', 'utilities-plan-corps-rue-simplifie', 'utilities-data-transition-energetique'],
     nom: 'Données des réseaux et utilities',
     baseline: 'Notre experience au service des gestionnaires de réseaux, autorités organisatrices et services publics en réseau',
     description: `Nous produisons, traitons les données et conseillons nos clients dans leurs usages au service des infrastructures et des services publics en réseaux.
