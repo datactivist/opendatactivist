@@ -1,8 +1,9 @@
 # Présentation	
 
 > Cette formation vise à transmettre les fondamentaux de la datavisualisation - les réflexes à avoir, les règles à suivre et les outils à utiliser pour créer des visualisations efficaces.
->
-> # Consulter la présentation	
+
+
+# Consulter la présentation	
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvDDzWwUicgxlLm_cEyeSOsJWcU80Fg-UvIs57rrGCuFr6TespTHz5XgJ9p3oJcM7aRHcxQQljnFAj/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <a href="https://visio.octoconf.com/playback/presentation/2.3/31be716d2a9116d4c411261e6c42312b04f65591-1731410369326" class="customButton">👉 Voir le webinaire</a>
