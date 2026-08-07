@@ -128,6 +128,7 @@ const Layout = ({ children }) => {
           </Link>
         </div>
         <div className={styles.footerLinks}>
+          <Link href="https://datactivist.coop/fr/mentionslegales/">Mentions légales</Link>
           <Link href="/partners">Nos partenaires</Link>
           <Link href="/links">Ressources externes</Link>
         </div>
