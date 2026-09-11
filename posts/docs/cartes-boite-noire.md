@@ -97,6 +97,13 @@ Les 6 cartes controverses introduisent des débats importants sur l'IA générat
 6. **Peut-on échapper au pillage des ressources protégées par le droit d'auteur ?**
    Discussion sur les enjeux juridiques et éthiques des données d'entraînement
 
+<a href="https://nextcloud.datactivist.coop/s/jcfH4ELp2Gq6jqF" class="customButton">🖨️ Télécharger le mémo de jeu</a>
+
+Imprimez ce mémo avant la session et distribuez le à chaque joueuse et joueur à la fin de la session (1 exemplaire par personne).  
+Chacun·e peut y indique le niveau du jeu atteint et ce qu'il ou elle en retient. 
+
+Ce mémo contient également des bonnes pratiques et recommandations.  
+
 # Instructions d'animation
 
 %%Docs:consignes-animation-boite-noire%%
