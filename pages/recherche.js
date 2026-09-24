@@ -48,8 +48,8 @@ const ReferencesPage = () => {
               <b>
                 donner à toutes et tous le pouvoir de comprendre, d’agir pour
                 plus de démocratie, de justice et de résilience.
-              </b>
-              Datactivist est né des conclusions de la thèse de doctorat en
+               </b>
+               Datactivist est né des conclusions de la thèse de doctorat en
               sociologie de Samuel Goëta qui propose une enquête sociologique
               sur les coulisses de l’open data et identifie les freins à
               l’ouverture et à la réutilisation des données publiques.{' '}
@@ -88,12 +88,11 @@ const ReferencesPage = () => {
             <p>
               Au sein de l’équipe,{' '}
               <b>
-                quatre chercheurs mènent des projets de recherche et développement
+                deux chercheurs mènent des projets de recherche et développement
                 :
               </b>{' '}
               en <b>sociologie des sciences et techniques</b> (Dr. Samuel
-              Goëta, Dr. Loup Cellard), <b>psychologie cognitive</b> (Margaux Larre-Perez), 
-              <b>science politique</b> (Dr. Elise Ho-Pun-Cheung)
+              Goëta), <b>science politique</b> (Dr. Elise Ho-Pun-Cheung)
             </p>
             <p>
               Au-delà des projets de R&D, Datactivist se distingue par un lien
