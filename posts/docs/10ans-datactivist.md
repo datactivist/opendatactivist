@@ -2,6 +2,8 @@
 **25 novembre 2026 14h-18h 
 À Sciences Po Aix** 
 
+<a href="https://docs.getgrist.com/forms/udupGTmBUgv4ejPFBXPCkW/4" class="customButton">👉 Inscriptions</a>
+
 L’année 2026 marque plusieurs anniversaires particulièrement symboliques. Les 70 ans de Sciences Po Aix sont pensés comme une invitation à réfléchir ensemble à l’avenir. Cette année est aussi marquée par  les 10 ans de la loi pour une République numérique qui fait de l’ouverture la norme plutôt que l’exception pour les données publiques, les algorithmes et les publications scientifiques. Et c’est aussi en 2016, il y a 10 ans, qu’est née la société coopérative Datactivist, fondée par deux alumni de Sciences Po Aix et devenue en une décennie un acteur incontournable de l’ouverture des données et du savoir. 
 
 Ces éléments sont prétextes à célébration mais le contexte mondial est aujourd’hui marqué par des tensions géopolitiques, le pillage de la connaissance par l’industrie de l’IA et parfois des réflexes de replis qui poussent à remettre en question les principes de transparence et d’ouverture des savoirs et des données. Pourtant, l’ouverture du savoir paraît plus que jamais nécessaire pour répondre aux crises qui se multiplient et pour opérer les nombreuses transitions qui s’annoncent. La thématique “défendre l’ouverture dans un monde qui se referme” invite à se questionner et à ne pas jeter le bébé de l’ouverture avec l’eau du bain des tensions géopolitiques : comment l’ouverture au sens large (des données, de la gouvernance locale et nationale, de la science…) résiste-t-elle quand des dynamiques globales poussent à la fermeture ? Quels sont les points de reculs, de tension, et au contraire les espaces qui tiennent, défendent ce principe et le rendent opérationnel ?  
@@ -43,3 +45,6 @@ L’intelligence artificielle vient par ailleurs complexifier l’équation. Les
 *Intervenants tbc*
 
 ## Grands témoins (tbc) : l’ouverture et les communs de la connaissance
+
+<a href="https://docs.getgrist.com/forms/udupGTmBUgv4ejPFBXPCkW/4" class="customButton">👉 Inscriptions</a>
+
