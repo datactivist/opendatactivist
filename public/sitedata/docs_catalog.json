@@ -2770,5 +2770,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
+  },
+  {
+    "name": "10ans-datactivist",
+    "title": "Conférence-débat : Comment défendre l’ouverture dans un monde qui se referme ?",
+    "image": "/images/docs/10ans.png",
+    "description": "Rendez-vous le 25 novembre 2026 14h-18h, à Sciences po Aix, pour une conférence-débat à l'occasion des 10 ans de Datactivist. ",
+    "type": "blog",
+    "index": 1,
+    "date": "2026-09-25",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "",
+    "author_image": "",
+    "tags": "science ouverte, open gov, évènement",
+    "partners": "",
+    "partners-names": "",
+    "partners-images": "",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
