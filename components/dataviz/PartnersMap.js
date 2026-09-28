@@ -11,21 +11,59 @@ const PartnersMap = () => {
       .then((response) => response.json())
       .then((partners) => {
         const partnersByCity = partners.reduce((acc, partner) => {
-          const key = `${partner.lat},${partner.lon}`;
+          const city = String(partner.partner_city ?? '').trim();
+          if (!city) return acc;
+
+          const key = city.toLowerCase();
           if (!acc[key]) {
             acc[key] = {
-              city: partner.partner_city,
-              partners: [partner],
-              lat: partner.lat,
-              lon: partner.lon,
+              city,
+              partners: [],
+              latitudeTotal: 0,
+              longitudeTotal: 0,
+              coordinateCount: 0,
             };
-          } else {
-            acc[key].partners.push(partner);
           }
+
+          const group = acc[key];
+          group.partners.push(partner);
+          const latitudeText = String(partner.lat ?? '').trim();
+          const longitudeText = String(partner.lon ?? '').trim();
+          const latitude = Number(latitudeText.replace(',', '.'));
+          const longitude = Number(longitudeText.replace(',', '.'));
+
+          if (
+            !latitudeText ||
+            !longitudeText ||
+            !Number.isFinite(latitude) ||
+            !Number.isFinite(longitude) ||
+            Math.abs(latitude) > 90 ||
+            Math.abs(longitude) > 180
+          ) {
+            return acc;
+          }
+
+          group.latitudeTotal += latitude;
+          group.longitudeTotal += longitude;
+          group.coordinateCount += 1;
           return acc;
         }, {});
 
-        setGroupedPartners(partnersByCity);
+        const positionedPartners = Object.fromEntries(
+          Object.entries(partnersByCity)
+            .filter(([, group]) => group.coordinateCount > 0)
+            .map(([key, group]) => [
+              key,
+              {
+                city: group.city,
+                partners: group.partners,
+                lat: group.latitudeTotal / group.coordinateCount,
+                lon: group.longitudeTotal / group.coordinateCount,
+              },
+            ]),
+        );
+
+        setGroupedPartners(positionedPartners);
       })
       .catch(console.error);
   }, []);

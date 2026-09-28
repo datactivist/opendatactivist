@@ -110,7 +110,7 @@
   {
     "id": "gens-evenement",
     "name": "Gens d'évènements",
-    "image": "/images/partners/gens-evenement.jpeg",
+    "image": "/images/partners/gens-evenement.png",
     "description": "Gens d’Événement est une agence conseil en communication événementielle basée à Paris et à Nantes.",
     "partner_city": "Nantes",
     "lat": 47.2173,
@@ -509,8 +509,8 @@
     "image": "/images/partners/Logo-france-active.jpg",
     "description": "Pionnier de la finance solidaire, France Active accompagne et finance les entreprises depuis plus de 30 ans. Bien plus qu’un réseau, France Active est un véritable mouvement d’entrepreneurs engagés dont l’ambition est de bâtir une société plus solidaire. France Active se fixe une mission : « Accélérer la réussite des entrepreneurs en leur donnant les moyens de s’engager. »",
     "partner_city": "Montreuil",
-    "lat": "",
-    "lon": "",
+    "lat": 48.8638,
+    "lon": 2.4485,
     "references_catalog": "franceactive-gouvernance-partage-donnees",
     "docs_catalog": "",
     "research_projects": ""
@@ -722,7 +722,7 @@
   {
     "id": "pref-mayotte",
     "name": "Préfecture de Mayotte",
-    "image": "/images/partners/pref-mayotte.png",
+    "image": "/images/partners/pref-mayotte.svg.webp",
     "description": "La préfecture de Mayotte représente l'État sur le territoire.",
     "partner_city": "Mamoudzou",
     "lat": -12.781,
@@ -849,18 +849,6 @@
     "lon": -1.55,
     "references_catalog": "",
     "docs_catalog": "appel-commentaires-cartes-boitenoire,consignes-animation-boite-noire,foire-aux-questions-boite-noire,cartes-boite-noire,boite-noire-ia-introduction,images-video-boite-noire",
-    "research_projects": ""
-  },
-  {
-    "id": "pros-osm",
-    "name": "Fédération des Professionnels d'OpenStreetMap",
-    "image": "/images/partners/pros-osm.png",
-    "description": "La Fédération des Professionnels d'OpenStreetMap rassemble plusieurs entreprises qui mettent en commun leurs compétences et ressources au service de la contribution et de l'usage des données et outils de l'écosystème du projet libre de cartographie",
-    "partner_city": "Paris",
-    "lat": 48.8566,
-    "lon": 2.3522,
-    "references_catalog": "",
-    "docs_catalog": "tout-savoir-licence-odbl",
     "research_projects": ""
   },
   {
