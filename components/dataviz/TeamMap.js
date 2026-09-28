@@ -10,15 +10,39 @@ const TeamMap = () => {
     fetch('/api/authors-list')
       .then((response) => response.json())
       .then((authors) => {
+        const currentTeamAuthors = authors.filter(
+          (author) =>
+            author.organisation === 'datactivist' &&
+            Object.entries(author).some(
+              ([key, value]) => key.startsWith('tags/') && value,
+            ),
+        );
+
         // Grouper les auteurs par ville
-        const authorsByCity = authors.reduce((acc, author) => {
-          const key = `${author.lat},${author.lon}`; // Utiliser la combinaison lat,lon comme clé pour gérer les cas de même ville mais coordonnées légèrement différentes
+        const authorsByCity = currentTeamAuthors.reduce((acc, author) => {
+          const latitudeText = String(author.lat ?? '').trim();
+          const longitudeText = String(author.lon ?? '').trim();
+          const latitude = Number(latitudeText.replace(',', '.'));
+          const longitude = Number(longitudeText.replace(',', '.'));
+
+          if (
+            !latitudeText ||
+            !longitudeText ||
+            !Number.isFinite(latitude) ||
+            !Number.isFinite(longitude) ||
+            Math.abs(latitude) > 90 ||
+            Math.abs(longitude) > 180
+          ) {
+            return acc;
+          }
+
+          const key = `${latitude},${longitude}`;
           if (!acc[key]) {
             acc[key] = {
               city: author.city,
               authors: [author],
-              lat: author.lat,
-              lon: author.lon,
+              lat: latitude,
+              lon: longitude,
             };
           } else {
             acc[key].authors.push(author);
@@ -38,7 +62,7 @@ const TeamMap = () => {
       style={{ height: '100vh', width: '100%' }}
     >
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        url={`https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}{r}.png?key=${process.env.NEXT_PUBLIC_CARTO_API_KEY}`}
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
       />
       {Object.values(groupedAuthors).map((group) => (

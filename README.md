@@ -18,6 +18,10 @@ Install dependencies :
 npm install
 ```
 
+## Cartographie
+
+Les fonds de carte CARTO nécessitent une clé API. Demandez une clé sur [CARTO](https://carto.com/basemaps/apikey/), puis définissez `NEXT_PUBLIC_CARTO_API_KEY` dans `.env.local` pour le développement et dans les variables d'environnement de l'hébergement pour le site en production. Les clés de fond de carte sont utilisées dans le navigateur ; limitez leur usage aux domaines du site depuis CARTO.
+
 Run the server in development mode :
 
 ```bash
