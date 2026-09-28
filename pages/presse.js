@@ -12,19 +12,27 @@ export default function Presse() {
       .then((response) => response.json())
       .then((data) => {
         // Assure que les articles sont classés du plus récent au plus ancien dès la récupération
-        const sortedData = data.sort((a, b) => new Date(b['Date published']) - new Date(a['Date published']));
+        const sortedData = data.sort(
+          (a, b) =>
+            new Date(b['Date published']) - new Date(a['Date published']),
+        );
         setArticles(sortedData);
       });
   }, []);
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }).format(date);
+    return new Intl.DateTimeFormat('fr-FR', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).format(date);
   };
 
-  const filteredArticles = articles.filter(article =>
-    article.Title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    article.Abstract.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredArticles = articles.filter(
+    (article) =>
+      article.Title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      article.Abstract.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   return (
@@ -41,11 +49,21 @@ export default function Presse() {
         <div className={styles.grid}>
           {filteredArticles.map((article) => (
             <a href={article.Link} key={article.ID} className={styles.card}>
-              <img src={article.journal_image} alt={article.Journal} className={styles.mediaImage} />
+              {article.journal_image ? (
+                <img
+                  src={article.journal_image}
+                  alt={article.Journal}
+                  className={styles.mediaImage}
+                />
+              ) : (
+                <div className={styles.mediaImage}>{article.Journal}</div>
+              )}
               <div className={styles.cardContent}>
                 <h2 className={styles.articleTitle}>{article.Title}</h2>
                 <p>{article.Abstract}</p>
-                <p className={styles.date}>{formatDate(article['Date published'])}</p>
+                <p className={styles.date}>
+                  {formatDate(article['Date published'])}
+                </p>
               </div>
             </a>
           ))}

@@ -16,15 +16,15 @@ export default async function handler(req, res) {
     const metadataList = [];
     try {
       const files = fs.readdirSync(csvBasePath);
-      files.forEach(file => {
+      files.forEach((file) => {
         // Extract the canvaName from the file name (strip the .csv extension)
         const canvaName = file.replace('.csv', '');
         const csvData = fs.readFileSync(path.join(csvBasePath, file), 'utf-8');
         const records = parse(csvData, {
           columns: true,
-          skip_empty_lines: true
+          skip_empty_lines: true,
         });
-        const metaData = records.find(record => record.filename === 'meta');
+        const metaData = records.find((record) => record.filename === 'meta');
         if (metaData) {
           // Append the image URL and canvaName to the metadata
           const imageName = `${canvaName}.png`;
@@ -35,7 +35,9 @@ export default async function handler(req, res) {
       });
       return res.status(200).json(metadataList);
     } catch (error) {
-      return res.status(500).json({ message: "Erreur lors de la lecture des fichiers CSV." });
+      return res
+        .status(500)
+        .json({ message: 'Erreur lors de la lecture des fichiers CSV.' });
     }
   }
 
@@ -46,18 +48,20 @@ export default async function handler(req, res) {
       const csvData = fs.readFileSync(csvPath, 'utf-8');
       const records = parse(csvData, {
         columns: true,
-        skip_empty_lines: true
+        skip_empty_lines: true,
       });
       // If only the metadata for a single canvas is requested, include the image URL
       const imageName = `${canva}.png`;
-      records.forEach(record => {
+      records.forEach((record) => {
         if (record.filename === 'meta') {
           record.imageUrl = `${imageUrlBase}/${imageName}`;
         }
       });
       return res.status(200).json(records);
     } catch (error) {
-      return res.status(500).json({ message: "Erreur lors de la lecture du fichier CSV." });
+      return res
+        .status(500)
+        .json({ message: 'Erreur lors de la lecture du fichier CSV.' });
     }
   } else if (canva && filename) {
     try {
@@ -65,9 +69,17 @@ export default async function handler(req, res) {
       const mdData = fs.readFileSync(mdPath, 'utf-8');
       return res.status(200).json({ content: mdData });
     } catch (error) {
-      return res.status(500).json({ message: "Erreur lors de la lecture du fichier Markdown." });
+      if (filename === 'meta' && error.code === 'ENOENT') {
+        return res.status(200).json({ content: '' });
+      }
+
+      return res
+        .status(500)
+        .json({ message: 'Erreur lors de la lecture du fichier Markdown.' });
     }
   } else {
-    return res.status(400).json({ message: "Paramètres de requête manquants." });
+    return res
+      .status(400)
+      .json({ message: 'Paramètres de requête manquants.' });
   }
 }

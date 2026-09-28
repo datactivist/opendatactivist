@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import tagStyles from '../../styles/Tags.module.css';
 import Authors from './Authors';
 
-const RenderTagButtons = (tags, tagRoute) => {
+const RenderTagButtons = ({ tags, tagRoute }) => {
   const router = useRouter();
 
   // Split string into array if necessary
@@ -53,10 +53,12 @@ const Cards = ({
   const router = useRouter();
 
   const getImagePath = (item) => {
-    if (item.image.startsWith('images/')) {
-      return `/${item.image}`;
+    const imagePath = item.image.replace(/^\/+/, '');
+
+    if (imagePath.startsWith('images/')) {
+      return `/${imagePath}`;
     } else if (item.productId) {
-      return `/products/${item.image}`;
+      return `/products/${imagePath}`;
     } else if (item.url) {
       // Assuming images for links are located in the '/links' directory
       return `${item.image}`;
@@ -160,11 +162,13 @@ const Cards = ({
                   </button>
                 )}
                 {item.type !== 'tod' && <p>{item.description}</p>}
-                {item.type !== 'tod' &&
-                  showTags &&
-                  RenderTagButtons(item.tags, tagRoute)}
+                {item.type !== 'tod' && showTags && (
+                  <RenderTagButtons tags={item.tags} tagRoute={tagRoute} />
+                )}
                 {/* Tags, Authors, and Date */}
-                {showTags && RenderTagButtons(item.tags, tagRoute)}
+                {showTags && (
+                  <RenderTagButtons tags={item.tags} tagRoute={tagRoute} />
+                )}
                 {showAuthors && item.author_image && (
                   <div
                     style={{
@@ -195,7 +199,9 @@ const Cards = ({
 
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              {showTags && RenderTagButtons(item.tags, tagRoute)}
+              {showTags && (
+                <RenderTagButtons tags={item.tags} tagRoute={tagRoute} />
+              )}
               {showAuthors && item.authors && (
                 <Authors
                   authorIds={item.authors}
