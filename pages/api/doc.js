@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import matter from 'gray-matter';
 
 export default async function handler(req, res) {
@@ -17,7 +16,7 @@ export default async function handler(req, res) {
       const files = await listResponse.json(); // Adjust based on Nextcloud's response
 
       // Here, just return the list of file names
-      const fileNames = files.map(file => file.name.replace(/\.md$/, ''));
+      const fileNames = files.map((file) => file.name.replace(/\.md$/, ''));
       res.status(200).json(fileNames);
     } catch (error) {
       res.status(500).json({ message: 'Error fetching files from Nextcloud.' });
@@ -36,7 +35,9 @@ export default async function handler(req, res) {
       // Here, return both metadata and content
       res.status(200).json({ metadata: data, content: parsedContent });
     } catch (error) {
-      res.status(500).json({ message: 'Error fetching file content from Nextcloud.' });
+      res
+        .status(500)
+        .json({ message: 'Error fetching file content from Nextcloud.' });
     }
   }
 }

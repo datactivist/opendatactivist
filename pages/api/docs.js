@@ -1,8 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import fetch from 'node-fetch';
-import { hasSupabaseConfig, supabase } from "../../utils/supabaseClient";
+import { hasSupabaseConfig, supabase } from '../../utils/supabaseClient';
 
 export default async function handler(req, res) {
   const { filename, action } = req.query;
@@ -40,7 +39,7 @@ export default async function handler(req, res) {
         'docs',
         `${filename}.md`,
       );
-  
+
       if (fs.existsSync(filePath)) {
         const fileContent = fs.readFileSync(filePath, 'utf8');
         const { data, content } = matter(fileContent);
@@ -69,7 +68,7 @@ export default async function handler(req, res) {
             return;
           }
 
-          const user = req.user;  // Assuming you have user in req
+          const user = req.user; // Assuming you have user in req
 
           if (user && user.email) {
             const { data: supabaseData, error } = await supabase
@@ -82,7 +81,9 @@ export default async function handler(req, res) {
               return;
             }
           } else {
-            res.status(403).json({ message: 'Access denied. No user email found.' });
+            res
+              .status(403)
+              .json({ message: 'Access denied. No user email found.' });
             return;
           }
         }
@@ -90,7 +91,9 @@ export default async function handler(req, res) {
         res.status(200).json({ metadata: data, content: parsedContent });
       }
     } catch (error) {
-      res.status(500).json({ message: 'Erreur lors de la récupération du contenu.' });
+      res
+        .status(500)
+        .json({ message: 'Erreur lors de la récupération du contenu.' });
     }
   }
 }

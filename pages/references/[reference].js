@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import Layout from '../../components/Layout';
 import styles from '../../styles/References.module.css';
 import FilteredDocsDisplay from '../../components/docs/FilteredDocsDisplay';
-import fetch from 'node-fetch';
 
 function formatDate(dateISO) {
   const options = { year: 'numeric', month: 'long' };
