@@ -1,5 +1,5 @@
-<a href="/files/boite-noire-ia/web/consignes-animation.pdf" class="customButton">📥 Télécharger les consignes d'animation (PDF)</a>
-<a href="/files/boite-noire-ia/hd/consignes-animation/consignes-animation.pdf" class="customButton">🖨️ Télécharger les consignes d'animation (PDF HD)</a>
+<a href="https://nextcloud.datactivist.coop/s/3D9BSRg522mLib7/download?path=%2Fweb&files=consignes-animation.pdf" class="customButton">📥 Télécharger les consignes d'animation (PDF)</a>
+<a href="https://nextcloud.datactivist.coop/s/3D9BSRg522mLib7/download?path=%2Fhd%2Fconsignes-animation&files=consignes-animation.pdf" class="customButton">🖨️ Télécharger les consignes d'animation (PDF HD)</a>
 
 ## OBJECTIFS DE L'ATELIER
 

@@ -1,5 +1,5 @@
-<a href="/files/boite-noire-ia/web/memo-fin-de-jeu.pdf" class="customButton">🖨️ Télécharger le mémo de fin de jeu (PDF)</a>
-<a href="/files/boite-noire-ia/hd/memo-fin-de-jeu/memo-fin-de-jeu.pdf" class="customButton">🖨️ Télécharger le mémo de fin de jeu (PDF HD)</a>
+<a href="https://nextcloud.datactivist.coop/s/3D9BSRg522mLib7/download?path=%2Fweb&files=memo-fin-de-jeu.pdf" class="customButton">🖨️ Télécharger le mémo de fin de jeu (PDF)</a>
+<a href="https://nextcloud.datactivist.coop/s/3D9BSRg522mLib7/download?path=%2Fhd%2Fmemo-fin-de-jeu&files=memo-fin-de-jeu.pdf" class="customButton">🖨️ Télécharger le mémo de fin de jeu (PDF HD)</a>
 
 Imprimez ce mémo avant la session et distribuez-le à chaque joueuse et joueur à la fin de la session (1 exemplaire par personne).
 
