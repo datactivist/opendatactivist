@@ -5,106 +5,74 @@
 </br>
 
 # Conseils pour l'impression
+- Format A4, impression à 100%, conserver les proportions. À découper suivant les pointillés
+- Impression cartes : recto verso bord long
+- Impression hexagones : recto seul
 - Les hexagones devraient être imprimés sur du papier épais ou du carton léger
-- Les cartes actions et controverses sont imprimables en format A4
 - Les guides de découpe sont visibles sur les fichiers PDF
 - Une fois imprimées et découpées, les cartes peuvent être plastifiées pour une meilleure durabilité
 - Il est recommandé d'utiliser une boîte noire pour ranger les cartes (symbolisant la "boîte noire" opaque de l'IA)
 
-# Les hexagones (grandes étapes)
-<a href="https://nextcloud.datactivist.coop/s/CppG2Y2fFidjSNM" class="customButton">🖨️ Télécharger les hexagones en clair</a>
-<a href="https://nextcloud.datactivist.coop/s/AnRzqQNXNWwRn9w" class="customButton">🖨️ Télécharger les hexagones en sombre</a>
+# Les hexagones (grandes étapes) et l'échelle de score
+<a href="/files/boite-noire-ia/web/boite-et-plateaux-clair.pdf" class="customButton">🖨️ Télécharger les hexagones et l'échelle de score en clair</a>
+<a href="/files/boite-noire-ia/web/boite-et-plateaux.pdf" class="customButton">🖨️ Télécharger les hexagones et l'échelle de score en sombre</a>
+<a href="/files/boite-noire-ia/hd/boite-et-plateaux/boite-et-plateaux.pdf" class="customButton">🖨️ Télécharger les hexagones et l'échelle de score (PDF HD)</a>
 
+![Hexagones et échelle de score de la Boîte Noire de l'IA](/images/docs/boitenoire-v2-hexagones.jpeg)
 
-![Hexagones de la Boîte Noire de l'IA](/images/docs/boitenoire-hexagones.jpeg)
+Les 6 hexagones représentent les grandes étapes du cycle de vie d'une IA générative. Chaque hexagone porte un indice, à lire à voix haute, pour aider au placement.
 
-Les 6 hexagones représentent les grandes étapes du cycle de vie d'une IA générative :
+1. **Extraction et consommation de ressources naturelles** (étape 0/6) : « Avant tout pour générer du texte, il faut des serveurs et des appareils (smartphones, ordinateurs) faits de minerais, alimentés en électricité et refroidis à l’eau. »
+2. **Collecte de données d’entraînement** (étape 1) : « Une IA ne “sait” rien au départ. On lui fournit d’énormes quantités de textes, d’images et de vidéos venus du web et des données des utilisateurs. Ce sont les données d’entraînement. »
+3. **Traitement des données** (étape 2) : « Les données brutes ne sont pas prêtes à l’emploi : elles sont transformées, sélectionnées et découpées en petites unités. »
+4. **Entraînement du modèle** (étape 3) : « Un réseau de neurones artificiels analyse des milliards d’exemples issues des données d’entraînement pour apprendre à prédire la suite la plus probable d’un texte. »
+5. **Amélioration du modèle** (étape 4) : « Des personnes et des machines évaluent les premiers résultats et les corrigent pour aligner le modèle sur nos attentes. »
+6. **Usage du modèle** (étape 5) : « Le modèle est ouvert au public via un chatbot ou dans les usages numériques du quotidien. Chaque utilisation consomme plus ou moins d’énergie selon la longueur de la requête, la taille du modèle et les paramètres choisis. »
 
-1. **Extraction et consommation de ressources naturelles** (étape 0/6)
-2. **Collecte de données d'entraînement** (étape 1)
-3. **Traitement des données** (étape 2)
-4. **Entraînement du modèle** (étape 3)
-5. **Renforcement du modèle** (étape 4)
-6. **Usage de l'agent conversationnel** (étape 5)
+Ces hexagones doivent être placés en ruche, dans le sens horaire, pour montrer le caractère cyclique du processus (retour à l’étape 0/6).
 
-Ces hexagones doivent être placés en cercle pour montrer le caractère cyclique du processus.
+L’échelle de score (le parcours) et son pion scoreur sont dans le même fichier. Les jetons bicolores (un par participant, face verte « vrai » / face rouge « faux ») complètent le matériel.
 
 # Les cartes actions
-<a href="https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22P" class="customButton">🖨️ Télécharger les cartes actions & controverses</a>
+<a href="/files/boite-noire-ia/web/cartes-action.pdf" class="customButton">🖨️ Télécharger les cartes actions</a>
+<a href="/files/boite-noire-ia/hd/cartes-action/cartes-action.pdf" class="customButton">🖨️ Télécharger les cartes actions (PDF HD)</a>
 
-![Cartes actions de la Boîte Noire de l'IA](/images/docs/boitenoire-actions.jpeg)
+![Cartes actions de la Boîte Noire de l'IA](/images/docs/boitenoire-v2-actions.jpeg)
 
-Les 24 cartes actions (4 par étape) expliquent les processus spécifiques qui se déroulent à chaque étape :
+Les 24 cartes actions (4 par étape) expliquent les processus spécifiques qui se déroulent à chaque étape. Cliquez sur une carte pour voir son verso.
 
-**Étape 0/6 : Extraction et consommation de ressources naturelles**
-- Coûts écologiques de l'Intelligence Artificielle
-- Difficultés dans l'évaluation de l'impact écologique de l'IA
-- Consommation en électricité et en eau des data centers
-- Extraction de ressources pour la production de semi-conducteurs
-
-**Étape 1 : Collecte de données d'entraînement**
-- Respect des droits d'auteur
-- Biais dans les données d'entraînement
-- Transparence et opacité des modèles
-- Épuisement des données disponibles pour l'IA
-
-**Étape 2 : Traitement des données**
-- Découpage du texte en petites unités
-- Filtrage du contenu inapproprié
-- Normalisation des données
-- Ajout de diversité linguistique
-
-**Étape 3 : Entraînement du modèle**
-- Comparaison des résultats avec des données de validation et de test
-- Lecture attentive du texte par la machine
-- Regroupement des mots similaires entre eux
-- Entraînement d'un réseau de neurones artificiels
-
-**Étape 4 : Renforcement du modèle**
-- Renforcement des résultats du modèle par des humains
-- Mesure et comparaison des performances du modèle
-- Ajustement de modèles pré-entraînés
-- Micro-tâches et travail du clic
-
-**Étape 5 : Usage de l'agent conversationnel**
-- Confidentialité des échanges avec l'agent conversationnel
-- Invention d'informations
-- Consommation d'électricité à chaque usage de l'agent
-- Omniprésence de l'IA dans les usages numériques
+%%Cards:cartes-action%%
 
 # Les cartes controverses
-<a href="https://nextcloud.datactivist.coop/s/jT22tqSXZn2x22P" class="customButton">🖨️ Télécharger les cartes actions & controverses</a>
+<a href="/files/boite-noire-ia/web/cartes-controverses.pdf" class="customButton">🖨️ Télécharger les cartes controverses</a>
+<a href="/files/boite-noire-ia/hd/cartes-controverses/cartes-controverses.pdf" class="customButton">🖨️ Télécharger les cartes controverses (PDF HD)</a>
 
-![Cartes controverses de la Boîte Noire de l'IA](/images/docs/boitenoire-controverses.jpeg)
+![Cartes controverses de la Boîte Noire de l'IA](/images/docs/boitenoire-v2-controverses.jpeg)
 
-Les 6 cartes controverses introduisent des débats importants sur l'IA générative :
+Les 7 controverses (4 points de vue chacune) sont activées lorsque le pion passe par une case de controverse sur l’échelle de score. Cliquez sur une controverse pour voir ses points de vue.
 
-1. **Peut-on tirer profit de l'IA sans cramer la planète ?**
-   Débat sur l'impact environnemental et les solutions possibles
+%%Cards:cartes-controverses%%
 
-2. **L'IA générative peut-elle être moins opaque ?**
-   Perspectives sur l'explicabilité et la transparence des modèles
+# Les cartes de prise de parole
+<a href="/files/boite-noire-ia/web/cartes-prise-de-parole.pdf" class="customButton">🖨️ Télécharger les cartes de prise de parole</a>
+<a href="/files/boite-noire-ia/hd/cartes-prise-de-parole/cartes-prise-de-parole.pdf" class="customButton">🖨️ Télécharger les cartes de prise de parole (PDF HD)</a>
 
-3. **L'IA peut-elle tourner sans le travail des humains ?**
-   Réflexion sur le travail invisible derrière les systèmes d'IA
+![Cartes de prise de parole de la Boîte Noire de l'IA](/images/docs/boitenoire-v2-prise-de-parole.jpeg)
 
-4. **Qu'est-ce qu'il y a d'intelligent dans "l'intelligence artificielle" ?**
-   Questionnement sur la notion même d'intelligence
+Ces cartes présentent les règles de vie collective (phase 0, tour de table).
 
-5. **Peut-il y avoir des données sans biais ?**
-   Débat sur la neutralité des données et la reproduction des préjugés
+- **Écoute** : Laissons chacune et chacun s’exprimer sans l’interrompre, même si son point de vue nous dérange.
+- **Coopération** : Cherchons ensemble à comprendre plutôt qu’à convaincre.
+- **Respect des différences** : Acceptons que nous n’ayons pas tous et toutes le même vécu ni le même rapport à l’IA.
 
-6. **Peut-on échapper au pillage des ressources protégées par le droit d'auteur ?**
-   Discussion sur les enjeux juridiques et éthiques des données d'entraînement
-
-<a href="https://nextcloud.datactivist.coop/s/jcfH4ELp2Gq6jqF" class="customButton">🖨️ Télécharger le mémo de jeu</a>
+# Le mémo de fin de jeu
+<a href="/docs/memo-fin-de-jeu-boite-noire" class="customButton">🖨️ Voir et télécharger le mémo de fin de jeu</a>
 
 Imprimez ce mémo avant la session et distribuez le à chaque joueuse et joueur à la fin de la session (1 exemplaire par personne).  
-Chacun·e peut y indique le niveau du jeu atteint et ce qu'il ou elle en retient. 
+Chacun·e peut y indiquer le niveau du jeu atteint et ce qu'il ou elle en retient.
 
-Ce mémo contient également des bonnes pratiques et recommandations.  
+Ce mémo contient également des bonnes pratiques et recommandations.
 
 # Instructions d'animation
 
 %%Docs:consignes-animation-boite-noire%%
-

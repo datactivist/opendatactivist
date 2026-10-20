@@ -1,16 +1,26 @@
 ## Quelle est la durée du jeu ?
 
-La durée optimale pour faire un atelier La Boîte noire de l'IA est 2h. Il faut compter 20 min d’introduction, 1h10 d’atelier (placement des hexagones et des cartes), et 30 min de débat et conclusion. 
+La durée de l'atelier La Boîte noire de l'IA va de 1h30 (partie rapide) à 2h (partie longue). Voici les repères de durée :
 
-Si vous organisez un atelier avec un public qui a déjà été introduit à l’IA Générative de texte, il est possible de réduire l’introduction. Si vous n’avez qu’1h30, vous pouvez réduire le temps du débat autour des cartes controverses.
+| PHASE | PARTIE RAPIDE | PARTIE LONGUE |
+| ----- | ----- | ----- |
+| Phase 0 - Tour de table | 5 min | 5 min |
+| Phase 1 — Vrai / faux | 6 vrai/faux · 10 min | 12 vrai/faux · 15 min |
+| Phase 2.1 — Hexagones | 7 min | 7 min |
+| Phase 2.2 — Cartes actions | 12 cartes · 25 min | 24 cartes · 45 min |
+| Phase 2.3 — Controverses | 3 cartes · 20 min | 6 cartes · 30 min |
+| Phase 3 — Débrief | 20 min | 20 min |
+| **Total indicatif** | **1h30** | **2h** |
+
+Il est possible de faire une partie très rapide en une heure mais l’animateur ou animatrice devra alors enlever les controverses et réduire le debrief. Pédagogiquement, les participantes et participants perdront alors une partie de l’expérience et du débat.
 
 ## A combien de personnes peut-on jouer en même temps ? 
 
-Le jeu est idéalement adapté à un groupe de 7 personnes (ou 10 maximum). 
+Le jeu se joue en groupe de 3 à 10 personnes, idéalement 6 ou 8, avec une personne qui anime par groupe.
 
 ## Est-ce que je peux jouer à La Boîte Noire de l'IA de mon côté ?
 
-Bien sûr. Afin d’animer une Boîte noire de l’IA, vous avez à disposition l’ensemble des contenus à imprimer sur la [page de la Boîte noire de l’IA](https://open.datactivist.coop/products/boitenoire-ia). Vous disposez aussi d’un guide d’animation avec le déroulé détaillé du jeu et ses solutions ainsi qu’une présentation pour l’introduction de l’atelier.
+Bien sûr. Afin d’animer une Boîte noire de l’IA, vous avez à disposition l’ensemble des contenus à imprimer sur la [page de la Boîte noire de l’IA](https://open.datactivist.coop/products/boitenoire-ia). Vous disposez aussi d’un guide d’animation avec le déroulé détaillé du jeu et ses solutions ainsi qu’une présentation pour l’introduction de l’atelier et un mémo de fin de jeu à imprimer pour chaque joueuse et joueur.
 #### Découvrez la boite noire de l'IA
 
 %%Products:boitenoire-ia%%

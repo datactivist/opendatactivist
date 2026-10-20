@@ -2,6 +2,8 @@
 
 Cette présentation sert de support d'introduction pour les animateurs de l'atelier "La Boîte Noire de l'IA". Elle permet de contextualiser l'activité et d'initier les participants aux concepts fondamentaux avant de démarrer l'atelier proprement dit.
 
+> **Deuxième version de la Boîte noire de l’IA** : un brise-glace « vrai / faux » en ouverture remplace le test Compar:IA (voir [les nouveautés de la deuxième version](/docs/nouveautes-v2-boite-noire) et la phase 1 des [consignes d'animation](/docs/consignes-animation-boite-noire)).
+
 ## Structure de la présentation
 
 La présentation comprend plusieurs sections qui préparent le terrain pour l'animation de l'atelier :
