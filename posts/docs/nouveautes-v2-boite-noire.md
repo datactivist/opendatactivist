@@ -1,16 +1,16 @@
 ## Synthèse des modifications
 Suite aux retours sur la Boîte noire de l’IA, la v2 rend l'atelier plus ludique et accessible à un public élargi (y compris à des jeunes de niveau lycée). Voici les principales modifications :
-* Une échelle de score collective : un pion et une échelle de conscience critique.
-* Un brise-glace « vrai / faux » en ouverture (remplace le test Compar:IA). 
-* Des indices sur les hexagones pour aider au placement (pour simplifier, l'hexagone « Renforcement du modèle » devient « Amélioration du modèle »).
-* Le placement des cartes actions se fait désormais en binôme.
-* Les controverses sont réparties pendant la partie, et non plus à la fin.
-* Des ressources et bonnes pratiques à découvrir au fil du jeu.
-* Un format court (1h30) possible, en plus du format long (2h).
-* Cartes relues, actualisées et simplifiées avec au recto un texte de 280 caractères maximal écrit selon les principes du langage clair et un exemple d'actualité au verso.
+* [Une échelle de score collective : un pion et une échelle de conscience critique](/docs/consignes-animation-boite-noire).
+* [Un brise-glace « vrai / faux » en ouverture](/docs/consignes-animation-boite-noire) (remplace le test Compar:IA). 
+* [Des indices sur les hexagones](/docs/hexagones-boite-noire) pour aider au placement (pour simplifier, l'hexagone « Renforcement du modèle » devient « Amélioration du modèle »).
+* Le placement des [cartes actions](/docs/cartes-boite-noire) se fait désormais en binôme (voir les [consignes d'animation](/docs/consignes-animation-boite-noire)).
+* Les [controverses](/docs/cartes-controverses-boite-noire) sont réparties pendant la partie, et non plus à la fin.
+* Des [ressources et bonnes pratiques](/docs/memo-fin-de-jeu-boite-noire) à découvrir au fil du jeu.
+* Un [format court (1h30)](/docs/consignes-animation-boite-noire) possible, en plus du format long (2h).
+* [Cartes relues, actualisées et simplifiées](/docs/cartes-boite-noire) avec au recto un texte de 280 caractères maximal écrit selon les principes du langage clair et un exemple d'actualité au verso.
 
 ## Remerciements
-La deuxième version de la Boîte Noire de l’IA a été conçue par Datactivist et Nantes Métropole en étroite collaboration avec Ludovic Misera, ludologue qui a accompagné l’évolution de la mécanique de jeu, et l’agence Leski sur le design du jeu.  
+La deuxième version de la Boîte Noire de l’IA a été conçue par Datactivist et Nantes Métropole en étroite collaboration avec Ludovic Misura, ludologue qui a accompagné l’évolution de la mécanique de jeu, et l’agence Leski sur le design du jeu.  
 
 Cette deuxième version a bénéficié des regards de membres des équipes de CaféIA, ComparIA, l’ADEME, Latitudes et de la Chaire UNESCO RELIA.
 
