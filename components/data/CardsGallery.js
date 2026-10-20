@@ -23,6 +23,18 @@ const CONFIGS = {
   },
 };
 
+// Les sources d'une carte sont stockées dans la colonne « Sources »,
+// séparées par « || ». Chaque référence se termine par son adresse web, quand elle existe.
+const parseSources = (value) =>
+  (value || '')
+    .split('||')
+    .map((ref) => ref.trim())
+    .filter(Boolean)
+    .map((ref) => {
+      const match = ref.match(/^(.*?)[,\s]*(https?:\/\/\S+)$/);
+      return match ? { text: match[1], url: match[2] } : { text: ref, url: null };
+    });
+
 const CardsGallery = ({ filename }) => {
   const config = CONFIGS[filename];
   const [data, setData] = useState([]);
@@ -109,6 +121,30 @@ const CardsGallery = ({ filename }) => {
                   </Typography>
                 </div>
               ) : null,
+            )}
+            {parseSources(selectedCard.Sources).length > 0 && (
+              <div className={styles.dialogField}>
+                <Typography variant="h6" component="div">
+                  <strong>Sources</strong>
+                </Typography>
+                <ol style={{ margin: 0, paddingLeft: '1.5em' }}>
+                  {parseSources(selectedCard.Sources).map((source, i) => (
+                    <li key={i} style={{ marginBottom: '0.4em', wordBreak: 'break-word' }}>
+                      <Typography variant="body2" component="span">
+                        {source.text}
+                        {source.url && (
+                          <>
+                            {source.text ? ', ' : ''}
+                            <a href={source.url} target="_blank" rel="noopener noreferrer">
+                              {source.url}
+                            </a>
+                          </>
+                        )}
+                      </Typography>
+                    </li>
+                  ))}
+                </ol>
+              </div>
             )}
           </DialogContent>
         </Dialog>
