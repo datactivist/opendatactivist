@@ -10,7 +10,10 @@ const FilteredDocsDisplay = ({ docsList }) => {
       try {
         const response = await fetch(`/api/docscatalog?action=metadatalist`);
         const data = await response.json();
-        const filteredDocs = data.filter((doc) => docsList.includes(doc['name']));
+        // L'ordre d'affichage suit l'ordre de docsList (et non celui du catalogue)
+        const filteredDocs = data
+          .filter((doc) => docsList.includes(doc['name']))
+          .sort((a, b) => docsList.indexOf(a['name']) - docsList.indexOf(b['name']));
         setDocs(filteredDocs);
       } catch (error) {
         console.error(
