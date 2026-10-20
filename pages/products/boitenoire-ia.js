@@ -2,7 +2,7 @@ import ProductPage from "../../components/products/ProductPage"
 import Layout from "../../components/Layout"
 export default function Produit() {
   const produit = {
-    docsList: ['cartes-boite-noire','cartes-controverses-boite-noire','hexagones-boite-noire','cartes-prise-de-parole-boite-noire','consignes-animation-boite-noire','memo-fin-de-jeu-boite-noire','nouveautes-v2-boite-noire','foire-aux-questions-boite-noire','boite-noire-ia-introduction'],
+    docsList: ['consignes-animation-boite-noire','cartes-boite-noire','cartes-controverses-boite-noire','hexagones-boite-noire','cartes-prise-de-parole-boite-noire','memo-fin-de-jeu-boite-noire','nouveautes-v2-boite-noire','foire-aux-questions-boite-noire','boite-noire-ia-introduction'],
     nom: 'La Boîte Noire de l\'IA',
     baseline: 'Ouvrez la boîte, révélez les dessous de l\'IA et formez-vous un avis éclairé sur l\'IA générative !',
     description: `Comment se positionner face à une technologie que même les experts peinent à suivre ? Pour la plupart d'entre nous, l'IA reste une boîte noire opaque qui fascine autant qu'elle inquiète.
