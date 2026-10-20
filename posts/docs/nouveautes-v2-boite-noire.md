@@ -1,7 +1,7 @@
 ## Synthèse des modifications
 Suite aux retours sur la Boîte noire de l’IA, la v2 rend l'atelier plus ludique et accessible à un public élargi (y compris à des jeunes de niveau lycée). Voici les principales modifications :
 * [Une échelle de score collective : un pion et une échelle de conscience critique](/docs/consignes-animation-boite-noire).
-* [Un brise-glace « vrai / faux » en ouverture](/docs/consignes-animation-boite-noire) (remplace le test Compar:IA). 
+* [Un brise-glace « vrai / faux » en ouverture](/docs/consignes-animation-boite-noire#vrai---faux) (remplace le test Compar:IA). 
 * [Des indices sur les hexagones](/docs/hexagones-boite-noire) pour aider au placement (pour simplifier, l'hexagone « Renforcement du modèle » devient « Amélioration du modèle »).
 * Le placement des [cartes actions](/docs/cartes-boite-noire) se fait désormais en binôme (voir les [consignes d'animation](/docs/consignes-animation-boite-noire)).
 * Les [controverses](/docs/cartes-controverses-boite-noire) sont réparties pendant la partie, et non plus à la fin.
