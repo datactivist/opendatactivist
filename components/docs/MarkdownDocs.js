@@ -9,6 +9,7 @@ import JsonGalleryDisplay from './JsonGalleryDisplay';
 import DocsMetadata from './DocsMetadata';
 import ProductDisplay from './ProductsDisplay';
 import ImageGallery from './ImageGallery';
+import CardsGallery from '../data/CardsGallery';
 import Head from 'next/head';
 
 const MarkdownDocs = ({ filename }) => {
@@ -21,7 +22,7 @@ const MarkdownDocs = ({ filename }) => {
 
   const createContentElements = (htmlContent) => {
     const contentParts = htmlContent.split(
-      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%|%%Images:[^%]*%%)/,
+      /(%%Docs:[^%]*%%|%%Links:[^%]*%%|%%Datagouv:[^%]*%%|%%JsonGallery:[^%]*%%|%%Products:[^%]*%%|%%Images:[^%]*%%|%%Cards:[^%]*%%)/,
     );
     return contentParts.map((part, index) => {
       const matchDocs = part.match(/%%Docs:([^%]*)%%/);
@@ -66,6 +67,15 @@ const MarkdownDocs = ({ filename }) => {
                 />
               );
             } else {
+              const matchCards = part.match(/%%Cards:([^%]*)%%/);
+              if (matchCards) {
+                return (
+                  <CardsGallery
+                    key={`cards-gallery-${index}`}
+                    filename={matchCards[1].trim()}
+                  />
+                );
+              }
               const matchImages = part.match(/%%Images:([^%]*)%%/);
               if (matchImages) {
                 const galleryName = matchImages[1].trim();
