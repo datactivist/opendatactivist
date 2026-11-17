@@ -2858,5 +2858,27 @@
     "research_projects": "",
     "research_projects_titles": "",
     "quotes": ""
+  },
+  {
+    "name": "deployer-boite-noire",
+    "title": "Avec la boîte noire, diffuser une culture IA dans toute son organisation",
+    "image": "/images/nouveautes-v2-boite-noire.png",
+    "description": "Les grandes étapes pour déployer la boîte noire dans son organisation, afin de diffuser une culture commune autour de l'IA",
+    "type": "Cas pratique",
+    "index": 0,
+    "date": "2026-11-17",
+    "license": "ccbysa",
+    "pin": "",
+    "authors": "",
+    "author_image": "",
+    "tags": "IA,atelier,mediation",
+    "partners": "nantes-metropole",
+    "partners-names": "Nantes Métropole",
+    "partners-images": "/images/partners/nantes-metropole.png",
+    "references_catalog": "",
+    "reference-title": "",
+    "research_projects": "",
+    "research_projects_titles": "",
+    "quotes": ""
   }
 ]
